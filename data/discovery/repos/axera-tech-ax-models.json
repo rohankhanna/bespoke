@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:47.563619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of pre-compiled, state-of-the-art models in the AXera\u2018s format",
+    "fork": false,
+    "full_name": "AXERA-TECH/ax-models",
+    "html_url": "https://github.com/AXERA-TECH/ax-models",
+    "language": null,
+    "pushed_at": "2023-04-09T04:13:03Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-02-12T08:35:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

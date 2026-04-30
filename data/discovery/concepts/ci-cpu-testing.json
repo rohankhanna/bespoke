@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI CPU testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate-context",
+      "text": "This repository has been deprecated. Suggest to use edgeai-mmdetection in https://github.com/TexasInstruments/edgeai-tensorlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate-context",
+      "text": "CI CPU testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate",
+      "text": "CI CPU testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22416,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15038,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14077,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14077,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "lab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI CPU testing",
+  "concept_id": "ci-cpu-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI CPU testing",
+      "sense_id": "ci-cpu-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

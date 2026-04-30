@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jeffffffli/HybrIK",
-      "target": "mks0601/3dmppe_posenet_release",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jeffffffli/HybrIK",
@@ -72,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:49:27.880703+00:00",
+  "fetched_at": "2026-04-30T08:15:54.913423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,11 +103,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jeff-sjtu/res-loglikelihood-regression",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mks0601/3dmppe_posenet_release",
       "source_file": "README.md"
     }
   ],

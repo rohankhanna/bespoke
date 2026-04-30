@@ -226,6 +226,30 @@
       "source_repo": "vapor/redis",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/ignite-website",
+      "status": "candidate-context",
+      "text": "Apache Ignite Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-website",
+      "status": "candidate-context",
+      "text": "This repository hosts the source code of the Apache Ignite website deployed at https://ignite.apache.org."
     }
   ],
   "candidate_glosses": [
@@ -336,6 +360,18 @@
       "source_repo": "vapor/redis",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "Cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/ignite-website",
+      "status": "candidate",
+      "text": "This repository hosts the source code of the Apache Ignite website deployed at https://ignite.apache.org."
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +589,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vapor/redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/ignite-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

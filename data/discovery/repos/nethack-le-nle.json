@@ -1,0 +1,402 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.18.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "nethack/nethack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "ngoodger/nle-language-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "kngwyu/rogue-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NetHack-LE/nle",
+      "target": "maximecb/gym-minigrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "CMake Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "DoozyX/clang-format-lint-action@v0.18.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "pypa/cibuildwheel@v3.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "Test & deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_package.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_package.yml",
+      "source_repo": "NetHack-LE/nle",
+      "target": "Test nle PyPI package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:52.513903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12625
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3686
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 935
+    },
+    {
+      "path": ".github/workflows/lint_cc.yml",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/test_and_deploy.yml",
+      "size": 8088
+    },
+    {
+      "path": ".github/workflows/test_package.yml",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The NetHack Learning Environment",
+    "fork": true,
+    "full_name": "NetHack-LE/nle",
+    "html_url": "https://github.com/NetHack-LE/nle",
+    "language": "C",
+    "pushed_at": "2026-04-22T16:06:16Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-29T17:33:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kngwyu/rogue-gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximecb/gym-minigrid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nethack/nethack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ngoodger/nle-language-wrapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake Check"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Test & deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "term": "Test & deploy"
+    },
+    {
+      "context_snippet": "Test nle PyPI package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_package.yml",
+      "term": "Test nle PyPI package"
+    }
+  ]
+}

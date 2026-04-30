@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml"
+    },
+    {
+      "component": "py-actions/py-dependency-install@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions",
+      "target": "allenai/natural-instructions-expansion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions",
+      "target": "yizhongw/tk-instruct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/natural-instructions",
+      "target": "allenai/natural-instructions-v1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "allenai/natural-instructions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blank.yml",
+      "source_repo": "allenai/natural-instructions",
+      "target": "py-actions/py-dependency-install@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:54.578437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8800
+    },
+    {
+      "path": ".github/workflows/blank.yml",
+      "size": 1229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Expanding natural instructions ",
+    "fork": false,
+    "full_name": "allenai/natural-instructions",
+    "html_url": "https://github.com/allenai/natural-instructions",
+    "language": "Python",
+    "pushed_at": "2023-12-11T12:28:49Z",
+    "stargazers_count": 1044,
+    "topics": [],
+    "updated_at": "2026-04-29T16:37:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/natural-instructions-expansion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/natural-instructions-v1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yizhongw/tk-instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

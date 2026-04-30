@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "madsim-rs/rust-tokio-retry",
+      "target": "srijs/rust-tokio-retry",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:00.571811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1101
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extensible, asynchronous retry behaviours for futures/tokio",
+    "fork": true,
+    "full_name": "madsim-rs/rust-tokio-retry",
+    "html_url": "https://github.com/madsim-rs/rust-tokio-retry",
+    "language": null,
+    "pushed_at": "2022-08-22T05:02:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-15T04:49:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srijs/rust-tokio-retry",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

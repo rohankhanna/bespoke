@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build on various envs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build on various envs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28719,
+      "status": "candidate",
+      "text": "mud dauber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12330,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12330,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12330,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12330,
+      "status": "candidate",
+      "text": "bridged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build on various envs",
+      "sense_id": "build-on-various-envs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-on-various-envs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-on-various-envs",
+  "observation_id": "77a9f90f0edbf7a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build on various envs",
+  "source_context_snippet": "Build on various envs",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "handsontable/hyperformula",
+  "source_repo_description": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+}

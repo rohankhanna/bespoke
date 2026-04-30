@@ -333,6 +333,78 @@
       "source_repo": "ColdHeat/pystarlark",
       "status": "candidate-context",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "status": "candidate-context",
+      "text": "Mamba SSM architecture that supports training on variable-length sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate-context",
+      "text": "Pytorch library for fast transformer implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate-context",
+      "text": "build-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "Sandboxes for every agent. Embeddable, stateful, snapshots, and hardware isolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": "a little task queue for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "Build wheels"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +567,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate",
+      "text": "build-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate",
+      "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
       "status": "candidate",
       "text": "Build wheels"
     }
@@ -738,11 +846,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ColdHeat/pystarlark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zigzagcai/varlen_mamba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "idiap/fast-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/wheels.yaml",
+      "source_repo": "coleifer/huey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "pymupdf/PyMuPDF"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

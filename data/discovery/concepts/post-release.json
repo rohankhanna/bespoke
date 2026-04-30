@@ -142,6 +142,30 @@
       "source_repo": "killercup/cargo-edit",
       "status": "candidate-context",
       "text": "post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate-context",
+      "text": "Compile-time tests for types. Useful to make sure types don't regress into being overly-permissive as changes go in over time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate-context",
+      "text": "Post-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buildpacks/lifecycle",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Cloud Native Buildpacks lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildpacks/lifecycle",
+      "status": "candidate-context",
+      "text": "post-release"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +232,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "killercup/cargo-edit",
+      "status": "candidate",
+      "text": "post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate",
+      "text": "Post-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildpacks/lifecycle",
       "status": "candidate",
       "text": "post-release"
     }
@@ -331,11 +367,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "mmkal/expect-type"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

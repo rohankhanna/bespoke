@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Swagger API"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "Explore the charm of Vue composition API! Vite?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "Check Swagger API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate",
+      "text": "Check Swagger API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "shim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "snub"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Swagger API",
+  "concept_id": "check-swagger-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/health-check.yml",
+      "source_repo": "mutoe/vue3-realworld-example-app"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Swagger API",
+      "sense_id": "check-swagger-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

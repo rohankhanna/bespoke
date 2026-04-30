@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Viewer Build and Deploy."
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "A Unified Framework for Surface Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "Viewer Build and Deploy."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate",
+      "text": "Viewer Build and Deploy."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11955,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11955,
+      "status": "candidate",
+      "text": "rear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "forefront"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "audience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Viewer Build and Deploy.",
+  "concept_id": "viewer-build-and-deploy.",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Viewer Build and Deploy.",
+      "sense_id": "viewer-build-and-deploy.#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

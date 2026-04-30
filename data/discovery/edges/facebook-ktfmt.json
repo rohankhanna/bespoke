@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebook/ktfmt",
+      "target": "cortinico/ktfmt-gradle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebook/ktfmt",
+      "target": "macisamuele/language-formatters-pre-commit-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "facebook/ktfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "facebook/ktfmt",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "facebook/ktfmt",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_artifacts_on_release.yaml",
+      "source_repo": "facebook/ktfmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_artifacts_on_release.yaml",
+      "source_repo": "facebook/ktfmt",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_artifacts_on_release.yaml",
+      "source_repo": "facebook/ktfmt",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "facebook/ktfmt"
+}

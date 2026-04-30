@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3",
+      "target": "nvlabs/stylegan2-ada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan3",
+      "target": "nvlabs/stylegan3-detector",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "NVlabs/stylegan3"
+}

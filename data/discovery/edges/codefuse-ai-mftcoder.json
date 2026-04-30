@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "intelligent-machine-learning/dlrover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "customizable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-model-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-task-fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-task-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "user-friendly",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "codefuse-ai/MFTCoder"
+}

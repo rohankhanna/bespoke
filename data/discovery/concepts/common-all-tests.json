@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Common All Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "FlagScale is a large model toolkit based on open-sourced projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "Common All Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate",
+      "text": "Common All Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39824,
+      "status": "candidate",
+      "text": "universal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39423,
+      "status": "candidate",
+      "text": "test ban"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38132,
+      "status": "candidate",
+      "text": "collective unconscious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31347,
+      "status": "candidate",
+      "text": "assays"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Common All Tests",
+  "concept_id": "common-all-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common All Tests",
+      "sense_id": "common-all-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

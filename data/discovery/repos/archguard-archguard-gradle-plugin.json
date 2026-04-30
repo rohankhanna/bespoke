@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "cortinico/kotlin-gradle-plugin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "jlleitschuh/ktlint-gradle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "arturbosch/detekt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "cortinico/kotlin-android-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "Pre Merge Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "archguard/archguard-gradle-plugin",
+      "target": "Publish Plugin to Portal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:03.860433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5185
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/pre-merge.yaml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/publish-plugin.yaml",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Gradle plugin of Archguard scanner",
+    "fork": false,
+    "full_name": "archguard/archguard-gradle-plugin",
+    "html_url": "https://github.com/archguard/archguard-gradle-plugin",
+    "language": "Kotlin",
+    "pushed_at": "2022-12-27T01:09:10Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-01-31T14:41:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arturbosch/detekt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cortinico/kotlin-android-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cortinico/kotlin-gradle-plugin-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlleitschuh/ktlint-gradle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate Gradle Wrapper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Pre Merge Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "term": "Pre Merge Checks"
+    },
+    {
+      "context_snippet": "Publish Plugin to Portal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "term": "Publish Plugin to Portal"
+    }
+  ]
+}

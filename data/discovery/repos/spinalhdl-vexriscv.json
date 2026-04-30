@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "enjoy-digital/linux-on-litex-vexriscv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "dolu1990/freertos-riscv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "gnu-mcu-eclipse/org.eclipse.epp.packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "com-lihaoyi/mill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "Scala CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "riscv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "softcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "spinalhdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "verilog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "vhdl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:38.305488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66509
+    },
+    {
+      "path": ".github/workflows/scala.yml",
+      "size": 1610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A FPGA friendly 32 bit RISC-V CPU implementation",
+    "fork": false,
+    "full_name": "SpinalHDL/VexRiscv",
+    "html_url": "https://github.com/SpinalHDL/VexRiscv",
+    "language": "Assembly",
+    "pushed_at": "2026-02-11T09:06:28Z",
+    "stargazers_count": 3131,
+    "topics": [
+      "cpu",
+      "fpga",
+      "riscv",
+      "soc",
+      "softcore",
+      "spinalhdl",
+      "verilog",
+      "vhdl"
+    ],
+    "updated_at": "2026-04-30T05:48:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "com-lihaoyi/mill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolu1990/freertos-riscv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/linux-on-litex-vexriscv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnu-mcu-eclipse/org.eclipse.epp.packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Scala CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "term": "Scala CI"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riscv"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "softcore"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spinalhdl"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verilog"
+    },
+    {
+      "context_snippet": "- [Index](#index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vhdl"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "lmxyy/sige",
       "status": "candidate-context",
       "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for SDEdit: Image Synthesis and Editing with Stochastic Differential Equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlowAlign/FlowAlign",
+      "status": "candidate-context",
+      "text": "Official repository of FlowAlign"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowAlign/FlowAlign",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "lmxyy/sige",
       "status": "candidate",
       "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlowAlign/FlowAlign",
+      "status": "candidate",
+      "text": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lmxyy/sige"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FlowAlign/FlowAlign"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

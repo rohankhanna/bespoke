@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gonzales-pe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": " A Sass parser for PostCSS, using gonzales-pe. https://www.npmjs.com/package/postcss-sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gonzales-pe",
+  "concept_id": "gonzales-pe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AleshaOleg/postcss-sass"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gonzales-pe",
+      "sense_id": "gonzales-pe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

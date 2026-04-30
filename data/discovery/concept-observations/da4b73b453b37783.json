@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oneapi",
+      "sense_id": "oneapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oneapi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oneapi",
+  "observation_id": "da4b73b453b37783",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "oneapi",
+  "source_context_snippet": "This is the Intel staging area for llvm.org contributions and the home for",
+  "source_file": null,
+  "source_repo": "intel/llvm",
+  "source_repo_description": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects."
+}

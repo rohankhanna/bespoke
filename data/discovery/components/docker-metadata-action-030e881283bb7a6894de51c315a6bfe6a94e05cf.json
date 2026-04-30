@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -272,6 +272,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "conda-forge/conda-forge-feedstock-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ipinfo.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_images.yml",
+      "source_repo": "quickwit-oss/quickwit"
     }
   ]
 }

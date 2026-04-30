@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "r-lyeh/stdarc.c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game"
     }
   ],
   "term": "gamedev"

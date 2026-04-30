@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:04:01.733436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/metrics-discovery",
+    "html_url": "https://github.com/intel/metrics-discovery",
+    "language": "C++",
+    "pushed_at": "2026-03-16T11:55:08Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-03-07T15:13:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

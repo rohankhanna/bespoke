@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:04:56.994130+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NUglify is a HTML, JavaScript and CSS minification Library for .NET (fork of AjaxMin + new features)",
+    "fork": false,
+    "full_name": "trullock/NUglify",
+    "html_url": "https://github.com/trullock/NUglify",
+    "language": "C#",
+    "pushed_at": "2025-07-29T09:31:34Z",
+    "stargazers_count": 432,
+    "topics": [],
+    "updated_at": "2026-04-24T20:44:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

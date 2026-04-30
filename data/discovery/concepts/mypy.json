@@ -202,6 +202,30 @@
       "source_repo": "SkyworkAI/vllm",
       "status": "candidate-context",
       "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "CLI interfaces & config objects, from types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "Mypy"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "SkyworkAI/vllm",
       "status": "candidate",
       "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate",
+      "text": "Mypy"
     }
   ],
   "candidate_related_terms": [],
@@ -463,11 +499,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "kevinzakka/obj2mjcf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

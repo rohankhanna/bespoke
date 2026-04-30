@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro",
+      "target": "pixel-level-contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro",
+      "target": "pixpro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:11.966233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7688
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning, CVPR 2021",
+    "fork": false,
+    "full_name": "zdaxie/PixPro",
+    "html_url": "https://github.com/zdaxie/PixPro",
+    "language": "Python",
+    "pushed_at": "2021-10-24T22:56:47Z",
+    "stargazers_count": 361,
+    "topics": [
+      "contrastive-learning",
+      "cvpr2021",
+      "pixel-level-contrastive-learning",
+      "pixpro",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-04-11T07:38:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-level-contrastive-learning"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixpro"
+    },
+    {
+      "context_snippet": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

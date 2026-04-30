@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "lucasb-eyer/pydensecrf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "facebookresearch/dino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "co-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "dino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "part-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "semantic-correspondence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features",
+      "target": "vision-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:00:47.555918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for the paper \"Deep ViT Features as Dense Visual Descriptors\".",
+    "fork": false,
+    "full_name": "ShirAmir/dino-vit-features",
+    "html_url": "https://github.com/ShirAmir/dino-vit-features",
+    "language": "Python",
+    "pushed_at": "2022-09-09T17:12:54Z",
+    "stargazers_count": 467,
+    "topics": [
+      "co-segmentation",
+      "computer-vision",
+      "deep-learning",
+      "dino",
+      "part-segmentation",
+      "pytorch",
+      "semantic-correspondence",
+      "vision-transformers"
+    ],
+    "updated_at": "2026-04-29T06:39:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasb-eyer/pydensecrf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co-segmentation"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dino"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "part-segmentation"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-correspondence"
+    },
+    {
+      "context_snippet": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformers"
+    }
+  ]
+}

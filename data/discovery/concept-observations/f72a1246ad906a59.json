@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TuGraph: A High Performance Graph Database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Pre Close"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Pre Close"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34457,
+      "status": "candidate",
+      "text": "ruskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18161,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18151,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18151,
+      "status": "candidate",
+      "text": "debate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18151,
+      "status": "candidate",
+      "text": "toss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Pre Close",
+      "sense_id": "issue-pre-close#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-pre-close",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-pre-close",
+  "observation_id": "f72a1246ad906a59",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Issue Pre Close",
+  "source_context_snippet": "Issue Pre Close",
+  "source_file": ".github/workflows/issue_pre_close.yml",
+  "source_repo": "TuGraph-family/tugraph-db",
+  "source_repo_description": "TuGraph: A High Performance Graph Database."
+}

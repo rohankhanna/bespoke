@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "mpi-is/mesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "human",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior",
+      "target": "prior",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:52.787821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6930
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "staging",
+    "description": "VPoser: Variational Human Pose Prior",
+    "fork": false,
+    "full_name": "nghorbani/human_body_prior",
+    "html_url": "https://github.com/nghorbani/human_body_prior",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-17T21:10:23Z",
+    "stargazers_count": 967,
+    "topics": [
+      "human",
+      "motion",
+      "pose",
+      "pose-estimation",
+      "prior",
+      "vae"
+    ],
+    "updated_at": "2026-04-16T07:25:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpi-is/mesh",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human"
+    },
+    {
+      "context_snippet": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion"
+    },
+    {
+      "context_snippet": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose"
+    },
+    {
+      "context_snippet": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prior"
+    }
+  ]
+}

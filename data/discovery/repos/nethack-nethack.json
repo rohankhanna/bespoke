@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NetHack/NetHack",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NetHack/NetHack",
+      "target": "roguelike",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:35.612489+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "NetHack-3.7",
+    "description": "Official NetHack Git Repository",
+    "fork": false,
+    "full_name": "NetHack/NetHack",
+    "html_url": "https://github.com/NetHack/NetHack",
+    "language": "C",
+    "pushed_at": "2026-04-30T09:37:16Z",
+    "stargazers_count": 3551,
+    "topics": [
+      "c",
+      "game",
+      "roguelike"
+    ],
+    "updated_at": "2026-04-30T09:37:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official NetHack Git Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "Official NetHack Git Repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roguelike"
+    }
+  ]
+}

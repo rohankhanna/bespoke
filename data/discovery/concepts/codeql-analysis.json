@@ -3,7 +3,8 @@
     "CodeQL Analysis",
     "CodeQL analysis",
     "codeql-analysis",
-    "Codeql analysis"
+    "Codeql analysis",
+    "codeql analysis"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -232,6 +233,72 @@
       "source_repo": "ImageMagick/ImageMagick",
       "status": "candidate-context",
       "text": "Codeql analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "A project for supporting API Endpoints in ASP.NET Core web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-operations-java",
+      "status": "candidate-context",
+      "text": "\"CodeQL Analysis\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Python API and SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/binskim",
+      "status": "candidate-context",
+      "text": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/binskim",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-python",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-python",
+      "status": "candidate-context",
+      "text": "CodeQL analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "The .NET library for ImageMagick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "codeql analysis"
     }
   ],
   "candidate_glosses": [
@@ -348,6 +415,42 @@
       "source_repo": "ImageMagick/ImageMagick",
       "status": "candidate",
       "text": "Codeql analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-operations-java",
+      "status": "candidate",
+      "text": "\"CodeQL Analysis\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/binskim",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-python",
+      "status": "candidate",
+      "text": "CodeQL analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate",
+      "text": "codeql analysis"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +626,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleCloudPlatform/opentelemetry-operations-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/binskim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/setup-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dlemstra/Magick.NET"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

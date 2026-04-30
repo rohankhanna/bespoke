@@ -84,7 +84,7 @@
   "normalized_form": "sync-labels",
   "observation_id": "ffc5958621355028",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Sync labels",
   "source_context_snippet": "Sync labels",
   "source_file": ".github/workflows/labels.yml",

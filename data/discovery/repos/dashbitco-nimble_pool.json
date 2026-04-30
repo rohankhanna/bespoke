@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "dashbitco/nimble_options",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "dashbitco/nimble_csv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "dashbitco/nimble_ownership",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "dashbitco/nimble_parsec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_pool",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:06.843896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10680
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tiny resource-pool implementation for Elixir",
+    "fork": false,
+    "full_name": "dashbitco/nimble_pool",
+    "html_url": "https://github.com/dashbitco/nimble_pool",
+    "language": "Elixir",
+    "pushed_at": "2026-03-21T23:15:20Z",
+    "stargazers_count": 388,
+    "topics": [],
+    "updated_at": "2026-04-30T05:12:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_csv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_options",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_ownership",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/nimble_parsec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

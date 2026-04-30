@@ -103,6 +103,18 @@
       "source_repo": "jawah/charset_normalizer",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Charset Detection, for Everyone \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Rust - port of Python version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "jawah/charset_normalizer",
       "status": "candidate",
       "text": "<h1 align=\"center\">Charset Detection, for Everyone \ud83d\udc4b</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate",
+      "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
     }
   ],
   "candidate_related_terms": [
@@ -270,11 +288,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jawah/charset_normalizer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

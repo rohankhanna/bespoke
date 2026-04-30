@@ -81,6 +81,18 @@
       "source_repo": "caketop/python-starlark-go",
       "status": "candidate-context",
       "text": "Bump version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "'bump-version'"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "caketop/python-starlark-go",
       "status": "candidate",
       "text": "Bump version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "'bump-version'"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +300,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

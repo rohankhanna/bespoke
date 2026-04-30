@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The state-of-the-art image restoration model without nonlinear activation functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018043,
+      "status": "candidate",
+      "text": "dolbyize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018042,
+      "status": "candidate",
+      "text": "dehaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018041,
+      "status": "candidate",
+      "text": "decolorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018040,
+      "status": "candidate",
+      "text": "undistort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018039,
+      "status": "candidate",
+      "text": "decolourize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "denoise",
+      "sense_id": "denoise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "denoise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "denoise",
+  "observation_id": "c2198c941797155c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "denoise",
+  "source_context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+  "source_file": null,
+  "source_repo": "megvii-research/NAFNet",
+  "source_repo_description": "The state-of-the-art image restoration model without nonlinear activation functions."
+}

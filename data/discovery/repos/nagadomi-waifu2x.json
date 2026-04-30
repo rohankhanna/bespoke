@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nagadomi/waifu2x",
+      "target": "nagadomi/nunif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nagadomi/waifu2x",
+      "target": "lltcggie/waifu2x-caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nagadomi/waifu2x",
+      "target": "deadsix27/waifu2x-converter-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nagadomi/waifu2x",
+      "target": "kernelsauce/turbo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nagadomi/waifu2x",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nagadomi/waifu2x",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nagadomi/waifu2x",
+      "target": "waifu2x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:35.377679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8273
+    },
+    {
+      "path": "Dockerfile",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image Super-Resolution for Anime-Style Art",
+    "fork": false,
+    "full_name": "nagadomi/waifu2x",
+    "html_url": "https://github.com/nagadomi/waifu2x",
+    "language": "Lua",
+    "pushed_at": "2023-05-04T00:50:48Z",
+    "stargazers_count": 28183,
+    "topics": [
+      "super-resolution",
+      "torch",
+      "waifu2x"
+    ],
+    "updated_at": "2026-04-30T03:54:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deadsix27/waifu2x-converter-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kernelsauce/turbo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lltcggie/waifu2x-caffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nagadomi/nunif",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waifu2x"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RVOS: End-to-End Recurrent Network for Video Object Segmentation (CVPR 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "See our project website [here](https://imatge-upc.github.io/rvos/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "See our project website [here](https://imatge-upc.github.io/rvos/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-processing",
+      "sense_id": "video-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-processing",
+  "observation_id": "df9e38ef242dad50",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "video-processing",
+  "source_context_snippet": "See our project website [here](https://imatge-upc.github.io/rvos/).",
+  "source_file": null,
+  "source_repo": "imatge-upc/rvos",
+  "source_repo_description": "RVOS: End-to-End Recurrent Network for Video Object Segmentation (CVPR 2019)"
+}

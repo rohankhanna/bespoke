@@ -79,6 +79,30 @@
       "source_repo": "Jille/raftadmin",
       "status": "candidate-context",
       "text": "RaftAdmin is a gRPC service to invoke methods on https://godoc.org/github.com/hashicorp/raft#Raft. It only works with [Hashicorp's Raft implementation](https://github.com/hashicorp/raft)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidu/braft",
+      "status": "candidate-context",
+      "text": "An industrial-grade C++ implementation of RAFT consensus algorithm based on brpc,  widely used inside Baidu to build highly-available distributed systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/braft",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "Extract video features from raw videos using multiple GPUs. We support RAFT flow frames as well as S3D, I3D, R(2+1)D, VGGish, CLIP, and TIMM models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "Jille/raftadmin",
       "status": "candidate",
       "text": "RaftAdmin is a gRPC service to invoke methods on https://godoc.org/github.com/hashicorp/raft#Raft. It only works with [Hashicorp's Raft implementation](https://github.com/hashicorp/raft)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/braft",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +274,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Jille/raftadmin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "baidu/braft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/video_features"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "openucx/xpmem",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:12.455423+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux Cross-Memory Attach",
+    "fork": true,
+    "full_name": "openucx/xpmem",
+    "html_url": "https://github.com/openucx/xpmem",
+    "language": "C++",
+    "pushed_at": "2026-04-21T10:15:45Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-21T10:15:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

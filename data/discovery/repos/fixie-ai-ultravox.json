@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "extractions/setup-just@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "py-cov-action/python-coverage-comment-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "0nutation/speechgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "lebrice/simpleparsing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "fixie-ai/evals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "extractions/setup-just@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "py-cov-action/python-coverage-comment-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fixie-ai/ultravox",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fixie-ai/ultravox",
+      "target": "speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:46.142292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9691
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2740
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast multimodal LLM for real-time voice",
+    "fork": false,
+    "full_name": "fixie-ai/ultravox",
+    "html_url": "https://github.com/fixie-ai/ultravox",
+    "language": "Python",
+    "pushed_at": "2025-12-12T18:09:40Z",
+    "stargazers_count": 4408,
+    "topics": [
+      "ai",
+      "llm",
+      "slm",
+      "speech"
+    ],
+    "updated_at": "2026-04-29T20:05:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0nutation/speechgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lebrice/simpleparsing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fixie-ai/evals",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    }
+  ]
+}

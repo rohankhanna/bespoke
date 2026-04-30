@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "target": "xmfbit/captcha-recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmfbit/warpctc-caffe",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmfbit/warpctc-caffe",
+      "target": "captcha-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmfbit/warpctc-caffe",
+      "target": "ctc-loss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:28.950449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Combine Baidu Research warpctc with Caffe",
+    "fork": false,
+    "full_name": "xmfbit/warpctc-caffe",
+    "html_url": "https://github.com/xmfbit/warpctc-caffe",
+    "language": "C++",
+    "pushed_at": "2021-11-25T06:04:17Z",
+    "stargazers_count": 96,
+    "topics": [
+      "caffe",
+      "captcha-image",
+      "ctc-loss"
+    ],
+    "updated_at": "2026-01-22T04:57:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xmfbit/captcha-recognition",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captcha-image"
+    },
+    {
+      "context_snippet": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctc-loss"
+    }
+  ]
+}

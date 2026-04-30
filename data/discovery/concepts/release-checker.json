@@ -109,6 +109,18 @@
       "source_repo": "ipfs/go-log",
       "status": "candidate-context",
       "text": "Release Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-graphsync",
+      "status": "candidate-context",
+      "text": "Initial Implementation Of GraphSync Wire Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-graphsync",
+      "status": "candidate-context",
+      "text": "Release Checker"
     }
   ],
   "candidate_glosses": [
@@ -163,6 +175,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/go-log",
+      "status": "candidate",
+      "text": "Release Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-graphsync",
       "status": "candidate",
       "text": "Release Checker"
     }
@@ -262,11 +280,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-check.yml",
       "source_repo": "ipfs/go-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/go-graphsync"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

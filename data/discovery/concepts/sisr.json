@@ -19,6 +19,18 @@
       "source_repo": "cszn/KAIR",
       "status": "candidate-context",
       "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "Learning a Single Convolutional Super-Resolution Network for Multiple Degradations (CVPR, 2018) (Matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cszn/KAIR",
       "status": "candidate",
       "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cszn/KAIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cszn/SRMD"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

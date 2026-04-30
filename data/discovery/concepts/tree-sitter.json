@@ -145,6 +145,18 @@
       "source_repo": "tree-sitter/tree-sitter-javascript",
       "status": "candidate-context",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for Tree-Sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +231,12 @@
       "source_repo": "tree-sitter/tree-sitter-javascript",
       "status": "candidate",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +316,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tree-sitter/tree-sitter-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/tree-sitter-rescript"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

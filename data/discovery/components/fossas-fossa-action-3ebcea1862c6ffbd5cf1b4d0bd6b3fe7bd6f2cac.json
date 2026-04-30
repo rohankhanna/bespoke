@@ -1,12 +1,17 @@
 {
   "component": "fossas/fossa-action@3ebcea1862c6ffbd5cf1b4d0bd6b3fe7bd6f2cac",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-js-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
     }
   ]
 }

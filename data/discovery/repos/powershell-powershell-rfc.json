@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:26:59.372129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RFC (Request for Comments) documents for community feedback on design changes and improvements to PowerShell ecosystem",
+    "fork": false,
+    "full_name": "PowerShell/PowerShell-RFC",
+    "html_url": "https://github.com/PowerShell/PowerShell-RFC",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-26T22:08:28Z",
+    "stargazers_count": 466,
+    "topics": [],
+    "updated_at": "2026-04-26T22:33:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

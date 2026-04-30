@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An alternative ggez implementation on top of miniquad."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030076,
+      "status": "candidate",
+      "text": "spunky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029045,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023723,
+      "status": "candidate",
+      "text": "mettlesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023718,
+      "status": "candidate",
+      "text": "courageous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022694,
+      "status": "candidate",
+      "text": "brave"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "game",
+      "sense_id": "game#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "spunky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "brave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "gritty"
+    }
+  ],
+  "concept_id": "game",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "game",
+  "observation_id": "8eb2120771ddd473",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "game",
+  "source_context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+  "source_file": null,
+  "source_repo": "ggez/good-web-game",
+  "source_repo_description": "An alternative ggez implementation on top of miniquad."
+}

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041192,
+      "status": "candidate",
+      "text": "education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035049,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902684,
+      "status": "candidate",
+      "text": "grooming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815887,
+      "status": "candidate",
+      "text": "breeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045460,
+      "status": "candidate",
+      "text": "schooling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "training",
+      "sense_id": "training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8029,
+      "status": "candidate",
+      "text": "grooming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6049,
+      "status": "candidate",
+      "text": "education"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "breeding"
+    }
+  ],
+  "concept_id": "training",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "training",
+  "observation_id": "57fef8d264046b0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "training",
+  "source_context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+  "source_file": null,
+  "source_repo": "hassony2/obman_train",
+  "source_repo_description": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images"
+}

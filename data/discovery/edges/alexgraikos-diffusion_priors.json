@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "yandex-research/ddpm-segmentation.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "hawaii0821/faceattr-analysis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "chaitjo/learning-tsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "openai/guided-diffusion.",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "AlexGraikos/diffusion_priors"
+}

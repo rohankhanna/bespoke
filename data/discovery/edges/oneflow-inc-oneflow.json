@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "oneflow-inc/docker-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "oneflow-inc/conda-env",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "oneflow-inc/libai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "oneflow-inc/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Canary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community_release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Community Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_merge.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/update-benchmark-history@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_merge.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Update Benchmark History",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Check PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/priv_release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Priv Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/cache-complete/matrix/build@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "pierotofy/set-swap-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Simple CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/cache-complete/matrix/build@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/cache-complete@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/digest/upload@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/cache-complete/matrix/test@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/digest/download@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/master-address@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Oneflow-Inc/get-oneflow/pytest-benchmark@ci-test-with-cu118",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "Build and Test CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "Oneflow-Inc/oneflow"
+}

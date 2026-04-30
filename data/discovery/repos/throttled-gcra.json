@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "throttled/gcra",
+      "target": "barzahlen/gcra-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "throttled/gcra",
+      "target": "brandur/redis-cell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "throttled/gcra",
+      "target": "rwz/redis-gcra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "throttled/gcra",
+      "target": "zhuozhuocrayon/throttled-py",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:22:34.292717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "throttled/gcra",
+    "html_url": "https://github.com/throttled/gcra",
+    "language": null,
+    "pushed_at": "2025-04-12T17:03:26Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-15T14:25:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barzahlen/gcra-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brandur/redis-cell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwz/redis-gcra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuozhuocrayon/throttled-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

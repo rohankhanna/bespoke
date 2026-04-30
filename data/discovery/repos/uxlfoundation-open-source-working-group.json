@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "slackapi/slack-github-action@v1.25.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-pr.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.25.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "target": "uxlfoundation/onemath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "target": "uxlfoundation/onedpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "target": "slackapi/slack-github-action@v1.25.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "target": "Slack PR Notification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:54.324500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3630
+    },
+    {
+      "path": ".github/workflows/slack-pr.yaml",
+      "size": 1462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The UXL Foundation Open Source Working Group",
+    "fork": false,
+    "full_name": "uxlfoundation/open-source-working-group",
+    "html_url": "https://github.com/uxlfoundation/open-source-working-group",
+    "language": null,
+    "pushed_at": "2026-04-08T22:16:48Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-08T22:16:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uxlfoundation/onedpl",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uxlfoundation/onemath",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Slack PR Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "term": "Slack PR Notification"
+    }
+  ]
+}

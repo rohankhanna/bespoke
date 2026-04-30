@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "camdencheek/tree-sitter-gomod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "tree-sitter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "camdencheek/tree-sitter-go-mod",
+      "target": "tree-sitter/tree-sitter-gomod",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "camdencheek/tree-sitter-go-mod"
+}

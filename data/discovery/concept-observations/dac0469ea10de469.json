@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official registry of general Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AutoMerge (staging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AutoMerge (staging)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AutoMerge (staging)",
+      "sense_id": "automerge-staging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automerge-staging",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automerge-staging",
+  "observation_id": "dac0469ea10de469",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "AutoMerge (staging)",
+  "source_context_snippet": "AutoMerge (staging)",
+  "source_file": ".github/workflows/automerge_staging.yml",
+  "source_repo": "JuliaRegistries/General",
+  "source_repo_description": "The official registry of general Julia packages"
+}

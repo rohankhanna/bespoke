@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/R1-Searcher-plus",
+      "target": "rucaibox/simpledeepsearcher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:39.553919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3971
+    },
+    {
+      "path": "requirements.txt",
+      "size": 249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R1-Searcher++: Incentivizing the Dynamic Knowledge Acquisition of LLMs via Reinforcement Learning",
+    "fork": false,
+    "full_name": "RUCAIBox/R1-Searcher-plus",
+    "html_url": "https://github.com/RUCAIBox/R1-Searcher-plus",
+    "language": "Python",
+    "pushed_at": "2025-05-25T16:33:57Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-19T15:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/simpledeepsearcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

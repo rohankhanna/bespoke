@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToTheBeginning/PuLID",
+      "target": "bytedance/dreamo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToTheBeginning/PuLID",
+      "target": "camenduru/pulid-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToTheBeginning/PuLID",
+      "target": "cubiq/pulid_comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ToTheBeginning/PuLID",
+      "target": "instantx-research/regional-prompting-flux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:06.399817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9317
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 742
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Official code for PuLID: Pure and Lightning ID Customization via Contrastive Alignment",
+    "fork": false,
+    "full_name": "ToTheBeginning/PuLID",
+    "html_url": "https://github.com/ToTheBeginning/PuLID",
+    "language": "Python",
+    "pushed_at": "2025-07-31T18:08:38Z",
+    "stargazers_count": 3537,
+    "topics": [],
+    "updated_at": "2026-04-29T23:53:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/dreamo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/pulid-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cubiq/pulid_comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantx-research/regional-prompting-flux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

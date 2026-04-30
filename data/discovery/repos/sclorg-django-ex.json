@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:31:11.148403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Django Example",
+    "fork": false,
+    "full_name": "sclorg/django-ex",
+    "html_url": "https://github.com/sclorg/django-ex",
+    "language": null,
+    "pushed_at": "2025-10-09T12:15:15Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2026-04-25T15:46:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Admonitions Generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "Test Admonitions Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "Test Admonitions Generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22364,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22364,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "instill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14318,
+      "status": "candidate",
+      "text": "earns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14318,
+      "status": "candidate",
+      "text": "reprimand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Admonitions Generation",
+  "concept_id": "test-admonitions-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs-admonitions.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Admonitions Generation",
+      "sense_id": "test-admonitions-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

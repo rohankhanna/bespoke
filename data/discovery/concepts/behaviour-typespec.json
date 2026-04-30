@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "behaviour-typespec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "behaviour-typespec",
+  "concept_id": "behaviour-typespec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "msz/hammox"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "behaviour-typespec",
+      "sense_id": "behaviour-typespec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

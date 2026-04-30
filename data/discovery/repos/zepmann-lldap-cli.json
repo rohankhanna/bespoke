@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:24:49.578406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A command line tool for managing LLDAP.",
+    "fork": false,
+    "full_name": "Zepmann/lldap-cli",
+    "html_url": "https://github.com/Zepmann/lldap-cli",
+    "language": "Shell",
+    "pushed_at": "2025-01-19T11:58:25Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-03-11T02:07:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "admin-on-rest",
+      "sense_id": "admin-on-rest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "admin-on-rest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "admin-on-rest",
+  "observation_id": "812eedeb08c38ca8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "admin-on-rest",
+  "source_context_snippet": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026",
+  "source_file": null,
+  "source_repo": "marmelab/react-admin",
+  "source_repo_description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+}

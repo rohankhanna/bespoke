@@ -49,6 +49,42 @@
       "source_repo": "ipdxco/github-as-code",
       "status": "candidate-context",
       "text": "Clean"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate-context",
+      "text": "Simple and secure artifact signing for sbt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +109,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipdxco/github-as-code",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate",
+      "text": "Clean"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
       "status": "candidate",
       "text": "Clean"
     }
@@ -178,11 +244,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/clean.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "jodersky/sbt-gpg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "filecoin-project/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipfs-examples/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipfs-shipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipld/github-mgmt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

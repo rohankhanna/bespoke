@@ -1,0 +1,17 @@
+{
+  "component": "al-cheb/configure-pagefile-action@9b6da52fb72a3c6147c1aad2df22d8d905681adc",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
+    }
+  ]
+}

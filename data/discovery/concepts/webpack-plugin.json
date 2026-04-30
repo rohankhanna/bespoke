@@ -31,6 +31,18 @@
       "source_repo": "radswiat/webpack-auto-inject-version",
       "status": "candidate-context",
       "text": "Adds version from package.json into every single file as top comment block."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Analyze bundle stats(bundle size, assets, modules, packages) and compare the results between different builds. Support for webpack, rspack, vite, rolldown and rollup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "radswiat/webpack-auto-inject-version",
       "status": "candidate",
       "text": "Adds version from package.json into every single file as top comment block."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "radswiat/webpack-auto-inject-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "relative-ci/bundle-stats"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

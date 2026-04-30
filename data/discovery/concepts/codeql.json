@@ -5609,6 +5609,630 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/magika",
+      "status": "candidate-context",
+      "text": "Fast and accurate AI powered file content types detection "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/magika",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ittapi",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ittapi",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "A Web Service Discovery host daemon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos library for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "A Zstd Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "Validate your Swagger JSON/YAML today!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alguerocode/validator.js",
+      "status": "candidate-context",
+      "text": "String validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alguerocode/validator.js",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate-context",
+      "text": "This repository has been deprecated. Suggest to use edgeai-mmdetection in https://github.com/TexasInstruments/edgeai-tensorlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaorahi/lizgoban",
+      "status": "candidate-context",
+      "text": "Leela Zero & KataGo visualizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaorahi/lizgoban",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrissimpkins/fontname.py",
+      "status": "candidate-context",
+      "text": "Font renaming script for OpenType tables in CFF (.otf) and OT TrueType (.ttf) fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrissimpkins/fontname.py",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-smoke-tests",
+      "status": "candidate-context",
+      "text": "Smoke tests for CloudFoundry that are safe to run in a production environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-smoke-tests",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate-context",
+      "text": "Collection of JUnit example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "Bare libuv bindings for lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "Sigstore OIDC PKI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Analyze bundle stats(bundle size, assets, modules, packages) and compare the results between different builds. Support for webpack, rspack, vite, rolldown and rollup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate-context",
+      "text": "Universal Utilities for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/test-retry-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Gradle plugin to retry tests that have failed to mitigate test flakiness."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/test-retry-gradle-plugin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "tools for sandboxing your dependency graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "Explore the charm of Vue composition API! Vite?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "\"npm init\" script to create a new Octokit JS module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travi/octokit-auth-netrc",
+      "status": "candidate-context",
+      "text": "netrc auth plugin for Octokit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travi/octokit-auth-netrc",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "status": "candidate-context",
+      "text": "A storage check for the kuberhealthy project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "DRA Driver for NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 implementation for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "Graphormer is a general-purpose deep learning backbone for molecular modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate-context",
+      "text": "A Python framework for GPU-accelerated simulation, robotics, and machine learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "Swagger Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fannheyward/coc-sql",
+      "status": "candidate-context",
+      "text": "SQL extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-sql",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for OceanBase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "A native Kerberos client implementation for Python on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate-context",
+      "text": "Query Structure Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate-context",
+      "text": "CodeQL"
     }
   ],
   "candidate_glosses": [
@@ -8437,6 +9061,324 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/magika",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ittapi",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alguerocode/validator.js",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaorahi/lizgoban",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrissimpkins/fontname.py",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-smoke-tests",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/test-retry-gradle-plugin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate",
+      "text": "'CodeQL'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travi/octokit-auth-netrc",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-sql",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate",
+      "text": "CodeQL"
     }
   ],
   "candidate_related_terms": [],
@@ -11924,11 +12866,485 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "google/magika"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/ittapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "christgau/wsdd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "alguerocode/validator.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "envoyproxy/gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kaorahi/lizgoban"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "mozilla/hawk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "spacemeshos/smapp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cloudfoundry/cf-smoke-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "luvit/luv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "YosysHQ/yosys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "relative-ci/bundle-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bytedance/gopkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cloudwego/netpoll-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "erigontech/silkpre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "transparency-dev/armored-witness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/test-retry-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LavaMoat/LavaMoat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "mutoe/vue3-realworld-example-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "travi/octokit-auth-netrc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Graphormer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/warp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "fannheyward/coc-sql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/ob-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chequer-io/qsi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

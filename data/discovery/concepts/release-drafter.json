@@ -482,6 +482,42 @@
       "source_repo": "redis/rueidis",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NetHack-LE/nle",
+      "status": "candidate-context",
+      "text": "The NetHack Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NetHack-LE/nle",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-ci-release",
+      "status": "candidate-context",
+      "text": "sbt plugin to automate Sonatype releases from GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-ci-release",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Erlang & Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -722,6 +758,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/rueidis",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NetHack-LE/nle",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-ci-release",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -1139,11 +1193,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "NetHack-LE/nle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-ci-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

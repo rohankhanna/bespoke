@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:05:34.894471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The codes for TCFormer in paper: Not All Tokens Are Equal: Human-centric Visual Analysis via Token Clustering Transformer",
+    "fork": false,
+    "full_name": "zengwang430521/TCFormer",
+    "html_url": "https://github.com/zengwang430521/TCFormer",
+    "language": "Python",
+    "pushed_at": "2024-08-03T03:48:43Z",
+    "stargazers_count": 243,
+    "topics": [],
+    "updated_at": "2026-01-10T14:57:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

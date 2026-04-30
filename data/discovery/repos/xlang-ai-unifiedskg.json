@@ -1,0 +1,216 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "hkunlp/unifiedskg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "data-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "fact-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "huggingface-datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "huggingface-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "multi-task-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "prompt-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "semantic-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "structured-knowledge-grounding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "target": "text-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:32.954283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19297
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2022] Unifying and multi-tasking structured knowledge grounding with language models",
+    "fork": false,
+    "full_name": "xlang-ai/UnifiedSKG",
+    "html_url": "https://github.com/xlang-ai/UnifiedSKG",
+    "language": "Python",
+    "pushed_at": "2023-08-22T07:18:00Z",
+    "stargazers_count": 567,
+    "topics": [
+      "data-to-text",
+      "fact-verification",
+      "huggingface-datasets",
+      "huggingface-transformers",
+      "multi-task-learning",
+      "natural-language-processing",
+      "nlp",
+      "prompt-learning",
+      "pytorch",
+      "question-answering",
+      "semantic-parsing",
+      "structured-knowledge-grounding",
+      "text-generation"
+    ],
+    "updated_at": "2026-04-16T14:52:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkunlp/unifiedskg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-to-text"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fact-verification"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-datasets"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-transformers"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-learning"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-learning"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-parsing"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-knowledge-grounding"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026617,
+      "status": "candidate",
+      "text": "genetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026661,
+      "status": "candidate",
+      "text": "genes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026661,
+      "status": "candidate",
+      "text": "physiol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026659,
+      "status": "candidate",
+      "text": "genometrics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026658,
+      "status": "candidate",
+      "text": "mitogenomics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genomics",
+      "sense_id": "genomics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "genomics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "genomics",
+  "observation_id": "2110bb3fe59a4dec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "genomics",
+  "source_context_snippet": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg",
+  "source_file": null,
+  "source_repo": "galaxyproject/galaxy",
+  "source_repo_description": "Data intensive science for everyone."
+}

@@ -43,6 +43,30 @@
       "source_repo": "WebCu/gatsby-material-kit-react",
       "status": "candidate-context",
       "text": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react?ref=badge_shield)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "React-based framework with performance, scalability, and security built in."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "WebCu/gatsby-material-kit-react",
       "status": "candidate",
       "text": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react?ref=badge_shield)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "WebCu/gatsby-material-kit-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/rocketdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gatsbyjs/gatsby"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

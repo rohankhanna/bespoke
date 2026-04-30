@@ -1,0 +1,12 @@
+{
+  "component": "stefanzweifel/changelog-updater-action@a938690fad7edf25368f37e43a1ed1b34303eb36",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov"
+    }
+  ]
+}

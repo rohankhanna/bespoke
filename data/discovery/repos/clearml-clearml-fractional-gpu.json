@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "allegroai/clearml-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "allegroai/clearml-fractional-gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "fractional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "fractional-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "target": "mlops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:03.656968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11523
+    },
+    {
+      "path": ".github/workflows/git_issue_to_pylon.yml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ClearML Fractional GPU - Run multiple containers on the same GPU with driver level memory limitation \u2728 and compute time-slicing",
+    "fork": false,
+    "full_name": "clearml/clearml-fractional-gpu",
+    "html_url": "https://github.com/clearml/clearml-fractional-gpu",
+    "language": null,
+    "pushed_at": "2026-03-12T14:25:34Z",
+    "stargazers_count": 91,
+    "topics": [
+      "ai",
+      "fractional",
+      "fractional-gpu",
+      "genai",
+      "gpu",
+      "llmops",
+      "mlops"
+    ],
+    "updated_at": "2026-04-22T18:30:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/clearml-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/clearml-fractional-gpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fractional"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fractional-gpu"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "open-source-background-removal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate-context",
+      "text": "Image Background Removal Toolkit - Open Source and API Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate-context",
+      "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate",
+      "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "open-source-background-removal",
+  "concept_id": "open-source-background-removal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "withoutbg/withoutbg"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "open-source-background-removal",
+      "sense_id": "open-source-background-removal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

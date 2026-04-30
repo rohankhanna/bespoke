@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tlambert03/setup-qt-libs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyqode/pyqode.qt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "spyder-ide/spyder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "glue-viz/qt-helpers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "git-cola/git-cola",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "tlambert03/setup-qt-libs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyside",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyside2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "pyside6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "qt-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "qtpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy",
+      "target": "spyder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:38.615565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11951
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3363
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7553
+    },
+    {
+      "path": ".github/workflows/test.sh",
+      "size": 3668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides an uniform layer to support PyQt5, PySide2, PyQt6, PySide6 with a single codebase",
+    "fork": false,
+    "full_name": "spyder-ide/qtpy",
+    "html_url": "https://github.com/spyder-ide/qtpy",
+    "language": "Python",
+    "pushed_at": "2026-04-12T05:22:34Z",
+    "stargazers_count": 1090,
+    "topics": [
+      "closember",
+      "pyqt",
+      "pyqt6",
+      "pyside",
+      "pyside2",
+      "pyside6",
+      "python",
+      "qt-gui",
+      "qtpy",
+      "spyder"
+    ],
+    "updated_at": "2026-04-26T15:10:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git-cola/git-cola",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glue-viz/qt-helpers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyqode/pyqode.qt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spyder-ide/spyder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closember"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt6"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside2"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside6"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qt-gui"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qtpy"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spyder"
+    }
+  ]
+}

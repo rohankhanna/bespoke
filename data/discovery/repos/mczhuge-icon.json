@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mczhuge/ICON",
+      "target": "hvision-nku/camoformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON",
+      "target": "codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON",
+      "target": "mlp-mixer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON",
+      "target": "saliency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:44.468884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(TPAMI2022) Salient Object Detection via Integrity Learning.",
+    "fork": false,
+    "full_name": "mczhuge/ICON",
+    "html_url": "https://github.com/mczhuge/ICON",
+    "language": "Python",
+    "pushed_at": "2023-05-01T06:31:57Z",
+    "stargazers_count": 173,
+    "topics": [
+      "codebase",
+      "deep-learning",
+      "mlp-mixer",
+      "saliency",
+      "sod",
+      "transformer"
+    ],
+    "updated_at": "2026-04-22T14:49:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hvision-nku/camoformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codebase"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlp-mixer"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

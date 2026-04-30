@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "connor14/abundantmusic.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "eonic/proteancms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "chequer-io/qsi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "darcythomas/zxcvbn.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "adapters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "chakracore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "javascript-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jering-javascript-nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jurassic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "microsoft-clearscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "msie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "nil-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "vroomjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "yantrajs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "Taritsyn/JavaScriptEngineSwitcher"
+}

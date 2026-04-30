@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "release-rules"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate-context",
+      "text": "Bazel's Continuous Integration Setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate-context",
+      "text": "release-rules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate",
+      "text": "release-rules"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "release-rules",
+  "concept_id": "release-rules",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-rules.yml",
+      "source_repo": "bazelbuild/continuous-integration"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-rules",
+      "sense_id": "release-rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

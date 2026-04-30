@@ -1595,6 +1595,144 @@
       "source_repo": "ng-log/ng-log",
       "status": "candidate-context",
       "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "llama and other  large language models on iOS and MacOS offline using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate-context",
+      "text": "An elegant Go board and SGF editor for a more civilized age."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate-context",
+      "text": "[![Download the latest release](https://img.shields.io/github/downloads/SabakiHQ/Sabaki/latest/total?label=download)](https://github.com/SabakiHQ/Sabaki/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate-context",
+      "text": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate-context",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-game",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-http-server",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-modules",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "AeroSpace is an i3-like tiling window manager for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate-context",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate-context",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "MacOS"
     }
   ],
   "candidate_glosses": [
@@ -2395,6 +2533,84 @@
       "source_repo": "ng-log/ng-log",
       "status": "candidate",
       "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate",
+      "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate",
+      "text": "[![Download the latest release](https://img.shields.io/github/downloads/SabakiHQ/Sabaki/latest/total?label=download)](https://github.com/SabakiHQ/Sabaki/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-game",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-http-server",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium-modules",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate",
+      "text": "MacOS"
     }
   ],
   "candidate_related_terms": [
@@ -3446,11 +3662,131 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "ng-log/ng-log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "hybridgroup/yzma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SabakiHQ/Sabaki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nativium/nativium-game"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nativium/nativium-http-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nativium/nativium-modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "WebKit/WebKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

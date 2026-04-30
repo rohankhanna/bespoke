@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-KJNodes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-KJNodes",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-KJNodes",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:27.221799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3923
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 504
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various custom nodes for ComfyUI",
+    "fork": false,
+    "full_name": "kijai/ComfyUI-KJNodes",
+    "html_url": "https://github.com/kijai/ComfyUI-KJNodes",
+    "language": "Python",
+    "pushed_at": "2026-04-30T08:47:19Z",
+    "stargazers_count": 2544,
+    "topics": [],
+    "updated_at": "2026-04-30T08:47:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

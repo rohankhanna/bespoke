@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/getting-started-dotnet",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:52.302484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tutorial for creating a complete application using .NET on Google Cloud Platform",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/getting-started-dotnet",
+    "html_url": "https://github.com/GoogleCloudPlatform/getting-started-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-02-09T20:06:17Z",
+    "stargazers_count": 86,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-04-13T17:39:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains sample applications written in C# and ASP.NET Core that run on Google Cloud.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

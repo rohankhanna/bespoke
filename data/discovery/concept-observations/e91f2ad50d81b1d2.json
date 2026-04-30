@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034692,
+      "status": "candidate",
+      "text": "take form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034644,
+      "status": "candidate",
+      "text": "take shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033438,
+      "status": "candidate",
+      "text": "configuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031642,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031615,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forming",
+      "sense_id": "forming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "forming",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forming",
+  "observation_id": "e91f2ad50d81b1d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "forming",
+  "source_context_snippet": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00",
+  "source_file": null,
+  "source_repo": "inherd/forming",
+  "source_repo_description": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+}

@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwn/php-rdkafka-stubs",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwn/php-rdkafka-stubs",
+      "target": "rdkafka-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwn/php-rdkafka-stubs",
+      "target": "stub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:25.405199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rdkafka extension stubs for your IDE. Always compatibile with the latest php-rdkafka version.",
+    "fork": false,
+    "full_name": "kwn/php-rdkafka-stubs",
+    "html_url": "https://github.com/kwn/php-rdkafka-stubs",
+    "language": "PHP",
+    "pushed_at": "2026-04-01T18:48:51Z",
+    "stargazers_count": 151,
+    "topics": [
+      "ide",
+      "kafka",
+      "php",
+      "rdkafka-extension",
+      "stub"
+    ],
+    "updated_at": "2026-04-09T11:22:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdkafka-extension"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stub"
+    }
+  ]
+}

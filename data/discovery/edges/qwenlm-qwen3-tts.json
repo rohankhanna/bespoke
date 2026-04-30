@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "qwen/qwen3-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "Close and lock inactive threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "lizheming/github-translate-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "translator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "QwenLM/Qwen3-TTS"
+}

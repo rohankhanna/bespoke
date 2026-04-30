@@ -1,0 +1,545 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "ad-m/github-push-action@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "Template Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "Pre Merge Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "Publish Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "android-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "android-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "detekt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "github-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "github-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle-android-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "gradle-kotlin-dsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "kotlin-android-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "kotlin-dsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "kotlin-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "ktlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "maven-central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template",
+      "target": "template-repository",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:09.004732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7200
+    },
+    {
+      "path": ".github/workflows/cleanup.yaml",
+      "size": 1306
+    },
+    {
+      "path": ".github/workflows/pre-merge.yaml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/publish-release.yaml",
+      "size": 1552
+    },
+    {
+      "path": ".github/workflows/publish-snapshot.yaml",
+      "size": 1620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f",
+    "fork": false,
+    "full_name": "cortinico/kotlin-android-template",
+    "html_url": "https://github.com/cortinico/kotlin-android-template",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T20:10:32Z",
+    "stargazers_count": 1894,
+    "topics": [
+      "android",
+      "android-app",
+      "android-library",
+      "android-template",
+      "detekt",
+      "github-actions",
+      "github-template",
+      "github-templates",
+      "gradle",
+      "gradle-android-plugin",
+      "gradle-kotlin-dsl",
+      "hacktoberfest",
+      "kotlin-android-template",
+      "kotlin-dsl",
+      "kotlin-template",
+      "ktlint",
+      "maven-central",
+      "template",
+      "template-repository"
+    ],
+    "updated_at": "2026-04-27T11:23:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Template Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "term": "Template Cleanup"
+    },
+    {
+      "context_snippet": "Pre Merge Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "term": "Pre Merge Checks"
+    },
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Publish Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yaml",
+      "term": "Publish Snapshot"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-app"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detekt"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-templates"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-android-plugin"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-kotlin-dsl"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-android-template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-dsl"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ktlint"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-central"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-repository"
+    }
+  ]
+}

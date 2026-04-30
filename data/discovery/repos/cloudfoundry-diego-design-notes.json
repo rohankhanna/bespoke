@@ -5,21 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cloudfoundry/diego-design-notes",
-      "target": "cloudfoundry/bbs",
+      "target": "cloudfoundry/converger",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cloudfoundry/diego-design-notes",
-      "target": "cloudfoundry/auctioneer",
+      "target": "cloudfoundry/cf-release",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cloudfoundry/diego-design-notes",
-      "target": "cloudfoundry/auction",
+      "target": "cloudfoundry/buildpackapplifecycle",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T00:43:33.898429+00:00",
+  "fetched_at": "2026-04-30T09:12:06.839236+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +54,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cloudfoundry/auction",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cloudfoundry/auctioneer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cloudfoundry/bbs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cloudfoundry/bosh-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/buildpackapplifecycle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/converger",
       "source_file": "README.md"
     }
   ],

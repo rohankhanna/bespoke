@@ -19,6 +19,18 @@
       "source_repo": "jfmengels/elm-review",
       "status": "candidate-context",
       "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jfmengels/node-elm-review",
+      "status": "candidate-context",
+      "text": "CLI for elm-review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/node-elm-review",
+      "status": "candidate-context",
+      "text": "Run [`elm-review`] from Node.js."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jfmengels/elm-review",
       "status": "candidate",
       "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/node-elm-review",
+      "status": "candidate",
+      "text": "Run [`elm-review`] from Node.js."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jfmengels/elm-review"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jfmengels/node-elm-review"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

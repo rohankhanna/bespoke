@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotMIM",
+      "target": "bytedance/ibot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotMIM",
+      "target": "zdaxie/pixpro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotMIM",
+      "target": "facebookresearch/dino",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:10.156177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2025) A Data-Centric Revisit of Pre-Trained Vision Models for Robot Learning",
+    "fork": false,
+    "full_name": "CVMI-Lab/SlotMIM",
+    "html_url": "https://github.com/CVMI-Lab/SlotMIM",
+    "language": "Python",
+    "pushed_at": "2025-03-11T14:12:58Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-02-23T03:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/ibot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zdaxie/pixpro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

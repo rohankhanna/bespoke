@@ -455,6 +455,12 @@
       "source_repo": "artempyanykh/marksman",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/zeta-note",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -683,6 +689,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "artempyanykh/marksman",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/zeta-note",
       "status": "candidate",
       "text": "Build & Test"
     }
@@ -1154,11 +1166,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "artempyanykh/zeta-note"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

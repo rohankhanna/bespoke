@@ -46,7 +46,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "phodal/coca",
-      "target": "inherd/coco",
+      "target": "phodal/migration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/coca",
+      "target": "newlee/tequila",
       "target_type": "repository"
     },
     {
@@ -61,13 +68,6 @@
       "source_file": "README.md",
       "source_repo": "phodal/coca",
       "target": "arzzen/git-quick-stats",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "phodal/coca",
-      "target": "adamtornhill/code-maat",
       "target_type": "repository"
     },
     {
@@ -162,7 +162,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:49:12.964913+00:00",
+  "fetched_at": "2026-04-30T10:25:45.456315+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -206,22 +206,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adamtornhill/code-maat",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "arzzen/git-quick-stats",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "inherd/coco",
+      "full_name": "modernizing/coca",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "modernizing/coca",
+      "full_name": "newlee/tequila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phodal/migration",
       "source_file": "README.md"
     }
   ],

@@ -31,6 +31,18 @@
       "source_repo": "thoughtpolice/eris",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "status": "candidate-context",
+      "text": "Net::Kafka - High-performant Perl client for Apache Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "thoughtpolice/eris",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "thoughtpolice/eris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

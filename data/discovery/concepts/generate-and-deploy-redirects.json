@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate and Deploy Redirects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "The official registry of general Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "Generate and Deploy Redirects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate",
+      "text": "Generate and Deploy Redirects"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10731,
+      "status": "candidate",
+      "text": "reflective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10494,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10483,
+      "status": "candidate",
+      "text": "asceticism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10483,
+      "status": "candidate",
+      "text": "death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10086,
+      "status": "candidate",
+      "text": "pull"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate and Deploy Redirects",
+  "concept_id": "generate-and-deploy-redirects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Deploy Redirects",
+      "sense_id": "generate-and-deploy-redirects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/InstantID",
+      "target": "instantid/instantid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/InstantID",
+      "target": "ahgsql/styleselectorxl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/InstantID",
+      "target": "cubiq/comfyui_instantid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "instantX-research/InstantID",
+      "target": "huxiuhan/comfyui-instantid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:55.233945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "InstantID: Zero-shot Identity-Preserving Generation in Seconds \ud83d\udd25",
+    "fork": false,
+    "full_name": "instantX-research/InstantID",
+    "html_url": "https://github.com/instantX-research/InstantID",
+    "language": "Python",
+    "pushed_at": "2024-07-18T04:12:48Z",
+    "stargazers_count": 11939,
+    "topics": [],
+    "updated_at": "2026-04-29T10:59:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahgsql/styleselectorxl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cubiq/comfyui_instantid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huxiuhan/comfyui-instantid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantid/instantid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

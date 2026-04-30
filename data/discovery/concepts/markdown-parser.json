@@ -67,6 +67,18 @@
       "source_repo": "xoofx/markdig",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "Convert HTML to Markdown-formatted text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/Alir3z4/html2text/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Alir3z4/html2text/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "xoofx/markdig",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Alir3z4/html2text/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Alir3z4/html2text/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xoofx/markdig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Alir3z4/html2text"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

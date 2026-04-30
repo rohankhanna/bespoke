@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "numtide/devshell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "numtide/devshell",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "numtide/devshell",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "numtide/devshell",
+      "target": "crazy-max/ghaction-github-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "numtide/devshell",
+      "target": "Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numtide/devshell",
+      "target": "direnv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numtide/devshell",
+      "target": "toml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:41.009530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5904
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 2156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Per project developer environments",
+    "fork": false,
+    "full_name": "numtide/devshell",
+    "html_url": "https://github.com/numtide/devshell",
+    "language": "Nix",
+    "pushed_at": "2026-04-19T14:06:08Z",
+    "stargazers_count": 1517,
+    "topics": [
+      "direnv",
+      "nix",
+      "toml"
+    ],
+    "updated_at": "2026-04-29T02:36:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    },
+    {
+      "context_snippet": "<h3>STATUS: unstable</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "direnv"
+    },
+    {
+      "context_snippet": "<h3>STATUS: unstable</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    }
+  ]
+}

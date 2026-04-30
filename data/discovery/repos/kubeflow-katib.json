@@ -1,0 +1,477 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-darts-cifar10.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-enas-cifar10.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-pytorch-mnist.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-simple-pbt.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-tf-mnist-with-summaries.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-tune-api.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-ui-random-search-postgres.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/katib",
+      "target": "kubeflow/training-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/katib",
+      "target": "argoproj/argo-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/katib",
+      "target": "hyperopt/hyperopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/katib",
+      "target": "scikit-optimize/scikit-optimize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-images.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-images.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-images.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "Build and Publish Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-darts-cifar10.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-darts-cifar10.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with darts-cnn-cifar10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-enas-cifar10.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-enas-cifar10.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with enas-cnn-cifar10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-pytorch-mnist.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-pytorch-mnist.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with pytorch-mnist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-simple-pbt.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-simple-pbt.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with simple-pbt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-tf-mnist-with-summaries.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-tf-mnist-with-summaries.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with tf-mnist-with-summaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-tune-api.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-tune-api.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "E2E Test with tune API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-ui-random-search-postgres.yaml",
+      "source_repo": "kubeflow/katib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "kubeflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "neural-architecture-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/katib",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:56.575612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8204
+    },
+    {
+      "path": "go.mod",
+      "size": 7487
+    },
+    {
+      "path": ".github/workflows/build-and-publish-images.yaml",
+      "size": 2563
+    },
+    {
+      "path": ".github/workflows/e2e-test-darts-cifar10.yaml",
+      "size": 982
+    },
+    {
+      "path": ".github/workflows/e2e-test-enas-cifar10.yaml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/e2e-test-pytorch-mnist.yaml",
+      "size": 1382
+    },
+    {
+      "path": ".github/workflows/e2e-test-simple-pbt.yaml",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/e2e-test-tf-mnist-with-summaries.yaml",
+      "size": 1008
+    },
+    {
+      "path": ".github/workflows/e2e-test-tune-api.yaml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/e2e-test-ui-random-search-postgres.yaml",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automated Machine Learning on Kubernetes",
+    "fork": false,
+    "full_name": "kubeflow/katib",
+    "html_url": "https://github.com/kubeflow/katib",
+    "language": "Python",
+    "pushed_at": "2026-04-14T01:21:37Z",
+    "stargazers_count": 1681,
+    "topics": [
+      "ai",
+      "automl",
+      "huggingface",
+      "hyperparameter-tuning",
+      "jax",
+      "kubeflow",
+      "kubernetes",
+      "llm",
+      "machine-learning",
+      "mlops",
+      "neural-architecture-search",
+      "pytorch",
+      "scikit-learn",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-27T00:53:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argoproj/argo-workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperopt/hyperopt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/training-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scikit-optimize/scikit-optimize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-images.yaml",
+      "term": "Build and Publish Images"
+    },
+    {
+      "context_snippet": "E2E Test with darts-cnn-cifar10",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-darts-cifar10.yaml",
+      "term": "E2E Test with darts-cnn-cifar10"
+    },
+    {
+      "context_snippet": "E2E Test with enas-cnn-cifar10",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-enas-cifar10.yaml",
+      "term": "E2E Test with enas-cnn-cifar10"
+    },
+    {
+      "context_snippet": "E2E Test with pytorch-mnist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-pytorch-mnist.yaml",
+      "term": "E2E Test with pytorch-mnist"
+    },
+    {
+      "context_snippet": "E2E Test with simple-pbt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-simple-pbt.yaml",
+      "term": "E2E Test with simple-pbt"
+    },
+    {
+      "context_snippet": "E2E Test with tf-mnist-with-summaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-tf-mnist-with-summaries.yaml",
+      "term": "E2E Test with tf-mnist-with-summaries"
+    },
+    {
+      "context_snippet": "E2E Test with tune API",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test-tune-api.yaml",
+      "term": "E2E Test with tune API"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-tuning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-architecture-search"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

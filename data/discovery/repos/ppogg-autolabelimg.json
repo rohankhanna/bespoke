@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:48.775426+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auto-labelimg based on YOLOv5-5.0 & YOLOv5-Lite",
+    "fork": true,
+    "full_name": "ppogg/AutoLabelImg",
+    "html_url": "https://github.com/ppogg/AutoLabelImg",
+    "language": "Python",
+    "pushed_at": "2022-07-03T07:30:40Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2025-12-30T06:44:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

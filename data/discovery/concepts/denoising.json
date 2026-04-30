@@ -79,6 +79,42 @@
       "source_repo": "nvpro-samples/vk_gltf_renderer",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "Learning a Single Convolutional Super-Resolution Network for Multiple Degradations (CVPR, 2018) (Matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "nvpro-samples/vk_gltf_renderer",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nvpro-samples/vk_gltf_renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cszn/SRMD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

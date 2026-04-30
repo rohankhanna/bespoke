@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dfinity/setup-dfx@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Dockers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "dfinity/setup-dfx@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-tee",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-tee",
+      "target": "canister",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-tee",
+      "target": "decentralized",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:30.113083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2925
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1977
+    },
+    {
+      "path": ".github/workflows/build-dockers.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3196
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer.",
+    "fork": false,
+    "full_name": "ldclabs/ic-tee",
+    "html_url": "https://github.com/ldclabs/ic-tee",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T11:53:17Z",
+    "stargazers_count": 18,
+    "topics": [
+      "canister",
+      "decentralized",
+      "icp",
+      "tee"
+    ],
+    "updated_at": "2026-04-30T09:07:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dockers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "term": "Dockers"
+    },
+    {
+      "context_snippet": "Crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "term": "Crates"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canister"
+    },
+    {
+      "context_snippet": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralized"
+    }
+  ]
+}

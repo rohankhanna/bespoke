@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Changed Files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "Check Changed Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate",
+      "text": "Check Changed Files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34274,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "parity check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "spot check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "patch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Changed Files",
+  "concept_id": "check-changed-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-changed-files.yml",
+      "source_repo": "ingonyama-zk/icicle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Changed Files",
+      "sense_id": "check-changed-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

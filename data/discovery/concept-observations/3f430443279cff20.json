@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020972,
+      "status": "candidate",
+      "text": "remissions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020971,
+      "status": "candidate",
+      "text": "unmaintainable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020970,
+      "status": "candidate",
+      "text": "nonmaintainable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020969,
+      "status": "candidate",
+      "text": "unmanaged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020968,
+      "status": "candidate",
+      "text": "untended"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unmaintained",
+      "sense_id": "unmaintained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unmaintained",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unmaintained",
+  "observation_id": "3f430443279cff20",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "unmaintained",
+  "source_context_snippet": "> [!Important]",
+  "source_file": null,
+  "source_repo": "mozilla/hawk",
+  "source_repo_description": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+}

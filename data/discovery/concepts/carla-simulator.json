@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "carla-simulator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "carla-simulator",
+  "concept_id": "carla-simulator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carla-simulator",
+      "sense_id": "carla-simulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

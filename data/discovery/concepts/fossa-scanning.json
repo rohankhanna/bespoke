@@ -79,6 +79,54 @@
       "source_repo": "open-telemetry/opentelemetry-js-contrib",
       "status": "candidate-context",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Python API and SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Erlang SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Erlang & Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +163,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate",
       "text": "FOSSA scanning"
     }
@@ -196,11 +268,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-js-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/semantic-conventions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

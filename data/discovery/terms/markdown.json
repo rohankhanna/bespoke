@@ -1,36 +1,11 @@
 {
-  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "pulldown-cmark/pulldown-cmark"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "web-infra-dev/rspress"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "xoofx/markdig"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "yuin/goldmark"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "wooorm/mdxjs-rs"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "artempyanykh/marksman"
+      "source_repo": "artempyanykh/marksman-vscode"
     },
     {
       "discovered_via": "repo-topic",
@@ -45,7 +20,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "artsy/README"
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alir3z4/html2text"
     },
     {
       "discovered_via": "repo-topic",
@@ -55,22 +35,7 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "13rac1/goldmark-embed"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "abhinav/goldmark-anchor"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "abhinav/goldmark-frontmatter"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "abhinav/goldmark-hashtag"
+      "source_repo": "scivision/linkchecker-markdown"
     }
   ],
   "term": "markdown"

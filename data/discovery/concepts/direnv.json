@@ -31,6 +31,18 @@
       "source_repo": "direnv/direnv",
       "status": "candidate-context",
       "text": "direnv -- unclutter your .profile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numtide/devshell",
+      "status": "candidate-context",
+      "text": "Per project developer environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numtide/devshell",
+      "status": "candidate-context",
+      "text": "<h3>STATUS: unstable</h3>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "direnv/direnv",
       "status": "candidate",
       "text": "direnv -- unclutter your .profile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numtide/devshell",
+      "status": "candidate",
+      "text": "<h3>STATUS: unstable</h3>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "numtide/devshell"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

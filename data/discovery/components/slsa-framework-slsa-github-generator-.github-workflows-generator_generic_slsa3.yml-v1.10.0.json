@@ -1,0 +1,12 @@
+{
+  "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.10.0",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security"
+    }
+  ]
+}

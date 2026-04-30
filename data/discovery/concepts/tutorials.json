@@ -67,6 +67,30 @@
       "source_repo": "haofanwang/ControlNet-for-Diffusers",
       "status": "candidate-context",
       "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial explaining how to create a reverse image search using the Python imagehash library and PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "This is a project for you to practice contributing to open source projects with code."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "haofanwang/ControlNet-for-Diffusers",
       "status": "candidate",
       "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate",
+      "text": "This is a project for you to practice contributing to open source projects with code."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "haofanwang/ControlNet-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,267 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "ranahaani/gnews",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "andythefactory/article-extraction-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "articles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "articles-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "crawler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "datasets-preparation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "newspaper3k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "target": "scraping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:32.627297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14451
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4772
+    },
+    {
+      "path": "requirements.txt",
+      "size": 773
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 2104
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcf0 Newspaper4k a fork of the beloved Newspaper3k. Extraction of articles, titles, and metadata from news websites. ",
+    "fork": false,
+    "full_name": "AndyTheFactory/newspaper4k",
+    "html_url": "https://github.com/AndyTheFactory/newspaper4k",
+    "language": "Python",
+    "pushed_at": "2026-04-29T07:30:31Z",
+    "stargazers_count": 1092,
+    "topics": [
+      "articles",
+      "articles-data",
+      "crawler",
+      "datasets-preparation",
+      "news",
+      "newspaper3k",
+      "python",
+      "requests",
+      "scraper",
+      "scraping"
+    ],
+    "updated_at": "2026-04-29T14:51:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andythefactory/article-extraction-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ranahaani/gnews",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "articles"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "articles-data"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crawler"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets-preparation"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newspaper3k"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "requests"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraper"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraping"
+    }
+  ]
+}

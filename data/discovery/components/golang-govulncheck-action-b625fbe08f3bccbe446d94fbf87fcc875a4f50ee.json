@@ -1,7 +1,7 @@
 {
   "component": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

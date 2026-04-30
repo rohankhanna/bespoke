@@ -1,0 +1,12 @@
+{
+  "component": "DeterminateSystems/nix-installer-action@e50d5f73bfe71c2dd0aa4218de8f4ade1f4f92d0",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer"
+    }
+  ]
+}

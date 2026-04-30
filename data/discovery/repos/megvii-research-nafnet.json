@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "deblur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "denoise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "eccv2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "image-deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet",
+      "target": "stereo-super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:57.576158+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The state-of-the-art image restoration model without nonlinear activation functions.",
+    "fork": false,
+    "full_name": "megvii-research/NAFNet",
+    "html_url": "https://github.com/megvii-research/NAFNet",
+    "language": "Python",
+    "pushed_at": "2024-07-03T13:26:24Z",
+    "stargazers_count": 3002,
+    "topics": [
+      "deblur",
+      "denoise",
+      "eccv2022",
+      "image-deblurring",
+      "image-denoising",
+      "image-restoration",
+      "low-level-vision",
+      "pytorch",
+      "stereo-super-resolution"
+    ],
+    "updated_at": "2026-04-28T11:00:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deblur"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoise"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv2022"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-deblurring"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-denoising"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-level-vision"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-super-resolution"
+    }
+  ]
+}

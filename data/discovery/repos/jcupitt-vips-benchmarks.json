@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcupitt/vips-benchmarks",
+      "target": "jcupitt/ruby-vips",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:50.631542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Perfomance benchmarks of libvips library in comparison with other various image processing systems.",
+    "fork": false,
+    "full_name": "jcupitt/vips-benchmarks",
+    "html_url": "https://github.com/jcupitt/vips-benchmarks",
+    "language": "Shell",
+    "pushed_at": "2023-01-18T20:32:38Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-07-18T16:24:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcupitt/ruby-vips",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

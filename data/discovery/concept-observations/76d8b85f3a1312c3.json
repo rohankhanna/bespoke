@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Cloud Client Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DocFX Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DocFX Test Suite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11985,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "tent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DocFX Test Suite",
+      "sense_id": "docfx-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docfx-test-suite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docfx-test-suite",
+  "observation_id": "76d8b85f3a1312c3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "DocFX Test Suite",
+  "source_context_snippet": "DocFX Test Suite",
+  "source_file": ".github/workflows/docs.yaml",
+  "source_repo": "googleapis/google-cloud-php",
+  "source_repo_description": "Google Cloud Client Library for PHP"
+}

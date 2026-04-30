@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cask/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mohkale/consult-eglot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mohkale/consult-eglot",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mohkale/consult-eglot",
+      "target": "cask/setup-cask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mohkale/consult-eglot",
+      "target": "lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:56.850267+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jump to workspace symbols with eglot and consult",
+    "fork": false,
+    "full_name": "mohkale/consult-eglot",
+    "html_url": "https://github.com/mohkale/consult-eglot",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-08-31T09:25:18Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-03-18T20:50:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    }
+  ]
+}

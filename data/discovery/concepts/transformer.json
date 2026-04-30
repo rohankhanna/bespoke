@@ -811,6 +811,150 @@
       "source_repo": "X-PLUG/mPLUG-Owl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mczhuge/ICON",
+      "status": "candidate-context",
+      "text": "(TPAMI2022) Salient Object Detection via Integrity Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mczhuge/ICON",
+      "status": "candidate-context",
+      "text": "> **Authors:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] RestoreFormer: High-Quality Blind Face Restoration from Undegraded Key-Value Pairs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "status": "candidate-context",
+      "text": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonshotAI/MoBA",
+      "status": "candidate-context",
+      "text": "MoBA: Mixture of Block Attention for Long-Context LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/MoBA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "Semantic Search demo featuring UForm, USearch, UCall, and StreamLit, to visual and retrieve from image datasets, similar to \"CLIP Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "Graphormer is a general-purpose deep learning backbone for molecular modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo-10.png\" width=100%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bzhangGo/zero",
+      "status": "candidate-context",
+      "text": "Zero -- A neural machine translation system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzhangGo/zero",
+      "status": "candidate-context",
+      "text": "A neural machine translation system implemented by python2 + tensorflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate-context",
+      "text": "Rust-tokenizer offers high-performance tokenizers for modern language models, including WordPiece, Byte-Pair Encoding (BPE) and Unigram (SentencePiece) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate-context",
+      "text": "Large-scale pretraining for dialogue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate-context",
+      "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate-context",
+      "text": "LERT: A Linguistically-motivated Pre-trained Language Model\uff08\u8bed\u8a00\u5b66\u4fe1\u606f\u589e\u5f3a\u7684\u9884\u8bad\u7ec3\u6a21\u578bLERT\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -1215,6 +1359,78 @@
       "source_repo": "X-PLUG/mPLUG-Owl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mczhuge/ICON",
+      "status": "candidate",
+      "text": "> **Authors:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "status": "candidate",
+      "text": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/MoBA",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo-10.png\" width=100%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bzhangGo/zero",
+      "status": "candidate",
+      "text": "A neural machine translation system implemented by python2 + tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate",
+      "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -1768,11 +1984,125 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "X-PLUG/mPLUG-Owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mczhuge/ICON"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-tokenizers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/LERT"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

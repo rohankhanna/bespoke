@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example programs for the various go-gl packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Main"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041665,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041204,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039952,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012134,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008232,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main",
+      "sense_id": "main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24082,
+      "status": "candidate",
+      "text": "principal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22049,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19052,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "briny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "concept_id": "main",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "main",
+  "observation_id": "2500d651d2942970",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Main",
+  "source_context_snippet": "Main",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "go-gl/example",
+  "source_repo_description": "Example programs for the various go-gl packages."
+}

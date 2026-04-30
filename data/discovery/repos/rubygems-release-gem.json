@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:29:52.314668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1",
+    "description": "The official GitHub Action for publishing your gem files to RubyGems.org",
+    "fork": false,
+    "full_name": "rubygems/release-gem",
+    "html_url": "https://github.com/rubygems/release-gem",
+    "language": "Ruby",
+    "pushed_at": "2026-04-01T01:59:52Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-08T00:17:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

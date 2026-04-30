@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RT-DETRs/RT-DETRv4",
+      "target": "peterande/d-fine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RT-DETRs/RT-DETRv4",
+      "target": "intellindust-ai-lab/deim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:11.070665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13206
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+    "fork": false,
+    "full_name": "RT-DETRs/RT-DETRv4",
+    "html_url": "https://github.com/RT-DETRs/RT-DETRv4",
+    "language": "Python",
+    "pushed_at": "2026-01-09T15:23:48Z",
+    "stargazers_count": 455,
+    "topics": [],
+    "updated_at": "2026-04-29T07:04:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intellindust-ai-lab/deim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterande/d-fine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

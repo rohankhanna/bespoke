@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013538,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970341,
+      "status": "candidate",
+      "text": "rotary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968975,
+      "status": "candidate",
+      "text": "environ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965612,
+      "status": "candidate",
+      "text": "roundabout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965610,
+      "status": "candidate",
+      "text": "circulate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "circle",
+      "sense_id": "circle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39108,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37077,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26060,
+      "status": "candidate",
+      "text": "lap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19077,
+      "status": "candidate",
+      "text": "round"
+    }
+  ],
+  "concept_id": "circle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "circle",
+  "observation_id": "dd56e2610e3f85f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "circle",
+  "source_context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+  "source_file": null,
+  "source_repo": "danger/danger",
+  "source_repo_description": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kloimhardt/babashka-scittle-guestbook",
+      "target": "borkdude/scittle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:19.891945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Luminus guestbook example for Babashka+Scittle",
+    "fork": false,
+    "full_name": "kloimhardt/babashka-scittle-guestbook",
+    "html_url": "https://github.com/kloimhardt/babashka-scittle-guestbook",
+    "language": "Clojure",
+    "pushed_at": "2023-07-26T12:26:28Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2025-10-15T05:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/scittle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

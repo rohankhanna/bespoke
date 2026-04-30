@@ -79,6 +79,18 @@
       "source_repo": "kamalkraj/Swin-Transformer-Serve",
       "status": "candidate-context",
       "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Semantic Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "kamalkraj/Swin-Transformer-Serve",
       "status": "candidate",
       "text": "Deploy Pre-trained [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/) classifier trained on ImageNet 1K using [TorchServe](https://github.com/pytorch/serve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

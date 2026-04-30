@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "smapiot/send-bluesky-post-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tweet-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tweet-release.yml",
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "smapiot/send-bluesky-post-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tweet-release.yml",
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "tweet-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "angle-bracket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "anglesharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "linq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp",
+      "target": "parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:06:23.072216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10707
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/tweet-release.yml",
+      "size": 508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "devel",
+    "description": ":angel: The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications.",
+    "fork": false,
+    "full_name": "AngleSharp/AngleSharp",
+    "html_url": "https://github.com/AngleSharp/AngleSharp",
+    "language": "C#",
+    "pushed_at": "2026-04-20T12:22:15Z",
+    "stargazers_count": 5494,
+    "topics": [
+      "angle-bracket",
+      "anglesharp",
+      "c-sharp",
+      "dom",
+      "hacktoberfest",
+      "html",
+      "library",
+      "linq",
+      "parser"
+    ],
+    "updated_at": "2026-04-29T12:56:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tweet-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tweet-release.yml",
+      "term": "tweet-release"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angle-bracket"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anglesharp"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linq"
+    },
+    {
+      "context_snippet": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    }
+  ]
+}

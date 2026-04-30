@@ -1,0 +1,579 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-check.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-check.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-stale.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/trainer",
+      "target": "kubeflow/sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/trainer",
+      "target": "kubeflow/mpi-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/trainer",
+      "target": "kubeflow/xgboost-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubeflow/trainer",
+      "target": "kubeflow/common",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-images.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-images.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Build and Publish Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Check PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-check.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-check.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-check.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Code Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Approve Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-helm-charts.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "Publish Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "GPU E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "source_repo": "kubeflow/trainer",
+      "target": "E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "kubeflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubeflow/trainer",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:32.322437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7107
+    },
+    {
+      "path": "go.mod",
+      "size": 4102
+    },
+    {
+      "path": ".github/workflows/build-and-push-images.yaml",
+      "size": 3279
+    },
+    {
+      "path": ".github/workflows/check-pr-title.yaml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/code-quality-check.yaml",
+      "size": 560
+    },
+    {
+      "path": ".github/workflows/gh-workflow-approve.yaml",
+      "size": 2357
+    },
+    {
+      "path": ".github/workflows/github-stale.yaml",
+      "size": 1621
+    },
+    {
+      "path": ".github/workflows/publish-helm-charts.yaml",
+      "size": 1094
+    },
+    {
+      "path": ".github/workflows/test-e2e-gpu.yaml",
+      "size": 2534
+    },
+    {
+      "path": ".github/workflows/test-e2e.yaml",
+      "size": 3509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distributed AI Model Training and LLM Fine-Tuning on Kubernetes",
+    "fork": false,
+    "full_name": "kubeflow/trainer",
+    "html_url": "https://github.com/kubeflow/trainer",
+    "language": "Go",
+    "pushed_at": "2026-04-28T12:18:04Z",
+    "stargazers_count": 2095,
+    "topics": [
+      "ai",
+      "distributed",
+      "fine-tuning",
+      "gpu",
+      "huggingface",
+      "jax",
+      "kubeflow",
+      "kubernetes",
+      "llm",
+      "machine-learning",
+      "mlops",
+      "python",
+      "pytorch",
+      "tensorflow",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-30T01:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/common",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/mpi-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/xgboost-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-images.yaml",
+      "term": "Build and Publish Images"
+    },
+    {
+      "context_snippet": "Check PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yaml",
+      "term": "Check PR Title"
+    },
+    {
+      "context_snippet": "Code Quality Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-check.yaml",
+      "term": "Code Quality Checks"
+    },
+    {
+      "context_snippet": "Approve Workflow Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "term": "Approve Workflow Runs"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Publish Helm Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-helm-charts.yaml",
+      "term": "Publish Helm Charts"
+    },
+    {
+      "context_snippet": "GPU E2E Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "term": "GPU E2E Test"
+    },
+    {
+      "context_snippet": "E2E Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yaml",
+      "term": "E2E Test"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeflow"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

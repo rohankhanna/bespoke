@@ -19,6 +19,18 @@
       "source_repo": "web-infra-dev/rspress",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate-context",
+      "text": "A documentation generator for Typst in Typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate-context",
+      "text": "*Keep it tidy.*"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "web-infra-dev/rspress",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate",
+      "text": "*Keep it tidy.*"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rspress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mc-Zen/tidy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

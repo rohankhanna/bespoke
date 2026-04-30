@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreedomIntelligence/ALLaVA",
+      "target": "freedomintelligence/cmb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:29.793297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21893
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Harnessing 1.4M GPT4V-synthesized Data for A Lite Vision-Language Model",
+    "fork": false,
+    "full_name": "FreedomIntelligence/ALLaVA",
+    "html_url": "https://github.com/FreedomIntelligence/ALLaVA",
+    "language": "Python",
+    "pushed_at": "2024-06-25T17:52:52Z",
+    "stargazers_count": 282,
+    "topics": [],
+    "updated_at": "2026-04-08T09:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freedomintelligence/cmb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/ic-cose",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-cose",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-cose",
+      "status": "candidate",
+      "text": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952607,
+      "status": "candidate",
+      "text": "nestle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29864559,
+      "status": "candidate",
+      "text": "dey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28680829,
+      "status": "candidate",
+      "text": "ellis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952849,
+      "status": "candidate",
+      "text": "cosy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952848,
+      "status": "candidate",
+      "text": "cozen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cose",
+  "concept_id": "cose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-cose"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cose",
+      "sense_id": "cose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

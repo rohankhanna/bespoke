@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "microsoft/vsdocs.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "microsoftdocs/cpp-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "dotnet/actions-create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "clean repo - images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "MicrosoftDocs/visualstudio-docs"
+}

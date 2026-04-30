@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "Pull Request Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "apache/skywalking-eyes/header@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "Push Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "reviewdog/action-staticcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "target": "reviewdog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "cloudwego/thrift-gen-validator"
+}

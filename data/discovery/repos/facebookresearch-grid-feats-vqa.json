@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/grid-feats-vqa",
+      "target": "milvlg/mcan-vqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/grid-feats-vqa",
+      "target": "peteanderson80/bottom-up-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/grid-feats-vqa",
+      "target": "facebookresearch/pythia",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:57.363338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Grid features pre-training code for visual question answering",
+    "fork": false,
+    "full_name": "facebookresearch/grid-feats-vqa",
+    "html_url": "https://github.com/facebookresearch/grid-feats-vqa",
+    "language": "Python",
+    "pushed_at": "2021-09-17T22:08:10Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2025-06-26T03:11:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pythia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvlg/mcan-vqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peteanderson80/bottom-up-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

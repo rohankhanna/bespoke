@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-upx@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "Aggregate MCP Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "crazy-max/ghaction-upx@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "CMake Build Matrix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:37.471002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15093
+    },
+    {
+      "path": ".github/workflows/aggregate-mcp-registry.yml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/build_cmake.yml",
+      "size": 34101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform Qt IDE",
+    "fork": false,
+    "full_name": "qt-creator/qt-creator",
+    "html_url": "https://github.com/qt-creator/qt-creator",
+    "language": "C++",
+    "pushed_at": "2026-04-30T09:06:01Z",
+    "stargazers_count": 3003,
+    "topics": [],
+    "updated_at": "2026-04-30T09:02:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Aggregate MCP Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "term": "Aggregate MCP Registry"
+    },
+    {
+      "context_snippet": "CMake Build Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "term": "CMake Build Matrix"
+    }
+  ]
+}

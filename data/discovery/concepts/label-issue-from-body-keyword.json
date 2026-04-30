@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label issue from body keyword"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "What if you never had to write CSS again?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "\"Label issue from body keyword\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate",
+      "text": "\"Label issue from body keyword\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50381,
+      "status": "candidate",
+      "text": "epithet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49222,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49199,
+      "status": "candidate",
+      "text": "quote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46427,
+      "status": "candidate",
+      "text": "appellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46381,
+      "status": "candidate",
+      "text": "branded"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label issue from body keyword",
+  "concept_id": "label-issue-from-body-keyword",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/label-issues-from-body.yml",
+      "source_repo": "mdgriffith/elm-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label issue from body keyword",
+      "sense_id": "label-issue-from-body-keyword#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

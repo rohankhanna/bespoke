@@ -82,6 +82,18 @@
       "source_repo": "pydantic/hooky",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "pydantic/hooky",
       "status": "candidate",
       "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +259,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "pydantic/hooky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

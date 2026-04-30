@@ -2,7 +2,8 @@
   "aliases": [
     "test build",
     "Test Build",
-    "test-build"
+    "test-build",
+    "Test build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -75,6 +76,30 @@
       "source_repo": "supranational/sppark",
       "status": "candidate-context",
       "text": "test-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "YamlDotNet is a .NET library for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "Test build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "status": "candidate-context",
+      "text": "Unofficial ruby binding for tiktoken by way of rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "status": "candidate-context",
+      "text": "Test Build"
     }
   ],
   "candidate_glosses": [
@@ -107,6 +132,18 @@
       "source_repo": "supranational/sppark",
       "status": "candidate",
       "text": "test-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate",
+      "text": "Test build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "status": "candidate",
+      "text": "Test Build"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +235,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "supranational/sppark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "aaubry/YamlDotNet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "IAPark/tiktoken_ruby"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

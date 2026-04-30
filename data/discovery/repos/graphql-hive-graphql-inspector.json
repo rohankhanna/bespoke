@@ -338,13 +338,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql-hive/graphql-inspector",
-      "target": "xuorig/graphql-schema_comparator",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "graphql-hive/graphql-inspector",
@@ -870,7 +863,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:38.843942+00:00",
+  "fetched_at": "2026-04-30T08:26:17.235626+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -931,13 +924,7 @@
     ],
     "updated_at": "2026-04-27T14:03:31Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xuorig/graphql-schema_comparator",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Integration",

@@ -19,6 +19,18 @@
       "source_repo": "muesli/duf",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate-context",
+      "text": "High Accuracy and efficiency multi-task fine-tuning framework for Code LLMs. This work has been accepted by KDD 2024."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "muesli/duf",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

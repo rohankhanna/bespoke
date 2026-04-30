@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static-analyzer",
+      "sense_id": "static-analyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-analyzer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-analyzer",
+  "observation_id": "f2c27cff402f9b5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "static-analyzer",
+  "source_context_snippet": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026",
+  "source_file": null,
+  "source_repo": "SonarSource/sonar-java",
+  "source_repo_description": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+}

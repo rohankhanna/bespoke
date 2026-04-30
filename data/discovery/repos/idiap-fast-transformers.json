@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "idiap/fast-transformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "idiap/fast-transformers",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "idiap/fast-transformers",
+      "target": "build-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idiap/fast-transformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idiap/fast-transformers",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:43.620780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4971
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 2470
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch library for fast transformer implementations",
+    "fork": false,
+    "full_name": "idiap/fast-transformers",
+    "html_url": "https://github.com/idiap/fast-transformers",
+    "language": "Python",
+    "pushed_at": "2023-03-23T16:46:47Z",
+    "stargazers_count": 1769,
+    "topics": [],
+    "updated_at": "2026-04-22T21:45:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "build-wheels"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "tests"
+    }
+  ]
+}

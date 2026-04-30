@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:08:23.731029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WOFF utilities with Zopfli compression",
+    "fork": false,
+    "full_name": "bramstein/sfnt2woff-zopfli",
+    "html_url": "https://github.com/bramstein/sfnt2woff-zopfli",
+    "language": "C",
+    "pushed_at": "2022-11-29T15:31:17Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-04-28T12:45:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

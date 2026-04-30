@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@3a919529898de77ec3da873e3063ca4b10e7f5cc",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics"
+    }
+  ]
+}

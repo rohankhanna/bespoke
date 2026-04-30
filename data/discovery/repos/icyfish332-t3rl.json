@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:03:04.053736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8783
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "IcyFish332/T3RL",
+    "html_url": "https://github.com/IcyFish332/T3RL",
+    "language": "Python",
+    "pushed_at": "2026-04-15T07:38:59Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-24T01:39:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

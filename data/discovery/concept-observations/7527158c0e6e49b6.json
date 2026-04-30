@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "taubench",
+      "sense_id": "taubench#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "taubench",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "taubench",
+  "observation_id": "7527158c0e6e49b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "taubench",
+  "source_context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+  "source_file": null,
+  "source_repo": "ServiceNow/DoomArena",
+  "source_repo_description": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats"
+}

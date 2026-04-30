@@ -19,6 +19,18 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate-context",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate-context",
+      "text": "A Toolbox for Binarized Spectral Compressive Imaging (NeurIPS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate-context",
+      "text": "&nbsp;"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate",
+      "text": "&nbsp;"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "caiyuanhao1998/MST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

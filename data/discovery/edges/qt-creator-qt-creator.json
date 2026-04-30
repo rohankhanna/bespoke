@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-mcp-registry.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "Aggregate MCP Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "crazy-max/ghaction-upx@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "qt-creator/qt-creator",
+      "target": "CMake Build Matrix",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "qt-creator/qt-creator"
+}

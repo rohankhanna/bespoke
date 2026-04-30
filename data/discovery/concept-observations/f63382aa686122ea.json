@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast and smart HTML + JS + CSS minifier, available for Rust, Deno, Java, Node.js, Python, Ruby, and WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish Ruby gem"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish Ruby gem"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26899,
+      "status": "candidate",
+      "text": "spinel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26343,
+      "status": "candidate",
+      "text": "oriental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17269,
+      "status": "candidate",
+      "text": "sardius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17192,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17172,
+      "status": "candidate",
+      "text": "idaho"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish Ruby gem",
+      "sense_id": "build-and-publish-ruby-gem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-ruby-gem",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-ruby-gem",
+  "observation_id": "f63382aa686122ea",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build and publish Ruby gem",
+  "source_context_snippet": "Build and publish Ruby gem",
+  "source_file": ".github/workflows/ruby.yml",
+  "source_repo": "wilsonzlin/minify-html",
+  "source_repo_description": "Extremely fast and smart HTML + JS + CSS minifier, available for Rust, Deno, Java, Node.js, Python, Ruby, and WASM"
+}

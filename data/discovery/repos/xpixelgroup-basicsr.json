@@ -48,7 +48,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "XPixelGroup/BasicSR",
-      "target": "xinntao/basicsr-examples",
+      "target": "xinntao/esrgan",
       "target_type": "repository"
     },
     {
@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:53:52.331935+00:00",
+  "fetched_at": "2026-04-30T08:19:03.956281+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -302,17 +302,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "xinntao/basicsr-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "xinntao/dni",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "xinntao/edvr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/esrgan",
       "source_file": "README.md"
     }
   ],

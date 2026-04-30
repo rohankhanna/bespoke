@@ -1,0 +1,405 @@
+{
+  "components": [
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-upload.yml"
+    },
+    {
+      "component": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_style_bot.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yaml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Build Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Upload PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_style_bot.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "huggingface/huggingface_hub/.github/workflows/style-bot-action.yml@e000c1c89c65aee188041723456ac3a479416d4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_style_bot.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "PR Style Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Slow end to end tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/lighteval",
+      "target": "Scan Secret Leaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/lighteval",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/lighteval",
+      "target": "evaluation-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/lighteval",
+      "target": "evaluation-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/lighteval",
+      "target": "huggingface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:01:14.328294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8551
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3970
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/doc-pr-build.yml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/doc-pr-upload.yml",
+      "size": 497
+    },
+    {
+      "path": ".github/workflows/pr_style_bot.yaml",
+      "size": 363
+    },
+    {
+      "path": ".github/workflows/quality.yaml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/slow_tests.yaml",
+      "size": 2596
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends",
+    "fork": false,
+    "full_name": "huggingface/lighteval",
+    "html_url": "https://github.com/huggingface/lighteval",
+    "language": "Python",
+    "pushed_at": "2026-04-17T09:17:10Z",
+    "stargazers_count": 2396,
+    "topics": [
+      "evaluation",
+      "evaluation-framework",
+      "evaluation-metrics",
+      "huggingface"
+    ],
+    "updated_at": "2026-04-29T08:22:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Build Documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-build.yml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Upload PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "term": "Upload PR Documentation"
+    },
+    {
+      "context_snippet": "PR Style Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_style_bot.yaml",
+      "term": "PR Style Bot"
+    },
+    {
+      "context_snippet": "Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality.yaml",
+      "term": "Quality"
+    },
+    {
+      "context_snippet": "Slow end to end tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "term": "Slow end to end tests"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Scan Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Scan Secret Leaks"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-metrics"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    }
+  ]
+}

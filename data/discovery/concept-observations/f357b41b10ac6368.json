@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989174,
+      "status": "candidate",
+      "text": "fittingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39781719,
+      "status": "candidate",
+      "text": "seaworthiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999622,
+      "status": "candidate",
+      "text": "good condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999622,
+      "status": "candidate",
+      "text": "good shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999622,
+      "status": "candidate",
+      "text": "physical fitness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fitness",
+      "sense_id": "fitness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "fittingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1003,
+      "status": "candidate",
+      "text": "good shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "seaworthiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "physical fitness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4,
+      "status": "candidate",
+      "text": "good condition"
+    }
+  ],
+  "concept_id": "fitness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fitness",
+  "observation_id": "f357b41b10ac6368",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "fitness",
+  "source_context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+  "source_file": null,
+  "source_repo": "yuhonas/free-exercise-db",
+  "source_repo_description": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+}

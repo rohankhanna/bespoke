@@ -283,6 +283,78 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Semantic Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of GroupViT: Semantic Segmentation Emerges from Text Supervision, CVPR 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate-context",
+      "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kumuji/mix3d",
+      "status": "candidate-context",
+      "text": "Mix3D: Out-of-Context Data Augmentation for 3D Scenes (3DV 2021 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kumuji/mix3d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVL",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4o.  \u63a5\u8fd1GPT-4o\u8868\u73b0\u7684\u5f00\u6e90\u591a\u6a21\u6001\u5bf9\u8bdd\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[ICLR 2023 Spotlight] Vision Transformer Adapter for Dense Predictions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +495,42 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate",
+      "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kumuji/mix3d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
     }
   ],
   "candidate_related_terms": [],
@@ -580,11 +688,71 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "BR-IDL/PaddleViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kumuji/mix3d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

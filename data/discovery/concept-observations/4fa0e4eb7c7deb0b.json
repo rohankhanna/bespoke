@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agentic-ai",
+      "sense_id": "agentic-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agentic-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agentic-ai",
+  "observation_id": "4fa0e4eb7c7deb0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "agentic-ai",
+  "source_context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+  "source_file": null,
+  "source_repo": "microsoft/agent-framework",
+  "source_repo_description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+}

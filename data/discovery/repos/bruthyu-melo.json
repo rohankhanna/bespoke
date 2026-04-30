@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BruthYU/MELO",
+      "target": "thartvigsen/grace",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:18.838220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5472
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[AAAI 2024] MELO: Enhancing Model Editing with Neuron-indexed Dynamic LoRA",
+    "fork": true,
+    "full_name": "BruthYU/MELO",
+    "html_url": "https://github.com/BruthYU/MELO",
+    "language": "Python",
+    "pushed_at": "2024-04-09T02:35:10Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-15T16:48:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thartvigsen/grace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

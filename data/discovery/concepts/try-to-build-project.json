@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "try to build project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "status": "candidate-context",
+      "text": "Vite plugin for turning your distribution folder into a zip file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "status": "candidate-context",
+      "text": "try to build project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "status": "candidate",
+      "text": "try to build project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35114,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18920,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18920,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17970,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17970,
+      "status": "candidate",
+      "text": "pitch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "try to build project",
+  "concept_id": "try-to-build-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-project.yml",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "try to build project",
+      "sense_id": "try-to-build-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

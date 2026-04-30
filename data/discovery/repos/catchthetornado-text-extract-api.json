@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "vikparuchuri/marker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "catchthetornado/text-extract-api-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "anonymization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "extract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "target": "ocr-python",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:04.931770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23473
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Document (PDF, Word, PPTX ...) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown",
+    "fork": false,
+    "full_name": "CatchTheTornado/text-extract-api",
+    "html_url": "https://github.com/CatchTheTornado/text-extract-api",
+    "language": "Python",
+    "pushed_at": "2025-12-08T21:27:14Z",
+    "stargazers_count": 3097,
+    "topics": [
+      "anonymization",
+      "api",
+      "extract",
+      "json",
+      "llm",
+      "ocr",
+      "ocr-python",
+      "pdf",
+      "pii"
+    ],
+    "updated_at": "2026-04-28T15:14:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catchthetornado/text-extract-api-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vikparuchuri/marker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymization"
+    },
+    {
+      "context_snippet": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract"
+    },
+    {
+      "context_snippet": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-python"
+    }
+  ]
+}

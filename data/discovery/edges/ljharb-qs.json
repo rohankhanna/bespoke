@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ljharb/qs",
-      "target": "numi-hq/open-design",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ljharb/qs",
@@ -379,6 +372,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "ljharb/qs"
 }

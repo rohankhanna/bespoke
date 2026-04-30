@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@v1",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -617,6 +617,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bug-checker.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cachix/devenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "source_repo": "MIC-DKFZ/nnUNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-pr-review.yml",
+      "source_repo": "insitro/redun"
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rtfeldman/elm-spa-example",
+      "target": "gothinkster/realworld-example-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rtfeldman/elm-spa-example",
+      "target": "gothinkster/realworld",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "rtfeldman/elm-spa-example"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "pdf-documents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "status": "candidate-context",
+      "text": "Python bindings to PDFium, reasonably cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "status": "candidate",
+      "text": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pdf-documents",
+  "concept_id": "pdf-documents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pymupdf/PyMuPDF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pypdfium2-team/pypdfium2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pdf-documents",
+      "sense_id": "pdf-documents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

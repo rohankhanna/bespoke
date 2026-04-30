@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "reviewdog/action-staticcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "apache/skywalking-eyes/header@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "reviewdog/action-staticcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "Pull Request Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "Release Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-etcd",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:48.723642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10105
+    },
+    {
+      "path": "go.mod",
+      "size": 3005
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/release-check.yml",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "It's the extension for Kitex to load service governance config from etcd (https://etcd.io/)",
+    "fork": false,
+    "full_name": "kitex-contrib/config-etcd",
+    "html_url": "https://github.com/kitex-contrib/config-etcd",
+    "language": "Go",
+    "pushed_at": "2024-05-30T05:05:45Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-05-30T05:05:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull Request Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Pull Request Check"
+    },
+    {
+      "context_snippet": "Release Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "term": "Release Check"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

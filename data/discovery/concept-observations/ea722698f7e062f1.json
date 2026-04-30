@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012447,
+      "status": "candidate",
+      "text": "article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039363,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032983,
+      "status": "candidate",
+      "text": "subparagraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032580,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031911,
+      "status": "candidate",
+      "text": "phrase"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clause",
+      "sense_id": "clause#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6059,
+      "status": "candidate",
+      "text": "article"
+    }
+  ],
+  "concept_id": "clause",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clause",
+  "observation_id": "ea722698f7e062f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "clause",
+  "source_context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/eval-estree-expression",
+  "source_repo_description": "Safely evaluate JavaScript (estree) expressions, sync and async."
+}

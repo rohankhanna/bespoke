@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad",
+      "target": "wavegrad",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:23.886378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast, high-quality neural vocoder.",
+    "fork": false,
+    "full_name": "lmnt-com/wavegrad",
+    "html_url": "https://github.com/lmnt-com/wavegrad",
+    "language": "Python",
+    "pushed_at": "2023-07-18T01:28:53Z",
+    "stargazers_count": 298,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "neural-network",
+      "paper",
+      "pretrained-models",
+      "pytorch",
+      "speech",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "vocoder",
+      "wavegrad"
+    ],
+    "updated_at": "2026-04-09T08:51:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavegrad"
+    }
+  ]
+}

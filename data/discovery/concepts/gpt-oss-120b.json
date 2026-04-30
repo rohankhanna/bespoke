@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gpt-oss-120b"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gpt-oss-120b",
+  "concept_id": "gpt-oss-120b",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oumi-ai/oumi"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpt-oss-120b",
+      "sense_id": "gpt-oss-120b#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -113,7 +113,7 @@
   "normalized_form": "automation",
   "observation_id": "530f560a33a75486",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "automation",
   "source_context_snippet": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)",
   "source_file": null,

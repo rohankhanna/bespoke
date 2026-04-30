@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:10:14.044223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Research",
+    "fork": true,
+    "full_name": "josejg/google-research",
+    "html_url": "https://github.com/josejg/google-research",
+    "language": null,
+    "pushed_at": "2023-11-16T19:40:39Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-11-16T19:40:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

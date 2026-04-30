@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml",
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "openobserve/vector"
     }
   ]
 }

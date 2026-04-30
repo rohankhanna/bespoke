@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Cloud Client Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CS Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CS Test Suite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24938,
+      "status": "candidate",
+      "text": "caesium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22904,
+      "status": "candidate",
+      "text": "emission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22860,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22423,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22423,
+      "status": "candidate",
+      "text": "kirchhoff"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CS Test Suite",
+      "sense_id": "cs-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cs-test-suite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cs-test-suite",
+  "observation_id": "79be486f23769cc5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "CS Test Suite",
+  "source_context_snippet": "CS Test Suite",
+  "source_file": ".github/workflows/lint.yaml",
+  "source_repo": "googleapis/google-cloud-php",
+  "source_repo_description": "Google Cloud Client Library for PHP"
+}

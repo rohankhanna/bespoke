@@ -5,21 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Llama3.2-Vision-Finetune",
-      "target": "2u1/phi3-vision-finetune",
+      "target": "2u1/qwen2-vl-finetune",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Llama3.2-Vision-Finetune",
-      "target": "2u1/molmo-finetune",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "2U1/Llama3.2-Vision-Finetune",
-      "target": "2u1/pixtral-finetune",
+      "target": "andimarafioti/florence2-finetuning",
       "target_type": "repository"
     },
     {
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:40:10.199909+00:00",
+  "fetched_at": "2026-04-30T10:19:22.534269+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,17 +89,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "2u1/molmo-finetune",
+      "full_name": "2u1/qwen2-vl-finetune",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "2u1/phi3-vision-finetune",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "2u1/pixtral-finetune",
+      "full_name": "andimarafioti/florence2-finetuning",
       "source_file": "README.md"
     }
   ],

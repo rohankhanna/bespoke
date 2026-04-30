@@ -31,6 +31,18 @@
       "source_repo": "ppogg/YOLOv5-Lite",
       "status": "candidate-context",
       "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ppogg/YOLOv5-Lite",
       "status": "candidate",
       "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ppogg/YOLOv5-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

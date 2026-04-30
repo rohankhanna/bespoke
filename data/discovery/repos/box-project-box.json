@@ -1,0 +1,1152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@2dc316deee8e90f13e1a351ab510b4d5bc0c82cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "dawidd6/action-homebrew-bump-formula@1446dca236b0440c6f02723a3f14f13be2c04ab0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "symfonycorp/security-checker-action@258311ef7ac571f1310780ef3d79fc5abef642b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    },
+    {
+      "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box-project/box",
+      "target": "box-project/box2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box",
+      "target": "AutoReview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box",
+      "target": "Benchmark Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "End-to-End Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "crazy-max/ghaction-import-gpg@2dc316deee8e90f13e1a351ab510b4d5bc0c82cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "dawidd6/action-homebrew-bump-formula@1446dca236b0440c6f02723a3f14f13be2c04ab0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box",
+      "target": "RequirementChecker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "box-project/box",
+      "target": "symfonycorp/security-checker-action@258311ef7ac571f1310780ef3d79fc5abef642b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "box-project/box",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box-project/box",
+      "target": "archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box-project/box",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box-project/box",
+      "target": "console-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "box-project/box",
+      "target": "phar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:29.386654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11264
+    },
+    {
+      "path": ".github/workflows/auto-review.yaml",
+      "size": 4624
+    },
+    {
+      "path": ".github/workflows/benchmark.yaml",
+      "size": 4928
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 3590
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 3882
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yaml",
+      "size": 9018
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 8699
+    },
+    {
+      "path": ".github/workflows/requirement-checker.yaml",
+      "size": 15977
+    },
+    {
+      "path": ".github/workflows/security.yaml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 7662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs.",
+    "fork": false,
+    "full_name": "box-project/box",
+    "html_url": "https://github.com/box-project/box",
+    "language": "PHP",
+    "pushed_at": "2026-04-27T06:21:37Z",
+    "stargazers_count": 1301,
+    "topics": [
+      "archive",
+      "command-line",
+      "console-application",
+      "phar",
+      "php"
+    ],
+    "updated_at": "2026-04-28T13:48:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "box-project/box2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AutoReview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "term": "AutoReview"
+    },
+    {
+      "context_snippet": "Benchmark Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "term": "Benchmark Tests"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "End-to-End Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "term": "End-to-End Tests"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "RequirementChecker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "term": "RequirementChecker"
+    },
+    {
+      "context_snippet": "Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archive"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-application"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phar"
+    }
+  ]
+}

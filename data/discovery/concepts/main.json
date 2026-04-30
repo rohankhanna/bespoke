@@ -758,6 +758,156 @@
       "source_repo": "aws/jsii",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msys2/MINGW-packages",
+      "status": "candidate-context",
+      "text": "Package scripts for MinGW-w64 targets to build under MSYS2. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msys2/MINGW-packages",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/gl",
+      "status": "candidate-context",
+      "text": "Go bindings for OpenGL (generated via glow)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/gl",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate-context",
+      "text": "Roll your own tracker!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate-context",
+      "text": "This project studies the performance and robustness of language models and task-adaptation methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimelsp/LSP-marksman",
+      "status": "candidate-context",
+      "text": "An LSP server for Markdown provided through Marksman."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP-marksman",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iomentum/cargo-breaking",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "Non-blocking, event-driven Swift client for Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "The .NET library for ImageMagick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "status": "candidate-context",
+      "text": "NVIDIA Isaac GR00T N1.7 -  A Foundation Model for Generalist Robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/example",
+      "status": "candidate-context",
+      "text": "Example programs for the various go-gl packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/example",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-py",
+      "status": "candidate-context",
+      "text": "A pure-Python Beaker client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-py",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -1136,6 +1286,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/jsii",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msys2/MINGW-packages",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/gl",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP-marksman",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iomentum/cargo-breaking",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/example",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-py",
       "status": "candidate",
       "text": "Main"
     }
@@ -1625,11 +1853,101 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "aws/jsii"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/gl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "IgnisDa/ryot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/tango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "sublimelsp/LSP-marksman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "iomentum/cargo-breaking"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "swift-server/RediStack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dlemstra/Magick.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NVIDIA/Isaac-GR00T"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/beaker-py"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

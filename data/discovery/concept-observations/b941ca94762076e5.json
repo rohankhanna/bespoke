@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go bindings for stable-diffusion.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948571,
+      "status": "candidate",
+      "text": "flux density"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945492,
+      "status": "candidate",
+      "text": "magnetic field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941397,
+      "status": "candidate",
+      "text": "magnetic flux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39879442,
+      "status": "candidate",
+      "text": "fluxion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995529,
+      "status": "candidate",
+      "text": "flow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flux",
+      "sense_id": "flux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6026,
+      "status": "candidate",
+      "text": "fluxion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "magnetic flux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "magnetic field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "flux density"
+    }
+  ],
+  "concept_id": "flux",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flux",
+  "observation_id": "b941ca94762076e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "flux",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "Binozo/GoStableDiffusion",
+  "source_repo_description": "Go bindings for stable-diffusion.cpp"
+}

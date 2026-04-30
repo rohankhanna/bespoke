@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mapbox"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "mapmyindia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "foursquare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "life360"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "navteq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "rand mcnally"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mapbox",
+  "concept_id": "mapbox",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mapbox",
+      "sense_id": "mapbox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

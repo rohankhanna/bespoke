@@ -1,0 +1,17 @@
+{
+  "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules"
+    }
+  ]
+}

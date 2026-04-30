@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/MaskFormer",
+      "target": "swintransformer/swin-transformer-semantic-segmentation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:57.429534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2588
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Per-Pixel Classification is Not All You Need for Semantic Segmentation (NeurIPS 2021, spotlight)",
+    "fork": false,
+    "full_name": "facebookresearch/MaskFormer",
+    "html_url": "https://github.com/facebookresearch/MaskFormer",
+    "language": "Python",
+    "pushed_at": "2022-03-11T15:41:52Z",
+    "stargazers_count": 1458,
+    "topics": [],
+    "updated_at": "2026-04-30T08:24:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/swin-transformer-semantic-segmentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

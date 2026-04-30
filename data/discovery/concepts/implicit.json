@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "implicit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate-context",
+      "text": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate-context",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046360,
+      "status": "candidate",
+      "text": "implied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040479,
+      "status": "candidate",
+      "text": "understood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036108,
+      "status": "candidate",
+      "text": "inherent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017661,
+      "status": "candidate",
+      "text": "tacit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014074,
+      "status": "candidate",
+      "text": "unquestioning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44044,
+      "status": "candidate",
+      "text": "tacit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29040,
+      "status": "candidate",
+      "text": "inherent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12043,
+      "status": "candidate",
+      "text": "silent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12031,
+      "status": "candidate",
+      "text": "implied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7020,
+      "status": "candidate",
+      "text": "inexplicit"
+    }
+  ],
+  "canonical_name": "implicit",
+  "concept_id": "implicit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "implicit",
+      "sense_id": "implicit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@2bb135777322059ee3a3c9239999b159ff49febc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "wei/git-sync@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-sync.yml"
+    },
+    {
+      "component": "aws-github-ops/handle-stale-discussions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "thollander/actions-comment-pull-request@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "tj-actions/changed-files@2bb135777322059ee3a3c9239999b159ff49febc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "thollander/actions-comment-pull-request@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "aws-actions/closed-issue-message@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-sync.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "wei/git-sync@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-sync.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "git-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "aws-github-ops/handle-stale-discussions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "HandleStaleDiscussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "issue-regression-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "aws-actions/configure-aws-credentials@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yaml",
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "Build SDK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "aws-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-ruby",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:28:04.147100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 81902
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 2151
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 913
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1505
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/depsreview.yaml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/git-sync.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/handle-stale-discussions.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/issue-regression-labeler.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/pull-request-build.yaml",
+      "size": 2358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "version-3",
+    "description": "The official AWS SDK for Ruby",
+    "fork": false,
+    "full_name": "aws/aws-sdk-ruby",
+    "html_url": "https://github.com/aws/aws-sdk-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T19:30:13Z",
+    "stargazers_count": 3643,
+    "topics": [
+      "aws",
+      "aws-sdk",
+      "cloud",
+      "ruby"
+    ],
+    "updated_at": "2026-04-29T19:30:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "git-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-sync.yml",
+      "term": "git-sync"
+    },
+    {
+      "context_snippet": "HandleStaleDiscussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "term": "HandleStaleDiscussions"
+    },
+    {
+      "context_snippet": "issue-regression-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "term": "issue-regression-label"
+    },
+    {
+      "context_snippet": "Build SDK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yaml",
+      "term": "Build SDK"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

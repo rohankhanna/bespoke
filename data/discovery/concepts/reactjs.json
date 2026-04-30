@@ -139,6 +139,42 @@
       "source_repo": "Redocly/redoc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8c\ufe0f Renders highlighted Prism output to React (+ theming & vendored Prism)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "Redocly/redoc",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FormidableLabs/prism-react-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/dejavu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/react-admin"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:20:11.936787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New repo collection for NVIDIA Cosmos: https://github.com/nvidia-cosmos",
+    "fork": false,
+    "full_name": "NVIDIA/Cosmos",
+    "html_url": "https://github.com/NVIDIA/Cosmos",
+    "language": null,
+    "pushed_at": "2026-01-06T01:52:23Z",
+    "stargazers_count": 8095,
+    "topics": [],
+    "updated_at": "2026-04-30T05:41:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A ktlint gradle plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Trigger Release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Trigger Release\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28819,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "triggered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "triggering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "burst"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Release",
+      "sense_id": "trigger-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trigger-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trigger-release",
+  "observation_id": "3cd4afeae8b73c25",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Trigger Release",
+  "source_context_snippet": "\"Trigger Release\"",
+  "source_file": ".github/workflows/trigger-release.yaml",
+  "source_repo": "JLLeitschuh/ktlint-gradle",
+  "source_repo_description": "A ktlint gradle plugin"
+}

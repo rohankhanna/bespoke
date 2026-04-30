@@ -19,6 +19,30 @@
       "source_repo": "ckan/ckan",
       "status": "candidate-context",
       "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate-context",
+      "text": "Searching for structural similarities across billions of molecules in milliseconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate-context",
+      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ckan/ckan",
       "status": "candidate",
       "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate",
+      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

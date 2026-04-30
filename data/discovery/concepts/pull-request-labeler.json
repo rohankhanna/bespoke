@@ -585,6 +585,102 @@
       "source_repo": "csstools/postcss-plugins",
       "status": "candidate-context",
       "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "A lightweight text editor written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "'Pull Request Labeler'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU. The IVF RaBitQ is under the cuvs_ivf_rabitq branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Erlang SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Erlang & Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -881,6 +977,54 @@
       "source_repo": "csstools/postcss-plugins",
       "status": "candidate",
       "text": "Pull Request Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
+      "status": "candidate",
+      "text": "'Pull Request Labeler'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_related_terms": [
@@ -1236,11 +1380,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "csstools/postcss-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "electron-userland/electron-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto_labeler_pr.yml",
+      "source_repo": "lite-xl/lite-xl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openwrt/packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

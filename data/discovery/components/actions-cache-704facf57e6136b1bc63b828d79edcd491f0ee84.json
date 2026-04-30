@@ -1,0 +1,12 @@
+{
+  "component": "actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics"
+    }
+  ]
+}

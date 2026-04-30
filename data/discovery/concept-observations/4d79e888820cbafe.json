@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998789,
+      "status": "candidate",
+      "text": "visualization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011410,
+      "status": "candidate",
+      "text": "visual image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011409,
+      "status": "candidate",
+      "text": "imaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003772,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20001259,
+      "status": "candidate",
+      "text": "display"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visualisation",
+      "sense_id": "visualisation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5027,
+      "status": "candidate",
+      "text": "visualization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "visual image"
+    }
+  ],
+  "concept_id": "visualisation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visualisation",
+  "observation_id": "4d79e888820cbafe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "visualisation",
+  "source_context_snippet": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)",
+  "source_file": null,
+  "source_repo": "JamieMair/MuJoCo.jl",
+  "source_repo_description": "Julia bindings and visualiser for the MuJoCo physics engine."
+}

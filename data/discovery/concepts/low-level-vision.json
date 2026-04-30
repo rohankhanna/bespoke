@@ -91,6 +91,54 @@
       "source_repo": "swz30/MIRNetv2",
       "status": "candidate-context",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "The state-of-the-art image restoration model without nonlinear activation functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Multi-Stage Progressive Image Restoration. SOTA results for Image deblurring, deraining, and denoising."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "swz30/MIRNetv2",
       "status": "candidate",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "swz30/MIRNetv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MPRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

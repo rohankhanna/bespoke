@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JakePartusch/wait-for-netlify-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JakePartusch/wait-for-netlify-action",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JakePartusch/wait-for-netlify-action",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "JakePartusch/wait-for-netlify-action",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:47.049927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1983
+    },
+    {
+      "path": "package.json",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GitHub action that will wait until a Netlify Preview deploy has completed before continuing on",
+    "fork": false,
+    "full_name": "JakePartusch/wait-for-netlify-action",
+    "html_url": "https://github.com/JakePartusch/wait-for-netlify-action",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-20T23:02:05Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2025-10-12T17:19:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

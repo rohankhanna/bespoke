@@ -84,7 +84,7 @@
   "normalized_form": "test-github-action-installer",
   "observation_id": "2f2382abd7145396",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Test GitHub Action installer",
   "source_context_snippet": "Test GitHub Action installer",
   "source_file": ".github/workflows/gh-action.yml",

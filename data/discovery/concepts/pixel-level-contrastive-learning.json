@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pixel-level-contrastive-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zdaxie/PixPro",
+      "status": "candidate-context",
+      "text": "Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning, CVPR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdaxie/PixPro",
+      "status": "candidate-context",
+      "text": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zdaxie/PixPro",
+      "status": "candidate",
+      "text": "By [Zhenda Xie](https://scholar.google.com/citations?user=0C4cDloAAAAJ)\\*, [Yutong Lin](https://scholar.google.com/citations?user=mjUgH44AAAAJ)\\*, [Zheng Zhang](https://www.microsoft.com/en-us/research/people/zhez/), [Yue Cao](http://yue-cao.me), [Stephen Lin](https://www.micros\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pixel-level-contrastive-learning",
+  "concept_id": "pixel-level-contrastive-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zdaxie/PixPro"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pixel-level-contrastive-learning",
+      "sense_id": "pixel-level-contrastive-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

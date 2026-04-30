@@ -631,6 +631,66 @@
       "source_repo": "coasys/ad4m",
       "status": "candidate-context",
       "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "All-in-One Backend as a Service with Headless CMS Power"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "A functional and reactive JavaScript framework for predictable code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate-context",
+      "text": "Vulkan API bindings for Go programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate-context",
+      "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +1005,36 @@
       "source_repo": "coasys/ad4m",
       "status": "candidate",
       "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate",
+      "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
     }
   ],
   "candidate_related_terms": [
@@ -1438,11 +1528,71 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "coasys/ad4m"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastschema/fastschema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cyclejs/cyclejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

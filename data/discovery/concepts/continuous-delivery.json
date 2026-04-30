@@ -238,6 +238,42 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate-context",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marick/Midje",
+      "status": "candidate-context",
+      "text": "Midje provides a migration path from clojure.test to a more flexible, readable, abstract, and gracious style of testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marick/Midje",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Rust - port of Python version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +390,24 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marick/Midje",
+      "status": "candidate",
+      "text": "Continuous Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate",
+      "text": "Continuous Delivery"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +577,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "marick/Midje"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "nickspring/charset-normalizer-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

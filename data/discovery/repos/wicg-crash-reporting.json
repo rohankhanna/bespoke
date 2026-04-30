@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WICG/crash-reporting",
+      "target": "shipping-chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:47.658349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Crash reporting (from Web Perf WG)",
+    "fork": false,
+    "full_name": "WICG/crash-reporting",
+    "html_url": "https://github.com/WICG/crash-reporting",
+    "language": "HTML",
+    "pushed_at": "2026-02-02T15:29:00Z",
+    "stargazers_count": 14,
+    "topics": [
+      "shipping-chromium"
+    ],
+    "updated_at": "2026-02-22T08:58:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the repository for [crash-reporting](https://wicg.github.io/crash-reporting/index.html). You're welcome to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shipping-chromium"
+    }
+  ]
+}

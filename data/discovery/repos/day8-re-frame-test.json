@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "homoluctus/slatify@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "homoluctus/slatify@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "homoluctus/slatify@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-test",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-test",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "browser-actions/setup-chrome@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "homoluctus/slatify@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "browser-actions/setup-chrome@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "homoluctus/slatify@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-test",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-test",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:25.621301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8754
+    },
+    {
+      "path": "package.json",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/continuous-deployment-workflow.yml",
+      "size": 3664
+    },
+    {
+      "path": ".github/workflows/continuous-integration-workflow.yml",
+      "size": 1491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross platform (cljs and clj) utilities for testing re-frame applications",
+    "fork": false,
+    "full_name": "day8/re-frame-test",
+    "html_url": "https://github.com/day8/re-frame-test",
+    "language": "Clojure",
+    "pushed_at": "2025-09-08T12:45:39Z",
+    "stargazers_count": 109,
+    "topics": [
+      "re-frame",
+      "test"
+    ],
+    "updated_at": "2025-12-18T02:34:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-frame"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    }
+  ]
+}

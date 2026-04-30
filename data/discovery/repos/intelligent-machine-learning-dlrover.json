@@ -1,0 +1,506 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "intelligent-machine-learning/easydl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "intelligent-machine-learning/atorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "intelligent-machine-learning/tfplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "build and publish dlrover controller image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "build and publish dlrover dev image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image_dlrover_master.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "code-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "target": "llm-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:28.110343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12122
+    },
+    {
+      "path": ".github/workflows/image_dlrover_controller.yml",
+      "size": 2131
+    },
+    {
+      "path": ".github/workflows/image_dlrover_dev.yml",
+      "size": 2542
+    },
+    {
+      "path": ".github/workflows/image_dlrover_master.yml",
+      "size": 3179
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3917
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DLRover: An Automatic Distributed Deep Learning System",
+    "fork": false,
+    "full_name": "intelligent-machine-learning/dlrover",
+    "html_url": "https://github.com/intelligent-machine-learning/dlrover",
+    "language": "Python",
+    "pushed_at": "2026-04-15T06:54:16Z",
+    "stargazers_count": 1652,
+    "topics": [
+      "distributed-training",
+      "hacktoberfest",
+      "k8s",
+      "llm-training"
+    ],
+    "updated_at": "2026-04-30T04:06:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelligent-machine-learning/atorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelligent-machine-learning/easydl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelligent-machine-learning/tfplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build and publish dlrover controller image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "term": "build and publish dlrover controller image"
+    },
+    {
+      "context_snippet": "build and publish dlrover dev image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "term": "build and publish dlrover dev image"
+    },
+    {
+      "context_snippet": "code-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "code-check"
+    },
+    {
+      "context_snippet": "close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div id=\"top\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    }
+  ]
+}

@@ -68,6 +68,18 @@
       "source_repo": "ROCm/mori",
       "status": "candidate-context",
       "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lartpang/PySODMetrics",
+      "status": "candidate-context",
+      "text": "PySODMetrics: A Simple and Efficient Implementation of Grayscale/Binary Segmentation Metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lartpang/PySODMetrics",
+      "status": "candidate-context",
+      "text": "Build and Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ROCm/mori",
+      "status": "candidate",
+      "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lartpang/PySODMetrics",
       "status": "candidate",
       "text": "Build and Deploy Documentation"
     }
@@ -173,11 +191,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "ROCm/mori"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "lartpang/PySODMetrics"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

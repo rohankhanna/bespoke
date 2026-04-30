@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "extism/extism",
+      "target": "hyper-mcp-rs/crypto-price-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "hyper-mcp-rs/arxiv-plugin",
+      "target": "hyper-mcp-rs/crates-io-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "hungran/hyper-mcp-hackernews-tool",
+      "target": "hyper-mcp-rs/context7-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "dabevlohn/rand16",
+      "target": "hyper-mcp-rs/defuddle-plugin",
       "target_type": "repository"
     },
     {
@@ -39,14 +39,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -95,14 +95,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -151,14 +151,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -190,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "hyper-mcp-rs/hyper-mcp"
 }

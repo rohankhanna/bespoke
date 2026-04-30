@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamtornhill/code-maat",
+      "target": "adamtornhill/metricstreemap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamtornhill/code-maat",
+      "target": "behavioral-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamtornhill/code-maat",
+      "target": "code-analysis-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamtornhill/code-maat",
+      "target": "repository-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamtornhill/code-maat",
+      "target": "technical-debt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:19.170125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21846
+    },
+    {
+      "path": "Dockerfile",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command line tool to mine and analyze data from version-control systems",
+    "fork": false,
+    "full_name": "adamtornhill/code-maat",
+    "html_url": "https://github.com/adamtornhill/code-maat",
+    "language": "Clojure",
+    "pushed_at": "2025-07-03T11:51:48Z",
+    "stargazers_count": 2587,
+    "topics": [
+      "behavioral-code-analysis",
+      "code-analysis-tool",
+      "repository-mining",
+      "technical-debt"
+    ],
+    "updated_at": "2026-04-29T15:49:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamtornhill/metricstreemap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behavioral-code-analysis"
+    },
+    {
+      "context_snippet": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis-tool"
+    },
+    {
+      "context_snippet": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-mining"
+    },
+    {
+      "context_snippet": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technical-debt"
+    }
+  ]
+}

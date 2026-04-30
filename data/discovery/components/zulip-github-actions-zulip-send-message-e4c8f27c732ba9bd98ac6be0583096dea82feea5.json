@@ -1,0 +1,17 @@
+{
+  "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/breaking_change_feed.yml",
+      "source_repo": "JuliaRegistries/General"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/feed.yml",
+      "source_repo": "JuliaRegistries/General"
+    }
+  ]
+}

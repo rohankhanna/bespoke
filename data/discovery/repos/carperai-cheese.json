@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:56.084406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1641
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Used for adaptive human in the loop evaluation of language and embedding models.",
+    "fork": false,
+    "full_name": "CarperAI/cheese",
+    "html_url": "https://github.com/CarperAI/cheese",
+    "language": "Python",
+    "pushed_at": "2023-03-01T13:22:37Z",
+    "stargazers_count": 307,
+    "topics": [],
+    "updated_at": "2026-03-17T07:54:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "oneclick/rubyinstaller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "alexpux/mingw-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "oneclick/rubyinstaller2-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "msys2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oneclick/rubyinstaller2",
+      "target": "rubyinstaller",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:51.093373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7574
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 11436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MSYS2 based RubyInstaller for Windows",
+    "fork": false,
+    "full_name": "oneclick/rubyinstaller2",
+    "html_url": "https://github.com/oneclick/rubyinstaller2",
+    "language": "Ruby",
+    "pushed_at": "2026-04-21T16:56:51Z",
+    "stargazers_count": 709,
+    "topics": [
+      "msys2",
+      "ruby",
+      "rubyinstaller"
+    ],
+    "updated_at": "2026-04-28T12:03:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpux/mingw-packages",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneclick/rubyinstaller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneclick/rubyinstaller2-packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msys2"
+    },
+    {
+      "context_snippet": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyinstaller"
+    }
+  ]
+}

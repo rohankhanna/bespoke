@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:24:49.691828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4149
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2326
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interactive, locally hosted tool to migrate Open-WebUI SQLite databases to PostgreSQL",
+    "fork": false,
+    "full_name": "taylorwilsdon/open-webui-postgres-migration",
+    "html_url": "https://github.com/taylorwilsdon/open-webui-postgres-migration",
+    "language": "Python",
+    "pushed_at": "2026-04-28T14:58:22Z",
+    "stargazers_count": 220,
+    "topics": [],
+    "updated_at": "2026-04-28T15:01:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

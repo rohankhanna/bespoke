@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "montudor/action-zip@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "montudor/action-zip@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "archguard/archguard-frontend",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:01.947754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2272
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 1614
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " ArchGuard frontend UI",
+    "fork": false,
+    "full_name": "archguard/archguard-frontend",
+    "html_url": "https://github.com/archguard/archguard-frontend",
+    "language": "TypeScript",
+    "pushed_at": "2024-11-13T03:47:16Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-10-06T10:32:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

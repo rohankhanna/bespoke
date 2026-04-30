@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Semantic Versioning enforcer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "\"Semantic Versioning enforcer\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate",
+      "text": "\"Semantic Versioning enforcer\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22213,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22098,
+      "status": "candidate",
+      "text": "cool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14330,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14330,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14199,
+      "status": "candidate",
+      "text": "item"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Semantic Versioning enforcer",
+  "concept_id": "semantic-versioning-enforcer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-semantic.yml",
+      "source_repo": "electron-userland/electron-builder"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic Versioning enforcer",
+      "sense_id": "semantic-versioning-enforcer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

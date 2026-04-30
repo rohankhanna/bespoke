@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman_train",
+      "target": "ikalevatykh/mano_grasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman_train",
+      "target": "hassony2/obman_render",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman_train",
+      "target": "guiggh/hand_pose_action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman_train",
+      "target": "lmb-freiburg/hand3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "hand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train",
+      "target": "training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:16:00.779715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6509
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images",
+    "fork": false,
+    "full_name": "hassony2/obman_train",
+    "html_url": "https://github.com/hassony2/obman_train",
+    "language": "Python",
+    "pushed_at": "2021-08-11T17:04:11Z",
+    "stargazers_count": 196,
+    "topics": [
+      "3d-reconstruction",
+      "cvpr2019",
+      "deep-learning",
+      "hand",
+      "neural-network",
+      "object",
+      "training"
+    ],
+    "updated_at": "2026-04-19T19:58:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guiggh/hand_pose_action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/obman_render",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikalevatykh/mano_grasp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/hand3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hand"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    }
+  ]
+}

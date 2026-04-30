@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "blessed",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "blessed-contrib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xml2js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yaronn/wopr",
+      "target": "blessed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yaronn/wopr",
+      "target": "blessed-contrib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yaronn/wopr",
+      "target": "xml2js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:17.495936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7714
+    },
+    {
+      "path": "package.json",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple markup language for creating rich terminal reports, presentations and infographics",
+    "fork": false,
+    "full_name": "yaronn/wopr",
+    "html_url": "https://github.com/yaronn/wopr",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-01T20:35:13Z",
+    "stargazers_count": 3085,
+    "topics": [],
+    "updated_at": "2026-04-16T08:05:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

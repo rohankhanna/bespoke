@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "softcore"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "A FPGA friendly 32 bit RISC-V CPU implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "- [Index](#index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate",
+      "text": "- [Index](#index)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000223,
+      "status": "candidate",
+      "text": "pornography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000230,
+      "status": "candidate",
+      "text": "nonpornography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000229,
+      "status": "candidate",
+      "text": "nonerotica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000228,
+      "status": "candidate",
+      "text": "adult content"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000227,
+      "status": "candidate",
+      "text": "dry sex"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "softcore",
+  "concept_id": "softcore",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "softcore",
+      "sense_id": "softcore#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

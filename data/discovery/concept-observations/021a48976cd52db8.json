@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI unit test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI unit test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25893,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25823,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23373,
+      "status": "candidate",
+      "text": "sloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22463,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16414,
+      "status": "candidate",
+      "text": "robotics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI unit test",
+      "sense_id": "ai-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-unit-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-unit-test",
+  "observation_id": "021a48976cd52db8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "AI unit test",
+  "source_context_snippet": "AI unit test",
+  "source_file": ".github/workflows/ai-unit-test.yml",
+  "source_repo": "web-infra-dev/midscene",
+  "source_repo_description": "AI-powered, vision-driven UI automation for every platform."
+}

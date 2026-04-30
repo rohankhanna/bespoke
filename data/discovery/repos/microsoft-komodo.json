@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Komodo",
+      "target": "0xabu/qemu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:36.145040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Formally-verified reference monitor for a secure isolated execution (\"enclave\") environment on ARM TrustZone",
+    "fork": false,
+    "full_name": "microsoft/Komodo",
+    "html_url": "https://github.com/microsoft/Komodo",
+    "language": "C",
+    "pushed_at": "2022-08-18T07:48:36Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-17T14:41:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xabu/qemu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

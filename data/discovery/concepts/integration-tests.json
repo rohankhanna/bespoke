@@ -4,7 +4,8 @@
     "integration-tests",
     "integration tests",
     "Integration tests",
-    "\ud83e\uddea Integration Tests"
+    "\ud83e\uddea Integration Tests",
+    "Integration Tests \ud83e\uddea"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -431,6 +432,60 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate-context",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Minimalist framework for running and monitoring an agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "Convert Machine Learning Code Between Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "integration-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "Integration Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpastoor/qvm",
+      "status": "candidate-context",
+      "text": "integration-tests"
     }
   ],
   "candidate_glosses": [
@@ -643,6 +698,36 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate",
+      "text": "integration-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "Integration Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpastoor/qvm",
+      "status": "candidate",
+      "text": "integration-tests"
     }
   ],
   "candidate_related_terms": [
@@ -974,11 +1059,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci-tests.yaml",
       "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests-integration.yaml",
+      "source_repo": "mozilla-ai/tinyagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "allenai/tango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "dpastoor/qvm"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

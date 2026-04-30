@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "pre-commit-hooks"
+    "pre-commit-hooks",
+    "pre-commit hooks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "pre-commit/sync-pre-commit-deps",
       "status": "candidate-context",
       "text": "sync-pre-commit-deps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "Modularized AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "pre-commit hooks"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "pre-commit/sync-pre-commit-deps",
       "status": "candidate",
       "text": "sync-pre-commit-deps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate",
+      "text": "pre-commit hooks"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "brackets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "claws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "clips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "hooker"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "pre-commit-hooks",
   "concept_id": "pre-commit-hooks",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pre-commit/sync-pre-commit-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit-hooks.yml",
+      "source_repo": "aws/aws-sdk-js-v3"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

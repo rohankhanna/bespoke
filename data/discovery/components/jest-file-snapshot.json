@@ -1,7 +1,7 @@
 {
   "component": "jest-file-snapshot",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -22,6 +22,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "Jack-Works/react-refresh-transformer"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jfmengels/node-elm-review"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astroturfcss/astroturf"
     }
   ]
 }

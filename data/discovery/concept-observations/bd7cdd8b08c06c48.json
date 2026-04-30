@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Camel Quarkus Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Camel Quarkus CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Camel Quarkus CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12134,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12134,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "non"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6902,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6488,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Camel Quarkus CI",
+      "sense_id": "camel-quarkus-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "camel-quarkus-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "camel-quarkus-ci",
+  "observation_id": "bd7cdd8b08c06c48",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Camel Quarkus CI",
+  "source_context_snippet": "Camel Quarkus CI",
+  "source_file": ".github/workflows/ci-build.yaml",
+  "source_repo": "apache/camel-quarkus-examples",
+  "source_repo_description": "Apache Camel Quarkus Examples"
+}

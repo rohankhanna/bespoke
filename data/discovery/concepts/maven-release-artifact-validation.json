@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Maven Release Artifact Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "Upserts, Deletes And Incremental Processing on Big Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "Maven Release Artifact Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
+      "status": "candidate",
+      "text": "Maven Release Artifact Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20889,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20744,
+      "status": "candidate",
+      "text": "inception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19650,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19650,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19626,
+      "status": "candidate",
+      "text": "aaa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Maven Release Artifact Validation",
+  "concept_id": "maven-release-artifact-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/maven_artifact_validation.yml",
+      "source_repo": "apache/hudi"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maven Release Artifact Validation",
+      "sense_id": "maven-release-artifact-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

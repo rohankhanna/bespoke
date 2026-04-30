@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "selimac/tutorial-scads-summer-school-2020-scalable-deep-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "alliedtoasters/synapses",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "shiweiliuiiiiiii/sparse_topology_distance.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "zahraatashgahi/quickselection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "adaptive-sparse-connectivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "artificial-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "complex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning-papers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "evolutionary-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "multi-layer-perceptron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "neuroevolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "randomization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "restricted-boltzmann-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "scalable-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-evolutionary-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:24.186924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Always sparse. Never dense. But never say never. A Sparse Training repository for the Adaptive Sparse Connectivity concept and its algorithmic instantiation, i.e. Sparse Evolutionary Training, to boost Deep Learning scalability on various aspects (e.g. memory and computational time efficiency, representation and generalization power).",
+    "fork": false,
+    "full_name": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+    "html_url": "https://github.com/dcmocanu/sparse-evolutionary-artificial-neural-networks",
+    "language": "Python",
+    "pushed_at": "2021-07-21T20:27:10Z",
+    "stargazers_count": 259,
+    "topics": [
+      "adaptive-sparse-connectivity",
+      "artificial-neural-networks",
+      "classification",
+      "complex-networks",
+      "deep-learning",
+      "deep-learning-algorithms",
+      "deep-learning-papers",
+      "deep-neural-networks",
+      "evolutionary-algorithms",
+      "generative-models",
+      "multi-layer-perceptron",
+      "neuroevolution",
+      "randomization",
+      "restricted-boltzmann-machine",
+      "scalability",
+      "scalable-deep-learning",
+      "sparse-evolutionary-training",
+      "sparse-neural-networks",
+      "sparse-training",
+      "sparsity"
+    ],
+    "updated_at": "2026-04-16T13:21:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alliedtoasters/synapses",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "selimac/tutorial-scads-summer-school-2020-scalable-deep-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiweiliuiiiiiii/sparse_topology_distance.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zahraatashgahi/quickselection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-sparse-connectivity"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-neural-networks"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex-networks"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-algorithms"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-papers"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evolutionary-algorithms"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-layer-perceptron"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroevolution"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "randomization"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restricted-boltzmann-machine"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalability"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalable-deep-learning"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-evolutionary-training"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-neural-networks"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-training"
+    },
+    {
+      "context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

@@ -115,6 +115,30 @@
       "source_repo": "ldclabs/KIP",
       "status": "candidate-context",
       "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate-context",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate-context",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate-context",
+      "text": "\ud83e\udde0 A native graph-based memory system for autonomous AI agents, featuring bio-inspired sleep-based memory consolidation and powered by KIP & AndaDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate-context",
+      "text": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "ldclabs/KIP",
       "status": "candidate",
       "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate",
+      "text": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology."
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ldclabs/KIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ldclabs/anda-hippocampus"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

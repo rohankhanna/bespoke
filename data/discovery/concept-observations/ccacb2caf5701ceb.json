@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006294,
+      "status": "candidate",
+      "text": "compliancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005875,
+      "status": "candidate",
+      "text": "obligingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003461,
+      "status": "candidate",
+      "text": "conformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002855,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002809,
+      "status": "candidate",
+      "text": "deference"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compliance",
+      "sense_id": "compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32035,
+      "status": "candidate",
+      "text": "deference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "submission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15021,
+      "status": "candidate",
+      "text": "abidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14032,
+      "status": "candidate",
+      "text": "complaisance"
+    }
+  ],
+  "concept_id": "compliance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compliance",
+  "observation_id": "ccacb2caf5701ceb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "compliance",
+  "source_context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+  "source_file": null,
+  "source_repo": "bridgecrewio/checkov",
+  "source_repo_description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+}

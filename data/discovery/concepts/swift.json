@@ -808,6 +808,90 @@
       "source_repo": "vapor/redis",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "llama and other  large language models on iOS and MacOS offline using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "Makes it easy to build a list of frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "![](yolo.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate-context",
+      "text": "Real-time on-device text-to-image and image-to-image Semantic Search with video stream camera capture using USearch & UForm AI Swift SDKs for Apple devices \ud83c\udf4f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate-context",
+      "text": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "AeroSpace is an i3-like tiling window manager for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "Non-blocking, event-driven Swift client for Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "[![SSWG Sandbox Incubating Badge](https://img.shields.io/badge/sswg-sandbox-lightgrey.svg)][SSWG Incubation]"
     }
   ],
   "candidate_glosses": [
@@ -1218,6 +1302,48 @@
       "source_repo": "vapor/redis",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate",
+      "text": "![](yolo.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate",
+      "text": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate",
+      "text": "[![SSWG Sandbox Incubating Badge](https://img.shields.io/badge/sswg-sandbox-lightgrey.svg)][SSWG Incubation]"
     }
   ],
   "candidate_related_terms": [
@@ -1849,11 +1975,89 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vapor/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swift-server/RediStack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "\ud83d\udd28 Manual Build"
+    "\ud83d\udd28 Manual Build",
+    "Manual Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate-context",
       "text": "'\ud83d\udd28 Manual Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubyjs/libv8-node",
+      "status": "candidate-context",
+      "text": "Package libv8 from Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubyjs/libv8-node",
+      "status": "candidate-context",
+      "text": "Manual Build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate",
       "text": "'\ud83d\udd28 Manual Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubyjs/libv8-node",
+      "status": "candidate",
+      "text": "Manual Build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/build-manual.yml",
       "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "rubyjs/libv8-node"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

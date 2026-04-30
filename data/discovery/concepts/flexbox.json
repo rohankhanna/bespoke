@@ -19,6 +19,18 @@
       "source_repo": "diegomura/react-pdf",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate-context",
+      "text": "High performance flexbox implementation written in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "diegomura/react-pdf",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "diegomura/react-pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "assert-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsprim",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sshpk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "joyent/node-http-signature",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "assert-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "jsprim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "sshpk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-http-signature",
+      "target": "uuid",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:40.377495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1635
+    },
+    {
+      "path": "package.json",
+      "size": 961
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementation of Joyent's HTTP Signature Scheme",
+    "fork": false,
+    "full_name": "TritonDataCenter/node-http-signature",
+    "html_url": "https://github.com/TritonDataCenter/node-http-signature",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-16T18:34:24Z",
+    "stargazers_count": 403,
+    "topics": [],
+    "updated_at": "2025-11-26T12:23:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joyent/node-http-signature",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

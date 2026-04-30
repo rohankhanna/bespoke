@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "human",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "recommender-system",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "BeMoreHumanOrg/bemorehuman"
+}

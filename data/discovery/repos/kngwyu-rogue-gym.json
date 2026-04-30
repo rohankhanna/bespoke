@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kngwyu/rogue-gym",
+      "target": "kngwyu/rogue-gym-agents-cog19",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kngwyu/rogue-gym",
+      "target": "kngwyu/rogue5.4.4",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:54.359218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2002
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[WIP] Highly customizable rogue-like game for AI expmeriments",
+    "fork": false,
+    "full_name": "kngwyu/rogue-gym",
+    "html_url": "https://github.com/kngwyu/rogue-gym",
+    "language": "Rust",
+    "pushed_at": "2023-12-11T02:22:27Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2025-11-27T03:06:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kngwyu/rogue-gym-agents-cog19",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kngwyu/rogue5.4.4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

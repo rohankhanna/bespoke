@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technical-glossary",
+      "target": "dwyl/learn-redux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technical-glossary",
+      "target": "dwyl/meteor-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technical-glossary",
+      "target": "dwyl/product-owner-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/technical-glossary",
+      "target": "dictionary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/technical-glossary",
+      "target": "glossary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/technical-glossary",
+      "target": "glossary-terms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/technical-glossary",
+      "target": "technical",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:38.408704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcdd A collaborative technical glossary for key words and terms to help anyone learn and understand concepts and prepare for a career as a creative technologist!  \ud83d\ude15 > \ud83e\udd14 > \ud83d\udca1 > \ud83d\ude0a \ud83c\udf89 \ud83d\ude80 ",
+    "fork": false,
+    "full_name": "dwyl/technical-glossary",
+    "html_url": "https://github.com/dwyl/technical-glossary",
+    "language": null,
+    "pushed_at": "2022-07-04T11:48:11Z",
+    "stargazers_count": 28,
+    "topics": [
+      "dictionary",
+      "glossary",
+      "glossary-terms",
+      "technical"
+    ],
+    "updated_at": "2026-03-06T18:50:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-redux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/meteor-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/product-owner-guide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dictionary"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glossary"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glossary-terms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technical"
+    }
+  ]
+}

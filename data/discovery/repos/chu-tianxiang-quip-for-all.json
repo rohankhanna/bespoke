@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chu-tianxiang/QuIP-for-all",
+      "target": "chu-tianxiang/vllm-gptq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:50.573421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5273
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "quip_sharp",
+    "description": "QuIP quantization",
+    "fork": false,
+    "full_name": "chu-tianxiang/QuIP-for-all",
+    "html_url": "https://github.com/chu-tianxiang/QuIP-for-all",
+    "language": "Python",
+    "pushed_at": "2024-03-17T11:46:01Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-27T12:11:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chu-tianxiang/vllm-gptq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

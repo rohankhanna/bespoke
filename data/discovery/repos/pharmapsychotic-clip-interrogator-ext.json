@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:18:49.757908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stable Diffusion WebUI extension for CLIP Interrogator",
+    "fork": false,
+    "full_name": "pharmapsychotic/clip-interrogator-ext",
+    "html_url": "https://github.com/pharmapsychotic/clip-interrogator-ext",
+    "language": "Python",
+    "pushed_at": "2024-06-28T06:22:03Z",
+    "stargazers_count": 542,
+    "topics": [],
+    "updated_at": "2026-04-23T03:13:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeapLabTHU/MLLA",
+      "target": "leaplabthu/flatten-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeapLabTHU/MLLA",
+      "target": "leaplabthu/agent-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:42.756336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2024] Official repository of MLLA",
+    "fork": false,
+    "full_name": "LeapLabTHU/MLLA",
+    "html_url": "https://github.com/LeapLabTHU/MLLA",
+    "language": "Python",
+    "pushed_at": "2025-07-11T05:31:43Z",
+    "stargazers_count": 375,
+    "topics": [],
+    "updated_at": "2026-04-28T08:23:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leaplabthu/agent-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leaplabthu/flatten-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

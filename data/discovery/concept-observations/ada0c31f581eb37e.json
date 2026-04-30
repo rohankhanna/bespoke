@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependency Scanning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependency Scanning"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adopt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adopting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adoption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10454,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Scanning",
+      "sense_id": "dependency-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-scanning",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-scanning",
+  "observation_id": "ada0c31f581eb37e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Dependency Scanning",
+  "source_context_snippet": "Dependency Scanning",
+  "source_file": ".github/workflows/dependency-scanning.yml",
+  "source_repo": "lagom/lagom",
+  "source_repo_description": "Reactive Microservices for the JVM"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39825209,
+      "status": "candidate",
+      "text": "reticular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795571,
+      "status": "candidate",
+      "text": "webbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39782460,
+      "status": "candidate",
+      "text": "webby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39766428,
+      "status": "candidate",
+      "text": "cancellate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39759632,
+      "status": "candidate",
+      "text": "clathrate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reticulate",
+      "sense_id": "reticulate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8021,
+      "status": "candidate",
+      "text": "interconnected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7031,
+      "status": "candidate",
+      "text": "crisscross"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7025,
+      "status": "candidate",
+      "text": "interrelated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "reticular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "fretted"
+    }
+  ],
+  "concept_id": "reticulate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reticulate",
+  "observation_id": "e25fe57cb8b6fa11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "reticulate",
+  "source_context_snippet": "<!-- badges: start -->",
+  "source_file": null,
+  "source_repo": "nanxstats/ssw-r",
+  "source_repo_description": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+}

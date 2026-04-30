@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "edenhill/librdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "confluentinc/confluent-kafka-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "ah-/rdkafka-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "microsoft/faster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "confluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "kafka-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "kafka-clients",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/confluent-kafka-dotnet",
+      "target": "nuget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:28.524519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Confluent's Apache Kafka .NET client",
+    "fork": false,
+    "full_name": "confluentinc/confluent-kafka-dotnet",
+    "html_url": "https://github.com/confluentinc/confluent-kafka-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-28T14:26:22Z",
+    "stargazers_count": 257,
+    "topics": [
+      "c-sharp",
+      "confluent",
+      "dotnet",
+      "kafka",
+      "kafka-client",
+      "kafka-clients",
+      "nuget"
+    ],
+    "updated_at": "2026-04-27T15:17:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ah-/rdkafka-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confluentinc/confluent-kafka-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edenhill/librdkafka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/faster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-client"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-clients"
+    },
+    {
+      "context_snippet": "Confluent's .NET Client for Apache Kafka\u00ae",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    }
+  ]
+}

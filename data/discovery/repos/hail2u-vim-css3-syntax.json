@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:16:46.527894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSS3 syntax (and syntax defined in some foreign specifications) support for Vim's built-in syntax/css.vim",
+    "fork": false,
+    "full_name": "hail2u/vim-css3-syntax",
+    "html_url": "https://github.com/hail2u/vim-css3-syntax",
+    "language": "CSS",
+    "pushed_at": "2026-04-11T03:55:02Z",
+    "stargazers_count": 532,
+    "topics": [],
+    "updated_at": "2026-04-11T03:55:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

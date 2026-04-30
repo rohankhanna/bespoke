@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nightly build of Singularity containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Singularity images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Singularity images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13414,
+      "status": "candidate",
+      "text": "individuality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13414,
+      "status": "candidate",
+      "text": "oddity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12793,
+      "status": "candidate",
+      "text": "category"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12793,
+      "status": "candidate",
+      "text": "ludicrous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12793,
+      "status": "candidate",
+      "text": "number"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Singularity images",
+      "sense_id": "build-singularity-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-singularity-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-singularity-images",
+  "observation_id": "24712d139faed4e4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build Singularity images",
+  "source_context_snippet": "Build Singularity images",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "BioContainers/singularity-build-bot",
+  "source_repo_description": "Nightly build of Singularity containers"
+}

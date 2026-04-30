@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "First-party email analytics for Rails"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "First-party email analytics for Rails"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950264,
+      "status": "candidate",
+      "text": "analytical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929095,
+      "status": "candidate",
+      "text": "isolating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39745346,
+      "status": "candidate",
+      "text": "uninflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955582,
+      "status": "candidate",
+      "text": "parsing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953474,
+      "status": "candidate",
+      "text": "scanning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "analytics",
+      "sense_id": "analytics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "analytics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analytics",
+  "observation_id": "4f1eb3459e653b28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "analytics",
+  "source_context_snippet": "First-party email analytics for Rails",
+  "source_file": null,
+  "source_repo": "ankane/ahoy_email",
+  "source_repo_description": "First-party email analytics for Rails"
+}

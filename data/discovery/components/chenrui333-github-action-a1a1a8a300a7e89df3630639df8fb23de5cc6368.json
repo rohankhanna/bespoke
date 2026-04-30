@@ -1,0 +1,12 @@
+{
+  "component": "chenrui333/github-action@a1a1a8a300a7e89df3630639df8fb23de5cc6368",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tw-in-js/twind"
+    }
+  ]
+}

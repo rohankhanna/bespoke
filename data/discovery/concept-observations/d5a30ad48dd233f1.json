@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PMML scoring library for Spark as SparkML Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pmml-spark-ml",
+      "sense_id": "pmml-spark-ml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pmml-spark-ml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pmml-spark-ml",
+  "observation_id": "d5a30ad48dd233f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "pmml-spark-ml",
+  "source_context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+  "source_file": null,
+  "source_repo": "autodeployai/pmml4s-spark",
+  "source_repo_description": "PMML scoring library for Spark as SparkML Transformer"
+}

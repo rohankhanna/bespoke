@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " \u26a0\ufe0f Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reopen for QA Needed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reopen for QA Needed"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32814,
+      "status": "candidate",
+      "text": "blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16404,
+      "status": "candidate",
+      "text": "rip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16404,
+      "status": "candidate",
+      "text": "ripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16404,
+      "status": "candidate",
+      "text": "ripping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reopen for QA Needed",
+      "sense_id": "reopen-for-qa-needed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reopen-for-qa-needed",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reopen-for-qa-needed",
+  "observation_id": "f39ae89ed1875677",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Reopen for QA Needed",
+  "source_context_snippet": "Reopen for QA Needed",
+  "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+  "source_repo": "mozilla-mobile/fenix",
+  "source_repo_description": " \u26a0\ufe0f Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android"
+}

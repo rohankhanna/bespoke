@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "richardodliu/OpenCodeEval",
+      "target": "bigcode-project/bigcodebench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:05.869059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5915
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 578
+    },
+    {
+      "path": "requirements.txt",
+      "size": 18
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "richardodliu/OpenCodeEval",
+    "html_url": "https://github.com/richardodliu/OpenCodeEval",
+    "language": "Python",
+    "pushed_at": "2026-03-09T17:32:15Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-10T06:51:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcode-project/bigcodebench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

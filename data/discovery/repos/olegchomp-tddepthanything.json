@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "olegchomp/touchdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "spacewalk01/depth-anything-tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "intentdev/toparray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "depth-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything",
+      "target": "touchdesigner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:55.963609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2647
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation.",
+    "fork": false,
+    "full_name": "olegchomp/TDDepthAnything",
+    "html_url": "https://github.com/olegchomp/TDDepthAnything",
+    "language": "Python",
+    "pushed_at": "2024-07-03T02:06:47Z",
+    "stargazers_count": 176,
+    "topics": [
+      "depth-anything",
+      "depth-estimation",
+      "monocular-depth-estimation",
+      "tensorrt",
+      "touchdesigner"
+    ],
+    "updated_at": "2026-04-21T15:15:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intentdev/toparray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olegchomp/touchdiffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacewalk01/depth-anything-tensorrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "touchdesigner"
+    }
+  ]
+}

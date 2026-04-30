@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "shiroa::ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/shiroa",
+      "status": "candidate-context",
+      "text": "shiroa is a simple tool for creating modern online books in pure typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/shiroa",
+      "status": "candidate-context",
+      "text": "shiroa::ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/shiroa",
+      "status": "candidate",
+      "text": "shiroa::ci"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986036,
+      "status": "candidate",
+      "text": "mainland china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978857,
+      "status": "candidate",
+      "text": "hellenism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978231,
+      "status": "candidate",
+      "text": "mexican american"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9961783,
+      "status": "candidate",
+      "text": "semitism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9927596,
+      "status": "candidate",
+      "text": "two cents"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "shiroa::ci",
+  "concept_id": "shiroa-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Myriad-Dreamin/shiroa"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "shiroa::ci",
+      "sense_id": "shiroa-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

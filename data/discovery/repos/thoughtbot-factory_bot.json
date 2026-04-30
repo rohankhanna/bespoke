@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml"
+    },
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "djezzzl/factory_trace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "donny741/ruby-lsp-factory_bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "johansenja/ruby-lsp-rails-factory-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "shopify/ruby-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "update-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "update-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "factories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "factory-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "factory-girl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "fixtures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "rubygems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot",
+      "target": "thoughtbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:34.730435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3993
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1768
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1035
+    },
+    {
+      "path": ".github/workflows/dynamic-readme.yml",
+      "size": 353
+    },
+    {
+      "path": ".github/workflows/dynamic-security.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library for setting up Ruby objects as test data.",
+    "fork": false,
+    "full_name": "thoughtbot/factory_bot",
+    "html_url": "https://github.com/thoughtbot/factory_bot",
+    "language": "Ruby",
+    "pushed_at": "2026-04-17T20:40:45Z",
+    "stargazers_count": 8194,
+    "topics": [
+      "factories",
+      "factory-bot",
+      "factory-girl",
+      "fixtures",
+      "rails",
+      "ruby",
+      "rubygems",
+      "testing",
+      "thoughtbot"
+    ],
+    "updated_at": "2026-04-30T01:30:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djezzzl/factory_trace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donny741/ruby-lsp-factory_bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johansenja/ruby-lsp-rails-factory-bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/ruby-lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "update-templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "term": "update-templates"
+    },
+    {
+      "context_snippet": "update-security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "term": "update-security"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factories"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factory-bot"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factory-girl"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fixtures"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubygems"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thoughtbot"
+    }
+  ]
+}

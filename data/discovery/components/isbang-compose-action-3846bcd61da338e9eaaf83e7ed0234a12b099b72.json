@@ -1,0 +1,12 @@
+{
+  "component": "isbang/compose-action@3846bcd61da338e9eaaf83e7ed0234a12b099b72",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    }
+  ]
+}

@@ -503,6 +503,54 @@
       "source_repo": "LukeMathWalker/cargo-chef",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the RandomX proof of work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "Fast Rust port of Steve Yegge's beads: local-first, non-invasive issue tracker storing tasks in SQLite with JSONL export for git collaboration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "Security Audit"
     }
   ],
   "candidate_glosses": [
@@ -751,6 +799,30 @@
       "source_repo": "LukeMathWalker/cargo-chef",
       "status": "candidate",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate",
+      "text": "Security Audit"
     }
   ],
   "candidate_related_terms": [
@@ -1154,11 +1226,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/scheduled-audit.yml",
       "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit-checker.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "spacemeshos/randomx-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "Dicklesworthstone/beads_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

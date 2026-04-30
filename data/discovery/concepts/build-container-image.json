@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "build container image"
+    "build container image",
+    "Build Container Image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate-context",
       "text": "build container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": "Build Container Image"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate",
       "text": "build container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate",
+      "text": "Build Container Image"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +101,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-container.yml",
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_container_image.yaml",
+      "source_repo": "galaxyproject/galaxy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

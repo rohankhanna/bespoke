@@ -1,0 +1,225 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "bradyfu/video-mme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "mulanai/mulan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "opengvlab/internimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "czczup/vit-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "gpt-4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "image-text-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "video-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "vision-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "vit-22b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL",
+      "target": "vit-6b",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:49.066918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70069
+    },
+    {
+      "path": "requirements.txt",
+      "size": 137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4o.  \u63a5\u8fd1GPT-4o\u8868\u73b0\u7684\u5f00\u6e90\u591a\u6a21\u6001\u5bf9\u8bdd\u6a21\u578b",
+    "fork": false,
+    "full_name": "OpenGVLab/InternVL",
+    "html_url": "https://github.com/OpenGVLab/InternVL",
+    "language": "Python",
+    "pushed_at": "2025-09-22T01:36:48Z",
+    "stargazers_count": 10003,
+    "topics": [
+      "gpt",
+      "gpt-4o",
+      "gpt-4v",
+      "image-classification",
+      "image-text-retrieval",
+      "llm",
+      "multi-modal",
+      "semantic-segmentation",
+      "video-classification",
+      "vision-language-model",
+      "vit-22b",
+      "vit-6b"
+    ],
+    "updated_at": "2026-04-29T21:57:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradyfu/video-mme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "czczup/vit-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mulanai/mulan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/internimage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4o"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4v"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-text-retrieval"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-classification"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vit-22b"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vit-6b"
+    }
+  ]
+}

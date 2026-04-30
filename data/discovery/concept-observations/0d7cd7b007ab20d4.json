@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Weekly unittest retagger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Weekly unittest retagger"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13497,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13256,
+      "status": "candidate",
+      "text": "life"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13256,
+      "status": "candidate",
+      "text": "pay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13256,
+      "status": "candidate",
+      "text": "series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12721,
+      "status": "candidate",
+      "text": "alt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Weekly unittest retagger",
+      "sense_id": "run-weekly-unittest-retagger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-weekly-unittest-retagger",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-weekly-unittest-retagger",
+  "observation_id": "0d7cd7b007ab20d4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Run Weekly unittest retagger",
+  "source_context_snippet": "Run Weekly unittest retagger",
+  "source_file": ".github/workflows/ci-unittest-retagger.yml",
+  "source_repo": "oracle/graalpython",
+  "source_repo_description": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+}

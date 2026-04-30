@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Suggestions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Suggestions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050253,
+      "status": "candidate",
+      "text": "hint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041322,
+      "status": "candidate",
+      "text": "proposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039436,
+      "status": "candidate",
+      "text": "proffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037797,
+      "status": "candidate",
+      "text": "prompting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005597,
+      "status": "candidate",
+      "text": "trace"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Suggestions",
+      "sense_id": "suggestions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "suggestions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "suggestions",
+  "observation_id": "6ce698caf3f5d6d4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Suggestions",
+  "source_context_snippet": "Suggestions",
+  "source_file": ".github/workflows/suggestions.yml",
+  "source_repo": "jordemort/action-pyright",
+  "source_repo_description": "A GitHub Action to run pyright"
+}

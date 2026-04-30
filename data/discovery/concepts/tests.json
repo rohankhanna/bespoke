@@ -3673,6 +3673,606 @@
       "source_repo": "vietanhdev/anylabeling",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A minimal training framework for scaling FLA models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "Go bindings for GLFW 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "status": "candidate-context",
+      "text": "PMML scoring library for Spark as SparkML Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tj/dox",
+      "status": "candidate-context",
+      "text": "JavaScript documentation generator for node using markdown and jsdoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tj/dox",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "Redirect checker for .htaccess files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruntjs/grunt-contrib-cssmin",
+      "status": "candidate-context",
+      "text": "Compress CSS files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-cssmin",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SvenskaSpel/locust-swarm",
+      "status": "candidate-context",
+      "text": "A tool for launching distributed locust runs on a set of load generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-swarm",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate-context",
+      "text": "tiny vision language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "A fast Python in-process signal/event dispatching system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "Python composable command line interface toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "The comprehensive WSGI web application library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "Package manager version manager for Node.js projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate-context",
+      "text": "Provides an uniform layer to support PyQt5, PySide2, PyQt6, PySide6 with a single codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "Deforum extension for AUTOMATIC1111's Stable Diffusion webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate-context",
+      "text": "Pytorch library for fast transformer implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate-context",
+      "text": "A distributed captioning thingy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "All-in-One Backend as a Service with Headless CMS Power"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CMBAgents/cmbagent",
+      "status": "candidate-context",
+      "text": "Multi-agent system for research, powered by ag2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMBAgents/cmbagent",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/cli",
+      "status": "candidate-context",
+      "text": "Heroku CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cli",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "test helpers for oclif components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-cli-tools/chokidar-cli",
+      "status": "candidate-context",
+      "text": "Fast cross-platform cli utility to watch file system changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-cli-tools/chokidar-cli",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trptcolin/reply",
+      "status": "candidate-context",
+      "text": "REPL-y: A fitter, happier, more productive REPL for Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trptcolin/reply",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "backdround/tabscope.nvim",
+      "status": "candidate-context",
+      "text": "Manages buffers as tab-local buffers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backdround/tabscope.nvim",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coasys/flux",
+      "status": "candidate-context",
+      "text": "A social toolkit for the new internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/flux",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "Time-sharing car rental system suite based on CloudWeGo series framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate-context",
+      "text": "\u652f\u6301 kitex <-> dubbo \u4e92\u901a\u7684 dubbo \u534f\u8bae\u7f16\u89e3\u7801\u5668\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate-context",
+      "text": "It's the extension for Kitex to load service governance config from Apollo (https://github.com/apolloconfig)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate-context",
+      "text": "It's the extension for Kitex to load service governance config from etcd (https://etcd.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate-context",
+      "text": "Tracking performance changes for Hertz "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "A restricted execution environment for Python to run untrusted code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": "a little task queue for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate-context",
+      "text": "Install Argo CD extensions using init-containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "Manipulation and analysis of geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrianPugh/cyclopts",
+      "status": "candidate-context",
+      "text": "Intuitive, easy CLIs based on python type hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/cyclopts",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsvine/pdfplumber",
+      "status": "candidate-context",
+      "text": "Plumb a PDF for detailed information about each char, rectangle, line, et cetera \u2014\u00a0and easily extract text and tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsvine/pdfplumber",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madsim-rs/getrandom",
+      "status": "candidate-context",
+      "text": "A small cross-platform library for retrieving random data from (operating) system source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madsim-rs/getrandom",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A Ruby gem and unofficial documentation of Tesla's JSON API for the Model S, 3, X, and Y."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/obsohtml",
+      "status": "candidate-context",
+      "text": "HTML checker for obsolete and proprietary elements and attributes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/obsohtml",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate-context",
+      "text": "A documentation generator for Typst in Typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate-context",
+      "text": "tests"
     }
   ],
   "candidate_glosses": [
@@ -5529,6 +6129,306 @@
       "source_repo": "vietanhdev/anylabeling",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tj/dox",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-cssmin",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-swarm",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/fast-transformers",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMBAgents/cmbagent",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cli",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-cli-tools/chokidar-cli",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trptcolin/reply",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "backdround/tabscope.nvim",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/flux",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/cyclopts",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsvine/pdfplumber",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madsim-rs/getrandom",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/obsohtml",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mc-Zen/tidy",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "candidate_related_terms": [
@@ -7875,11 +8775,413 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "vietanhdev/anylabeling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fla-org/flame"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/distrax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "go-gl/glfw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "autodeployai/pmml4s-spark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.workflow.yml",
+      "source_repo": "tj/dox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/compressorjs-next"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/htaccess-punk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/image-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gruntjs/grunt-contrib-cssmin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "SvenskaSpel/locust-swarm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "m87-labs/moondream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets-eco/blinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/click"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/itsdangerous"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/werkzeug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/corepack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "idiap/fast-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bghira/CaptionFlow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastschema/fastschema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "CMBAgents/cmbagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "open-cli-tools/chokidar-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "trptcolin/reply"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "backdround/tabscope.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kriszyp/lmdb-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jonschlinkert/eval-estree-expression"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "coasys/flux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "CyanAsterisk/FreeCar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/codec-dubbo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-apollo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kitex-contrib/config-etcd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/hertz-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "zopefoundation/RestrictedPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "coleifer/huey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ulid/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "BrianPugh/cyclopts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jsvine/pdfplumber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pymupdf/PyMuPDF"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mujocolab/mjlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bonukai/MediaTracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "madsim-rs/getrandom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "timdorr/tesla-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/obsohtml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "Mc-Zen/tidy"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

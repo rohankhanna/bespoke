@@ -83,13 +83,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
-      "target": "stability-ai/stablelm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Lightning-AI/litgpt",
       "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
@@ -234,7 +227,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:02:04.519742+00:00",
+  "fetched_at": "2026-04-30T10:16:37.931407+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -271,7 +264,7 @@
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
     "pushed_at": "2026-04-25T05:36:05Z",
-    "stargazers_count": 13332,
+    "stargazers_count": 13331,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -281,17 +274,12 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-04-29T14:28:54Z"
+    "updated_at": "2026-04-30T07:56:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "lightning-ai/lit-stablelm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stability-ai/stablelm",
       "source_file": "README.md"
     },
     {

@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "bounceme/remote-viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "brianhuster/dirvish-git.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "fsharpasharp/vim-dirvinist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "brianhuster/dirvish-do.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "directory-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish",
+      "target": "viml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:42.057718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Directory viewer for Vim :zap: netrW => netrL",
+    "fork": false,
+    "full_name": "justinmk/vim-dirvish",
+    "html_url": "https://github.com/justinmk/vim-dirvish",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-29T13:12:40Z",
+    "stargazers_count": 1264,
+    "topics": [
+      "directory-browser",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "plugin",
+      "vim",
+      "vim-plugin",
+      "viml"
+    ],
+    "updated_at": "2026-04-29T13:13:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bounceme/remote-viewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brianhuster/dirvish-do.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brianhuster/dirvish-git.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsharpasharp/vim-dirvinist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directory-browser"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "dirvish.vim :zap:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    }
+  ]
+}

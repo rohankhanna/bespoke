@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "vpetukhov/dropestanalysis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "hms-dbmi/dropest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "kharchenkolab/dropestr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "preprocessing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "scrna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst",
+      "target": "single-cell-rna-seq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:41.814130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pipeline for initial analysis of droplet-based single-cell RNA-seq data",
+    "fork": false,
+    "full_name": "kharchenkolab/dropEst",
+    "html_url": "https://github.com/kharchenkolab/dropEst",
+    "language": "C++",
+    "pushed_at": "2022-06-22T02:15:17Z",
+    "stargazers_count": 95,
+    "topics": [
+      "pipeline",
+      "preprocessing",
+      "scrna-seq",
+      "single-cell-rna-seq"
+    ],
+    "updated_at": "2025-11-06T04:19:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hms-dbmi/dropest",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kharchenkolab/dropestr",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vpetukhov/dropestanalysis",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dropEst - Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    },
+    {
+      "context_snippet": "dropEst - Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preprocessing"
+    },
+    {
+      "context_snippet": "dropEst - Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrna-seq"
+    },
+    {
+      "context_snippet": "dropEst - Pipeline",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-cell-rna-seq"
+    }
+  ]
+}

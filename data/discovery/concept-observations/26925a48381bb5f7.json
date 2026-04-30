@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The use of this Docker image simplifies the process of running an Android emulator within a Docker container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991586,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050901,
+      "status": "candidate",
+      "text": "trying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049556,
+      "status": "candidate",
+      "text": "hardship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043807,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037268,
+      "status": "candidate",
+      "text": "outreach"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "testing",
+      "sense_id": "testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15051,
+      "status": "candidate",
+      "text": "examination"
+    }
+  ],
+  "concept_id": "testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "testing",
+  "observation_id": "26925a48381bb5f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "testing",
+  "source_context_snippet": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026",
+  "source_file": null,
+  "source_repo": "amrsa1/Android-Emulator-image",
+  "source_repo_description": "The use of this Docker image simplifies the process of running an Android emulator within a Docker container"
+}

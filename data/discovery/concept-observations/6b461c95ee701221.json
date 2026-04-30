@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official release of the ProGen models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Suite of open-sourced projects and models for protein engineering and design."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Suite of open-sourced projects and models for protein engineering and design."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045351,
+      "status": "candidate",
+      "text": "enzyme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044776,
+      "status": "candidate",
+      "text": "proteinaceous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044643,
+      "status": "candidate",
+      "text": "albumin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036408,
+      "status": "candidate",
+      "text": "nucleic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946938,
+      "status": "candidate",
+      "text": "purified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protein",
+      "sense_id": "protein#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protein",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protein",
+  "observation_id": "6b461c95ee701221",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "protein",
+  "source_context_snippet": "Suite of open-sourced projects and models for protein engineering and design.",
+  "source_file": null,
+  "source_repo": "salesforce/progen",
+  "source_repo_description": "Official release of the ProGen models"
+}

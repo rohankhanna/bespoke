@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "low-level-vision",
+      "sense_id": "low-level-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "low-level-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "low-level-vision",
+  "observation_id": "3fd1784a0cee430c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "low-level-vision",
+  "source_context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+  "source_file": null,
+  "source_repo": "cuiziteng/Luminance-GS",
+  "source_repo_description": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment"
+}

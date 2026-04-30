@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build ComfyUI Desktop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "Build ComfyUI Desktop"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "Build ComfyUI Desktop"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "dell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "desk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11001,
+      "status": "candidate",
+      "text": "architecture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build ComfyUI Desktop",
+  "concept_id": "build-comfyui-desktop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build ComfyUI Desktop",
+      "sense_id": "build-comfyui-desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

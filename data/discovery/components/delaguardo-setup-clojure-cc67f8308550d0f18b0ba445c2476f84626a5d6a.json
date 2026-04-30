@@ -1,0 +1,17 @@
+{
+  "component": "DeLaGuardo/setup-clojure@cc67f8308550d0f18b0ba445c2476f84626a5d6a",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojupyter/clojupyter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/toolsdeps-build.yml",
+      "source_repo": "clojupyter/clojupyter"
+    }
+  ]
+}

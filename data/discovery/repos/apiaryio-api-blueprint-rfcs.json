@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apiaryio/api-blueprint-rfcs",
+      "target": "django/deps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:01.963227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The API Blueprint RFC process",
+    "fork": false,
+    "full_name": "apiaryio/api-blueprint-rfcs",
+    "html_url": "https://github.com/apiaryio/api-blueprint-rfcs",
+    "language": null,
+    "pushed_at": "2021-09-04T16:35:47Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-02-27T23:37:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "django/deps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

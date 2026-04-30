@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "phodal/shire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "jerryjliu/llama_index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "spring-projects-experimental/spring-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "Frontend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "gradle/gradle-build-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "gradle/gradle-build-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "Docker CD frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "gradle/gradle-build-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "Docker CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "genaistack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unit-mesh/choco-builder",
+      "target": "multi-agents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:17.021693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6549
+    },
+    {
+      "path": "Dockerfile",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/build-frontend.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/docker-frontend.yaml",
+      "size": 1104
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 1121
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChocoBuilder (Chocolate Factory) is a cutting-edge LLM toolkit designed to empower you in creating your very own AI assistant.Chocolate Factory \u662f\u4e00\u6b3e\u5f00\u6e90\u7684 LLM \u5e94\u7528\u5f00\u53d1\u6846\u67b6\uff0c\u65e8\u5728\u5e2e\u52a9\u60a8\u8f7b\u677e\u6253\u9020\u5f3a\u5927\u7684\u8f6f\u4ef6\u5f00\u53d1 SDLC + LLM \u751f\u6210\u52a9\u624b\u3002\u65e0\u8bba\u60a8\u662f\u9700\u8981\u751f\u6210\u524d\u7aef\u9875\u9762\u3001\u540e\u7aef API\u3001SQL \u56fe\u8868\uff0c\u8fd8\u662f\u6d4b\u8bd5\u7528\u4f8b\u6570\u636e\uff0cChocolate Factory \u90fd\u80fd\u6ee1\u8db3\u60a8\u7684\u9700\u6c42\u3002",
+    "fork": false,
+    "full_name": "unit-mesh/choco-builder",
+    "html_url": "https://github.com/unit-mesh/choco-builder",
+    "language": "Kotlin",
+    "pushed_at": "2024-07-24T01:45:29Z",
+    "stargazers_count": 222,
+    "topics": [
+      "agent",
+      "aigc",
+      "genaistack",
+      "llm",
+      "multi-agents",
+      "openai"
+    ],
+    "updated_at": "2026-04-15T13:35:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryjliu/llama_index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phodal/shire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects-experimental/spring-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Frontend CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "term": "Frontend CI"
+    },
+    {
+      "context_snippet": "Docker CD frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-frontend.yaml",
+      "term": "Docker CD frontend"
+    },
+    {
+      "context_snippet": "Docker CD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker CD"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genaistack"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents"
+    }
+  ]
+}

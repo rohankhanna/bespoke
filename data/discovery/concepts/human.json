@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "human"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate-context",
+      "text": "Human Image Gender Classifier for Expressive Body Capture"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate-context",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "VPoser: Variational Human Pose Prior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "status": "candidate-context",
+      "text": "The recommendation engine with particular focus on uniqueness of the person receiving the rec."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "status": "candidate-context",
+      "text": "<!---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "status": "candidate",
+      "text": "<!---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749946,
+      "status": "candidate",
+      "text": "human being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39746836,
+      "status": "candidate",
+      "text": "hominid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39745999,
+      "status": "candidate",
+      "text": "hominine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39669977,
+      "status": "candidate",
+      "text": "anthropoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662175,
+      "status": "candidate",
+      "text": "anthropomorphic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37037,
+      "status": "candidate",
+      "text": "frail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33052,
+      "status": "candidate",
+      "text": "soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "weak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25042,
+      "status": "candidate",
+      "text": "individual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "fallible"
+    }
+  ],
+  "canonical_name": "human",
+  "concept_id": "human",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human",
+      "sense_id": "human#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

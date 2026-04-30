@@ -718,6 +718,96 @@
       "source_repo": "py-cov-action/python-coverage-comment-action",
       "status": "candidate-context",
       "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "CLI interfaces & config objects, from types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "      Fklang \u662f\u4e00\u4e2a\u9762\u5411\u8f6f\u4ef6\u5f00\u53d1\u5de5\u4e1a\u5316\u7684\u67b6\u6784\u8bbe\u8ba1 DSL\uff0c\u901a\u8fc7\u663e\u6027\u5316\u8f6f\u4ef6\u67b6\u6784\u8bbe\u8ba1\uff0c\u4ee5\u786e\u4fdd\u8f6f\u4ef6\u7cfb\u7edf\u63cf\u8ff0\u4e0e\u5b9e\u73b0\u7684\u4e00\u81f4\u6027\u3002\u5e76\u5728\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5185\u5d4c\u5bf9\u4e8e AI \u4ee3\u7801\u751f\u6210\u8f6f\u4ef6\u7684\u652f\u6301\uff0c\u4ee5\u6784\u7b51\u5b8c\u6574\u7684\u5f00\u53d1\u8005\u4f53\u9a8c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "An effective DevOps analysis and auto-suggest tool\u3002Coco \u662f\u4e00\u4e2a\u7814\u53d1\u6548\u80fd\u5206\u6790\u5de5\u5177\uff0c\u5982\u56e2\u961f\u53d1\u5c55\u73b0\u72b6\uff08\u6839\u636e\u67b6\u6784\u590d\u6742\u5ea6\u53ca\u884c\u6570\u53d8\u66f4\uff09\u3001\u56e2\u961f\u6f14\u8fdb\u3001\u5386\u53f2\u5206\u6790\u7b49\u3002\u751f\u6210\u53ef\u89c6\u5316\u62a5\u544a\u53ca\u5bf9\u5e94\u7684\u6539\u8fdb\u5efa\u8bae\u3002 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-environment-tools",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to the RandomX proof of work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "coverage"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1164,54 @@
       "source_repo": "py-cov-action/python-coverage-comment-action",
       "status": "candidate",
       "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-environment-tools",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/randomx-rs",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate",
+      "text": "coverage"
     }
   ],
   "candidate_related_terms": [
@@ -1559,11 +1697,83 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "py-cov-action/python-coverage-comment-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "ChillFish8/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "feakin/fklang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "inherd/coco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "microsoft/python-environment-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cov.yml",
+      "source_repo": "spacemeshos/randomx-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

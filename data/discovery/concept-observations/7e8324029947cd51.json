@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official skills for the GLM family of models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041503,
+      "status": "candidate",
+      "text": "accomplishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040712,
+      "status": "candidate",
+      "text": "acquirement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040249,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039431,
+      "status": "candidate",
+      "text": "attainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038943,
+      "status": "candidate",
+      "text": "science"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skills",
+      "sense_id": "skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "skills",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skills",
+  "observation_id": "7e8324029947cd51",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "skills",
+  "source_context_snippet": "[\u4e2d\u6587\u6587\u6863](README_zh.md)",
+  "source_file": null,
+  "source_repo": "zai-org/GLM-skills",
+  "source_repo_description": "Official skills for the GLM family of models."
+}

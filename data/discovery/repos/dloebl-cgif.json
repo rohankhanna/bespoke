@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "dloebl/cgif",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "file-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "gif89a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "picture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "size-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dloebl/cgif",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:36.228888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6675
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2035
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GIF encoder written in C",
+    "fork": false,
+    "full_name": "dloebl/cgif",
+    "html_url": "https://github.com/dloebl/cgif",
+    "language": "C",
+    "pushed_at": "2026-03-31T10:00:51Z",
+    "stargazers_count": 146,
+    "topics": [
+      "animation",
+      "c",
+      "c99",
+      "compression",
+      "encoder",
+      "fast",
+      "file-format",
+      "gif",
+      "gif89a",
+      "graphics",
+      "image",
+      "library",
+      "lightweight",
+      "lzw",
+      "picture",
+      "size-optimization",
+      "video"
+    ],
+    "updated_at": "2026-04-02T15:46:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-format"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gif89a"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "picture"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "size-optimization"
+    },
+    {
+      "context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

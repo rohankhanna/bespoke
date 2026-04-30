@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "filecoin-protocol"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/specs",
+      "status": "candidate-context",
+      "text": "The Filecoin protocol specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/specs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/filecoin-project/specs/workflows/CI/badge.svg)](https://github.com/filecoin-project/specs/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/specs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/filecoin-project/specs/workflows/CI/badge.svg)](https://github.com/filecoin-project/specs/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "filecoin-protocol",
+  "concept_id": "filecoin-protocol",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/specs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filecoin-protocol",
+      "sense_id": "filecoin-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

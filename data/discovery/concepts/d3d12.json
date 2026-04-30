@@ -55,6 +55,18 @@
       "source_repo": "baldurk/renderdoc",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics library and rendering framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "baldurk/renderdoc",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "baldurk/renderdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

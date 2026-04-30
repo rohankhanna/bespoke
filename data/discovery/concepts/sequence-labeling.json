@@ -19,6 +19,18 @@
       "source_repo": "flairNLP/flair",
       "status": "candidate-context",
       "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "NLP DNN Toolkit - Building Your NLP DNN Models Like Playing Lego"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "flairNLP/flair",
       "status": "candidate",
       "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "flairNLP/flair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

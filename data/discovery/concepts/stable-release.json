@@ -25,6 +25,18 @@
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
       "status": "candidate-context",
       "text": "Stable Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "A Python library for multilingual phonemization and Text-to-Speech (TTS) using ONNX models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "Stable Release"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate",
+      "text": "Stable Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
       "status": "candidate",
       "text": "Stable Release"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish_stable.yml",
       "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

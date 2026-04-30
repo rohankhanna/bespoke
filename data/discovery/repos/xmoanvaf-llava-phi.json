@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmoanvaf/llava-phi",
+      "target": "zhuyiche/mipha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmoanvaf/llava-phi",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmoanvaf/llava-phi",
+      "target": "pku-alignment/safe-rlhf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "xmoanvaf/llava-phi",
+      "target": "zhuyiche/mipha",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:26.213975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6485
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "xmoanvaf/llava-phi",
+    "html_url": "https://github.com/xmoanvaf/llava-phi",
+    "language": "Python",
+    "pushed_at": "2024-12-12T04:07:25Z",
+    "stargazers_count": 402,
+    "topics": [],
+    "updated_at": "2026-04-08T23:49:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-alignment/safe-rlhf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuyiche/mipha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuyiche/mipha",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

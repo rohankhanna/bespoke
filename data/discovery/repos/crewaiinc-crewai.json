@@ -388,7 +388,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:50:49.058435+00:00",
+  "fetched_at": "2026-04-30T09:16:05.318899+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -440,8 +440,8 @@
     "full_name": "crewAIInc/crewAI",
     "html_url": "https://github.com/crewAIInc/crewAI",
     "language": "Python",
-    "pushed_at": "2026-04-29T21:58:42Z",
-    "stargazers_count": 50306,
+    "pushed_at": "2026-04-30T04:52:57Z",
+    "stargazers_count": 50331,
     "topics": [
       "agents",
       "ai",
@@ -449,7 +449,7 @@
       "aiagentframework",
       "llms"
     ],
-    "updated_at": "2026-04-30T02:13:06Z"
+    "updated_at": "2026-04-30T09:13:34Z"
   },
   "repo_links": [],
   "terms": [

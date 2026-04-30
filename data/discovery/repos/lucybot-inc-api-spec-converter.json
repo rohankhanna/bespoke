@@ -151,13 +151,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LucyBot-Inc/api-spec-converter",
-      "target": "apiaryio/api-blueprint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "LucyBot-Inc/api-spec-converter",
       "target": "lucybot/api-spec-converter",
@@ -360,7 +353,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T02:55:09.097855+00:00",
+  "fetched_at": "2026-04-30T10:30:05.280071+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -390,11 +383,6 @@
     "updated_at": "2026-04-23T13:47:55Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apiaryio/api-blueprint",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "mashery/iodocs",

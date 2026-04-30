@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ai-safety-projects-index",
+      "target": "danielrosehill/favorite-code-libraries",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/deployments-index",
+      "target": "danielrosehill/feature-ideas-and-requests",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/docs-and-notes-index",
+      "target": "danielrosehill/geopolitical-and-osint-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/experiments-and-evaluations-index",
+      "target": "danielrosehill/geopol-forecasts-index",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:53:21.943336+00:00",
+  "fetched_at": "2026-04-30T09:24:39.710963+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +71,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-safety-projects-index",
+      "full_name": "danielrosehill/favorite-code-libraries",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/deployments-index",
+      "full_name": "danielrosehill/feature-ideas-and-requests",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/docs-and-notes-index",
+      "full_name": "danielrosehill/geopol-forecasts-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/experiments-and-evaluations-index",
+      "full_name": "danielrosehill/geopolitical-and-osint-index",
       "source_file": "README.md"
     }
   ],

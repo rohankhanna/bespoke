@@ -31,6 +31,18 @@
       "source_repo": "DNSCrypt/dnscrypt-proxy",
       "status": "candidate-context",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "DNSCrypt/dnscrypt-proxy",
       "status": "candidate",
       "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate",
+      "text": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "DNSCrypt/dnscrypt-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Register Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "docket"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Register Package",
+  "concept_id": "register-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/Register.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Register Package",
+      "sense_id": "register-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

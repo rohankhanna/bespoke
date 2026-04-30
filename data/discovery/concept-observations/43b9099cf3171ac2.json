@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Export Workflow Telemetry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Export Workflow Telemetry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23617,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23617,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "jet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "jets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "scan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export Workflow Telemetry",
+      "sense_id": "export-workflow-telemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "export-workflow-telemetry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "export-workflow-telemetry",
+  "observation_id": "43b9099cf3171ac2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Export Workflow Telemetry",
+  "source_context_snippet": "Export Workflow Telemetry",
+  "source_file": ".github/workflows/github-export-otel.yml",
+  "source_repo": "ClickHouse/clickhouse-js",
+  "source_repo_description": "Official JS client for ClickHouse DB"
+}

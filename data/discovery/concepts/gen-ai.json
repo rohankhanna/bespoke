@@ -31,6 +31,18 @@
       "source_repo": "TabbyML/tabby",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "TabbyML/tabby",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

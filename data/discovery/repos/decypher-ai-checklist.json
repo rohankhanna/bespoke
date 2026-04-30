@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "decypher-ai/checklist",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:14.766840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Beyond Accuracy: Behavioral Testing of NLP models with CheckList",
+    "fork": true,
+    "full_name": "decypher-ai/checklist",
+    "html_url": "https://github.com/decypher-ai/checklist",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-20T14:27:58Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-10-26T07:59:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

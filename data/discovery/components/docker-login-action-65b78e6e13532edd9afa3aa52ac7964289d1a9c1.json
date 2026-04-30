@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "theroyallab/tabbyAPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox"
     }
   ]
 }

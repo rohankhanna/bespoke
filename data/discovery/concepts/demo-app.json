@@ -31,6 +31,18 @@
       "source_repo": "infinitered/nsfwjs-mobile",
       "status": "candidate-context",
       "text": "nsfwjsmobile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "Semantic Search demo featuring UForm, USearch, UCall, and StreamLit, to visual and retrieve from image datasets, similar to \"CLIP Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "infinitered/nsfwjs-mobile",
       "status": "candidate",
       "text": "nsfwjsmobile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "infinitered/nsfwjs-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Red Alert Open Source Projects](banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Red Alert Open Source Projects](banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041349,
+      "status": "candidate",
+      "text": "zion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043232,
+      "status": "candidate",
+      "text": "yisrael"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043231,
+      "status": "candidate",
+      "text": "jerusalem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042890,
+      "status": "candidate",
+      "text": "sharon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041298,
+      "status": "candidate",
+      "text": "palestinian"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "israel",
+      "sense_id": "israel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "zion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "yisrael"
+    }
+  ],
+  "concept_id": "israel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "israel",
+  "observation_id": "845282b0abaaf44b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "israel",
+  "source_context_snippet": "![Red Alert Open Source Projects](banner.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Awesome-Red-Alerts",
+  "source_repo_description": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel"
+}

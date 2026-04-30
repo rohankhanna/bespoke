@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:08:57.997558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Jorenar/minPlug",
+    "html_url": "https://github.com/Jorenar/minPlug",
+    "language": "Vim Script",
+    "pushed_at": "2025-12-22T04:30:26Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-12-22T04:30:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

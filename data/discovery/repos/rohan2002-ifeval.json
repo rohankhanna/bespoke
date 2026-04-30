@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:10:14.581436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluator for LLMs",
+    "fork": false,
+    "full_name": "Rohan2002/IFEval",
+    "html_url": "https://github.com/Rohan2002/IFEval",
+    "language": "Clojure",
+    "pushed_at": "2024-01-25T08:34:41Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-02-23T09:26:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

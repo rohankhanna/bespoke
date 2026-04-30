@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "mochajs/mocha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "haydenmeade/neotest-jest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "adrigzr/neotest-mocha",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:50.523343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2537
+    },
+    {
+      "path": "package.json",
+      "size": 176
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 3695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neotest runner for Mocha test framework",
+    "fork": false,
+    "full_name": "adrigzr/neotest-mocha",
+    "html_url": "https://github.com/adrigzr/neotest-mocha",
+    "language": "Lua",
+    "pushed_at": "2026-04-03T19:15:49Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-03T19:16:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haydenmeade/neotest-jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mochajs/mocha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

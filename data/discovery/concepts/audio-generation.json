@@ -43,6 +43,30 @@
       "source_repo": "haoheliu/AudioLDM",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2301.12503-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2301.12503) [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://audioldm.github.io/) [![Hugging Face Space\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "haoheliu/AudioLDM",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2301.12503-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2301.12503) [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://audioldm.github.io/) [![Hugging Face Space\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "ollix/MetalNanoVG",
       "status": "candidate-context",
       "text": "MetalNanoVG"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics library and rendering framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ollix/MetalNanoVG",
       "status": "candidate",
       "text": "MetalNanoVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ollix/MetalNanoVG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

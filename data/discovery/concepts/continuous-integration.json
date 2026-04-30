@@ -1721,6 +1721,234 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate-context",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the C++ api of PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/actors-utils",
+      "status": "candidate-context",
+      "text": "Collection of libraries to implement common patterns and standards on the Filecoin Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/actors-utils",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "Tool to create minimalist and beautiful API documentation pages using your Insomnia workspace export file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "Low rank adaptation (LoRA) for Candle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate-context",
+      "text": "Sampling techniques for Candle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/gazelle_cabal",
+      "status": "candidate-context",
+      "text": "A gazelle extension to produce Haskell rules from cabal files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/gazelle_cabal",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "status": "candidate-context",
+      "text": "A gazelle extension to generate haskell_module rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate-context",
+      "text": "Bazel's Continuous Integration Setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate-context",
+      "text": "tl;dr:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate-context",
+      "text": "An all in one plugin for converting text case in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Rust - port of Python version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate-context",
+      "text": "Simple and secure artifact signing for sbt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/diffusers-rs",
+      "status": "candidate-context",
+      "text": "An implementation of the diffusers api in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/diffusers-rs",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/tch-ext",
+      "status": "candidate-context",
+      "text": "Sample Python extension using Rust/PyO3/tch to interact with PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-ext",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate-context",
+      "text": "Chrome Devtools Protocol rust API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dherse/comemo",
+      "status": "candidate-context",
+      "text": "Incremental computation through constrained memoization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dherse/comemo",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "A new markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -2581,6 +2809,120 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/actors-utils",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/gazelle_cabal",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/continuous-integration",
+      "status": "candidate",
+      "text": "tl;dr:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jodersky/sbt-gpg",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/diffusers-rs",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-ext",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dherse/comemo",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate",
+      "text": "Continuous integration"
     }
   ],
   "candidate_related_terms": [
@@ -3662,11 +4004,173 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/tch-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/actors-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/candle-lora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/candle-sampling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/continuous-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "johmsalas/text-case.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagger/dagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nickspring/charset-normalizer-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/diffusers-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/tch-ext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mattsse/chromiumoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dherse/comemo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Myriad-Dreamin/typst"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

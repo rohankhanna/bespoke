@@ -1,0 +1,12 @@
+{
+  "component": "JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    }
+  ]
+}

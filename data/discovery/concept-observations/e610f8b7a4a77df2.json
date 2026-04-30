@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Gradle plugin of Archguard scanner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pre Merge Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pre Merge Checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "rub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18081,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18081,
+      "status": "candidate",
+      "text": "ore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17999,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pre Merge Checks",
+      "sense_id": "pre-merge-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pre-merge-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pre-merge-checks",
+  "observation_id": "e610f8b7a4a77df2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Pre Merge Checks",
+  "source_context_snippet": "Pre Merge Checks",
+  "source_file": ".github/workflows/pre-merge.yaml",
+  "source_repo": "archguard/archguard-gradle-plugin",
+  "source_repo_description": "The Gradle plugin of Archguard scanner"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reference implementation of the Cloud Native Buildpacks lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004888,
+      "status": "candidate",
+      "text": "nspcc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004887,
+      "status": "candidate",
+      "text": "cncs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004886,
+      "status": "candidate",
+      "text": "cnaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004885,
+      "status": "candidate",
+      "text": "unicef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004884,
+      "status": "candidate",
+      "text": "cabf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cncf",
+      "sense_id": "cncf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cncf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cncf",
+  "observation_id": "835a7a445fc4def9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "cncf",
+  "source_context_snippet": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)",
+  "source_file": null,
+  "source_repo": "buildpacks/lifecycle",
+  "source_repo_description": "Reference implementation of the Cloud Native Buildpacks lifecycle"
+}

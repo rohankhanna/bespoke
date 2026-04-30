@@ -1,0 +1,12 @@
+{
+  "component": "snok/install-poetry@93ada01c735cc8a383ce0ce2ae205a21c415379b",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "microsoft/python-environment-tools"
+    }
+  ]
+}

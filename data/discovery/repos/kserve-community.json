@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kserve/community",
+      "target": "kserve/website",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:10:43.803122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KServe community docs for contributions and process",
+    "fork": false,
+    "full_name": "kserve/community",
+    "html_url": "https://github.com/kserve/community",
+    "language": "Python",
+    "pushed_at": "2026-04-14T02:20:27Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-07T18:59:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kserve/website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "matter-labs/zksync-ci-common/.github/actions/publish-crates@v1",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "matter-labs/zksync-crypto"
+    }
+  ]
+}

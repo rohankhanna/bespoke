@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "target": "inference-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "target": "openai-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:53.780023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Llama3.java Inference engine with OpenAI Chat Completion REST API/",
+    "fork": false,
+    "full_name": "stephanj/Llama3JavaChatCompletionService",
+    "html_url": "https://github.com/stephanj/Llama3JavaChatCompletionService",
+    "language": "Java",
+    "pushed_at": "2025-02-03T07:24:45Z",
+    "stargazers_count": 27,
+    "topics": [
+      "inference-api",
+      "java",
+      "llama3",
+      "openai-api"
+    ],
+    "updated_at": "2026-02-25T04:18:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-api"
+    },
+    {
+      "context_snippet": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    }
+  ]
+}

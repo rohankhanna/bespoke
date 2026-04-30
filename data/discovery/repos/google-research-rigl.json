@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/rigl",
+      "target": "tensorflow/tpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/rigl",
+      "target": "graphcore/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/rigl",
+      "target": "mccrearyd/rigl-torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/rigl",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/rigl",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/rigl",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/rigl",
+      "target": "sparse-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:28.430292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "End-to-end training of sparse deep neural networks with little-to-no performance loss. ",
+    "fork": false,
+    "full_name": "google-research/rigl",
+    "html_url": "https://github.com/google-research/rigl",
+    "language": "Python",
+    "pushed_at": "2023-01-26T17:47:14Z",
+    "stargazers_count": 336,
+    "topics": [
+      "computer-vision",
+      "machine-learning",
+      "neural-networks",
+      "sparse-training"
+    ],
+    "updated_at": "2026-04-30T07:51:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphcore/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mccrearyd/rigl-torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/tpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-training"
+    }
+  ]
+}

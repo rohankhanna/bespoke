@@ -19,12 +19,30 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate-context",
       "text": "PR Title Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "Upserts, Deletes And Incremental Processing on Big Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "PR Title Validation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "PR Title Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
       "status": "candidate",
       "text": "PR Title Validation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pr-title-validation.yml",
       "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_title_validation.yml",
+      "source_repo": "apache/hudi"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

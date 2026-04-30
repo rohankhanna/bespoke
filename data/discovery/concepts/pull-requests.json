@@ -300,6 +300,18 @@
       "source_repo": "cderv/r-bucket",
       "status": "candidate-context",
       "text": "Pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate-context",
+      "text": "Scoop bucket for installing fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate-context",
+      "text": "Pull Requests"
     }
   ],
   "candidate_glosses": [
@@ -446,6 +458,12 @@
       "source_repo": "cderv/r-bucket",
       "status": "candidate",
       "text": "Pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate",
+      "text": "Pull Requests"
     }
   ],
   "candidate_related_terms": [
@@ -699,11 +717,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "cderv/r-bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "KnotUntied/scoop-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "alpha-vllm/lumina-image-2.0",
+      "target": "hidream-ai/hidream-i1",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "alpha-vllm/lumina-t2x",
+      "target": "genmoai/mochi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "black-forest-labs/flux",
+      "target": "iamcreateai/ruyi-models",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "aigc-apps/easyanimate",
+      "target": "kijai/comfyui-hunyuanvideowrapper",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:20:25.574674+00:00",
+  "fetched_at": "2026-04-30T10:18:23.638963+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,7 +107,7 @@
     "html_url": "https://github.com/ali-vilab/TeaCache",
     "language": "Python",
     "pushed_at": "2025-06-08T14:29:09Z",
-    "stargazers_count": 1313,
+    "stargazers_count": 1317,
     "topics": [
       "cogvideox",
       "diffusion-models",
@@ -118,27 +118,27 @@
       "open-sora-plan",
       "video-generation"
     ],
-    "updated_at": "2026-04-23T12:47:56Z"
+    "updated_at": "2026-04-30T06:20:06Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aigc-apps/easyanimate",
+      "full_name": "genmoai/mochi",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alpha-vllm/lumina-image-2.0",
+      "full_name": "hidream-ai/hidream-i1",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alpha-vllm/lumina-t2x",
+      "full_name": "iamcreateai/ruyi-models",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "black-forest-labs/flux",
+      "full_name": "kijai/comfyui-hunyuanvideowrapper",
       "source_file": "README.md"
     }
   ],

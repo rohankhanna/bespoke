@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "retrocompute aesthetics twitter bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878597,
+      "status": "candidate",
+      "text": "esthetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890872,
+      "status": "candidate",
+      "text": "beauty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890820,
+      "status": "candidate",
+      "text": "looks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865215,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852306,
+      "status": "candidate",
+      "text": "cosmetic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aesthetics",
+      "sense_id": "aesthetics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9030,
+      "status": "candidate",
+      "text": "esthetics"
+    }
+  ],
+  "concept_id": "aesthetics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aesthetics",
+  "observation_id": "82415cf1e5fedeb4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "aesthetics",
+  "source_context_snippet": "This bot runs https://twitter.com/c64core",
+  "source_file": null,
+  "source_repo": "chr15m/c64core",
+  "source_repo_description": "retrocompute aesthetics twitter bot"
+}

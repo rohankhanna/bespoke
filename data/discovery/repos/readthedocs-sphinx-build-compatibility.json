@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "readthedocs/sphinx-build-compatibility",
+      "target": "readthedocs/readthedocs-sphinx-ext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "readthedocs/sphinx-build-compatibility",
+      "target": "readthedocs/readthedocs.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "readthedocs/sphinx-build-compatibility",
+      "target": "readthedocs/addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "readthedocs/sphinx-build-compatibility",
+      "target": "pradyunsg/furo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:57.696712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4074
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Keep compatibility with Read the Docs' build deprecated behavior",
+    "fork": false,
+    "full_name": "readthedocs/sphinx-build-compatibility",
+    "html_url": "https://github.com/readthedocs/sphinx-build-compatibility",
+    "language": "Python",
+    "pushed_at": "2024-07-03T11:09:34Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-01-10T04:30:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pradyunsg/furo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "readthedocs/addons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "readthedocs/readthedocs-sphinx-ext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "readthedocs/readthedocs.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

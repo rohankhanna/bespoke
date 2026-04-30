@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "winston"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "Node.js client integration between Stackdriver Logging and Winston."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19372725,
+      "status": "candidate",
+      "text": "salem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19371655,
+      "status": "candidate",
+      "text": "greensboro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17766944,
+      "status": "candidate",
+      "text": "wen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17254413,
+      "status": "candidate",
+      "text": "vincent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103861,
+      "status": "candidate",
+      "text": "watson"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "winston",
+  "concept_id": "winston",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-logging-winston"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "winston",
+      "sense_id": "winston#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

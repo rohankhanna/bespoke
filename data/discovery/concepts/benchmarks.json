@@ -419,6 +419,30 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate-context",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "Regularly updated benchmarks for web page minification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neon-bindings/neon",
+      "status": "candidate-context",
+      "text": "Rust bindings for writing safe and fast native Node.js modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/neon",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -625,6 +649,18 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neon-bindings/neon",
+      "status": "candidate",
+      "text": "Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -991,11 +1027,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tianyi-lab/HallusionBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/minifier-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "neon-bindings/neon"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

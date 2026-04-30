@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimal templating with {{mustaches}} in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Package usage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Package usage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "envelope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "literature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "family"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "ship"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package usage",
+      "sense_id": "package-usage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-usage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-usage",
+  "observation_id": "d157fdadad92ff56",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Package usage",
+  "source_context_snippet": "Package usage",
+  "source_file": ".github/workflows/usage.yml",
+  "source_repo": "janl/mustache.js",
+  "source_repo_description": "Minimal templating with {{mustaches}} in JavaScript"
+}

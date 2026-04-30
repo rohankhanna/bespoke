@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:27:13.901868+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Map interpolation and DIY i18n/theming toolkit",
+    "fork": false,
+    "full_name": "cjohansen/m1p",
+    "html_url": "https://github.com/cjohansen/m1p",
+    "language": "Clojure",
+    "pushed_at": "2026-01-02T09:25:38Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-02-24T12:28:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Performance Benchmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "Performance Benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate",
+      "text": "Performance Benchmark"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "benchmarking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "citation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14628,
+      "status": "candidate",
+      "text": "par"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Performance Benchmark",
+  "concept_id": "performance-benchmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Benchmark",
+      "sense_id": "performance-benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

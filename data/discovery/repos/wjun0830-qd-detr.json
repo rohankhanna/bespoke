@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "26hzhang/vslnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "detection-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "moment-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "text-video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "video-highlight-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR",
+      "target": "video-summarization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:06.958247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6933
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official pytorch repository for \"QD-DETR : Query-Dependent Video Representation for Moment Retrieval and Highlight Detection\" (CVPR 2023 Paper)",
+    "fork": false,
+    "full_name": "wjun0830/QD-DETR",
+    "html_url": "https://github.com/wjun0830/QD-DETR",
+    "language": "Python",
+    "pushed_at": "2025-08-12T00:28:17Z",
+    "stargazers_count": 248,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "detection-transformer",
+      "moment-retrieval",
+      "multi-modal",
+      "text-video-retrieval",
+      "video-highlight-detection",
+      "video-retrieval",
+      "video-summarization"
+    ],
+    "updated_at": "2026-04-08T07:42:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "26hzhang/vslnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-transformer"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moment-retrieval"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-video-retrieval"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-highlight-detection"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    },
+    {
+      "context_snippet": "by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-summarization"
+    }
+  ]
+}

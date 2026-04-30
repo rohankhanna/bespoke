@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:20:14.163792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4855
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implicit Style-Content Separation using B-LoRA",
+    "fork": false,
+    "full_name": "yardenfren1996/B-LoRA",
+    "html_url": "https://github.com/yardenfren1996/B-LoRA",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-14T09:56:46Z",
+    "stargazers_count": 399,
+    "topics": [],
+    "updated_at": "2026-04-25T10:20:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

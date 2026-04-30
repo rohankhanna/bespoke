@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeapLabTHU/Absolute-Zero-Reasoner",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeapLabTHU/Absolute-Zero-Reasoner",
+      "target": "qwenlm/qwq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:04.739288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19546
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Repository of Absolute Zero Reasoner",
+    "fork": false,
+    "full_name": "LeapLabTHU/Absolute-Zero-Reasoner",
+    "html_url": "https://github.com/LeapLabTHU/Absolute-Zero-Reasoner",
+    "language": "Python",
+    "pushed_at": "2025-08-24T00:13:19Z",
+    "stargazers_count": 1846,
+    "topics": [],
+    "updated_at": "2026-04-28T14:35:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

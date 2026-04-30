@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "scoop-fonts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate-context",
+      "text": "Scoop bucket for installing fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate-context",
+      "text": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "status": "candidate",
+      "text": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scoop-fonts",
+  "concept_id": "scoop-fonts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KnotUntied/scoop-fonts"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scoop-fonts",
+      "sense_id": "scoop-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

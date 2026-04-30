@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jbuilder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": ":cake: Version Cake is an unobtrusive way to version APIs in your Rails or Rack apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "microsoft expression web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "borland turbo c"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "microsoft expression studio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "quickc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "microsoft visual sourcesafe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jbuilder",
+  "concept_id": "jbuilder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jbuilder",
+      "sense_id": "jbuilder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

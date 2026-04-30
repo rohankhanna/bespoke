@@ -43,6 +43,18 @@
       "source_repo": "day8/re-com",
       "status": "candidate-context",
       "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate-context",
+      "text": "A Leiningen template for creating a re-frame application (client only) with a shadow-cljs build."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "day8/re-com",
       "status": "candidate",
       "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-frame-template"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

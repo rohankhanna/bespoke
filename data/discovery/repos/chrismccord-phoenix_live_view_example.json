@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:18:42.669972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chrismccord/phoenix_live_view_example",
+    "html_url": "https://github.com/chrismccord/phoenix_live_view_example",
+    "language": "Elixir",
+    "pushed_at": "2023-01-16T15:15:29Z",
+    "stargazers_count": 544,
+    "topics": [],
+    "updated_at": "2026-04-24T17:19:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

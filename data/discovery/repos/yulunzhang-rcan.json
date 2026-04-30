@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yulunzhang/RCAN",
+      "target": "thstkdgus35/edsr-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yulunzhang/RCAN",
+      "target": "limbee/ntire2017",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:57.072730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11978
+    },
+    {
+      "path": "Dockerfile",
+      "size": 848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch code for our ECCV 2018 paper \"Image Super-Resolution Using Very Deep Residual Channel Attention Networks\" ",
+    "fork": false,
+    "full_name": "yulunzhang/RCAN",
+    "html_url": "https://github.com/yulunzhang/RCAN",
+    "language": "Python",
+    "pushed_at": "2025-04-01T05:43:22Z",
+    "stargazers_count": 1493,
+    "topics": [],
+    "updated_at": "2026-04-23T07:31:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "limbee/ntire2017",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thstkdgus35/edsr-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

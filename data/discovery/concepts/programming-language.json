@@ -331,6 +331,30 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Dafny is a verification-aware programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/dafny-lang/dafny/workflows/Build%20and%20Test/badge.svg)](https://github.com/dafny-lang/dafny/actions?query=workflow%3A%22Build+and+Test%22) [![Gitter](https://badges.gitter.im/dafny-lang/community.svg)](https://gitter.im/dafny-lang/communit\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
     }
   ],
   "candidate_glosses": [
@@ -495,6 +519,18 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/dafny-lang/dafny/workflows/Build%20and%20Test/badge.svg)](https://github.com/dafny-lang/dafny/actions?query=workflow%3A%22Build+and+Test%22) [![Gitter](https://badges.gitter.im/dafny-lang/community.svg)](https://gitter.im/dafny-lang/communit\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
     }
   ],
   "candidate_related_terms": [],
@@ -712,11 +748,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "qtpy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate-context",
+      "text": "Provides an uniform layer to support PyQt5, PySide2, PyQt6, PySide6 with a single codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyder-ide/qtpy",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/pypi/l/qtpy.svg)](./LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "qtpy",
+  "concept_id": "qtpy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qtpy",
+      "sense_id": "qtpy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

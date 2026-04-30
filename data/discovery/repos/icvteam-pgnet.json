@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iCVTEAM/PGNet",
+      "target": "salient-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:39.966121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pyramid Grafting Network for One-Stage High Resolution Saliency Detection. CVPR 2022",
+    "fork": false,
+    "full_name": "iCVTEAM/PGNet",
+    "html_url": "https://github.com/iCVTEAM/PGNet",
+    "language": "Python",
+    "pushed_at": "2023-01-28T02:11:48Z",
+    "stargazers_count": 176,
+    "topics": [
+      "salient-object-detection"
+    ],
+    "updated_at": "2026-01-25T15:14:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-object-detection"
+    }
+  ]
+}

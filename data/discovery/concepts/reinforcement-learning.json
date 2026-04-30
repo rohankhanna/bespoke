@@ -763,6 +763,138 @@
       "source_repo": "CarperAI/trlx",
       "status": "candidate-context",
       "text": "[![EMNLP Paper](https://img.shields.io/badge/EMNLP_Paper-grey.svg?style=flat&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgo8c3ZnCiAgIHhtbG5zOnN\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "MuJoCo bindings and high-level wrappers for the Rust programming language. Includes the viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "Reinforcement learning algorithms for MuJoCo tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate-context",
+      "text": "A lightweight suite of motion imitation methods for training controllers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "Repository to accompany RSS 2018 paper on dexterous hand manipulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "Computational framework for reinforcement learning in traffic control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate-context",
+      "text": "Swift Binding for MuJoCo: https://mujoco.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate-context",
+      "text": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonasrothfuss/ProMP",
+      "status": "candidate-context",
+      "text": "Implementation of Proximal Meta-Policy Search (ProMP) as well as related Meta-RL algorithm. Includes a useful experiment framework for Meta-RL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonasrothfuss/ProMP",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.com/jonasrothfuss/ProMP.svg?branch=master)](https://travis-ci.com/jonasrothfuss/ProMP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate-context",
+      "text": "ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "![Project banner](https://raw.githubusercontent.com/mujocolab/mjlab/main/docs/source/_static/mjlab-banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1275,72 @@
       "source_repo": "CarperAI/trlx",
       "status": "candidate",
       "text": "[![EMNLP Paper](https://img.shields.io/badge/EMNLP_Paper-grey.svg?style=flat&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgo8c3ZnCiAgIHhtbG5zOnN\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate",
+      "text": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonasrothfuss/ProMP",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.com/jonasrothfuss/ProMP.svg?branch=master)](https://travis-ci.com/jonasrothfuss/ProMP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate",
+      "text": "![Project banner](https://raw.githubusercontent.com/mujocolab/mjlab/main/docs/source/_static/mjlab-banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
     }
   ],
   "candidate_related_terms": [],
@@ -1624,11 +1822,101 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CarperAI/trlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "davidhozic/mujoco-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flow-project/flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "liuliu/swift-mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonasrothfuss/ProMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/ProtoMotions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mujocolab/mjlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

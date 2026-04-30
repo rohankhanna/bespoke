@@ -55,6 +55,54 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate-context",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "oneAPI Specification source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +226,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intel/llvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

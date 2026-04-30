@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "generalist-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "generalist-painter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "in-context-visual-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "seggpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Painter",
+      "target": "segmentation-foundation-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:16.781670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Painter & SegGPT Series: Vision Foundation Models from BAAI",
+    "fork": false,
+    "full_name": "baaivision/Painter",
+    "html_url": "https://github.com/baaivision/Painter",
+    "language": "Python",
+    "pushed_at": "2024-12-06T02:39:02Z",
+    "stargazers_count": 2589,
+    "topics": [
+      "cvpr2023",
+      "generalist-model",
+      "generalist-painter",
+      "in-context-learning",
+      "in-context-visual-learning",
+      "seggpt",
+      "segmentation-foundation-model"
+    ],
+    "updated_at": "2026-04-28T02:15:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalist-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalist-painter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-visual-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seggpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation-foundation-model"
+    }
+  ]
+}

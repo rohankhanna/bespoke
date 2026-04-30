@@ -175,6 +175,30 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +484,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

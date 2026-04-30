@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Discriminative and Robust Online Learning for Siamese Visual Tracking (AAAI 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the repo for paper \"Discriminative and Robust Online Learning for Siamese Visual Tracking\" [[paper](https://arxiv.org/abs/1909.02959)] [[results](https://drive.google.com/open?id=1iXtaxr1zkWvKf6AAMwN98ymaId9ixU4z)], presented as poster at AAAI 2020."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the repo for paper \"Discriminative and Robust Online Learning for Siamese Visual Tracking\" [[paper](https://arxiv.org/abs/1909.02959)] [[results](https://drive.google.com/open?id=1iXtaxr1zkWvKf6AAMwN98ymaId9ixU4z)], presented as poster at AAAI 2020."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drol",
+      "sense_id": "drol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drol",
+  "observation_id": "f15ae15a65533982",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "drol",
+  "source_context_snippet": "This is the repo for paper \"Discriminative and Robust Online Learning for Siamese Visual Tracking\" [[paper](https://arxiv.org/abs/1909.02959)] [[results](https://drive.google.com/open?id=1iXtaxr1zkWvKf6AAMwN98ymaId9ixU4z)], presented as poster at AAAI 2020.",
+  "source_file": null,
+  "source_repo": "jensenzhoujh/DROL",
+  "source_repo_description": "Discriminative and Robust Online Learning for Siamese Visual Tracking (AAAI 2020)"
+}

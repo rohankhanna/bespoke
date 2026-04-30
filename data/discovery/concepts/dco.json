@@ -91,6 +91,18 @@
       "source_repo": "jaegertracing/jaeger-ui",
       "status": "candidate-context",
       "text": "DCO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "Autoware - the world's leading open-source software project for autonomous driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "DCO"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
       "status": "candidate",
       "text": "DCO"
     }
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dco_merge_group.yml",
       "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "autowarefoundation/autoware"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

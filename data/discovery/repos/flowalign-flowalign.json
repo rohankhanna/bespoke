@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlowAlign/FlowAlign",
+      "target": "flow-based-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlowAlign/FlowAlign",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlowAlign/FlowAlign",
+      "target": "text-based-image-editing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:00.579869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3347
+    },
+    {
+      "path": "requirements.txt",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of FlowAlign",
+    "fork": false,
+    "full_name": "FlowAlign/FlowAlign",
+    "html_url": "https://github.com/FlowAlign/FlowAlign",
+    "language": "Python",
+    "pushed_at": "2025-09-21T12:03:05Z",
+    "stargazers_count": 33,
+    "topics": [
+      "flow-based-model",
+      "image-editing",
+      "text-based-image-editing"
+    ],
+    "updated_at": "2026-04-18T04:56:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-based-model"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of FlowAlign, an inversion & training free image editing algorithm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-based-image-editing"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941606,
+      "status": "candidate",
+      "text": "circumstance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958557,
+      "status": "candidate",
+      "text": "context of use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958557,
+      "status": "candidate",
+      "text": "linguistic context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958556,
+      "status": "candidate",
+      "text": "scenario"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957631,
+      "status": "candidate",
+      "text": "setting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "context",
+      "sense_id": "context#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24040,
+      "status": "candidate",
+      "text": "circumstance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "linguistic context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "context of use"
+    }
+  ],
+  "concept_id": "context",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "context",
+  "observation_id": "6abec69c7fb97e27",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "context",
+  "source_context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/eval-estree-expression",
+  "source_repo_description": "Safely evaluate JavaScript (estree) expressions, sync and async."
+}

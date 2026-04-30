@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwillis/versioncake",
+      "target": "bwillis/350-rest-api-versioning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwillis/versioncake",
+      "target": "bploetz/versionist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwillis/versioncake",
+      "target": "filtersquad/rocket_pants",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwillis/versioncake",
+      "target": "lyonrb/biceps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bwillis/versioncake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bwillis/versioncake",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bwillis/versioncake",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake",
+      "target": "jbuilder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:22:59.664489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17316
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":cake: Version Cake is an unobtrusive way to version APIs in your Rails or Rack apps",
+    "fork": false,
+    "full_name": "bwillis/versioncake",
+    "html_url": "https://github.com/bwillis/versioncake",
+    "language": "Ruby",
+    "pushed_at": "2022-07-21T22:54:25Z",
+    "stargazers_count": 652,
+    "topics": [
+      "api",
+      "jbuilder",
+      "rails",
+      "ruby",
+      "versioning"
+    ],
+    "updated_at": "2026-04-04T19:48:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bploetz/versionist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwillis/350-rest-api-versioning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filtersquad/rocket_pants",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyonrb/biceps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jbuilder"
+    },
+    {
+      "context_snippet": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate-context",
+      "text": ":chart_with_upwards_trend: General purpose hits (page views) counter written in Node.js backed by filesystem. (MVP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate-context",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/hits-nodejs"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

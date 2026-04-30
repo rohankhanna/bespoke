@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "ksuid/ksuid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "ksuid/ksuid",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "ksuid/ksuid",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid",
+      "target": "coordination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid",
+      "target": "ksuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid",
+      "target": "unique-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:13.023196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4803
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "K-Sortable Globally Unique IDs for Java",
+    "fork": false,
+    "full_name": "ksuid/ksuid",
+    "html_url": "https://github.com/ksuid/ksuid",
+    "language": "Java",
+    "pushed_at": "2025-08-20T17:54:02Z",
+    "stargazers_count": 142,
+    "topics": [
+      "coordination",
+      "java",
+      "ksuid",
+      "unique-id",
+      "uuid"
+    ],
+    "updated_at": "2026-04-03T12:06:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coordination"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ksuid"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unique-id"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:20.032423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25830
+    },
+    {
+      "path": "Dockerfile",
+      "size": 718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "StyleGAN2 with adaptive discriminator augmentation (ADA) - Official TensorFlow implementation",
+    "fork": false,
+    "full_name": "NVlabs/stylegan2-ada",
+    "html_url": "https://github.com/NVlabs/stylegan2-ada",
+    "language": "Python",
+    "pushed_at": "2024-07-02T14:00:16Z",
+    "stargazers_count": 1833,
+    "topics": [],
+    "updated_at": "2026-04-28T14:02:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

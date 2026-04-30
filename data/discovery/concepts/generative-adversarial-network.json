@@ -187,6 +187,18 @@
       "source_repo": "ai-forever/MoVQGAN",
       "status": "candidate-context",
       "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "ai-forever/MoVQGAN",
       "status": "candidate",
       "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +430,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ai-forever/MoVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

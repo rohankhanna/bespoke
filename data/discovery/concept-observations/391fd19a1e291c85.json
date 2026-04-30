@@ -48,7 +48,7 @@
   "normalized_form": "pip-audit",
   "observation_id": "391fd19a1e291c85",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "pip-audit",
   "source_context_snippet": "pip-audit",
   "source_file": ".github/workflows/pip-audit.yml",

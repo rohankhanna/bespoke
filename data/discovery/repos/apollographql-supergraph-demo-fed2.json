@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-gateway.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-no-code.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rhai.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rust-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rust-plugin.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-gateway.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-router-no-code.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-router-rust-dev.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "prasek/supergraph-demo-opentelemetry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "apollographql/apollo-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "bod/deferdemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-gateway.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-gateway.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-no-code.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-no-code.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rhai.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rhai.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router Rhai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rust-dev.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rust-dev.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/local-router-rust-plugin.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rust-plugin.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router Rust Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-gateway.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-gateway.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Gateway Studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-router-no-code.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-router-no-code.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router Studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/studio-router-rust-dev.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-router-rust-dev.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "target": "CI Router Main Studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:32.881789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36374
+    },
+    {
+      "path": ".github/workflows/local-gateway.yaml",
+      "size": 2540
+    },
+    {
+      "path": ".github/workflows/local-router-no-code.yaml",
+      "size": 2837
+    },
+    {
+      "path": ".github/workflows/local-router-rhai.yaml",
+      "size": 2560
+    },
+    {
+      "path": ".github/workflows/local-router-rust-dev.yaml",
+      "size": 2564
+    },
+    {
+      "path": ".github/workflows/local-router-rust-plugin.yaml",
+      "size": 2587
+    },
+    {
+      "path": ".github/workflows/studio-gateway.yaml",
+      "size": 2822
+    },
+    {
+      "path": ".github/workflows/studio-router-no-code.yaml",
+      "size": 2757
+    },
+    {
+      "path": ".github/workflows/studio-router-rust-dev.yaml",
+      "size": 2774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router",
+    "fork": false,
+    "full_name": "apollographql/supergraph-demo-fed2",
+    "html_url": "https://github.com/apollographql/supergraph-demo-fed2",
+    "language": "Shell",
+    "pushed_at": "2026-01-31T00:30:51Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2026-04-06T06:14:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/apollo-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bod/deferdemo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prasek/supergraph-demo-opentelemetry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Gateway",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-gateway.yaml",
+      "term": "CI Gateway"
+    },
+    {
+      "context_snippet": "CI Router",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-no-code.yaml",
+      "term": "CI Router"
+    },
+    {
+      "context_snippet": "CI Router Rhai",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rhai.yaml",
+      "term": "CI Router Rhai"
+    },
+    {
+      "context_snippet": "CI Router Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rust-dev.yaml",
+      "term": "CI Router Main"
+    },
+    {
+      "context_snippet": "CI Router Rust Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/local-router-rust-plugin.yaml",
+      "term": "CI Router Rust Plugin"
+    },
+    {
+      "context_snippet": "CI Gateway Studio",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-gateway.yaml",
+      "term": "CI Gateway Studio"
+    },
+    {
+      "context_snippet": "CI Router Studio",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-router-no-code.yaml",
+      "term": "CI Router Studio"
+    },
+    {
+      "context_snippet": "CI Router Main Studio",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/studio-router-rust-dev.yaml",
+      "term": "CI Router Main Studio"
+    }
+  ]
+}

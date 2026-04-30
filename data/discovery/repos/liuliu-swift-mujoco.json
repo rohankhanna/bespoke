@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-spm.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-spm.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "liuliu/s4nnc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "macos-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "macos-spm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "ubuntu-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "ubuntu-spm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:15.182634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11374
+    },
+    {
+      "path": ".github/workflows/documentation.yaml",
+      "size": 1791
+    },
+    {
+      "path": ".github/workflows/macos-bazel.yaml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/macos-spm.yaml",
+      "size": 351
+    },
+    {
+      "path": ".github/workflows/ubuntu-bazel.yaml",
+      "size": 1465
+    },
+    {
+      "path": ".github/workflows/ubuntu-spm.yaml",
+      "size": 765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Swift Binding for MuJoCo: https://mujoco.org/",
+    "fork": false,
+    "full_name": "liuliu/swift-mujoco",
+    "html_url": "https://github.com/liuliu/swift-mujoco",
+    "language": "Swift",
+    "pushed_at": "2025-07-24T22:14:39Z",
+    "stargazers_count": 21,
+    "topics": [
+      "reinforcement-learning",
+      "simulation"
+    ],
+    "updated_at": "2026-02-06T11:20:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuliu/s4nnc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "macos-bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-bazel.yaml",
+      "term": "macos-bazel"
+    },
+    {
+      "context_snippet": "macos-spm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-spm.yaml",
+      "term": "macos-spm"
+    },
+    {
+      "context_snippet": "ubuntu-bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml",
+      "term": "ubuntu-bazel"
+    },
+    {
+      "context_snippet": "ubuntu-spm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-spm.yaml",
+      "term": "ubuntu-spm"
+    },
+    {
+      "context_snippet": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![macos-spm](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml/badge.svg?branch=main)](https://github.com/liuliu/swift-mujoco/actions/workflows/macos-spm.yaml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

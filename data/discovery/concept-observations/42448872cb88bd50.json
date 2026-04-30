@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify Failure"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify Failure"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12585,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12532,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "admonish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "advising"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify Failure",
+      "sense_id": "notify-failure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notify-failure",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify-failure",
+  "observation_id": "42448872cb88bd50",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Notify Failure",
+  "source_context_snippet": "Notify Failure",
+  "source_file": ".github/workflows/notify-failure.yml",
+  "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+  "source_repo_description": "SonarLint for IntelliJ with DevoxxGenie support"
+}

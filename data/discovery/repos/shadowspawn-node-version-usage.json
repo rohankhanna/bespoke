@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shadowspawn/node-version-usage",
+      "target": "asdf-vm/asdf-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shadowspawn/node-version-usage",
+      "target": "ehmicky/nve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shadowspawn/node-version-usage",
+      "target": "beeequeue/nvm-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shadowspawn/node-version-usage",
+      "target": "actions/setup-node",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:06:58.412330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Document current usage of .node-version file",
+    "fork": false,
+    "full_name": "shadowspawn/node-version-usage",
+    "html_url": "https://github.com/shadowspawn/node-version-usage",
+    "language": null,
+    "pushed_at": "2026-02-14T00:44:26Z",
+    "stargazers_count": 280,
+    "topics": [],
+    "updated_at": "2026-04-28T08:59:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/setup-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asdf-vm/asdf-nodejs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beeequeue/nvm-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ehmicky/nve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

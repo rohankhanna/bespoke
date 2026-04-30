@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetPytorch",
+      "target": "clementpinard/flownettorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/FlowNetPytorch",
+      "target": "lanpa/tensorboard-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetPytorch",
+      "target": "flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetPytorch",
+      "target": "flownet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/FlowNetPytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:00.285123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6386
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of FlowNet by Dosovitskiy et al.",
+    "fork": false,
+    "full_name": "ClementPinard/FlowNetPytorch",
+    "html_url": "https://github.com/ClementPinard/FlowNetPytorch",
+    "language": "Python",
+    "pushed_at": "2026-04-15T15:02:21Z",
+    "stargazers_count": 898,
+    "topics": [
+      "flow",
+      "flownet",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-15T15:02:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementpinard/flownettorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lanpa/tensorboard-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of FlowNet by Dosovitskiy et al.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow"
+    },
+    {
+      "context_snippet": "Pytorch implementation of FlowNet by Dosovitskiy et al.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flownet"
+    },
+    {
+      "context_snippet": "Pytorch implementation of FlowNet by Dosovitskiy et al.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

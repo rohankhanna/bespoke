@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "R Interface to the jQuery Plug-in DataTables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012048,
+      "status": "candidate",
+      "text": "shining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012032,
+      "status": "candidate",
+      "text": "bright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011472,
+      "status": "candidate",
+      "text": "lustrous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010555,
+      "status": "candidate",
+      "text": "glistening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009843,
+      "status": "candidate",
+      "text": "glossy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shiny",
+      "sense_id": "shiny#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55033,
+      "status": "candidate",
+      "text": "lustrous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43072,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43054,
+      "status": "candidate",
+      "text": "bright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "polished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13020,
+      "status": "candidate",
+      "text": "burnished"
+    }
+  ],
+  "concept_id": "shiny",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shiny",
+  "observation_id": "c364fea21898f033",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "shiny",
+  "source_context_snippet": "<!-- badges: start -->",
+  "source_file": null,
+  "source_repo": "rstudio/DT",
+  "source_repo_description": "R Interface to the jQuery Plug-in DataTables"
+}

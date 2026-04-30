@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gizak/termui",
+      "target": "byrnedo/dockdash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gizak/termui",
+      "target": "divan/expvarmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gizak/termui",
+      "target": "cjbassi/gotop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gizak/termui",
+      "target": "atsaki/termeter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:13.261004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3562
+    },
+    {
+      "path": "go.mod",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang terminal dashboard",
+    "fork": false,
+    "full_name": "gizak/termui",
+    "html_url": "https://github.com/gizak/termui",
+    "language": "Go",
+    "pushed_at": "2025-07-10T06:33:40Z",
+    "stargazers_count": 13545,
+    "topics": [],
+    "updated_at": "2026-04-28T20:39:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsaki/termeter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byrnedo/dockdash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjbassi/gotop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "divan/expvarmon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

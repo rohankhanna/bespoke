@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Hex Publish Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "Hex Publish Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate",
+      "text": "Hex Publish Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10489,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10439,
+      "status": "candidate",
+      "text": "hmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10439,
+      "status": "candidate",
+      "text": "med"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10276,
+      "status": "candidate",
+      "text": "excerpt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10276,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hex Publish Docs",
+  "concept_id": "hex-publish-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "elixir-tesla/tesla"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hex Publish Docs",
+      "sense_id": "hex-publish-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

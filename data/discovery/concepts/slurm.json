@@ -55,6 +55,18 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SchedMD/slurm",
+      "status": "candidate-context",
+      "text": "Slurm: A Highly Scalable Workload Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchedMD/slurm",
+      "status": "candidate-context",
+      "text": "This is the Slurm Workload Manager. Slurm is an open-source cluster"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchedMD/slurm",
+      "status": "candidate",
+      "text": "This is the Slurm Workload Manager. Slurm is an open-source cluster"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SchedMD/slurm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "hertz"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "Time-sharing car rental system suite based on CloudWeGo series framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "![FreeCar](img/FreeCar.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate",
+      "text": "![FreeCar](img/FreeCar.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964628,
+      "status": "candidate",
+      "text": "cps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39846487,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998975,
+      "status": "candidate",
+      "text": "cycle per second"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11076,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1048,
+      "status": "candidate",
+      "text": "cps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "cycle per second"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "heinrich rudolph hertz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "heinrich hertz"
+    }
+  ],
+  "canonical_name": "hertz",
+  "concept_id": "hertz",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CyanAsterisk/FreeCar"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hertz",
+      "sense_id": "hertz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -283,6 +283,66 @@
       "source_repo": "mmatl/pyrender",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "Go bindings for GLFW 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics library and rendering framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate-context",
+      "text": "Android filters based on OpenGL (idea from GPUImage for iOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +483,36 @@
       "source_repo": "mmatl/pyrender",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -628,11 +718,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mmatl/pyrender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-gl/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

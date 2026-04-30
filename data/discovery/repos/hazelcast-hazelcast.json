@@ -1,0 +1,462 @@
+{
+  "components": [
+    {
+      "component": "hazelcast/docker-actions/slack-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml"
+    },
+    {
+      "component": "hazelcast/docker-actions/slack-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml"
+    },
+    {
+      "component": "hazelcast/docker-actions/slack-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml"
+    },
+    {
+      "component": "hazelcast/docker-actions/slack-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-nodejs-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-csharp-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-cpp-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-go-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Close Referenced PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR assignees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "data-in-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "data-insights",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "in-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "low-latency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:24:12.174801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7005
+    },
+    {
+      "path": ".github/workflows/common-close-referenced-prs.yaml",
+      "size": 1590
+    },
+    {
+      "path": ".github/workflows/common-copybara.bara.sky.template",
+      "size": 3455
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-assignees.sh",
+      "size": 1230
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "size": 1336
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-labels.sh",
+      "size": 1151
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "size": 1322
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-milestone.sh",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/common-synchronize-pr-reviewers.sh",
+      "size": 1240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights.",
+    "fork": false,
+    "full_name": "hazelcast/hazelcast",
+    "html_url": "https://github.com/hazelcast/hazelcast",
+    "language": "Java",
+    "pushed_at": "2026-04-30T06:21:01Z",
+    "stargazers_count": 6575,
+    "topics": [
+      "big-data",
+      "caching",
+      "data-in-motion",
+      "data-insights",
+      "distributed",
+      "distributed-computing",
+      "distributed-systems",
+      "hacktoberfest",
+      "hazelcast",
+      "in-memory",
+      "java",
+      "low-latency",
+      "real-time",
+      "scalability",
+      "stream-processing"
+    ],
+    "updated_at": "2026-04-30T08:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazelcast/hazelcast-cpp-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazelcast/hazelcast-csharp-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazelcast/hazelcast-go-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazelcast/hazelcast-nodejs-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Referenced PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml",
+      "term": "Close Referenced PRs"
+    },
+    {
+      "context_snippet": "Synchronize PR assignees",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "term": "Synchronize PR assignees"
+    },
+    {
+      "context_snippet": "Synchronize PR Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "term": "Synchronize PR Labels"
+    },
+    {
+      "context_snippet": "Synchronize PR Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "term": "Synchronize PR Milestone"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-in-motion"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-insights"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hazelcast"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-latency"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalability"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    }
+  ]
+}

@@ -19,6 +19,54 @@
       "source_repo": "unocss/unocss",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "\u2693\ufe0f+\u26a1\ufe0f- Oxlint plugin for vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate-context",
+      "text": "Based on sharp.js, compress your image before vite generate bundle. It's easy and fast! \u57fa\u4e8esharp.js\u7684vite\u56fe\u7247\u538b\u7f29\u63d2\u4ef6\uff0c\u53c8\u5feb\u53c8\u597d\u7528\uff01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate-context",
+      "text": "**English** | [\u4e2d\u6587](README.CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu-collective/vite-plugin-inspect",
+      "status": "candidate-context",
+      "text": "Inspect the intermediate state of Vite plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vite-plugin-inspect",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vite-plugin-inspect?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-inspect)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Analyze bundle stats(bundle size, assets, modules, packages) and compare the results between different builds. Support for webpack, rspack, vite, rolldown and rollup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "unocss/unocss",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate",
+      "text": "**English** | [\u4e2d\u6587](README.CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vite-plugin-inspect",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/vite-plugin-inspect?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-inspect)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "60late/vite-plugin-minipic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vite-plugin-inspect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "relative-ci/bundle-stats"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

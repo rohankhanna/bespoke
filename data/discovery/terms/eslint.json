@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -136,6 +136,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "standard/ts-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/action-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jest-community/eslint-plugin-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gajus/eslint-plugin-sql"
     }
   ],
   "term": "eslint"

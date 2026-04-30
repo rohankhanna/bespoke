@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexanderscrimgeour/biogo",
+      "target": "davidrmiller/biosim4",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:44.352527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2843
+    },
+    {
+      "path": "go.mod",
+      "size": 224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A genetic simulator written in Go",
+    "fork": false,
+    "full_name": "alexanderscrimgeour/biogo",
+    "html_url": "https://github.com/alexanderscrimgeour/biogo",
+    "language": "Go",
+    "pushed_at": "2022-05-18T21:00:14Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-08-23T12:14:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidrmiller/biosim4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

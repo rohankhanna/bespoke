@@ -145,6 +145,18 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate-context",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "Makes it easy to build a list of frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "![](yolo.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -213,6 +225,12 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate",
+      "text": "![](yolo.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +352,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "leetal/ios-cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

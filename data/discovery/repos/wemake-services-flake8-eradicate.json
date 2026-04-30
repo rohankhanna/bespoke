@@ -21,13 +21,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "wemake-services/flake8-eradicate",
-      "target": "wemake-services/wemake-python-styleguide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wemake-services/flake8-eradicate",
       "target": "myint/eradicate",
       "target_type": "repository"
     },
@@ -116,7 +109,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:44:04.138896+00:00",
+  "fetched_at": "2026-04-30T09:12:51.043020+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,11 +151,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "myint/eradicate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wemake-services/wemake-python-styleguide",
       "source_file": "README.md"
     }
   ],

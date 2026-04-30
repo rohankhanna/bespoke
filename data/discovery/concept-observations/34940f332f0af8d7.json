@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Weekly Micronaut Tests (--future-defaults=all)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Weekly Micronaut Tests (--future-defaults=all)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "newsmagazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "newsweekly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "alt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weekly Micronaut Tests (--future-defaults=all)",
+      "sense_id": "weekly-micronaut-tests---future-defaults-all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "weekly-micronaut-tests---future-defaults-all",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "weekly-micronaut-tests---future-defaults-all",
+  "observation_id": "34940f332f0af8d7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Weekly Micronaut Tests (--future-defaults=all)",
+  "source_context_snippet": "Weekly Micronaut Tests (--future-defaults=all)",
+  "source_file": ".github/workflows/micronaut-future-defaults.yml",
+  "source_repo": "oracle/graal",
+  "source_repo_description": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "comparisons"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "Regularly updated benchmarks for web page minification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021852,
+      "status": "candidate",
+      "text": "compare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021799,
+      "status": "candidate",
+      "text": "comparability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021200,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021962,
+      "status": "candidate",
+      "text": "comparing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021961,
+      "status": "candidate",
+      "text": "benchmarks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "comparisons",
+  "concept_id": "comparisons",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/minifier-benchmarks"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comparisons",
+      "sense_id": "comparisons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

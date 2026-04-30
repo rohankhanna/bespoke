@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "iflytek/cino",
-      "target": "ymcui/hfl-anthology",
+      "target": "ymcui/lert",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "iflytek/cino",
-      "target": "facebookresearch/xlm",
+      "target": "ymcui/hfl-anthology",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:45:15.660660+00:00",
+  "fetched_at": "2026-04-30T10:23:18.940885+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -104,11 +104,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/xlm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "fudannlp/tibetan-classification",
       "source_file": "README.md"
     },
@@ -120,6 +115,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ymcui/hfl-anthology",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/lert",
       "source_file": "README.md"
     }
   ],

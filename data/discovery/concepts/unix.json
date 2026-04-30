@@ -151,6 +151,18 @@
       "source_repo": "2KAbhishek/shelly",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karrick/godirwalk",
+      "status": "candidate-context",
+      "text": "Fast directory traversal for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karrick/godirwalk",
+      "status": "candidate-context",
+      "text": "`godirwalk` is a library for traversing a directory tree on a file"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "2KAbhishek/shelly",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karrick/godirwalk",
+      "status": "candidate",
+      "text": "`godirwalk` is a library for traversing a directory tree on a file"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/shelly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

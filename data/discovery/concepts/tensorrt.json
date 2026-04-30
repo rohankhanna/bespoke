@@ -235,6 +235,42 @@
       "source_repo": "ppogg/YOLOv5-Lite",
       "status": "candidate-context",
       "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "An easy to use PyTorch to TensorRT converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "A project that optimizes OWL-ViT for real-time inference with NVIDIA TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "ppogg/YOLOv5-Lite",
       "status": "candidate",
       "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +526,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ppogg/YOLOv5-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

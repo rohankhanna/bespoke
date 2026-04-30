@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Efficient implementations of state-of-the-art linear attention models in Torch and Triton"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "intel-a770-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "intel-a770-ci"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "intel-a770-ci",
+      "sense_id": "intel-a770-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "intel-a770-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "intel-a770-ci",
+  "observation_id": "9ea332c8414a8209",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "intel-a770-ci",
+  "source_context_snippet": "intel-a770-ci",
+  "source_file": ".github/workflows/intel-a770.yml",
+  "source_repo": "renll/flash-linear-attention",
+  "source_repo_description": "\ud83d\ude80 Efficient implementations of state-of-the-art linear attention models in Torch and Triton"
+}

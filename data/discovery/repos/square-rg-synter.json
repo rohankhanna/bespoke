@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SQUARE-RG/SynTeR",
+      "target": "syntactic-breaking-change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SQUARE-RG/SynTeR",
+      "target": "test-repair",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:03.390062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7042
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The repository of data and codes for SynTeR, an LLM-based approach to repair obsolete test cases caused by syntactic BCs.",
+    "fork": false,
+    "full_name": "SQUARE-RG/SynTeR",
+    "html_url": "https://github.com/SQUARE-RG/SynTeR",
+    "language": "Python",
+    "pushed_at": "2024-08-25T04:22:19Z",
+    "stargazers_count": 12,
+    "topics": [
+      "llm",
+      "syntactic-breaking-change",
+      "test-repair"
+    ],
+    "updated_at": "2025-11-27T08:03:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts the codes and data for the paper \"Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker\", accepted in in the 35th IEEE International Symposium on Software Reliability Engineering (ISSRE 2024).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntactic-breaking-change"
+    },
+    {
+      "context_snippet": "This repository hosts the codes and data for the paper \"Fix the Tests: Augmenting LLMs to Repair Test Cases with Static Collector and Neural Reranker\", accepted in in the 35th IEEE International Symposium on Software Reliability Engineering (ISSRE 2024).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-repair"
+    }
+  ]
+}

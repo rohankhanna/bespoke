@@ -178,6 +178,42 @@
       "source_repo": "i18next/i18next",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Cross JavaScript runtime benchmarking library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "<h1 align=center>tatami-ng</h1>"
     }
   ],
   "candidate_glosses": [
@@ -270,6 +306,24 @@
       "source_repo": "i18next/i18next",
       "status": "candidate",
       "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate",
+      "text": "<h1 align=center>tatami-ng</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -409,11 +463,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "i18next/i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/tatami-ng"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -539,13 +539,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "multiformats/js-multihash",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-companion",
@@ -1323,7 +1316,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:52:48.436773+00:00",
+  "fetched_at": "2026-04-30T10:28:03.837051+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1397,11 +1390,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ipfs/is-ipfs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "multiformats/js-multihash",
       "source_file": "README.md"
     }
   ],

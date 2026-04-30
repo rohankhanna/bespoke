@@ -121,6 +121,30 @@
       "source_repo": "unocss/unocss",
       "status": "candidate-context",
       "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate-context",
+      "text": "Compile-time tests for types. Useful to make sure types don't regress into being overly-permissive as changes go in over time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Cross JavaScript runtime benchmarking library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "autofix.ci"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +205,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "unocss/unocss",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmkal/expect-type",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
       "status": "candidate",
       "text": "autofix.ci"
     }
@@ -262,11 +298,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "mmkal/expect-type"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "codespell-project/codespell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "poolifier/tatami-ng"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,18 @@
       "source_repo": "X-PLUG/mPLUG-Owl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akoksal/LongForm",
+      "status": "candidate-context",
+      "text": "Reverse Instructions to generate instruction tuning data with corpus examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoksal/LongForm",
+      "status": "candidate-context",
+      "text": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "X-PLUG/mPLUG-Owl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoksal/LongForm",
+      "status": "candidate",
+      "text": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +358,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "X-PLUG/mPLUG-Owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "akoksal/LongForm"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

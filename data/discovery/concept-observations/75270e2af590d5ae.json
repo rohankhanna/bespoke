@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929152,
+      "status": "candidate",
+      "text": "journaling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929151,
+      "status": "candidate",
+      "text": "diff file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929150,
+      "status": "candidate",
+      "text": "version control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929149,
+      "status": "candidate",
+      "text": "subversioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929148,
+      "status": "candidate",
+      "text": "release notes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "changelog",
+      "sense_id": "changelog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "changelog",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "changelog",
+  "observation_id": "75270e2af590d5ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "changelog",
+  "source_context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+  "source_file": null,
+  "source_repo": "git-quick-stats/git-quick-stats",
+  "source_repo_description": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository."
+}

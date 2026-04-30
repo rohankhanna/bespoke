@@ -55,6 +55,18 @@
       "source_repo": "NVIDIA/gdrcopy",
       "status": "candidate-context",
       "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "NVIDIA/gdrcopy",
       "status": "candidate",
       "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/gdrcopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

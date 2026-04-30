@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:14:16.399469+00:00",
+  "fetched_at": "2026-04-30T10:14:28.032554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,7 +107,7 @@
     "html_url": "https://github.com/JIA-Lab-research/SphereFormer",
     "language": "Python",
     "pushed_at": "2023-06-08T09:34:58Z",
-    "stargazers_count": 364,
+    "stargazers_count": 365,
     "topics": [
       "3d-object-detection",
       "3d-semantic-segmentation",
@@ -118,7 +118,7 @@
       "transformer",
       "waymo"
     ],
-    "updated_at": "2026-04-18T15:01:56Z"
+    "updated_at": "2026-04-30T07:30:54Z"
   },
   "repo_links": [
     {

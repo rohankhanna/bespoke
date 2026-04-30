@@ -79,6 +79,18 @@
       "source_repo": "vuejs/create-vue",
       "status": "candidate-context",
       "text": "The recommended way to start a Vite-powered Vue project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "GreptimeDB dashboard web application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "Dashboard is a data-visualization platform for [GreptimeDB](https://github.com/greptimeteam/greptimedb) developed with Vue3, Vite, TypeScript and Arco Design."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "vuejs/create-vue",
       "status": "candidate",
       "text": "The recommended way to start a Vite-powered Vue project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate",
+      "text": "Dashboard is a data-visualization platform for [GreptimeDB](https://github.com/greptimeteam/greptimedb) developed with Vue3, Vite, TypeScript and Arco Design."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vuejs/create-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/dashboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

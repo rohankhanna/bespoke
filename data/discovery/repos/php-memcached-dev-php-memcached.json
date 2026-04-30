@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "php/setup-php-sdk@v0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "Test on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "php/setup-php-sdk@v0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "target": "Build on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:21.252749+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 2839
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 1545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "memcached extension based on libmemcached library",
+    "fork": false,
+    "full_name": "php-memcached-dev/php-memcached",
+    "html_url": "https://github.com/php-memcached-dev/php-memcached",
+    "language": "C",
+    "pushed_at": "2025-10-14T00:11:01Z",
+    "stargazers_count": 1000,
+    "topics": [],
+    "updated_at": "2026-03-30T23:35:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test on Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Test on Ubuntu"
+    },
+    {
+      "context_snippet": "Build on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build on Windows"
+    }
+  ]
+}

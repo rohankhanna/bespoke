@@ -32,6 +32,18 @@
       "source_repo": "ollama/ollama",
       "status": "candidate-context",
       "text": "test-install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Test Install"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "ollama/ollama",
       "status": "candidate",
       "text": "test-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate",
+      "text": "Test Install"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/test-install.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-install.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-install.yml",
+      "source_repo": "kriszyp/lmdb-js"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

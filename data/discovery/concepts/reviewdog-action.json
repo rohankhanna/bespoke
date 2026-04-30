@@ -19,6 +19,18 @@
       "source_repo": "reviewdog/action-black",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "reviewdog/action-black",
       "status": "candidate",
       "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jordemort/action-pyright"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "codelibs/fess",
       "status": "candidate-context",
       "text": "[![Java CI with Maven](https://github.com/codelibs/fess/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "codelibs/fess",
       "status": "candidate",
       "text": "[![Java CI with Maven](https://github.com/codelibs/fess/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "codelibs/fess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/oceanbase"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -220,6 +220,18 @@
       "source_repo": "locustio/locust",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate-context",
+      "text": "Lies, Damned Lies, and Selective Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate-context",
+      "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
     }
   ],
   "candidate_glosses": [
@@ -330,6 +342,12 @@
       "source_repo": "locustio/locust",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate",
+      "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +499,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

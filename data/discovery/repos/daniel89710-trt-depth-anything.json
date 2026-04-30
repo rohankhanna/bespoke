@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daniel89710/trt-depth-anything",
+      "target": "spacewalk01/depth-anything-tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daniel89710/trt-depth-anything",
+      "target": "autowarefoundation/autoware.universe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:52.730359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TensorRT depth-anything for anyone and anywhere",
+    "fork": false,
+    "full_name": "daniel89710/trt-depth-anything",
+    "html_url": "https://github.com/daniel89710/trt-depth-anything",
+    "language": "C++",
+    "pushed_at": "2024-01-29T13:59:16Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autowarefoundation/autoware.universe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacewalk01/depth-anything-tensorrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

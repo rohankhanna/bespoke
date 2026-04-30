@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parameter sequencer for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy to Firebase Hosting on PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy to Firebase Hosting on PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17675,
+      "status": "candidate",
+      "text": "flagstaff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16716,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16716,
+      "status": "candidate",
+      "text": "shack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16590,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10518,
+      "status": "candidate",
+      "text": "airfield"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Firebase Hosting on PR",
+      "sense_id": "deploy-to-firebase-hosting-on-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-to-firebase-hosting-on-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-to-firebase-hosting-on-pr",
+  "observation_id": "352e20f2753f82b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Deploy to Firebase Hosting on PR",
+  "source_context_snippet": "Deploy to Firebase Hosting on PR",
+  "source_file": ".github/workflows/firebase-hosting-branch.yml",
+  "source_repo": "rewbs/sd-parseq",
+  "source_repo_description": "Parameter sequencer for Stable Diffusion"
+}

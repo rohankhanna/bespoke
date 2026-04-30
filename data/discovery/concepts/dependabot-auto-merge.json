@@ -396,6 +396,78 @@
       "source_repo": "asaaki/opentelemetry-tide",
       "status": "candidate-context",
       "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Analyze bundle stats(bundle size, assets, modules, packages) and compare the results between different builds. Support for webpack, rspack, vite, rolldown and rollup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Israeli Oref Alerts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buty4649/mruby-yyjson",
+      "status": "candidate-context",
+      "text": "yyjson binding for mruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buty4649/mruby-yyjson",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 implementation for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "A parallel universal-ctags wrapper for git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -584,6 +656,42 @@
       "source_repo": "asaaki/opentelemetry-tide",
       "status": "candidate",
       "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate",
+      "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buty4649/mruby-yyjson",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_related_terms": [
@@ -819,11 +927,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "asaaki/opentelemetry-tide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "relative-ci/bundle-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "amitfin/oref_alert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "buty4649/mruby-yyjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependabot_merge.yml",
+      "source_repo": "dalance/ptags"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

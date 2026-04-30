@@ -70,6 +70,30 @@
       "source_repo": "jeffffffli/res-loglikelihood-regression",
       "status": "candidate-context",
       "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "Learning a Single Convolutional Super-Resolution Network for Multiple Degradations (CVPR, 2018) (Matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "A parallel universal-ctags wrapper for git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "Regression"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "jeffffffli/res-loglikelihood-regression",
       "status": "candidate",
       "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/SRMD",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate",
+      "text": "Regression"
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +277,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cszn/SRMD"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "lindera/lindera-tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "dalance/ptags"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

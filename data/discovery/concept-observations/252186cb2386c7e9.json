@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code accompanying the ECCV 2020 paper \"Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data\" by Tim Salzmann*, Boris Ivanovic*, Punarjay Chakravarty, and Marco Pavone (* denotes equal contribution)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "252186cb2386c7e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+  "source_file": null,
+  "source_repo": "StanfordASL/Trajectron-plus-plus",
+  "source_repo_description": "Code accompanying the ECCV 2020 paper \"Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data\" by Tim Salzmann*, Boris Ivanovic*, Punarjay Chakravarty, and Marco Pavone (* denotes equal contribution)."
+}

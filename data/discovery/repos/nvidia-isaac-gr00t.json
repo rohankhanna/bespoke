@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NVIDIA/Isaac-GR00T",
+      "target": "Main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:10.521833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27680
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4500
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA Isaac GR00T N1.7 -  A Foundation Model for Generalist Robots.",
+    "fork": false,
+    "full_name": "NVIDIA/Isaac-GR00T",
+    "html_url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "language": "Python",
+    "pushed_at": "2026-04-26T01:27:58Z",
+    "stargazers_count": 6904,
+    "topics": [],
+    "updated_at": "2026-04-30T09:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    }
+  ]
+}

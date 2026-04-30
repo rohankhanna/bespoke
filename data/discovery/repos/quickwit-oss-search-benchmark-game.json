@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "quickwit-oss/search-benchmark-game",
+      "target": "rclone/rclone",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:24:41.628223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4179
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Search engine benchmark (Tantivy, Lucene, PISA, ...)",
+    "fork": true,
+    "full_name": "quickwit-oss/search-benchmark-game",
+    "html_url": "https://github.com/quickwit-oss/search-benchmark-game",
+    "language": "Rust",
+    "pushed_at": "2026-04-26T10:22:35Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-04-13T17:07:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rclone/rclone",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/resolverscheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "jedisct1/dnscrypt-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "prcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/resolverscheck.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/resolverscheck.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "resolverscheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "anonymized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "anonymized-dns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "dnscrypt-enabled-resolvers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "dnscrypt-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "oblivious-doh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "target": "odoh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:20:59.277268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1012
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/prcheck.sh",
+      "size": 4512
+    },
+    {
+      "path": ".github/workflows/prcheck.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/resolverscheck.sh",
+      "size": 1808
+    },
+    {
+      "path": ".github/workflows/resolverscheck.yml",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011.",
+    "fork": false,
+    "full_name": "DNSCrypt/dnscrypt-resolvers",
+    "html_url": "https://github.com/DNSCrypt/dnscrypt-resolvers",
+    "language": "Go",
+    "pushed_at": "2026-04-29T21:25:08Z",
+    "stargazers_count": 1491,
+    "topics": [
+      "anonymized",
+      "anonymized-dns",
+      "dns",
+      "dnscrypt",
+      "dnscrypt-enabled-resolvers",
+      "dnscrypt-proxy",
+      "doh",
+      "oblivious-doh",
+      "odoh"
+    ],
+    "updated_at": "2026-04-30T08:51:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jedisct1/dnscrypt-proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "prcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prcheck.yml",
+      "term": "prcheck"
+    },
+    {
+      "context_snippet": "resolverscheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/resolverscheck.yml",
+      "term": "resolverscheck"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymized"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymized-dns"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-enabled-resolvers"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-proxy"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oblivious-doh"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odoh"
+    }
+  ]
+}

@@ -295,6 +295,30 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +459,18 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -774,11 +810,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brainlid/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

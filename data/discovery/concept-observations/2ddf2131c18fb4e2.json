@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CARLA Simulator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CARLA Simulator"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551483,
+      "status": "candidate",
+      "text": "carli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551481,
+      "status": "candidate",
+      "text": "carly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551467,
+      "status": "candidate",
+      "text": "karla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28550869,
+      "status": "candidate",
+      "text": "valerie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28544713,
+      "status": "candidate",
+      "text": "karl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carla",
+      "sense_id": "carla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carla",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carla",
+  "observation_id": "2ddf2131c18fb4e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "carla",
+  "source_context_snippet": "CARLA Simulator",
+  "source_file": null,
+  "source_repo": "carla-simulator/carla",
+  "source_repo_description": "Open-source simulator for autonomous driving research."
+}

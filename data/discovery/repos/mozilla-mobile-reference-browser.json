@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "mozilla-mobile/android-components",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "mozilla/application-services",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "Glean probe-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser",
+      "target": "mozilla",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:12.801726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7840
+    },
+    {
+      "path": ".github/workflows/glean-probe-scraper.yml",
+      "size": 199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A full-featured browser reference implementation using Mozilla Android Components.",
+    "fork": false,
+    "full_name": "mozilla-mobile/reference-browser",
+    "html_url": "https://github.com/mozilla-mobile/reference-browser",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-30T04:38:17Z",
+    "stargazers_count": 657,
+    "topics": [
+      "android",
+      "app",
+      "browser",
+      "components",
+      "mozilla"
+    ],
+    "updated_at": "2026-04-30T04:38:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/android-components",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/application-services",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Glean probe-scraper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "term": "Glean probe-scraper"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "components"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mozilla"
+    }
+  ]
+}

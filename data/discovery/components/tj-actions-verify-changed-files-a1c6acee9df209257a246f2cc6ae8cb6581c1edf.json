@@ -1,12 +1,17 @@
 {
   "component": "tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverage-badge-for-prs.yml",
       "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov"
     }
   ]
 }

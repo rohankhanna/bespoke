@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci-ubuntu.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci-ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carla-simulator/carla",
+      "target": "carla-simulator/driving-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carla-simulator/carla",
+      "target": "carla-simulator/carla-autoware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carla-simulator/carla",
+      "target": "carla-simulator/reinforcement-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carla-simulator/carla",
+      "target": "carla-simulator/carla-map-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci-ubuntu.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci-ubuntu.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_content.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "UE4-Content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_dev.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "UE4-Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_release.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "UE4-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue5_dev.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "UE5-Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue5_pr.yml",
+      "source_repo": "carla-simulator/carla",
+      "target": "UE5-PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "carla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "carla-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "self-driving-car",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla",
+      "target": "unreal-engine-4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:56.162218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10330
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    },
+    {
+      "path": ".github/workflows/_ci-ubuntu.yml",
+      "size": 3894
+    },
+    {
+      "path": ".github/workflows/ue4_content.yml",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/ue4_dev.yml",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/ue4_release.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/ue5_dev.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/ue5_pr.yml",
+      "size": 715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ue5-dev",
+    "description": "Open-source simulator for autonomous driving research.",
+    "fork": false,
+    "full_name": "carla-simulator/carla",
+    "html_url": "https://github.com/carla-simulator/carla",
+    "language": "C++",
+    "pushed_at": "2026-04-30T09:48:53Z",
+    "stargazers_count": 13900,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "carla",
+      "carla-simulator",
+      "computer-vision",
+      "cross-platform",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "imitation-learning",
+      "research",
+      "ros",
+      "self-driving-car",
+      "simulator",
+      "ue4",
+      "unreal-engine-4"
+    ],
+    "updated_at": "2026-04-30T08:14:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/carla-autoware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/carla-map-editor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/driving-benchmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carla-simulator/reinforcement-learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "UE4-Content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_content.yml",
+      "term": "UE4-Content"
+    },
+    {
+      "context_snippet": "UE4-Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_dev.yml",
+      "term": "UE4-Dev"
+    },
+    {
+      "context_snippet": "UE4-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue4_release.yml",
+      "term": "UE4-Release"
+    },
+    {
+      "context_snippet": "UE5-Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue5_dev.yml",
+      "term": "UE5-Dev"
+    },
+    {
+      "context_snippet": "UE5-PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ue5_pr.yml",
+      "term": "UE5-PR"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla-simulator"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving-car"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    },
+    {
+      "context_snippet": "CARLA Simulator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-4"
+    }
+  ]
+}

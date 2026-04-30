@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pack"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007493,
+      "status": "candidate",
+      "text": "backpack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002268,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001599,
+      "status": "candidate",
+      "text": "jampack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000075,
+      "status": "candidate",
+      "text": "camp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995844,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pack",
+      "sense_id": "pack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37077,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33038,
+      "status": "candidate",
+      "text": "coterie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22064,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "concept_id": "pack",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pack",
+  "observation_id": "81f71aec4cfa975f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Pack",
+  "source_context_snippet": "Pack",
+  "source_file": ".github/workflows/pack.yaml",
+  "source_repo": "gpustack/gpustack",
+  "source_repo_description": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+}

@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SYNC.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SYNC.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SYNC.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SYNC.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SYNC.yml",
+      "source_repo": "jawah/wassima",
+      "target": "Monthly CCADB Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/wassima",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/wassima",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/wassima",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/wassima",
+      "target": "ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/wassima",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/wassima",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/wassima",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "certifi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "certificate-authority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "certificates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "rootca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jawah/wassima",
+      "target": "truststore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:46.078397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2126
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2829
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 6924
+    },
+    {
+      "path": ".github/workflows/SYNC.yml",
+      "size": 1746
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "size": 1762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "No more certifi! System trust store at hand. In Pure Python.",
+    "fork": false,
+    "full_name": "jawah/wassima",
+    "html_url": "https://github.com/jawah/wassima",
+    "language": "Python",
+    "pushed_at": "2026-04-07T01:45:17Z",
+    "stargazers_count": 24,
+    "topics": [
+      "certifi",
+      "certificate",
+      "certificate-authority",
+      "certificates",
+      "cross-platform",
+      "python",
+      "rootca",
+      "ssl",
+      "truststore"
+    ],
+    "updated_at": "2026-04-07T06:39:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Monthly CCADB Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SYNC.yml",
+      "term": "Monthly CCADB Sync"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certifi"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate-authority"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificates"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rootca"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truststore"
+    }
+  ]
+}

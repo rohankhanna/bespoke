@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-go@0aaccfd150d50ccaeb58ebd88d36e91967a5f35b",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ingonyama-zk/icicle"
+    }
+  ]
+}

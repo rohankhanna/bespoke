@@ -1,0 +1,12 @@
+{
+  "component": "jtalk/url-health-check-action@v4",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-ui-tests.yml",
+      "source_repo": "phodal/shire"
+    }
+  ]
+}

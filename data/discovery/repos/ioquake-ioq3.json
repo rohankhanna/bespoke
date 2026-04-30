@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "mymindstorm/setup-emsdk@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ioquake/ioq3",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "fps-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "fps-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "game-engine-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "game-engine-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "quake-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3",
+      "target": "quake3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:22.472949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30079
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 9335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The ioquake3 community effort to continue supporting/developing id's Quake III Arena",
+    "fork": true,
+    "full_name": "ioquake/ioq3",
+    "html_url": "https://github.com/ioquake/ioq3",
+    "language": "C",
+    "pushed_at": "2026-03-09T11:01:13Z",
+    "stargazers_count": 2735,
+    "topics": [
+      "fps",
+      "fps-engine",
+      "fps-game",
+      "game",
+      "game-development",
+      "game-engine",
+      "game-engine-3d",
+      "game-engine-development",
+      "quake-3",
+      "quake3"
+    ],
+    "updated_at": "2026-04-29T12:58:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fps-engine"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fps-game"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine-3d"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine-development"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quake-3"
+    },
+    {
+      "context_snippet": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quake3"
+    }
+  ]
+}

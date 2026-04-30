@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10000824,
+      "status": "candidate",
+      "text": "calibrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986016,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980892,
+      "status": "candidate",
+      "text": "graduate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962661,
+      "status": "candidate",
+      "text": "refine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9764651,
+      "status": "candidate",
+      "text": "polish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fine-tuning",
+      "sense_id": "fine-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fine-tuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fine-tuning",
+  "observation_id": "fdbd0ef407dee57f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "fine-tuning",
+  "source_context_snippet": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)",
+  "source_file": null,
+  "source_repo": "oumi-ai/oumi",
+  "source_repo_description": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+}

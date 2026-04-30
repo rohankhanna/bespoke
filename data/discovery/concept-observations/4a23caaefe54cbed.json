@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OPUS-CAT is a collection of software which make it possible to OPUS-MT neural machine translation models in professional translation. OPUS-CAT includes a local offline MT engine and a collection of CAT tool plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computer-aided-translation",
+      "sense_id": "computer-aided-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "computer-aided-translation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "computer-aided-translation",
+  "observation_id": "4a23caaefe54cbed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "computer-aided-translation",
+  "source_context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+  "source_file": null,
+  "source_repo": "Helsinki-NLP/OPUS-CAT",
+  "source_repo_description": "OPUS-CAT is a collection of software which make it possible to OPUS-MT neural machine translation models in professional translation. OPUS-CAT includes a local offline MT engine and a collection of CAT tool plugins."
+}

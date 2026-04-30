@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@octokit/plugin-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/plugin-throttling",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "pl-strflt/github-mgmt-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "ipshipyard/github-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "libp2p/github-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "multiformats/github-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "@octokit/plugin-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "@octokit/plugin-throttling",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipdxco/awesome-github-as-code-users",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:58.393566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 757
+    },
+    {
+      "path": "package.json",
+      "size": 220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ipdxco/awesome-github-as-code-users",
+    "html_url": "https://github.com/ipdxco/awesome-github-as-code-users",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-20T13:51:04Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-12T04:16:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipshipyard/github-mgmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libp2p/github-mgmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/github-mgmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pl-strflt/github-mgmt-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

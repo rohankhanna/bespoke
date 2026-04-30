@@ -151,6 +151,30 @@
       "source_repo": "webextension-toolbox/generator-web-extension",
       "status": "candidate-context",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "webextension-toolbox/generator-web-extension",
       "status": "candidate",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/dejavu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

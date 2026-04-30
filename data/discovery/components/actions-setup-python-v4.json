@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2787,6 +2787,251 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-docs.yml",
       "source_repo": "flairNLP/flair"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scripts.yml",
+      "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "robertostling/eflomal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "HarderThenHarder/OpenRLHF"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/mujoco_playground"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/language_bindings.yml",
+      "source_repo": "HapticX/happyx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sandbox_tools.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/catwalk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/tango"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readthedocs.yml",
+      "source_repo": "ServiceNow/AgentLab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "filecoin-project/FIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "filecoin-project/FIPs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "brianckeegan/SpotifyUSTop50"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install_check.yml",
+      "source_repo": "resemble-ai/chatterbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "m87-labs/moondream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spyder-ide/qtpy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ponty/EasyProcess"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "altendky/pyqt-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "altendky/qt-applications"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "altendky/qt-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "source_repo": "williamberman/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Infinidat/munch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "traveller59/spconv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withoutbg/withoutbg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withoutbg/withoutbg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "autonomousvision/sdfstudio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jsvine/pdfplumber"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "MeetKai/functionary"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-check.yaml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/beaker-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "IST-DASLab/Quartet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser"
     }
   ]
 }

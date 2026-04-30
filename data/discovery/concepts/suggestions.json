@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Suggestions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "Suggestions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "Suggestions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050253,
+      "status": "candidate",
+      "text": "hint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041322,
+      "status": "candidate",
+      "text": "proposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039436,
+      "status": "candidate",
+      "text": "proffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037797,
+      "status": "candidate",
+      "text": "prompting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005597,
+      "status": "candidate",
+      "text": "trace"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Suggestions",
+  "concept_id": "suggestions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/suggestions.yml",
+      "source_repo": "jordemort/action-pyright"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Suggestions",
+      "sense_id": "suggestions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

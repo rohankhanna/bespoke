@@ -116,13 +116,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "kurrent-io/kurrentdb-client-nodejs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kurrent-io/KurrentDB",
       "target": "kurrent-io/eventstore-client-dotnet",
       "target_type": "repository"
     },
@@ -130,14 +123,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "kurrent-io/kurrentdb-client-rust",
+      "target": "nfibrokerage/spear",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "nfibrokerage/spear",
+      "target": "yousty/event_store_client",
       "target_type": "repository"
     },
     {
@@ -351,7 +344,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:00:46.664535+00:00",
+  "fetched_at": "2026-04-30T10:32:04.845078+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -403,7 +396,7 @@
     "full_name": "kurrent-io/KurrentDB",
     "html_url": "https://github.com/kurrent-io/KurrentDB",
     "language": "C#",
-    "pushed_at": "2026-04-29T13:17:08Z",
+    "pushed_at": "2026-04-30T10:20:06Z",
     "stargazers_count": 5780,
     "topics": [
       "cqrs",
@@ -413,7 +406,7 @@
       "eventsourcing",
       "eventstore"
     ],
-    "updated_at": "2026-04-29T12:58:39Z"
+    "updated_at": "2026-04-30T10:20:08Z"
   },
   "repo_links": [
     {
@@ -423,17 +416,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurrent-io/kurrentdb-client-nodejs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kurrent-io/kurrentdb-client-rust",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "nfibrokerage/spear",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yousty/event_store_client",
       "source_file": "README.md"
     }
   ],

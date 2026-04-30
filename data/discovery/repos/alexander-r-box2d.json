@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:22:43.727820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2157
+    },
+    {
+      "path": "go.mod",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go port of Box2D - a 2D Physics Engine for Games.",
+    "fork": false,
+    "full_name": "Alexander-r/box2d",
+    "html_url": "https://github.com/Alexander-r/box2d",
+    "language": "Go",
+    "pushed_at": "2023-04-15T22:40:03Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-12-27T18:03:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

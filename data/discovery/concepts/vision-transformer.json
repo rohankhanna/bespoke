@@ -175,6 +175,30 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate-context",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion\ud83d\udd25] [scaling laws in visual generation\ud83d\udcc8] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[ICLR 2023 Spotlight] Vision Transformer Adapter for Dense Predictions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +412,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SpargeAttn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/VAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

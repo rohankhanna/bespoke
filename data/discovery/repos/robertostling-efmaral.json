@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robertostling/efmaral",
+      "target": "clab/fast_align",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:18:19.241715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient Markov Chain word alignment",
+    "fork": false,
+    "full_name": "robertostling/efmaral",
+    "html_url": "https://github.com/robertostling/efmaral",
+    "language": "C",
+    "pushed_at": "2021-08-01T19:54:34Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-02-18T12:37:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clab/fast_align",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "ldez/gha-mjolnir@7572d92f300beade60bc2f8bbbb2cddc38d35cd3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-linked-issue-when-merged-into-release.yml",
+      "source_repo": "gradle/gradle"
+    }
+  ]
+}

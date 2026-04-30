@@ -139,6 +139,30 @@
       "source_repo": "microsoft/MMdnn",
       "status": "candidate-context",
       "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate-context",
+      "text": "Combine Baidu Research warpctc with Caffe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate-context",
+      "text": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume, CVPR 2018 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "microsoft/MMdnn",
       "status": "candidate",
       "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate",
+      "text": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +352,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/MMdnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xmfbit/warpctc-caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/PWC-Net"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

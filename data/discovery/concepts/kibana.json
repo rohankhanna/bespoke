@@ -19,6 +19,18 @@
       "source_repo": "elastic/kibana",
       "status": "candidate-context",
       "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "elastic/kibana",
       "status": "candidate",
       "text": "Kibana is the open source interface to query, analyze, visualize, and manage your data stored in Elasticsearch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "elastic/kibana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

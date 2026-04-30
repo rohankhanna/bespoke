@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r",
+      "target": "pkgdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r",
+      "target": "reticulate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r",
+      "target": "smith-waterman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:24:16.630851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3162
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1420
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD",
+    "fork": false,
+    "full_name": "nanxstats/ssw-r",
+    "html_url": "https://github.com/nanxstats/ssw-r",
+    "language": "R",
+    "pushed_at": "2024-09-18T12:45:56Z",
+    "stargazers_count": 6,
+    "topics": [
+      "bioinformatics",
+      "reticulate",
+      "sequence-alignment",
+      "simd",
+      "smith-waterman"
+    ],
+    "updated_at": "2025-03-07T17:44:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "pkgdown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "term": "pkgdown"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reticulate"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smith-waterman"
+    }
+  ]
+}

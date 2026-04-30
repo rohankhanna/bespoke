@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Always sparse. Never dense. But never say never. A Sparse Training repository for the Adaptive Sparse Connectivity concept and its algorithmic instantiation, i.e. Sparse Evolutionary Training, to boost Deep Learning scalability on various aspects (e.g. memory and computational time efficiency, representation and generalization power)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse-neural-networks",
+      "sense_id": "sparse-neural-networks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sparse-neural-networks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparse-neural-networks",
+  "observation_id": "823faebfdf9a90cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sparse-neural-networks",
+  "source_context_snippet": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017",
+  "source_file": null,
+  "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+  "source_repo_description": "Always sparse. Never dense. But never say never. A Sparse Training repository for the Adaptive Sparse Connectivity concept and its algorithmic instantiation, i.e. Sparse Evolutionary Training, to boost Deep Learning scalability on various aspects (e.g. memory and computational time efficiency, representation and generalization power)."
+}

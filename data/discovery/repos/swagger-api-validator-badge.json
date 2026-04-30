@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "swagger-api/swagger-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/dependency-review-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Deploy Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Build Test PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Build Test Deploy master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "tibdex/github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/validator-badge",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "openapi-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "restful-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "swagger-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "swagger-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge",
+      "target": "validator-badge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:20.376897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4784
+    },
+    {
+      "path": "Dockerfile",
+      "size": 451
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4447
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/deploy-docker.yml",
+      "size": 1207
+    },
+    {
+      "path": ".github/workflows/maven-pulls.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1961
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 2213
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Validate your Swagger JSON/YAML today!",
+    "fork": false,
+    "full_name": "swagger-api/validator-badge",
+    "html_url": "https://github.com/swagger-api/validator-badge",
+    "language": "Java",
+    "pushed_at": "2026-03-26T08:02:49Z",
+    "stargazers_count": 223,
+    "topics": [
+      "open-source",
+      "openapi-specification",
+      "openapi3",
+      "rest",
+      "restful-api",
+      "swagger",
+      "swagger-api",
+      "swagger-oss",
+      "validator-badge"
+    ],
+    "updated_at": "2026-04-28T19:37:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swagger-api/swagger-parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Deploy Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docker.yml",
+      "term": "Deploy Docker"
+    },
+    {
+      "context_snippet": "Build Test PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "term": "Build Test PR"
+    },
+    {
+      "context_snippet": "Build Test Deploy master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Build Test Deploy master"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-specification"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restful-api"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-api"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-oss"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validator-badge"
+    }
+  ]
+}

@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:03:14.234543+00:00",
+  "fetched_at": "2026-04-30T10:17:14.508143+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -58,7 +58,7 @@
     "html_url": "https://github.com/bazel-contrib/rules_go",
     "language": "Go",
     "pushed_at": "2026-04-29T17:44:40Z",
-    "stargazers_count": 1476,
+    "stargazers_count": 1477,
     "topics": [
       "bazel",
       "bazel-rules",
@@ -66,7 +66,7 @@
       "go",
       "golang"
     ],
-    "updated_at": "2026-04-29T17:29:25Z"
+    "updated_at": "2026-04-30T08:15:08Z"
   },
   "repo_links": [
     {

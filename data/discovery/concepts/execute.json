@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "execute"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027624,
+      "status": "candidate",
+      "text": "put to death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010485,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007318,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989459,
+      "status": "candidate",
+      "text": "carry through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985128,
+      "status": "candidate",
+      "text": "accomplish"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "accomplish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13044,
+      "status": "candidate",
+      "text": "perform"
+    }
+  ],
+  "canonical_name": "execute",
+  "concept_id": "execute",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/execa"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "execute",
+      "sense_id": "execute#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

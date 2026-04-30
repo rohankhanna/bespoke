@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "go-gl/example",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "go-gl/example",
+      "target": "golangci/golangci-lint-action@v2.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "go-gl/example",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/example",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/example",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/example",
+      "target": "Main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:37.181009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 515
+    },
+    {
+      "path": "go.mod",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yaml",
+      "size": 519
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example programs for the various go-gl packages.",
+    "fork": false,
+    "full_name": "go-gl/example",
+    "html_url": "https://github.com/go-gl/example",
+    "language": "Go",
+    "pushed_at": "2024-11-03T22:50:59Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-04-30T09:58:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    }
+  ]
+}

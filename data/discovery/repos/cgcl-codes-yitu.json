@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CGCL-codes/YiTu",
+      "target": "czk23/yitu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CGCL-codes/YiTu",
+      "target": "ningsir/pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CGCL-codes/YiTu",
+      "target": "kimiyoung/planetoid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:03.088802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YiTu is an easy-to-use runtime to fully exploit the hybrid parallelism of different hardwares (e.g., GPU) to efficiently support the execution of various kinds of graph algorithms (e.g., GNNs).",
+    "fork": false,
+    "full_name": "CGCL-codes/YiTu",
+    "html_url": "https://github.com/CGCL-codes/YiTu",
+    "language": "C++",
+    "pushed_at": "2026-01-07T12:34:31Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-04-08T08:47:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "czk23/yitu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kimiyoung/planetoid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ningsir/pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

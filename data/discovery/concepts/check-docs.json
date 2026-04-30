@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check docs"
+    "Check docs",
+    "Check Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "nvim-telescope/telescope.nvim",
       "status": "candidate-context",
       "text": "Check docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "Check Docs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "nvim-telescope/telescope.nvim",
       "status": "candidate",
       "text": "Check docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "Check Docs"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docgen.yml",
       "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "dagster-io/dagster"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

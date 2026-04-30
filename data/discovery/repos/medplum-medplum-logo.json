@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:30:19.714848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "medplum/medplum-logo",
+    "html_url": "https://github.com/medplum/medplum-logo",
+    "language": "HTML",
+    "pushed_at": "2025-09-03T16:23:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-09-03T16:23:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

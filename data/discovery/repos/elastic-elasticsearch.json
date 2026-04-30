@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@ac638b010cf58a27ee6c972d7336334ccaf61c96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml"
+    },
+    {
+      "component": "docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml"
+    },
+    {
+      "component": "elastic/oblt-actions/updatecli/run@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "docs-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "docs-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "docs-preview-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "gradle/actions/wrapper-validation@ac638b010cf58a27ee6c972d7336334ccaf61c96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "elastic/oblt-actions/updatecli/run@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "source_repo": "elastic/elasticsearch",
+      "target": "updatecli-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/elasticsearch",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/elasticsearch",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/elasticsearch",
+      "target": "search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:13.984807+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/docs-build.yml",
+      "size": 520
+    },
+    {
+      "path": ".github/workflows/docs-deploy.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/docs-preview-cleanup.yml",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/updatecli-compose.yml",
+      "size": 1542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Free and Open Source, Distributed, RESTful Search Engine",
+    "fork": false,
+    "full_name": "elastic/elasticsearch",
+    "html_url": "https://github.com/elastic/elasticsearch",
+    "language": "Java",
+    "pushed_at": "2026-04-30T10:22:34Z",
+    "stargazers_count": 76611,
+    "topics": [
+      "elasticsearch",
+      "java",
+      "search-engine"
+    ],
+    "updated_at": "2026-04-30T10:22:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "term": "docs-build"
+    },
+    {
+      "context_snippet": "docs-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "term": "docs-deploy"
+    },
+    {
+      "context_snippet": "docs-preview-cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "term": "docs-preview-cleanup"
+    },
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "updatecli-compose",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "term": "updatecli-compose"
+    },
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch"
+    },
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    }
+  ]
+}

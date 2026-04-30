@@ -55,6 +55,18 @@
       "source_repo": "Level/transcoder",
       "status": "candidate-context",
       "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID Generator"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Level/transcoder",
       "status": "candidate",
       "text": "**Encode data with built-in or custom encodings.** The successor to [`level-codec`][level-codec] that transcodes encodings from and to internal data formats supported by a database. This allows a database to store data in a format of its choice (Buffer, Uint8Array or String) wit\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate",
+      "text": "Flake ID Generator"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Level/transcoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikespook/possum",
+      "target": "golang-jwt/jwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikespook/possum",
+      "target": "google/uuid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:28:02.335948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2769
+    },
+    {
+      "path": "go.mod",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A micro web library for Go.",
+    "fork": false,
+    "full_name": "mikespook/possum",
+    "html_url": "https://github.com/mikespook/possum",
+    "language": "Go",
+    "pushed_at": "2026-01-05T03:26:27Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-01-05T03:26:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang-jwt/jwt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/uuid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

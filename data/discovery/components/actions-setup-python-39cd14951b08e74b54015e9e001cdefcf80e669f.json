@@ -1,12 +1,42 @@
 {
   "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeowners-coverage.yml",
       "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov"
     }
   ]
 }

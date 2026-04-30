@@ -93,6 +93,30 @@
       "source_repo": "tonistiigi/xx",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mysql-container",
+      "status": "candidate-context",
+      "text": "MySQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mysql-container",
+      "status": "candidate-context",
+      "text": "MySQL SQL Database Server Container Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "Official source of container configurations and images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
     }
   ],
   "candidate_glosses": [
@@ -137,6 +161,18 @@
       "source_repo": "tonistiigi/xx",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/tonistiigi/xx.svg?style=flat-square)](https://github.com/tonistiigi/xx/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mysql-container",
+      "status": "candidate",
+      "text": "MySQL SQL Database Server Container Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
     }
   ],
   "candidate_related_terms": [],
@@ -276,11 +312,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mysql-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

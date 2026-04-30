@@ -46,20 +46,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "allenai/OLMo-Eval-Legacy",
-      "target": "allenai/tango",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "allenai/OLMo-Eval-Legacy",
-      "target": "allenai/catwalk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "allenai/OLMo-Eval-Legacy",
       "target": "allenai/ai2-llm-eval",
       "target_type": "repository"
     },
@@ -134,7 +120,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:49:29.687493+00:00",
+  "fetched_at": "2026-04-30T10:25:54.729605+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -171,16 +157,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "allenai/ai2-llm-eval",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allenai/catwalk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "allenai/tango",
       "source_file": "README.md"
     },
     {

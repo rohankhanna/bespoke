@@ -512,6 +512,42 @@
       "source_repo": "web-infra-dev/rslint",
       "status": "candidate-context",
       "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_glosses": [
@@ -766,6 +802,24 @@
       "source_repo": "web-infra-dev/rslint",
       "status": "candidate",
       "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "'Copilot Setup Steps'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_related_terms": [
@@ -1073,11 +1127,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ServiceNow/webarena-verified"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

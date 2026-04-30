@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:31:58.805423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Website Content Management, Membership & eCommerce Platform",
+    "fork": false,
+    "full_name": "Eonic/ProteanCMS",
+    "html_url": "https://github.com/Eonic/ProteanCMS",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T07:58:44Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-01-22T10:41:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

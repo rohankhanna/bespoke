@@ -151,6 +151,18 @@
       "source_repo": "dstackai/dstack",
       "status": "candidate-context",
       "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "dstackai/dstack",
       "status": "candidate",
       "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
     }
   ],
   "candidate_related_terms": [
@@ -387,11 +405,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

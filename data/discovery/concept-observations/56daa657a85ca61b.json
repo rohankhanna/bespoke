@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build various Verific configurations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build various Verific configurations"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26721,
+      "status": "candidate",
+      "text": "mud dauber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23920,
+      "status": "candidate",
+      "text": "decapod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23332,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23311,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23311,
+      "status": "candidate",
+      "text": "development"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build various Verific configurations",
+      "sense_id": "build-various-verific-configurations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-various-verific-configurations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-various-verific-configurations",
+  "observation_id": "56daa657a85ca61b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build various Verific configurations",
+  "source_context_snippet": "Build various Verific configurations",
+  "source_file": ".github/workflows/test-verific-cfg.yml",
+  "source_repo": "YosysHQ/yosys",
+  "source_repo_description": "Yosys Open SYnthesis Suite"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiuTian-VL/JiuTian-LION",
+      "target": "aoidragon/pope",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:03.672376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6745
+    },
+    {
+      "path": "requirements.txt",
+      "size": 409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] LION: Empowering Multimodal Large Language Model with Dual-Level Visual Knowledge",
+    "fork": false,
+    "full_name": "JiuTian-VL/JiuTian-LION",
+    "html_url": "https://github.com/JiuTian-VL/JiuTian-LION",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-03T12:49:16Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-28T11:25:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aoidragon/pope",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

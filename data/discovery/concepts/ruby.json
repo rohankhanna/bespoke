@@ -922,6 +922,180 @@
       "source_repo": "ruby/psych",
       "status": "candidate-context",
       "text": "* https://github.com/ruby/psych"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "OpenAI API + Ruby! \ud83e\udd16\u2764\ufe0f GPT-5 & Realtime WebRTC compatible!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate-context",
+      "text": "ruby-edlib is a wrapper for edlib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/edlib.svg)](https://badge.fury.io/rb/edlib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "A runtime developer console and IRB alternative with powerful introspection capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "Pry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "A high performance implementation of the Ruby programming language, built on GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "A library for setting up Ruby objects as test data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "The Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "Documentation Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": ":cake: Version Cake is an unobtrusive way to version APIs in your Rails or Rack apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "Rails 4.2+ templating system with JSON, XML and Plist support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baldowl/rack_csrf",
+      "status": "candidate-context",
+      "text": "Anti-CSRF Rack middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldowl/rack_csrf",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "Flexible authentication solution for Rails with Warden."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate-context",
+      "text": "MSYS2 based RubyInstaller for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate-context",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A Ruby gem and unofficial documentation of Tesla's JSON API for the Model S, 3, X, and Y."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate-context",
+      "text": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)"
     }
   ],
   "candidate_glosses": [
@@ -1392,6 +1566,96 @@
       "source_repo": "ruby/psych",
       "status": "candidate",
       "text": "* https://github.com/ruby/psych"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/edlib.svg)](https://badge.fury.io/rb/edlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate",
+      "text": "Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate",
+      "text": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate",
+      "text": "Documentation Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldowl/rack_csrf",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timdorr/tesla-api",
+      "status": "candidate",
+      "text": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)"
     }
   ],
   "candidate_related_terms": [
@@ -1975,11 +2239,119 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ruby/psych"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "alexrudall/ruby-openai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kojix2/ruby-edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pry/pry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ruby/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "socketry/async"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bwillis/versioncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "baldowl/rack_csrf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oneclick/rubyinstaller2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "timdorr/tesla-api"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

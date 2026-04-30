@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "microbenchmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024836,
+      "status": "candidate",
+      "text": "microbenchmarking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024835,
+      "status": "candidate",
+      "text": "microfunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024834,
+      "status": "candidate",
+      "text": "microtask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024833,
+      "status": "candidate",
+      "text": "microtest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024832,
+      "status": "candidate",
+      "text": "microgame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "microbenchmark",
+  "concept_id": "microbenchmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microbenchmark",
+      "sense_id": "microbenchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

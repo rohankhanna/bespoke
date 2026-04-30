@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenPoints: a library for easily reproducing point-based methods for point cloud understanding. The engine for [ASSANet](https://arxiv.org/abs/2110.10538), [PointNeXt](https://arxiv.org/abs/2206.04670)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pointnext",
+      "sense_id": "pointnext#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pointnext",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pointnext",
+  "observation_id": "49b96b1cffde6444",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "pointnext",
+  "source_context_snippet": "OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein.",
+  "source_file": null,
+  "source_repo": "guochengqian/openpoints",
+  "source_repo_description": "OpenPoints: a library for easily reproducing point-based methods for point cloud understanding. The engine for [ASSANet](https://arxiv.org/abs/2110.10538), [PointNeXt](https://arxiv.org/abs/2206.04670)"
+}

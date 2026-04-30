@@ -799,6 +799,90 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "llama and other  large language models on iOS and MacOS offline using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "Instant, controllable, local pre-trained AI models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "Eagle: Frontier Vision-Language Models with Data-Centric Strategies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate-context",
+      "text": "\u300a\u5927\u6a21\u578b\u767d\u76d2\u5b50\u6784\u5efa\u6307\u5357\u300b\uff1a\u4e00\u4e2a\u5168\u624b\u6413\u7684Tiny-Universe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1281,48 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -1870,11 +1996,113 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hybridgroup/yzma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "floneum/floneum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Eagle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "datawhalechina/tiny-universe"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

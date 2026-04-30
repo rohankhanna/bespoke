@@ -43,6 +43,30 @@
       "source_repo": "HimariO/diffusers-t2i-adapter",
       "status": "candidate-context",
       "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Scalable and memory-optimized training of diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "williamberman/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "williamberman/diffusers",
+      "status": "candidate-context",
+      "text": "Fast tests for PRs"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HimariO/diffusers-t2i-adapter",
+      "status": "candidate",
+      "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate",
+      "text": "Fast tests for PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "williamberman/diffusers",
       "status": "candidate",
       "text": "Fast tests for PRs"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr_tests.yml",
       "source_repo": "HimariO/diffusers-t2i-adapter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "williamberman/diffusers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

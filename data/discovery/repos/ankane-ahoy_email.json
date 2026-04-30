@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ankane/setup-mongodb@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ahoy_email",
+      "target": "ankane/mailkick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ahoy_email",
+      "target": "ankane/lockbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/ahoy_email",
+      "target": "ankane/blind_index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy_email",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy_email",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy_email",
+      "target": "ankane/setup-mongodb@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy_email",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email",
+      "target": "first-party-analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email",
+      "target": "rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:39.405669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7285
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "First-party email analytics for Rails",
+    "fork": false,
+    "full_name": "ankane/ahoy_email",
+    "html_url": "https://github.com/ankane/ahoy_email",
+    "language": "Ruby",
+    "pushed_at": "2026-04-01T20:49:18Z",
+    "stargazers_count": 1183,
+    "topics": [
+      "analytics",
+      "first-party-analytics",
+      "rails"
+    ],
+    "updated_at": "2026-04-20T14:46:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/blind_index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/lockbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/mailkick",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "First-party email analytics for Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "First-party email analytics for Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-party-analytics"
+    },
+    {
+      "context_snippet": "First-party email analytics for Rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    }
+  ]
+}

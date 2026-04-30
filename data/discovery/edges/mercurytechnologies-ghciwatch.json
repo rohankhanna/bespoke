@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "ndmitchell/ghcid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "sol/hpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "Label issues with `linear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "cachix/install-nix-action@7be5dee1421f63d07e71ce6e0a9f8a4b07c2a487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "Build and publish a release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "peter-evans/create-or-update-comment@67dcc547d311b736a8e6c5c236542148a47adc3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "cachix/install-nix-action@7be5dee1421f63d07e71ce6e0a9f8a4b07c2a487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "dtolnay/rust-toolchain@4305c38b25d97ef35a8ad1f985ccf2d2242004f2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "mathieudutour/github-tag-action@d745f2e74aaf1ee82e747b181f7a0967978abee0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "softprops/action-gh-release@de2c0eb89ae2a093876385947365aca7b0e5f844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "Build and publish a release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "cachix/install-nix-action@7be5dee1421f63d07e71ce6e0a9f8a4b07c2a487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "peter-evans/create-pull-request@4e1beaa7521e8b457b572c090b25bd3db56bf1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "Update versions and create release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "ghci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "target": "inotify",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "MercuryTechnologies/ghciwatch"
+}

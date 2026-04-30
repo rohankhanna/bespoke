@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technology-stack",
+      "target": "dwyl/learn-phoenix-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technology-stack",
+      "target": "dwyl/learn-alpine.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technology-stack",
+      "target": "dwyl/phoenix-papertrail-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/technology-stack",
+      "target": "dwyl/learn-payment-processing",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:16:22.412927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Detailed description + diagram of the Open Source Technology Stack we use for dwyl projects.",
+    "fork": false,
+    "full_name": "dwyl/technology-stack",
+    "html_url": "https://github.com/dwyl/technology-stack",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-07T16:50:59Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-04-03T12:04:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-alpine.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-payment-processing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-phoenix-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/phoenix-papertrail-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

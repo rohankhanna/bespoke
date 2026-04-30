@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/arm-linux-gnueabihf.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn"
+    }
+  ],
+  "term": "arm-linux-gnueabihf"
+}

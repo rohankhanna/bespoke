@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Netgear/wsdd2",
+      "target": "openwrt/packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netgear/wsdd2",
+      "target": "code-owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netgear/wsdd2",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netgear/wsdd2",
+      "target": "lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Netgear/wsdd2",
+      "target": "product",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:17.622066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1414
+    },
+    {
+      "path": "Dockerfile",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WSD/LLMNR Discovery/Name Service Daemon",
+    "fork": false,
+    "full_name": "Netgear/wsdd2",
+    "html_url": "https://github.com/Netgear/wsdd2",
+    "language": "C",
+    "pushed_at": "2024-05-05T17:31:02Z",
+    "stargazers_count": 181,
+    "topics": [
+      "bu",
+      "code-owner",
+      "component",
+      "lifecycle",
+      "product"
+    ],
+    "updated_at": "2026-04-26T20:13:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openwrt/packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WSD/LLMNR Discovery/Name Service Daemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-owner"
+    },
+    {
+      "context_snippet": "WSD/LLMNR Discovery/Name Service Daemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "WSD/LLMNR Discovery/Name Service Daemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lifecycle"
+    },
+    {
+      "context_snippet": "WSD/LLMNR Discovery/Name Service Daemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "product"
+    }
+  ]
+}

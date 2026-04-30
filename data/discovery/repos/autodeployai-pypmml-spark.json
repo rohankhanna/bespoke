@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pmml-pyspark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pmml-pyspark-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pmml-pyspark-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pmml-scoring-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark",
+      "target": "pyspark-mllib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:10:41.958256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2990
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python PMML scoring library for PySpark as SparkML Transformer",
+    "fork": false,
+    "full_name": "autodeployai/pypmml-spark",
+    "html_url": "https://github.com/autodeployai/pypmml-spark",
+    "language": "Python",
+    "pushed_at": "2024-12-09T23:48:07Z",
+    "stargazers_count": 22,
+    "topics": [
+      "pmml",
+      "pmml-pyspark",
+      "pmml-pyspark-ml",
+      "pmml-pyspark-transformer",
+      "pmml-scoring-library",
+      "pyspark-mllib"
+    ],
+    "updated_at": "2024-12-09T23:47:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-pyspark"
+    },
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-pyspark-ml"
+    },
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-pyspark-transformer"
+    },
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scoring-library"
+    },
+    {
+      "context_snippet": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyspark-mllib"
+    }
+  ]
+}

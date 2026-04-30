@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Israeli Oref Alerts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Biome Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Biome Update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "basin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11153,
+      "status": "candidate",
+      "text": "ocean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10284,
+      "status": "candidate",
+      "text": "county"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10284,
+      "status": "candidate",
+      "text": "flora"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10284,
+      "status": "candidate",
+      "text": "structure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Biome Update",
+      "sense_id": "biome-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "biome-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "biome-update",
+  "observation_id": "947703523305b40f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Biome Update",
+  "source_context_snippet": "Biome Update",
+  "source_file": ".github/workflows/biome-update.yml",
+  "source_repo": "amitfin/oref_alert",
+  "source_repo_description": "Israeli Oref Alerts"
+}

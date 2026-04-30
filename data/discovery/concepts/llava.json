@@ -139,6 +139,30 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate-context",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "Eagle: Frontier Vision-Language Models with Data-Centric Strategies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +328,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tianyi-lab/HallusionBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Fanghua-Yu/SUPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Eagle"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

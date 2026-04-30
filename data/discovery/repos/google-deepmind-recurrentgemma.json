@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-deepmind/recurrentgemma",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-deepmind/recurrentgemma",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-deepmind/recurrentgemma",
+      "target": "Unittests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:13.561860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5600
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open weights language model from Google DeepMind, based on Griffin.",
+    "fork": false,
+    "full_name": "google-deepmind/recurrentgemma",
+    "html_url": "https://github.com/google-deepmind/recurrentgemma",
+    "language": "Python",
+    "pushed_at": "2026-02-06T11:01:48Z",
+    "stargazers_count": 672,
+    "topics": [],
+    "updated_at": "2026-04-29T08:33:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Unittests"
+    }
+  ]
+}

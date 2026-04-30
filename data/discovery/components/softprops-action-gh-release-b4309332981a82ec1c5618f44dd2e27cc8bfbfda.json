@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous-deployment-workflow.yml",
       "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Dicklesworthstone/beads_rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "postcss/autoprefixer"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "preprocessing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kharchenkolab/dropEst",
+      "status": "candidate-context",
+      "text": "Pipeline for initial analysis of droplet-based single-cell RNA-seq data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kharchenkolab/dropEst",
+      "status": "candidate-context",
+      "text": "dropEst - Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kharchenkolab/dropEst",
+      "status": "candidate",
+      "text": "dropEst - Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002362,
+      "status": "candidate",
+      "text": "prep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992906,
+      "status": "candidate",
+      "text": "preparatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988228,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983477,
+      "status": "candidate",
+      "text": "preparedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982550,
+      "status": "candidate",
+      "text": "readiness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "preprocessing",
+  "concept_id": "preprocessing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kharchenkolab/dropEst"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preprocessing",
+      "sense_id": "preprocessing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

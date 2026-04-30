@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "Build pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "hacktoberfest-accepted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:27.205423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1773
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    },
+    {
+      "path": ".github/workflows/build-page.yml",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pythainlp-data",
+    "fork": false,
+    "full_name": "PyThaiNLP/pythainlp-corpus",
+    "html_url": "https://github.com/PyThaiNLP/pythainlp-corpus",
+    "language": "HTML",
+    "pushed_at": "2026-03-14T05:43:38Z",
+    "stargazers_count": 9,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest-accepted"
+    ],
+    "updated_at": "2026-03-14T05:43:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-page.yml",
+      "term": "Build pages"
+    },
+    {
+      "context_snippet": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest-accepted"
+    }
+  ]
+}

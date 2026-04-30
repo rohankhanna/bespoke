@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colmap/pycolmap",
+      "target": "cvg/hierarchical-localization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "pypa/cibuildwheel@v2.16.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "Build and publish wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "jidicula/clang-format-action@v4.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "colmap/pycolmap",
+      "target": "clang-format Check",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "colmap/pycolmap"
+}

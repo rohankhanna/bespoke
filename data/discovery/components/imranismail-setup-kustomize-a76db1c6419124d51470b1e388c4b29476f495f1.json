@@ -1,0 +1,22 @@
+{
+  "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov"
+    }
+  ]
+}

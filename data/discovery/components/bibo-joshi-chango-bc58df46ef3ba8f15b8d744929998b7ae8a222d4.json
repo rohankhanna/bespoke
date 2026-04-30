@@ -1,0 +1,12 @@
+{
+  "component": "Bibo-Joshi/chango@bc58df46ef3ba8f15b8d744929998b7ae8a222d4",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    }
+  ]
+}

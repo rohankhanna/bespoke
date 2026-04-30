@@ -19,6 +19,18 @@
       "source_repo": "0xC0000054/libheif-sharp",
       "status": "candidate-context",
       "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "0xC0000054/libheif-sharp",
       "status": "candidate",
       "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -48,11 +66,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "0xC0000054/libheif-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/image-guard"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

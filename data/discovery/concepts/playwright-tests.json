@@ -68,6 +68,30 @@
       "source_repo": "jupyter/nbclassic",
       "status": "candidate-context",
       "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate-context",
+      "text": "Grafana DataSource of GreptimeDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate-context",
+      "text": "A TypeScript sample app for the Retrieval Augmented Generation pattern running on Azure, using Azure AI Search for retrieval and Azure OpenAI and LangChain large language models (LLMs) to power ChatGPT-style and Q&A experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jupyter/nbclassic",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
       "status": "candidate",
       "text": "Playwright Tests"
     }
@@ -191,11 +227,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/playwright.yml",
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

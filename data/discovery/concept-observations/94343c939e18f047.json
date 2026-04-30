@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Changed Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Changed Files"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34274,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "parity check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "spot check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "patch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Changed Files",
+      "sense_id": "check-changed-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-changed-files",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-changed-files",
+  "observation_id": "94343c939e18f047",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Check Changed Files",
+  "source_context_snippet": "Check Changed Files",
+  "source_file": ".github/workflows/check-changed-files.yml",
+  "source_repo": "ingonyama-zk/icicle",
+  "source_repo_description": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+}

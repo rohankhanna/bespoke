@@ -105,6 +105,30 @@
       "source_repo": "plotly/graphing-library-docs",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "TuGraph: A High Performance Graph Database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "Build and deploy"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +179,18 @@
       "source_repo": "plotly/graphing-library-docs",
       "status": "candidate",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate",
+      "text": "Build and deploy"
     }
   ],
   "candidate_related_terms": [
@@ -264,11 +300,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "plotly/graphing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "TuGraph-family/tugraph-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

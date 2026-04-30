@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "lemire/simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "xoofx/cppast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "netcore3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:53.277163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# bindings for lemire/simdjson (and full C# port)",
+    "fork": false,
+    "full_name": "EgorBo/SimdJsonSharp",
+    "html_url": "https://github.com/EgorBo/SimdJsonSharp",
+    "language": "C#",
+    "pushed_at": "2022-12-08T05:26:44Z",
+    "stargazers_count": 689,
+    "topics": [
+      "avx2",
+      "json",
+      "netcore3",
+      "simd"
+    ],
+    "updated_at": "2026-04-16T01:30:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/simdjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xoofx/cppast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore3"
+    },
+    {
+      "context_snippet": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

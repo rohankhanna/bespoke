@@ -1,0 +1,12 @@
+{
+  "component": "jayanta525/github-pages-directory-listing@v3.0.0",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple logging interface for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Assign"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Assign"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046930,
+      "status": "candidate",
+      "text": "allot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046157,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043493,
+      "status": "candidate",
+      "text": "depute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042808,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042690,
+      "status": "candidate",
+      "text": "delegate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign",
+      "sense_id": "assign#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32035,
+      "status": "candidate",
+      "text": "arrogate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25056,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "ascribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17045,
+      "status": "candidate",
+      "text": "delegate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16032,
+      "status": "candidate",
+      "text": "designate"
+    }
+  ],
+  "concept_id": "assign",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assign",
+  "observation_id": "350917127fff26b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Assign",
+  "source_context_snippet": "Assign",
+  "source_file": ".github/workflows/assign.yaml",
+  "source_repo": "go-logr/logr",
+  "source_repo_description": "A simple logging interface for Go"
+}

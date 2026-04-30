@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@90e01b21170618765a73370fcc3abbd1684a7793",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "Skitionek/notify-microsoft-teams@e7a2493ac87dad8aa7a62f079f295e54ff511d88",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "CLA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "AdityaGarg8/remove-unwanted-software@90e01b21170618765a73370fcc3abbd1684a7793",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "Skitionek/notify-microsoft-teams@e7a2493ac87dad8aa7a62f079f295e54ff511d88",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "Trivy DB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-db",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:27.375719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4099
+    },
+    {
+      "path": "go.mod",
+      "size": 2687
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/cron.yml",
+      "size": 4599
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aquasecurity/trivy-db",
+    "html_url": "https://github.com/aquasecurity/trivy-db",
+    "language": "Go",
+    "pushed_at": "2026-04-29T08:06:12Z",
+    "stargazers_count": 328,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-29T08:06:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA"
+    },
+    {
+      "context_snippet": "Trivy DB",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "term": "Trivy DB"
+    },
+    {
+      "context_snippet": "![Build DB](https://github.com/aquasecurity/trivy-db/workflows/Trivy%20DB/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

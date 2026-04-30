@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "efficient-large-model/comfyui_extramodels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "shinechen1024/miaobi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "openai/consistencydecoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:26.543602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15559
+    },
+    {
+      "path": "requirements.txt",
+      "size": 134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Support for miscellaneous image models. Currently supports: DiT, PixArt, HunYuanDiT, MiaoBi, and a few VAEs.",
+    "fork": false,
+    "full_name": "city96/ComfyUI_ExtraModels",
+    "html_url": "https://github.com/city96/ComfyUI_ExtraModels",
+    "language": "Python",
+    "pushed_at": "2024-12-17T06:44:05Z",
+    "stargazers_count": 534,
+    "topics": [
+      "comfyui",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-09T10:36:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/comfyui_extramodels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/consistencydecoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shinechen1024/miaobi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository aims to add support for various different image diffusion models to ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "This repository aims to add support for various different image diffusion models to ComfyUI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

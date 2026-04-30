@@ -1,0 +1,453 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4.35.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4.35.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "jmertic/slack-release-notifier@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notice.yml"
+    },
+    {
+      "component": "jmertic/slack-release-notifier@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notice.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@04cffa1d795717b140764e8b640de88853c92acc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@d2e135a73a39154e3a231aeb49163c4661c5b8b1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website_workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "CI Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "CI-vfx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "github/codeql-action/init@v4.35.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "github/codeql-action/analyze@v4.35.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notice.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "jmertic/slack-release-notifier@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notice.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "Publish Release Notice to ASWF Slack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "sigstore/gh-action-sigstore-python@04cffa1d795717b140764e8b640de88853c92acc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "Sign Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "github/codeql-action/upload-sarif@d2e135a73a39154e3a231aeb49163c4661c5b8b1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "3d-vector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "target": "openexr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:33.104992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4668
+    },
+    {
+      "path": ".github/workflows/analysis_workflow.yml",
+      "size": 4963
+    },
+    {
+      "path": ".github/workflows/ci_steps.yml",
+      "size": 28784
+    },
+    {
+      "path": ".github/workflows/ci_workflow.yml",
+      "size": 9176
+    },
+    {
+      "path": ".github/workflows/ci_workflow_vfx.yml",
+      "size": 3870
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4794
+    },
+    {
+      "path": ".github/workflows/release-notice.yml",
+      "size": 1058
+    },
+    {
+      "path": ".github/workflows/release-sign.yml",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 1998
+    },
+    {
+      "path": ".github/workflows/website_workflow.yml",
+      "size": 1431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics",
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/Imath",
+    "html_url": "https://github.com/AcademySoftwareFoundation/Imath",
+    "language": "C++",
+    "pushed_at": "2026-04-20T13:20:04Z",
+    "stargazers_count": 467,
+    "topics": [
+      "3d-vector",
+      "computer-graphics",
+      "matrix",
+      "openexr"
+    ],
+    "updated_at": "2026-04-22T02:29:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "term": "Analysis"
+    },
+    {
+      "context_snippet": "CI Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "term": "CI Steps"
+    },
+    {
+      "context_snippet": "CI-vfx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_workflow_vfx.yml",
+      "term": "CI-vfx"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Publish Release Notice to ASWF Slack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notice.yml",
+      "term": "Publish Release Notice to ASWF Slack"
+    },
+    {
+      "context_snippet": "Sign Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sign.yml",
+      "term": "Sign Release"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website_workflow.yml",
+      "term": "Website"
+    },
+    {
+      "context_snippet": "<!-- SPDX-License-Identifier: BSD-3-Clause -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vector"
+    },
+    {
+      "context_snippet": "<!-- SPDX-License-Identifier: BSD-3-Clause -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<!-- SPDX-License-Identifier: BSD-3-Clause -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "<!-- SPDX-License-Identifier: BSD-3-Clause -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openexr"
+    }
+  ]
+}

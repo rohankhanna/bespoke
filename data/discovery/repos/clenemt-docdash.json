@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "@jsdoc/salty",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browser-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watch-run",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clenemt/docdash",
+      "target": "nijikokun/minami",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "clenemt/docdash",
+      "target": "@jsdoc/salty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clenemt/docdash",
+      "target": "browser-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clenemt/docdash",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clenemt/docdash",
+      "target": "watch-run",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:40.962841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5809
+    },
+    {
+      "path": "package.json",
+      "size": 883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":zap: Lodash inspired JSDoc 3 template/theme",
+    "fork": false,
+    "full_name": "clenemt/docdash",
+    "html_url": "https://github.com/clenemt/docdash",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-13T12:19:30Z",
+    "stargazers_count": 846,
+    "topics": [],
+    "updated_at": "2026-04-30T06:57:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nijikokun/minami",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

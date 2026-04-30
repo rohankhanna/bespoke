@@ -84,7 +84,7 @@
   "normalized_form": "issue-manager",
   "observation_id": "9386c3faddcc2c25",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Issue Manager",
   "source_context_snippet": "Issue Manager",
   "source_file": ".github/workflows/issue-manager.yml",

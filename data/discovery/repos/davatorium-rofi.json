@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:01:28.923399+00:00",
+  "fetched_at": "2026-04-30T09:26:27.355935+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -263,7 +263,7 @@
     "html_url": "https://github.com/davatorium/rofi",
     "language": "C",
     "pushed_at": "2026-04-13T13:42:37Z",
-    "stargazers_count": 15964,
+    "stargazers_count": 15993,
     "topics": [
       "application-launcher",
       "c",
@@ -275,7 +275,7 @@
       "window-switcher",
       "x11"
     ],
-    "updated_at": "2026-04-22T05:08:15Z"
+    "updated_at": "2026-04-30T02:18:37Z"
   },
   "repo_links": [],
   "terms": [

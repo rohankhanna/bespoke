@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029064,
+      "status": "candidate",
+      "text": "gnu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029063,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823310,
+      "status": "candidate",
+      "text": "pam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29731501,
+      "status": "candidate",
+      "text": "links"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28992238,
+      "status": "candidate",
+      "text": "lenox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linux",
+      "sense_id": "linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux",
+  "observation_id": "94300dbad050762a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "linux",
+  "source_context_snippet": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |",
+  "source_file": null,
+  "source_repo": "k2-fsa/sherpa-onnx",
+  "source_repo_description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
+}

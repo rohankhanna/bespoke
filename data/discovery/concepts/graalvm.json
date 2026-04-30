@@ -139,6 +139,78 @@
       "source_repo": "graalvm/graalvm-ce-builds",
       "status": "candidate-context",
       "text": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "GraalJS \u2013 A high-performance, ECMAScript compliant, and embeddable JavaScript runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "A high performance implementation of the Ruby programming language, built on GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "OkHttp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +279,42 @@
       "source_repo": "graalvm/graalvm-ce-builds",
       "status": "candidate",
       "text": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate",
+      "text": "OkHttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +472,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graaljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graalpython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "remkop/picocli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

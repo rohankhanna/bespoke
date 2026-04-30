@@ -55,6 +55,18 @@
       "source_repo": "chelsea0x3b/cudarc",
       "status": "candidate-context",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "CUDA Kernel Benchmarking Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "This project is a work-in-progress. Everything is subject to change."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chelsea0x3b/cudarc",
       "status": "candidate",
       "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate",
+      "text": "This project is a work-in-progress. Everything is subject to change."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvbench"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

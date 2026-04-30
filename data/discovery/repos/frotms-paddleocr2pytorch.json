@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "wenmuzhou/pytorchocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "frotms/image_classification_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "multilingual-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "paddleocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "target": "pytorchocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:19.983584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PaddleOCR inference in PyTorch. Converted from [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)",
+    "fork": false,
+    "full_name": "frotms/PaddleOCR2Pytorch",
+    "html_url": "https://github.com/frotms/PaddleOCR2Pytorch",
+    "language": "Python",
+    "pushed_at": "2025-09-11T01:49:42Z",
+    "stargazers_count": 1167,
+    "topics": [
+      "crnn",
+      "db",
+      "multilingual-models",
+      "ocr",
+      "paddleocr",
+      "paddlepaddle",
+      "pytorch",
+      "pytorchocr"
+    ],
+    "updated_at": "2026-04-27T13:59:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frotms/image_classification_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenmuzhou/pytorchocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-models"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddleocr"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorchocr"
+    }
+  ]
+}

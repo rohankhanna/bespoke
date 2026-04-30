@@ -19,6 +19,18 @@
       "source_repo": "adbar/trafilatura",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf0 Newspaper4k a fork of the beloved Newspaper3k. Extraction of articles, titles, and metadata from news websites. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adbar/trafilatura",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyTheFactory/newspaper4k",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/newspaper4k.svg)](https://badge.fury.io/py/newspaper4k)"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "adbar/trafilatura"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AndyTheFactory/newspaper4k"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

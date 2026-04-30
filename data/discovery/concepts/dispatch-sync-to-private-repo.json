@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dispatch sync to private repo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "GreptimeDB dashboard web application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "Dispatch sync to private repo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate",
+      "text": "Dispatch sync to private repo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32951,
+      "status": "candidate",
+      "text": "stage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22193,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21951,
+      "status": "candidate",
+      "text": "comfort station"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21951,
+      "status": "candidate",
+      "text": "death squad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dispatch sync to private repo",
+  "concept_id": "dispatch-sync-to-private-repo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dispatch-sync.yml",
+      "source_repo": "GreptimeTeam/dashboard"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dispatch sync to private repo",
+      "sense_id": "dispatch-sync-to-private-repo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

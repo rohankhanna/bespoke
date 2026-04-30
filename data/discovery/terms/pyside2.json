@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "H-a-y-k/hichesslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyder-ide/qtpy"
     }
   ],
   "term": "pyside2"

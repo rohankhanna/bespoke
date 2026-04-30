@@ -1,0 +1,277 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "connor14/abundantmusic.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "eonic/proteancms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "chequer-io/qsi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "darcythomas/zxcvbn.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "adapters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "chakracore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "javascript-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jering-javascript-nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "jurassic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "microsoft-clearscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "msie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "nil-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "vroomjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "target": "yantrajs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:04:58.624773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript Engine Switcher determines unified interface for access to the basic features of popular JavaScript engines. This library allows you to quickly and easily switch to using of another JavaScript engine.",
+    "fork": false,
+    "full_name": "Taritsyn/JavaScriptEngineSwitcher",
+    "html_url": "https://github.com/Taritsyn/JavaScriptEngineSwitcher",
+    "language": "C#",
+    "pushed_at": "2026-04-19T16:33:43Z",
+    "stargazers_count": 473,
+    "topics": [
+      "adapters",
+      "chakracore",
+      "dotnet",
+      "ecmascript",
+      "javascript",
+      "javascript-engine",
+      "jering-javascript-nodejs",
+      "jint",
+      "jurassic",
+      "microsoft-clearscript",
+      "msie",
+      "nil-js",
+      "nodejs",
+      "v8",
+      "vroomjs",
+      "yantrajs"
+    ],
+    "updated_at": "2026-04-19T16:33:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chequer-io/qsi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connor14/abundantmusic.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darcythomas/zxcvbn.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eonic/proteancms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adapters"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chakracore"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-engine"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jering-javascript-nodejs"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jint"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jurassic"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-clearscript"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msie"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nil-js"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vroomjs"
+    },
+    {
+      "context_snippet": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yantrajs"
+    }
+  ]
+}

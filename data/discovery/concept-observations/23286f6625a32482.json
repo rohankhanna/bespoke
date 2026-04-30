@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package manager version manager for Node.js projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join us on OpenJS slack (channel #nodejs-corepack)](https://img.shields.io/badge/OpenJS%20Slack-%23nodejs--corepack-blue)](https://slack-invite.openjsf.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join us on OpenJS slack (channel #nodejs-corepack)](https://img.shields.io/badge/OpenJS%20Slack-%23nodejs--corepack-blue)](https://slack-invite.openjsf.org/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "23286f6625a32482",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "[![Join us on OpenJS slack (channel #nodejs-corepack)](https://img.shields.io/badge/OpenJS%20Slack-%23nodejs--corepack-blue)](https://slack-invite.openjsf.org/)",
+  "source_file": null,
+  "source_repo": "nodejs/corepack",
+  "source_repo_description": "Package manager version manager for Node.js projects"
+}

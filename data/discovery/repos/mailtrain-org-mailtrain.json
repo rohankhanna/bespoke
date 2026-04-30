@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mailtrain-org/mailtrain",
+      "target": "zone-eu/zone-mta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mailtrain-org/mailtrain",
+      "target": "email-marketing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mailtrain-org/mailtrain",
+      "target": "mailtrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mailtrain-org/mailtrain",
+      "target": "marketing-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:51.448474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13771
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "Self hosted newsletter app",
+    "fork": false,
+    "full_name": "Mailtrain-org/mailtrain",
+    "html_url": "https://github.com/Mailtrain-org/mailtrain",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-05T17:53:53Z",
+    "stargazers_count": 5727,
+    "topics": [
+      "email-marketing",
+      "mailtrain",
+      "marketing-automation"
+    ],
+    "updated_at": "2026-04-27T06:41:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zone-eu/zone-mta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email-marketing"
+    },
+    {
+      "context_snippet": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailtrain"
+    },
+    {
+      "context_snippet": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marketing-automation"
+    }
+  ]
+}

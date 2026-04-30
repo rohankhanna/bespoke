@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Linkspector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate-context",
+      "text": "Collection of DOs and DON'Ts for modern Neovim Lua plugin development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate-context",
+      "text": "Linkspector"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate",
+      "text": "Linkspector"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Linkspector",
+  "concept_id": "linkspector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/linkspector.yml",
+      "source_repo": "lumen-oss/nvim-best-practices"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linkspector",
+      "sense_id": "linkspector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

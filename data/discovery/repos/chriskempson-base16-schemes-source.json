@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-schemes-source",
+      "target": "alexmirrington/base16-espresso-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-schemes-source",
+      "target": "akhsim/base16-kimber-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-schemes-source",
+      "target": "8-uh/base16-nord-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-schemes-source",
+      "target": "ahmadawais/base16-shades-of-purple",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:24.175557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chriskempson/base16-schemes-source",
+    "html_url": "https://github.com/chriskempson/base16-schemes-source",
+    "language": null,
+    "pushed_at": "2023-12-18T20:21:34Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-03T14:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8-uh/base16-nord-scheme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmadawais/base16-shades-of-purple",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akhsim/base16-kimber-scheme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmirrington/base16-espresso-scheme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

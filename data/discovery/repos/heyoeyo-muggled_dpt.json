@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "heyoeyo/toadui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "depthanything/video-depth-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "educational-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt",
+      "target": "muggled",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:53.525204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17987
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 410
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Muggled DPT: Depth estimation without the magic",
+    "fork": false,
+    "full_name": "heyoeyo/muggled_dpt",
+    "html_url": "https://github.com/heyoeyo/muggled_dpt",
+    "language": "Python",
+    "pushed_at": "2026-03-23T20:33:33Z",
+    "stargazers_count": 119,
+    "topics": [
+      "3d-reconstruction",
+      "deeplearning",
+      "depth-estimation",
+      "dpt",
+      "educational-project",
+      "monocular-depth-estimation",
+      "muggled"
+    ],
+    "updated_at": "2026-04-06T03:11:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "depthanything/video-depth-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heyoeyo/toadui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "educational-project"
+    },
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "muggled"
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "open-telemetry/opentelemetry-python-contrib/.github/workflows/core_contrib_test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    },
+    {
+      "component": "fossas/fossa-action@3ebcea1862c6ffbd5cf1b4d0bd6b3fe7bd6f2cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "SDK Benchmark Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "check-links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "open-telemetry/opentelemetry-python-contrib/.github/workflows/core_contrib_test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "fossas/fossa-action@3ebcea1862c6ffbd5cf1b4d0bd6b3fe7bd6f2cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "FOSSA scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "correlationcontext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "distributed-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "target": "tracecontext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:45.475976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7906
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5460
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1818
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 1613
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/check_links_config.json",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1257
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/fossa.yml",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenTelemetry Python API and SDK ",
+    "fork": false,
+    "full_name": "open-telemetry/opentelemetry-python",
+    "html_url": "https://github.com/open-telemetry/opentelemetry-python",
+    "language": "Python",
+    "pushed_at": "2026-04-29T16:27:22Z",
+    "stargazers_count": 2417,
+    "topics": [
+      "correlationcontext",
+      "distributed-tracing",
+      "logging",
+      "metrics",
+      "opentelemetry",
+      "python",
+      "sdk",
+      "tracecontext"
+    ],
+    "updated_at": "2026-04-29T12:44:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "SDK Benchmark Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "SDK Benchmark Tests"
+    },
+    {
+      "context_snippet": "changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "check-links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "term": "check-links"
+    },
+    {
+      "context_snippet": "CodeQL Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL Analysis"
+    },
+    {
+      "context_snippet": "FOSSA scanning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "term": "FOSSA scanning"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correlationcontext"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-tracing"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracecontext"
+    }
+  ]
+}

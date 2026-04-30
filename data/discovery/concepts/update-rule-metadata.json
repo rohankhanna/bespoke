@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Rule Metadata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Update Rule Metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Update Rule Metadata"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22974,
+      "status": "candidate",
+      "text": "specialty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19401,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19017,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19017,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19017,
+      "status": "candidate",
+      "text": "descriptor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Rule Metadata",
+  "concept_id": "update-rule-metadata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/UpdateRuleMetadata.yml",
+      "source_repo": "SonarSource/sonar-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Rule Metadata",
+      "sense_id": "update-rule-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

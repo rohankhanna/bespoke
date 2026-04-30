@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ImgEdit",
+      "target": "ailab-cvc/yolo-world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ImgEdit",
+      "target": "idea-research/grounded-sam-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ImgEdit",
+      "target": "laion-ai/laion-datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ImgEdit",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:34.087675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025 D&B\ud83d\udd25] ImgEdit: A Unified Image Editing Dataset and Benchmark",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/ImgEdit",
+    "html_url": "https://github.com/PKU-YuanGroup/ImgEdit",
+    "language": "Python",
+    "pushed_at": "2025-11-05T05:52:56Z",
+    "stargazers_count": 310,
+    "topics": [],
+    "updated_at": "2026-04-30T09:05:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailab-cvc/yolo-world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/grounded-sam-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laion-ai/laion-datasets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,490 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@richard-stovall/opnsense-typescript-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "richard-stovall/opnsense-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "richard-stovall/opnsense-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "@richard-stovall/opnsense-typescript-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "network-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "opnsense",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "target": "opnsense-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:46.269293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10429
+    },
+    {
+      "path": "package.json",
+      "size": 1554
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 15566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modular MCP server for OPNsense firewall management - 88 tools providing access to 2000+ methods through AI assistants",
+    "fork": false,
+    "full_name": "Pixelworlds/opnsense-mcp-server",
+    "html_url": "https://github.com/Pixelworlds/opnsense-mcp-server",
+    "language": "JavaScript",
+    "pushed_at": "2025-07-06T02:38:56Z",
+    "stargazers_count": 37,
+    "topics": [
+      "ai-assistant",
+      "api",
+      "automation",
+      "claude",
+      "devops",
+      "firewall",
+      "infrastructure",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "network-security",
+      "opnsense",
+      "opnsense-api",
+      "typescript"
+    ],
+    "updated_at": "2026-04-27T17:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richard-stovall/opnsense-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richard-stovall/opnsense-mcp-server",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-assistant"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-security"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opnsense"
+    },
+    {
+      "context_snippet": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opnsense-api"
+    }
+  ]
+}

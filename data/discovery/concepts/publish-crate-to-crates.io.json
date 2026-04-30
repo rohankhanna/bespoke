@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish crate to crates.io"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "A base16 and base24 color scheme manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "Publish crate to crates.io"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate",
+      "text": "Publish crate to crates.io"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10764,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10764,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10759,
+      "status": "candidate",
+      "text": "gazette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10759,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10759,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish crate to crates.io",
+  "concept_id": "publish-crate-to-crates.io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-crate.yml",
+      "source_repo": "tinted-theming/tinty"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish crate to crates.io",
+      "sense_id": "publish-crate-to-crates.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

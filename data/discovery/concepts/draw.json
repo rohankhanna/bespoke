@@ -19,6 +19,18 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate-context",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "The .NET library for ImageMagick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "codeql analysis"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aseprite/aseprite",
       "status": "candidate",
       "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate",
+      "text": "codeql analysis"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dlemstra/Magick.NET"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

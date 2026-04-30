@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cmullaparthi/ibrowse",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:06.084594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9642
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Erlang HTTP client",
+    "fork": false,
+    "full_name": "cmullaparthi/ibrowse",
+    "html_url": "https://github.com/cmullaparthi/ibrowse",
+    "language": "Erlang",
+    "pushed_at": "2026-04-28T05:54:20Z",
+    "stargazers_count": 518,
+    "topics": [],
+    "updated_at": "2026-04-30T08:25:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

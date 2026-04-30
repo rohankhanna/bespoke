@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "@types/react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "@types/react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "appium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "detox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "maestro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:20.126673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3686
+    },
+    {
+      "path": "package.json",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get launch arguments for testing with Detox, Appium, and Maestro",
+    "fork": false,
+    "full_name": "iamolegga/react-native-launch-arguments",
+    "html_url": "https://github.com/iamolegga/react-native-launch-arguments",
+    "language": "Java",
+    "pushed_at": "2025-10-20T16:51:04Z",
+    "stargazers_count": 70,
+    "topics": [
+      "appium",
+      "detox",
+      "maestro",
+      "react-native",
+      "testing"
+    ],
+    "updated_at": "2026-02-25T18:56:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "React Native module to get launch arguments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appium"
+    },
+    {
+      "context_snippet": "React Native module to get launch arguments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detox"
+    },
+    {
+      "context_snippet": "React Native module to get launch arguments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maestro"
+    },
+    {
+      "context_snippet": "React Native module to get launch arguments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "React Native module to get launch arguments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:16:45.576035+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim syntax file for scss (Sassy CSS)",
+    "fork": false,
+    "full_name": "cakebaker/scss-syntax.vim",
+    "html_url": "https://github.com/cakebaker/scss-syntax.vim",
+    "language": "SCSS",
+    "pushed_at": "2024-10-10T07:51:43Z",
+    "stargazers_count": 385,
+    "topics": [],
+    "updated_at": "2026-02-01T21:52:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

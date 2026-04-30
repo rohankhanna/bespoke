@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:24:23.601887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sandbox for mozilla work (benchmarks etc)",
+    "fork": false,
+    "full_name": "lars-t-hansen/moz-sandbox",
+    "html_url": "https://github.com/lars-t-hansen/moz-sandbox",
+    "language": "WebAssembly",
+    "pushed_at": "2022-05-19T07:50:20Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-05-30T21:11:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

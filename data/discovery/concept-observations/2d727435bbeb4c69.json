@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create source archive with vendored dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create source archive with vendored dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39044,
+      "status": "candidate",
+      "text": "tar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26517,
+      "status": "candidate",
+      "text": "cellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26517,
+      "status": "candidate",
+      "text": "guard cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26517,
+      "status": "candidate",
+      "text": "safe-deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26107,
+      "status": "candidate",
+      "text": "generics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create source archive with vendored dependencies",
+      "sense_id": "create-source-archive-with-vendored-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-source-archive-with-vendored-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-source-archive-with-vendored-dependencies",
+  "observation_id": "2d727435bbeb4c69",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Create source archive with vendored dependencies",
+  "source_context_snippet": "Create source archive with vendored dependencies",
+  "source_file": ".github/workflows/source-vendor.yml",
+  "source_repo": "YosysHQ/yosys",
+  "source_repo_description": "Yosys Open SYnthesis Suite"
+}

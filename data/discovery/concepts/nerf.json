@@ -103,6 +103,30 @@
       "source_repo": "cuiziteng/Aleth-NeRF",
       "status": "candidate-context",
       "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "A Unified Framework for Surface Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blurgyy/jaxngp",
+      "status": "candidate-context",
+      "text": "JAX implementation of Instant-NGP (NeRF part)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blurgyy/jaxngp",
+      "status": "candidate-context",
+      "text": "jaxngp"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "cuiziteng/Aleth-NeRF",
       "status": "candidate",
       "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blurgyy/jaxngp",
+      "status": "candidate",
+      "text": "jaxngp"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/Aleth-NeRF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

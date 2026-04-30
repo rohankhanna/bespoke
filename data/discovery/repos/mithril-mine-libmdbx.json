@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "leetal/ios-cmake",
+      "target": "mah0x211/lua-libmdbx",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "kriszyp/lmdbx-js",
+      "target": "pmwkaa/ioarena",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:49:35.649952+00:00",
+  "fetched_at": "2026-04-30T09:16:41.092094+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/Mithril-mine/libmdbx",
     "language": "C",
     "pushed_at": "2026-04-24T16:14:09Z",
-    "stargazers_count": 1395,
+    "stargazers_count": 1396,
     "topics": [
       "embedded-database",
       "key-value",
@@ -122,7 +122,7 @@
       "storage-engine",
       "transaction"
     ],
-    "updated_at": "2026-04-27T01:17:18Z"
+    "updated_at": "2026-04-30T07:21:01Z"
   },
   "repo_links": [
     {
@@ -137,12 +137,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kriszyp/lmdbx-js",
+      "full_name": "mah0x211/lua-libmdbx",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "leetal/ios-cmake",
+      "full_name": "pmwkaa/ioarena",
       "source_file": "README.md"
     }
   ],

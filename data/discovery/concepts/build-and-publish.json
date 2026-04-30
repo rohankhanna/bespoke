@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and Publish"
+    "Build and Publish",
+    "Build and publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -61,6 +62,66 @@
       "source_repo": "redis-stack/redis-stack",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0e\ud83d\udcaa BrowserGym, a Gym environment for web task automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate-context",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ppwwyyxx/cocoapi",
+      "status": "candidate-context",
+      "text": "Contains the \"pycocotools\" package on PyPI. Changes made to the official cocoapi about packaging."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppwwyyxx/cocoapi",
+      "status": "candidate-context",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "Manipulation and analysis of geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "Build and publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/WorkArena",
+      "status": "candidate-context",
+      "text": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/WorkArena",
+      "status": "candidate-context",
+      "text": "Build and Publish"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +152,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis-stack/redis-stack",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppwwyyxx/cocoapi",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
+      "status": "candidate",
+      "text": "Build and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/WorkArena",
       "status": "candidate",
       "text": "Build and Publish"
     }
@@ -178,11 +269,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
       "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/AgentLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/BrowserGym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ppwwyyxx/cocoapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/WorkArena"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

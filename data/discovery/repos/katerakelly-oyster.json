@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerakelly/oyster",
+      "target": "vitchyr/rlkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerakelly/oyster",
+      "target": "jonasrothfuss/promp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerakelly/oyster",
+      "target": "russellm2020/maesn_suite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "katerakelly/oyster",
+      "target": "vitchyr/viskit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:26.058752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of Efficient Off-policy Meta-learning via Probabilistic Context Variables (PEARL)",
+    "fork": false,
+    "full_name": "katerakelly/oyster",
+    "html_url": "https://github.com/katerakelly/oyster",
+    "language": "Python",
+    "pushed_at": "2022-12-01T02:47:43Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-04-25T17:53:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonasrothfuss/promp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "russellm2020/maesn_suite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitchyr/rlkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitchyr/viskit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

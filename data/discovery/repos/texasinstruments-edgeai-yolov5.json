@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "cirrus-actions/rebase@1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "texasinstruments/edgeai-tensorlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "wongkinyiu/crossstagepartialnetworkss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "CI CPU testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "cirrus-actions/rebase@1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TexasInstruments/edgeai-yolov5",
+      "target": "ti-processors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:24.758790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19469
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1733
+    },
+    {
+      "path": "requirements.txt",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/ci-testing.yml",
+      "size": 2920
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2043
+    },
+    {
+      "path": ".github/workflows/greetings.yml",
+      "size": 4949
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This repository has been deprecated. Suggest to use edgeai-mmdetection in https://github.com/TexasInstruments/edgeai-tensorlab",
+    "fork": true,
+    "full_name": "TexasInstruments/edgeai-yolov5",
+    "html_url": "https://github.com/TexasInstruments/edgeai-yolov5",
+    "language": "Python",
+    "pushed_at": "2025-03-18T14:18:37Z",
+    "stargazers_count": 707,
+    "topics": [
+      "ti-processors"
+    ],
+    "updated_at": "2026-04-15T07:29:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "texasinstruments/edgeai-tensorlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/crossstagepartialnetworkss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI CPU testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "term": "CI CPU testing"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
+    },
+    {
+      "context_snippet": "Close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Recommend the following alternatives instead of this:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ti-processors"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Native JVM WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Fuzz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Fuzz"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10712,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "athwart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "babirusa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "musk hog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "peccary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Fuzz",
+      "sense_id": "nightly-fuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-fuzz",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-fuzz",
+  "observation_id": "c642d6c86a7b9cf5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Nightly Fuzz",
+  "source_context_snippet": "Nightly Fuzz",
+  "source_file": ".github/workflows/nightly.yaml",
+  "source_repo": "dylibso/chicory",
+  "source_repo_description": "Native JVM WebAssembly runtime"
+}

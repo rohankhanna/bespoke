@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721949,
+      "status": "candidate",
+      "text": "coordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29713891,
+      "status": "candidate",
+      "text": "focal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708887,
+      "status": "candidate",
+      "text": "coordinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708093,
+      "status": "candidate",
+      "text": "coordinating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707769,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchestration",
+      "sense_id": "orchestration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "orchestration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orchestration",
+  "observation_id": "88ce057555fd11a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "orchestration",
+  "source_context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+  "source_file": null,
+  "source_repo": "microsoft/agent-framework",
+  "source_repo_description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+}

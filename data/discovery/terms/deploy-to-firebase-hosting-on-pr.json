@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-branch.yml",
+      "source_repo": "rewbs/sd-parseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "rewbs/sd-parseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh"
+    }
+  ],
+  "term": "Deploy to Firebase Hosting on PR"
+}

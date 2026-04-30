@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SchedMD/slurm",
+      "target": "slurm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SchedMD/slurm",
+      "target": "slurm-job-scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SchedMD/slurm",
+      "target": "slurm-workload-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:37.815024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Slurm: A Highly Scalable Workload Manager",
+    "fork": false,
+    "full_name": "SchedMD/slurm",
+    "html_url": "https://github.com/SchedMD/slurm",
+    "language": "C",
+    "pushed_at": "2026-04-30T07:53:33Z",
+    "stargazers_count": 3943,
+    "topics": [
+      "slurm",
+      "slurm-job-scheduler",
+      "slurm-workload-manager"
+    ],
+    "updated_at": "2026-04-30T07:53:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the Slurm Workload Manager. Slurm is an open-source cluster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slurm"
+    },
+    {
+      "context_snippet": "This is the Slurm Workload Manager. Slurm is an open-source cluster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slurm-job-scheduler"
+    },
+    {
+      "context_snippet": "This is the Slurm Workload Manager. Slurm is an open-source cluster",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slurm-workload-manager"
+    }
+  ]
+}

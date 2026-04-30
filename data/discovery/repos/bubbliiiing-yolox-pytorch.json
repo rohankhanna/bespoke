@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:13:19.627378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7323
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u8fd9\u662f\u4e00\u4e2ayolox-pytorch\u7684\u6e90\u7801\uff0c\u53ef\u4ee5\u7528\u4e8e\u8bad\u7ec3\u81ea\u5df1\u7684\u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "bubbliiiing/yolox-pytorch",
+    "html_url": "https://github.com/bubbliiiing/yolox-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-08-27T11:25:30Z",
+    "stargazers_count": 946,
+    "topics": [],
+    "updated_at": "2026-04-21T06:58:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

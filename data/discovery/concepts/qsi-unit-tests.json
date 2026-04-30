@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "QSI Unit Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate-context",
+      "text": "Query Structure Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate-context",
+      "text": "QSI Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chequer-io/qsi",
+      "status": "candidate",
+      "text": "QSI Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23972,
+      "status": "candidate",
+      "text": "mechanical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14326,
+      "status": "candidate",
+      "text": "sum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "marcionism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "passus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "slate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "QSI Unit Tests",
+  "concept_id": "qsi-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/qsi-unit-tests.yml",
+      "source_repo": "chequer-io/qsi"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "QSI Unit Tests",
+      "sense_id": "qsi-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

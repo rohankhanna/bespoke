@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023681,
+      "status": "candidate",
+      "text": "md5"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023797,
+      "status": "candidate",
+      "text": "chap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023796,
+      "status": "candidate",
+      "text": "haxm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023795,
+      "status": "candidate",
+      "text": "hkma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023794,
+      "status": "candidate",
+      "text": "haccp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hmac",
+      "sense_id": "hmac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hmac",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hmac",
+  "observation_id": "55218567c506e425",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "hmac",
+  "source_context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>",
+  "source_file": null,
+  "source_repo": "pallets/itsdangerous",
+  "source_repo_description": "Safely pass trusted data to untrusted environments and back."
+}

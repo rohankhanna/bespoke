@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cargo Lambda is a Cargo subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Docker image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26034,
+      "status": "candidate",
+      "text": "inkblot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Docker image",
+      "sense_id": "test-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-docker-image",
+  "observation_id": "6440149e8c158a7e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Test Docker image",
+  "source_context_snippet": "Test Docker image",
+  "source_file": ".github/workflows/test-docker.yml",
+  "source_repo": "cargo-lambda/cargo-lambda",
+  "source_repo_description": "Cargo Lambda is a Cargo subcommand to help you work with AWS Lambda."
+}

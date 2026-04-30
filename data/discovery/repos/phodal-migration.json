@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/migration",
+      "target": "newlee/tequila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/migration",
+      "target": "huletw/django-ddd-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/migration",
+      "target": "howiehu/ddd-architecture-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/migration",
+      "target": "macrozheng/mall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "agile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "ebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "legacy-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "migration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "refactoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/migration",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:47.519467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 71912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u300a\u7cfb\u7edf\u91cd\u6784\u4e0e\u8fc1\u79fb\u6307\u5357\u300b\u624b\u628a\u624b\u6559\u4f60\u5206\u6790\u3001\u8bc4\u4f30\u73b0\u6709\u7cfb\u7edf\u3001\u5236\u5b9a\u91cd\u6784\u7b56\u7565\u3001\u63a2\u7d22\u53ef\u884c\u91cd\u6784\u65b9\u6848\u3001\u642d\u5efa\u6d4b\u8bd5\u9632\u62a4\u7f51\u3001\u8fdb\u884c\u7cfb\u7edf\u67b6\u6784\u91cd\u6784\u3001\u670d\u52a1\u67b6\u6784\u91cd\u6784\u3001\u6a21\u5757\u91cd\u6784\u3001\u4ee3\u7801\u91cd\u6784\u3001\u6570\u636e\u5e93\u91cd\u6784\u3001\u91cd\u6784\u540e\u7684\u67b6\u6784\u5b88\u62a4",
+    "fork": false,
+    "full_name": "phodal/migration",
+    "html_url": "https://github.com/phodal/migration",
+    "language": "Java",
+    "pushed_at": "2021-08-12T08:05:53Z",
+    "stargazers_count": 3474,
+    "topics": [
+      "agile",
+      "ddd",
+      "ebook",
+      "guard",
+      "legacy-system",
+      "migration",
+      "refactoring",
+      "tdd",
+      "testing"
+    ],
+    "updated_at": "2026-04-29T04:44:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "howiehu/ddd-architecture-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huletw/django-ddd-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macrozheng/mall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newlee/tequila",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agile"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebook"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "legacy-system"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "migration"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    },
+    {
+      "context_snippet": "// \u7248\u672c\uff1av0.1.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

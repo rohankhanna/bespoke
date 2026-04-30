@@ -55,6 +55,30 @@
       "source_repo": "firstcontributions/first-contributions",
       "status": "candidate-context",
       "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "Adaptable, fast automation for all"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "This is a project for you to practice contributing to open source projects with code."
     }
   ],
   "candidate_glosses": [
@@ -75,6 +99,18 @@
       "source_repo": "firstcontributions/first-contributions",
       "status": "candidate",
       "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate",
+      "text": "This is a project for you to practice contributing to open source projects with code."
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +142,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "firstcontributions/first-contributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gradle/gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

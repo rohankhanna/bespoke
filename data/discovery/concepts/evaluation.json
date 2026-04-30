@@ -199,6 +199,66 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate-context",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate-context",
+      "text": "Evaluation code for various unsupervised automated metrics for Natural Language Generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -457,11 +547,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/lighteval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

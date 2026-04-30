@@ -454,6 +454,90 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate-context",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate-context",
+      "text": "This project studies the performance and robustness of language models and task-adaptation methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Python API and SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "'Changelog'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/vector",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "A ktlint gradle plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "changelog"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +762,48 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/catwalk",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate",
+      "text": "'Changelog'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/vector",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate",
+      "text": "changelog"
     }
   ],
   "candidate_related_terms": [
@@ -1015,11 +1141,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/releaser-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "allenai/catwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "allenai/tango"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "open-telemetry/semantic-conventions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "openobserve/vector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

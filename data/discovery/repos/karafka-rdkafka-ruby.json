@@ -258,34 +258,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "karafka/rdkafka-ruby",
-      "target": "ffi/ffi",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "karafka/rdkafka-ruby",
-      "target": "karafka/karafka",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "karafka/rdkafka-ruby",
-      "target": "karafka/waterdrop",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "karafka/rdkafka-ruby",
-      "target": "zendesk/racecar",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "karafka/rdkafka-ruby",
@@ -587,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:57:04.603239+00:00",
+  "fetched_at": "2026-04-30T09:21:21.260789+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -651,28 +623,7 @@
     ],
     "updated_at": "2026-04-29T06:43:41Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ffi/ffi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "karafka/karafka",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "karafka/waterdrop",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zendesk/racecar",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "CI Linux Alpine aarch64 musl",

@@ -19,12 +19,30 @@
       "source_repo": "mrjones2014/codesettings.nvim",
       "status": "candidate-context",
       "text": "Run All Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddfa\ufe0f A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "Run All Checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Run All Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
       "status": "candidate",
       "text": "Run All Checks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "mrjones2014/codesettings.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mrjones2014/legendary.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

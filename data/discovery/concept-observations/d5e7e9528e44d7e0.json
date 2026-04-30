@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prepare Next Development Iteration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prepare Next Development Iteration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33286,
+      "status": "candidate",
+      "text": "parking orbit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31983,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31871,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31871,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31828,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare Next Development Iteration",
+      "sense_id": "prepare-next-development-iteration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prepare-next-development-iteration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prepare-next-development-iteration",
+  "observation_id": "d5e7e9528e44d7e0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Prepare Next Development Iteration",
+  "source_context_snippet": "Prepare Next Development Iteration",
+  "source_file": ".github/workflows/PrepareNextIteration.yml",
+  "source_repo": "SonarSource/sonar-java",
+  "source_repo_description": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+}

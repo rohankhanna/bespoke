@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "R-CMD-check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "R-CMD-check",
+      "sense_id": "r-cmd-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "r-cmd-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "r-cmd-check",
+  "observation_id": "cabd0868ea5c5ca4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "R-CMD-check",
+  "source_context_snippet": "R-CMD-check",
+  "source_file": ".github/workflows/R-CMD-check.yaml",
+  "source_repo": "nanxstats/ssw-r",
+  "source_repo_description": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+}

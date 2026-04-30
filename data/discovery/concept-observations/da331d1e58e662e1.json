@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971316,
+      "status": "candidate",
+      "text": "full stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971315,
+      "status": "candidate",
+      "text": "non-stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971314,
+      "status": "candidate",
+      "text": "multistack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971313,
+      "status": "candidate",
+      "text": "n-tier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971312,
+      "status": "candidate",
+      "text": "cross-platform"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "full-stack",
+      "sense_id": "full-stack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "full-stack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "full-stack",
+  "observation_id": "da331d1e58e662e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "full-stack",
+  "source_context_snippet": "<h1 align=\"center\">Bionic</h1>",
+  "source_file": null,
+  "source_repo": "bionic-gpt/bionic-gpt",
+  "source_repo_description": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+}

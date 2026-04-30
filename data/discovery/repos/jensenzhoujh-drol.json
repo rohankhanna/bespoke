@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jensenzhoujh/DROL",
+      "target": "stvir/pysot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jensenzhoujh/DROL",
+      "target": "drol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:05.204897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2837
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Discriminative and Robust Online Learning for Siamese Visual Tracking (AAAI 2020)",
+    "fork": false,
+    "full_name": "jensenzhoujh/DROL",
+    "html_url": "https://github.com/jensenzhoujh/DROL",
+    "language": "Python",
+    "pushed_at": "2022-01-07T19:13:06Z",
+    "stargazers_count": 76,
+    "topics": [
+      "drol",
+      "vot"
+    ],
+    "updated_at": "2025-07-29T07:52:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stvir/pysot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the repo for paper \"Discriminative and Robust Online Learning for Siamese Visual Tracking\" [[paper](https://arxiv.org/abs/1909.02959)] [[results](https://drive.google.com/open?id=1iXtaxr1zkWvKf6AAMwN98ymaId9ixU4z)], presented as poster at AAAI 2020.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drol"
+    }
+  ]
+}

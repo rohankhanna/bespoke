@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/starcoder.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:41.433670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4030
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ implementation for \ud83d\udcabStarCoder",
+    "fork": false,
+    "full_name": "bigcode-project/starcoder.cpp",
+    "html_url": "https://github.com/bigcode-project/starcoder.cpp",
+    "language": "C",
+    "pushed_at": "2023-09-09T16:54:50Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-10T00:37:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

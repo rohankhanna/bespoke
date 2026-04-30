@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flow collector, enricher and visualizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Nix flake.lock"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Nix flake.lock"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "scotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "abhorred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "ampere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "antique"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Nix flake.lock",
+      "sense_id": "update-nix-flake.lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-nix-flake.lock",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-nix-flake.lock",
+  "observation_id": "cd6f37e64926926a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Update Nix flake.lock",
+  "source_context_snippet": "Update Nix flake.lock",
+  "source_file": ".github/workflows/update-nix-flake-lock.yml",
+  "source_repo": "akvorado/akvorado",
+  "source_repo_description": "Flow collector, enricher and visualizer"
+}

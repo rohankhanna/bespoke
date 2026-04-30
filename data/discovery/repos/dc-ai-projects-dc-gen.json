@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "dc-ai-projects/dc-videogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "thudm/imagereward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "deep-compression-autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "efficient-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "post-training-model-acceleration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:27.606995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5681
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 536
+    },
+    {
+      "path": "requirements.txt",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DC-Gen: Post-Training Diffusion Acceleration with Deeply Compressed Latent Space",
+    "fork": false,
+    "full_name": "dc-ai-projects/DC-Gen",
+    "html_url": "https://github.com/dc-ai-projects/DC-Gen",
+    "language": "Python",
+    "pushed_at": "2025-10-05T01:05:32Z",
+    "stargazers_count": 371,
+    "topics": [
+      "deep-compression-autoencoder",
+      "efficient-diffusion-model",
+      "post-training-model-acceleration"
+    ],
+    "updated_at": "2026-04-27T13:05:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dc-ai-projects/dc-videogen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/imagereward",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-compression-autoencoder"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-model-acceleration"
+    }
+  ]
+}

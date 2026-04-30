@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guochengqian/openpoints",
+      "target": "guochengqian/pointnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guochengqian/openpoints",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guochengqian/openpoints",
+      "target": "pointnext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:43.603107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenPoints: a library for easily reproducing point-based methods for point cloud understanding. The engine for [ASSANet](https://arxiv.org/abs/2110.10538), [PointNeXt](https://arxiv.org/abs/2206.04670)",
+    "fork": false,
+    "full_name": "guochengqian/openpoints",
+    "html_url": "https://github.com/guochengqian/openpoints",
+    "language": "Python",
+    "pushed_at": "2024-08-04T02:55:41Z",
+    "stargazers_count": 416,
+    "topics": [
+      "pointcloud",
+      "pointnext"
+    ],
+    "updated_at": "2026-04-22T01:08:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guochengqian/pointnext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnext"
+    }
+  ]
+}

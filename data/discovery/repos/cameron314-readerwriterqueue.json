@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:06:16.748337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast single-producer, single-consumer lock-free queue for C++",
+    "fork": false,
+    "full_name": "cameron314/readerwriterqueue",
+    "html_url": "https://github.com/cameron314/readerwriterqueue",
+    "language": "C++",
+    "pushed_at": "2026-03-28T17:16:27Z",
+    "stargazers_count": 4545,
+    "topics": [],
+    "updated_at": "2026-04-29T05:21:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

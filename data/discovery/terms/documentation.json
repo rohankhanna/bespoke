@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -491,6 +491,81 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "huggingface/lerobot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsdoc/jsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "mdgriffith/elm-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "socketry/async"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kserve/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "devhammed/insomnia-plugin-documenter"
     }
   ],
   "term": "documentation"

@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/email-check.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/email-check.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "step-security/changed-files@60967b822d3001fa82242f8d6b4ed46bc3600a68",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "aminya/setup-cpp@1f17f92d6a52bfcb1a25348e2c526c2e5cbb1134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-aws.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-bandit.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-bandit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/email-check.yaml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/email-check.yaml",
+      "source_repo": "intel/llvm",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "step-security/changed-files@60967b822d3001fa82242f8d6b4ed46bc3600a68",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "aminya/setup-cpp@1f17f92d6a52bfcb1a25348e2c526c2e5cbb1134",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm",
+      "target": "Check code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/llvm",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/llvm",
+      "target": "github/codeql-action/upload-sarif@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/llvm",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-aws.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-bandit.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-bandit.yml",
+      "source_repo": "intel/llvm",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-bandit.yml",
+      "source_repo": "intel/llvm",
+      "target": "Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml",
+      "source_repo": "intel/llvm",
+      "target": "Build and Test Blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-check-ready-to-merge-prs.yml",
+      "source_repo": "intel/llvm",
+      "target": "Check ready-to-merge PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml",
+      "source_repo": "intel/llvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml",
+      "source_repo": "intel/llvm",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/llvm",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/llvm",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/llvm",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/llvm",
+      "target": "sycl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:59.231769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3593
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/email-check.yaml",
+      "size": 1589
+    },
+    {
+      "path": ".github/workflows/pr-code-format.yml",
+      "size": 2956
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2401
+    },
+    {
+      "path": ".github/workflows/sycl-aws.yml",
+      "size": 1358
+    },
+    {
+      "path": ".github/workflows/sycl-bandit.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/sycl-blender-build-and-test.yml",
+      "size": 3388
+    },
+    {
+      "path": ".github/workflows/sycl-check-ready-to-merge-prs.yml",
+      "size": 3211
+    },
+    {
+      "path": ".github/workflows/sycl-clang-tidy.yml",
+      "size": 2806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "sycl",
+    "description": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects.",
+    "fork": false,
+    "full_name": "intel/llvm",
+    "html_url": "https://github.com/intel/llvm",
+    "language": "LLVM",
+    "pushed_at": "2026-04-30T07:02:50Z",
+    "stargazers_count": 1460,
+    "topics": [
+      "intel",
+      "llvm",
+      "oneapi",
+      "sycl"
+    ],
+    "updated_at": "2026-04-30T04:50:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Check code formatting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "term": "Check code formatting"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Bandit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-bandit.yml",
+      "term": "Bandit"
+    },
+    {
+      "context_snippet": "Build and Test Blender",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-blender-build-and-test.yml",
+      "term": "Build and Test Blender"
+    },
+    {
+      "context_snippet": "Check ready-to-merge PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-check-ready-to-merge-prs.yml",
+      "term": "Check ready-to-merge PRs"
+    },
+    {
+      "context_snippet": "clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml",
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "This is the Intel staging area for llvm.org contributions and the home for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "This is the Intel staging area for llvm.org contributions and the home for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "This is the Intel staging area for llvm.org contributions and the home for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": "This is the Intel staging area for llvm.org contributions and the home for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    }
+  ]
+}

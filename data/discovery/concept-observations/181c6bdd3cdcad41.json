@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Native JVM WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Perf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Perf"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843531,
+      "status": "candidate",
+      "text": "throughput"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29809252,
+      "status": "candidate",
+      "text": "performance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29797529,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796554,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794269,
+      "status": "candidate",
+      "text": "start"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Perf",
+      "sense_id": "perf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "perf",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "perf",
+  "observation_id": "181c6bdd3cdcad41",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Perf",
+  "source_context_snippet": "Perf",
+  "source_file": ".github/workflows/perf.yaml",
+  "source_repo": "dylibso/chicory",
+  "source_repo_description": "Native JVM WebAssembly runtime"
+}

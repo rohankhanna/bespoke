@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim-nightly.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim-nightly.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "nvim-neotest/neotest-plenary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "asdf-vm/actions/install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim-nightly.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim-nightly.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "asdf-vm/actions/install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim-nightly.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "Neovim Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "google-github-actions/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "johmsalas/text-case.nvim",
+      "target": "release-please",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:11.986657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11279
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 903
+    },
+    {
+      "path": ".github/workflows/neovim-nightly.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An all in one plugin for converting text case in Neovim",
+    "fork": false,
+    "full_name": "johmsalas/text-case.nvim",
+    "html_url": "https://github.com/johmsalas/text-case.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-08-07T21:02:23Z",
+    "stargazers_count": 554,
+    "topics": [],
+    "updated_at": "2026-04-14T13:53:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neotest/neotest-plenary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Neovim Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim-nightly.yml",
+      "term": "Neovim Nightly"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    }
+  ]
+}

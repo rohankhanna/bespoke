@@ -28,13 +28,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ueberauth/oauth2",
-      "target": "elixir-tesla/tesla",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ueberauth/oauth2",
       "target": "scrogson/oauth2_example",
       "target_type": "repository"
     },
@@ -88,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:55:11.272153+00:00",
+  "fetched_at": "2026-04-30T10:30:09.053764+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -126,11 +119,6 @@
     "updated_at": "2026-04-12T09:56:01Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "elixir-tesla/tesla",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "scrogson/oauth2",

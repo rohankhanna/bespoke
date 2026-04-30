@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -486,6 +486,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets-eco/blinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/click"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/itsdangerous"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/werkzeug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/torchsparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "shapely/shapely"
     }
   ],
   "term": "pre-commit"

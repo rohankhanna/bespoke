@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "appbaseio/searchbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "appbaseio/searchbase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "appbaseio/arc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "appbaseio/mirage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "hacktoberfest2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "reactivesearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "search-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox",
+      "target": "searchbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:26:27.537630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SearchBox UI component library for flutter",
+    "fork": false,
+    "full_name": "appbaseio/flutter-searchbox",
+    "html_url": "https://github.com/appbaseio/flutter-searchbox",
+    "language": "Dart",
+    "pushed_at": "2025-08-27T06:07:48Z",
+    "stargazers_count": 6,
+    "topics": [
+      "elasticsearch",
+      "flutter",
+      "hacktoberfest",
+      "hacktoberfest2022",
+      "reactivesearch",
+      "search-ui",
+      "searchbox"
+    ],
+    "updated_at": "2025-08-27T06:07:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/arc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/mirage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/searchbase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/searchbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2022"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactivesearch"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-ui"
+    },
+    {
+      "context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "searchbox"
+    }
+  ]
+}

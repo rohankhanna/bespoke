@@ -1,0 +1,39 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:01:31.000781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1766
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1302
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HanGuo97/log-linear-attention",
+    "html_url": "https://github.com/HanGuo97/log-linear-attention",
+    "language": "Python",
+    "pushed_at": "2025-06-06T18:32:19Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-04-16T11:29:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

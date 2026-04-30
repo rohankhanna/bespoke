@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "unit-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "bosh-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "cff-wg-app-runtime-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "container-networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "networking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:07.799359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2012
+    },
+    {
+      "path": ".github/workflows/tests-workflow.yml",
+      "size": 7064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Container Networking for CloudFoundry",
+    "fork": false,
+    "full_name": "cloudfoundry/cf-networking-release",
+    "html_url": "https://github.com/cloudfoundry/cf-networking-release",
+    "language": "Go",
+    "pushed_at": "2026-04-29T14:55:49Z",
+    "stargazers_count": 68,
+    "topics": [
+      "bosh-release",
+      "cff-wg-app-runtime-platform",
+      "container-networking",
+      "networking"
+    ],
+    "updated_at": "2026-04-29T14:57:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "unit-integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "term": "unit-integration-tests"
+    },
+    {
+      "context_snippet": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh-release"
+    },
+    {
+      "context_snippet": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-platform"
+    },
+    {
+      "context_snippet": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-networking"
+    },
+    {
+      "context_snippet": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    }
+  ]
+}

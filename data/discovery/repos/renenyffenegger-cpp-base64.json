@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:38.748982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "base64 encoding and decoding with c++",
+    "fork": false,
+    "full_name": "ReneNyffenegger/cpp-base64",
+    "html_url": "https://github.com/ReneNyffenegger/cpp-base64",
+    "language": "C++",
+    "pushed_at": "2024-05-22T06:07:36Z",
+    "stargazers_count": 1031,
+    "topics": [
+      "base64",
+      "c-plus-plus",
+      "cpp",
+      "library"
+    ],
+    "updated_at": "2026-04-30T08:55:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Base64 encoding and decoding with c++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "Base64 encoding and decoding with c++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Base64 encoding and decoding with c++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

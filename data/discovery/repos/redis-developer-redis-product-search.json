@@ -130,7 +130,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:03:46.435498+00:00",
+  "fetched_at": "2026-04-30T09:28:51.635076+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -155,7 +155,7 @@
     "html_url": "https://github.com/redis-developer/redis-product-search",
     "language": "TypeScript",
     "pushed_at": "2025-02-25T20:53:24Z",
-    "stargazers_count": 173,
+    "stargazers_count": 174,
     "topics": [
       "docker",
       "fastapi",
@@ -168,7 +168,7 @@
       "vector-database",
       "vector-search"
     ],
-    "updated_at": "2026-03-26T14:04:40Z"
+    "updated_at": "2026-04-30T07:22:25Z"
   },
   "repo_links": [
     {

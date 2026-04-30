@@ -103,6 +103,42 @@
       "source_repo": "middyjs/middy",
       "status": "candidate-context",
       "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Erlang SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Erlang & Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +187,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
       "status": "candidate",
       "text": "OSSF Scorecard"
     }
@@ -244,11 +298,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

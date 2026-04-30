@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "bradley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14999,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "says"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14997,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14996,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timm",
+      "sense_id": "timm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "timm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "timm",
+  "observation_id": "ed3e623d600728d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "timm",
+  "source_context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+  "source_file": null,
+  "source_repo": "sail-sg/Adan",
+  "source_repo_description": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+}

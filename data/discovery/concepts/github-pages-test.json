@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GitHub Pages Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate-context",
+      "text": "Prettier Java Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate-context",
+      "text": "GitHub Pages Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate",
+      "text": "GitHub Pages Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "records"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GitHub Pages Test",
+  "concept_id": "github-pages-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/github-pages-test.yml",
+      "source_repo": "jhipster/prettier-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Pages Test",
+      "sense_id": "github-pages-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

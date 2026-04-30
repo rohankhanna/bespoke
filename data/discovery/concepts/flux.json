@@ -115,6 +115,30 @@
       "source_repo": "leejet/stable-diffusion.cpp",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Binozo/GoStableDiffusion",
+      "status": "candidate-context",
+      "text": "Go bindings for stable-diffusion.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binozo/GoStableDiffusion",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +193,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binozo/GoStableDiffusion",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -333,11 +369,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "leejet/stable-diffusion.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Binozo/GoStableDiffusion"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

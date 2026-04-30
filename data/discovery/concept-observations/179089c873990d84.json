@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035784,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034213,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033627,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031250,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028520,
+      "status": "candidate",
+      "text": "snarl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snap",
+      "sense_id": "snap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 81037,
+      "status": "candidate",
+      "text": "snarl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43070,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23046,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "snatch"
+    }
+  ],
+  "concept_id": "snap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snap",
+  "observation_id": "179089c873990d84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "snap",
+  "source_context_snippet": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6",
+  "source_file": null,
+  "source_repo": "electron-userland/electron-builder",
+  "source_repo_description": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+}

@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:05:53.204968+00:00",
+  "fetched_at": "2026-04-30T09:30:18.180390+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -421,12 +421,12 @@
     "html_url": "https://github.com/SpecterOps/AzureHound",
     "language": "Go",
     "pushed_at": "2026-04-29T20:01:19Z",
-    "stargazers_count": 900,
+    "stargazers_count": 901,
     "topics": [
       "azure",
       "go"
     ],
-    "updated_at": "2026-04-30T04:41:33Z"
+    "updated_at": "2026-04-30T05:52:32Z"
   },
   "repo_links": [
     {

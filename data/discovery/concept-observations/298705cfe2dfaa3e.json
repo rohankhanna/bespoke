@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Deprecated]  An early language server for Typst, plus a VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Full build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Full build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28380,
+      "status": "candidate",
+      "text": "sandbag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28302,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28241,
+      "status": "candidate",
+      "text": "epure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "big"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "bottom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full build",
+      "sense_id": "full-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "full-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "full-build",
+  "observation_id": "298705cfe2dfaa3e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Full build",
+  "source_context_snippet": "Full build",
+  "source_file": ".github/workflows/full_build.yml",
+  "source_repo": "nvarner/typst-lsp",
+  "source_repo_description": "[Deprecated]  An early language server for Typst, plus a VS Code extension"
+}

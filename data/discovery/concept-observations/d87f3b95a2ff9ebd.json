@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Translate GitHub content into English'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Translate GitHub content into English'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73488,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72275,
+      "status": "candidate",
+      "text": "decode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 61330,
+      "status": "candidate",
+      "text": "anglicise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52828,
+      "status": "candidate",
+      "text": "decipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52504,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Translate GitHub content into English",
+      "sense_id": "translate-github-content-into-english#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "translate-github-content-into-english",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "translate-github-content-into-english",
+  "observation_id": "d87f3b95a2ff9ebd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Translate GitHub content into English",
+  "source_context_snippet": "'Translate GitHub content into English'",
+  "source_file": ".github/workflows/translate.yml",
+  "source_repo": "gpustack/gpustack",
+  "source_repo_description": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+}

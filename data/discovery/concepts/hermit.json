@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "hermit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate-context",
+      "text": "A specialized hypervisor for Hermit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate-context",
+      "text": "<img width=\"200\" align=\"right\" src=\"img/uhyve.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate",
+      "text": "<img width=\"200\" align=\"right\" src=\"img/uhyve.svg\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998712,
+      "status": "candidate",
+      "text": "anchorite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997844,
+      "status": "candidate",
+      "text": "recluse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39725415,
+      "status": "candidate",
+      "text": "troglodyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998725,
+      "status": "candidate",
+      "text": "solitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998715,
+      "status": "candidate",
+      "text": "solitaire"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23035,
+      "status": "candidate",
+      "text": "recluse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11039,
+      "status": "candidate",
+      "text": "troglodyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7031,
+      "status": "candidate",
+      "text": "anchorite"
+    }
+  ],
+  "canonical_name": "hermit",
+  "concept_id": "hermit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/uhyve"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hermit",
+      "sense_id": "hermit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

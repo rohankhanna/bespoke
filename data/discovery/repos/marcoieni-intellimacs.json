@@ -1,0 +1,68 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoieni/intellimacs",
+      "target": "ideavim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoieni/intellimacs",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoieni/intellimacs",
+      "target": "spacemacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:54.346202+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spacemacs' like key bindings for IntelliJ platform.",
+    "fork": false,
+    "full_name": "marcoieni/intellimacs",
+    "html_url": "https://github.com/marcoieni/intellimacs",
+    "language": "Vim Script",
+    "pushed_at": "2024-11-03T21:09:50Z",
+    "stargazers_count": 566,
+    "topics": [
+      "ideavim",
+      "intellij",
+      "spacemacs",
+      "vim"
+    ],
+    "updated_at": "2026-03-27T01:09:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Spacemacs' like key bindings for IntelliJ platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ideavim"
+    },
+    {
+      "context_snippet": "Spacemacs' like key bindings for IntelliJ platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "Spacemacs' like key bindings for IntelliJ platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemacs"
+    }
+  ]
+}

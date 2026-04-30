@@ -79,6 +79,18 @@
       "source_repo": "oclif/plugin-update",
       "status": "candidate-context",
       "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "test helpers for oclif components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "Pull Request Slack Notification"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oclif/plugin-update",
+      "status": "candidate",
+      "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
       "status": "candidate",
       "text": "Pull Request Slack Notification"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
       "source_repo": "oclif/plugin-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/test"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

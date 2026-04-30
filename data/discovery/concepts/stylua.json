@@ -1,7 +1,8 @@
 {
   "aliases": [
     "stylua",
-    "Stylua"
+    "Stylua",
+    "StyLua"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "pysan3/pathlib.nvim",
       "status": "candidate-context",
       "text": "stylua"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate-context",
+      "text": "Abbreviation reminder plugin for Neovim 0.5+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate-context",
+      "text": "StyLua"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +61,12 @@
       "source_repo": "pysan3/pathlib.nvim",
       "status": "candidate",
       "text": "stylua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate",
+      "text": "StyLua"
     }
   ],
   "candidate_related_terms": [],
@@ -73,11 +92,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/stylua.yml",
       "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "0styx0/abbreinder.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

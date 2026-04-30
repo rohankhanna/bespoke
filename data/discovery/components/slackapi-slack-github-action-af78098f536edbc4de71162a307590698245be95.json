@@ -1,7 +1,7 @@
 {
   "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-release-notes-pr.yml",
+      "source_repo": "docker/docs"
     }
   ]
 }

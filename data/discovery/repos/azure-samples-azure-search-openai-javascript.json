@@ -1,0 +1,548 @@
+{
+  "components": [
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/k6",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-shared",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml"
+    },
+    {
+      "component": "azure/CLI@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml"
+    },
+    {
+      "component": "microsoft/security-devops-action@preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "Azure/setup-azd@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "codespaces/new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "microsoft/generative-ai-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "microsoft/sample-app-aoai-chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "@types/k6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "eslint-config-shared",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "azure/CLI@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "microsoft/security-devops-action@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Validate AZD template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Azure/setup-azd@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Deploy on Azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Playwright Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "azure-ai-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "azureopenai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "langchain-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "langchain-typescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "target": "typechat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:45.864594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33598
+    },
+    {
+      "path": "package.json",
+      "size": 1782
+    },
+    {
+      "path": ".github/workflows/azure-dev-validation.yaml",
+      "size": 960
+    },
+    {
+      "path": ".github/workflows/azure-dev.yaml",
+      "size": 2384
+    },
+    {
+      "path": ".github/workflows/build-test.yaml",
+      "size": 1184
+    },
+    {
+      "path": ".github/workflows/playwright.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/stale-bot.yml",
+      "size": 866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A TypeScript sample app for the Retrieval Augmented Generation pattern running on Azure, using Azure AI Search for retrieval and Azure OpenAI and LangChain large language models (LLMs) to power ChatGPT-style and Q&A experiences.",
+    "fork": false,
+    "full_name": "Azure-Samples/azure-search-openai-javascript",
+    "html_url": "https://github.com/Azure-Samples/azure-search-openai-javascript",
+    "language": "TypeScript",
+    "pushed_at": "2025-10-11T06:16:23Z",
+    "stargazers_count": 318,
+    "topics": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-ai-search",
+      "azureopenai",
+      "javascript",
+      "langchain-js",
+      "langchain-typescript",
+      "openai",
+      "typechat",
+      "typescript"
+    ],
+    "updated_at": "2026-04-03T12:10:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/new",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/generative-ai-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/sample-app-aoai-chatgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate AZD template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "term": "Validate AZD template"
+    },
+    {
+      "context_snippet": "Deploy on Azure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "term": "Deploy on Azure"
+    },
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Playwright Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playwright.yml",
+      "term": "Playwright Tests"
+    },
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-azd-templates"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-ai-search"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azureopenai"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain-js"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain-typescript"
+    },
+    {
+      "context_snippet": "- [Features](#features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typechat"
+    }
+  ]
+}

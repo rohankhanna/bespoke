@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "STVIR/pysot",
+      "target": "strangerzhang/pysot-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "STVIR/pysot",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "STVIR/pysot",
+      "target": "siamese-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "STVIR/pysot",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:06.067415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6508
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SenseTime Research platform for single object tracking, implementing algorithms like SiamRPN and SiamMask.",
+    "fork": false,
+    "full_name": "STVIR/pysot",
+    "html_url": "https://github.com/STVIR/pysot",
+    "language": "Python",
+    "pushed_at": "2025-06-22T03:59:22Z",
+    "stargazers_count": 4601,
+    "topics": [
+      "computer-vision",
+      "siamese-network",
+      "tracking"
+    ],
+    "updated_at": "2026-04-29T23:35:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strangerzhang/pysot-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siamese-network"
+    },
+    {
+      "context_snippet": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "r-lyeh/stdarc.c",
       "status": "candidate-context",
       "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "r-lyeh/stdarc.c",
       "status": "candidate",
       "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "r-lyeh/stdarc.c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

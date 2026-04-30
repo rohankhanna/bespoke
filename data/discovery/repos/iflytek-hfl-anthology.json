@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "destwang/ctcresources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "destwang/ctc2021",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "china-ai-law-challenge/cail2019",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/HFL-Anthology",
+      "target": "geekdream-x/semeval2022-task8-tonyx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:20.466811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collections of resources from Joint Laboratory of HIT and iFLYTEK Research (HFL)",
+    "fork": false,
+    "full_name": "iflytek/HFL-Anthology",
+    "html_url": "https://github.com/iflytek/HFL-Anthology",
+    "language": "Markdown",
+    "pushed_at": "2023-03-09T06:19:57Z",
+    "stargazers_count": 376,
+    "topics": [],
+    "updated_at": "2026-02-24T03:01:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "china-ai-law-challenge/cail2019",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "destwang/ctc2021",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "destwang/ctcresources",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekdream-x/semeval2022-task8-tonyx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

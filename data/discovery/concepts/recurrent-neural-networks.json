@@ -31,6 +31,18 @@
       "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
       "status": "candidate-context",
       "text": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
       "status": "candidate",
       "text": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Shiweiliuiiiiiii/Selfish-RNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

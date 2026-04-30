@@ -19,6 +19,18 @@
       "source_repo": "araffin/rl-baselines-zoo",
       "status": "candidate-context",
       "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mila-iqia/babyai",
+      "status": "candidate-context",
+      "text": "BabyAI platform. A testbed for training agents to understand and execute language commands."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mila-iqia/babyai",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "araffin/rl-baselines-zoo",
       "status": "candidate",
       "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mila-iqia/babyai",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "araffin/rl-baselines-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

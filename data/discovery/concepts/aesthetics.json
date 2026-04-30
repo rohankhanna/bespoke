@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "aesthetics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate-context",
+      "text": "retrocompute aesthetics twitter bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate-context",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878597,
+      "status": "candidate",
+      "text": "esthetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890872,
+      "status": "candidate",
+      "text": "beauty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890820,
+      "status": "candidate",
+      "text": "looks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865215,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852306,
+      "status": "candidate",
+      "text": "cosmetic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9030,
+      "status": "candidate",
+      "text": "esthetics"
+    }
+  ],
+  "canonical_name": "aesthetics",
+  "concept_id": "aesthetics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chr15m/c64core"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aesthetics",
+      "sense_id": "aesthetics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

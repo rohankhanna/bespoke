@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:41:47.595062+00:00",
+  "fetched_at": "2026-04-30T10:17:06.275196+00:00",
   "fetched_files": [],
   "related_repositories": [],
   "repo": {
@@ -56,7 +56,7 @@
     "html_url": "https://github.com/vim-syntastic/syntastic",
     "language": "Vim script",
     "pushed_at": "2022-07-10T12:58:50Z",
-    "stargazers_count": 11226,
+    "stargazers_count": 11224,
     "topics": [
       "lint",
       "lint-checking",
@@ -65,7 +65,7 @@
       "syntax-checking",
       "vim-plugin"
     ],
-    "updated_at": "2026-04-21T08:52:48Z"
+    "updated_at": "2026-04-26T19:12:32Z"
   },
   "repo_links": [],
   "terms": [

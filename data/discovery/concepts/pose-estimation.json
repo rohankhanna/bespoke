@@ -175,6 +175,42 @@
       "source_repo": "zju3dv/LoFTR",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "A Simple, Lightweight, and Extensible Serving Framework for X-AnyLabeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "VPoser: Variational Human Pose Prior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate-context",
+      "text": "SuperGlue: Learning Feature Matching with Graph Neural Networks (CVPR 2020, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/magicleap.png\" width=\"240\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "zju3dv/LoFTR",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate",
+      "text": "<img src=\"assets/magicleap.png\" width=\"240\">"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +412,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "zju3dv/LoFTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

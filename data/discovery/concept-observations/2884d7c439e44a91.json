@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expose your repl via MCP!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Dashboard Artifact"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Dashboard Artifact"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18410,
+      "status": "candidate",
+      "text": "facia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "bunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "downcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "monopoly"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Dashboard Artifact",
+      "sense_id": "build-dashboard-artifact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-dashboard-artifact",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-dashboard-artifact",
+  "observation_id": "2884d7c439e44a91",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build Dashboard Artifact",
+  "source_context_snippet": "Build Dashboard Artifact",
+  "source_file": ".github/workflows/build-dashboard.yml",
+  "source_repo": "kahliburke/MCPRepl.jl",
+  "source_repo_description": "Expose your repl via MCP!"
+}

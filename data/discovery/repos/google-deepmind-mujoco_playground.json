@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "google-deepmind/mujoco_warp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "andrew-luo1/rscope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/mujoco_playground",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:38.104955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7066
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3803
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source library for GPU-accelerated robot learning and sim-to-real transfer.",
+    "fork": false,
+    "full_name": "google-deepmind/mujoco_playground",
+    "html_url": "https://github.com/google-deepmind/mujoco_playground",
+    "language": "Python",
+    "pushed_at": "2026-04-26T01:21:37Z",
+    "stargazers_count": 1913,
+    "topics": [],
+    "updated_at": "2026-04-29T23:29:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrew-luo1/rscope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/mujoco_warp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    }
+  ]
+}

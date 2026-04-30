@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "albertdahlin/elm-posix",
+      "target": "script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:34.171211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1506
+    },
+    {
+      "path": "package.json",
+      "size": 558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Write CLI-scripts in Elm",
+    "fork": false,
+    "full_name": "albertdahlin/elm-posix",
+    "html_url": "https://github.com/albertdahlin/elm-posix",
+    "language": "Elm",
+    "pushed_at": "2021-10-18T13:17:51Z",
+    "stargazers_count": 93,
+    "topics": [
+      "cli",
+      "elm",
+      "script"
+    ],
+    "updated_at": "2026-04-10T21:28:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Write your tools and build scripts in Elm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    }
+  ]
+}

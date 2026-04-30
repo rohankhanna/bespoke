@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:30:33.787855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Example Projects Using Micronaut",
+    "fork": false,
+    "full_name": "micronaut-projects/micronaut-examples",
+    "html_url": "https://github.com/micronaut-projects/micronaut-examples",
+    "language": null,
+    "pushed_at": "2022-11-22T04:42:30Z",
+    "stargazers_count": 533,
+    "topics": [],
+    "updated_at": "2026-04-17T07:19:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

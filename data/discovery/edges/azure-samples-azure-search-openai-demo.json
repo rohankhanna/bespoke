@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "codespaces/new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azure/CLI@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "microsoft/ps-rule@v2.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Validate AZD template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Azure/setup-azd@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Azure/setup-azd@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azure/login@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azure/CLI@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Evaluate RAG answer flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Frontend linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-markdown.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-markdown.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "DavidAnson/markdownlint-cli2-action@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-jobs.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Nightly Jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azure-ai-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azurecognitivesearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "azureopenai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "target": "chatgpt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "Azure-Samples/azure-search-openai-demo"
+}

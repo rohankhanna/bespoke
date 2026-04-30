@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@ffa630c65fa7e0ecfa0625b5ceda64399aea1b36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml"
+    },
+    {
+      "component": "Songmu/tagpr@84850af451fc53753c6685a3a6a2af7beef23607",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "buty4649/mruby-terminal-color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "dependabot/fetch-metadata@ffa630c65fa7e0ecfa0625b5ceda64399aea1b36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "Songmu/tagpr@84850af451fc53753c6685a3a6a2af7beef23607",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpr.yml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "tagpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "buty4649/mruby-yyjson",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:04.720565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3632
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/tagpr.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "yyjson binding for mruby",
+    "fork": false,
+    "full_name": "buty4649/mruby-yyjson",
+    "html_url": "https://github.com/buty4649/mruby-yyjson",
+    "language": "C",
+    "pushed_at": "2026-04-27T00:14:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-15T02:30:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buty4649/mruby-terminal-color",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "tagpr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpr.yml",
+      "term": "tagpr"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    }
+  ]
+}

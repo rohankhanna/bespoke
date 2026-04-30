@@ -1,7 +1,7 @@
 {
   "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-package-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-format"
     }
   ]
 }

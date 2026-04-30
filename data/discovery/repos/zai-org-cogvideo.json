@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
-      "target": "kijai/comfyui-cogvideoxwrapper",
+      "target": "pinokiofactory/cogstudio",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
-      "target": "feizc/cogvidex-interpolation",
+      "target": "nus-hpc-ai-lab/videosys",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:02:56.350723+00:00",
+  "fetched_at": "2026-04-30T10:14:59.600893+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,7 +90,7 @@
     "html_url": "https://github.com/zai-org/CogVideo",
     "language": "Python",
     "pushed_at": "2025-11-04T11:19:04Z",
-    "stargazers_count": 12687,
+    "stargazers_count": 12688,
     "topics": [
       "cogvideox",
       "image-to-video",
@@ -99,7 +99,7 @@
       "text-to-video",
       "video-generation"
     ],
-    "updated_at": "2026-04-29T21:57:14Z"
+    "updated_at": "2026-04-30T09:44:34Z"
   },
   "repo_links": [
     {
@@ -114,12 +114,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "feizc/cogvidex-interpolation",
+      "full_name": "nus-hpc-ai-lab/videosys",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kijai/comfyui-cogvideoxwrapper",
+      "full_name": "pinokiofactory/cogstudio",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/rust-filecoin-proofs-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/filecoin-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "daschl/hwloc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/go-sectorbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "Proof params generate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:39.478092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27685
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2038
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7847
+    },
+    {
+      "path": ".github/workflows/proof-params-generate.yml",
+      "size": 1174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proofs for Filecoin in Rust",
+    "fork": false,
+    "full_name": "filecoin-project/rust-fil-proofs",
+    "html_url": "https://github.com/filecoin-project/rust-fil-proofs",
+    "language": "Rust",
+    "pushed_at": "2026-03-09T10:07:13Z",
+    "stargazers_count": 500,
+    "topics": [],
+    "updated_at": "2026-04-28T14:30:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daschl/hwloc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/filecoin-ffi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/go-sectorbuilder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/rust-filecoin-proofs-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Proof params generate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "term": "Proof params generate"
+    }
+  ]
+}

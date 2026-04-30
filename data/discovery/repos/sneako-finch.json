@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sneako/finch",
+      "target": "wojtekmach/req",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "sneako/finch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "sneako/finch",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "sneako/finch",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sneako/finch",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sneako/finch",
+      "target": "http-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:34.543432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7051
+    },
+    {
+      "path": ".github/workflows/elixir.yml",
+      "size": 2532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elixir HTTP client, focused on performance",
+    "fork": false,
+    "full_name": "sneako/finch",
+    "html_url": "https://github.com/sneako/finch",
+    "language": "Elixir",
+    "pushed_at": "2026-04-23T10:49:47Z",
+    "stargazers_count": 1353,
+    "topics": [
+      "elixir",
+      "http-client"
+    ],
+    "updated_at": "2026-04-28T07:55:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wojtekmach/req",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    }
+  ]
+}

@@ -115,6 +115,30 @@
       "source_repo": "snap-stanford/ogb",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate-context",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate-context",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate-context",
+      "text": "SuperGlue: Learning Feature Matching with Graph Neural Networks (CVPR 2020, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/magicleap.png\" width=\"240\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "snap-stanford/ogb",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnn4dr/DRKG",
+      "status": "candidate",
+      "text": "A knowledge graph and a set of tools for drug repurposing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "status": "candidate",
+      "text": "<img src=\"assets/magicleap.png\" width=\"240\">"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +310,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "snap-stanford/ogb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

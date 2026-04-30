@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:09:56.441087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13611
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Library for fast text representation and classification.",
+    "fork": false,
+    "full_name": "facebookresearch/fastText",
+    "html_url": "https://github.com/facebookresearch/fastText",
+    "language": "HTML",
+    "pushed_at": "2024-03-22T21:40:44Z",
+    "stargazers_count": 26519,
+    "topics": [],
+    "updated_at": "2026-04-30T02:21:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

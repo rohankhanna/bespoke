@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check clang sanitizers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Check clang sanitizers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate",
+      "text": "Check clang sanitizers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14502,
+      "status": "candidate",
+      "text": "clangor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13759,
+      "status": "candidate",
+      "text": "ding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13519,
+      "status": "candidate",
+      "text": "clam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13519,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13137,
+      "status": "candidate",
+      "text": "hit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check clang sanitizers",
+  "concept_id": "check-clang-sanitizers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-sanitizers.yml",
+      "source_repo": "YosysHQ/yosys"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check clang sanitizers",
+      "sense_id": "check-clang-sanitizers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

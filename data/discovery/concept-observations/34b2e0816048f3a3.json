@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "jQuery-i18next is a jQuery based Javascript internationalization library on top of i18next. It helps you to easily internationalize your web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007328,
+      "status": "candidate",
+      "text": "internationalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036850,
+      "status": "candidate",
+      "text": "globalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036210,
+      "status": "candidate",
+      "text": "internationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036169,
+      "status": "candidate",
+      "text": "internalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035828,
+      "status": "candidate",
+      "text": "globalisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internationalization",
+      "sense_id": "internationalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "internationalisation"
+    }
+  ],
+  "concept_id": "internationalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "internationalization",
+  "observation_id": "34b2e0816048f3a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "internationalization",
+  "source_context_snippet": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next).",
+  "source_file": null,
+  "source_repo": "i18next/jquery-i18next",
+  "source_repo_description": "jQuery-i18next is a jQuery based Javascript internationalization library on top of i18next. It helps you to easily internationalize your web applications."
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MineDojo/MineCLIP",
+      "target": "minedojo/minedojo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "MineDojo/MineCLIP",
+      "target": "minedojo/minedojo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:18.785872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5426
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Foundation Model for MineDojo",
+    "fork": false,
+    "full_name": "MineDojo/MineCLIP",
+    "html_url": "https://github.com/MineDojo/MineCLIP",
+    "language": "Python",
+    "pushed_at": "2023-04-02T04:10:39Z",
+    "stargazers_count": 297,
+    "topics": [],
+    "updated_at": "2026-04-26T14:34:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/minedojo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/minedojo",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

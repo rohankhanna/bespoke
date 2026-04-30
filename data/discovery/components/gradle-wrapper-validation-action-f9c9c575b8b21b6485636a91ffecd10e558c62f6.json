@@ -1,0 +1,17 @@
+{
+  "component": "gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
+    }
+  ]
+}

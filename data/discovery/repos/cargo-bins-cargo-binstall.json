@@ -514,7 +514,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:45:30.650441+00:00",
+  "fetched_at": "2026-04-30T08:27:37.121784+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -567,13 +567,13 @@
     "html_url": "https://github.com/cargo-bins/cargo-binstall",
     "language": "Rust",
     "pushed_at": "2026-04-29T10:28:41Z",
-    "stargazers_count": 2636,
+    "stargazers_count": 2637,
     "topics": [
       "binary",
       "installer",
       "rust"
     ],
-    "updated_at": "2026-04-29T13:53:38Z"
+    "updated_at": "2026-04-30T07:54:54Z"
   },
   "repo_links": [
     {

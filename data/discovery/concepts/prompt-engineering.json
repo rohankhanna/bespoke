@@ -163,6 +163,18 @@
       "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
       "status": "candidate-context",
       "text": "*13-Mar-25*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate-context",
+      "text": "Official implementation for \"Automatic Chain of Thought Prompting in Large Language Models\" (stay tuned & more will be updated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate-context",
+      "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +249,12 @@
       "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
       "status": "candidate",
       "text": "*13-Mar-25*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate",
+      "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +388,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Dev-Prompts-Example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

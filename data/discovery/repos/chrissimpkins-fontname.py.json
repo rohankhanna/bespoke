@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "otf-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrissimpkins/fontname.py",
+      "target": "ttf-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:24.542054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2032
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Font renaming script for OpenType tables in CFF (.otf) and OT TrueType (.ttf) fonts",
+    "fork": false,
+    "full_name": "chrissimpkins/fontname.py",
+    "html_url": "https://github.com/chrissimpkins/fontname.py",
+    "language": "Python",
+    "pushed_at": "2024-03-01T07:50:07Z",
+    "stargazers_count": 166,
+    "topics": [
+      "otf",
+      "otf-fonts",
+      "ttf",
+      "ttf-fonts"
+    ],
+    "updated_at": "2026-02-28T12:02:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "`fontname.py` is a `.ttf` and `.otf` font renaming script that is developed in Python. It supports font renaming with the Python 3.6+ interpreter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otf-fonts"
+    },
+    {
+      "context_snippet": "`fontname.py` is a `.ttf` and `.otf` font renaming script that is developed in Python. It supports font renaming with the Python 3.6+ interpreter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ttf-fonts"
+    }
+  ]
+}

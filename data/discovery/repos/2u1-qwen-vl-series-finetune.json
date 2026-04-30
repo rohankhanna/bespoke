@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "2u1/phi3-vision-finetune",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "2U1/Qwen-VL-Series-Finetune",
       "target": "2u1/llama3.2-vision-ft",
       "target_type": "repository"
     },
@@ -19,14 +12,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "2u1/molmo-finetune",
+      "target": "andimarafioti/florence2-finetuning",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
-      "target": "2u1/gemma3-finetune",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "target": "om-ai-lab/vlm-r1",
       "target_type": "repository"
     },
     {
@@ -79,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:49:16.588307+00:00",
+  "fetched_at": "2026-04-30T10:19:23.851974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/2U1/Qwen-VL-Series-Finetune",
     "language": "Python",
     "pushed_at": "2026-04-10T20:45:54Z",
-    "stargazers_count": 1839,
+    "stargazers_count": 1842,
     "topics": [
       "multimodal",
       "qwen2-5-vl",
@@ -111,14 +111,9 @@
       "vision-language-model",
       "vlm"
     ],
-    "updated_at": "2026-04-29T15:47:58Z"
+    "updated_at": "2026-04-30T09:06:01Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "2u1/gemma3-finetune",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "2u1/llama3.2-vision-ft",
@@ -126,12 +121,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "2u1/molmo-finetune",
+      "full_name": "2u1/qwen2-vl-finetune",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "2u1/phi3-vision-finetune",
+      "full_name": "andimarafioti/florence2-finetuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "om-ai-lab/vlm-r1",
       "source_file": "README.md"
     }
   ],

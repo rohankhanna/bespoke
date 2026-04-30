@@ -19,6 +19,54 @@
       "source_repo": "mozilla-mobile/focus-android",
       "status": "candidate-context",
       "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "A full-featured browser reference implementation using Mozilla Android Components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": " \u26a0\ufe0f Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "mozilla-mobile/focus-android",
       "status": "candidate",
       "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mozilla-mobile/focus-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

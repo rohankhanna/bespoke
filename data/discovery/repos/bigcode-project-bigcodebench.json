@@ -1,0 +1,230 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "bigcode-bench/bigcode-bench.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "bigcodebench/bigcodebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "claude-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "function-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "instruction-following",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "program-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench",
+      "target": "tool-use",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:03.697565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11252
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI",
+    "fork": false,
+    "full_name": "bigcode-project/bigcodebench",
+    "html_url": "https://github.com/bigcode-project/bigcodebench",
+    "language": "Python",
+    "pushed_at": "2026-01-03T07:22:42Z",
+    "stargazers_count": 499,
+    "topics": [
+      "agent",
+      "agents",
+      "benchmark",
+      "chatgpt",
+      "claude-3",
+      "code-generation",
+      "deepseek",
+      "function-calling",
+      "gemini",
+      "gpt-4",
+      "instruction-following",
+      "large-language-models",
+      "llm",
+      "program-synthesis",
+      "tool-use"
+    ],
+    "updated_at": "2026-04-29T13:51:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcode-bench/bigcode-bench.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcodebench/bigcodebench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-3"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-calling"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-following"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "program-synthesis"
+    },
+    {
+      "context_snippet": "<center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-use"
+    }
+  ]
+}

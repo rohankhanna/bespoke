@@ -1,0 +1,12 @@
+{
+  "component": "pozil/auto-assign-issue@74b9f64cc1a08f99358061073e243a4c3d7dd5c4",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "docker/docker-bench-security"
+    }
+  ]
+}

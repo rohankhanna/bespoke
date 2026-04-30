@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "lvignoli/typst-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "lvignoli/typst-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "Build Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "Mc-Zen/tidy",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mc-Zen/tidy",
+      "target": "docs-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mc-Zen/tidy",
+      "target": "typst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mc-Zen/tidy",
+      "target": "typst-doc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:44.695500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8353
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A documentation generator for Typst in Typst.",
+    "fork": false,
+    "full_name": "Mc-Zen/tidy",
+    "html_url": "https://github.com/Mc-Zen/tidy",
+    "language": "Typst",
+    "pushed_at": "2026-04-03T18:17:56Z",
+    "stargazers_count": 129,
+    "topics": [
+      "docs-generator",
+      "typst",
+      "typst-doc"
+    ],
+    "updated_at": "2026-04-28T03:46:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build Documentation"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "*Keep it tidy.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs-generator"
+    },
+    {
+      "context_snippet": "*Keep it tidy.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    },
+    {
+      "context_snippet": "*Keep it tidy.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst-doc"
+    }
+  ]
+}

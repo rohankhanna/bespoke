@@ -5,32 +5,25 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rail-berkeley/rlkit",
-      "target": "vitchyr/doodad",
+      "target": "vitchyr/multiworld",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rail-berkeley/rlkit",
-      "target": "justinjfu/doodad",
+      "target": "vitchyr/rlkit",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rail-berkeley/rlkit",
-      "target": "rll/rllab",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rail-berkeley/rlkit",
-      "target": "katerakelly/oyster",
+      "target": "vitchyr/viskit",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T02:42:32.834443+00:00",
+  "fetched_at": "2026-04-30T10:21:07.651482+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +47,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "justinjfu/doodad",
+      "full_name": "vitchyr/multiworld",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "katerakelly/oyster",
+      "full_name": "vitchyr/rlkit",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rll/rllab",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vitchyr/doodad",
+      "full_name": "vitchyr/viskit",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eric-mitchell/mend",
+      "target": "nicola-decao/knowledgeeditor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "eric-mitchell/mend",
+      "target": "eric-mitchell/higher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "eric-mitchell/mend",
+      "target": "eric-mitchell/transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:17.962792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3104
+    },
+    {
+      "path": "requirements.txt",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MEND: Fast Model Editing at Scale",
+    "fork": false,
+    "full_name": "eric-mitchell/mend",
+    "html_url": "https://github.com/eric-mitchell/mend",
+    "language": "Python",
+    "pushed_at": "2023-08-30T14:12:13Z",
+    "stargazers_count": 259,
+    "topics": [],
+    "updated_at": "2026-04-10T09:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicola-decao/knowledgeeditor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eric-mitchell/higher",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eric-mitchell/transformers",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

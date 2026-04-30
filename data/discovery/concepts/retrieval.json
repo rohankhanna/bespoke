@@ -79,6 +79,18 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate-context",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ArrowLuo/CLIP4Clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

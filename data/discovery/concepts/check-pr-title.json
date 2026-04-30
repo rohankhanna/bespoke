@@ -92,6 +92,30 @@
       "source_repo": "OffchainLabs/arbitrum-chain-sdk",
       "status": "candidate-context",
       "text": "'Check PR Title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddfa\ufe0f A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "Check PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Distributed AI Model Training and LLM Fine-Tuning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Check PR Title"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +160,18 @@
       "source_repo": "OffchainLabs/arbitrum-chain-sdk",
       "status": "candidate",
       "text": "'Check PR Title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate",
+      "text": "Check PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate",
+      "text": "Check PR Title"
     }
   ],
   "candidate_related_terms": [
@@ -221,11 +257,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/check-pr-title.yml",
       "source_repo": "OffchainLabs/arbitrum-chain-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "mrjones2014/legendary.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-pr-title.yaml",
+      "source_repo": "kubeflow/trainer"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

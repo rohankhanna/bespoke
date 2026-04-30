@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A new markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Move to Typst Forum"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Move to Typst Forum"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "proceeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "troll"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Move to Typst Forum",
+      "sense_id": "move-to-typst-forum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "move-to-typst-forum",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "move-to-typst-forum",
+  "observation_id": "b9c33112104619b6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Move to Typst Forum",
+  "source_context_snippet": "Move to Typst Forum",
+  "source_file": ".github/workflows/forum.yml",
+  "source_repo": "Myriad-Dreamin/typst",
+  "source_repo_description": "A new markup-based typesetting system that is powerful and easy to learn."
+}

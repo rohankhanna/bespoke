@@ -12,25 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-api-design",
-      "target": "dwyl/learn-insomnia",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-api-design",
-      "target": "joedog/siege",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-api-design",
-      "target": "prometheus/blackbox_exporter",
+      "target": "zalando/restful-api-guidelines",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T20:57:47.385571+00:00",
+  "fetched_at": "2026-04-30T07:18:26.105979+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +40,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-insomnia",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dwyl/learn-websockets",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "joedog/siege",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prometheus/blackbox_exporter",
+      "full_name": "zalando/restful-api-guidelines",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "image2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "ipython-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "kandinsky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "outpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2",
+      "target": "text2image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:39.448902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kandinsky 2 \u2014 multilingual text2image latent diffusion model",
+    "fork": false,
+    "full_name": "ai-forever/Kandinsky-2",
+    "html_url": "https://github.com/ai-forever/Kandinsky-2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-01T17:03:31Z",
+    "stargazers_count": 2814,
+    "topics": [
+      "diffusion",
+      "image-generation",
+      "image2image",
+      "inpainting",
+      "ipython-notebook",
+      "kandinsky",
+      "outpainting",
+      "text-to-image",
+      "text2image"
+    ],
+    "updated_at": "2026-04-29T18:47:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2image"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython-notebook"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kandinsky"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outpainting"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "vrama91/coco-caption",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "bleu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "bleu-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "dialog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "dialogue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "meteor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "natural-language-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "rouge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "rouge-l",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "skip-thought-vectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "skip-thoughts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval",
+      "target": "task-oriented-dialogue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:03.533143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8419
+    },
+    {
+      "path": "requirements.txt",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluation code for various unsupervised automated metrics for Natural Language Generation.",
+    "fork": false,
+    "full_name": "Maluuba/nlg-eval",
+    "html_url": "https://github.com/Maluuba/nlg-eval",
+    "language": "Python",
+    "pushed_at": "2024-08-20T16:26:23Z",
+    "stargazers_count": 1394,
+    "topics": [
+      "bleu",
+      "bleu-score",
+      "cider",
+      "dialog",
+      "dialogue",
+      "evaluation",
+      "machine-translation",
+      "meteor",
+      "natural-language-generation",
+      "natural-language-processing",
+      "nlg",
+      "nlp",
+      "rouge",
+      "rouge-l",
+      "skip-thought-vectors",
+      "skip-thoughts",
+      "task-oriented-dialogue"
+    ],
+    "updated_at": "2026-04-02T08:35:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vrama91/coco-caption",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bleu"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bleu-score"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialog"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialogue"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meteor"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-generation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rouge"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rouge-l"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skip-thought-vectors"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skip-thoughts"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-oriented-dialogue"
+    }
+  ]
+}

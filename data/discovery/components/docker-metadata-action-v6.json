@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/oci-publish.yml",
       "source_repo": "libvips/build-win64-mxe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_docker.yaml",
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_retrofit_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_container_image.yaml",
+      "source_repo": "galaxyproject/galaxy"
     }
   ]
 }

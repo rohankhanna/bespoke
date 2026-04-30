@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "c-plus-plus",
+      "sense_id": "c-plus-plus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "c-plus-plus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "c-plus-plus",
+  "observation_id": "b625e568cdad5bff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "c-plus-plus",
+  "source_context_snippet": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways.",
+  "source_file": null,
+  "source_repo": "naelstrof/maim",
+  "source_repo_description": "maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot."
+}

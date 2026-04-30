@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -381,6 +381,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "ipfs/go-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/go-graphsync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-examples/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/github-mgmt"
     }
   ],
   "term": "Close Generated PRs"

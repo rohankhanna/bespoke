@@ -1,0 +1,905 @@
+{
+  "components": [
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml"
+    },
+    {
+      "component": "sonarsource/gh-action-lt-backlog/PullRequestClosed@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml"
+    },
+    {
+      "component": "sonarsource/gh-action-lt-backlog/PullRequestCreated@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml"
+    },
+    {
+      "component": "sonarsource/gh-action-lt-backlog/RequestReview@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml"
+    },
+    {
+      "component": "sonarsource/gh-action-lt-backlog/SubmitReview@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/get-build-number@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/build-gradle@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/build-gradle@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/build-gradle@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/promote@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-failure.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-failure.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_release/.github/workflows/main.yaml@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "SonarSource/vault-action-wrapper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "jdx/mise-action@v2.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/gh-action_cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/ci-github-actions/build-gradle@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    },
+    {
+      "component": "SonarSource/unified-dogfooding-actions/run-iris@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonarsource/sonarlint-intellij",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonarsource/gh-action-lt-backlog/PullRequestClosed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Pull Request Closed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonarsource/gh-action-lt-backlog/PullRequestCreated@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Pull Request Created",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonarsource/gh-action-lt-backlog/RequestReview@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Request review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonarsource/gh-action-lt-backlog/SubmitReview@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Submit Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/ci-github-actions/get-build-number@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "jdx/mise-action@v2.4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/gh-action_cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/ci-github-actions/build-gradle@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "mikepenz/action-junit-report@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/ci-github-actions/promote@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-failure.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-failure.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-failure.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Notify Failure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "jdx/mise-action@v2.4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/gh-action_cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Plugin Verifier Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/gh-action_release/.github/workflows/main.yaml@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "sonar-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "jdx/mise-action@v2.4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/gh-action_cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/ci-github-actions/build-gradle@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "SonarSource/unified-dogfooding-actions/run-iris@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target": "Shadow scans",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:56.459166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11915
+    },
+    {
+      "path": ".github/workflows/PullRequestClosed.yml",
+      "size": 885
+    },
+    {
+      "path": ".github/workflows/PullRequestCreated.yml",
+      "size": 1018
+    },
+    {
+      "path": ".github/workflows/RequestReview.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/SubmitReview.yml",
+      "size": 989
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 34891
+    },
+    {
+      "path": ".github/workflows/notify-failure.yml",
+      "size": 1321
+    },
+    {
+      "path": ".github/workflows/plugin-verifier-nightly.yml",
+      "size": 3004
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/shadow_scans.yml",
+      "size": 4750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SonarLint for IntelliJ with DevoxxGenie support",
+    "fork": true,
+    "full_name": "stephanj/sonarlint-devoxxgenie-intellij",
+    "html_url": "https://github.com/stephanj/sonarlint-devoxxgenie-intellij",
+    "language": "Kotlin",
+    "pushed_at": "2026-02-23T07:41:03Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-21T10:01:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sonarsource/sonarlint-intellij",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull Request Closed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "term": "Pull Request Closed"
+    },
+    {
+      "context_snippet": "Pull Request Created",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "term": "Pull Request Created"
+    },
+    {
+      "context_snippet": "Request review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "term": "Request review"
+    },
+    {
+      "context_snippet": "Submit Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "term": "Submit Review"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Notify Failure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-failure.yml",
+      "term": "Notify Failure"
+    },
+    {
+      "context_snippet": "Plugin Verifier Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin-verifier-nightly.yml",
+      "term": "Plugin Verifier Nightly"
+    },
+    {
+      "context_snippet": "sonar-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "sonar-release"
+    },
+    {
+      "context_snippet": "Shadow scans",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "term": "Shadow scans"
+    }
+  ]
+}

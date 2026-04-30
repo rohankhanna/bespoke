@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bump-repo-versions-simulator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "Autoware - the world's leading open-source software project for autonomous driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "bump-repo-versions-simulator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate",
+      "text": "bump-repo-versions-simulator"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bump-repo-versions-simulator",
+  "concept_id": "bump-repo-versions-simulator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bump-repo-versions-simulator.yaml",
+      "source_repo": "autowarefoundation/autoware"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bump-repo-versions-simulator",
+      "sense_id": "bump-repo-versions-simulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

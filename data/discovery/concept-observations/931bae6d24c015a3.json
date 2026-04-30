@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799711,
+      "status": "candidate",
+      "text": "structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832767,
+      "status": "candidate",
+      "text": "architectural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832154,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832106,
+      "status": "candidate",
+      "text": "edifice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832086,
+      "status": "candidate",
+      "text": "framework"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "architecture",
+      "sense_id": "architecture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "structure"
+    }
+  ],
+  "concept_id": "architecture",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "architecture",
+  "observation_id": "931bae6d24c015a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "architecture",
+  "source_context_snippet": "<h1 align=\"center\">Bionic</h1>",
+  "source_file": null,
+  "source_repo": "bionic-gpt/bionic-gpt",
+  "source_repo_description": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+}

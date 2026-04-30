@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Enriching MS-COCO with Chinese sentences and tags for cross-lingual multimedia tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-captioning",
+      "sense_id": "image-captioning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-captioning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-captioning",
+  "observation_id": "088dbf27043fe5a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "image-captioning",
+  "source_context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+  "source_file": null,
+  "source_repo": "li-xirong/coco-cn",
+  "source_repo_description": "Enriching MS-COCO with Chinese sentences and tags for cross-lingual multimedia tasks"
+}

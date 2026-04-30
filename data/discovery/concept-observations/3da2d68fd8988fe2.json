@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Router Rust Plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Router Rust Plugin"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22431,
+      "status": "candidate",
+      "text": "communicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21308,
+      "status": "candidate",
+      "text": "erie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21297,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21297,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21297,
+      "status": "candidate",
+      "text": "clean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Router Rust Plugin",
+      "sense_id": "ci-router-rust-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-router-rust-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-router-rust-plugin",
+  "observation_id": "3da2d68fd8988fe2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "CI Router Rust Plugin",
+  "source_context_snippet": "CI Router Rust Plugin",
+  "source_file": ".github/workflows/local-router-rust-plugin.yaml",
+  "source_repo": "apollographql/supergraph-demo-fed2",
+  "source_repo_description": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Shadow scans"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Shadow scans"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "eyes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "active placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "analytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "ben day process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "boards"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Shadow scans",
+      "sense_id": "shadow-scans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shadow-scans",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shadow-scans",
+  "observation_id": "acca95adb6bb7228",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Shadow scans",
+  "source_context_snippet": "Shadow scans",
+  "source_file": ".github/workflows/shadow_scans.yml",
+  "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+  "source_repo_description": "SonarLint for IntelliJ with DevoxxGenie support"
+}

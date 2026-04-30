@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "identifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "A Java implementation of K-Sortable Unique Identifiers (KSUID)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "KSUID Creator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate",
+      "text": "KSUID Creator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961679,
+      "status": "candidate",
+      "text": "identification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961663,
+      "status": "candidate",
+      "text": "identify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961299,
+      "status": "candidate",
+      "text": "designator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961237,
+      "status": "candidate",
+      "text": "designation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961036,
+      "status": "candidate",
+      "text": "identifying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "identifier",
+  "concept_id": "identifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "identifier",
+      "sense_id": "identifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

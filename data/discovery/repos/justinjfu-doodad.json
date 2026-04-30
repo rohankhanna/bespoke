@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinjfu/doodad",
+      "target": "rll/rllab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:24.969342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1520
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A job launching library for docker, EC2, GCP, etc.",
+    "fork": false,
+    "full_name": "justinjfu/doodad",
+    "html_url": "https://github.com/justinjfu/doodad",
+    "language": "Python",
+    "pushed_at": "2021-08-10T03:07:24Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2024-05-31T11:43:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rll/rllab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

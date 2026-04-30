@@ -1,0 +1,729 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/dependency-submission@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "stephanj/sonarlint-devoxxgenie-intellij",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "stephanj/llama3javachatcompletionservice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Deploy Docs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "gradle/actions/dependency-submission@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Java CI with Gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Check Documentation Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-deploy-docs.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Test Docs Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "mikepenz/action-junit-report@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "azure-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "chatgpt-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "claude-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "copilot-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "gpt4all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "groq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "lmstudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "target": "spec-driven-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:18.661660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36046
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1433
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1886
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1314
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 2545
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 1742
+    },
+    {
+      "path": ".github/workflows/test-deploy-docs.yml",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners.",
+    "fork": false,
+    "full_name": "devoxx/DevoxxGenieIDEAPlugin",
+    "html_url": "https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "language": "Java",
+    "pushed_at": "2026-04-29T08:02:21Z",
+    "stargazers_count": 639,
+    "topics": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "claude-ai",
+      "copilot",
+      "copilot-chat",
+      "gemini",
+      "genai",
+      "gpt4all",
+      "groq",
+      "intellij-plugin",
+      "java",
+      "llm",
+      "lmstudio",
+      "mistral",
+      "ollama",
+      "openai",
+      "spec-driven-development"
+    ],
+    "updated_at": "2026-04-28T05:00:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephanj/llama3javachatcompletionservice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephanj/sonarlint-devoxxgenie-intellij",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephanj/spotbugs-devoxxgenie-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Deploy Docs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Java CI with Gradle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "Java CI with Gradle"
+    },
+    {
+      "context_snippet": "Check Documentation Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yml",
+      "term": "Check Documentation Links"
+    },
+    {
+      "context_snippet": "Test Docs Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-deploy-docs.yml",
+      "term": "Test Docs Deployment"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-ai"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-api"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-3"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "copilot-chat"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt4all"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groq"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lmstudio"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec-driven-development"
+    }
+  ]
+}

@@ -45,6 +45,30 @@
       "source_repo": "lumen-oss/rocks.nvim",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "A repository for hosting auto-generated Neovim plugins and tree-sitter parsers for Luarocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +89,18 @@
       "source_repo": "lumen-oss/rocks.nvim",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate",
+      "text": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +126,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

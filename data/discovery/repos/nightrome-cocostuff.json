@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightrome/cocostuff",
+      "target": "nightrome/cocostuff10k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightrome/cocostuff",
+      "target": "nightrome/cocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightrome/cocostuff",
+      "target": "kazuto1011/deeplab-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:21.270252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official homepage of the COCO-Stuff dataset.",
+    "fork": false,
+    "full_name": "nightrome/cocostuff",
+    "html_url": "https://github.com/nightrome/cocostuff",
+    "language": "Shell",
+    "pushed_at": "2022-09-09T15:04:10Z",
+    "stargazers_count": 906,
+    "topics": [],
+    "updated_at": "2026-04-29T12:49:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kazuto1011/deeplab-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightrome/cocoapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightrome/cocostuff10k",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

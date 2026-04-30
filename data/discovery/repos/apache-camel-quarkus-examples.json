@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "Camel Quarkus CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "camel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel-quarkus-examples",
+      "target": "quarkus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:03.637424+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci-build.yaml",
+      "size": 7596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Camel Quarkus Examples",
+    "fork": false,
+    "full_name": "apache/camel-quarkus-examples",
+    "html_url": "https://github.com/apache/camel-quarkus-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-14T13:22:30Z",
+    "stargazers_count": 94,
+    "topics": [
+      "camel",
+      "integration",
+      "java",
+      "quarkus"
+    ],
+    "updated_at": "2026-04-09T10:33:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Camel Quarkus CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "term": "Camel Quarkus CI"
+    },
+    {
+      "context_snippet": "Camel Quarkus CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camel"
+    },
+    {
+      "context_snippet": "Camel Quarkus CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration"
+    },
+    {
+      "context_snippet": "Camel Quarkus CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Camel Quarkus CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quarkus"
+    }
+  ]
+}

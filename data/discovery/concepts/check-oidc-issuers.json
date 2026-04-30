@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check OIDC Issuers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "Sigstore OIDC PKI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "Check OIDC Issuers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate",
+      "text": "Check OIDC Issuers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18364,
+      "status": "candidate",
+      "text": "ssa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17184,
+      "status": "candidate",
+      "text": "irs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "certified check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "payer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check OIDC Issuers",
+  "concept_id": "check-oidc-issuers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-oidc-issuers.yml",
+      "source_repo": "sigstore/fulcio"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check OIDC Issuers",
+      "sense_id": "check-oidc-issuers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:13:38.920065+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Ruby debugger - core component for Ruby 1.9",
+    "fork": false,
+    "full_name": "ruby-debug/ruby-debug-base19",
+    "html_url": "https://github.com/ruby-debug/ruby-debug-base19",
+    "language": "C",
+    "pushed_at": "2022-11-21T04:33:52Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2022-05-18T10:49:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

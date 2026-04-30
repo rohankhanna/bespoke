@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:31:10.150407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 183
+    },
+    {
+      "path": "Dockerfile",
+      "size": 285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hello world ruby sample for OpenShift v3",
+    "fork": false,
+    "full_name": "openshift/ruby-hello-world",
+    "html_url": "https://github.com/openshift/ruby-hello-world",
+    "language": "Ruby",
+    "pushed_at": "2025-06-05T13:24:12Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2025-12-27T14:04:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

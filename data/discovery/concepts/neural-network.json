@@ -487,6 +487,90 @@
       "source_repo": "chainer/chainer",
       "status": "candidate-context",
       "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the C++ api of PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the C++ api of PyTorch. The goal of the `tch` crate is to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "OneFlow is a deep learning framework designed to be user-friendly, scalable and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "OneFlow is a deep learning framework designed to be **user-friendly, scalable and efficient**. With OneFlow, it is easy to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "mean Average Precision - This code evaluates the performance of your neural net for object recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/TLC",
+      "status": "candidate-context",
+      "text": "Test-time Local Converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/TLC",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-global-statistics-aggregation-for/image-defocus-deblurring-on-dpd)](https://paperswithcode.com/sota/image-defocus-deblurring-on-dpd?p=revisiting-global-statistics-aggregation-for)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "A fast, high-quality neural vocoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate-context",
+      "text": "OCaml bindings for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate-context",
+      "text": "> **Warning**"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +813,48 @@
       "source_repo": "chainer/chainer",
       "status": "candidate",
       "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate",
+      "text": "Rust bindings for the C++ api of PyTorch. The goal of the `tch` crate is to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate",
+      "text": "OneFlow is a deep learning framework designed to be **user-friendly, scalable and efficient**. With OneFlow, it is easy to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/TLC",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-global-statistics-aggregation-for/image-defocus-deblurring-on-dpd)](https://paperswithcode.com/sota/image-defocus-deblurring-on-dpd?p=revisiting-global-statistics-aggregation-for)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate",
+      "text": "> **Warning**"
     }
   ],
   "candidate_related_terms": [],
@@ -1000,11 +1126,71 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LaurentMazare/tch-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/TLC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

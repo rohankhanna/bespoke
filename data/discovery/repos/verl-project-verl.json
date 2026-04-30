@@ -261,6 +261,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
+      "target": "novasky-ai/skythought",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
       "target": "agent-rl/research",
       "target_type": "repository"
     },
@@ -268,21 +275,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "leaplabthu/absolute-zero-reasoner",
+      "target": "microsoft/agent-lightning",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "hkunlp/critic-rl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
-      "target": "kanishkg/cognitive-behaviors",
+      "target": "microsoft/rstar",
       "target_type": "repository"
     },
     {
@@ -531,11 +531,11 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T02:39:35.514205+00:00",
+  "fetched_at": "2026-04-30T10:19:00.884173+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 37700
+      "size": 37500
     },
     {
       "path": "pyproject.toml",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-30T01:58:21Z",
-    "stargazers_count": 21016,
+    "pushed_at": "2026-04-30T06:24:20Z",
+    "stargazers_count": 21027,
     "topics": [],
-    "updated_at": "2026-04-30T01:58:26Z"
+    "updated_at": "2026-04-30T09:40:10Z"
   },
   "repo_links": [
     {
@@ -596,17 +596,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hkunlp/critic-rl",
+      "full_name": "microsoft/agent-lightning",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kanishkg/cognitive-behaviors",
+      "full_name": "microsoft/rstar",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "leaplabthu/absolute-zero-reasoner",
+      "full_name": "novasky-ai/skythought",
       "source_file": "README.md"
     }
   ],

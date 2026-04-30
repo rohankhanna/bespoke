@@ -1,12 +1,17 @@
 {
   "component": "child-process-promise",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "firebase/firebase-admin-node"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/logtalk-for-vscode"
     }
   ]
 }

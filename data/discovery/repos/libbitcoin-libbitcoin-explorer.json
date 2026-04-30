@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:29:41.910359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitcoin Command Line Tool",
+    "fork": false,
+    "full_name": "libbitcoin/libbitcoin-explorer",
+    "html_url": "https://github.com/libbitcoin/libbitcoin-explorer",
+    "language": "C++",
+    "pushed_at": "2024-03-01T22:16:22Z",
+    "stargazers_count": 634,
+    "topics": [],
+    "updated_at": "2026-03-27T16:54:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

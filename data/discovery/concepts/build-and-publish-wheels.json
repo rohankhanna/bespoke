@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and Publish Wheels"
+    "Build and Publish Wheels",
+    "Build and publish wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "antgroup/vsag",
       "status": "candidate-context",
       "text": "Build and Publish Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robertostling/eflomal",
+      "status": "candidate-context",
+      "text": "Efficient Low-Memory Aligner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertostling/eflomal",
+      "status": "candidate-context",
+      "text": "Build and publish wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate-context",
+      "text": "(Deprecated) Python bindings for COLMAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate-context",
+      "text": "Build and publish wheels"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "antgroup/vsag",
       "status": "candidate",
       "text": "Build and Publish Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertostling/eflomal",
+      "status": "candidate",
+      "text": "Build and publish wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate",
+      "text": "Build and publish wheels"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build_release_wheel.yml",
       "source_repo": "antgroup/vsag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/wheels.yaml",
+      "source_repo": "robertostling/eflomal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-new.yml",
+      "source_repo": "colmap/pycolmap"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

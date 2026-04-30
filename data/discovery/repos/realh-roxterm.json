@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:25:06.127154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A highly configurable terminal emulator",
+    "fork": false,
+    "full_name": "realh/roxterm",
+    "html_url": "https://github.com/realh/roxterm",
+    "language": "C",
+    "pushed_at": "2026-04-24T13:36:34Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-04-29T02:51:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

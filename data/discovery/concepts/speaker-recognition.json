@@ -55,6 +55,18 @@
       "source_repo": "clovaai/voxceleb_trainer",
       "status": "candidate-context",
       "text": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "Official Implementation of Mockingjay in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "clovaai/voxceleb_trainer",
       "status": "candidate",
       "text": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

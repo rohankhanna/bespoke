@@ -19,6 +19,30 @@
       "source_repo": "ankane/ahoy",
       "status": "candidate-context",
       "text": ":fire: Simple, powerful, first-party analytics for Rails"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate-context",
+      "text": "Simple, powerful JavaScript analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate-context",
+      "text": ":fire: Visit and event tracking for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ankane/ahoy",
       "status": "candidate",
       "text": ":fire: Simple, powerful, first-party analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate",
+      "text": ":fire: Visit and event tracking for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate",
+      "text": "First-party email analytics for Rails"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ankane/ahoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

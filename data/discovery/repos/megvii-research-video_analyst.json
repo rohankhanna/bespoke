@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/video_analyst",
+      "target": "stvir/pysot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/video_analyst",
+      "target": "got-10k/toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/video_analyst",
+      "target": "shallowtoil/drol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/video_analyst",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/video_analyst",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:25.984067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6151
+    },
+    {
+      "path": "requirements.txt",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A series of basic algorithms that are useful for video understanding, including Single Object Tracking (SOT), Video Object Segmentation (VOS) and so on.",
+    "fork": false,
+    "full_name": "megvii-research/video_analyst",
+    "html_url": "https://github.com/megvii-research/video_analyst",
+    "language": "Python",
+    "pushed_at": "2023-08-03T16:40:06Z",
+    "stargazers_count": 856,
+    "topics": [
+      "segmentation",
+      "sot",
+      "video",
+      "vos"
+    ],
+    "updated_at": "2026-04-06T13:23:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "got-10k/toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shallowtoil/drol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stvir/pysot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/MegviiDetection/video_analyst.svg?branch=master)](https://travis-ci.org/MegviiDetection/video_analyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/MegviiDetection/video_analyst.svg?branch=master)](https://travis-ci.org/MegviiDetection/video_analyst)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

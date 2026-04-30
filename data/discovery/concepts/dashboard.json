@@ -165,6 +165,18 @@
       "source_repo": "plotly/plotly.py",
       "status": "candidate-context",
       "text": "<table>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
       "source_repo": "plotly/plotly.py",
       "status": "candidate",
       "text": "<table>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
     }
   ],
   "candidate_related_terms": [
@@ -374,11 +392,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smapp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

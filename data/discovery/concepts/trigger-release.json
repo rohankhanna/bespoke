@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "A ktlint gradle plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "\"Trigger Release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate",
+      "text": "\"Trigger Release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28819,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "triggered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "triggering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "burst"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger Release",
+  "concept_id": "trigger-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Release",
+      "sense_id": "trigger-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

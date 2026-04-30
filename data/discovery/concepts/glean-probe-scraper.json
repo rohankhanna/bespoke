@@ -31,6 +31,42 @@
       "source_repo": "mozilla-mobile/firefox-android",
       "status": "candidate-context",
       "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "A full-featured browser reference implementation using Mozilla Android Components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": " \u26a0\ufe0f Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": "Glean probe-scraper"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate",
+      "text": "Glean probe-scraper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
       "status": "candidate",
       "text": "Glean probe-scraper"
     }
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/glean-probe-scraper.yml",
       "source_repo": "mozilla-mobile/firefox-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/reference-browser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/android-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/fenix"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "tkf/julia-code-style-suggesters@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "yogevbd/enforce-label-action@2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "Doc Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "tkf/julia-code-style-suggesters@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "Code style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/julia-docdeploy@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-labels.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "yogevbd/enforce-label-action@2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-labels.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "Enforce PR labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:50.009560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1988
+    },
+    {
+      "path": ".github/workflows/DocPreviewCleanup.yml",
+      "size": 940
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/code-style.yml",
+      "size": 144
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1085
+    },
+    {
+      "path": ".github/workflows/enforce-labels.yml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auto QUality Assurance for Julia packages",
+    "fork": false,
+    "full_name": "JuliaTesting/Aqua.jl",
+    "html_url": "https://github.com/JuliaTesting/Aqua.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-20T17:12:59Z",
+    "stargazers_count": 442,
+    "topics": [],
+    "updated_at": "2026-04-21T21:19:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Doc Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml",
+      "term": "Doc Preview Cleanup"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Code style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "term": "Code style"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Enforce PR labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-labels.yml",
+      "term": "Enforce PR labels"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    }
+  ]
+}

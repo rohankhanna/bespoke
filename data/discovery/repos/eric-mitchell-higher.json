@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eric-mitchell/higher",
+      "target": "facebookresearch/higher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:17.673545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11145
+    },
+    {
+      "path": "requirements.txt",
+      "size": 137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "higher is a pytorch library allowing users to obtain higher order gradients over losses spanning training loops rather than individual training steps.",
+    "fork": true,
+    "full_name": "eric-mitchell/higher",
+    "html_url": "https://github.com/eric-mitchell/higher",
+    "language": "Python",
+    "pushed_at": "2022-04-27T18:17:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-09-14T23:42:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/higher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

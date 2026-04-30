@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "robot-descriptions/robot_descriptions.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:40.675563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16190
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of high-quality models for the MuJoCo physics engine, curated by Google DeepMind.",
+    "fork": false,
+    "full_name": "google-deepmind/mujoco_menagerie",
+    "html_url": "https://github.com/google-deepmind/mujoco_menagerie",
+    "language": "Python",
+    "pushed_at": "2026-04-16T07:14:59Z",
+    "stargazers_count": 3365,
+    "topics": [
+      "mujoco",
+      "robotics"
+    ],
+    "updated_at": "2026-04-30T08:36:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robot-descriptions/robot_descriptions.py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

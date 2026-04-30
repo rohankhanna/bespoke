@@ -1090,6 +1090,78 @@
       "source_repo": "gnunicorn/cargo-unleash",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zkcrypto/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to zkcrypto crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/rfcs",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Semantic Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/docs",
+      "status": "candidate-context",
+      "text": "Source repo for Docker's Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docs",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q&A experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "Deploy"
     }
   ],
   "candidate_glosses": [
@@ -1636,6 +1708,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/rfcs",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docs",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
       "status": "candidate",
       "text": "Deploy"
     }
@@ -2365,11 +2473,95 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "gnunicorn/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "zkcrypto/rfcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "docker/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

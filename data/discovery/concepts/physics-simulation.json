@@ -43,6 +43,42 @@
       "source_repo": "google-deepmind/dm_control",
       "status": "candidate-context",
       "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "Blocks for accessing MuJoCo physics engine within Simulink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate-context",
+      "text": "ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "google-deepmind/dm_control",
       "status": "candidate",
       "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/ProtoMotions",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/ProtoMotions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "newton-physics/newton"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

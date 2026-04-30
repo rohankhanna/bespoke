@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddulesov/clickhouse_driver",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddulesov/clickhouse_driver",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:28:08.538807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7548
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 204
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "yandex Clickhouse native rust driver",
+    "fork": false,
+    "full_name": "ddulesov/clickhouse_driver",
+    "html_url": "https://github.com/ddulesov/clickhouse_driver",
+    "language": "Rust",
+    "pushed_at": "2021-12-29T02:30:47Z",
+    "stargazers_count": 18,
+    "topics": [
+      "clickhouse",
+      "rust"
+    ],
+    "updated_at": "2024-04-08T07:19:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ddulesov/clickhouse_driver.svg?branch=master)](https://travis-ci.org/ddulesov/clickhouse_driver)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ddulesov/clickhouse_driver.svg?branch=master)](https://travis-ci.org/ddulesov/clickhouse_driver)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dynamic-readme.yml",
       "source_repo": "thoughtbot/climate_control"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/factory_bot"
     }
   ]
 }

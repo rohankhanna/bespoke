@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "comnoco/create-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "comnoco/create-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "amaranth-hdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "development-board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "target": "fpga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:42.732697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 289
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 982
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Board definitions for Amaranth HDL",
+    "fork": false,
+    "full_name": "amaranth-lang/amaranth-boards",
+    "html_url": "https://github.com/amaranth-lang/amaranth-boards",
+    "language": "Python",
+    "pushed_at": "2026-03-13T22:16:44Z",
+    "stargazers_count": 126,
+    "topics": [
+      "amaranth-hdl",
+      "development-board",
+      "fpga"
+    ],
+    "updated_at": "2026-04-28T23:57:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth-hdl"
+    },
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development-board"
+    },
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    }
+  ]
+}

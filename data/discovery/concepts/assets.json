@@ -46,6 +46,18 @@
       "source_repo": "neplexlabs/canvacord",
       "status": "candidate-context",
       "text": "Assets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phoenixframework/phoenix",
+      "status": "candidate-context",
+      "text": "Peace of mind from prototype to production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phoenixframework/phoenix",
+      "status": "candidate-context",
+      "text": "Assets"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "neplexlabs/canvacord",
+      "status": "candidate",
+      "text": "Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phoenixframework/phoenix",
       "status": "candidate",
       "text": "Assets"
     }
@@ -133,11 +151,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/assets.yml",
       "source_repo": "neplexlabs/canvacord"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "phoenixframework/phoenix"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

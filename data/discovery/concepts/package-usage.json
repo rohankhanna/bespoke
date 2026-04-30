@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package usage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "janl/mustache.js",
+      "status": "candidate-context",
+      "text": "Minimal templating with {{mustaches}} in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janl/mustache.js",
+      "status": "candidate-context",
+      "text": "Package usage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "janl/mustache.js",
+      "status": "candidate",
+      "text": "Package usage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "envelope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "sack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "literature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "family"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11643,
+      "status": "candidate",
+      "text": "ship"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package usage",
+  "concept_id": "package-usage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/usage.yml",
+      "source_repo": "janl/mustache.js"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package usage",
+      "sense_id": "package-usage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

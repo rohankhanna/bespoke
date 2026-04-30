@@ -19,6 +19,66 @@
       "source_repo": "swagger-api/swagger-codegen",
       "status": "candidate-context",
       "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "Validate your Swagger JSON/YAML today!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "Swagger Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "swagger-api/swagger-codegen",
       "status": "candidate",
       "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +130,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

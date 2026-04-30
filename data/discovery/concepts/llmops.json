@@ -163,6 +163,42 @@
       "source_repo": "alibaba/rtp-llm",
       "status": "candidate-context",
       "text": "<div align=\"center\" id=\"rtpllmtop\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "ClearML Fractional GPU - Run multiple containers on the same GPU with driver level memory limitation \u2728 and compute time-slicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "alibaba/rtp-llm",
       "status": "candidate",
       "text": "<div align=\"center\" id=\"rtpllmtop\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +394,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/VectorChord"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

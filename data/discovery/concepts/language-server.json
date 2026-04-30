@@ -343,6 +343,42 @@
       "source_repo": "JohnnyMorganz/luau-lsp",
       "status": "candidate-context",
       "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate-context",
+      "text": "Official VSCode plugin for ReScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for LaTeX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/latex-lsp/texlab/workflows/CI/badge.svg)](https://github.com/latex-lsp/texlab/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Marksman extension for VSCode. Note taking with cross-references and diagnostics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +549,24 @@
       "source_repo": "JohnnyMorganz/luau-lsp",
       "status": "candidate",
       "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/latex-lsp/texlab/workflows/CI/badge.svg)](https://github.com/latex-lsp/texlab/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
     }
   ],
   "candidate_related_terms": [],
@@ -736,11 +790,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "JohnnyMorganz/luau-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "latex-lsp/texlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

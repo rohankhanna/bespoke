@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "pacman-repo-builder/action@434fbf94653f451cdfb156dc64708d9985688483",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "actions-rs/toolchain@v1.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "pacman-repo-builder/action@434fbf94653f451cdfb156dc64708d9985688483",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "personal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:34.091238+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 102
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of Rust programs for personal use",
+    "fork": false,
+    "full_name": "KSXGitHub/personal-crates",
+    "html_url": "https://github.com/KSXGitHub/personal-crates",
+    "language": "Rust",
+    "pushed_at": "2025-12-15T21:00:58Z",
+    "stargazers_count": 0,
+    "topics": [
+      "collection",
+      "personal",
+      "rust"
+    ],
+    "updated_at": "2025-09-17T06:11:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collection"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

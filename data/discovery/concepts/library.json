@@ -646,6 +646,78 @@
       "source_repo": "web-infra-dev/rslib",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lindera/lindera",
+      "status": "candidate-context",
+      "text": "A multilingual morphological analysis library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Crates.io](https://img.shields.io/crates/v/lindera.svg)](https://crates.io/crates/lindera)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": ":angel: The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "A Python library for multilingual phonemization and Text-to-Speech (TTS) using ONNX models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "GIF encoder written in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "status": "candidate-context",
+      "text": "base64 encoding and decoding with c++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "status": "candidate-context",
+      "text": "Base64 encoding and decoding with c++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -966,6 +1038,42 @@
       "source_repo": "web-infra-dev/rslib",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Crates.io](https://img.shields.io/crates/v/lindera.svg)](https://crates.io/crates/lindera)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReneNyffenegger/cpp-base64",
+      "status": "candidate",
+      "text": "Base64 encoding and decoding with c++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -1384,11 +1492,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lindera/lindera"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dloebl/cgif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ReneNyffenegger/cpp-base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

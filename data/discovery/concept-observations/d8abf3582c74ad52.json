@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "User documentation for KServe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drift-detection",
+      "sense_id": "drift-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drift-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drift-detection",
+  "observation_id": "d8abf3582c74ad52",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "drift-detection",
+  "source_context_snippet": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/).",
+  "source_file": null,
+  "source_repo": "kserve/website",
+  "source_repo_description": "User documentation for KServe."
+}

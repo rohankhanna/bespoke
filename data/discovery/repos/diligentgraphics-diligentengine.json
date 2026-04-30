@@ -1,0 +1,937 @@
+{
+  "components": [
+    {
+      "component": "DiligentGraphics/github-action/clean-disk-ubuntu@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/setup-build-env@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/setup-build-env@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/configure-cmake@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/build@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/setup-build-env@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/configure-cmake@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/build@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/setup-build-env@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/configure-cmake@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/build@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/setup-build-env@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/configure-cmake@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/build@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "diligentgraphics/diligentcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "diligentgraphics/diligentfx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "const-me/vrmac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "deni2312/prisma-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/clean-disk-ubuntu@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "Android build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-core-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "Emscripten build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-core-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/setup-build-env@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/configure-cmake@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/build@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-core-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-core-gpu-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-tools-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-tools-gpu-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-hlsl2glsl-converter-test@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "DiligentGraphics/github-action/run-sample-tests@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-build-web-page.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "Trigger Build Web Page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "3d-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "d3d11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "d3d12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "directx11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "directx12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "graphics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "graphics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "opengl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "ray-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "renderer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "target": "vulkan-game-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:49.572496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79744
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/build-apple.yml",
+      "size": 2995
+    },
+    {
+      "path": ".github/workflows/build-emscripten.yml",
+      "size": 2450
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 5748
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 7631
+    },
+    {
+      "path": ".github/workflows/trigger-build-web-page.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern cross-platform low-level graphics library and rendering framework",
+    "fork": false,
+    "full_name": "DiligentGraphics/DiligentEngine",
+    "html_url": "https://github.com/DiligentGraphics/DiligentEngine",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-27T18:14:53Z",
+    "stargazers_count": 4275,
+    "topics": [
+      "3d-engine",
+      "d3d11",
+      "d3d12",
+      "directx",
+      "directx11",
+      "directx12",
+      "gamedev",
+      "graphics-engine",
+      "graphics-library",
+      "graphics-programming",
+      "ibl",
+      "opengl",
+      "opengl-es",
+      "pbr",
+      "ray-tracing",
+      "raytracing",
+      "renderer",
+      "rendering",
+      "vulkan",
+      "vulkan-game-engine"
+    ],
+    "updated_at": "2026-04-29T17:40:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "const-me/vrmac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deni2312/prisma-engine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diligentgraphics/diligentcore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diligentgraphics/diligentfx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "Android build"
+    },
+    {
+      "context_snippet": "Emscripten build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "term": "Emscripten build"
+    },
+    {
+      "context_snippet": "Linux build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Linux build"
+    },
+    {
+      "context_snippet": "Trigger Build Web Page",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-build-web-page.yml",
+      "term": "Trigger Build Web Page"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-engine"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3d11"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3d12"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx11"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx12"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-engine"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-library"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programming"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-es"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ray-tracing"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracing"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "renderer"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-game-engine"
+    }
+  ]
+}

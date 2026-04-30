@@ -43,6 +43,18 @@
       "source_repo": "finetunej/transformers",
       "status": "candidate-context",
       "text": "Release - Conda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eric-mitchell/transformers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eric-mitchell/transformers",
+      "status": "candidate-context",
+      "text": "Release - Conda"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "finetunej/transformers",
+      "status": "candidate",
+      "text": "Release - Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eric-mitchell/transformers",
       "status": "candidate",
       "text": "Release - Conda"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release-conda.yml",
       "source_repo": "finetunej/transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-conda.yml",
+      "source_repo": "eric-mitchell/transformers"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

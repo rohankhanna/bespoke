@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_packages.yml",
       "source_repo": "iree-org/iree-turbine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rstackjs/rsbuild-plugin-template"
     }
   ]
 }

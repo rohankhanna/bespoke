@@ -895,6 +895,126 @@
       "source_repo": "sunnweiwei/RankGPT",
       "status": "candidate-context",
       "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "OpenAI API + Ruby! \ud83e\udd16\u2764\ufe0f GPT-5 & Realtime WebRTC compatible!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "Powerful AI Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate-context",
+      "text": "WebGLM: An Efficient Web-enhanced Question Answering System (KDD 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate-context",
+      "text": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "Large-scale, Informative, and Diverse Multi-round Chat Data (and Models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q&A experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -1341,6 +1461,66 @@
       "source_repo": "sunnweiwei/RankGPT",
       "status": "candidate",
       "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate",
+      "text": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -2320,11 +2500,143 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sunnweiwei/RankGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "alexrudall/ruby-openai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brainlid/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/WebGLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

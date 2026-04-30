@@ -223,6 +223,42 @@
       "source_repo": "boostorg/beast",
       "status": "candidate-context",
       "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "Macro-oriented asynchronous web-framework written in Nim with \u2665"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 middlware and mocks for Express.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger Express Middleware"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "boostorg/beast",
       "status": "candidate",
       "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate",
+      "text": "Swagger Express Middleware"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +577,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HapticX/happyx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/omniserve",
+      "target": "mit-han-lab/deepcompressor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/omniserve",
+      "target": "gkamradt/llmtest_needleinahaystack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/omniserve",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/omniserve",
+      "target": "mit-han-lab/torchsparse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:54.082763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33464
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[MLSys'25] QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving; [MLSys'25] LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention",
+    "fork": false,
+    "full_name": "mit-han-lab/omniserve",
+    "html_url": "https://github.com/mit-han-lab/omniserve",
+    "language": "C++",
+    "pushed_at": "2025-03-06T03:22:14Z",
+    "stargazers_count": 834,
+    "topics": [],
+    "updated_at": "2026-04-25T01:45:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gkamradt/llmtest_needleinahaystack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/deepcompressor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/torchsparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

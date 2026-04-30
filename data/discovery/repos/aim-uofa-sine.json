@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/SINE",
+      "target": "baaivision/painter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/SINE",
+      "target": "ucbdrive/few-shot-object-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/SINE",
+      "target": "dinov2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/SINE",
+      "target": "generalist-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/SINE",
+      "target": "in-context-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/SINE",
+      "target": "task-ambiguity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:15.717616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6371
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'24] A Simple Image Segmentation Framework via In-Context Examples",
+    "fork": false,
+    "full_name": "aim-uofa/SINE",
+    "html_url": "https://github.com/aim-uofa/SINE",
+    "language": "Python",
+    "pushed_at": "2024-10-29T03:36:16Z",
+    "stargazers_count": 66,
+    "topics": [
+      "dinov2",
+      "generalist-model",
+      "in-context-segmentation",
+      "task-ambiguity"
+    ],
+    "updated_at": "2026-04-12T19:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/painter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucbdrive/few-shot-object-detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dinov2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalist-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-ambiguity"
+    }
+  ]
+}

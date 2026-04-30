@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Holds all versioned WildFly quickstarts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Quickstart html to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Quickstart html to Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19303,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18453,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18409,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11626,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10529,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Quickstart html to Pages",
+      "sense_id": "deploy-quickstart-html-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-quickstart-html-to-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-quickstart-html-to-pages",
+  "observation_id": "d0e3141385d5a52e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Deploy Quickstart html to Pages",
+  "source_context_snippet": "Deploy Quickstart html to Pages",
+  "source_file": ".github/workflows/publish-pages.yml",
+  "source_repo": "wildfly/quickstart",
+  "source_repo_description": "Holds all versioned WildFly quickstarts"
+}

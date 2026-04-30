@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "machakann/vim-sandwich",
+      "target": "rhysd/vim-operator-surround",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "machakann/vim-sandwich",
+      "target": "osyo-manga/vim-textobj-multiblock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "machakann/vim-sandwich",
+      "target": "rhysd/vim-textobj-anyblock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "machakann/vim-sandwich",
+      "target": "thinca/vim-textobj-between",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:20.746539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Set of operators and textobjects to search/select/edit sandwiched texts.",
+    "fork": false,
+    "full_name": "machakann/vim-sandwich",
+    "html_url": "https://github.com/machakann/vim-sandwich",
+    "language": "Vim Script",
+    "pushed_at": "2024-03-20T12:36:58Z",
+    "stargazers_count": 1531,
+    "topics": [],
+    "updated_at": "2026-04-26T16:10:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osyo-manga/vim-textobj-multiblock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/vim-operator-surround",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/vim-textobj-anyblock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinca/vim-textobj-between",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

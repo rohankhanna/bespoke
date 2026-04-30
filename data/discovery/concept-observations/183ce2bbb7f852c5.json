@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Purge old domains"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Purge old domains"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29364,
+      "status": "candidate",
+      "text": "sweep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29264,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "fens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "parotid vein"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Purge old domains",
+      "sense_id": "purge-old-domains#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "purge-old-domains",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "purge-old-domains",
+  "observation_id": "183ce2bbb7f852c5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Purge old domains",
+  "source_context_snippet": "Purge old domains",
+  "source_file": ".github/workflows/surge-purge.yml",
+  "source_repo": "wix/Detox",
+  "source_repo_description": "Gray box end-to-end testing and automation framework for mobile apps"
+}

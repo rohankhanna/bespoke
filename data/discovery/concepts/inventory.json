@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "inventory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/min-max",
+      "status": "candidate-context",
+      "text": "Automatically detect number of items left in stock using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/min-max",
+      "status": "candidate-context",
+      "text": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/min-max",
+      "status": "candidate",
+      "text": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048702,
+      "status": "candidate",
+      "text": "stocktaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048672,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047992,
+      "status": "candidate",
+      "text": "stock list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984632,
+      "status": "candidate",
+      "text": "armory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980719,
+      "status": "candidate",
+      "text": "armoury"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26089,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "armory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "stocktaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "armoury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "inventorying"
+    }
+  ],
+  "canonical_name": "inventory",
+  "concept_id": "inventory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/min-max"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inventory",
+      "sense_id": "inventory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

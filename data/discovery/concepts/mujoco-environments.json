@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mujoco-environments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "Repository to accompany RSS 2018 paper on dexterous hand manipulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mujoco-environments",
+  "concept_id": "mujoco-environments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mujoco-environments",
+      "sense_id": "mujoco-environments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

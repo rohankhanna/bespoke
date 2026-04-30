@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Router Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Router Main"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "cisco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "rotary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "rout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Router Main",
+      "sense_id": "ci-router-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-router-main",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-router-main",
+  "observation_id": "71f83b34091b3bbb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "CI Router Main",
+  "source_context_snippet": "CI Router Main",
+  "source_file": ".github/workflows/local-router-rust-dev.yaml",
+  "source_repo": "apollographql/supergraph-demo-fed2",
+  "source_repo_description": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router"
+}

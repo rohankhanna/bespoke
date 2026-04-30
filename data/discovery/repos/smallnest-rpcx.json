@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smallnest/rpcx",
+      "target": "rpcxio/rpcx-etcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smallnest/rpcx",
+      "target": "rpcxio/rpcx-consul",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smallnest/rpcx",
+      "target": "coreos/etcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smallnest/rpcx",
+      "target": "rpcx-ecosystem/rpcx-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "smallnest/rpcx",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "smallnest/rpcx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx",
+      "target": "dubbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:40.796402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9058
+    },
+    {
+      "path": "go.mod",
+      "size": 3386
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. Try it. Test it. If you feel it's better, use it! \ud835\udc09\ud835\udc1a\ud835\udc2f\ud835\udc1a\u6709\ud835\udc1d\ud835\udc2e\ud835\udc1b\ud835\udc1b\ud835\udc28, \ud835\udc06\ud835\udc28\ud835\udc25\ud835\udc1a\ud835\udc27\ud835\udc20\u6709\ud835\udc2b\ud835\udc29\ud835\udc1c\ud835\udc31! build for cloud!",
+    "fork": false,
+    "full_name": "smallnest/rpcx",
+    "html_url": "https://github.com/smallnest/rpcx",
+    "language": "Go",
+    "pushed_at": "2026-04-01T15:34:28Z",
+    "stargazers_count": 8282,
+    "topics": [
+      "dubbo",
+      "grpc",
+      "microservice",
+      "microservices",
+      "rpc",
+      "service-discovery"
+    ],
+    "updated_at": "2026-04-28T10:46:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/etcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpcx-ecosystem/rpcx-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpcxio/rpcx-consul",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpcxio/rpcx-etcd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **stable branch**: v1.7.x",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    },
+    {
+      "context_snippet": "- **stable branch**: v1.7.x",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "- **stable branch**: v1.7.x",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "- **stable branch**: v1.7.x",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "- **stable branch**: v1.7.x",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    }
+  ]
+}

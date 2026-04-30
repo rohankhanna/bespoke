@@ -1,0 +1,549 @@
+{
+  "components": [
+    {
+      "component": "ansis",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/compat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@oclif/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@oclif/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/debug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commitlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-oclif",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@oclif/core",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/publishTypedoc.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.26.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/prNotification@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/getPreReleaseTag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/npmPublish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/unitTest.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "ansis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@eslint/compat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@oclif/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@oclif/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@types/debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "commitlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "eslint-config-oclif",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/test",
+      "target": "@oclif/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/test",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/workflows/publishTypedoc.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/test",
+      "target": "create-github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "oclif/test",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "oclif/test",
+      "target": "failureNotifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/actions/prNotification@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/test",
+      "target": "Pull Request Slack Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/test",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/actions/getPreReleaseTag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/workflows/npmPublish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/test",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/test",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/test",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/test",
+      "target": "salesforcecli/github-workflows/.github/workflows/unitTest.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/test",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:53.321834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2024
+    },
+    {
+      "path": "package.json",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/create-github-release.yml",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/failureNotifications.yml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/notify-slack-on-pr-open.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/onRelease.yml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "test helpers for oclif components",
+    "fork": false,
+    "full_name": "oclif/test",
+    "html_url": "https://github.com/oclif/test",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-26T09:13:54Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-26T09:13:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "automerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "automerge"
+    },
+    {
+      "context_snippet": "create-github-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "term": "create-github-release"
+    },
+    {
+      "context_snippet": "failureNotifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "term": "failureNotifications"
+    },
+    {
+      "context_snippet": "Pull Request Slack Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "term": "Pull Request Slack Notification"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onRelease.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "tests"
+    }
+  ]
+}

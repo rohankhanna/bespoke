@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "felipeffm/statistical-rethinking-resolutions",
+      "target": "rmcelreath/stat_rethinking_2022",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:42.953312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "felipeffm/statistical-rethinking-resolutions",
+    "html_url": "https://github.com/felipeffm/statistical-rethinking-resolutions",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-14T10:39:23Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-07-19T15:30:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rmcelreath/stat_rethinking_2022",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -247,6 +247,42 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate-context",
       "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate-context",
+      "text": "A unified framework for privacy-preserving data analysis and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate",
       "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_related_terms": [
@@ -574,11 +628,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "pymupdf/PyMuPDF"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "secretflow/secretflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "tensorchord/VectorChord"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

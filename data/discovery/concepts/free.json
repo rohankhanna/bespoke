@@ -55,6 +55,30 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:22:31.925078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "In this repo you'll find HappyX tutorial series from YT or dev.to",
+    "fork": false,
+    "full_name": "HapticX/happyx-tutorial-series",
+    "html_url": "https://github.com/HapticX/happyx-tutorial-series",
+    "language": "Nim",
+    "pushed_at": "2024-10-06T04:03:38Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-10-30T11:55:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

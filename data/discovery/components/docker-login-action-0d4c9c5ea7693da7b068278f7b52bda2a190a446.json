@@ -1,0 +1,22 @@
+{
+  "component": "docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/updatecli-compose.yml",
+      "source_repo": "elastic/elasticsearch"
+    }
+  ]
+}

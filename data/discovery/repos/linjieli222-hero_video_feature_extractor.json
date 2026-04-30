@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "tensorpack/dataflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "antoine77340/video_feature_extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "antoine77340/s3d_howto100m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "tensorpack/dataflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "slowfast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "video-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "target": "vision-and-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:10.930278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9207
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video Feature Extraction Code for EMNLP 2020 paper \"HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training\"",
+    "fork": false,
+    "full_name": "linjieli222/HERO_Video_Feature_Extractor",
+    "html_url": "https://github.com/linjieli222/HERO_Video_Feature_Extractor",
+    "language": "Python",
+    "pushed_at": "2021-06-09T21:33:53Z",
+    "stargazers_count": 118,
+    "topics": [
+      "pytorch",
+      "resnet",
+      "slowfast",
+      "video-features",
+      "vision-and-language"
+    ],
+    "updated_at": "2026-04-11T07:24:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoine77340/s3d_howto100m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoine77340/video_feature_extractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorpack/dataflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorpack/dataflow",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slowfast"
+    },
+    {
+      "context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-features"
+    },
+    {
+      "context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    }
+  ]
+}

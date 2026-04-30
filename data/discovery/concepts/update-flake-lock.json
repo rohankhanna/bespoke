@@ -121,6 +121,18 @@
       "source_repo": "lumen-oss/rocks.nvim",
       "status": "candidate-context",
       "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +193,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
       "status": "candidate",
       "text": "update-flake-lock"
     }
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

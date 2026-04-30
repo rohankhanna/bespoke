@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "data-dog/go-txdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "go-sql-driver/mysql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "mock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "sql-driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:22:28.967092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10371
+    },
+    {
+      "path": "go.mod",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sql mock driver for golang to test database interactions",
+    "fork": false,
+    "full_name": "DATA-DOG/go-sqlmock",
+    "html_url": "https://github.com/DATA-DOG/go-sqlmock",
+    "language": "Go",
+    "pushed_at": "2024-09-11T10:51:41Z",
+    "stargazers_count": 6545,
+    "topics": [
+      "database",
+      "go",
+      "golang",
+      "mock",
+      "sql",
+      "sql-driver",
+      "tdd",
+      "testing"
+    ],
+    "updated_at": "2026-04-29T23:21:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "data-dog/go-txdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-sql-driver/mysql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sql-driver"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

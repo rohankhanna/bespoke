@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vchoutas/torch-mesh-isect",
+      "target": "nvidia/cuda-samples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:54.270376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6371
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "vchoutas/torch-mesh-isect",
+    "html_url": "https://github.com/vchoutas/torch-mesh-isect",
+    "language": "Cuda",
+    "pushed_at": "2022-10-05T09:11:04Z",
+    "stargazers_count": 345,
+    "topics": [],
+    "updated_at": "2026-04-26T23:30:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/cuda-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

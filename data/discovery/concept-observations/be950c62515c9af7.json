@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913459,
+      "status": "candidate",
+      "text": "splashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917134,
+      "status": "candidate",
+      "text": "meter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906594,
+      "status": "candidate",
+      "text": "panel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905391,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904850,
+      "status": "candidate",
+      "text": "fascia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dashboard",
+      "sense_id": "dashboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "splashboard"
+    }
+  ],
+  "concept_id": "dashboard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dashboard",
+  "observation_id": "be950c62515c9af7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "dashboard",
+  "source_context_snippet": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)",
+  "source_file": null,
+  "source_repo": "spacemeshos/smapp",
+  "source_repo_description": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+}

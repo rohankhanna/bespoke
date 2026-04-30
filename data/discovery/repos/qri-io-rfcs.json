@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/rfcs",
+      "target": "qri-io/qri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/rfcs",
+      "target": "qri-io/dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/rfcs",
+      "target": "qri-io/frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/rfcs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qri-io/rfcs",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:10.370632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Request For Comments (RFCs) documenting changes to Qri",
+    "fork": false,
+    "full_name": "qri-io/rfcs",
+    "html_url": "https://github.com/qri-io/rfcs",
+    "language": null,
+    "pushed_at": "2021-11-23T21:41:49Z",
+    "stargazers_count": 12,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2020"
+    ],
+    "updated_at": "2021-03-11T00:56:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qri-io/dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qri-io/frontend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qri-io/qri",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Qri RFCs]: #qri-rfcs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[Qri RFCs]: #qri-rfcs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-Merge Test Backport PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "Auto-Merge Test Backport PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate",
+      "text": "Auto-Merge Test Backport PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14424,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10424,
+      "status": "candidate",
+      "text": "sip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "advisory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-Merge Test Backport PRs",
+  "concept_id": "auto-merge-test-backport-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-merge-backports.yml",
+      "source_repo": "cockroachdb/cockroach"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-Merge Test Backport PRs",
+      "sense_id": "auto-merge-test-backport-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

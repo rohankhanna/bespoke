@@ -1,0 +1,17 @@
+{
+  "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "A2-ai/rv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign"
+    }
+  ]
+}

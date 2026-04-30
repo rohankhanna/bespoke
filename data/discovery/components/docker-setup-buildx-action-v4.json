@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -672,6 +672,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/image.yaml",
       "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-launch-agent.yml",
+      "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-fork-pr-image.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-image.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_docker.yaml",
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-unstable.yml",
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-push-agent-images-reusable.yml",
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-stable.yml",
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_container_image.yaml",
+      "source_repo": "galaxyproject/galaxy"
     }
   ]
 }

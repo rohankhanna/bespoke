@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb",
+      "target": "r-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb",
+      "target": "rcpp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:54.605653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lies, Damned Lies, and Selective Benchmarks",
+    "fork": false,
+    "full_name": "eddelbuettel/ldlasb",
+    "html_url": "https://github.com/eddelbuettel/ldlasb",
+    "language": "C++",
+    "pushed_at": "2021-08-01T13:20:39Z",
+    "stargazers_count": 8,
+    "topics": [
+      "benchmarking",
+      "performance",
+      "r",
+      "r-package",
+      "rcpp"
+    ],
+    "updated_at": "2025-11-08T05:36:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    },
+    {
+      "context_snippet": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rcpp"
+    }
+  ]
+}

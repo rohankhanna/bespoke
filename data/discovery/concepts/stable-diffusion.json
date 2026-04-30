@@ -571,6 +571,150 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate-context",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate-context",
+      "text": "[ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for performing the image-to-image diffusion process on large images in tiles. This approach improves the details that is commonly found on upscaled images while reducing hardware requirements and maintaining an image siz\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neggles/animatediff-cli",
+      "status": "candidate-context",
+      "text": "a CLI utility/library for AnimateDiff stable diffusion generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neggles/animatediff-cli",
+      "status": "candidate-context",
+      "text": "[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/neggles/animatediff-cli/main.svg)](https://results.pre-commit.ci/latest/github/neggles/animatediff-cli/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "Finetune ModelScope's Text To Video model using Diffusers \ud83e\udde8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "Deforum extension for AUTOMATIC1111's Stable Diffusion webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rewbs/sd-parseq",
+      "status": "candidate-context",
+      "text": "Parameter sequencer for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rewbs/sd-parseq",
+      "status": "candidate-context",
+      "text": "![example workflow](https://github.com/rewbs/sd-parseq/actions/workflows/firebase-hosting-merge.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate-context",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate-context",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate-context",
+      "text": "Support for miscellaneous image models. Currently supports: DiT, PixArt, HunYuanDiT, MiaoBi, and a few VAEs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate-context",
+      "text": "This repository aims to add support for various different image diffusion models to ComfyUI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Binozo/GoStableDiffusion",
+      "status": "candidate-context",
+      "text": "Go bindings for stable-diffusion.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binozo/GoStableDiffusion",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daniandtheweb/sd.cpp-webui",
+      "status": "candidate-context",
+      "text": "A lightweight Gradio WebUI for stable-diffusion.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daniandtheweb/sd.cpp-webui",
+      "status": "candidate-context",
+      "text": "**sd.cpp-webui** is a simple, lightweight [Gradio](https://github.com/gradio-app/gradio)-based web interface for [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DarthAffe/StableDiffusion.NET",
+      "status": "candidate-context",
+      "text": "C# Wrapper for StableDiffusion.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DarthAffe/StableDiffusion.NET",
+      "status": "candidate-context",
+      "text": "\ufeff# StableDiffusion.NET"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate-context",
+      "text": "[IJCV2024] Exploiting Diffusion Prior for Real-World Image Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +999,78 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate",
+      "text": "[ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for performing the image-to-image diffusion process on large images in tiles. This approach improves the details that is commonly found on upscaled images while reducing hardware requirements and maintaining an image siz\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neggles/animatediff-cli",
+      "status": "candidate",
+      "text": "[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/neggles/animatediff-cli/main.svg)](https://results.pre-commit.ci/latest/github/neggles/animatediff-cli/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rewbs/sd-parseq",
+      "status": "candidate",
+      "text": "![example workflow](https://github.com/rewbs/sd-parseq/actions/workflows/firebase-hosting-merge.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate",
+      "text": "This repository aims to add support for various different image diffusion models to ComfyUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Binozo/GoStableDiffusion",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daniandtheweb/sd.cpp-webui",
+      "status": "candidate",
+      "text": "**sd.cpp-webui** is a simple, lightweight [Gradio](https://github.com/gradio-app/gradio)-based web interface for [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DarthAffe/StableDiffusion.NET",
+      "status": "candidate",
+      "text": "\ufeff# StableDiffusion.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1318,11 +1534,113 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PRIS-CV/DemoFusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "neggles/animatediff-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rewbs/sd-parseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "city96/ComfyUI_ExtraModels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Fanghua-Yu/SUPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Binozo/GoStableDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "daniandtheweb/sd.cpp-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DarthAffe/StableDiffusion.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/StableSR"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

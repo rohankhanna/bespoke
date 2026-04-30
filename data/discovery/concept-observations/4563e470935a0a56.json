@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ComfyUI Custom Node for AnimateLCM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "animatelcm",
+      "sense_id": "animatelcm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "animatelcm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "animatelcm",
+  "observation_id": "4563e470935a0a56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "animatelcm",
+  "source_context_snippet": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)].",
+  "source_file": null,
+  "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+  "source_repo_description": "ComfyUI Custom Node for AnimateLCM"
+}

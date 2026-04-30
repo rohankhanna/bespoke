@@ -1,0 +1,780 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/build-matrix@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/pre-build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/post-build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/build-matrix@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/pre-build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/graalvm/post-build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "haya14busa/action-cond@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "micronaut-projects/github-pages-deploy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/pre-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/export-gradle-properties@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "micronaut-projects/github-pages-deploy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "micronaut-projects/github-actions/post-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/micronaut-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/central-sync.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/central-sync.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Maven Central Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corretto.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corretto.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Corretto CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/build-matrix@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/pre-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/post-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "GraalVM Dev CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/build-matrix@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/pre-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/graalvm/post-build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "GraalVM Latest CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "mikepenz/action-junit-report@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "haya14busa/action-cond@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-pages-deploy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Publish snapshot release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/pre-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/export-gradle-properties@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-pages-deploy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "micronaut-projects/github-actions/post-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "graalvm/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "Sonatype Vuln Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:00.337561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3125
+    },
+    {
+      "path": ".github/workflows/.rsync-filter",
+      "size": 31
+    },
+    {
+      "path": ".github/workflows/central-sync.yml",
+      "size": 1729
+    },
+    {
+      "path": ".github/workflows/corretto.yml",
+      "size": 1828
+    },
+    {
+      "path": ".github/workflows/graalvm-dev.yml",
+      "size": 2778
+    },
+    {
+      "path": ".github/workflows/graalvm-latest.yml",
+      "size": 2688
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 4351
+    },
+    {
+      "path": ".github/workflows/publish-snapshot.yml",
+      "size": 1524
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 8505
+    },
+    {
+      "path": ".github/workflows/sonatype.yml",
+      "size": 2731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "5.1.x",
+    "description": "Micronaut Application Framework",
+    "fork": false,
+    "full_name": "micronaut-projects/micronaut-core",
+    "html_url": "https://github.com/micronaut-projects/micronaut-core",
+    "language": "Java",
+    "pushed_at": "2026-04-30T06:26:22Z",
+    "stargazers_count": 6402,
+    "topics": [
+      "cloudnative",
+      "groovy",
+      "java",
+      "kotlin",
+      "microservices",
+      "serverless"
+    ],
+    "updated_at": "2026-04-30T06:15:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micronaut-projects/micronaut-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Maven Central Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/central-sync.yml",
+      "term": "Maven Central Sync"
+    },
+    {
+      "context_snippet": "Corretto CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corretto.yml",
+      "term": "Corretto CI"
+    },
+    {
+      "context_snippet": "GraalVM Dev CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalvm-dev.yml",
+      "term": "GraalVM Dev CI"
+    },
+    {
+      "context_snippet": "GraalVM Latest CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/graalvm-latest.yml",
+      "term": "GraalVM Latest CI"
+    },
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "Publish snapshot release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "term": "Publish snapshot release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sonatype Vuln Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonatype.yml",
+      "term": "Sonatype Vuln Scan"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groovy"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

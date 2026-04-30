@@ -19,12 +19,30 @@
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
       "status": "candidate-context",
       "text": "Publish Release Notice to ASWF Slack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Publish Release Notice to ASWF Slack"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate",
+      "text": "Publish Release Notice to ASWF Slack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
       "status": "candidate",
       "text": "Publish Release Notice to ASWF Slack"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-notice.yml",
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-notice.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (Oral). Code using Jittor Framework is available."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **Authors:**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **Authors:**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polyp-segmentation",
+      "sense_id": "polyp-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polyp-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polyp-segmentation",
+  "observation_id": "eca66a51278b5376",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "polyp-segmentation",
+  "source_context_snippet": "> **Authors:**",
+  "source_file": null,
+  "source_repo": "DengPingFan/PraNet",
+  "source_repo_description": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (Oral). Code using Jittor Framework is available."
+}

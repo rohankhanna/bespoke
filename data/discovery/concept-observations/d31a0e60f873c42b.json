@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Documentation Links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Documentation Links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18585,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "consult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "endgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "guard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Documentation Links",
+      "sense_id": "check-documentation-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-documentation-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-documentation-links",
+  "observation_id": "d31a0e60f873c42b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Check Documentation Links",
+  "source_context_snippet": "Check Documentation Links",
+  "source_file": ".github/workflows/link-check.yml",
+  "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+  "source_repo_description": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+}

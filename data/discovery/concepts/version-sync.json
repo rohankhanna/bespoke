@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Version Sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "Package manager version manager for Node.js projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "Version Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate",
+      "text": "Version Sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14483,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12685,
+      "status": "candidate",
+      "text": "timed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version Sync",
+  "concept_id": "version-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "nodejs/corepack"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Sync",
+      "sense_id": "version-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

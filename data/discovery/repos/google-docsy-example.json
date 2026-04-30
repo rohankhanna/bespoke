@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hugo-extended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rtlcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/docsy-example",
+      "target": "me/example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/docsy-example",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/docsy-example",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/docsy-example",
+      "target": "hugo-extended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/docsy-example",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google/docsy-example",
+      "target": "rtlcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "docsy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "docsy-example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "documentation-site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "documentation-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "hugo-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/docsy-example",
+      "target": "hugo-theme-demo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:45.641720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7498
+    },
+    {
+      "path": "Dockerfile",
+      "size": 100
+    },
+    {
+      "path": "go.mod",
+      "size": 120
+    },
+    {
+      "path": "package.json",
+      "size": 3244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An example documentation site using the Docsy Hugo theme",
+    "fork": false,
+    "full_name": "google/docsy-example",
+    "html_url": "https://github.com/google/docsy-example",
+    "language": "SCSS",
+    "pushed_at": "2026-04-29T20:04:50Z",
+    "stargazers_count": 556,
+    "topics": [
+      "docker",
+      "docsy",
+      "docsy-example",
+      "documentation-site",
+      "documentation-website",
+      "hugo",
+      "hugo-theme",
+      "hugo-theme-demo"
+    ],
+    "updated_at": "2026-04-27T05:32:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "me/example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docsy"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docsy-example"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-site"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-website"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-theme"
+    },
+    {
+      "context_snippet": "[Docsy][] is a [Hugo theme module][] for technical documentation sites,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-theme-demo"
+    }
+  ]
+}

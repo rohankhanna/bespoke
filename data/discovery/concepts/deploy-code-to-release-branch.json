@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Code to Release Branch \ud83d\ude80"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "Deploy Code to Release Branch \ud83d\ude80"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "Deploy Code to Release Branch \ud83d\ude80"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33753,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33682,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33682,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31899,
+      "status": "candidate",
+      "text": "deployment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31854,
+      "status": "candidate",
+      "text": "assembly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Code to Release Branch \ud83d\ude80",
+  "concept_id": "deploy-code-to-release-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Code to Release Branch \ud83d\ude80",
+      "sense_id": "deploy-code-to-release-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

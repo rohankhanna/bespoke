@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update workshop packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Update workshop packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate",
+      "text": "Update workshop packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26113,
+      "status": "candidate",
+      "text": "retool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17752,
+      "status": "candidate",
+      "text": "briefings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17748,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17748,
+      "status": "candidate",
+      "text": "dossier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update workshop packages",
+  "concept_id": "update-workshop-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update workshop packages",
+      "sense_id": "update-workshop-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

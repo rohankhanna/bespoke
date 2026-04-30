@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C# bindings for lemire/simdjson (and full C# port)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netcore3",
+      "sense_id": "netcore3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "netcore3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "netcore3",
+  "observation_id": "3cf95fae476abe7c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "netcore3",
+  "source_context_snippet": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,",
+  "source_file": null,
+  "source_repo": "EgorBo/SimdJsonSharp",
+  "source_repo_description": "C# bindings for lemire/simdjson (and full C# port)"
+}

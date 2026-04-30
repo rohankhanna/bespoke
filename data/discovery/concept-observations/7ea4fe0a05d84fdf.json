@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "No more certifi! System trust store at hand. In Pure Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "certificated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "credentialed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "documented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "insane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "qualified"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "certifi",
+      "sense_id": "certifi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "certifi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "certifi",
+  "observation_id": "7ea4fe0a05d84fdf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "certifi",
+  "source_context_snippet": "<h1 align=\"center\">Wassima \ud83d\udd12</h1>",
+  "source_file": null,
+  "source_repo": "jawah/wassima",
+  "source_repo_description": "No more certifi! System trust store at hand. In Pure Python."
+}

@@ -1,0 +1,501 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__copy_gist.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_create_gke_cluster_xpk.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_badge.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_badge.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_retrofit_container.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_retrofit_container.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "google/maxtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "aws-samples/aws-samples-for-ray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__copy_gist.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_base.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ci.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_ci.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "~CI, single-arch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_create_gke_cluster_xpk.yml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_create_gke_cluster_xpk.yml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "~Create GKE cluster with XPK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_finalize.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_jax_cutlass_eks.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_badge.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_badge.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_publish_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_retrofit_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_retrofit_container.yaml",
+      "source_repo": "NVIDIA/JAX-Toolbox",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:25.395301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14756
+    },
+    {
+      "path": ".github/workflows/__copy_gist.yaml",
+      "size": 1552
+    },
+    {
+      "path": ".github/workflows/_build_base.yaml",
+      "size": 6020
+    },
+    {
+      "path": ".github/workflows/_ci.yaml",
+      "size": 27679
+    },
+    {
+      "path": ".github/workflows/_create_gke_cluster_xpk.yml",
+      "size": 4487
+    },
+    {
+      "path": ".github/workflows/_finalize.yaml",
+      "size": 9228
+    },
+    {
+      "path": ".github/workflows/_jax_cutlass_eks.yaml",
+      "size": 5262
+    },
+    {
+      "path": ".github/workflows/_publish_badge.yaml",
+      "size": 2990
+    },
+    {
+      "path": ".github/workflows/_publish_container.yaml",
+      "size": 5286
+    },
+    {
+      "path": ".github/workflows/_retrofit_container.yaml",
+      "size": 3597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JAX-Toolbox",
+    "fork": false,
+    "full_name": "NVIDIA/JAX-Toolbox",
+    "html_url": "https://github.com/NVIDIA/JAX-Toolbox",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:12:22Z",
+    "stargazers_count": 405,
+    "topics": [],
+    "updated_at": "2026-04-29T16:25:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/aws-samples-for-ray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maxtext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~CI, single-arch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_ci.yaml",
+      "term": "~CI, single-arch"
+    },
+    {
+      "context_snippet": "~Create GKE cluster with XPK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_create_gke_cluster_xpk.yml",
+      "term": "~Create GKE cluster with XPK"
+    }
+  ]
+}

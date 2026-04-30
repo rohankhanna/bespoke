@@ -307,6 +307,42 @@
       "source_repo": "ymcui/Chinese-ELECTRA",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/PromptPapers",
+      "status": "candidate-context",
+      "text": "Must-read papers on prompt-based tuning for pre-trained language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/PromptPapers",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate-context",
+      "text": "LERT: A Linguistically-motivated Pre-trained Language Model\uff08\u8bed\u8a00\u5b66\u4fe1\u606f\u589e\u5f3a\u7684\u9884\u8bad\u7ec3\u6a21\u578bLERT\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +495,24 @@
       "source_repo": "ymcui/Chinese-ELECTRA",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/PromptPapers",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/LERT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -676,11 +730,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/LERT"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

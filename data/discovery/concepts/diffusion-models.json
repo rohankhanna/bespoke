@@ -427,6 +427,114 @@
       "source_repo": "PKU-YuanGroup/MagicTime",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Scalable and memory-optimized training of diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion\ud83d\udd25] [scaling laws in visual generation\ud83d\udcc8] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "Finetune ModelScope's Text To Video model using Diffusers \ud83e\udde8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 Oral] MotionDirector: Motion Customization of Text-to-Video Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate-context",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate-context",
+      "text": "Repository for the paper: 'Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate-context",
+      "text": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jy0205/Pyramid-Flow",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] Pyramidal Flow Matching for Efficient Video Generative Modeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jy0205/Pyramid-Flow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -637,6 +745,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PKU-YuanGroup/MagicTime",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fanghua-Yu/SUPIR",
+      "status": "candidate",
+      "text": "> [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [[Online App]](https://supir.suppixel.ai/home) <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate",
+      "text": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jy0205/Pyramid-Flow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -898,11 +1060,89 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PKU-YuanGroup/MagicTime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/VAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Fanghua-Yu/SUPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jy0205/Pyramid-Flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios-Page"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

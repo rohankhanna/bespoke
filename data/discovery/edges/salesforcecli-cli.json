@@ -1,0 +1,678 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforcecli/cli",
+      "target": "forcedotcom/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforcecli/cli",
+      "target": "oclif/plugin-autocomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforcecli/cli",
+      "target": "oclif/plugin-commands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforcecli/cli",
+      "target": "oclif/plugin-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@inquirer/select",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-autocomplete",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-commands",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-help",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-not-found",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-plugins",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-search",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-update",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-warn-if-update-available",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/kit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-apex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-auth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-deploy-retrieve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-info",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-limits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-marketplace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-org",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-packaging",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-settings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-sobject",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-telemetry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-templates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-trust",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-user",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/sf-plugins-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "ansis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/plugin-command-snapshot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@oclif/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/dev-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/plugin-release-management",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/ts-sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "@salesforce/ts-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "aws-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "oclif",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "salesforcecli/cli",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-nightly-pr.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/retry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-nightly-pr.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "automerge-nightly-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-full.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "build-docker-full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/versionInfo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/setup-buildx-action@d70bba72b1f3fd22344832f00baa16ece964efeb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "build-docker-slim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "kaisugi/action-regex-match@45cc5bacf016a4c0d2c3c9d0f8b7c2f1b79687b8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/npmPublish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/tarballs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/retry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/packUploadMac.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/packUploadWindows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/workflows/stampyUpload.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "create-cli-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "kaisugi/action-regex-match@45cc5bacf016a4c0d2c3c9d0f8b7c2f1b79687b8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/getPreReleaseTag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/get-json-property@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "create-github-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-signed-from-stampy.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-signed-from-stampy.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-signed-from-stampy.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "get-signed-installers-from-stampy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/yarnInstallWithRetries@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforcecli/github-workflows/.github/actions/retry@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jit-install-smoke.yml",
+      "source_repo": "salesforcecli/cli",
+      "target": "jit-install-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforcecli/cli",
+      "target": "salesforce",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "salesforcecli/cli"
+}

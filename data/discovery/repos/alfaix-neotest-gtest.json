@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "vadimcn/codelldb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "williamboman/mason.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "neotest-gtest CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "google-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfaix/neotest-gtest",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:52.761559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6033
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 2520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Test adapter for nvim-neotest",
+    "fork": false,
+    "full_name": "alfaix/neotest-gtest",
+    "html_url": "https://github.com/alfaix/neotest-gtest",
+    "language": "Lua",
+    "pushed_at": "2026-04-03T06:00:31Z",
+    "stargazers_count": 60,
+    "topics": [
+      "google-test",
+      "lua",
+      "neotest",
+      "neovim",
+      "testing-tools"
+    ],
+    "updated_at": "2026-02-28T18:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vadimcn/codelldb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "williamboman/mason.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "neotest-gtest CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "neotest-gtest CI"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-test"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![CI status](https://github.com/alfaix/neotest-gtest/actions/workflows/workflow.yaml/badge.svg?event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

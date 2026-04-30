@@ -169,6 +169,18 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate-context",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": " A Sass parser for PostCSS, using gonzales-pe. https://www.npmjs.com/package/postcss-sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -411,11 +429,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AleshaOleg/postcss-sass"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

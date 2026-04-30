@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Swift Binding for MuJoCo: https://mujoco.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ubuntu-spm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ubuntu-spm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ubuntu-spm",
+      "sense_id": "ubuntu-spm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ubuntu-spm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ubuntu-spm",
+  "observation_id": "a83839f7a9641c0c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "ubuntu-spm",
+  "source_context_snippet": "ubuntu-spm",
+  "source_file": ".github/workflows/ubuntu-spm.yaml",
+  "source_repo": "liuliu/swift-mujoco",
+  "source_repo_description": "Swift Binding for MuJoCo: https://mujoco.org/"
+}

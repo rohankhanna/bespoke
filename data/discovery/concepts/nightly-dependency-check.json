@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly dependency check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/mujoco_warp",
+      "status": "candidate-context",
+      "text": "GPU-optimized version of the MuJoCo physics simulator, designed for NVIDIA hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_warp",
+      "status": "candidate-context",
+      "text": "Nightly dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_warp",
+      "status": "candidate",
+      "text": "Nightly dependency check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23698,
+      "status": "candidate",
+      "text": "equinoctial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23656,
+      "status": "candidate",
+      "text": "nocturnal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23656,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23656,
+      "status": "candidate",
+      "text": "season"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23099,
+      "status": "candidate",
+      "text": "adopt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly dependency check",
+  "concept_id": "nightly-dependency-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "google-deepmind/mujoco_warp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly dependency check",
+      "sense_id": "nightly-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

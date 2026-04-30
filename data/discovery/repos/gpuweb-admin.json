@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:26:47.821940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Administrative documents",
+    "fork": false,
+    "full_name": "gpuweb/admin",
+    "html_url": "https://github.com/gpuweb/admin",
+    "language": "HTML",
+    "pushed_at": "2024-11-15T13:59:08Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-02-03T02:14:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

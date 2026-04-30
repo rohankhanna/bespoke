@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "resemble-ai/perth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "funaudiollm/cosyvoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "corentinj/real-time-voice-cloning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "xingchensong/s3tokenizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_check.yml",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_check.yml",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_check.yml",
+      "source_repo": "resemble-ai/chatterbox",
+      "target": "Test Installation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:48.364489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9918
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1328
+    },
+    {
+      "path": ".github/workflows/install_check.yml",
+      "size": 382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SoTA open-source TTS",
+    "fork": false,
+    "full_name": "resemble-ai/chatterbox",
+    "html_url": "https://github.com/resemble-ai/chatterbox",
+    "language": "Python",
+    "pushed_at": "2026-03-26T08:41:47Z",
+    "stargazers_count": 24524,
+    "topics": [],
+    "updated_at": "2026-04-30T03:30:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corentinj/real-time-voice-cloning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "funaudiollm/cosyvoice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "resemble-ai/perth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingchensong/s3tokenizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Installation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_check.yml",
+      "term": "Test Installation"
+    }
+  ]
+}

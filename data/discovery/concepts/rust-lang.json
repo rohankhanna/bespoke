@@ -235,6 +235,42 @@
       "source_repo": "hermit-os/hermit-rs",
       "status": "candidate-context",
       "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate-context",
+      "text": "Rust-tokenizer offers high-performance tokenizers for modern language models, including WordPiece, Byte-Pair Encoding (BPE) and Unigram (SentencePiece) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "hermit-os/hermit-rs",
       "status": "candidate",
       "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-tokenizers",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +526,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-tokenizers"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

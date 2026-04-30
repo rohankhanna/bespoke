@@ -1,0 +1,650 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml"
+    },
+    {
+      "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@1b1aada464948af03b950897e5eb522f92603cc2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "oneTBB CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "github/codeql-action/upload-sarif@1b1aada464948af03b950897e5eb522f92603cc2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "OSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "composability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "flowgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "heterogeneousprogramming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "taskparallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "tbbmalloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB",
+      "target": "threading",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:48.409338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4885
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 21480
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3225
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 4276
+    },
+    {
+      "path": ".github/workflows/issue_labeler.yml",
+      "size": 1332
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 1246
+    },
+    {
+      "path": ".github/workflows/ossf-scorecard.yml",
+      "size": 3771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "oneAPI Threading Building Blocks (oneTBB)",
+    "fork": false,
+    "full_name": "uxlfoundation/oneTBB",
+    "html_url": "https://github.com/uxlfoundation/oneTBB",
+    "language": "C++",
+    "pushed_at": "2026-04-29T23:40:03Z",
+    "stargazers_count": 6631,
+    "topics": [
+      "composability",
+      "flowgraph",
+      "heterogeneousprogramming",
+      "oneapi",
+      "parallelism",
+      "taskparallelism",
+      "tbb",
+      "tbbmalloc",
+      "threading"
+    ],
+    "updated_at": "2026-04-29T10:16:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "oneTBB CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "oneTBB CI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "term": "Issue Labeler"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "OSSF Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "term": "OSSF Scorecard"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composability"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flowgraph"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heterogeneousprogramming"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taskparallelism"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tbbmalloc"
+    },
+    {
+      "context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threading"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Broken Links Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Broken Links Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18336,
+      "status": "candidate",
+      "text": "rough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18293,
+      "status": "candidate",
+      "text": "bridged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18293,
+      "status": "candidate",
+      "text": "bridging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18293,
+      "status": "candidate",
+      "text": "closed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Broken Links Scan",
+      "sense_id": "broken-links-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "broken-links-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "broken-links-scan",
+  "observation_id": "1b76e4fdb86e666a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Broken Links Scan",
+  "source_context_snippet": "Broken Links Scan",
+  "source_file": ".github/workflows/broken-links-scan.yml",
+  "source_repo": "wix/Detox",
+  "source_repo_description": "Gray box end-to-end testing and automation framework for mobile apps"
+}

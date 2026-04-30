@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-wheels-core"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate-context",
+      "text": "Real-time speech recognition and voice activity detection (VAD) using next-gen Kaldi with ncnn without Internet connection. Support iOS, Android, Linux, macOS, Windows, Raspberry Pi, VisionFive2, LicheePi4A etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate-context",
+      "text": "build-wheels-core"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate",
+      "text": "build-wheels-core"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-wheels-core",
+  "concept_id": "build-wheels-core",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-wheels-core",
+      "sense_id": "build-wheels-core#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

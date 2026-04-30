@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -51,6 +51,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "term": "computer-graphics"

@@ -1,0 +1,553 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml"
+    },
+    {
+      "component": "Bibo-Joshi/chango@bc58df46ef3ba8f15b8d744929998b7ae8a222d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-admonitions.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-admonitions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml"
+    },
+    {
+      "component": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prek.yml"
+    },
+    {
+      "component": "j178/prek-action@0bb87d7f00b0c99306c8bcb8b8beba1eb581c037",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prek.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@a5caf349bc536fbef3668a10ed7f5cd309a4b53d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "sigstore/sigstore-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "readthedocs/sphinx-build-compatibility",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "pypa/hatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Bibo-Joshi/chango@bc58df46ef3ba8f15b8d744929998b7ae8a222d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Chango",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-admonitions.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-admonitions.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-admonitions.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Test Admonitions Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Check Links in Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha_security.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha_security.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "GitHub Actions Security Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Lock Closed Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prek.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prek.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "j178/prek-action@0bb87d7f00b0c99306c8bcb8b8beba1eb581c037",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prek.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Prek checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "sigstore/gh-action-sigstore-python@a5caf349bc536fbef3668a10ed7f5cd309a4b53d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "target": "telegram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:57.001188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14189
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9425
+    },
+    {
+      "path": ".github/workflows/chango.yml",
+      "size": 2549
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1942
+    },
+    {
+      "path": ".github/workflows/docs-admonitions.yml",
+      "size": 1244
+    },
+    {
+      "path": ".github/workflows/docs-linkcheck.yml",
+      "size": 1338
+    },
+    {
+      "path": ".github/workflows/gha_security.yml",
+      "size": 942
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/prek.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/release_pypi.yml",
+      "size": 5631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "We have made you a wrapper you can't refuse",
+    "fork": false,
+    "full_name": "python-telegram-bot/python-telegram-bot",
+    "html_url": "https://github.com/python-telegram-bot/python-telegram-bot",
+    "language": "Python",
+    "pushed_at": "2026-04-26T01:57:30Z",
+    "stargazers_count": 29071,
+    "topics": [
+      "bot",
+      "chatbot",
+      "framework",
+      "python",
+      "telegram"
+    ],
+    "updated_at": "2026-04-30T03:00:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigstore/sigstore-python",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/hatch",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "readthedocs/sphinx-build-compatibility",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Chango",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chango.yml",
+      "term": "Chango"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Test Admonitions Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-admonitions.yml",
+      "term": "Test Admonitions Generation"
+    },
+    {
+      "context_snippet": "Check Links in Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "term": "Check Links in Documentation"
+    },
+    {
+      "context_snippet": "GitHub Actions Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha_security.yml",
+      "term": "GitHub Actions Security Analysis"
+    },
+    {
+      "context_snippet": "'Lock Closed Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Closed Threads"
+    },
+    {
+      "context_snippet": "Prek checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prek.yml",
+      "term": "Prek checks"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram"
+    }
+  ]
+}

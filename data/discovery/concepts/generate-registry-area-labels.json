@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate registry area labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "'Generate registry area labels'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate",
+      "text": "'Generate registry area labels'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36060,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35337,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34371,
+      "status": "candidate",
+      "text": "write"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34350,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34350,
+      "status": "candidate",
+      "text": "trace"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate registry area labels",
+  "concept_id": "generate-registry-area-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/generate-registry-area-labels.yml",
+      "source_repo": "open-telemetry/semantic-conventions"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate registry area labels",
+      "sense_id": "generate-registry-area-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

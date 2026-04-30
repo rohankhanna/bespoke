@@ -396,7 +396,7 @@
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
     {
-      "component": "actions/upload-artifact@v7.0.1",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
@@ -1131,7 +1131,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "actions/upload-artifact@v7.0.1",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:07:21.985973+00:00",
+  "fetched_at": "2026-04-30T09:31:30.689000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1342,7 +1342,7 @@
     },
     {
       "path": ".github/workflows/e2e-main-tf.yaml",
-      "size": 4974
+      "size": 5106
     },
     {
       "path": ".github/workflows/e2e-main.yaml",
@@ -1350,7 +1350,7 @@
     },
     {
       "path": ".github/workflows/managed-configuration.yaml",
-      "size": 4437
+      "size": 4526
     }
   ],
   "related_repositories": [],
@@ -1362,7 +1362,7 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T04:27:27Z",
+    "pushed_at": "2026-04-30T07:59:38Z",
     "stargazers_count": 7576,
     "topics": [
       "container",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-04-30T04:22:55Z"
+    "updated_at": "2026-04-30T07:59:43Z"
   },
   "repo_links": [
     {

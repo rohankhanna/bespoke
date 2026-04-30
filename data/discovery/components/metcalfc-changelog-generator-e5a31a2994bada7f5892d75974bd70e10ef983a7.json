@@ -1,0 +1,12 @@
+{
+  "component": "metcalfc/changelog-generator@e5a31a2994bada7f5892d75974bd70e10ef983a7",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "IgnisDa/ryot"
+    }
+  ]
+}

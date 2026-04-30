@@ -3,7 +3,8 @@
     "Release Please",
     "release-please",
     "Release, please!",
-    "Release: Please"
+    "Release: Please",
+    "Release-please"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -552,6 +553,78 @@
       "source_repo": "pysan3/pathlib.nvim",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate-context",
+      "text": "An all in one plugin for converting text case in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate-context",
+      "text": "Cryptography libraries for ZKsync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate-context",
+      "text": "Release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "tools for sandboxing your dependency graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Cross JavaScript runtime benchmarking library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -836,6 +909,42 @@
       "source_repo": "pysan3/pathlib.nvim",
       "status": "candidate",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johmsalas/text-case.nvim",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate",
+      "text": "Release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate",
+      "text": "Release Please"
     }
   ],
   "candidate_related_terms": [
@@ -1321,11 +1430,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "johmsalas/text-case.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "matter-labs/zksync-crypto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "LavaMoat/LavaMoat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "poolifier/tatami-ng"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

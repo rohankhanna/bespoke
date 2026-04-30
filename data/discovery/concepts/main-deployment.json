@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "Main Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate",
+      "text": "Main Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12606,
+      "status": "candidate",
+      "text": "rear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12364,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12364,
+      "status": "candidate",
+      "text": "stocks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11681,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11681,
+      "status": "candidate",
+      "text": "combat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main Deployment",
+  "concept_id": "main-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Deployment",
+      "sense_id": "main-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

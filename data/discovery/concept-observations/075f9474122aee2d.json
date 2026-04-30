@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Leiningen template for creating a re-frame application (client only) with a shadow-cljs build."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051179,
+      "status": "candidate",
+      "text": "hard cider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051103,
+      "status": "candidate",
+      "text": "cyder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050374,
+      "status": "candidate",
+      "text": "vinegar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050315,
+      "status": "candidate",
+      "text": "juice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044232,
+      "status": "candidate",
+      "text": "jus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cider",
+      "sense_id": "cider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "cyder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "hard cider"
+    }
+  ],
+  "concept_id": "cider",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cider",
+  "observation_id": "075f9474122aee2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "cider",
+  "source_context_snippet": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)",
+  "source_file": null,
+  "source_repo": "day8/re-frame-template",
+  "source_repo_description": "A Leiningen template for creating a re-frame application (client only) with a shadow-cljs build."
+}

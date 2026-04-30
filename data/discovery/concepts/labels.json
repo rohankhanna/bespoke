@@ -136,6 +136,42 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate-context",
       "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Template to create your composite action based reviewdog actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
+      "status": "candidate-context",
+      "text": "Labels"
     }
   ],
   "candidate_glosses": [
@@ -202,6 +238,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
       "status": "candidate",
       "text": "Labels"
     }
@@ -331,11 +397,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "filecoin-project/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipfs-examples/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipfs-shipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipld/github-mgmt"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

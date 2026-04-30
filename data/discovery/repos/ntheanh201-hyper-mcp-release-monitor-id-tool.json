@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:11:19.734952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 738
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 300
+    },
+    {
+      "path": "Dockerfile",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ntheanh201/hyper-mcp-release-monitor-id-tool",
+    "html_url": "https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool",
+    "language": "Rust",
+    "pushed_at": "2025-04-10T23:48:07Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-10T23:48:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

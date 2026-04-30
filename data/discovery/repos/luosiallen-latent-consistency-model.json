@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luosiallen/latent-consistency-model",
+      "target": "akx/lcm_test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luosiallen/latent-consistency-model",
+      "target": "0xbitches/sd-webui-lcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luosiallen/latent-consistency-model",
+      "target": "0xbitches/comfyui-lcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luosiallen/latent-consistency-model",
+      "target": "camenduru/latent-consistency-model-colab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:51.981821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference",
+    "fork": false,
+    "full_name": "luosiallen/latent-consistency-model",
+    "html_url": "https://github.com/luosiallen/latent-consistency-model",
+    "language": "Python",
+    "pushed_at": "2024-06-14T04:54:58Z",
+    "stargazers_count": 4616,
+    "topics": [],
+    "updated_at": "2026-04-28T10:47:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xbitches/comfyui-lcm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xbitches/sd-webui-lcm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akx/lcm_test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/latent-consistency-model-colab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

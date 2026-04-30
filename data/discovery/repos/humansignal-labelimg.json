@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "heartexlabs/label-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "tzutalin/labelimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "tzutalin/imagenet_utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg",
+      "target": "Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "python2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:09.445040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 11873
+    },
+    {
+      "path": ".github/workflows/package.yml",
+      "size": 1985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data.",
+    "fork": false,
+    "full_name": "HumanSignal/labelImg",
+    "html_url": "https://github.com/HumanSignal/labelImg",
+    "language": "Python",
+    "pushed_at": "2024-06-07T20:24:32Z",
+    "stargazers_count": 24933,
+    "topics": [
+      "annotations",
+      "deep-learning",
+      "detection",
+      "image-classification",
+      "imagenet",
+      "python2",
+      "python3",
+      "recognition",
+      "tools"
+    ],
+    "updated_at": "2026-04-30T08:35:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heartexlabs/label-studio",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tzutalin/imagenet_utils",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tzutalin/labelimg",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package.yml",
+      "term": "Package"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotations"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python2"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": ".. image:: /readme/images/labelimg.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

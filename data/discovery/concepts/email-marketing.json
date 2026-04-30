@@ -31,6 +31,18 @@
       "source_repo": "voidlabs/mosaico",
       "status": "candidate-context",
       "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mailtrain-org/mailtrain",
+      "status": "candidate-context",
+      "text": "Self hosted newsletter app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mailtrain-org/mailtrain",
+      "status": "candidate-context",
+      "text": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "voidlabs/mosaico",
       "status": "candidate",
       "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mailtrain-org/mailtrain",
+      "status": "candidate",
+      "text": "Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "voidlabs/mosaico"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mailtrain-org/mailtrain"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

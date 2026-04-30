@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish custom cross images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Publish custom cross images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate",
+      "text": "Publish custom cross images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27419,
+      "status": "candidate",
+      "text": "symbolism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27385,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27363,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27363,
+      "status": "candidate",
+      "text": "trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27295,
+      "status": "candidate",
+      "text": "express"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish custom cross images",
+  "concept_id": "publish-custom-cross-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_cross_images.yml",
+      "source_repo": "quickwit-oss/quickwit"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish custom cross images",
+      "sense_id": "publish-custom-cross-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

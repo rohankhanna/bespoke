@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Display and control your Android device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sdl2",
+      "sense_id": "sdl2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sdl2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sdl2",
+  "observation_id": "49a67cbe6c8034b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sdl2",
+  "source_context_snippet": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official",
+  "source_file": null,
+  "source_repo": "Genymobile/scrcpy",
+  "source_repo_description": "Display and control your Android device"
+}

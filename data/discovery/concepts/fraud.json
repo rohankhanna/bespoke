@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fraud"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010006,
+      "status": "candidate",
+      "text": "fraudulence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009106,
+      "status": "candidate",
+      "text": "imposter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008694,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008289,
+      "status": "candidate",
+      "text": "faker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008154,
+      "status": "candidate",
+      "text": "hoax"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "sham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22032,
+      "status": "candidate",
+      "text": "pretender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16037,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16029,
+      "status": "candidate",
+      "text": "pseud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "fake"
+    }
+  ],
+  "canonical_name": "fraud",
+  "concept_id": "fraud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fraud",
+      "sense_id": "fraud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

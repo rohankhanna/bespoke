@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "asynchronous-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "oauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "oauth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:10.171527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.",
+    "fork": false,
+    "full_name": "microsoft/cpprestsdk",
+    "html_url": "https://github.com/microsoft/cpprestsdk",
+    "language": "C++",
+    "pushed_at": "2026-04-21T22:49:32Z",
+    "stargazers_count": 8264,
+    "topics": [
+      "async",
+      "asynchronous-tasks",
+      "cloud",
+      "cpp",
+      "cpp-library",
+      "cpp11",
+      "http",
+      "oauth",
+      "oauth2",
+      "sdk",
+      "tasks",
+      "websockets"
+    ],
+    "updated_at": "2026-04-30T01:59:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous-tasks"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-library"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tasks"
+    },
+    {
+      "context_snippet": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

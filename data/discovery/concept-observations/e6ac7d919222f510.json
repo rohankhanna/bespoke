@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build workshop docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build workshop docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21174,
+      "status": "candidate",
+      "text": "au pair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21068,
+      "status": "candidate",
+      "text": "studio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21015,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20962,
+      "status": "candidate",
+      "text": "runner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20962,
+      "status": "candidate",
+      "text": "seurat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build workshop docs",
+      "sense_id": "build-workshop-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-workshop-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-workshop-docs",
+  "observation_id": "e6ac7d919222f510",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build workshop docs",
+  "source_context_snippet": "Build workshop docs",
+  "source_file": ".github/workflows/docs.yml",
+  "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+  "source_repo_description": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+}

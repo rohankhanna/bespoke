@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "canmv k230 micropython openmv rtsmart mpp opensbi uboot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CanMV K230 Build for Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CanMV K230 Build for Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "enlarge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "outreach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CanMV K230 Build for Release",
+      "sense_id": "canmv-k230-build-for-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "canmv-k230-build-for-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "canmv-k230-build-for-release",
+  "observation_id": "62eb1f45c3a97045",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "CanMV K230 Build for Release",
+  "source_context_snippet": "CanMV K230 Build for Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "kendryte/canmv_k230",
+  "source_repo_description": "canmv k230 micropython openmv rtsmart mpp opensbi uboot"
+}

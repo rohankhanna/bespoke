@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Presubmit",
-    "PreSubmit"
+    "PreSubmit",
+    "presubmit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,36 @@
       "source_repo": "googleapis/elixir-google-api",
       "status": "candidate-context",
       "text": "Presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/OpenCL-Headers",
+      "status": "candidate-context",
+      "text": "Khronos OpenCL-Headers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-Headers",
+      "status": "candidate-context",
+      "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node-core",
+      "status": "candidate-context",
+      "text": "presubmit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
+      "status": "candidate-context",
+      "text": "OpenCL SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
+      "status": "candidate-context",
+      "text": "Presubmit"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +111,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/elixir-google-api",
+      "status": "candidate",
+      "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-Headers",
+      "status": "candidate",
+      "text": "Presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node-core",
+      "status": "candidate",
+      "text": "presubmit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
       "status": "candidate",
       "text": "Presubmit"
     }
@@ -125,11 +174,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/OpenCL-Headers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/presubmit.yaml",
+      "source_repo": "googleapis/google-cloud-node-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "KhronosGroup/OpenCL-SDK"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

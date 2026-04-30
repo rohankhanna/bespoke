@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v8/v8",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v8/v8",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v8/v8",
+      "target": "javascript-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v8/v8",
+      "target": "virtual-machine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:49.685792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official mirror of the V8 Git repository",
+    "fork": false,
+    "full_name": "v8/v8",
+    "html_url": "https://github.com/v8/v8",
+    "language": "C++",
+    "pushed_at": "2026-04-30T08:36:43Z",
+    "stargazers_count": 24998,
+    "topics": [
+      "compiler",
+      "interpreter",
+      "javascript",
+      "javascript-engine",
+      "virtual-machine"
+    ],
+    "updated_at": "2026-04-30T08:36:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "V8 JavaScript Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "V8 JavaScript Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "V8 JavaScript Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-engine"
+    },
+    {
+      "context_snippet": "V8 JavaScript Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    }
+  ]
+}

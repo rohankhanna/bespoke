@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Super-easy automated image compression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "performance-tuning",
+      "sense_id": "performance-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "performance-tuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance-tuning",
+  "observation_id": "68d1814061be0348",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "performance-tuning",
+  "source_context_snippet": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics.",
+  "source_file": null,
+  "source_repo": "sumcumo/imagemin-merlin",
+  "source_repo_description": "Super-easy automated image compression"
+}

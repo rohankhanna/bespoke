@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run Typst in JavaScriptWorld."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "reflexo::announce"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "reflexo::announce"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999545,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999030,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998995,
+      "status": "candidate",
+      "text": "look up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998905,
+      "status": "candidate",
+      "text": "speak for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998050,
+      "status": "candidate",
+      "text": "game plan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "reflexo::announce",
+      "sense_id": "reflexo-announce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reflexo-announce",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reflexo-announce",
+  "observation_id": "46c9ff32aa5d777d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "reflexo::announce",
+  "source_context_snippet": "reflexo::announce",
+  "source_file": ".github/workflows/announce.yml",
+  "source_repo": "Myriad-Dreamin/typst.ts",
+  "source_repo_description": "Run Typst in JavaScriptWorld."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Evaluate RAG answer flow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q&A experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate-context",
+      "text": "Evaluate RAG answer flow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo",
+      "status": "candidate",
+      "text": "Evaluate RAG answer flow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29439,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29439,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29439,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29082,
+      "status": "candidate",
+      "text": "path"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29082,
+      "status": "candidate",
+      "text": "tract"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Evaluate RAG answer flow",
+  "concept_id": "evaluate-rag-answer-flow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Evaluate RAG answer flow",
+      "sense_id": "evaluate-rag-answer-flow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

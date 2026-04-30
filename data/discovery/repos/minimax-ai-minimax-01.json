@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "minimax-ai/minimax-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "minimax-ai/minimax-ai.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "minimax-text-01",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "minimax-vl-01",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:12.854894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo of MiniMax-Text-01 and MiniMax-VL-01, large-language-model & vision-language-model based on Linear Attention",
+    "fork": false,
+    "full_name": "MiniMax-AI/MiniMax-01",
+    "html_url": "https://github.com/MiniMax-AI/MiniMax-01",
+    "language": "Python",
+    "pushed_at": "2025-07-07T12:24:30Z",
+    "stargazers_count": 3417,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "llms",
+      "minimax-text-01",
+      "minimax-vl-01",
+      "vision-language-model",
+      "vlm"
+    ],
+    "updated_at": "2026-04-25T10:10:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/minimax-ai.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/minimax-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax-text-01"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax-vl-01"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

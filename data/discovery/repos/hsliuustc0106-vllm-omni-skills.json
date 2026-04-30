@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml"
+    },
+    {
+      "component": "tesslio/skill-review@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "tesslio/skill-review@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "Tessl Skill Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:20.924705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5039
+    },
+    {
+      "path": ".github/workflows/skill-review.yml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a collection of skills for vllm-omni",
+    "fork": false,
+    "full_name": "hsliuustc0106/vllm-omni-skills",
+    "html_url": "https://github.com/hsliuustc0106/vllm-omni-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-14T00:43:54Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-30T01:18:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tessl Skill Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-review.yml",
+      "term": "Tessl Skill Review"
+    }
+  ]
+}

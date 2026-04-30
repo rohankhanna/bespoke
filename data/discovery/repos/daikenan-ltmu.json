@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Daikenan/LTMU",
+      "target": "ilchaejung/rt-mdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Daikenan/LTMU",
+      "target": "alanlukezic/d3s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Daikenan/LTMU",
+      "target": "hyeonseobnam/py-mdnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:22.682603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CVPR2020 Oral && Best Paper Nomination",
+    "fork": false,
+    "full_name": "Daikenan/LTMU",
+    "html_url": "https://github.com/Daikenan/LTMU",
+    "language": "Python",
+    "pushed_at": "2022-12-08T04:31:45Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-01-22T12:08:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alanlukezic/d3s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyeonseobnam/py-mdnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ilchaejung/rt-mdnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

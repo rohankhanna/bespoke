@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Azure"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Deploy to Azure"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate",
+      "text": "Deploy to Azure"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "cyanine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "dye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "gayle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "murder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Azure",
+  "concept_id": "deploy-to-azure",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Azure",
+      "sense_id": "deploy-to-azure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

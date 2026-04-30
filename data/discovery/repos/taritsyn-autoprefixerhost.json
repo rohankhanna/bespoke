@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/AutoprefixerHost",
+      "target": "postcss/autoprefixer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/AutoprefixerHost",
+      "target": "taritsyn/bundletransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/AutoprefixerHost",
+      "target": "philrawlings/nbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/AutoprefixerHost",
+      "target": "smartstore/smartstore",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:04:56.460379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".NET wrapper around the Andrey Sitnik's Autoprefixer.",
+    "fork": false,
+    "full_name": "Taritsyn/AutoprefixerHost",
+    "html_url": "https://github.com/Taritsyn/AutoprefixerHost",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T17:15:22Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-14T17:15:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philrawlings/nbundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postcss/autoprefixer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smartstore/smartstore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taritsyn/bundletransformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

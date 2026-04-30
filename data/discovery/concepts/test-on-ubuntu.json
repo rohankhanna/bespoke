@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Test on Ubuntu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsf/termbox-go",
+      "status": "candidate-context",
+      "text": "Pure Go termbox implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsf/termbox-go",
+      "status": "candidate-context",
+      "text": "Test on Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "status": "candidate-context",
+      "text": "memcached extension based on libmemcached library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "status": "candidate-context",
+      "text": "Test on Ubuntu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsf/termbox-go",
+      "status": "candidate",
+      "text": "Test on Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "status": "candidate",
+      "text": "Test on Ubuntu"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "selfishness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "zulu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test on Ubuntu",
+  "concept_id": "test-on-ubuntu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "source_repo": "nsf/termbox-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "php-memcached-dev/php-memcached"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test on Ubuntu",
+      "sense_id": "test-on-ubuntu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

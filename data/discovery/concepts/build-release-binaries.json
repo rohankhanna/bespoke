@@ -50,6 +50,18 @@
       "source_repo": "hyperledger-solang/solang",
       "status": "candidate-context",
       "text": "Build Release Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "A new markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "Build Release Binaries"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hyperledger-solang/solang",
+      "status": "candidate",
+      "text": "Build Release Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
       "status": "candidate",
       "text": "Build Release Binaries"
     }
@@ -155,11 +173,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "astrale-sharp/typstfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Myriad-Dreamin/typst"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

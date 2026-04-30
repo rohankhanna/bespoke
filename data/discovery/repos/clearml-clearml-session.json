@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml-session",
+      "target": "clearml/clearml-pycharm-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session",
+      "target": "clearml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session",
+      "target": "clearml-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:08.192555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23541
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    },
+    {
+      "path": ".github/workflows/git_issue_to_pylon.yml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ClearML Remote - CLI for launching JupyterLab / VSCode on a remote machine",
+    "fork": false,
+    "full_name": "clearml/clearml-session",
+    "html_url": "https://github.com/clearml/clearml-session",
+    "language": "Python",
+    "pushed_at": "2026-03-12T14:25:26Z",
+    "stargazers_count": 30,
+    "topics": [
+      "clearml",
+      "clearml-agent",
+      "jupyterlab",
+      "k8s",
+      "mlops",
+      "vscode"
+    ],
+    "updated_at": "2026-04-06T16:34:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearml/clearml-pycharm-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clearml"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clearml-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close Dependabot PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "\u2693\ufe0f+\u26a1\ufe0f- Oxlint plugin for vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "Close Dependabot PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate",
+      "text": "Close Dependabot PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "pagoda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "inch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "classified"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close Dependabot PRs",
+  "concept_id": "close-dependabot-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/close-dependabot-prs.yml",
+      "source_repo": "52-entertainment/vite-plugin-oxlint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close Dependabot PRs",
+      "sense_id": "close-dependabot-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

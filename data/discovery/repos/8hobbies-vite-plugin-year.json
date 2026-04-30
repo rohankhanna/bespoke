@@ -1,0 +1,321 @@
+{
+  "components": [
+    {
+      "component": "@8hobbies/eslint-conf-baseline",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/utils",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "8hobbies/workflows/.github/workflows/npm-lint.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dry-run.yml"
+    },
+    {
+      "component": "8hobbies/workflows/.github/workflows/npm-publish.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "8hobbies/workflows/.github/workflows/npm-runtime.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runtime.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@8hobbies/eslint-conf-baseline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@typescript-eslint/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-lint.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Publish Dry Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-publish.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Publish to npmjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runtime.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-runtime.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runtime.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "vite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:57.842285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1987
+    },
+    {
+      "path": "package.json",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/publish-dry-run.yml",
+      "size": 903
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 908
+    },
+    {
+      "path": ".github/workflows/runtime.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vite plugin that inserts the current year to the html file during build. Useful for adding a copyright year to the HTML file.",
+    "fork": false,
+    "full_name": "8hobbies/vite-plugin-year",
+    "html_url": "https://github.com/8hobbies/vite-plugin-year",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-28T14:48:15Z",
+    "stargazers_count": 3,
+    "topics": [
+      "vite"
+    ],
+    "updated_at": "2026-04-21T03:01:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Publish Dry Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "term": "Publish Dry Run"
+    },
+    {
+      "context_snippet": "Publish to npmjs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to npmjs"
+    },
+    {
+      "context_snippet": "Runtime",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runtime.yml",
+      "term": "Runtime"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/@8hobbies%2Fvite-plugin-year.svg)](https://badge.fury.io/js/@8hobbies%2Fvite-plugin-year)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    }
+  ]
+}

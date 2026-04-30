@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CrossMLP",
+      "target": "amazingren/cit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CrossMLP",
+      "target": "lugiavn/gt-crossview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amazingren/CrossMLP",
+      "target": "guosheng/refinenet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:19.387012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6097
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(BMVC2021, Oral) The repository offers the official implementation of our BMVC 2021 paper (oral) in PyTorch.",
+    "fork": false,
+    "full_name": "Amazingren/CrossMLP",
+    "html_url": "https://github.com/Amazingren/CrossMLP",
+    "language": "Python",
+    "pushed_at": "2022-04-22T09:51:01Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-08T18:26:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazingren/cit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guosheng/refinenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lugiavn/gt-crossview",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "oceanbase"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "Official source of container configurations and images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for OceanBase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate",
+      "text": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "oceanbase",
+  "concept_id": "oceanbase",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oceanbase",
+      "sense_id": "oceanbase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

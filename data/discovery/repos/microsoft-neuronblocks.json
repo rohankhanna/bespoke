@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "microsoft/samples-for-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "sequence-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks",
+      "target": "text-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:36.939394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8861
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NLP DNN Toolkit - Building Your NLP DNN Models Like Playing Lego",
+    "fork": false,
+    "full_name": "microsoft/NeuronBlocks",
+    "html_url": "https://github.com/microsoft/NeuronBlocks",
+    "language": "Python",
+    "pushed_at": "2023-07-22T03:07:55Z",
+    "stargazers_count": 1453,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "dnn",
+      "knowledge-distillation",
+      "model-compression",
+      "natural-language-processing",
+      "pytorch",
+      "qna",
+      "question-answering",
+      "sequence-labeling",
+      "text-classification",
+      "text-matching"
+    ],
+    "updated_at": "2026-04-26T16:25:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/samples-for-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-labeling"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-matching"
+    }
+  ]
+}

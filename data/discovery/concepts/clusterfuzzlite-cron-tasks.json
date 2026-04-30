@@ -19,12 +19,30 @@
       "source_repo": "FuelLabs/fuel-vm",
       "status": "candidate-context",
       "text": "ClusterFuzzLite cron tasks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite cron tasks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate",
+      "text": "ClusterFuzzLite cron tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
       "status": "candidate",
       "text": "ClusterFuzzLite cron tasks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/cflite_cron.yml",
       "source_repo": "FuelLabs/fuel-vm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "filecoin-project/ref-fvm"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

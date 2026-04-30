@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:06:37.907934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10770
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "huggingface/Math-Verify",
+    "html_url": "https://github.com/huggingface/Math-Verify",
+    "language": "Python",
+    "pushed_at": "2026-01-10T01:49:27Z",
+    "stargazers_count": 1135,
+    "topics": [],
+    "updated_at": "2026-04-26T05:07:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

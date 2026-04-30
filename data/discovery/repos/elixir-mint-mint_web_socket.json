@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "ninenines/gun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "jeremyong/websocket_client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "meh/elixir-socket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "azolo/websockex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "elixir-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "http1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "mint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:33.084388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4704
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HTTP/1 and HTTP/2 WebSocket support for Mint \ud83c\udf31",
+    "fork": false,
+    "full_name": "elixir-mint/mint_web_socket",
+    "html_url": "https://github.com/elixir-mint/mint_web_socket",
+    "language": "Elixir",
+    "pushed_at": "2026-01-19T17:25:56Z",
+    "stargazers_count": 147,
+    "topics": [
+      "elixir-lang",
+      "http1",
+      "http2",
+      "mint",
+      "websocket"
+    ],
+    "updated_at": "2026-04-03T00:07:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azolo/websockex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremyong/websocket_client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meh/elixir-socket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninenines/gun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI][ci-badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-lang"
+    },
+    {
+      "context_snippet": "[![CI][ci-badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http1"
+    },
+    {
+      "context_snippet": "[![CI][ci-badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "[![CI][ci-badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mint"
+    },
+    {
+      "context_snippet": "[![CI][ci-badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

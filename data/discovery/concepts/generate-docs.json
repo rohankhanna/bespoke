@@ -117,6 +117,30 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate-context",
       "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/nvim-notify",
+      "status": "candidate-context",
+      "text": "A fancy, configurable, notification manager for NeoVim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-notify",
+      "status": "candidate-context",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-notify",
+      "status": "candidate",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate",
       "text": "Generate Docs"
     }
@@ -270,11 +306,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "2KAbhishek/tdo.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "rcarriga/nvim-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/pickme.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -727,6 +727,66 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "mean Average Precision - This code evaluates the performance of your neural net for object recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "A Simple, Lightweight, and Extensible Serving Framework for X-AnyLabeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[ICLR 2023 Spotlight] Vision Transformer Adapter for Dense Predictions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate-context",
+      "text": "Python API for LVIS Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate-context",
+      "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1149,36 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czczup/ViT-Adapter",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate",
+      "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
     }
   ],
   "candidate_related_terms": [],
@@ -1498,11 +1588,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "BR-IDL/PaddleViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lvis-dataset/lvis-api"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

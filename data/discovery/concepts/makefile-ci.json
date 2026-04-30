@@ -79,6 +79,18 @@
       "source_repo": "mawww/kakoune",
       "status": "candidate-context",
       "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "Makefile CI"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mawww/kakoune",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
       "status": "candidate",
       "text": "Makefile CI"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/makefile.yml",
       "source_repo": "mawww/kakoune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

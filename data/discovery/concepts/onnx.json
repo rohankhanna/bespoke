@@ -523,6 +523,78 @@
       "source_repo": "microsoft/MMdnn",
       "status": "candidate-context",
       "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/magika",
+      "status": "candidate-context",
+      "text": "Fast and accurate AI powered file content types detection "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/magika",
+      "status": "candidate-context",
+      "text": "[![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "A Python library for multilingual phonemization and Text-to-Speech (TTS) using ONNX models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate-context",
+      "text": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate-context",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate-context",
+      "text": "Real-time on-device text-to-image and image-to-image Semantic Search with video stream camera capture using USearch & UForm AI Swift SDKs for Apple devices \ud83c\udf4f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate-context",
+      "text": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "Fast ML inference & training for ONNX models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +855,42 @@
       "source_repo": "microsoft/MMdnn",
       "status": "candidate",
       "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/magika",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "status": "candidate",
+      "text": "|Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "status": "candidate",
+      "text": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1186,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/MMdnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google/magika"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google/unisim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pykeio/ort"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

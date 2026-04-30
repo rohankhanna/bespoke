@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "janestreet/torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "akabe/ocaml-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "arulselvanmadhavan/mini_dalle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "arulselvanmadhavan/diffusers-ocaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "Main workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "target": "tensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:46.185937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7987
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCaml bindings for PyTorch",
+    "fork": false,
+    "full_name": "LaurentMazare/ocaml-torch",
+    "html_url": "https://github.com/LaurentMazare/ocaml-torch",
+    "language": "OCaml",
+    "pushed_at": "2024-10-17T13:03:35Z",
+    "stargazers_count": 442,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "gpu",
+      "machine-learning",
+      "neural-network",
+      "ocaml",
+      "pytorch",
+      "tensor"
+    ],
+    "updated_at": "2026-04-26T14:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akabe/ocaml-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arulselvanmadhavan/diffusers-ocaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arulselvanmadhavan/mini_dalle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janestreet/torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Main workflow"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    }
+  ]
+}

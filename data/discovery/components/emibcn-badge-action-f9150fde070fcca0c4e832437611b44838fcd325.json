@@ -1,0 +1,12 @@
+{
+  "component": "emibcn/badge-action@f9150fde070fcca0c4e832437611b44838fcd325",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "dylibso/chicory"
+    }
+  ]
+}

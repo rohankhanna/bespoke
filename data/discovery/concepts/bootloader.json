@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bootloader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "status": "candidate-context",
+      "text": "Command line utility for standing up a BOSH director on an IAAS of your choice."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "status": "candidate-context",
+      "text": "[![Build](https://bosh.ci.cloudfoundry.org/api/v1/teams/main/pipelines/bosh-bootloader/badge)](https://bosh.ci.cloudfoundry.org/teams/main/pipelines/bosh-bootloader)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "status": "candidate",
+      "text": "[![Build](https://bosh.ci.cloudfoundry.org/api/v1/teams/main/pipelines/bosh-bootloader/badge)](https://bosh.ci.cloudfoundry.org/teams/main/pipelines/bosh-bootloader)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991931,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018800,
+      "status": "candidate",
+      "text": "bootdisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018799,
+      "status": "candidate",
+      "text": "boot-tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018798,
+      "status": "candidate",
+      "text": "boot-black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018797,
+      "status": "candidate",
+      "text": "moonboot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bootloader",
+  "concept_id": "bootloader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bosh-bootloader"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootloader",
+      "sense_id": "bootloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

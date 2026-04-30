@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "filippoLeporati93/android-release-signer@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snapcast/snapdroid",
+      "target": "badaix/snapdroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snapcast/snapdroid",
+      "target": "badaix/snapcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapcast/snapdroid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapcast/snapdroid",
+      "target": "filippoLeporati93/android-release-signer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snapcast/snapdroid",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid",
+      "target": "multiroom-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid",
+      "target": "snapcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid",
+      "target": "sonos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:52.748042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 764
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Snapcast client for Android",
+    "fork": false,
+    "full_name": "snapcast/snapdroid",
+    "html_url": "https://github.com/snapcast/snapdroid",
+    "language": "Java",
+    "pushed_at": "2025-09-23T19:54:40Z",
+    "stargazers_count": 222,
+    "topics": [
+      "android",
+      "multiroom-audio",
+      "snapcast",
+      "sonos"
+    ],
+    "updated_at": "2026-04-25T17:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badaix/snapcast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badaix/snapdroid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Snapcast control client and player for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Snapcast control client and player for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiroom-audio"
+    },
+    {
+      "context_snippet": "Snapcast control client and player for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapcast"
+    },
+    {
+      "context_snippet": "Snapcast control client and player for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonos"
+    }
+  ]
+}

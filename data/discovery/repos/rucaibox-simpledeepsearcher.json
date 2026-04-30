@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:05:40.066413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SimpleDeepSearcher: Deep Information Seeking via Web-Powered Reasoning Trajectory Synthesis",
+    "fork": false,
+    "full_name": "RUCAIBox/SimpleDeepSearcher",
+    "html_url": "https://github.com/RUCAIBox/SimpleDeepSearcher",
+    "language": "Python",
+    "pushed_at": "2025-06-03T11:15:51Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-04-24T08:32:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

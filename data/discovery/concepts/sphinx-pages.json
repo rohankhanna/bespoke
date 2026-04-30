@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sphinx Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "status": "candidate-context",
+      "text": "Generate text line images for training deep learning OCR models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "status": "candidate-context",
+      "text": "Sphinx Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "status": "candidate",
+      "text": "Sphinx Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10972,
+      "status": "candidate",
+      "text": "egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10972,
+      "status": "candidate",
+      "text": "giza"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10926,
+      "status": "candidate",
+      "text": "lion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10796,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10711,
+      "status": "candidate",
+      "text": "cecropia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sphinx Pages",
+  "concept_id": "sphinx-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "oh-my-ocr/text_renderer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sphinx Pages",
+      "sense_id": "sphinx-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

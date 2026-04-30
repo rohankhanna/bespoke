@@ -19,6 +19,30 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate-context",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bshoshany/thread-pool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

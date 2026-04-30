@@ -673,6 +673,42 @@
       "source_repo": "octokit/graphql.js",
       "status": "candidate-context",
       "text": "> GitHub GraphQL API client for browsers and Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "React-based framework with performance, scalability, and security built in."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1011,6 +1047,24 @@
       "source_repo": "octokit/graphql.js",
       "status": "candidate",
       "text": "> GitHub GraphQL API client for browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1468,11 +1522,71 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "octokit/graphql.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gatsbyjs/gatsby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagger/dagger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/react-admin"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

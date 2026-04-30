@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kharchenkolab/pagoda2",
+      "target": "kharchenkolab/conos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/pagoda2",
+      "target": "scrna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/pagoda2",
+      "target": "single-cell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/pagoda2",
+      "target": "single-cell-rna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/pagoda2",
+      "target": "transcriptomics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:02.382252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R package for analyzing and interactively exploring large-scale single-cell RNA-seq datasets",
+    "fork": false,
+    "full_name": "kharchenkolab/pagoda2",
+    "html_url": "https://github.com/kharchenkolab/pagoda2",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-01T17:55:18Z",
+    "stargazers_count": 253,
+    "topics": [
+      "scrna-seq",
+      "single-cell",
+      "single-cell-rna-seq",
+      "transcriptomics"
+    ],
+    "updated_at": "2026-04-28T20:50:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kharchenkolab/conos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/pagoda2.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/pagoda2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrna-seq"
+    },
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/pagoda2.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/pagoda2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-cell"
+    },
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/pagoda2.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/pagoda2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-cell-rna-seq"
+    },
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/pagoda2.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/pagoda2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcriptomics"
+    }
+  ]
+}

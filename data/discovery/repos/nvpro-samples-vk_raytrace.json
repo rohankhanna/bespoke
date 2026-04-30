@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "gltf2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "importance-sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "tonemapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytrace",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:57.425802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Ray tracing glTF scene with Vulkan",
+    "fork": false,
+    "full_name": "nvpro-samples/vk_raytrace",
+    "html_url": "https://github.com/nvpro-samples/vk_raytrace",
+    "language": "C++",
+    "pushed_at": "2025-09-29T11:20:15Z",
+    "stargazers_count": 610,
+    "topics": [
+      "gltf",
+      "gltf2",
+      "hdr",
+      "importance-sampling",
+      "pbr",
+      "raytracing",
+      "tonemapping",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-19T11:29:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf2"
+    },
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "importance-sampling"
+    },
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracing"
+    },
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tonemapping"
+    },
+    {
+      "context_snippet": "This project has been archived. The successor version is the [glTF renderer](https://github.com/nvpro-samples/vk_gltf_renderer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

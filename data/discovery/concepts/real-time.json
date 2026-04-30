@@ -271,6 +271,78 @@
       "source_repo": "PKU-YuanGroup/Helios",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "WAMP for C++ in Boost/Asio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "WAMP for C++ on Boost/ASIO."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "A project that optimizes OWL-ViT for real-time inference with NVIDIA TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +477,42 @@
       "source_repo": "PKU-YuanGroup/Helios",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate",
+      "text": "WAMP for C++ on Boost/ASIO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -580,11 +688,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PKU-YuanGroup/Helios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios-Page"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

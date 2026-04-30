@@ -139,6 +139,18 @@
       "source_repo": "mtrebi/thread-pool",
       "status": "candidate-context",
       "text": "&nbsp;[Introduction](https://github.com/mtrebi/thread-pool/blob/master/README.md#introduction) <br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "ZeroMQ core engine in C++, implements ZMTP/3.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "mtrebi/thread-pool",
       "status": "candidate",
       "text": "&nbsp;[Introduction](https://github.com/mtrebi/thread-pool/blob/master/README.md#introduction) <br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/libzmq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

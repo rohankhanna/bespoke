@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails",
+      "target": "rabl-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:23:01.484504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rails 4.2+ templating system with JSON, XML and Plist support.",
+    "fork": false,
+    "full_name": "ccocchi/rabl-rails",
+    "html_url": "https://github.com/ccocchi/rabl-rails",
+    "language": "Ruby",
+    "pushed_at": "2023-05-20T14:27:45Z",
+    "stargazers_count": 207,
+    "topics": [
+      "json",
+      "rabl-template",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-02-20T11:21:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rabl-template"
+    },
+    {
+      "context_snippet": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/PromptPapers",
+      "target": "awebson/prompt_semantics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/PromptPapers",
+      "target": "alrope123/rethinking-demonstrations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/PromptPapers",
+      "target": "agencyenterprise/promptinject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/PromptPapers",
+      "target": "batsresearch/csp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "pre-trained-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "prompt-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "prompt-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/PromptPapers",
+      "target": "prompt-toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:02.175385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Must-read papers on prompt-based tuning for pre-trained language models.",
+    "fork": false,
+    "full_name": "thunlp/PromptPapers",
+    "html_url": "https://github.com/thunlp/PromptPapers",
+    "language": null,
+    "pushed_at": "2023-07-17T09:54:36Z",
+    "stargazers_count": 4302,
+    "topics": [
+      "ai",
+      "bert",
+      "machine-learning",
+      "nlp",
+      "pre-trained-language-models",
+      "prompt",
+      "prompt-based",
+      "prompt-learning",
+      "prompt-toolkit"
+    ],
+    "updated_at": "2026-04-30T07:39:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agencyenterprise/promptinject",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alrope123/rethinking-demonstrations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awebson/prompt_semantics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "batsresearch/csp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-language-models"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-based"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-learning"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-toolkit"
+    }
+  ]
+}

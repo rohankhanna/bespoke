@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "metadata"
+    "metadata",
+    "Metadata"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +118,30 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate-context",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Israeli Oref Alerts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Metadata"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +198,18 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate",
+      "text": "Metadata"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +331,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/releaser-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/metadata.yml",
+      "source_repo": "amitfin/oref_alert"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

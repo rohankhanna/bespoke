@@ -139,6 +139,18 @@
       "source_repo": "ColdHeat/pystarlark",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.  It allows you to write HTML pages in pure Python very concisely, which eliminate the need to learn another template language, and to take advantage of the more powerful features of Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ColdHeat/pystarlark",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate",
+      "text": "Dominate"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ColdHeat/pystarlark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Knio/dominate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

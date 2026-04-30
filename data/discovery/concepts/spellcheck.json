@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -153,6 +155,18 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate-context",
       "text": "Spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "Simple tool for fixing common misspellings, typos in source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +241,12 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate",
       "text": "Spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
     }
   ],
   "candidate_related_terms": [
@@ -432,11 +452,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-om-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

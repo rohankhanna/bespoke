@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:05:48.283968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Starter configurations for elm-review",
+    "fork": false,
+    "full_name": "jfmengels/elm-review-config",
+    "html_url": "https://github.com/jfmengels/elm-review-config",
+    "language": "Elm",
+    "pushed_at": "2026-04-28T07:26:18Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-28T07:26:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -91,6 +91,30 @@
       "source_repo": "Zheng222/IMDN",
       "status": "candidate-context",
       "text": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "TDME2 - ThreeDeeMiniEngine2 is a lightweight, multi-platform 3D engine including tools suited for 3D game/application development using C++, Mini(t)Script, GLSL, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "GIF encoder written in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "Zheng222/IMDN",
       "status": "candidate",
       "text": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
     }
   ],
   "candidate_related_terms": [
@@ -249,11 +285,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Zheng222/IMDN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andreasdr/tdme2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dloebl/cgif"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

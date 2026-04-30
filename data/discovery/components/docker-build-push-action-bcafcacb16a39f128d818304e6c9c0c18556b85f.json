@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -297,6 +297,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "hyper-mcp-rs/hyper-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyper-mcp-rs/hyper-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ipinfo.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-build-tools.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
     }
   ]
 }

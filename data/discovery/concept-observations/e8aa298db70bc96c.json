@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetson-orin-nano",
+      "sense_id": "jetson-orin-nano#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jetson-orin-nano",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jetson-orin-nano",
+  "observation_id": "e8aa298db70bc96c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "jetson-orin-nano",
+  "source_context_snippet": "![yzma logo](./images/yzma-logo-full-color-small.png)",
+  "source_file": null,
+  "source_repo": "hybridgroup/yzma",
+  "source_repo_description": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+}

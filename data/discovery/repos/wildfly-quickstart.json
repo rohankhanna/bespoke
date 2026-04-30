@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "manusa/actions-setup-minikube@v2.16.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "wildfly/wildfly/.github/workflows/shared-wildfly-build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "jayanta525/github-pages-directory-listing@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "wildfly/wildfly/.github/workflows/shared-wildfly-build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "manusa/actions-setup-minikube@v2.16.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "azure/setup-helm@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly Quickstarts Kubernetes CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "wildfly/wildfly/.github/workflows/shared-wildfly-build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly Quickstarts CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "jayanta525/github-pages-directory-listing@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "Deploy Quickstart html to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_batch-processing_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly batch-processing Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_bmt_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly bmt Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "wildfly/wildfly/.github/workflows/shared-wildfly-build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_cmt_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly cmt Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ee-security_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly ee-security Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ejb-multi-server_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly ejb-multi-server Quickstart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ejb-remote_ci.yml",
+      "source_repo": "wildfly/quickstart",
+      "target": "WildFly ejb-remote Quickstart CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:14.297953+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/kubernetes-ci.yml",
+      "size": 8905
+    },
+    {
+      "path": ".github/workflows/project_ci.yml",
+      "size": 2723
+    },
+    {
+      "path": ".github/workflows/publish-pages.yml",
+      "size": 2004
+    },
+    {
+      "path": ".github/workflows/quickstart_batch-processing_ci.yml",
+      "size": 376
+    },
+    {
+      "path": ".github/workflows/quickstart_bmt_ci.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/quickstart_ci.yml",
+      "size": 10842
+    },
+    {
+      "path": ".github/workflows/quickstart_cmt_ci.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/quickstart_ee-security_ci.yml",
+      "size": 359
+    },
+    {
+      "path": ".github/workflows/quickstart_ejb-multi-server_ci.yml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/quickstart_ejb-remote_ci.yml",
+      "size": 358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Holds all versioned WildFly quickstarts",
+    "fork": false,
+    "full_name": "wildfly/quickstart",
+    "html_url": "https://github.com/wildfly/quickstart",
+    "language": "Java",
+    "pushed_at": "2026-04-29T01:05:49Z",
+    "stargazers_count": 926,
+    "topics": [],
+    "updated_at": "2026-04-28T18:14:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "WildFly Quickstarts Kubernetes CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kubernetes-ci.yml",
+      "term": "WildFly Quickstarts Kubernetes CI"
+    },
+    {
+      "context_snippet": "WildFly Quickstarts CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project_ci.yml",
+      "term": "WildFly Quickstarts CI"
+    },
+    {
+      "context_snippet": "Deploy Quickstart html to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pages.yml",
+      "term": "Deploy Quickstart html to Pages"
+    },
+    {
+      "context_snippet": "WildFly batch-processing Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_batch-processing_ci.yml",
+      "term": "WildFly batch-processing Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly bmt Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_bmt_ci.yml",
+      "term": "WildFly bmt Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ci.yml",
+      "term": "WildFly Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly cmt Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_cmt_ci.yml",
+      "term": "WildFly cmt Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly ee-security Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ee-security_ci.yml",
+      "term": "WildFly ee-security Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly ejb-multi-server Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ejb-multi-server_ci.yml",
+      "term": "WildFly ejb-multi-server Quickstart CI"
+    },
+    {
+      "context_snippet": "WildFly ejb-remote Quickstart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ejb-remote_ci.yml",
+      "term": "WildFly ejb-remote Quickstart CI"
+    }
+  ]
+}

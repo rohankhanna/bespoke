@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Warp Builder Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate-context",
+      "text": "A Python framework for GPU-accelerated simulation, robotics, and machine learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate-context",
+      "text": "Build Warp Builder Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/warp",
+      "status": "candidate",
+      "text": "Build Warp Builder Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27026,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17132,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17124,
+      "status": "candidate",
+      "text": "warping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17109,
+      "status": "candidate",
+      "text": "ell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17036,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Warp Builder Images",
+  "concept_id": "build-warp-builder-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-warp-builder-images.yml",
+      "source_repo": "NVIDIA/warp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Warp Builder Images",
+      "sense_id": "build-warp-builder-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

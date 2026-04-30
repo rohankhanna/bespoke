@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge Queue - AWS GPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge Queue - AWS GPU"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17368,
+      "status": "candidate",
+      "text": "being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17368,
+      "status": "candidate",
+      "text": "elite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10346,
+      "status": "candidate",
+      "text": "abundance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10112,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10112,
+      "status": "candidate",
+      "text": "aforesaid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge Queue - AWS GPU",
+      "sense_id": "merge-queue---aws-gpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-queue---aws-gpu",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-queue---aws-gpu",
+  "observation_id": "72873e670a768a15",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Merge Queue - AWS GPU",
+  "source_context_snippet": "Merge Queue - AWS GPU",
+  "source_file": ".github/workflows/merge_queue_aws_gpu.yml",
+  "source_repo": "newton-physics/newton",
+  "source_repo_description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers."
+}

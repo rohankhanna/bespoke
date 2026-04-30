@@ -115,6 +115,18 @@
       "source_repo": "swz30/MIRNet",
       "status": "candidate-context",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "swz30/MIRNet",
       "status": "candidate",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "swz30/MIRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

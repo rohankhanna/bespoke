@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "devise"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "Flexible authentication solution for Rails with Warden."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006215,
+      "status": "candidate",
+      "text": "invent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005134,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998338,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997950,
+      "status": "candidate",
+      "text": "organize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997318,
+      "status": "candidate",
+      "text": "excogitate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40035,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20051,
+      "status": "candidate",
+      "text": "forge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "formulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15038,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11043,
+      "status": "candidate",
+      "text": "organize"
+    }
+  ],
+  "canonical_name": "devise",
+  "concept_id": "devise",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devise",
+      "sense_id": "devise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

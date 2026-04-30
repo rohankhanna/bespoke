@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy API docs content to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "ZeroMQ core engine in C++, implements ZMTP/3.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "Deploy API docs content to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate",
+      "text": "Deploy API docs content to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32947,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31947,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31947,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31460,
+      "status": "candidate",
+      "text": "right to know"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29651,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy API docs content to Pages",
+  "concept_id": "deploy-api-docs-content-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/Docs.yaml",
+      "source_repo": "zeromq/libzmq"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy API docs content to Pages",
+      "sense_id": "deploy-api-docs-content-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

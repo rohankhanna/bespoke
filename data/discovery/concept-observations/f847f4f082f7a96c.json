@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update workshop packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update workshop packages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26113,
+      "status": "candidate",
+      "text": "retool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17752,
+      "status": "candidate",
+      "text": "briefings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17748,
+      "status": "candidate",
+      "text": "cadre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17748,
+      "status": "candidate",
+      "text": "dossier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update workshop packages",
+      "sense_id": "update-workshop-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-workshop-packages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-workshop-packages",
+  "observation_id": "f847f4f082f7a96c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Update workshop packages",
+  "source_context_snippet": "Update workshop packages",
+  "source_file": ".github/workflows/packages.yml",
+  "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+  "source_repo_description": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+}

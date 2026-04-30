@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camenduru/MagicTime-jupyter",
+      "target": "camenduru/magictime-replicate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:15.690121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/MagicTime-jupyter",
+    "html_url": "https://github.com/camenduru/MagicTime-jupyter",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-04-14T12:30:06Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-03-15T08:22:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/magictime-replicate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

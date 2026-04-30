@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "soumik12345/MIRNet",
+      "target": "sayakpaul/mirnet-tflite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "mirnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "streamlit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "streamlit-webapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet",
+      "target": "tensorflow2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:11.187106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1885
+    },
+    {
+      "path": "requirements.txt",
+      "size": 111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensorflow implementation of MIRNet for Low-light image enhancement",
+    "fork": false,
+    "full_name": "soumik12345/MIRNet",
+    "html_url": "https://github.com/soumik12345/MIRNet",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-09-18T04:54:30Z",
+    "stargazers_count": 118,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "image-restoration",
+      "low-light-image-enhancement",
+      "mirnet",
+      "streamlit",
+      "streamlit-webapp",
+      "tensorflow",
+      "tensorflow2"
+    ],
+    "updated_at": "2026-02-20T01:19:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sayakpaul/mirnet-tflite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirnet"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamlit"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamlit-webapp"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    }
+  ]
+}

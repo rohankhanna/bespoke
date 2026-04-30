@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tessl Skill Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "status": "candidate-context",
+      "text": "a collection of skills for vllm-omni"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "status": "candidate-context",
+      "text": "Tessl Skill Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "status": "candidate",
+      "text": "Tessl Skill Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "exam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11642,
+      "status": "candidate",
+      "text": "examine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tessl Skill Review",
+  "concept_id": "tessl-skill-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tessl Skill Review",
+      "sense_id": "tessl-skill-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

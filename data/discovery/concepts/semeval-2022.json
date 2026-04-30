@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "semeval-2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate-context",
+      "text": "Deep-learning system proposed by HFL for SemEval-2022 Task 8: Multilingual News Similarity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate-context",
+      "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate",
+      "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "semeval-2022",
+  "concept_id": "semeval-2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semeval-2022",
+      "sense_id": "semeval-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

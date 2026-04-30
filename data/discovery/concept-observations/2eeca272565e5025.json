@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A parallel universal-ctags wrapper for git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "universal-ctags",
+      "sense_id": "universal-ctags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "universal-ctags",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "universal-ctags",
+  "observation_id": "2eeca272565e5025",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "universal-ctags",
+  "source_context_snippet": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository",
+  "source_file": null,
+  "source_repo": "dalance/ptags",
+  "source_repo_description": "A parallel universal-ctags wrapper for git repository"
+}

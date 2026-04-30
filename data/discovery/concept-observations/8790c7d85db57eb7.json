@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build binary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build binary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28103,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28103,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11531,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10660,
+      "status": "candidate",
+      "text": "compile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build binary",
+      "sense_id": "build-binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-binary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-binary",
+  "observation_id": "8790c7d85db57eb7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "build binary",
+  "source_context_snippet": "build binary",
+  "source_file": ".github/workflows/binary-publish.yml",
+  "source_repo": "appbaseio/reactivesearch-api",
+  "source_repo_description": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "scene"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "TDME2 - ThreeDeeMiniEngine2 is a lightweight, multi-platform 3D engine including tools suited for 3D game/application development using C++, Mini(t)Script, GLSL, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044018,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032744,
+      "status": "candidate",
+      "text": "vista"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031190,
+      "status": "candidate",
+      "text": "aspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029449,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027965,
+      "status": "candidate",
+      "text": "view"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68056,
+      "status": "candidate",
+      "text": "aspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55047,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28063,
+      "status": "candidate",
+      "text": "fit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "view"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    }
+  ],
+  "canonical_name": "scene",
+  "concept_id": "scene",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andreasdr/tdme2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scene",
+      "sense_id": "scene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

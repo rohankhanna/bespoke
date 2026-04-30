@@ -411,20 +411,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "emotion-js/emotion",
-      "target": "appbaseio/reactivesearch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "emotion-js/emotion",
-      "target": "emotion-js/facepaint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "emotion-js/emotion",
       "target": "egoist/emotion-vue",
       "target_type": "repository"
     },
@@ -432,7 +418,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "emotion-js/emotion",
-      "target": "alexlafroscia/ember-emotion",
+      "target": "kyleshevlin/shevyjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emotion-js/emotion",
+      "target": "mrmartineau/design-system-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emotion-js/emotion",
+      "target": "itswendell/emotion-native-extended",
       "target_type": "repository"
     },
     {
@@ -1003,7 +1003,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:50.792048+00:00",
+  "fetched_at": "2026-04-30T08:26:34.457485+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1032,7 +1032,7 @@
     "html_url": "https://github.com/emotion-js/emotion",
     "language": "JavaScript",
     "pushed_at": "2025-11-04T12:47:00Z",
-    "stargazers_count": 18011,
+    "stargazers_count": 18012,
     "topics": [
       "babel-plugin",
       "css",
@@ -1041,19 +1041,9 @@
       "react",
       "reactjs"
     ],
-    "updated_at": "2026-04-29T16:12:37Z"
+    "updated_at": "2026-04-30T06:16:25Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alexlafroscia/ember-emotion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "appbaseio/reactivesearch",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "egoist/emotion-vue",
@@ -1061,7 +1051,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "emotion-js/facepaint",
+      "full_name": "itswendell/emotion-native-extended",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyleshevlin/shevyjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrmartineau/design-system-utils",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "PyCQA/bandit-action@67a458d90fa11fb1463e91e7f4c8f068b5863c7f",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/ittapi"
+    }
+  ]
+}

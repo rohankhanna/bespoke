@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_code_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_code_quality.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_templates.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_templates.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_code_quality.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_code_quality.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/promptsource",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:09.167574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9584
+    },
+    {
+      "path": ".github/workflows/check_code_quality.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/check_templates.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/show_new_templates.yml",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Toolkit for creating, sharing and using natural language prompts.",
+    "fork": false,
+    "full_name": "bigscience-workshop/promptsource",
+    "html_url": "https://github.com/bigscience-workshop/promptsource",
+    "language": "Python",
+    "pushed_at": "2023-10-23T17:59:41Z",
+    "stargazers_count": 3008,
+    "topics": [
+      "machine-learning",
+      "natural-language-processing",
+      "nlp"
+    ],
+    "updated_at": "2026-04-27T08:12:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**PromptSource is a toolkit for creating, sharing and using natural language prompts.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**PromptSource is a toolkit for creating, sharing and using natural language prompts.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

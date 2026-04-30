@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "dc-ai-projects/dc-videogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "thudm/imagereward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "deep-compression-autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "efficient-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dc-ai-projects/DC-Gen",
+      "target": "post-training-model-acceleration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "dc-ai-projects/DC-Gen"
+}

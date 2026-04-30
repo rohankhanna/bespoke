@@ -1,0 +1,429 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel-a770.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel-a770.yml"
+    },
+    {
+      "component": "actions/stale@v9.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triton-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "fla-org/flame",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "fla-org/flash-bidirectional-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "nvlabs/gateddeltanet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "mgmalek/efficient_cross_entropy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel-a770.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/intel-a770.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "tj-actions/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intel-a770.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "intel-a770-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/stale@v9.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "tj-actions/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-4090.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "tj-actions/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-4090.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "nvidia-4090-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-a100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "tj-actions/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-a100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "nvidia-a100-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvidia-h100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "tj-actions/changed-files@v46.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-h100.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "nvidia-h100-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triton-nightly.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triton-nightly.yml",
+      "source_repo": "renll/flash-linear-attention",
+      "target": "triton-nightly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:01:23.103333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32332
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1002
+    },
+    {
+      "path": ".github/workflows/intel-a770.yml",
+      "size": 5229
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/nvidia-4090.yml",
+      "size": 9377
+    },
+    {
+      "path": ".github/workflows/nvidia-a100.yml",
+      "size": 9492
+    },
+    {
+      "path": ".github/workflows/nvidia-h100.yml",
+      "size": 9492
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/triton-nightly.yml",
+      "size": 7830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Efficient implementations of state-of-the-art linear attention models in Torch and Triton",
+    "fork": true,
+    "full_name": "renll/flash-linear-attention",
+    "html_url": "https://github.com/renll/flash-linear-attention",
+    "language": "Python",
+    "pushed_at": "2025-06-25T08:18:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-06-25T08:18:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fla-org/flame",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fla-org/flash-bidirectional-linear-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmalek/efficient_cross_entropy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/gateddeltanet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "intel-a770-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/intel-a770.yml",
+      "term": "intel-a770-ci"
+    },
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "issues"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "nvidia-4090-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-4090.yml",
+      "term": "nvidia-4090-ci"
+    },
+    {
+      "context_snippet": "nvidia-a100-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-a100.yml",
+      "term": "nvidia-a100-ci"
+    },
+    {
+      "context_snippet": "nvidia-h100-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-h100.yml",
+      "term": "nvidia-h100-ci"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "triton-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triton-nightly.yml",
+      "term": "triton-nightly"
+    }
+  ]
+}

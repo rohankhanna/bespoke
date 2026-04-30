@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buriy/python-readability",
+      "target": "mhordecki/readability-redux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buriy/python-readability",
+      "target": "gfxmonk/python-readability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "buriy/python-readability",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "buriy/python-readability",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "buriy/python-readability",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "buriy/python-readability",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "buriy/python-readability",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:35.215575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2695
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1343
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "fast python port of arc90's readability tool, updated to match latest readability.js!",
+    "fork": true,
+    "full_name": "buriy/python-readability",
+    "html_url": "https://github.com/buriy/python-readability",
+    "language": "Python",
+    "pushed_at": "2026-01-26T13:06:04Z",
+    "stargazers_count": 2896,
+    "topics": [],
+    "updated_at": "2026-04-22T20:01:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfxmonk/python-readability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhordecki/readability-redux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

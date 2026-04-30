@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Main Branch Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Bump Main Branch Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "Bump Main Branch Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43233,
+      "status": "candidate",
+      "text": "tapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43233,
+      "status": "candidate",
+      "text": "tapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33919,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33609,
+      "status": "candidate",
+      "text": "feeder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33524,
+      "status": "candidate",
+      "text": "limb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Main Branch Version",
+  "concept_id": "bump-main-branch-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bump-main.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Main Branch Version",
+      "sense_id": "bump-main-branch-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

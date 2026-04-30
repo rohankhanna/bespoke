@@ -19,6 +19,18 @@
       "source_repo": "nfrechette/acl-ue4-plugin",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nfrechette/acl-ue4-plugin",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nfrechette/acl-ue4-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "halimacc/pointnet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "matheusgadelha/pointcloudlearningacd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "lly007/pointstructuringnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "dvlab-research/stratified-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "modelnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "pointnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "pointnet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "s3dis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "shapenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "yanx27/Pointnet_Pointnet2_pytorch"
+}

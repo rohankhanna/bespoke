@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check recent versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate-context",
+      "text": "Info about PHP PECL packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate-context",
+      "text": "Check recent versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate",
+      "text": "Check recent versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27069,
+      "status": "candidate",
+      "text": "kinetoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19010,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18965,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18942,
+      "status": "candidate",
+      "text": "ether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18942,
+      "status": "candidate",
+      "text": "martini"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check recent versions",
+  "concept_id": "check-recent-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-recent-versions.yml",
+      "source_repo": "mlocati/pecl-info"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check recent versions",
+      "sense_id": "check-recent-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

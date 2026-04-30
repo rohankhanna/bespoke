@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2020] GAN Compression: Efficient Architectures for Interactive Conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conditional-gans",
+      "sense_id": "conditional-gans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conditional-gans",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conditional-gans",
+  "observation_id": "ce9eb85a354e5976",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "conditional-gans",
+  "source_context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+  "source_file": null,
+  "source_repo": "mit-han-lab/gan-compression",
+  "source_repo_description": "[CVPR 2020] GAN Compression: Efficient Architectures for Interactive Conditional GANs"
+}

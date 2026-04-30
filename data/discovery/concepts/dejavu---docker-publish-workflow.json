@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dejavu - Docker Publish Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "Dejavu - Docker Publish Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate",
+      "text": "Dejavu - Docker Publish Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15972,
+      "status": "candidate",
+      "text": "longshoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14076,
+      "status": "candidate",
+      "text": "print"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dejavu - Docker Publish Workflow",
+  "concept_id": "dejavu---docker-publish-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/dejavu"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dejavu - Docker Publish Workflow",
+      "sense_id": "dejavu---docker-publish-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

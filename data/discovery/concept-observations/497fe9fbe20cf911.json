@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17790606,
+      "status": "candidate",
+      "text": "hackney coach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9435867,
+      "status": "candidate",
+      "text": "coachmen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9435865,
+      "status": "candidate",
+      "text": "hackney downs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9435864,
+      "status": "candidate",
+      "text": "haggerston"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9435863,
+      "status": "candidate",
+      "text": "homerton"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hackney",
+      "sense_id": "hackney#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2013,
+      "status": "candidate",
+      "text": "hackney coach"
+    }
+  ],
+  "concept_id": "hackney",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hackney",
+  "observation_id": "497fe9fbe20cf911",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "hackney",
+  "source_context_snippet": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "elixir-tesla/tesla",
+  "source_repo_description": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+}

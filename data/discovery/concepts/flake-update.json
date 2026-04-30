@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Flake Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate-context",
+      "text": "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate-context",
+      "text": "Flake Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate",
+      "text": "Flake Update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "bran"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10568,
+      "status": "candidate",
+      "text": "flaw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Flake Update",
+  "concept_id": "flake-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flake Update",
+      "sense_id": "flake-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

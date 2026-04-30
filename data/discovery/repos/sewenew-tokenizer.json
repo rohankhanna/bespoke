@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sewenew/tokenizer",
+      "target": "tiktoken",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sewenew/tokenizer",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:39.730484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ implementation of tokenizers, including tiktoken.",
+    "fork": false,
+    "full_name": "sewenew/tokenizer",
+    "html_url": "https://github.com/sewenew/tokenizer",
+    "language": "C++",
+    "pushed_at": "2023-12-07T14:24:08Z",
+    "stargazers_count": 25,
+    "topics": [
+      "openai",
+      "tiktoken",
+      "tokenizer"
+    ],
+    "updated_at": "2026-03-20T11:45:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C++ implementation of tokenizers, including tiktoken.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiktoken"
+    },
+    {
+      "context_snippet": "C++ implementation of tokenizers, including tiktoken.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

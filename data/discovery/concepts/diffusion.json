@@ -199,6 +199,102 @@
       "source_repo": "PKU-YuanGroup/Helios",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "status": "candidate-context",
+      "text": "[ICML2025, NeurIPS2025 Spotlight] Sparse VideoGen 1 & 2: Accelerating Video Diffusion Transformers with Sparse Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"sglangtop\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Scalable and memory-optimized training of diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-forever/Kandinsky-2",
+      "status": "candidate-context",
+      "text": "Kandinsky 2 \u2014 multilingual text2image latent diffusion model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/Kandinsky-2",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate-context",
+      "text": "\u300a\u5927\u6a21\u578b\u767d\u76d2\u5b50\u6784\u5efa\u6307\u5357\u300b\uff1a\u4e00\u4e2a\u5168\u624b\u6413\u7684Tiny-Universe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datawhalechina/tiny-universe",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +391,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"sglangtop\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/Kandinsky-2",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datawhalechina/tiny-universe",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -480,11 +624,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PKU-YuanGroup/Helios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios-Page"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ai-forever/Kandinsky-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "datawhalechina/tiny-universe"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

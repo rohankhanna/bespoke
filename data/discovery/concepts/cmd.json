@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cmd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gguf-parser-go",
+      "status": "candidate-context",
+      "text": "Review/Check GGUF files and estimate the memory usage and maximum tokens per second."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gguf-parser-go",
+      "status": "candidate-context",
+      "text": "cmd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gguf-parser-go",
+      "status": "candidate",
+      "text": "cmd"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021808,
+      "status": "candidate",
+      "text": "mmd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012880,
+      "status": "candidate",
+      "text": "mdc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963634,
+      "status": "candidate",
+      "text": "funded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941954,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728029,
+      "status": "candidate",
+      "text": "dcm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cmd",
+  "concept_id": "cmd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cmd.yml",
+      "source_repo": "gpustack/gguf-parser-go"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cmd",
+      "sense_id": "cmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

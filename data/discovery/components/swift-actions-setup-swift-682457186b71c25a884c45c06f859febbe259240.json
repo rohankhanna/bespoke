@@ -1,7 +1,7 @@
 {
   "component": "swift-actions/setup-swift@682457186b71c25a884c45c06f859febbe259240",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

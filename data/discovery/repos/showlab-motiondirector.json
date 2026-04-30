@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/MotionDirector",
+      "target": "camenduru/motiondirector-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "motion-customization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "text-to-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "text-to-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:16.803214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38146
+    },
+    {
+      "path": "requirements.txt",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024 Oral] MotionDirector: Motion Customization of Text-to-Video Diffusion Models.",
+    "fork": false,
+    "full_name": "showlab/MotionDirector",
+    "html_url": "https://github.com/showlab/MotionDirector",
+    "language": "Python",
+    "pushed_at": "2024-08-21T03:51:01Z",
+    "stargazers_count": 1048,
+    "topics": [
+      "diffusion-models",
+      "motion-customization",
+      "text-to-motion",
+      "text-to-video",
+      "text-to-video-generation",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-10T11:43:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/motiondirector-colab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-customization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-motion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

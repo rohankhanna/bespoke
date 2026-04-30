@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aklt/plantuml-syntax",
+      "target": "plantuml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aklt/plantuml-syntax",
+      "target": "vim-syntax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:57.727285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vim syntax file for plantuml",
+    "fork": false,
+    "full_name": "aklt/plantuml-syntax",
+    "html_url": "https://github.com/aklt/plantuml-syntax",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-25T22:49:54Z",
+    "stargazers_count": 496,
+    "topics": [
+      "plantuml",
+      "vim-syntax"
+    ],
+    "updated_at": "2026-04-28T15:50:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a vim syntax file for [PlantUML](http://plantuml.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plantuml"
+    },
+    {
+      "context_snippet": "This is a vim syntax file for [PlantUML](http://plantuml.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-syntax"
+    }
+  ]
+}

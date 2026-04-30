@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "Deploy to Firebase Hosting on merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "Deploy to Firebase Hosting on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "pull-to-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "refresh-indicator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swipe-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swipe-to-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swiperefreshlayout",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh"
+}

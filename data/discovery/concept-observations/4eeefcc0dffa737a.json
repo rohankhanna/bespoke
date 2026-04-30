@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Video Feature Extraction Code for EMNLP 2020 paper \"HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slowfast",
+      "sense_id": "slowfast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slowfast",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slowfast",
+  "observation_id": "4eeefcc0dffa737a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "slowfast",
+  "source_context_snippet": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+  "source_file": null,
+  "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+  "source_repo_description": "Video Feature Extraction Code for EMNLP 2020 paper \"HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training\""
+}

@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "classnames",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-range",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-select",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-switch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copy-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "csstype",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html-webpack-inline-source-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "style-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "url-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "adobe-cep/cep-resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "classnames",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "react-range",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "react-select",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "react-switch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "copy-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "css-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "csstype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "html-webpack-inline-source-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "html-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "style-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "url-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "adobe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "integrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "photoshop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "target": "runwayml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:54.437701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5917
+    },
+    {
+      "path": "package.json",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "RunwayML for Photoshop",
+    "fork": false,
+    "full_name": "runwayml/RunwayML-for-Photoshop",
+    "html_url": "https://github.com/runwayml/RunwayML-for-Photoshop",
+    "language": "TypeScript",
+    "pushed_at": "2023-10-27T04:33:54Z",
+    "stargazers_count": 159,
+    "topics": [
+      "adobe",
+      "integrations",
+      "machine-learning",
+      "photoshop",
+      "runwayml"
+    ],
+    "updated_at": "2026-04-25T09:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-cep/cep-resources",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adobe"
+    },
+    {
+      "context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integrations"
+    },
+    {
+      "context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photoshop"
+    },
+    {
+      "context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runwayml"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "controllable-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit",
+      "target": "score-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:55.304941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5747
+    },
+    {
+      "path": "requirements.txt",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation for SDEdit: Image Synthesis and Editing with Stochastic Differential Equations",
+    "fork": false,
+    "full_name": "ermongroup/SDEdit",
+    "html_url": "https://github.com/ermongroup/SDEdit",
+    "language": "Python",
+    "pushed_at": "2023-02-12T07:40:43Z",
+    "stargazers_count": 1160,
+    "topics": [
+      "controllable-generation",
+      "image-editing",
+      "image-generation",
+      "image-manipulation",
+      "pytorch",
+      "score-matching"
+    ],
+    "updated_at": "2026-04-26T23:30:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controllable-generation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-matching"
+    }
+  ]
+}

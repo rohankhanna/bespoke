@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "cvg/hierarchical-localization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "scannet/scannet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "zjhthu/oanet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "feature-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:57.460568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19116
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SuperGlue: Learning Feature Matching with Graph Neural Networks (CVPR 2020, Oral)",
+    "fork": false,
+    "full_name": "magicleap/SuperGluePretrainedNetwork",
+    "html_url": "https://github.com/magicleap/SuperGluePretrainedNetwork",
+    "language": "Python",
+    "pushed_at": "2024-08-30T23:50:47Z",
+    "stargazers_count": 4001,
+    "topics": [
+      "deep-learning",
+      "feature-matching",
+      "graph-neural-networks",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-04-29T13:47:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvg/hierarchical-localization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scannet/scannet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zjhthu/oanet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/magicleap.png\" width=\"240\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"assets/magicleap.png\" width=\"240\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-matching"
+    },
+    {
+      "context_snippet": "<img src=\"assets/magicleap.png\" width=\"240\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "<img src=\"assets/magicleap.png\" width=\"240\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

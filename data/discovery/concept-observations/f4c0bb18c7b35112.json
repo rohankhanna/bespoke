@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991563,
+      "status": "candidate",
+      "text": "raytracing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991562,
+      "status": "candidate",
+      "text": "pathtracing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991561,
+      "status": "candidate",
+      "text": "rasteriser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991560,
+      "status": "candidate",
+      "text": "raymarching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991559,
+      "status": "candidate",
+      "text": "raycasting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raytracer",
+      "sense_id": "raytracer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "raytracer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raytracer",
+  "observation_id": "f4c0bb18c7b35112",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "raytracer",
+  "source_context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+  "source_file": null,
+  "source_repo": "jbikker/lighthouse2",
+  "source_repo_description": "Lighthouse 2 framework for real-time ray tracing"
+}

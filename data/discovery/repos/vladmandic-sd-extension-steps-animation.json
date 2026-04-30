@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladmandic/sd-extension-steps-animation",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:39.661868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Save Interim Steps as Animation extension for SD WebUI",
+    "fork": false,
+    "full_name": "vladmandic/sd-extension-steps-animation",
+    "html_url": "https://github.com/vladmandic/sd-extension-steps-animation",
+    "language": "Python",
+    "pushed_at": "2023-06-30T03:49:38Z",
+    "stargazers_count": 142,
+    "topics": [
+      "stable-diffusion-webui-plugin"
+    ],
+    "updated_at": "2025-11-19T11:30:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Extension to create animation sequence from denoised intermediate steps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    }
+  ]
+}

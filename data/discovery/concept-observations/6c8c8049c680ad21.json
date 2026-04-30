@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A self contained project for presenting CoPilot support for Joyride"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Presenting Joyride with an AI powered presentation system, made with Joyride*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Presenting Joyride with an AI powered presentation system, made with Joyride*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994299,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958253,
+      "status": "candidate",
+      "text": "tool around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003262,
+      "status": "candidate",
+      "text": "ride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982669,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939939,
+      "status": "candidate",
+      "text": "getaway"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "joyride",
+      "sense_id": "joyride#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2011,
+      "status": "candidate",
+      "text": "tool around"
+    }
+  ],
+  "concept_id": "joyride",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "joyride",
+  "observation_id": "6c8c8049c680ad21",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "joyride",
+  "source_context_snippet": "*Presenting Joyride with an AI powered presentation system, made with Joyride*",
+  "source_file": null,
+  "source_repo": "PEZ/joydrive-lm-tool-prezo",
+  "source_repo_description": "A self contained project for presenting CoPilot support for Joyride"
+}

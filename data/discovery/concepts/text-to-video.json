@@ -91,6 +91,66 @@
       "source_repo": "PKU-YuanGroup/MagicTime",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "Finetune ModelScope's Text To Video model using Diffusers \ud83e\udde8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 Oral] MotionDirector: Motion Customization of Text-to-Video Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "status": "candidate-context",
+      "text": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "status": "candidate-context",
+      "text": "<a href='https://ailab-cvc.github.io/videocrafter2/'><img src='https://img.shields.io/badge/Project-Page-green'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +193,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PKU-YuanGroup/MagicTime",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100\" height=\"100\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "showlab/MotionDirector",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios-Page",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "status": "candidate",
+      "text": "<a href='https://ailab-cvc.github.io/videocrafter2/'><img src='https://img.shields.io/badge/Project-Page-green'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
       "status": "candidate",
       "text": "<div align=center>"
     }
@@ -184,11 +274,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PKU-YuanGroup/MagicTime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "showlab/MotionDirector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios-Page"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

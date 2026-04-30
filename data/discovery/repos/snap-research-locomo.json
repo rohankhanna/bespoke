@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:26:42.834908+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 7941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "snap-research/locomo",
+    "html_url": "https://github.com/snap-research/locomo",
+    "language": "Python",
+    "pushed_at": "2024-08-13T03:21:32Z",
+    "stargazers_count": 822,
+    "topics": [],
+    "updated_at": "2026-04-30T00:29:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

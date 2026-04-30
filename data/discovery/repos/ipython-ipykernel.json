@@ -1,0 +1,709 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/upload-coverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/report-coverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/check-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/make-sdist@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/test-sdist@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/check-links@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/downstream-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/downstream-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/downstream-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/downstream-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/enforce-label@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/prep-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/publish-changelog@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/populate-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/finalize-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipython/ipykernel",
+      "target": "ipython/.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ipython/ipykernel",
+      "target": "tox-dev/sphinx-autodoc-typehints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/upload-coverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/report-coverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/check-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/make-sdist@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/test-sdist@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/check-links@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "ipykernel tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/downstream-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "Test downstream projects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/enforce-label@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "Enforce PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "nightly build and upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/prep-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "Step 1: Prep Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/publish-changelog@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "Publish Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/populate-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/finalize-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "ipython/ipykernel",
+      "target": "Step 2: Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "ipython-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipython/ipykernel",
+      "target": "kernel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:31.903535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2182
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8665
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6003
+    },
+    {
+      "path": ".github/workflows/downstream.yml",
+      "size": 2375
+    },
+    {
+      "path": ".github/workflows/enforce-label.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/prep-release.yml",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/publish-changelog.yml",
+      "size": 928
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 1798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IPython Kernel for Jupyter",
+    "fork": false,
+    "full_name": "ipython/ipykernel",
+    "html_url": "https://github.com/ipython/ipykernel",
+    "language": "Python",
+    "pushed_at": "2026-04-27T21:41:51Z",
+    "stargazers_count": 721,
+    "topics": [
+      "closember",
+      "ipython",
+      "ipython-kernel",
+      "jupyter",
+      "jupyter-notebook",
+      "kernel",
+      "python"
+    ],
+    "updated_at": "2026-04-16T00:48:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipython/.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tox-dev/sphinx-autodoc-typehints",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ipykernel tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "ipykernel tests"
+    },
+    {
+      "context_snippet": "Test downstream projects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "term": "Test downstream projects"
+    },
+    {
+      "context_snippet": "Enforce PR label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "term": "Enforce PR label"
+    },
+    {
+      "context_snippet": "nightly build and upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "nightly build and upload"
+    },
+    {
+      "context_snippet": "\"Step 1: Prep Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prep-release.yml",
+      "term": "Step 1: Prep Release"
+    },
+    {
+      "context_snippet": "\"Publish Changelog\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "term": "Publish Changelog"
+    },
+    {
+      "context_snippet": "\"Step 2: Publish Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "Step 2: Publish Release"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closember"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython-kernel"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    }
+  ]
+}

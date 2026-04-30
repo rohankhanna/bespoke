@@ -199,6 +199,30 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "Instant, controllable, local pre-trained AI models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Floneum</h1>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Floneum</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +472,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hybridgroup/yzma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "floneum/floneum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

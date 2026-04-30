@@ -11,6 +11,11 @@
       "source_file": ".github/workflows/PR-4.x.yaml"
     },
     {
+      "component": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux-NoHAL.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml"
+    },
+    {
       "component": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Windows.yaml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/PR-4.x.yaml"
@@ -78,13 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "opencv/opencv",
-      "target": "opencv/opencv_contrib",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/4.x.yml",
       "source_repo": "opencv/opencv",
@@ -96,6 +94,13 @@
       "source_file": ".github/workflows/PR-4.x.yaml",
       "source_repo": "opencv/opencv",
       "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux-NoHAL.yaml@main",
       "target_type": "component"
     },
     {
@@ -232,7 +237,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:58:38.512285+00:00",
+  "fetched_at": "2026-04-30T08:14:16.876640+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -244,7 +249,7 @@
     },
     {
       "path": ".github/workflows/PR-4.x.yaml",
-      "size": 1691
+      "size": 1788
     }
   ],
   "related_repositories": [],
@@ -256,8 +261,8 @@
     "full_name": "opencv/opencv",
     "html_url": "https://github.com/opencv/opencv",
     "language": "C++",
-    "pushed_at": "2026-04-21T11:05:02Z",
-    "stargazers_count": 87203,
+    "pushed_at": "2026-04-30T06:10:01Z",
+    "stargazers_count": 87296,
     "topics": [
       "c-plus-plus",
       "computer-vision",
@@ -265,15 +270,9 @@
       "image-processing",
       "opencv"
     ],
-    "updated_at": "2026-04-22T04:09:38Z"
+    "updated_at": "2026-04-30T07:34:31Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opencv/opencv_contrib",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "PR:4.x",

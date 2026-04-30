@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/UltraChat",
+      "target": "thunlp/ultrafeedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/UltraChat",
+      "target": "nomic-ai/gpt4all",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/UltraChat",
+      "target": "nlpxucan/wizardlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/UltraChat",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:03.699873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large-scale, Informative, and Diverse Multi-round Chat Data (and Models)",
+    "fork": false,
+    "full_name": "thunlp/UltraChat",
+    "html_url": "https://github.com/thunlp/UltraChat",
+    "language": "Python",
+    "pushed_at": "2024-03-13T02:49:52Z",
+    "stargazers_count": 2831,
+    "topics": [
+      "chatbot",
+      "chatgpt",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "updated_at": "2026-04-29T23:49:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nlpxucan/wizardlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nomic-ai/gpt4all",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/ultrafeedback",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

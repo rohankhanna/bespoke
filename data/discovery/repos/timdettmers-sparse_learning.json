@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimDettmers/sparse_learning",
+      "target": "intelai/dynamic-reparameterization",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:30.301835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3912
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sparse learning library and sparse momentum resources.",
+    "fork": false,
+    "full_name": "TimDettmers/sparse_learning",
+    "html_url": "https://github.com/TimDettmers/sparse_learning",
+    "language": "Python",
+    "pushed_at": "2022-06-06T18:16:54Z",
+    "stargazers_count": 385,
+    "topics": [],
+    "updated_at": "2026-01-25T11:31:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelai/dynamic-reparameterization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-Grabber",
+      "target": "open-webui/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-Grabber",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:56.628680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5378
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A quick utility for grabbing docs from Github repos (use-case: providing context to AI tools)",
+    "fork": false,
+    "full_name": "danielrosehill/Docs-Grabber",
+    "html_url": "https://github.com/danielrosehill/Docs-Grabber",
+    "language": "Python",
+    "pushed_at": "2025-03-13T16:41:29Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-13T16:41:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-webui/docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

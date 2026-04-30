@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Accepted in CVPR 2023"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Paper](https://arxiv.org/pdf/2304.04745.pdf) | [Project](https://aimansnigdha.github.io/cimd/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2304.04745.pdf) | [Project](https://aimansnigdha.github.io/cimd/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "medical-imaging",
+      "sense_id": "medical-imaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "medical-imaging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "medical-imaging",
+  "observation_id": "59d6caa9c7716b37",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "medical-imaging",
+  "source_context_snippet": "[Paper](https://arxiv.org/pdf/2304.04745.pdf) | [Project](https://aimansnigdha.github.io/cimd/)",
+  "source_file": null,
+  "source_repo": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+  "source_repo_description": "Accepted in CVPR 2023"
+}

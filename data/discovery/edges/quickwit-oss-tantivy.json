@@ -4,6 +4,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "quickwit-oss/tantivy",
+      "target": "quickwit-oss/quickwit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quickwit-oss/tantivy",
+      "target": "quickwit-oss/search-benchmark-game",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quickwit-oss/tantivy",
       "target": "lindera-morphology/lindera-tantivy",
       "target_type": "repository"
     },
@@ -11,21 +25,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "quickwit-oss/tantivy",
-      "target": "lindera-morphology/lindera-ko-dic-builder",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "baygeldin/tantiny",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "lnx-search/lnx",
+      "target": "matrix-org/seshat",
       "target_type": "repository"
     },
     {
@@ -176,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "quickwit-oss/tantivy"
 }

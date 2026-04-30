@@ -1,0 +1,331 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v29.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "nerfstudio-project/nerfstudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "kair-bair/nerfacc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "Core Tests.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "tj-actions/changed-files@v29.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "Viewer Build and Deploy.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "implicit-neural-representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "multi-view-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio",
+      "target": "surface-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:48.577396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10310
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3233
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3944
+    },
+    {
+      "path": ".github/workflows/core_code_checks.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 951
+    },
+    {
+      "path": ".github/workflows/viewer_build_deploy.yml",
+      "size": 2835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Unified Framework for Surface Reconstruction",
+    "fork": false,
+    "full_name": "autonomousvision/sdfstudio",
+    "html_url": "https://github.com/autonomousvision/sdfstudio",
+    "language": "Python",
+    "pushed_at": "2024-07-11T02:15:36Z",
+    "stargazers_count": 2106,
+    "topics": [
+      "3d-reconstruction",
+      "implicit-neural-representation",
+      "multi-view-reconstruction",
+      "nerf",
+      "pytorch",
+      "sdf",
+      "surface-reconstruction"
+    ],
+    "updated_at": "2026-04-29T21:16:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kair-bair/nerfacc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nerfstudio-project/nerfstudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Core Tests.",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core_code_checks.yml",
+      "term": "Core Tests."
+    },
+    {
+      "context_snippet": "Viewer Build and Deploy.",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/viewer_build_deploy.yml",
+      "term": "Viewer Build and Deploy."
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-neural-representation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-reconstruction"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "pku-yuangroup/opens2v-nexus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "pku-yuangroup/consisid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "snap-research/panda-70m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "evaluation-kit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "gen-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "metamorphic-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "open-sora-plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "time-lapse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "time-lapse-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:17.350127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26967
+    },
+    {
+      "path": "requirements.txt",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/ChronoMagic-Bench",
+    "html_url": "https://github.com/PKU-YuanGroup/ChronoMagic-Bench",
+    "language": "Python",
+    "pushed_at": "2026-04-14T03:26:11Z",
+    "stargazers_count": 211,
+    "topics": [
+      "aigc",
+      "benchmark",
+      "dataset",
+      "diffusion-models",
+      "evaluation",
+      "evaluation-kit",
+      "gen-ai",
+      "metamorphic-video-generation",
+      "open-sora-plan",
+      "text-to-video",
+      "time-lapse",
+      "time-lapse-dataset",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-21T08:59:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/consisid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/opens2v-nexus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snap-research/panda-70m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-kit"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gen-ai"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metamorphic-video-generation"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-sora-plan"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-lapse"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-lapse-dataset"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

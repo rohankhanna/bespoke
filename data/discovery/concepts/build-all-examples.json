@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build all examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate-context",
+      "text": "Collection of JUnit example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate-context",
+      "text": "Build all examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-examples",
+      "status": "candidate",
+      "text": "Build all examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38114,
+      "status": "candidate",
+      "text": "greek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37801,
+      "status": "candidate",
+      "text": "instances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29574,
+      "status": "candidate",
+      "text": "samples"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "like"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "monitoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build all examples",
+  "concept_id": "build-all-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build all examples",
+      "sense_id": "build-all-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

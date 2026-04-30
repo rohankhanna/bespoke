@@ -63,6 +63,30 @@
       "source_repo": "solo-io/proxy-runtime",
       "status": "candidate-context",
       "text": "check-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "OneFlow is a deep learning framework designed to be user-friendly, scalable and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "Check PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate-context",
+      "text": "Raspberry Pi App Store for Open Source Projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate-context",
+      "text": "Check PR"
     }
   ],
   "candidate_glosses": [
@@ -95,6 +119,18 @@
       "source_repo": "solo-io/proxy-runtime",
       "status": "candidate",
       "text": "check-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate",
+      "text": "Check PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate",
+      "text": "Check PR"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +204,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "solo-io/proxy-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Oneflow-Inc/oneflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check_PR.yml",
+      "source_repo": "Botspot/pi-apps"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

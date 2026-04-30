@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:05:00.718269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5456
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1710
+    },
+    {
+      "path": "requirements.txt",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "parallel docker environments",
+    "fork": false,
+    "full_name": "Computer-use-agents/GUI-Docker-Env",
+    "html_url": "https://github.com/Computer-use-agents/GUI-Docker-Env",
+    "language": "Python",
+    "pushed_at": "2025-12-18T07:45:55Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-02-13T09:57:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

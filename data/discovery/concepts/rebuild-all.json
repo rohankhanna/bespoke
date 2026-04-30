@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebuild all"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate-context",
+      "text": "Info about PHP PECL packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate-context",
+      "text": "Rebuild all"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/pecl-info",
+      "status": "candidate",
+      "text": "Rebuild all"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34814,
+      "status": "candidate",
+      "text": "refurbished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34814,
+      "status": "candidate",
+      "text": "refurbishing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "reconstructive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "redevelop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebuild all",
+  "concept_id": "rebuild-all",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rebuild-all.yml",
+      "source_repo": "mlocati/pecl-info"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebuild all",
+      "sense_id": "rebuild-all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

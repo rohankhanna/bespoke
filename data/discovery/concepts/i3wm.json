@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "i3wm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "AeroSpace is an i3-like tiling window manager for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate-context",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitabobko/AeroSpace",
+      "status": "candidate",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "i3wm",
+  "concept_id": "i3wm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i3wm",
+      "sense_id": "i3wm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

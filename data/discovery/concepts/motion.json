@@ -43,6 +43,18 @@
       "source_repo": "ggandor/lightspeed.nvim",
       "status": "candidate-context",
       "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "VPoser: Variational Human Pose Prior"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate-context",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ggandor/lightspeed.nvim",
       "status": "candidate",
       "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/human_body_prior",
+      "status": "candidate",
+      "text": "![alt text](support_data/vposer_samples.png \"Novel Human Poses Sampled From the VPoser.\")"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ggandor/lightspeed.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/human_body_prior"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

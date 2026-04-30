@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aldernero/sketchy",
+      "target": "abey79/vsketch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aldernero/sketchy",
+      "target": "openframeworks/openframeworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aldernero/sketchy",
+      "target": "tdewolff/canvas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aldernero/sketchy",
+      "target": "aldernero/debugui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aldernero/sketchy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aldernero/sketchy",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aldernero/sketchy",
+      "target": "goreleaser/goreleaser-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aldernero/sketchy",
+      "target": "\ud83d\udce6 Release with GoReleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "creative-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "ebiten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "generative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "generative-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:41.857500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5846
+    },
+    {
+      "path": "go.mod",
+      "size": 3022
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for creating generative art in Go",
+    "fork": false,
+    "full_name": "aldernero/sketchy",
+    "html_url": "https://github.com/aldernero/sketchy",
+    "language": "Go",
+    "pushed_at": "2026-04-15T01:42:18Z",
+    "stargazers_count": 69,
+    "topics": [
+      "creative-coding",
+      "ebiten",
+      "generative",
+      "generative-art",
+      "generative-design",
+      "golang"
+    ],
+    "updated_at": "2026-04-15T01:42:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abey79/vsketch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aldernero/debugui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openframeworks/openframeworks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tdewolff/canvas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udce6 Release with GoReleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "\ud83d\udce6 Release with GoReleaser"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creative-coding"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebiten"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-design"
+    },
+    {
+      "context_snippet": "![sketchy_logo](assets/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

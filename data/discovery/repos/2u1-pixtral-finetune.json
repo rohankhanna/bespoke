@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "2u1/llama3.2-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "2u1/smolvlm-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "andimarafioti/florence2-finetuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "pixtral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:23.296534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source implementaion for fine-tuning Pixtral by MistralAI.",
+    "fork": false,
+    "full_name": "2U1/Pixtral-Finetune",
+    "html_url": "https://github.com/2U1/Pixtral-Finetune",
+    "language": "Python",
+    "pushed_at": "2025-02-05T22:32:57Z",
+    "stargazers_count": 23,
+    "topics": [
+      "chatbot",
+      "mistral",
+      "multimodal",
+      "pixtral",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-03-12T09:15:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/llama3.2-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen2-vl-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/smolvlm-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andimarafioti/florence2-finetuning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixtral"
+    },
+    {
+      "context_snippet": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

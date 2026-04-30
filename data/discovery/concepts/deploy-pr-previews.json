@@ -19,12 +19,30 @@
       "source_repo": "callowayproject/bump-my-version",
       "status": "candidate-context",
       "text": "Deploy PR previews"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "Deploy PR previews"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "callowayproject/bump-my-version",
+      "status": "candidate",
+      "text": "Deploy PR previews"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
       "status": "candidate",
       "text": "Deploy PR previews"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs-preview.yml",
       "source_repo": "callowayproject/bump-my-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "Roshanjossey/code-contributions"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

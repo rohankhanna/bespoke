@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a project for you to practice contributing to open source projects with code."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a project for you to practice contributing to open source projects with code."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002284,
+      "status": "candidate",
+      "text": "novice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002206,
+      "status": "candidate",
+      "text": "tyro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953170,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946574,
+      "status": "candidate",
+      "text": "founder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930310,
+      "status": "candidate",
+      "text": "father"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beginner",
+      "sense_id": "beginner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28039,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "novice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19036,
+      "status": "candidate",
+      "text": "tyro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14047,
+      "status": "candidate",
+      "text": "founder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9049,
+      "status": "candidate",
+      "text": "father"
+    }
+  ],
+  "concept_id": "beginner",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beginner",
+  "observation_id": "2bd4a6721d68e739",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "beginner",
+  "source_context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+  "source_file": null,
+  "source_repo": "Roshanjossey/code-contributions",
+  "source_repo_description": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+}

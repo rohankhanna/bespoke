@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933594,
+      "status": "candidate",
+      "text": "supermodularity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933593,
+      "status": "candidate",
+      "text": "comodule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933592,
+      "status": "candidate",
+      "text": "indecomposability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933591,
+      "status": "candidate",
+      "text": "submodularity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933590,
+      "status": "candidate",
+      "text": "multimodeness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "composability",
+      "sense_id": "composability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "composability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "composability",
+  "observation_id": "6bfc74fe9f1f3a9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "composability",
+  "source_context_snippet": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026",
+  "source_file": null,
+  "source_repo": "uxlfoundation/oneTBB",
+  "source_repo_description": "oneAPI Threading Building Blocks (oneTBB)"
+}

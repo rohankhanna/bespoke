@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Angular"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Angular"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023249,
+      "status": "candidate",
+      "text": "angled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023243,
+      "status": "candidate",
+      "text": "angulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023205,
+      "status": "candidate",
+      "text": "sharp-cornered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022356,
+      "status": "candidate",
+      "text": "rectangular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020518,
+      "status": "candidate",
+      "text": "triangular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Angular",
+      "sense_id": "angular#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "cuspate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3030,
+      "status": "candidate",
+      "text": "angled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2045,
+      "status": "candidate",
+      "text": "asteroid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "angulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "cusped"
+    }
+  ],
+  "concept_id": "angular",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "angular",
+  "observation_id": "a844be37f5ec8340",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Angular",
+  "source_context_snippet": "Angular",
+  "source_file": ".github/workflows/angular.yml",
+  "source_repo": "jhipster/generator-jhipster",
+  "source_repo_description": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+}

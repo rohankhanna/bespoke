@@ -1,12 +1,27 @@
 {
   "component": "cachix/install-nix-action@96951a368ba55167b55f1c916f7d416bac6505fe",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-nix-flake-lock.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-nix-hashes.yml",
+      "source_repo": "akvorado/akvorado"
     }
   ]
 }

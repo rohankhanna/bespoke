@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kurrentdb-nodejs-client"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate-context",
+      "text": "Performance bridge for KurrentDB Node.js client using Rust native addons via Neon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kurrentdb-nodejs-client",
+  "concept_id": "kurrentdb-nodejs-client",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kurrentdb-nodejs-client",
+      "sense_id": "kurrentdb-nodejs-client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

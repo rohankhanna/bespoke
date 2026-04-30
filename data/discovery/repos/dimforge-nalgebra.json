@@ -139,7 +139,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:49:42.777464+00:00",
+  "fetched_at": "2026-04-30T08:24:51.588400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -164,14 +164,14 @@
     "html_url": "https://github.com/dimforge/nalgebra",
     "language": "Rust",
     "pushed_at": "2026-04-23T18:38:57Z",
-    "stargazers_count": 4702,
+    "stargazers_count": 4711,
     "topics": [
       "algebra",
       "linear-algebra",
       "matrix",
       "vector"
     ],
-    "updated_at": "2026-04-23T18:39:03Z"
+    "updated_at": "2026-04-29T19:22:30Z"
   },
   "repo_links": [],
   "terms": [

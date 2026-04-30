@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -612,6 +612,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-hurl-sqlite.yml",
       "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "huggingface/lighteval"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AndyTheFactory/newspaper4k"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "plotly/Kaleido"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "BrianPugh/cyclopts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "BrianPugh/cyclopts"
     }
   ]
 }

@@ -19,6 +19,30 @@
       "source_repo": "miguelgrinberg/python-socketio",
       "status": "candidate-context",
       "text": "python-socketio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "Distributed Stream and Batch Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "miguelgrinberg/python-socketio",
       "status": "candidate",
       "text": "python-socketio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "miguelgrinberg/python-socketio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/action_scanning.yml",
       "source_repo": "google/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "flatpak/xdg-desktop-portal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/infra-ci.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-jobs.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript"
     }
   ]
 }

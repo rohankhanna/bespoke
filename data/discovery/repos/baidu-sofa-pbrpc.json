@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:06:13.085682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A light-weight RPC implement of google protobuf RPC framework.",
+    "fork": false,
+    "full_name": "baidu/sofa-pbrpc",
+    "html_url": "https://github.com/baidu/sofa-pbrpc",
+    "language": "C++",
+    "pushed_at": "2023-08-24T08:55:55Z",
+    "stargazers_count": 2144,
+    "topics": [],
+    "updated_at": "2026-04-23T03:50:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

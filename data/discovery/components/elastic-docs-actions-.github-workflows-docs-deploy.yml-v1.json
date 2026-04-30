@@ -1,12 +1,17 @@
 {
   "component": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs-deploy.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/elasticsearch"
     }
   ]
 }

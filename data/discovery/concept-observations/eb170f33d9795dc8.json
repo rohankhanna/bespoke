@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd A collaborative technical glossary for key words and terms to help anyone learn and understand concepts and prepare for a career as a creative technologist!  \ud83d\ude15 > \ud83e\udd14 > \ud83d\udca1 > \ud83d\ude0a \ud83c\udf89 \ud83d\ude80 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873199,
+      "status": "candidate",
+      "text": "technological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864946,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864332,
+      "status": "candidate",
+      "text": "specialized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39860373,
+      "status": "candidate",
+      "text": "commercial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39850532,
+      "status": "candidate",
+      "text": "theoretical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "technical",
+      "sense_id": "technical#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52053,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "theoretical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10045,
+      "status": "candidate",
+      "text": "commercial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8025,
+      "status": "candidate",
+      "text": "specialized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "technological"
+    }
+  ],
+  "concept_id": "technical",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "technical",
+  "observation_id": "eb170f33d9795dc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "technical",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/technical-glossary",
+  "source_repo_description": "\ud83d\udcdd A collaborative technical glossary for key words and terms to help anyone learn and understand concepts and prepare for a career as a creative technologist!  \ud83d\ude15 > \ud83e\udd14 > \ud83d\udca1 > \ud83d\ude0a \ud83c\udf89 \ud83d\ude80 "
+}

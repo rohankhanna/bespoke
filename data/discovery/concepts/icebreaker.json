@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "icebreaker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate-context",
+      "text": "SH1107 OLED (I\u00b2C) driver, plus virtual hardware testbench."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate-context",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049766,
+      "status": "candidate",
+      "text": "iceboat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050196,
+      "status": "candidate",
+      "text": "icebreaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049765,
+      "status": "candidate",
+      "text": "vessel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19888284,
+      "status": "candidate",
+      "text": "class"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822629,
+      "status": "candidate",
+      "text": "preface"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "iceboat"
+    }
+  ],
+  "canonical_name": "icebreaker",
+  "concept_id": "icebreaker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icebreaker",
+      "sense_id": "icebreaker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

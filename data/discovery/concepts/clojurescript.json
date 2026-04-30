@@ -259,6 +259,78 @@
       "source_repo": "sogaiu/tree-sitter-clojure",
       "status": "candidate-context",
       "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binaryage/cljs-oops",
+      "status": "candidate-context",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryage/cljs-oops",
+      "status": "candidate-context",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate-context",
+      "text": "retrocompute aesthetics twitter bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate-context",
+      "text": "This bot runs https://twitter.com/c64core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate-context",
+      "text": "Visual display for ClojureScript tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate-context",
+      "text": "This is the original Flappy Bird Demo updated to use the latest incarnation of Figwheel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate-context",
+      "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "nREPL support for ClojureScript REPLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate-context",
+      "text": "A Leiningen template for creating a re-frame application (client only) with a shadow-cljs build."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +459,42 @@
       "source_repo": "sogaiu/tree-sitter-clojure",
       "status": "candidate",
       "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryage/cljs-oops",
+      "status": "candidate",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chr15m/c64core",
+      "status": "candidate",
+      "text": "This bot runs https://twitter.com/c64core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate",
+      "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-template",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-template/workflows/ci/badge.svg)](https://github.com/day8/re-frame-template/actions?workflow=ci)"
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +652,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sogaiu/tree-sitter-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-oops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chr15m/c64core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/cljs-test-display"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-frame-template"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

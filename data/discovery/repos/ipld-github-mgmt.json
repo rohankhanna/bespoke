@@ -1,0 +1,645 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/github-mgmt",
+      "target": "protocol/github-mgmt-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Apply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Clean Up",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt",
+      "target": "Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/github-mgmt",
+      "target": "ipdx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:55.930354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/apply.yml",
+      "size": 3177
+    },
+    {
+      "path": ".github/workflows/clean.yml",
+      "size": 3279
+    },
+    {
+      "path": ".github/workflows/cleanup.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/fix.yml",
+      "size": 7419
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 1789
+    },
+    {
+      "path": ".github/workflows/plan.yml",
+      "size": 6568
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 5342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ipld/github-mgmt",
+    "html_url": "https://github.com/ipld/github-mgmt",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-28T21:46:15Z",
+    "stargazers_count": 2,
+    "topics": [
+      "ipdx"
+    ],
+    "updated_at": "2026-04-28T21:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "protocol/github-mgmt-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Apply",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply.yml",
+      "term": "Apply"
+    },
+    {
+      "context_snippet": "Clean",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "term": "Clean"
+    },
+    {
+      "context_snippet": "Clean Up",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup.yml",
+      "term": "Clean Up"
+    },
+    {
+      "context_snippet": "Fix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix.yml",
+      "term": "Fix"
+    },
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "Plan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan.yml",
+      "term": "Plan"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Sync"
+    },
+    {
+      "context_snippet": "This repository is responsible for managing GitHub configuration of `ipld` organisation as code with Terraform. It was created from [github-mgmt-template](https://github.com/protocol/github-mgmt-template) and it will receive updates from that repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipdx"
+    }
+  ]
+}

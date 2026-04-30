@@ -31,6 +31,30 @@
       "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/rife-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/rife-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/nihui/rife-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/rife-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/rife-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nihui/rife-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

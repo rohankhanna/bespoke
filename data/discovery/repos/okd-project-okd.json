@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "openshift/source-to-image",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "okd-project/okd",
       "target": "openshift-s2i/s2i-wildfly",
       "target_type": "repository"
     },
@@ -26,7 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "sclorg/mariadb-container",
+      "target": "sclorg/mysql-container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "okd-project/okd",
+      "target": "sclorg/mongodb-container",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:07:07.329991+00:00",
+  "fetched_at": "2026-04-30T09:31:04.896342+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,12 +90,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openshift/source-to-image",
+      "full_name": "sclorg/mongodb-container",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sclorg/mariadb-container",
+      "full_name": "sclorg/mysql-container",
       "source_file": "README.md"
     }
   ],

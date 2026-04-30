@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Deploy New SNAPSHOT",
+    "Deploy New Snapshot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 LangGraph for Java. A library for develop AI Agentic Architectures in the Java ecosystem. Designed to work seamlessly with both Langchain4j and Spring AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "Deploy New SNAPSHOT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bsorrentino/java-async-generator",
+      "status": "candidate-context",
+      "text": "a Java version of Javascript async generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsorrentino/java-async-generator",
+      "status": "candidate-context",
+      "text": "Deploy New Snapshot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate",
+      "text": "Deploy New SNAPSHOT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bsorrentino/java-async-generator",
+      "status": "candidate",
+      "text": "Deploy New Snapshot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29304,
+      "status": "candidate",
+      "text": "highlights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27324,
+      "status": "candidate",
+      "text": "draft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy New SNAPSHOT",
+  "concept_id": "deploy-new-snapshot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "bsorrentino/java-async-generator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy New SNAPSHOT",
+      "sense_id": "deploy-new-snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-docs-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env-ctrl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-docs-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-docs-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Release Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-env-ctrl.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-env-ctrl.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Test Environment Control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-envs-docker.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-envs-docker.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Test Environments Docker Sites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ServiceNow/webarena-verified",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:30.397712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10807
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1549
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6833
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 360
+    },
+    {
+      "path": ".github/workflows/dev-docs-publish.yml",
+      "size": 1018
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "size": 4280
+    },
+    {
+      "path": ".github/workflows/test-env-ctrl.yml",
+      "size": 1320
+    },
+    {
+      "path": ".github/workflows/test-envs-docker.yml",
+      "size": 3909
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A verified version of the WebArena Benchmark",
+    "fork": false,
+    "full_name": "ServiceNow/webarena-verified",
+    "html_url": "https://github.com/ServiceNow/webarena-verified",
+    "language": "Python",
+    "pushed_at": "2026-03-08T19:20:25Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-04-14T05:49:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copilot Setup Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-docs-publish.yml",
+      "term": "Publish Docs"
+    },
+    {
+      "context_snippet": "Release Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "term": "Release Publish"
+    },
+    {
+      "context_snippet": "Test Environment Control",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-env-ctrl.yml",
+      "term": "Test Environment Control"
+    },
+    {
+      "context_snippet": "Test Environments Docker Sites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-envs-docker.yml",
+      "term": "Test Environments Docker Sites"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

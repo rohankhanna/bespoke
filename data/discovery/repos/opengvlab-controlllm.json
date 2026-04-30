@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/ControlLLM",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/ControlLLM",
+      "target": "facebookresearch/audiocraft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/ControlLLM",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/ControlLLM",
+      "target": "opengvlab/draggan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:07.541299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6578
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ControlLLM: Augment Language Models with Tools by Searching on Graphs",
+    "fork": false,
+    "full_name": "OpenGVLab/ControlLLM",
+    "html_url": "https://github.com/OpenGVLab/ControlLLM",
+    "language": "Python",
+    "pushed_at": "2024-07-15T13:55:47Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-09T05:35:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/audiocraft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/draggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

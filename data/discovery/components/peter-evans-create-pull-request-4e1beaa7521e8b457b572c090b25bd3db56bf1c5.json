@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/create-pull-request@4e1beaa7521e8b457b572c090b25bd3db56bf1c5",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/alerting-swagger-gen.yml",
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
     }
   ]
 }

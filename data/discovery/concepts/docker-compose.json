@@ -175,6 +175,18 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate-context",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "Official source of container configurations and images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate",
+      "text": "This repository contains [Dockerfiles](https://docs.docker.com/engine/reference/builder/) and samples to build [Docker](https://www.docker.com/what-docker) images for OceanBase products."
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mariolukas/HydraPlay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

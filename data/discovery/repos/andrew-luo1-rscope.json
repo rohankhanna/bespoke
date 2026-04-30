@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:21:36.112902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3345
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RL training visualizer for Mujoco Playground environments + Brax training",
+    "fork": false,
+    "full_name": "Andrew-Luo1/rscope",
+    "html_url": "https://github.com/Andrew-Luo1/rscope",
+    "language": "Python",
+    "pushed_at": "2025-06-29T11:03:37Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-04T19:54:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

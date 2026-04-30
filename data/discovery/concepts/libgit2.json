@@ -43,6 +43,18 @@
       "source_repo": "nodegit/nodegit",
       "status": "candidate-context",
       "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ropensci/git2r",
+      "status": "candidate-context",
+      "text": "R bindings to the libgit2 library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/git2r",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/ropensci/git2r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/git2r/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "nodegit/nodegit",
       "status": "candidate",
       "text": "> Node bindings to the [libgit2](http://libgit2.github.com/) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/git2r",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/ropensci/git2r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/git2r/actions/workflows/R-CMD-check.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "nodegit/nodegit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ropensci/git2r"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

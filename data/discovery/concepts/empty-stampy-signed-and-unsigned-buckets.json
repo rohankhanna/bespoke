@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Empty Stampy signed and unsigned buckets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/cli",
+      "status": "candidate-context",
+      "text": "Heroku CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cli",
+      "status": "candidate-context",
+      "text": "Empty Stampy signed and unsigned buckets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/cli",
+      "status": "candidate",
+      "text": "Empty Stampy signed and unsigned buckets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17828,
+      "status": "candidate",
+      "text": "wrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17824,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17824,
+      "status": "candidate",
+      "text": "apprentice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17824,
+      "status": "candidate",
+      "text": "chock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17824,
+      "status": "candidate",
+      "text": "cinder block"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Empty Stampy signed and unsigned buckets",
+  "concept_id": "empty-stampy-signed-and-unsigned-buckets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/empty-stampy-buckets.yml",
+      "source_repo": "heroku/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Empty Stampy signed and unsigned buckets",
+      "sense_id": "empty-stampy-signed-and-unsigned-buckets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

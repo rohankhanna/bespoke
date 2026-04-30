@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish containers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10608,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10538,
+      "status": "candidate",
+      "text": "bins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10538,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10538,
+      "status": "candidate",
+      "text": "dish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10538,
+      "status": "candidate",
+      "text": "dished"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish containers",
+      "sense_id": "publish-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-containers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-containers",
+  "observation_id": "083214c9b4b1a660",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Publish containers",
+  "source_context_snippet": "Publish containers",
+  "source_file": ".github/workflows/containers.yml",
+  "source_repo": "cachix/devenv",
+  "source_repo_description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+}

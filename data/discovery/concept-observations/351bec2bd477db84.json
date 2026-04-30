@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":chart_with_upwards_trend: General purpose hits (page views) counter written in Node.js backed by filesystem. (MVP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002326,
+      "status": "candidate",
+      "text": "antagonistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001054,
+      "status": "candidate",
+      "text": "forestall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989601,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985013,
+      "status": "candidate",
+      "text": "foresee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964906,
+      "status": "candidate",
+      "text": "tabulator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "counter",
+      "sense_id": "counter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24035,
+      "status": "candidate",
+      "text": "forestall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20039,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20032,
+      "status": "candidate",
+      "text": "antagonistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18060,
+      "status": "candidate",
+      "text": "heel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12036,
+      "status": "candidate",
+      "text": "foresee"
+    }
+  ],
+  "concept_id": "counter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "counter",
+  "observation_id": "351bec2bd477db84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "counter",
+  "source_context_snippet": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)",
+  "source_file": null,
+  "source_repo": "dwyl/hits-nodejs",
+  "source_repo_description": ":chart_with_upwards_trend: General purpose hits (page views) counter written in Node.js backed by filesystem. (MVP)"
+}

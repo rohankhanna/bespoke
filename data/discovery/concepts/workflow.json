@@ -211,6 +211,90 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate-context",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 LangGraph for Java. A library for develop AI Agentic Architectures in the Java ecosystem. Designed to work seamlessly with both Langchain4j and Spring AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunch/brunch",
+      "status": "candidate-context",
+      "text": "\ud83c\udf74 Web applications made easy. Since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/brunch",
+      "status": "candidate-context",
+      "text": "> Web applications made easy. Since 2011."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astro/deadnix-action",
+      "status": "candidate-context",
+      "text": "Workflow to find and delete dead nix code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix-action",
+      "status": "candidate-context",
+      "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +399,48 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/brunch",
+      "status": "candidate",
+      "text": "> Web applications made easy. Since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix-action",
+      "status": "candidate",
+      "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +616,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brunch/brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/galaxy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

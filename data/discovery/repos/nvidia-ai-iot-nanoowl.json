@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "nvidia-ai-iot/nanosam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "nvidia-ai-iot/jetson-intro-to-distillation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "detect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "jetson-agx-orin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "jetson-orin-nano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:39.418951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A project that optimizes OWL-ViT for real-time inference with NVIDIA TensorRT.",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/nanoowl",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/nanoowl",
+    "language": "Python",
+    "pushed_at": "2025-02-06T01:01:22Z",
+    "stargazers_count": 426,
+    "topics": [
+      "detect",
+      "fast",
+      "inference",
+      "jetson",
+      "jetson-agx-orin",
+      "jetson-orin-nano",
+      "nvidia",
+      "real-time",
+      "tensorrt",
+      "transformers",
+      "tree",
+      "zero-shot"
+    ],
+    "updated_at": "2026-04-23T01:00:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-ai-iot/jetson-intro-to-distillation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-ai-iot/nanosam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detect"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-agx-orin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-orin-nano"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">NanoOWL</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

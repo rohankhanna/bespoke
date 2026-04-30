@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aipu-delivery.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend3.2-delivery.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/code-format-check@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enflame3.5-gcu400-delivery.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enflame3.6-gcu400-delivery.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/check-backend-changed@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hcu-build-and-test.yml"
+    },
+    {
+      "component": "flagos-ai/FlagTree/.github/actions/check-backend-changed@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hcu-build-and-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "microsoft/triton-shared",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/flir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagtree/llvm-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aipu-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aipu-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "CD-AIPU3.3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend3.2-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend3.2-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "CD-Ascend3.2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/code-format-check@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "Code-Format-Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scan.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "code-scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enflame3.5-gcu400-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enflame3.5-gcu400-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "CD-Enflame3.5-GCU400",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enflame3.6-gcu400-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enflame3.6-gcu400-delivery.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "CD-Enflame3.6-GCU400",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/check-backend-changed@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagcicd-NV-Build-And-Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hcu-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/smart-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hcu-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "flagos-ai/FlagTree/.github/actions/check-backend-changed@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hcu-build-and-test.yml",
+      "source_repo": "flagos-ai/FlagTree",
+      "target": "Hcu-Build-And-Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:11.413180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17530
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/aipu-delivery.yml",
+      "size": 4816
+    },
+    {
+      "path": ".github/workflows/ascend3.2-delivery.yml",
+      "size": 4786
+    },
+    {
+      "path": ".github/workflows/code-format-check.yml",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/code_scan.yml",
+      "size": 2083
+    },
+    {
+      "path": ".github/workflows/enflame3.5-gcu400-delivery.yml",
+      "size": 4789
+    },
+    {
+      "path": ".github/workflows/enflame3.6-gcu400-delivery.yml",
+      "size": 4794
+    },
+    {
+      "path": ".github/workflows/flagcicd-nv-build-and-test.yml",
+      "size": 3160
+    },
+    {
+      "path": ".github/workflows/hcu-build-and-test.yml",
+      "size": 1454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FlagTree is a unified compiler supporting multiple AI chip backends for custom Deep Learning operations, which is forked from triton-lang/triton.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagTree",
+    "html_url": "https://github.com/flagos-ai/FlagTree",
+    "language": "C++",
+    "pushed_at": "2026-04-30T09:15:08Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-04-29T12:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/flir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagtree/llvm-project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/triton-shared",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CD-AIPU3.3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aipu-delivery.yml",
+      "term": "CD-AIPU3.3"
+    },
+    {
+      "context_snippet": "CD-Ascend3.2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend3.2-delivery.yml",
+      "term": "CD-Ascend3.2"
+    },
+    {
+      "context_snippet": "Code-Format-Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "term": "Code-Format-Check"
+    },
+    {
+      "context_snippet": "code-scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scan.yml",
+      "term": "code-scan"
+    },
+    {
+      "context_snippet": "CD-Enflame3.5-GCU400",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enflame3.5-gcu400-delivery.yml",
+      "term": "CD-Enflame3.5-GCU400"
+    },
+    {
+      "context_snippet": "CD-Enflame3.6-GCU400",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enflame3.6-gcu400-delivery.yml",
+      "term": "CD-Enflame3.6-GCU400"
+    },
+    {
+      "context_snippet": "flagcicd-NV-Build-And-Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flagcicd-nv-build-and-test.yml",
+      "term": "flagcicd-NV-Build-And-Test"
+    },
+    {
+      "context_snippet": "Hcu-Build-And-Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hcu-build-and-test.yml",
+      "term": "Hcu-Build-And-Test"
+    }
+  ]
+}

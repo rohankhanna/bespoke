@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "Release kakoune-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "Swatinem/rust-cache@v2.7.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "Test kakoune-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "kakoune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:54.024536+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 785
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kakoune Language Server Protocol Client",
+    "fork": false,
+    "full_name": "kakoune-lsp/kakoune-lsp",
+    "html_url": "https://github.com/kakoune-lsp/kakoune-lsp",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T09:22:48Z",
+    "stargazers_count": 679,
+    "topics": [
+      "kakoune",
+      "language-server-protocol",
+      "lsp",
+      "plugin",
+      "rust"
+    ],
+    "updated_at": "2026-04-24T13:36:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release kakoune-lsp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release kakoune-lsp"
+    },
+    {
+      "context_snippet": "Test kakoune-lsp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test kakoune-lsp"
+    },
+    {
+      "context_snippet": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kakoune"
+    },
+    {
+      "context_snippet": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

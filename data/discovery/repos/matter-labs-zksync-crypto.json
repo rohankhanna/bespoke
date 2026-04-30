@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yaml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "matter-labs/zksync-ci-common/.github/actions/publish-crates@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@fe5624c70923355128868cffd647b6e2cfe11443",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_stable.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_stable.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Build stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Rust CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Cargo deny check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "matter-labs/zksync-ci-common/.github/actions/publish-crates@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Publish crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "trufflesecurity/trufflehog@fe5624c70923355128868cffd647b6e2cfe11443",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync-crypto",
+      "target": "Leaked Secrets Scan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:19.444443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1065
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1517
+    },
+    {
+      "path": ".github/workflows/build_stable.yml",
+      "size": 1010
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1930
+    },
+    {
+      "path": ".github/workflows/deny.yaml",
+      "size": 229
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 1596
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/release-please.yaml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/secrets_scanner.yaml",
+      "size": 550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cryptography libraries for ZKsync",
+    "fork": false,
+    "full_name": "matter-labs/zksync-crypto",
+    "html_url": "https://github.com/matter-labs/zksync-crypto",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T13:44:41Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-06T19:07:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build stable\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_stable.yml",
+      "term": "Build stable"
+    },
+    {
+      "context_snippet": "\"Rust CI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Rust CI"
+    },
+    {
+      "context_snippet": "Cargo deny check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yaml",
+      "term": "Cargo deny check"
+    },
+    {
+      "context_snippet": "PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "PR title"
+    },
+    {
+      "context_snippet": "Publish crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "term": "Publish crates"
+    },
+    {
+      "context_snippet": "Release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "term": "Release-please"
+    },
+    {
+      "context_snippet": "Leaked Secrets Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "term": "Leaked Secrets Scan"
+    }
+  ]
+}

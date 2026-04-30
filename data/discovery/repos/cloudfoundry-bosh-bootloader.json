@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "cloudfoundry/cf-deployment-concourse-tasks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "cloudfoundry/bbl-state-resource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "bootloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bosh-bootloader",
+      "target": "cloud-foundry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:18.741617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5912
+    },
+    {
+      "path": "go.mod",
+      "size": 4301
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Command line utility for standing up a BOSH director on an IAAS of your choice.",
+    "fork": false,
+    "full_name": "cloudfoundry/bosh-bootloader",
+    "html_url": "https://github.com/cloudfoundry/bosh-bootloader",
+    "language": "Go",
+    "pushed_at": "2026-04-24T09:30:47Z",
+    "stargazers_count": 181,
+    "topics": [
+      "bbl",
+      "bootloader",
+      "bosh",
+      "cloud-foundry",
+      "gcp"
+    ],
+    "updated_at": "2026-04-24T09:30:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bbl-state-resource",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-deployment-concourse-tasks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build](https://bosh.ci.cloudfoundry.org/api/v1/teams/main/pipelines/bosh-bootloader/badge)](https://bosh.ci.cloudfoundry.org/teams/main/pipelines/bosh-bootloader)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootloader"
+    },
+    {
+      "context_snippet": "[![Build](https://bosh.ci.cloudfoundry.org/api/v1/teams/main/pipelines/bosh-bootloader/badge)](https://bosh.ci.cloudfoundry.org/teams/main/pipelines/bosh-bootloader)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "[![Build](https://bosh.ci.cloudfoundry.org/api/v1/teams/main/pipelines/bosh-bootloader/badge)](https://bosh.ci.cloudfoundry.org/teams/main/pipelines/bosh-bootloader)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-foundry"
+    }
+  ]
+}

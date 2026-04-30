@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstackjs/rstack-design-resources",
+      "target": "rsbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstackjs/rstack-design-resources",
+      "target": "rsdoctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstackjs/rstack-design-resources",
+      "target": "rspack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstackjs/rstack-design-resources",
+      "target": "rspress",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:00.491874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Design resources for Rstack",
+    "fork": false,
+    "full_name": "rstackjs/rstack-design-resources",
+    "html_url": "https://github.com/rstackjs/rstack-design-resources",
+    "language": null,
+    "pushed_at": "2026-04-21T08:43:28Z",
+    "stargazers_count": 17,
+    "topics": [
+      "rsbuild",
+      "rsdoctor",
+      "rspack",
+      "rspress"
+    ],
+    "updated_at": "2026-04-21T09:43:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsbuild"
+    },
+    {
+      "context_snippet": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsdoctor"
+    },
+    {
+      "context_snippet": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspack"
+    },
+    {
+      "context_snippet": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspress"
+    }
+  ]
+}

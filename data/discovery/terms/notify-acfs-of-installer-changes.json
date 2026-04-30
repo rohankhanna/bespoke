@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify-acfs.yml",
+      "source_repo": "Dicklesworthstone/beads_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/notify-acfs.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer"
+    }
+  ],
+  "term": "Notify ACFS of Installer Changes"
+}

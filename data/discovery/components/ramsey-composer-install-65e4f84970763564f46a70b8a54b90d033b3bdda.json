@@ -1,7 +1,7 @@
 {
   "component": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box"
     }
   ]
 }

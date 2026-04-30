@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rendering-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rendering-engine",
+  "concept_id": "rendering-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rendering-engine",
+      "sense_id": "rendering-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

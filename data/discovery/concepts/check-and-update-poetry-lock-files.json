@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check and Update Poetry Lock Files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate-context",
+      "text": "LLMOps educational project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate-context",
+      "text": "Check and Update Poetry Lock Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate",
+      "text": "Check and Update Poetry Lock Files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39234,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35199,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27882,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27791,
+      "status": "candidate",
+      "text": "certify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27775,
+      "status": "candidate",
+      "text": "hold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check and Update Poetry Lock Files",
+  "concept_id": "check-and-update-poetry-lock-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check and Update Poetry Lock Files",
+      "sense_id": "check-and-update-poetry-lock-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

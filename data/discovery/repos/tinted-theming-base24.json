@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base24",
+      "target": "aaron-williamson/base16-alacritty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base24",
+      "target": "adilosa/base16-jetbrains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base24",
+      "target": "aramisgithub/base16-ia-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/base24",
+      "target": "andreyvpng/base16-vulcan-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base24",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base24",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "base24",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "base24-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "base24-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "base24-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "base24-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24",
+      "target": "theming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:11.950001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15422
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Base24/ Base16 can be used to easily generate your favourite theme for your favourite application. Many of the template repositories provide theme files that you can copy/ import into said application.",
+    "fork": false,
+    "full_name": "tinted-theming/base24",
+    "html_url": "https://github.com/tinted-theming/base24",
+    "language": "Python",
+    "pushed_at": "2026-01-07T20:09:18Z",
+    "stargazers_count": 94,
+    "topics": [
+      "base24",
+      "base24-builder",
+      "base24-scheme",
+      "base24-template",
+      "base24-theme",
+      "theme",
+      "theming"
+    ],
+    "updated_at": "2026-04-14T16:57:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaron-williamson/base16-alacritty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adilosa/base16-jetbrains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreyvpng/base16-vulcan-scheme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aramisgithub/base16-ia-scheme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24-builder"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24-scheme"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24-template"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24-theme"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theming"
+    }
+  ]
+}

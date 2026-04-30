@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AshleyScirra/via.js",
+      "target": "dom-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AshleyScirra/via.js",
+      "target": "postmessage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AshleyScirra/via.js",
+      "target": "proxy-objects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AshleyScirra/via.js",
+      "target": "web-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AshleyScirra/via.js",
+      "target": "workers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:22.160408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Write JS code that runs in a different context. E.g. use the DOM in a Web Worker.",
+    "fork": false,
+    "full_name": "AshleyScirra/via.js",
+    "html_url": "https://github.com/AshleyScirra/via.js",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-13T13:01:53Z",
+    "stargazers_count": 498,
+    "topics": [
+      "dom",
+      "dom-api",
+      "postmessage",
+      "proxy-objects",
+      "web-worker",
+      "workers"
+    ],
+    "updated_at": "2026-04-10T19:11:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dom-api"
+    },
+    {
+      "context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postmessage"
+    },
+    {
+      "context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-objects"
+    },
+    {
+      "context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-worker"
+    },
+    {
+      "context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workers"
+    }
+  ]
+}

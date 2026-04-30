@@ -19,6 +19,18 @@
       "source_repo": "Mithril-mine/libmdbx",
       "status": "candidate-context",
       "text": "libmdbx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Mithril-mine/libmdbx",
       "status": "candidate",
       "text": "libmdbx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

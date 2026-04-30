@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "maestro"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate-context",
+      "text": "Get launch arguments for testing with Detox, Appium, and Maestro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate-context",
+      "text": "React Native module to get launch arguments."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate",
+      "text": "React Native module to get launch arguments."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39713962,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29822701,
+      "status": "candidate",
+      "text": "instructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817888,
+      "status": "candidate",
+      "text": "masters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817531,
+      "status": "candidate",
+      "text": "conductor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817074,
+      "status": "candidate",
+      "text": "schoolmaster"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24076,
+      "status": "candidate",
+      "text": "master"
+    }
+  ],
+  "canonical_name": "maestro",
+  "concept_id": "maestro",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maestro",
+      "sense_id": "maestro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

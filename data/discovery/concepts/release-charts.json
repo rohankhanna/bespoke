@@ -139,6 +139,18 @@
       "source_repo": "apache/apisix-helm-chart",
       "status": "candidate-context",
       "text": "Release Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "Official source of container configurations and images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
+      "status": "candidate-context",
+      "text": "Release Charts"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/docker-images",
       "status": "candidate",
       "text": "Release Charts"
     }
@@ -316,11 +334,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "apache/apisix-helm-chart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/docker-images"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

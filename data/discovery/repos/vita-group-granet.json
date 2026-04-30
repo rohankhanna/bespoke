@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VITA-Group/GraNet",
+      "target": "shiweiliuiiiiiii/granet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "dynamicsparsetraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "graduallymagnitudepruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "granet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "neuroregeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet",
+      "target": "sparsetraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:34.480120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[Neurips 2021] Sparse Training via Boosting Pruning Plasticity with Neuroregeneration ",
+    "fork": false,
+    "full_name": "VITA-Group/GraNet",
+    "html_url": "https://github.com/VITA-Group/GraNet",
+    "language": "Python",
+    "pushed_at": "2023-02-11T03:51:04Z",
+    "stargazers_count": 31,
+    "topics": [
+      "deep-learning",
+      "dynamicsparsetraining",
+      "graduallymagnitudepruning",
+      "granet",
+      "neuroregeneration",
+      "sparsetraining"
+    ],
+    "updated_at": "2025-03-28T14:55:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiweiliuiiiiiii/granet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamicsparsetraining"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graduallymagnitudepruning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "granet"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroregeneration"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/GraNet/blob/main/GraNet_github.png\" width=\"700\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsetraining"
+    }
+  ]
+}

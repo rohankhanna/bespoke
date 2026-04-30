@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhavuklabs/research4j",
+      "target": "venkat1701/research4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j",
+      "target": "langchain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j",
+      "target": "langgraph4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:49.069635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build your own perplexity for your applications using research4j and integrate them for any domain specific usecases",
+    "fork": false,
+    "full_name": "bhavuklabs/research4j",
+    "html_url": "https://github.com/bhavuklabs/research4j",
+    "language": "Java",
+    "pushed_at": "2025-08-15T10:42:29Z",
+    "stargazers_count": 25,
+    "topics": [
+      "java",
+      "langchain",
+      "langchain4j",
+      "langgraph4j",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-14T20:23:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "venkat1701/research4j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain4j"
+    },
+    {
+      "context_snippet": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph4j"
+    },
+    {
+      "context_snippet": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

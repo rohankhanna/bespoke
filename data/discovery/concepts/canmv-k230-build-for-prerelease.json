@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CanMV K230 Build for PreRelease"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kendryte/canmv_k230",
+      "status": "candidate-context",
+      "text": "canmv k230 micropython openmv rtsmart mpp opensbi uboot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kendryte/canmv_k230",
+      "status": "candidate-context",
+      "text": "CanMV K230 Build for PreRelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kendryte/canmv_k230",
+      "status": "candidate",
+      "text": "CanMV K230 Build for PreRelease"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "screening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "followup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "launch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CanMV K230 Build for PreRelease",
+  "concept_id": "canmv-k230-build-for-prerelease",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_manual.yml",
+      "source_repo": "kendryte/canmv_k230"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CanMV K230 Build for PreRelease",
+      "sense_id": "canmv-k230-build-for-prerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

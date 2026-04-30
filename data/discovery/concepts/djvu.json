@@ -19,6 +19,18 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate-context",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate",
+      "text": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "trufanov-nok/minidjvu-mod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "koreader/koreader"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

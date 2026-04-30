@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033652,
+      "status": "candidate",
+      "text": "localized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026135,
+      "status": "candidate",
+      "text": "community"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025628,
+      "status": "candidate",
+      "text": "native"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024474,
+      "status": "candidate",
+      "text": "district"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023549,
+      "status": "candidate",
+      "text": "homegrown"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "local",
+      "sense_id": "local#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34059,
+      "status": "candidate",
+      "text": "community"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10053,
+      "status": "candidate",
+      "text": "topical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7049,
+      "status": "candidate",
+      "text": "native"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "localized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "homegrown"
+    }
+  ],
+  "concept_id": "local",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "local",
+  "observation_id": "d62d7b29a0568679",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "local",
+  "source_context_snippet": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")",
+  "source_file": null,
+  "source_repo": "amd/gaia",
+  "source_repo_description": "Build AI agents for your PC"
+}

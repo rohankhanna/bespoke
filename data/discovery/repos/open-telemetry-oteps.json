@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/oteps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-telemetry/oteps",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/oteps",
+      "target": "opentelemetry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:48.390292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6603
+    },
+    {
+      "path": "go.mod",
+      "size": 92
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "OpenTelemetry Enhancement Proposals",
+    "fork": false,
+    "full_name": "open-telemetry/oteps",
+    "html_url": "https://github.com/open-telemetry/oteps",
+    "language": "Makefile",
+    "pushed_at": "2024-11-26T15:18:32Z",
+    "stargazers_count": 351,
+    "topics": [
+      "opentelemetry"
+    ],
+    "updated_at": "2026-04-07T11:54:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![Slack chat][slack-image]][slack-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    }
+  ]
+}

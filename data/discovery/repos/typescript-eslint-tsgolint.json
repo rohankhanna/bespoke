@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typescript-eslint/tsgolint",
+      "target": "dop251/goja",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:17.594834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8378
+    },
+    {
+      "path": "go.mod",
+      "size": 1899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2728 Experimental proof-of-concept typescript-go powered JS/TS linter written in Go",
+    "fork": false,
+    "full_name": "typescript-eslint/tsgolint",
+    "html_url": "https://github.com/typescript-eslint/tsgolint",
+    "language": "Go",
+    "pushed_at": "2025-07-13T07:46:38Z",
+    "stargazers_count": 513,
+    "topics": [],
+    "updated_at": "2026-04-30T09:07:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dop251/goja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:09:46.054434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Colors themes for the lite text editor",
+    "fork": false,
+    "full_name": "rxi/lite-colors",
+    "html_url": "https://github.com/rxi/lite-colors",
+    "language": "Lua",
+    "pushed_at": "2021-09-29T13:41:01Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-08T20:52:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

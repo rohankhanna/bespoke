@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027624,
+      "status": "candidate",
+      "text": "put to death"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010485,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007318,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989459,
+      "status": "candidate",
+      "text": "carry through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985128,
+      "status": "candidate",
+      "text": "accomplish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "execute",
+      "sense_id": "execute#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "accomplish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13044,
+      "status": "candidate",
+      "text": "perform"
+    }
+  ],
+  "concept_id": "execute",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "execute",
+  "observation_id": "c9ffa74d53afee02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "execute",
+  "source_context_snippet": "execa \u2014 Process execution for humans",
+  "source_file": null,
+  "source_repo": "sindresorhus/execa",
+  "source_repo_description": "Process execution for humans"
+}

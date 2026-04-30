@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/UACANet",
+      "target": "acmmm2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/UACANet",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/UACANet",
+      "target": "polyp-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:38.020161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9450
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation (ACMMM 2021)",
+    "fork": false,
+    "full_name": "plemeri/UACANet",
+    "html_url": "https://github.com/plemeri/UACANet",
+    "language": "Python",
+    "pushed_at": "2022-11-08T03:34:35Z",
+    "stargazers_count": 165,
+    "topics": [
+      "acmmm2021",
+      "medical-image-segmentation",
+      "polyp-segmentation"
+    ],
+    "updated_at": "2026-03-13T06:42:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acmmm2021"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp-segmentation"
+    }
+  ]
+}

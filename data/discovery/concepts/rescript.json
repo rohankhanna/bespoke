@@ -19,6 +19,30 @@
       "source_repo": "rescript-lang/rescript",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/reanalyze",
+      "status": "candidate-context",
+      "text": "Experimental analyses for ReScript and OCaml: globally dead values/types, exception analysis, and termination analysis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/reanalyze",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for Tree-Sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "rescript-lang/rescript",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/reanalyze",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/tree-sitter-rescript"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

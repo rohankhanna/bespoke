@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890880,
+      "status": "candidate",
+      "text": "ascendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890607,
+      "status": "candidate",
+      "text": "ascendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889426,
+      "status": "candidate",
+      "text": "climbable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891006,
+      "status": "candidate",
+      "text": "scaling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884909,
+      "status": "candidate",
+      "text": "projection"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scalable",
+      "sense_id": "scalable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "ascendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "ascendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "climbable"
+    }
+  ],
+  "concept_id": "scalable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scalable",
+  "observation_id": "02e37ca0edf29790",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "scalable",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "oceanbase/oceanbase",
+  "source_repo_description": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+}

@@ -439,6 +439,78 @@
       "source_repo": "fengari-lua/fengari-web",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-web.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-web)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "Regularly updated benchmarks for web page minification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate-context",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": ":angel: The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.  It allows you to write HTML pages in pure Python very concisely, which eliminate the need to learn another template language, and to take advantage of the more powerful features of Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate-context",
+      "text": "A template rendering engine based on Jinja, generating type-safe Rust code at compile time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +729,42 @@
       "source_repo": "fengari-lua/fengari-web",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-web.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/minifier-benchmarks",
+      "status": "candidate",
+      "text": "A collection of regularly updated benchmarks for HTML+ minifiers ([context](https://dev.to/j9t/on-the-need-for-neutral-maintained-minifier-metrics-5715))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate",
+      "text": "Dominate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
     }
   ],
   "candidate_related_terms": [
@@ -954,11 +1062,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fengari-lua/fengari-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/minifier-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Knio/dominate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "askama-rs/askama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

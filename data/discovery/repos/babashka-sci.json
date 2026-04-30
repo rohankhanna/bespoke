@@ -91,13 +91,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/sci",
-      "target": "babashka/scittle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/sci",
       "target": "borkdude/clj-kondo",
       "target_type": "repository"
     },
@@ -105,14 +98,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/sci",
-      "target": "betterthantomorrow/joyride",
+      "target": "deep-symmetry/bytefield-svg",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/sci",
-      "target": "barracudanetworks/lighthouse",
+      "target": "epiccastle/spire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/sci",
+      "target": "brunobonacci/graalvm-clojure",
       "target_type": "repository"
     },
     {
@@ -214,7 +214,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:04:10.682529+00:00",
+  "fetched_at": "2026-04-30T08:27:00.311421+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,22 +250,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "babashka/scittle",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "barracudanetworks/lighthouse",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "betterthantomorrow/joyride",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "borkdude/clj-kondo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunobonacci/graalvm-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/bytefield-svg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "epiccastle/spire",
       "source_file": "README.md"
     }
   ],

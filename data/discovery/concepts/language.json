@@ -355,6 +355,18 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "      Fklang \u662f\u4e00\u4e2a\u9762\u5411\u8f6f\u4ef6\u5f00\u53d1\u5de5\u4e1a\u5316\u7684\u67b6\u6784\u8bbe\u8ba1 DSL\uff0c\u901a\u8fc7\u663e\u6027\u5316\u8f6f\u4ef6\u67b6\u6784\u8bbe\u8ba1\uff0c\u4ee5\u786e\u4fdd\u8f6f\u4ef6\u7cfb\u7edf\u63cf\u8ff0\u4e0e\u5b9e\u73b0\u7684\u4e00\u81f4\u6027\u3002\u5e76\u5728\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5185\u5d4c\u5bf9\u4e8e AI \u4ee3\u7801\u751f\u6210\u8f6f\u4ef6\u7684\u652f\u6301\uff0c\u4ee5\u6784\u7b51\u5b8c\u6574\u7684\u5f00\u53d1\u8005\u4f53\u9a8c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/feakin/fklang/actions/workflows/build.yml/badge.svg)](https://github.com/feakin/fklang/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/feakin/fklang/actions/workflows/build.yml/badge.svg)](https://github.com/feakin/fklang/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -832,11 +850,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "feakin/fklang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

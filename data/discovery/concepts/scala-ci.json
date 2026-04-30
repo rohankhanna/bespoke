@@ -43,6 +43,30 @@
       "source_repo": "moznion/sbt-spotless",
       "status": "candidate-context",
       "text": "Scala CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronp/args4c",
+      "status": "candidate-context",
+      "text": "typesafe configuration utilities - additional convenience functionality, helpers for going from main method to config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronp/args4c",
+      "status": "candidate-context",
+      "text": "Scala CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "A FPGA friendly 32 bit RISC-V CPU implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "Scala CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "moznion/sbt-spotless",
+      "status": "candidate",
+      "text": "Scala CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronp/args4c",
+      "status": "candidate",
+      "text": "Scala CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
       "status": "candidate",
       "text": "Scala CI"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/scala.yml",
       "source_repo": "moznion/sbt-spotless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "aaronp/args4c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

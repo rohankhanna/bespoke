@@ -43,6 +43,18 @@
       "source_repo": "rockerBOO/awesome-neovim",
       "status": "candidate-context",
       "text": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chomosuke/typst-preview.nvim",
+      "status": "candidate-context",
+      "text": "Low latency typst preview for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chomosuke/typst-preview.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "rockerBOO/awesome-neovim",
       "status": "candidate",
       "text": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chomosuke/typst-preview.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rockerBOO/awesome-neovim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chomosuke/typst-preview.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

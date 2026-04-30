@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Shadow scans"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "Shadow scans"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate",
+      "text": "Shadow scans"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "eyes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "active placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "analytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "ben day process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11655,
+      "status": "candidate",
+      "text": "boards"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Shadow scans",
+  "concept_id": "shadow-scans",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/shadow_scans.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Shadow scans",
+      "sense_id": "shadow-scans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

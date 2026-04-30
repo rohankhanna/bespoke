@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "articulate/actions-markdownlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "articulate/actions-markdownlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "becheran/mlc@v0.16.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "articulate/actions-markdownlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "becheran/mlc@v0.16.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "Documentation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "openapi31",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "redocly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "target": "redocly-cli",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:17.351862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5977
+    },
+    {
+      "path": ".github/workflows/docs-tests.yaml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation.",
+    "fork": false,
+    "full_name": "Redocly/redocly-cli-cookbook",
+    "html_url": "https://github.com/Redocly/redocly-cli-cookbook",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-12T08:29:48Z",
+    "stargazers_count": 42,
+    "topics": [
+      "devtools",
+      "examples",
+      "openapi",
+      "openapi3",
+      "openapi31",
+      "redocly",
+      "redocly-cli"
+    ],
+    "updated_at": "2026-04-03T10:42:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Documentation tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "term": "Documentation tests"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi31"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redocly"
+    },
+    {
+      "context_snippet": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redocly-cli"
+    }
+  ]
+}

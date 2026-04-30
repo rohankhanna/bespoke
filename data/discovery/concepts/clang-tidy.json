@@ -143,6 +143,18 @@
       "source_repo": "sail-sg/envpool",
       "status": "candidate-context",
       "text": "Clang-Tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "clang-tidy"
     }
   ],
   "candidate_glosses": [
@@ -211,6 +223,12 @@
       "source_repo": "sail-sg/envpool",
       "status": "candidate",
       "text": "Clang-Tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate",
+      "text": "clang-tidy"
     }
   ],
   "candidate_related_terms": [
@@ -332,11 +350,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml",
+      "source_repo": "intel/llvm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

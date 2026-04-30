@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "Release Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "Release Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11584,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10774,
+      "status": "candidate",
+      "text": "microsoft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10766,
+      "status": "candidate",
+      "text": "defrost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10766,
+      "status": "candidate",
+      "text": "emission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10766,
+      "status": "candidate",
+      "text": "releasing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Windows",
+  "concept_id": "release-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "stoplightio/spectral"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Windows",
+      "sense_id": "release-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

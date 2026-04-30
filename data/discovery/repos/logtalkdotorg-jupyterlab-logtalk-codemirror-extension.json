@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/language",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/application",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/apputils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/codemirror",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/filebrowser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/launcher",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/ui-components",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jupyterlab/builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@codemirror/language",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/application",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/apputils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/codemirror",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/filebrowser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/ui-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "@jupyterlab/builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:36.149297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2926
+    },
+    {
+      "path": "package.json",
+      "size": 1616
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JupyterLab 4.x extension providing a Logtalk CodeMirror mode for syntax highlighting",
+    "fork": false,
+    "full_name": "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+    "html_url": "https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
+    "language": "TypeScript",
+    "pushed_at": "2025-08-11T15:13:49Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-08-11T15:13:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

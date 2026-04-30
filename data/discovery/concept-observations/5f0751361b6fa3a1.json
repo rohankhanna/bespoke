@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redirect checker for .htaccess files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042408,
+      "status": "candidate",
+      "text": "yavapai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042407,
+      "status": "candidate",
+      "text": "comanche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042405,
+      "status": "candidate",
+      "text": "mohave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042377,
+      "status": "candidate",
+      "text": "kiowa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19763831,
+      "status": "candidate",
+      "text": "ssl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apache",
+      "sense_id": "apache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apache",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apache",
+  "observation_id": "5f0751361b6fa3a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "apache",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+  "source_file": null,
+  "source_repo": "j9t/htaccess-punk",
+  "source_repo_description": "Redirect checker for .htaccess files"
+}

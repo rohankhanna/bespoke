@@ -84,7 +84,7 @@
   "normalized_form": "scala",
   "observation_id": "591ffb66e76639e4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "scala",
   "source_context_snippet": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026",
   "source_file": null,

@@ -346,6 +346,114 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "Scalar Docs Starter Kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 middlware and mocks for Express.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate-context",
+      "text": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +624,60 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate",
+      "text": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate",
+      "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate",
+      "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_related_terms": [],
@@ -703,11 +865,83 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "aliyun/aliyun-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scalar/starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "metatool-ai/metamcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

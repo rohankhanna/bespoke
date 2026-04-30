@@ -19,6 +19,18 @@
       "source_repo": "ApolloAuto/apollo",
       "status": "candidate-context",
       "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ApolloAuto/apollo",
       "status": "candidate",
       "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ApolloAuto/apollo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,219 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "ha0tang/c2gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "ha0tang/xinggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "fodark/anonygan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "bipartite-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "bmvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "bmvc20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "deepfashion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "person",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "person-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "target": "selectiongan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:14.687434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[BMVC 2020 Oral] Bipartite Graph Reasoning GANs for Person Image Generation",
+    "fork": false,
+    "full_name": "Ha0Tang/BiGraphGAN",
+    "html_url": "https://github.com/Ha0Tang/BiGraphGAN",
+    "language": "Python",
+    "pushed_at": "2023-01-18T17:24:03Z",
+    "stargazers_count": 128,
+    "topics": [
+      "bipartite-graphs",
+      "bmvc",
+      "bmvc20",
+      "deepfashion",
+      "graph",
+      "image-generation",
+      "person",
+      "person-image-generation",
+      "pytorch",
+      "selectiongan"
+    ],
+    "updated_at": "2025-11-26T18:14:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fodark/anonygan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/c2gan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/xinggan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bipartite-graphs"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bmvc"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bmvc20"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepfashion"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-image-generation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selectiongan"
+    }
+  ]
+}

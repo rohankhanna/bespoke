@@ -19,6 +19,18 @@
       "source_repo": "ymcui/Chinese-ELECTRA",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ymcui/Chinese-ELECTRA",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ymcui/Chinese-ELECTRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

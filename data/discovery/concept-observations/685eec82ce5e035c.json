@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Latest tag\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Latest tag\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "another"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "fashion plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "fresh"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest tag",
+      "sense_id": "latest-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "latest-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "latest-tag",
+  "observation_id": "685eec82ce5e035c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Latest tag",
+  "source_context_snippet": "\"Latest tag\"",
+  "source_file": ".github/workflows/auto-tag-latest.yml",
+  "source_repo": "cachix/devenv",
+  "source_repo_description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+}

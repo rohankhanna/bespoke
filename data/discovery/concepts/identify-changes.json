@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Identify Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/vector",
+      "status": "candidate-context",
+      "text": "A high-performance observability data pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/vector",
+      "status": "candidate-context",
+      "text": "Identify Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/vector",
+      "status": "candidate",
+      "text": "Identify Changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11752,
+      "status": "candidate",
+      "text": "method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11752,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11739,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11687,
+      "status": "candidate",
+      "text": "tagging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Identify Changes",
+  "concept_id": "identify-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Identify Changes",
+      "sense_id": "identify-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

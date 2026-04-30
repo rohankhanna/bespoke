@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018496,
+      "status": "candidate",
+      "text": "dialysis machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018509,
+      "status": "candidate",
+      "text": "dialyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018508,
+      "status": "candidate",
+      "text": "dialysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018507,
+      "status": "candidate",
+      "text": "electrodialyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018506,
+      "status": "candidate",
+      "text": "dialysate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dialyzer",
+      "sense_id": "dialyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "dialysis machine"
+    }
+  ],
+  "concept_id": "dialyzer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dialyzer",
+  "observation_id": "b57f60034c29ebbd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "dialyzer",
+  "source_context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "msz/hammox",
+  "source_repo_description": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks"
+}

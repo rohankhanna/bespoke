@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39723524,
+      "status": "candidate",
+      "text": "windowpane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29723622,
+      "status": "candidate",
+      "text": "taskbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29723474,
+      "status": "candidate",
+      "text": "microsoft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29716970,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702071,
+      "status": "candidate",
+      "text": "times"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows",
+      "sense_id": "windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows",
+  "observation_id": "0144b7d95ca163b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Windows",
+  "source_context_snippet": "Windows",
+  "source_file": ".github/workflows/windows.yml",
+  "source_repo": "hybridgroup/yzma",
+  "source_repo_description": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+}

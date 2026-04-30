@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:11:51.119835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Delayed Job support for ActsAsTenant gem",
+    "fork": false,
+    "full_name": "nunommc/acts_as_tenant-delayed_job",
+    "html_url": "https://github.com/nunommc/acts_as_tenant-delayed_job",
+    "language": "Ruby",
+    "pushed_at": "2023-06-21T23:16:37Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-03T18:31:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

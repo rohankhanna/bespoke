@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish React Viewer Lib"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Inspect: A framework for large language model evaluations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Publish React Viewer Lib"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate",
+      "text": "Publish React Viewer Lib"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17522,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17486,
+      "status": "candidate",
+      "text": "circulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17486,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17486,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16904,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish React Viewer Lib",
+  "concept_id": "publish-react-viewer-lib",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish React Viewer Lib",
+      "sense_id": "publish-react-viewer-lib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

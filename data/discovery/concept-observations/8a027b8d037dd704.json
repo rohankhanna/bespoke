@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Launch Agent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Launch Agent"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35227,
+      "status": "candidate",
+      "text": "shipbuilder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35227,
+      "status": "candidate",
+      "text": "shipwright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34827,
+      "status": "candidate",
+      "text": "ship builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18553,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "introduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Launch Agent",
+      "sense_id": "build-launch-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-launch-agent",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-launch-agent",
+  "observation_id": "8a027b8d037dd704",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build Launch Agent",
+  "source_context_snippet": "Build Launch Agent",
+  "source_file": ".github/workflows/build-launch-agent.yml",
+  "source_repo": "wandb/wandb",
+  "source_repo_description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+}

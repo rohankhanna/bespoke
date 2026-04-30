@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "component": "globby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "heic-decode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sharp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j9t/image-guard",
+      "target": "sumcumo/imagemin-merlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j9t/image-guard",
+      "target": "j9t/obsohtml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "globby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "heic-decode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "simple-git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/image-guard",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "npm Publishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/image-guard",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "avif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "heic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "heif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "lossless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/image-guard",
+      "target": "webp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:04:44.913080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10976
+    },
+    {
+      "path": "package.json",
+      "size": 1152
+    },
+    {
+      "path": ".github/workflows/npm.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Near-lossless image compressor that\u2019s easy to use and easy to automate",
+    "fork": false,
+    "full_name": "j9t/image-guard",
+    "html_url": "https://github.com/j9t/image-guard",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-26T11:18:41Z",
+    "stargazers_count": 9,
+    "topics": [
+      "automation",
+      "avif",
+      "compression",
+      "gif",
+      "graphics",
+      "heic",
+      "heif",
+      "images",
+      "jpeg",
+      "jpg",
+      "lossless",
+      "optimization",
+      "performance",
+      "png",
+      "webp"
+    ],
+    "updated_at": "2026-04-26T11:18:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j9t/obsohtml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sumcumo/imagemin-merlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"npm Publishing\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "term": "npm Publishing"
+    },
+    {
+      "context_snippet": "\"Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avif"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heic"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heif"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossless"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webp"
+    }
+  ]
+}

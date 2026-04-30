@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:24:56.044326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A few automations and hardware recommendations for HA + Pikud HaOref integration",
+    "fork": false,
+    "full_name": "danielrosehill/HA-Red-Alerts-Model-Automations",
+    "html_url": "https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations",
+    "language": null,
+    "pushed_at": "2025-03-21T21:33:52Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-21T21:33:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

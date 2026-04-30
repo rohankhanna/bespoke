@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "id-generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "A Java implementation of K-Sortable Unique Identifiers (KSUID)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "KSUID Creator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate",
+      "text": "KSUID Creator"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "id-generator",
+  "concept_id": "id-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "id-generator",
+      "sense_id": "id-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

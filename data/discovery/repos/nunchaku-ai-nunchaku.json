@@ -103,21 +103,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nunchaku-ai/nunchaku",
-      "target": "gaparmar/img2img-turbo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nunchaku-ai/nunchaku",
-      "target": "mit-han-lab/hart",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nunchaku-ai/nunchaku",
-      "target": "efeslab/atom",
+      "target": "mit-han-lab/qserve",
       "target_type": "repository"
     },
     {
@@ -317,7 +303,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:51:47.020906+00:00",
+  "fetched_at": "2026-04-30T10:20:17.508341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -392,17 +378,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "efeslab/atom",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gaparmar/img2img-turbo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/hart",
+      "full_name": "mit-han-lab/qserve",
       "source_file": "README.md"
     }
   ],

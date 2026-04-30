@@ -148,20 +148,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rtfeldman/node-test-runner",
-      "target": "elm-explorations/test",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rtfeldman/node-test-runner",
-      "target": "rtfeldman/elm-css",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "rtfeldman/node-test-runner",
@@ -365,7 +351,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:01:18.037025+00:00",
+  "fetched_at": "2026-04-30T08:05:43.747664+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -398,18 +384,7 @@
     "topics": [],
     "updated_at": "2026-03-31T23:56:44Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "elm-explorations/test",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rtfeldman/elm-css",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check",

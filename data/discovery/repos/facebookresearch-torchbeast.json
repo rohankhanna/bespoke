@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/torchbeast",
+      "target": "deepmind/scalable_agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/torchbeast",
+      "target": "heiner/scalable_agent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:49.179736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8430
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2401
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 120
+    },
+    {
+      "path": "requirements.txt",
+      "size": 228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A PyTorch Platform for Distributed RL",
+    "fork": false,
+    "full_name": "facebookresearch/torchbeast",
+    "html_url": "https://github.com/facebookresearch/torchbeast",
+    "language": "Python",
+    "pushed_at": "2021-09-15T11:57:50Z",
+    "stargazers_count": 752,
+    "topics": [],
+    "updated_at": "2026-04-18T06:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/scalable_agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heiner/scalable_agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "toolmantim/release-drafter@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/guard",
+      "target": "guard/listen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guard/guard",
+      "target": "rvm/rubygems-bundler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/guard",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/guard",
+      "target": "toolmantim/release-drafter@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "guard/guard",
+      "target": "Push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:38.128133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7705
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Guard is a command line tool to easily handle events on file system modifications.",
+    "fork": false,
+    "full_name": "guard/guard",
+    "html_url": "https://github.com/guard/guard",
+    "language": "Ruby",
+    "pushed_at": "2026-02-02T11:47:38Z",
+    "stargazers_count": 6479,
+    "topics": [],
+    "updated_at": "2026-04-23T01:15:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guard/listen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rvm/rubygems-bundler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Push"
+    }
+  ]
+}

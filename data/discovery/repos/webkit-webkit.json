@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebKit/WebKit",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebKit/WebKit",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebKit/WebKit",
+      "target": "webkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:50.709883+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+    "fork": false,
+    "full_name": "WebKit/WebKit",
+    "html_url": "https://github.com/WebKit/WebKit",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-30T09:15:36Z",
+    "stargazers_count": 9776,
+    "topics": [
+      "browser",
+      "gtk",
+      "ios",
+      "javascript",
+      "macos",
+      "web",
+      "webkit"
+    ],
+    "updated_at": "2026-04-30T09:15:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webkit"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "caltechlibrary/codemeta2cff@99ce10831c3037a067c3d9551d455638e0b438ac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "dieghernan/cff-validator@114aae53e1850c3757733beb60036941900e3dc3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/first-interaction@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "pythainlp/pythainlp-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "ClusterFuzzLite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "caltechlibrary/codemeta2cff@99ce10831c3037a067c3d9551d455638e0b438ac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "dieghernan/cff-validator@114aae53e1850c3757733beb60036941900e3dc3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "Generate CITATION.cff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "Corpus test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "Deploy dev docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/first-interaction@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "computational-linguistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "hacktoberfest-accepted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "nlp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "soundex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "text-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "thai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "thai-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "thai-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "thai-nlp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "thai-soundex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp",
+      "target": "word-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:52.423180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12749
+    },
+    {
+      "path": "Dockerfile",
+      "size": 459
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12161
+    },
+    {
+      "path": ".github/workflows/clusterfuzzlite.DISABLED",
+      "size": 9525
+    },
+    {
+      "path": ".github/workflows/codemeta2cff.yml",
+      "size": 1358
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3341
+    },
+    {
+      "path": ".github/workflows/corpus.yml",
+      "size": 1646
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1261
+    },
+    {
+      "path": ".github/workflows/greetings.yml",
+      "size": 905
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thai natural language processing in Python",
+    "fork": false,
+    "full_name": "PyThaiNLP/pythainlp",
+    "html_url": "https://github.com/PyThaiNLP/pythainlp",
+    "language": "Python",
+    "pushed_at": "2026-04-12T12:30:18Z",
+    "stargazers_count": 1129,
+    "topics": [
+      "computational-linguistics",
+      "hacktoberfest",
+      "hacktoberfest-accepted",
+      "natural-language-processing",
+      "nlp-library",
+      "python",
+      "soundex",
+      "text-processing",
+      "thai",
+      "thai-language",
+      "thai-nlp",
+      "thai-nlp-library",
+      "thai-soundex",
+      "word-segmentation"
+    ],
+    "updated_at": "2026-04-29T03:54:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pythainlp/pythainlp-corpus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzzlite.DISABLED",
+      "term": "ClusterFuzzLite"
+    },
+    {
+      "context_snippet": "Generate CITATION.cff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "term": "Generate CITATION.cff"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Corpus test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus.yml",
+      "term": "Corpus test"
+    },
+    {
+      "context_snippet": "Deploy dev docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy dev docs"
+    },
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-linguistics"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest-accepted"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-library"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soundex"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-processing"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thai"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thai-language"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thai-nlp"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thai-nlp-library"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thai-soundex"
+    },
+    {
+      "context_snippet": "![Project Logo](./docs/images/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word-segmentation"
+    }
+  ]
+}

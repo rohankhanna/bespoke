@@ -1,0 +1,450 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid_question.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "jbinda/super-labeler-action@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwego/hertz",
+      "target": "cloudwego/hertz-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwego/hertz",
+      "target": "cloudwego/hertz-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwego/hertz",
+      "target": "hertz-contrib/autotls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwego/hertz",
+      "target": "hertz-contrib/cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmd-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Cmd Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invalid_question.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid_question.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Close Invalid Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "jbinda/super-labeler-action@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "apache/skywalking-eyes/header@v0.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Pull Request Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "cloudwego/hertz",
+      "target": "Run govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudwego/hertz",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudwego/hertz",
+      "target": "microservices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:34.255736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16821
+    },
+    {
+      "path": "go.mod",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/cmd-tests.yml",
+      "size": 1468
+    },
+    {
+      "path": ".github/workflows/invalid_question.yml",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 800
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 2004
+    },
+    {
+      "path": ".github/workflows/vulncheck.yml",
+      "size": 640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go HTTP framework with high-performance and strong-extensibility for building micro-services.",
+    "fork": false,
+    "full_name": "cloudwego/hertz",
+    "html_url": "https://github.com/cloudwego/hertz",
+    "language": "Go",
+    "pushed_at": "2026-04-29T06:28:52Z",
+    "stargazers_count": 7193,
+    "topics": [
+      "go",
+      "http",
+      "microservices"
+    ],
+    "updated_at": "2026-04-29T21:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudwego/hertz-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudwego/hertz-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hertz-contrib/autotls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hertz-contrib/cache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cmd Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmd-tests.yml",
+      "term": "Cmd Tests"
+    },
+    {
+      "context_snippet": "\"Close Invalid Issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invalid_question.yml",
+      "term": "Close Invalid Issue"
+    },
+    {
+      "context_snippet": "\"Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Pull Request Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "Pull Request Check"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Run govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "term": "Run govulncheck"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "English | [\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    }
+  ]
+}

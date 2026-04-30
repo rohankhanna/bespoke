@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "resolverscheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "resolverscheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "resolverscheck",
+      "sense_id": "resolverscheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "resolverscheck",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "resolverscheck",
+  "observation_id": "61c2252042534a69",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "resolverscheck",
+  "source_context_snippet": "resolverscheck",
+  "source_file": ".github/workflows/resolverscheck.yml",
+  "source_repo": "DNSCrypt/dnscrypt-resolvers",
+  "source_repo_description": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+}

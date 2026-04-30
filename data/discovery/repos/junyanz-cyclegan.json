@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/CycleGAN",
+      "target": "architrathore/cyclegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/CycleGAN",
+      "target": "aixile/chainer-cyclegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/CycleGAN",
+      "target": "csailvision/gandissect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/CycleGAN",
+      "target": "dmitryulyanov/texture_nets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "cyclegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "pix2pix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:11.458475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14763
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more.",
+    "fork": false,
+    "full_name": "junyanz/CycleGAN",
+    "html_url": "https://github.com/junyanz/CycleGAN",
+    "language": "Lua",
+    "pushed_at": "2023-09-12T19:48:53Z",
+    "stargazers_count": 12856,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "cyclegan",
+      "deep-learning",
+      "gan",
+      "gans",
+      "generative-adversarial-network",
+      "image-generation",
+      "image-manipulation",
+      "pix2pix",
+      "torch"
+    ],
+    "updated_at": "2026-04-29T14:30:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aixile/chainer-cyclegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "architrathore/cyclegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csailvision/gandissect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmitryulyanov/texture_nets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclegan"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

@@ -136,14 +136,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "atoomic/snapcast-volume-ui",
+      "target": "snapcast/snapdroid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "happyleavesaoc/python-snapcast",
+      "target": "atoomic/snapcast-volume-ui",
       "target_type": "repository"
     },
     {
@@ -157,7 +157,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "mariolukas/hydraplay",
+      "target": "novnc/websockify",
       "target_type": "repository"
     },
     {
@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:59:44.150262+00:00",
+  "fetched_at": "2026-04-30T09:07:50.419942+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,7 +277,7 @@
     "html_url": "https://github.com/snapcast/snapcast",
     "language": "C++",
     "pushed_at": "2026-03-10T14:27:11Z",
-    "stargazers_count": 7602,
+    "stargazers_count": 7603,
     "topics": [
       "audio",
       "audio-player",
@@ -288,7 +288,7 @@
       "sonos",
       "synchronous"
     ],
-    "updated_at": "2026-04-29T13:58:07Z"
+    "updated_at": "2026-04-30T06:36:38Z"
   },
   "repo_links": [
     {
@@ -303,12 +303,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "happyleavesaoc/python-snapcast",
+      "full_name": "novnc/websockify",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mariolukas/hydraplay",
+      "full_name": "snapcast/snapdroid",
       "source_file": "README.md"
     }
   ],

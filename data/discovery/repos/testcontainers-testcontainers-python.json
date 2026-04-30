@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "kontrolplane/pull-request-title-validator@ab2b54babb5337246f4b55cf8e0a1ecb0575e46d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-community.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-community.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "kontrolplane/pull-request-title-validator@ab2b54babb5337246f4b55cf8e0a1ecb0575e46d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "lint-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "google-github-actions/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "selenium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "testcontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:48.293286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3738
+    },
+    {
+      "path": "Dockerfile",
+      "size": 286
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10198
+    },
+    {
+      "path": ".github/workflows/ci-community.yml",
+      "size": 1965
+    },
+    {
+      "path": ".github/workflows/ci-core.yml",
+      "size": 1761
+    },
+    {
+      "path": ".github/workflows/ci-lint.yml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/pr-lint.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests.",
+    "fork": false,
+    "full_name": "testcontainers/testcontainers-python",
+    "html_url": "https://github.com/testcontainers/testcontainers-python",
+    "language": "Python",
+    "pushed_at": "2026-04-30T00:47:24Z",
+    "stargazers_count": 2204,
+    "topics": [
+      "database",
+      "python",
+      "python3",
+      "selenium",
+      "testcontainers",
+      "testing"
+    ],
+    "updated_at": "2026-04-30T00:47:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "modules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-community.yml",
+      "term": "modules"
+    },
+    {
+      "context_snippet": "core",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-core.yml",
+      "term": "core"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "lint-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "term": "lint-pr"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium"
+    },
+    {
+      "context_snippet": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testcontainers"
+    },
+    {
+      "context_snippet": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

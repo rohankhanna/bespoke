@@ -216,21 +216,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jawah/charset_normalizer",
-      "target": "jawah/niquests",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jawah/charset_normalizer",
-      "target": "jawah/wassima",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jawah/charset_normalizer",
-      "target": "nickspring/charset-normalizer-rs",
+      "target": "pyyoshi/cchardet",
       "target_type": "repository"
     },
     {
@@ -437,7 +423,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:55:16.734108+00:00",
+  "fetched_at": "2026-04-30T09:21:51.907811+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -488,22 +474,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jawah/niquests",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jawah/wassima",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nickspring/charset-normalizer-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ousret/charset_normalizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyyoshi/cchardet",
       "source_file": "README.md"
     }
   ],

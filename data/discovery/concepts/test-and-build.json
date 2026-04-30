@@ -56,6 +56,18 @@
       "source_repo": "urschrei/rdp",
       "status": "candidate-context",
       "text": "Test and Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "Test and Build"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "urschrei/rdp",
+      "status": "candidate",
+      "text": "Test and Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
       "status": "candidate",
       "text": "Test and Build"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "urschrei/rdp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/multi-arch-test-build.yml",
+      "source_repo": "openwrt/packages"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

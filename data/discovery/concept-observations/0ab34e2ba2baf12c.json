@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dagger on Depot - Local Engine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dagger on Depot - Local Engine"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036,
+      "status": "candidate",
+      "text": "station"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906,
+      "status": "candidate",
+      "text": "hoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906,
+      "status": "candidate",
+      "text": "stations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29561,
+      "status": "candidate",
+      "text": "rocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29249,
+      "status": "candidate",
+      "text": "haft"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dagger on Depot - Local Engine",
+      "sense_id": "dagger-on-depot---local-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dagger-on-depot---local-engine",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dagger-on-depot---local-engine",
+  "observation_id": "0ab34e2ba2baf12c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Dagger on Depot - Local Engine",
+  "source_context_snippet": "Dagger on Depot - Local Engine",
+  "source_file": ".github/workflows/_dagger_on_depot_local_engine.yml",
+  "source_repo": "dagger/dagger",
+  "source_repo_description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+}

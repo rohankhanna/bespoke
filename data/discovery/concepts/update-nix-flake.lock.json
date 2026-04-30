@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Nix flake.lock"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akvorado/akvorado",
+      "status": "candidate-context",
+      "text": "Flow collector, enricher and visualizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akvorado/akvorado",
+      "status": "candidate-context",
+      "text": "Update Nix flake.lock"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akvorado/akvorado",
+      "status": "candidate",
+      "text": "Update Nix flake.lock"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10861,
+      "status": "candidate",
+      "text": "scotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "abhorred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "ampere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10704,
+      "status": "candidate",
+      "text": "antique"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Nix flake.lock",
+  "concept_id": "update-nix-flake.lock",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/update-nix-flake-lock.yml",
+      "source_repo": "akvorado/akvorado"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Nix flake.lock",
+      "sense_id": "update-nix-flake.lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

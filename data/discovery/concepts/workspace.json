@@ -46,6 +46,18 @@
       "source_repo": "rust-random/getrandom",
       "status": "candidate-context",
       "text": "Workspace"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Export Insomnia workspace HTML documentation."
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "rust-random/getrandom",
       "status": "candidate",
       "text": "Workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate",
+      "text": "Export Insomnia workspace HTML documentation."
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/workspace.yml",
       "source_repo": "rust-random/getrandom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devhammed/insomnia-plugin-documenter"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

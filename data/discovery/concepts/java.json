@@ -1558,6 +1558,354 @@
       "source_repo": "checkstyle/checkstyle",
       "status": "candidate-context",
       "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "Distributed Stream and Batch Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "status": "candidate-context",
+      "text": "Micronaut Application Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate-context",
+      "text": "Apache Camel Quarkus Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate-context",
+      "text": "Camel Quarkus CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate-context",
+      "text": "Prettier Java Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate-context",
+      "text": "[![Prettier Java Banner](https://raw.githubusercontent.com/jhipster/prettier-java/main/logo/prettier-java-banner-light.svg)](https://www.jhipster.tech/prettier-java/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate-context",
+      "text": "Tools for detecting and avoiding linkage errors in GCP open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate-context",
+      "text": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate-context",
+      "text": "Native JVM WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate-context",
+      "text": "Extism Java Host SDK enables Java programs to embed and run WebAssembly plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "GraalJS \u2013 A high-performance, ECMAScript compliant, and embeddable JavaScript runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate-context",
+      "text": "Programming in MS Paint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "OkHttp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "Adaptable, fast automation for all"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "A Java implementation of K-Sortable Unique Identifiers (KSUID)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "KSUID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate-context",
+      "text": "Android filters based on OpenGL (idea from GPUImage for iOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate-context",
+      "text": "Free and Open Source, Distributed, RESTful Search Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate-context",
+      "text": "docs-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate-context",
+      "text": "This repo is the Java version of Microsoft's sample app for ChatGPT + Enterprise data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "Build your own perplexity for your applications using research4j and integrate them for any domain specific usecases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate-context",
+      "text": "Dynamo Multi AI Agent POC: Unlock the Power of Spring AI and LangGraph4J"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate-context",
+      "text": "Llama3.java Inference engine with OpenAI Chat Completion REST API/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate-context",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
     }
   ],
   "candidate_glosses": [
@@ -2334,6 +2682,180 @@
       "source_repo": "checkstyle/checkstyle",
       "status": "candidate",
       "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-core",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/micronaut-projects/micronaut-core/workflows/Java%20CI/badge.svg)](https://github.com/micronaut-projects/micronaut-core/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate",
+      "text": "Camel Quarkus CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/prettier-java",
+      "status": "candidate",
+      "text": "[![Prettier Java Banner](https://raw.githubusercontent.com/jhipster/prettier-java/main/logo/prettier-java-banner-light.svg)](https://www.jhipster.tech/prettier-java/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate",
+      "text": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate",
+      "text": "OkHttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate",
+      "text": "KSUID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/android-gpuimage",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate",
+      "text": "docs-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
     }
   ],
   "candidate_related_terms": [
@@ -3429,11 +3951,245 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "checkstyle/checkstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lagom/lagom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "micronaut-projects/micronaut-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel-quarkus-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/prettier-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dylibso/chicory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "extism/java-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graaljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graalpython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gradle/gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elastic/elasticsearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

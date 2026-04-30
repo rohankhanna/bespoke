@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Major Version Release Guard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "Major Version Release Guard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate",
+      "text": "Major Version Release Guard"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34062,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33262,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33262,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27466,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27341,
+      "status": "candidate",
+      "text": "prime"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Major Version Release Guard",
+  "concept_id": "major-version-release-guard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main-version-release-guard.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Major Version Release Guard",
+      "sense_id": "major-version-release-guard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -211,6 +211,30 @@
       "source_repo": "dundee/gdu",
       "status": "candidate-context",
       "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate-context",
+      "text": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "A minimal, fast alternative to 'du -sh'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "dundee/gdu",
       "status": "candidate",
       "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +508,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dundee/gdu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/diskus"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

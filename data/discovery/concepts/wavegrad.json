@@ -19,6 +19,18 @@
       "source_repo": "ivanvovk/WaveGrad",
       "status": "candidate-context",
       "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "A fast, high-quality neural vocoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ivanvovk/WaveGrad",
       "status": "candidate",
       "text": "![alt-text-1](generated_samples/denoising.gif \"denoising\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ivanvovk/WaveGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

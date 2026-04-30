@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Feakin DSL CLI CD"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "      Fklang \u662f\u4e00\u4e2a\u9762\u5411\u8f6f\u4ef6\u5f00\u53d1\u5de5\u4e1a\u5316\u7684\u67b6\u6784\u8bbe\u8ba1 DSL\uff0c\u901a\u8fc7\u663e\u6027\u5316\u8f6f\u4ef6\u67b6\u6784\u8bbe\u8ba1\uff0c\u4ee5\u786e\u4fdd\u8f6f\u4ef6\u7cfb\u7edf\u63cf\u8ff0\u4e0e\u5b9e\u73b0\u7684\u4e00\u81f4\u6027\u3002\u5e76\u5728\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5185\u5d4c\u5bf9\u4e8e AI \u4ee3\u7801\u751f\u6210\u8f6f\u4ef6\u7684\u652f\u6301\uff0c\u4ee5\u6784\u7b51\u5b8c\u6574\u7684\u5f00\u53d1\u8005\u4f53\u9a8c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate-context",
+      "text": "Feakin DSL CLI CD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feakin/fklang",
+      "status": "candidate",
+      "text": "Feakin DSL CLI CD"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15254,
+      "status": "candidate",
+      "text": "alt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15254,
+      "status": "candidate",
+      "text": "sic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14314,
+      "status": "candidate",
+      "text": "laser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14284,
+      "status": "candidate",
+      "text": "cd-rom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14284,
+      "status": "candidate",
+      "text": "dvd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Feakin DSL CLI CD",
+  "concept_id": "feakin-dsl-cli-cd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "feakin/fklang"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Feakin DSL CLI CD",
+      "sense_id": "feakin-dsl-cli-cd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

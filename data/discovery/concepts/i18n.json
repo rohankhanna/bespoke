@@ -159,6 +159,18 @@
       "source_repo": "i18next/react-i18next",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/jquery-i18next",
+      "status": "candidate-context",
+      "text": "jQuery-i18next is a jQuery based Javascript internationalization library on top of i18next. It helps you to easily internationalize your web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/jquery-i18next",
+      "status": "candidate-context",
+      "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
     }
   ],
   "candidate_glosses": [
@@ -239,6 +251,12 @@
       "source_repo": "i18next/react-i18next",
       "status": "candidate",
       "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/jquery-i18next",
+      "status": "candidate",
+      "text": "Source can be loaded via [npm](https://www.npmjs.com/package/jquery-i18next), bower or [downloaded](https://github.com/i18next/jquery-i18next/blob/master/jquery-i18next.min.js) from this repo or from a CDN like [CDNJS](https://cdnjs.com/libraries/jquery-i18next)."
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +462,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "i18next/react-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "i18next/jquery-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

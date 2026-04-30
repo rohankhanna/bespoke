@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml"
+    },
+    {
+      "component": "wei/wget@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml"
+    },
+    {
+      "component": "azure/webapps-deploy@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "soumik12345/mirnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "wei/wget@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "azure/webapps-deploy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "Deploy Node.js app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "machinelearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "madewithtfjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "mirnet-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "mirnet-tfjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "multi-resolution-streams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "tfjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "tfjs-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "target": "tfjs-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:07.425202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9288
+    },
+    {
+      "path": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "size": 1213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "low-light\ud83d\udca1 image enhancement",
+    "fork": false,
+    "full_name": "Rishit-dagli/MIRNet-TFJS",
+    "html_url": "https://github.com/Rishit-dagli/MIRNet-TFJS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-03-05T20:26:39Z",
+    "stargazers_count": 356,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "image-restoration",
+      "image-super-resolution",
+      "javascript",
+      "machinelearning",
+      "madewithtfjs",
+      "mirnet-model",
+      "mirnet-tfjs",
+      "multi-resolution-streams",
+      "nodejs",
+      "tensorflow",
+      "tfjs",
+      "tfjs-converter",
+      "tfjs-model"
+    ],
+    "updated_at": "2026-04-18T18:10:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumik12345/mirnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Node.js app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_mirnet-tfjs-demo.yml",
+      "term": "Deploy Node.js app"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-super-resolution"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machinelearning"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "madewithtfjs"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirnet-model"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirnet-tfjs"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-resolution-streams"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfjs"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfjs-converter"
+    },
+    {
+      "context_snippet": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfjs-model"
+    }
+  ]
+}

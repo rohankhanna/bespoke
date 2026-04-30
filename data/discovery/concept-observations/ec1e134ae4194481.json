@@ -48,7 +48,7 @@
   "normalized_form": "github-actions",
   "observation_id": "ec1e134ae4194481",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "github-actions",
   "source_context_snippet": "github-actions",
   "source_file": ".github/workflows/accuracy_checker.yml",

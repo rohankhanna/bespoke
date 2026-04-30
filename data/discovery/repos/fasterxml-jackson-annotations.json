@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-annotations",
+      "target": "laures/jackson-legacy-introspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-annotations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-annotations",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-annotations",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:22:49.473608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11424
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2.x",
+    "description": "Core annotations (annotations that only depend on jackson-core) for Jackson data processor",
+    "fork": false,
+    "full_name": "FasterXML/jackson-annotations",
+    "html_url": "https://github.com/FasterXML/jackson-annotations",
+    "language": "Java",
+    "pushed_at": "2026-04-24T20:16:38Z",
+    "stargazers_count": 1062,
+    "topics": [],
+    "updated_at": "2026-04-22T03:55:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laures/jackson-legacy-introspector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Deploy Snapshot"
+    }
+  ]
+}

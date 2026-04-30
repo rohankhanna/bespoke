@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "ocaml/dune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "cristianoc/reanalyze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "deadcodeelimination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "rescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze",
+      "target": "termination-detection-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:21.652354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8201
+    },
+    {
+      "path": "Dockerfile",
+      "size": 236
+    },
+    {
+      "path": "package.json",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Experimental analyses for ReScript and OCaml: globally dead values/types, exception analysis, and termination analysis.",
+    "fork": false,
+    "full_name": "rescript-lang/reanalyze",
+    "html_url": "https://github.com/rescript-lang/reanalyze",
+    "language": "OCaml",
+    "pushed_at": "2025-09-16T08:56:38Z",
+    "stargazers_count": 281,
+    "topics": [
+      "analysis",
+      "dce",
+      "deadcodeelimination",
+      "ocaml",
+      "rescript",
+      "termination-detection-algorithm"
+    ],
+    "updated_at": "2026-04-23T18:24:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/dune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cristianoc/reanalyze",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deadcodeelimination"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rescript"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "termination-detection-algorithm"
+    }
+  ]
+}

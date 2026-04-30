@@ -340,6 +340,30 @@
       "source_repo": "Enter-tainer/typst-preview",
       "status": "candidate-context",
       "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Marksman extension for VSCode. Note taking with cross-references and diagnostics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "[Deprecated]  An early language server for Typst, plus a VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
     }
   ],
   "candidate_glosses": [
@@ -510,6 +534,18 @@
       "source_repo": "Enter-tainer/typst-preview",
       "status": "candidate",
       "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate",
+      "text": "This project is no longer maintained. It has been deprecated in favor of [tinymist](https://github.com/Myriad-Dreamin/tinymist)."
     }
   ],
   "candidate_related_terms": [],
@@ -745,11 +781,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Enter-tainer/typst-preview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nvarner/typst-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

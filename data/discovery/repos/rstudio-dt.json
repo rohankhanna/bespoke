@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT",
+      "target": "test-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstudio/DT",
+      "target": "datatables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstudio/DT",
+      "target": "htmlwidgets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstudio/DT",
+      "target": "r-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rstudio/DT",
+      "target": "shiny",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:07.171768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1893
+    },
+    {
+      "path": ".github/workflows/test-coverage.yaml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R Interface to the jQuery Plug-in DataTables",
+    "fork": false,
+    "full_name": "rstudio/DT",
+    "html_url": "https://github.com/rstudio/DT",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-23T18:01:03Z",
+    "stargazers_count": 620,
+    "topics": [
+      "datatables",
+      "htmlwidgets",
+      "javascript",
+      "r",
+      "r-package",
+      "shiny"
+    ],
+    "updated_at": "2026-04-26T08:53:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "term": "test-coverage"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datatables"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htmlwidgets"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    },
+    {
+      "context_snippet": "<!-- badges: start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shiny"
+    }
+  ]
+}

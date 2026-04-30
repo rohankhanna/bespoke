@@ -1,0 +1,190 @@
+{
+  "aliases": [
+    "Release Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate-context",
+      "text": "\u652f\u6301 kitex <-> dubbo \u4e92\u901a\u7684 dubbo \u534f\u8bae\u7f16\u89e3\u7801\u5668\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate-context",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate-context",
+      "text": "It's the extension for Kitex to load service governance config from Apollo (https://github.com/apolloconfig)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate-context",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate-context",
+      "text": "It's the extension for Kitex to load service governance config from etcd (https://etcd.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate-context",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate-context",
+      "text": "Tracking performance changes for Hertz "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate-context",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate-context",
+      "text": "Release Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/codec-dubbo",
+      "status": "candidate",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-apollo",
+      "status": "candidate",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitex-contrib/config-etcd",
+      "status": "candidate",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz-benchmark",
+      "status": "candidate",
+      "text": "Release Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate",
+      "text": "Release Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "contact"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Check",
+  "concept_id": "release-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "kitex-contrib/codec-dubbo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "kitex-contrib/config-apollo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "kitex-contrib/config-etcd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "cloudwego/hertz-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "cloudwego/netpoll-benchmark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Check",
+      "sense_id": "release-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

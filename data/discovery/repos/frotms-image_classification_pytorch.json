@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/image_classification_pytorch",
+      "target": "ericsun99/mobilenet-v2-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/image_classification_pytorch",
+      "target": "ericsun99/shufflenet-v2-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/image_classification_pytorch",
+      "target": "billhhh/mnasnet-pytorch-pretrained",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frotms/image_classification_pytorch",
+      "target": "d-li14/octconv.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:53.970361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12240
+    },
+    {
+      "path": "requirements.txt",
+      "size": 420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "image classification using pytorch-project-template, train a model of classification easily by modifying a json configuration",
+    "fork": false,
+    "full_name": "frotms/image_classification_pytorch",
+    "html_url": "https://github.com/frotms/image_classification_pytorch",
+    "language": "Python",
+    "pushed_at": "2021-08-20T16:33:18Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-02-25T07:31:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "billhhh/mnasnet-pytorch-pretrained",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d-li14/octconv.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericsun99/mobilenet-v2-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericsun99/shufflenet-v2-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

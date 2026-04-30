@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:17:30.316756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3600
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for creation of SAT instances.",
+    "fork": false,
+    "full_name": "petersn/autosat",
+    "html_url": "https://github.com/petersn/autosat",
+    "language": "Python",
+    "pushed_at": "2022-09-07T18:26:09Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-10-13T08:20:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

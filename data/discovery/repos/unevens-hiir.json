@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/hiir",
+      "target": "unevens/oversimple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "resampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/hiir",
+      "target": "sse2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:35.223777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon.",
+    "fork": false,
+    "full_name": "unevens/hiir",
+    "html_url": "https://github.com/unevens/hiir",
+    "language": "C++",
+    "pushed_at": "2021-11-01T18:26:12Z",
+    "stargazers_count": 45,
+    "topics": [
+      "audio",
+      "audio-processing",
+      "avx",
+      "neon",
+      "resampling",
+      "simd",
+      "sse",
+      "sse2"
+    ],
+    "updated_at": "2026-04-21T22:36:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/oversimple",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resampling"
+    },
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse2"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_build.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@f1390fd0d8205ae79e5e57b1d1e300dceeb4163e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "actions/add-to-project@7334092eccc670a2b274d0cafbfa1e4d8208cfab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "filecoin-project/fvm-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "filecoin-project/fvm-test-vectors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "ClusterFuzzLite batch fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "ClusterFuzzLite continuous builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "ClusterFuzzLite cron tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "taiki-e/install-action@f1390fd0d8205ae79e5e57b1d1e300dceeb4163e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "Cargo Deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "actions/add-to-project@7334092eccc670a2b274d0cafbfa1e4d8208cfab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "Add to FVM project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "filecoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/ref-fvm",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:31.743697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5400
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2909
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 939
+    },
+    {
+      "path": ".github/workflows/cflite_batch.yml",
+      "size": 998
+    },
+    {
+      "path": ".github/workflows/cflite_build.yml",
+      "size": 569
+    },
+    {
+      "path": ".github/workflows/cflite_cron.yml",
+      "size": 1399
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1344
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5825
+    },
+    {
+      "path": ".github/workflows/deny.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/project.yml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementation of the Filecoin Virtual Machine",
+    "fork": false,
+    "full_name": "filecoin-project/ref-fvm",
+    "html_url": "https://github.com/filecoin-project/ref-fvm",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T21:56:21Z",
+    "stargazers_count": 417,
+    "topics": [
+      "filecoin",
+      "rust",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-26T21:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/fvm-project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/fvm-test-vectors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite batch fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "term": "ClusterFuzzLite batch fuzzing"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite continuous builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "term": "ClusterFuzzLite continuous builds"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite cron tasks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "term": "ClusterFuzzLite cron tasks"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Cargo Deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "term": "Cargo Deny"
+    },
+    {
+      "context_snippet": "Add to FVM project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "term": "Add to FVM project"
+    },
+    {
+      "context_snippet": "[![Continuous integration](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml/badge.svg)](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin"
+    },
+    {
+      "context_snippet": "[![Continuous integration](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml/badge.svg)](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Continuous integration](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml/badge.svg)](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

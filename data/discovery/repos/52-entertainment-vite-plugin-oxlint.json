@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "package-manager-detector",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "gxmari007/vite-plugin-eslint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "oxc-project/eslint-plugin-oxlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "package-manager-detector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "@types/cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "tsdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-dependabot-prs.yml",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "Close Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "oxlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "target": "vite-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:52.507261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6927
+    },
+    {
+      "path": "package.json",
+      "size": 1634
+    },
+    {
+      "path": ".github/workflows/close-dependabot-prs.yml",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2693\ufe0f+\u26a1\ufe0f- Oxlint plugin for vite.",
+    "fork": false,
+    "full_name": "52-entertainment/vite-plugin-oxlint",
+    "html_url": "https://github.com/52-entertainment/vite-plugin-oxlint",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-24T20:07:35Z",
+    "stargazers_count": 53,
+    "topics": [
+      "eslint",
+      "linter",
+      "oxc",
+      "oxlint",
+      "vite",
+      "vite-plugin"
+    ],
+    "updated_at": "2026-04-26T02:41:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gxmari007/vite-plugin-eslint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oxc-project/eslint-plugin-oxlint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Dependabot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-dependabot-prs.yml",
+      "term": "Close Dependabot PRs"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oxlint"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite-plugin"
+    }
+  ]
+}

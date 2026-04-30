@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Instant, controllable, local pre-trained AI models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008895,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864780,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030457,
+      "status": "candidate",
+      "text": "murmur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022460,
+      "status": "candidate",
+      "text": "rumor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018822,
+      "status": "candidate",
+      "text": "shade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whisper",
+      "sense_id": "whisper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "whispering"
+    }
+  ],
+  "concept_id": "whisper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "whisper",
+  "observation_id": "315984236853e5d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "whisper",
+  "source_context_snippet": "<h1 align=\"center\">Floneum</h1>",
+  "source_file": null,
+  "source_repo": "floneum/floneum",
+  "source_repo_description": "Instant, controllable, local pre-trained AI models in Rust"
+}

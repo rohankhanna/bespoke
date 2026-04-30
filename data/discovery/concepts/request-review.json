@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Request Review"
+    "Request Review",
+    "Request review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,30 @@
       "source_repo": "stevearc/dressing.nvim",
       "status": "candidate-context",
       "text": "Request Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Request review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "Request review"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +142,18 @@
       "source_repo": "stevearc/dressing.nvim",
       "status": "candidate",
       "text": "Request Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Request review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate",
+      "text": "Request review"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +233,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/automation_request_review.yml",
       "source_repo": "stevearc/dressing.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

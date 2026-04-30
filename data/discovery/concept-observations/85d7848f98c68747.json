@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rails 4.2+ templating system with JSON, XML and Plist support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022791,
+      "status": "candidate",
+      "text": "ecmascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022790,
+      "status": "candidate",
+      "text": "cbor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022789,
+      "status": "candidate",
+      "text": "javascripting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022788,
+      "status": "candidate",
+      "text": "jsni"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json",
+      "sense_id": "json#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "json",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "json",
+  "observation_id": "85d7848f98c68747",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "json",
+  "source_context_snippet": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST).",
+  "source_file": null,
+  "source_repo": "ccocchi/rabl-rails",
+  "source_repo_description": "Rails 4.2+ templating system with JSON, XML and Plist support."
+}

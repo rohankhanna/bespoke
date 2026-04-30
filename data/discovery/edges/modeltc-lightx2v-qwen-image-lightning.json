@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "modeltc/qwen-image-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "nunchaku-tech/nunchaku",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning"
+}

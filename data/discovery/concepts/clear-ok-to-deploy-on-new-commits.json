@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clear ok-to-deploy on new commits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate-context",
+      "text": "Official documentation website for the ReScript programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate-context",
+      "text": "Clear ok-to-deploy on new commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate",
+      "text": "Clear ok-to-deploy on new commits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "rubicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "institution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22172,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22158,
+      "status": "candidate",
+      "text": "channels"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22158,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clear ok-to-deploy on new commits",
+  "concept_id": "clear-ok-to-deploy-on-new-commits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clear-ok-to-deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear ok-to-deploy on new commits",
+      "sense_id": "clear-ok-to-deploy-on-new-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

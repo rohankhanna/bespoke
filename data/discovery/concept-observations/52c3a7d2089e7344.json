@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Documentation tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Documentation tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11578,
+      "status": "candidate",
+      "text": "exhibits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10612,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10612,
+      "status": "candidate",
+      "text": "document"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation tests",
+      "sense_id": "documentation-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-tests",
+  "observation_id": "52c3a7d2089e7344",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Documentation tests",
+  "source_context_snippet": "Documentation tests",
+  "source_file": ".github/workflows/docs-tests.yaml",
+  "source_repo": "Redocly/redocly-cli-cookbook",
+  "source_repo_description": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation."
+}

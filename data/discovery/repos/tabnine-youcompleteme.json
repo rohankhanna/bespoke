@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock_old_issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "scrooloose/syntastic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "valloric/listtoggle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "rdnetto/ycm-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "eclipse/eclipse.jdt.ls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "dessant/lock-threads@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "source_repo": "tabnine/YouCompleteMe",
+      "target": "Lock Old Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:46.767865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 139067
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2281
+    },
+    {
+      "path": ".github/workflows/lock_old_issues.yaml",
+      "size": 721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A code-completion engine for Vim",
+    "fork": true,
+    "full_name": "tabnine/YouCompleteMe",
+    "html_url": "https://github.com/tabnine/YouCompleteMe",
+    "language": "Python",
+    "pushed_at": "2024-08-17T10:26:21Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2025-12-26T04:47:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/eclipse.jdt.ls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdnetto/ycm-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrooloose/syntastic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valloric/listtoggle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Lock Old Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "term": "Lock Old Issues"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Embed Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wilkerlucio/pathom-viz",
+      "status": "candidate-context",
+      "text": "Visualization tools for Pathom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom-viz",
+      "status": "candidate-context",
+      "text": "Embed Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom-viz",
+      "status": "candidate",
+      "text": "Embed Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12900,
+      "status": "candidate",
+      "text": "pitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12900,
+      "status": "candidate",
+      "text": "pitched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12858,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12598,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11879,
+      "status": "candidate",
+      "text": "bed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Embed Build",
+  "concept_id": "embed-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/embed.yml",
+      "source_repo": "wilkerlucio/pathom-viz"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Embed Build",
+      "sense_id": "embed-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -139,6 +139,42 @@
       "source_repo": "PaddlePaddle/RocketQA",
       "status": "candidate-context",
       "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "NLP DNN Toolkit - Building Your NLP DNN Models Like Playing Lego"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "status": "candidate-context",
+      "text": "[EMNLP 2022] Unifying and multi-tasking structured knowledge grounding with language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "PaddlePaddle/RocketQA",
       "status": "candidate",
       "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/RocketQA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Llama3.java Inference engine with OpenAI Chat Completion REST API/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inference-api",
+      "sense_id": "inference-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inference-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inference-api",
+  "observation_id": "1040d2b89ddd6e2c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "inference-api",
+  "source_context_snippet": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen.",
+  "source_file": null,
+  "source_repo": "stephanj/Llama3JavaChatCompletionService",
+  "source_repo_description": "Llama3.java Inference engine with OpenAI Chat Completion REST API/"
+}

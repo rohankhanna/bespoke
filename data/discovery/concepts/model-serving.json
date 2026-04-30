@@ -103,6 +103,30 @@
       "source_repo": "kserve/kserve",
       "status": "candidate-context",
       "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "ClearML - Model-Serving Orchestration and Repository Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "kserve/kserve",
       "status": "candidate",
       "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +250,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-serving"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

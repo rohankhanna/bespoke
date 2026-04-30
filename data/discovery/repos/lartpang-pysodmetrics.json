@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "Build and Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "metrics-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "metrics-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "metrics-reported",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "saliency-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "salient-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics",
+      "target": "salient-regions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:41.236885+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 2864
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2744
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1461
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PySODMetrics: A Simple and Efficient Implementation of Grayscale/Binary Segmentation Metrics",
+    "fork": false,
+    "full_name": "lartpang/PySODMetrics",
+    "html_url": "https://github.com/lartpang/PySODMetrics",
+    "language": "Python",
+    "pushed_at": "2026-03-18T08:58:37Z",
+    "stargazers_count": 443,
+    "topics": [
+      "metrics",
+      "metrics-evaluation",
+      "metrics-library",
+      "metrics-reported",
+      "python3",
+      "saliency",
+      "saliency-detection",
+      "saliency-map",
+      "saliency-maps",
+      "saliency-methods",
+      "saliency-model",
+      "saliency-prediction",
+      "salient-object-detection",
+      "salient-regions"
+    ],
+    "updated_at": "2026-04-27T15:02:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and Deploy Documentation"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics-evaluation"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics-library"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics-reported"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-detection"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-map"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-maps"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-methods"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-model"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saliency-prediction"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-object-detection"
+    },
+    {
+      "context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-regions"
+    }
+  ]
+}

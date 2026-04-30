@@ -2,7 +2,8 @@
   "aliases": [
     "Docker Build and Push",
     "docker build and push",
-    "Docker build and push"
+    "Docker build and push",
+    "docker-build-and-push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -99,6 +100,18 @@
       "source_repo": "spacemeshos/post-rs",
       "status": "candidate-context",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "Autoware - the world's leading open-source software project for autonomous driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate-context",
+      "text": "docker-build-and-push"
     }
   ],
   "candidate_glosses": [
@@ -143,6 +156,12 @@
       "source_repo": "spacemeshos/post-rs",
       "status": "candidate",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autowarefoundation/autoware",
+      "status": "candidate",
+      "text": "docker-build-and-push"
     }
   ],
   "candidate_related_terms": [
@@ -240,11 +259,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "spacemeshos/post-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "autowarefoundation/autoware"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

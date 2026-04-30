@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "distributed-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "fresh-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "neighborhood-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "space-partition-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/SPTAG",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:39.195130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7655
+    },
+    {
+      "path": "Dockerfile",
+      "size": 857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A distributed approximate nearest neighborhood search (ANN) library which provides a high quality vector index build, search and distributed online serving toolkits for large scale vector search scenario.",
+    "fork": false,
+    "full_name": "microsoft/SPTAG",
+    "html_url": "https://github.com/microsoft/SPTAG",
+    "language": "C++",
+    "pushed_at": "2026-04-30T02:37:26Z",
+    "stargazers_count": 4985,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "distributed-serving",
+      "fresh-update",
+      "neighborhood-graph",
+      "space-partition-tree",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-29T18:12:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-serving"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fresh-update"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neighborhood-graph"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-partition-tree"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/Microsoft/SPTAG/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

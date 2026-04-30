@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Deploy API documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Build and Deploy API documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Build and Deploy API documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33393,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31211,
+      "status": "candidate",
+      "text": "preview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31105,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30980,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30980,
+      "status": "candidate",
+      "text": "previews"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Deploy API documentation",
+  "concept_id": "build-and-deploy-api-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/api_documentation.yml",
+      "source_repo": "bonukai/MediaTracker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy API documentation",
+      "sense_id": "build-and-deploy-api-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

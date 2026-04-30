@@ -259,6 +259,30 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "go-flutter implementations for popular Flutter plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
     }
   ],
   "candidate_related_terms": [
@@ -685,11 +721,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -142,6 +142,30 @@
       "source_repo": "r-lib/covr",
       "status": "candidate-context",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gustavoguichard/string-ts",
+      "status": "candidate-context",
+      "text": "Strongly typed string functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gustavoguichard/string-ts",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Codecov"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +234,18 @@
       "source_repo": "r-lib/covr",
       "status": "candidate",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gustavoguichard/string-ts",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Codecov"
     }
   ],
   "candidate_related_terms": [],
@@ -283,11 +319,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "r-lib/covr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "gustavoguichard/string-ts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "bonukai/MediaTracker"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

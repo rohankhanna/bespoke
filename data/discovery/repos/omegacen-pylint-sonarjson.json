@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "omegacen/pylint-sonarjson",
+      "target": "cnescatlab/pylint-sonarjson-catlab.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omegacen/pylint-sonarjson",
+      "target": "pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omegacen/pylint-sonarjson",
+      "target": "sonarqube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:44.571282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A PyLint plugin that outputs to SonarQube-importable JSON with configurable severity, effort, and type",
+    "fork": false,
+    "full_name": "omegacen/pylint-sonarjson",
+    "html_url": "https://github.com/omegacen/pylint-sonarjson",
+    "language": "Python",
+    "pushed_at": "2024-05-02T15:38:51Z",
+    "stargazers_count": 4,
+    "topics": [
+      "pylint",
+      "sonarqube"
+    ],
+    "updated_at": "2024-05-02T15:40:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnescatlab/pylint-sonarjson-catlab.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pylint"
+    },
+    {
+      "context_snippet": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sonarqube"
+    }
+  ]
+}

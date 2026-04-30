@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:29:09.302092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "exograd/erl-ksuid",
+    "html_url": "https://github.com/exograd/erl-ksuid",
+    "language": "Erlang",
+    "pushed_at": "2022-12-03T22:31:39Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-12-03T22:31:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

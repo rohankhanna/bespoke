@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml",
+      "source_repo": "scalar/starter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml",
+      "source_repo": "scalar/starter",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml",
+      "source_repo": "scalar/starter",
+      "target": "Validate Scalar Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "scalar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "starter-kit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:22.435384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2068
+    },
+    {
+      "path": ".github/workflows/validate-scalar-configuration.yml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalar Docs Starter Kit",
+    "fork": false,
+    "full_name": "scalar/starter",
+    "html_url": "https://github.com/scalar/starter",
+    "language": null,
+    "pushed_at": "2026-04-24T07:11:20Z",
+    "stargazers_count": 5,
+    "topics": [
+      "docs",
+      "openapi",
+      "scalar",
+      "starter-kit",
+      "swagger",
+      "template"
+    ],
+    "updated_at": "2026-04-17T09:45:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate Scalar Configuration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-scalar-configuration.yml",
+      "term": "Validate Scalar Configuration"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalar"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-kit"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

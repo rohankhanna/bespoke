@@ -45,6 +45,30 @@
       "source_repo": "vipshop/cache-dit",
       "status": "candidate-context",
       "text": "Build Wheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "Build Wheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "A vLLM plugin built on the FlagOS unified multi-chip backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "Build Wheel"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vipshop/cache-dit",
+      "status": "candidate",
+      "text": "Build Wheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "Build Wheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
       "status": "candidate",
       "text": "Build Wheel"
     }
@@ -132,11 +168,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-wheel.yml",
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-skills",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-skills",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-skills",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:10.274876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official skills for the GLM family of models.",
+    "fork": false,
+    "full_name": "zai-org/GLM-skills",
+    "html_url": "https://github.com/zai-org/GLM-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-15T12:28:08Z",
+    "stargazers_count": 360,
+    "topics": [
+      "glm",
+      "multimodal",
+      "ocr",
+      "skills",
+      "vision"
+    ],
+    "updated_at": "2026-04-30T04:31:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

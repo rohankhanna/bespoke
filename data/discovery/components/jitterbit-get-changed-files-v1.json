@@ -1,7 +1,7 @@
 {
   "component": "jitterbit/get-changed-files@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-package.yml",
       "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/show_new_templates.yml",
+      "source_repo": "bigscience-workshop/promptsource"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/agent-framework"
     }
   ]
 }

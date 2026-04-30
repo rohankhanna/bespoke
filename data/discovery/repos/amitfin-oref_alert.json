@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metadata.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metadata.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/speller.yml"
+    },
+    {
+      "component": "streetsidesoftware/cspell-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/speller.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amitfin/oref_alert",
+      "target": "hacs/integration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amitfin/oref_alert",
+      "target": "thomasloven/lovelace-card-mod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "amitfin/oref_alert",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "amitfin/oref_alert",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "amitfin/oref_alert",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "amitfin/oref_alert",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/biome-update.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/biome-update.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Biome Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Dependabot Auto Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metadata.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metadata.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/metadata.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/speller.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/speller.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "streetsidesoftware/cspell-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/speller.yml",
+      "source_repo": "amitfin/oref_alert",
+      "target": "Speller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amitfin/oref_alert",
+      "target": "homeassistant-custom-component",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:51.410025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30813
+    },
+    {
+      "path": "package.json",
+      "size": 795
+    },
+    {
+      "path": "requirements.txt",
+      "size": 119
+    },
+    {
+      "path": ".github/workflows/biome-update.yml",
+      "size": 1090
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/manifest.yml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/metadata.yml",
+      "size": 1798
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/speller.yml",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Israeli Oref Alerts",
+    "fork": false,
+    "full_name": "amitfin/oref_alert",
+    "html_url": "https://github.com/amitfin/oref_alert",
+    "language": "Python",
+    "pushed_at": "2026-04-29T02:25:44Z",
+    "stargazers_count": 201,
+    "topics": [
+      "homeassistant-custom-component"
+    ],
+    "updated_at": "2026-04-29T02:25:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hacs/integration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomasloven/lovelace-card-mod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Biome Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/biome-update.yml",
+      "term": "Biome Update"
+    },
+    {
+      "context_snippet": "Dependabot Auto Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependabot Auto Merge"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest.yml",
+      "term": "Manifest"
+    },
+    {
+      "context_snippet": "Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/metadata.yml",
+      "term": "Metadata"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Speller",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/speller.yml",
+      "term": "Speller"
+    },
+    {
+      "context_snippet": "[![HACS Badge](https://img.shields.io/badge/HACS-Default-31A9F4.svg?style=for-the-badge)](https://github.com/hacs/integration)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homeassistant-custom-component"
+    }
+  ]
+}

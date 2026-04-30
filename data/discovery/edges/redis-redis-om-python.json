@@ -11,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/redis-om-python",
-      "target": "redis/redis-py-entraid",
+      "target": "redis-om/redis-om-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-python",
+      "target": "redis-om/redis-om-spring",
       "target_type": "repository"
     },
     {
@@ -239,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "redis/redis-om-python"
 }

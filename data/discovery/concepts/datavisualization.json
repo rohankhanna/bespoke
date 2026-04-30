@@ -19,6 +19,18 @@
       "source_repo": "vizzuhq/vizzu-lib",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": ":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vizzuhq/vizzu-lib",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vizzuhq/vizzu-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

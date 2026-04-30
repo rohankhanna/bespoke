@@ -55,6 +55,42 @@
       "source_repo": "csstools/postcss-plugins",
       "status": "candidate-context",
       "text": "[<img alt=\"build status\" src=\"https://github.com/csstools/postcss-plugins/actions/workflows/test.yml/badge.svg?branch=main\" height=\"20\">][ci-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2createStudio/postcss-sprites",
+      "status": "candidate-context",
+      "text": "Generate sprites from stylesheets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2createStudio/postcss-sprites",
+      "status": "candidate-context",
+      "text": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": " A Sass parser for PostCSS, using gonzales-pe. https://www.npmjs.com/package/postcss-sass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss-cli",
+      "status": "candidate-context",
+      "text": "CLI for postcss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-cli",
+      "status": "candidate-context",
+      "text": "[![npm][npm]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "csstools/postcss-plugins",
       "status": "candidate",
       "text": "[<img alt=\"build status\" src=\"https://github.com/csstools/postcss-plugins/actions/workflows/test.yml/badge.svg?branch=main\" height=\"20\">][ci-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2createStudio/postcss-sprites",
+      "status": "candidate",
+      "text": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AleshaOleg/postcss-sass",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/AleshaOleg/postcss-sass.svg?branch=master)](https://travis-ci.org/AleshaOleg/postcss-sass) [![Coverage Status](https://coveralls.io/repos/github/AleshaOleg/postcss-sass/badge.svg)](https://coveralls.io/github/AleshaOleg/postcss-sass) [![Gre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-cli",
+      "status": "candidate",
+      "text": "[![npm][npm]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "csstools/postcss-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AleshaOleg/postcss-sass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "postcss/postcss-cli"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "forming"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034692,
+      "status": "candidate",
+      "text": "take form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034644,
+      "status": "candidate",
+      "text": "take shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033438,
+      "status": "candidate",
+      "text": "configuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031642,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031615,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "forming",
+  "concept_id": "forming",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "inherd/forming"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forming",
+      "sense_id": "forming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

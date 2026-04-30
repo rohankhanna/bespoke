@@ -184,6 +184,18 @@
       "source_repo": "sigstore/sigstore-conformance",
       "status": "candidate-context",
       "text": "sigstore-conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "Fast Rust port of Steve Yegge's beads: local-first, non-invasive issue tracker storing tasks in SQLite with JSONL export for git collaboration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "Conformance"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +288,12 @@
       "source_repo": "sigstore/sigstore-conformance",
       "status": "candidate",
       "text": "sigstore-conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate",
+      "text": "Conformance"
     }
   ],
   "candidate_related_terms": [
@@ -423,11 +441,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sigstore/sigstore-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "Dicklesworthstone/beads_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "distribution/distribution"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

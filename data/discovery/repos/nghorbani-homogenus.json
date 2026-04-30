@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nghorbani/homogenus",
+      "target": "nghorbani/configer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus",
+      "target": "gender-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus",
+      "target": "human",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus",
+      "target": "openpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus",
+      "target": "smpl-x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:51.307310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5459
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Human Image Gender Classifier for Expressive Body Capture",
+    "fork": false,
+    "full_name": "nghorbani/homogenus",
+    "html_url": "https://github.com/nghorbani/homogenus",
+    "language": "Python",
+    "pushed_at": "2023-03-24T23:40:34Z",
+    "stargazers_count": 128,
+    "topics": [
+      "gender-classification",
+      "human",
+      "machine-learning",
+      "openpose",
+      "smpl-x"
+    ],
+    "updated_at": "2026-04-13T02:24:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/configer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gender-classification"
+    },
+    {
+      "context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human"
+    },
+    {
+      "context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openpose"
+    },
+    {
+      "context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl-x"
+    }
+  ]
+}

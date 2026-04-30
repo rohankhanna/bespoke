@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml"
+    },
+    {
+      "component": "alstr/todo-to-issue-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "mofiqul/dracula.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "alstr/todo-to-issue-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "Open Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "acario",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x-ximon/acario.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:53.268919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 974
+    },
+    {
+      "path": ".github/workflows/issues.yaml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Acario.nvim: A port of the clean, high-contrast Doom Emacs Acario theme",
+    "fork": false,
+    "full_name": "0x-ximon/acario.nvim",
+    "html_url": "https://github.com/0x-ximon/acario.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-30T16:34:09Z",
+    "stargazers_count": 11,
+    "topics": [
+      "acario",
+      "colorscheme",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-12T08:53:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mofiqul/dracula.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yaml",
+      "term": "Open Issues"
+    },
+    {
+      "context_snippet": "Port of the Emacs Doom Acario Theme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acario"
+    },
+    {
+      "context_snippet": "Port of the Emacs Doom Acario Theme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "Port of the Emacs Doom Acario Theme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

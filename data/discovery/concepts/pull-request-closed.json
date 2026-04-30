@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Pull Request Closed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Pull Request Closed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "Pull Request Closed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Pull Request Closed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate",
+      "text": "Pull Request Closed"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19001,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18868,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17871,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17871,
+      "status": "candidate",
+      "text": "bursting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17871,
+      "status": "candidate",
+      "text": "constrict"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Closed",
+  "concept_id": "pull-request-closed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Closed",
+      "sense_id": "pull-request-closed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aiohttp",
+      "sense_id": "aiohttp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aiohttp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aiohttp",
+  "observation_id": "fc74d4965ac96919",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "aiohttp",
+  "source_context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "scivision/linkchecker-markdown",
+  "source_repo_description": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second"
+}

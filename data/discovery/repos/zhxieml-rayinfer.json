@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:19:02.141514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1288
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zhxieml/rayinfer",
+    "html_url": "https://github.com/zhxieml/rayinfer",
+    "language": "Python",
+    "pushed_at": "2025-07-31T19:07:31Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-07-31T19:07:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

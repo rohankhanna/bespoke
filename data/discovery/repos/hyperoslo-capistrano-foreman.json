@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:21:23.564669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Capistrano tasks for foreman and upstart.",
+    "fork": false,
+    "full_name": "hyperoslo/capistrano-foreman",
+    "html_url": "https://github.com/hyperoslo/capistrano-foreman",
+    "language": "Ruby",
+    "pushed_at": "2023-04-21T20:03:34Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2024-10-25T16:13:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -196,6 +196,30 @@
       "source_repo": "crowdcent/numerblox",
       "status": "candidate-context",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "CLI interfaces & config objects, from types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "Ruff"
     }
   ],
   "candidate_glosses": [
@@ -292,6 +316,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crowdcent/numerblox",
+      "status": "candidate",
+      "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate",
+      "text": "ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
       "status": "candidate",
       "text": "Ruff"
     }
@@ -523,11 +559,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "crowdcent/numerblox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "kevinzakka/obj2mjcf"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

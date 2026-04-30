@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "koreader/koreader",
+      "target": "koreader/koreader-artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "koreader/koreader",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "djvu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "djvu-reflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "ebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "ebook-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "eink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "epub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "ereader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "kindle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "kobo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "opds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "pdf-reflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "pocketbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "reflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "remarkable-tablet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koreader/koreader",
+      "target": "ubuntu-touch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:16:35.047903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6306
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+    "fork": false,
+    "full_name": "koreader/koreader",
+    "html_url": "https://github.com/koreader/koreader",
+    "language": "Lua",
+    "pushed_at": "2026-04-30T07:51:51Z",
+    "stargazers_count": 26537,
+    "topics": [
+      "cbz",
+      "djvu",
+      "djvu-reflow",
+      "ebook",
+      "ebook-reader",
+      "eink",
+      "epub",
+      "ereader",
+      "fb2",
+      "kindle",
+      "kobo",
+      "luajit",
+      "opds",
+      "pdf",
+      "pdf-reflow",
+      "pocketbook",
+      "reader",
+      "reflow",
+      "remarkable-tablet",
+      "ubuntu-touch"
+    ],
+    "updated_at": "2026-04-30T07:17:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koreader/koreader-artwork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "djvu"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "djvu-reflow"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebook"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebook-reader"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eink"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "epub"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ereader"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kindle"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kobo"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opds"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-reflow"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pocketbook"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reader"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflow"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remarkable-tablet"
+    },
+    {
+      "context_snippet": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu-touch"
+    }
+  ]
+}

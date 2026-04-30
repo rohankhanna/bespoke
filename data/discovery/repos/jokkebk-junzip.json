@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:15:57.310735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimalistic unzip library released into public domain.",
+    "fork": false,
+    "full_name": "jokkebk/JUnzip",
+    "html_url": "https://github.com/jokkebk/JUnzip",
+    "language": "C",
+    "pushed_at": "2026-02-07T08:58:17Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-02-07T08:58:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

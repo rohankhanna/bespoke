@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "nvlabs/munit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "nightrome/cocostuff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "kazuto1011/deeplab-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "fyu/drn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "conditional-gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "cyclegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "gaugan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "pix2pix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:57.605075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18176
+    },
+    {
+      "path": "requirements.txt",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] GAN Compression: Efficient Architectures for Interactive Conditional GANs",
+    "fork": false,
+    "full_name": "mit-han-lab/gan-compression",
+    "html_url": "https://github.com/mit-han-lab/gan-compression",
+    "language": "Python",
+    "pushed_at": "2024-06-05T21:59:17Z",
+    "stargazers_count": 1118,
+    "topics": [
+      "compression",
+      "conditional-gans",
+      "cyclegan",
+      "gans",
+      "gaugan",
+      "image-to-image-translation",
+      "pix2pix",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-22T18:41:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyu/drn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kazuto1011/deeplab-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightrome/cocostuff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/munit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditional-gans"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclegan"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaugan"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    },
+    {
+      "context_snippet": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

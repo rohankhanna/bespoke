@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2022] \"Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity\" by Shiwei Liu, Tianlong Chen, Zahra Atashgahi, Xiaohan Chen, Ghada Sokar, Elena Mocanu, Mykola Pechenizkiy, Zhangyang Wang, Decebal Constantin Mocanu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficientensemble",
+      "sense_id": "efficientensemble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "efficientensemble",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "efficientensemble",
+  "observation_id": "272275a8397af75a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "efficientensemble",
+  "source_context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">",
+  "source_file": null,
+  "source_repo": "VITA-Group/FreeTickets",
+  "source_repo_description": "[ICLR 2022] \"Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity\" by Shiwei Liu, Tianlong Chen, Zahra Atashgahi, Xiaohan Chen, Ghada Sokar, Elena Mocanu, Mykola Pechenizkiy, Zhangyang Wang, Decebal Constantin Mocanu"
+}

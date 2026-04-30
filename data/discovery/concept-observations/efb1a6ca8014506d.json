@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Font renaming script for OpenType tables in CFF (.otf) and OT TrueType (.ttf) fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`fontname.py` is a `.ttf` and `.otf` font renaming script that is developed in Python. It supports font renaming with the Python 3.6+ interpreter."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`fontname.py` is a `.ttf` and `.otf` font renaming script that is developed in Python. It supports font renaming with the Python 3.6+ interpreter."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "otf-fonts",
+      "sense_id": "otf-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "otf-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "otf-fonts",
+  "observation_id": "efb1a6ca8014506d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "otf-fonts",
+  "source_context_snippet": "`fontname.py` is a `.ttf` and `.otf` font renaming script that is developed in Python. It supports font renaming with the Python 3.6+ interpreter.",
+  "source_file": null,
+  "source_repo": "chrissimpkins/fontname.py",
+  "source_repo_description": "Font renaming script for OpenType tables in CFF (.otf) and OT TrueType (.ttf) fonts"
+}

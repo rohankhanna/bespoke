@@ -211,6 +211,54 @@
       "source_repo": "omniauth/omniauth",
       "status": "candidate-context",
       "text": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "Light LDAP implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos library for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "Flexible authentication solution for Rails with Warden."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "A native Kerberos client implementation for Python on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "==========="
     }
   ],
   "candidate_glosses": [
@@ -315,6 +363,30 @@
       "source_repo": "omniauth/omniauth",
       "status": "candidate",
       "text": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate",
+      "text": "==========="
     }
   ],
   "candidate_related_terms": [
@@ -554,11 +626,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "omniauth/omniauth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lldap/lldap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/winkerberos"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

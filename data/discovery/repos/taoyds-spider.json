@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taoyds/spider",
+      "target": "hkunlp/unifiedskg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taoyds/spider",
+      "target": "taoyds/test-suite-sql-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taoyds/spider",
+      "target": "taoyds/syntaxsql",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:06.831766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "scripts and baselines for Spider: Yale complex and cross-domain semantic parsing and text-to-SQL challenge",
+    "fork": false,
+    "full_name": "taoyds/spider",
+    "html_url": "https://github.com/taoyds/spider",
+    "language": "Python",
+    "pushed_at": "2024-05-29T03:16:42Z",
+    "stargazers_count": 1066,
+    "topics": [],
+    "updated_at": "2026-04-28T09:08:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkunlp/unifiedskg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taoyds/syntaxsql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taoyds/test-suite-sql-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

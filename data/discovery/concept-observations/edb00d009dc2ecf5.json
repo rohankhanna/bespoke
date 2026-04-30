@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ClojureScript macros for convenient native Javascript object access."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957931,
+      "status": "candidate",
+      "text": "interoperability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957608,
+      "status": "candidate",
+      "text": "interoperable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958517,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958516,
+      "status": "candidate",
+      "text": "interoperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958515,
+      "status": "candidate",
+      "text": "interface"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interop",
+      "sense_id": "interop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interop",
+  "observation_id": "edb00d009dc2ecf5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "interop",
+  "source_context_snippet": "ClojureScript macros for convenient native Javascript object access.",
+  "source_file": null,
+  "source_repo": "binaryage/cljs-oops",
+  "source_repo_description": "ClojureScript macros for convenient native Javascript object access."
+}

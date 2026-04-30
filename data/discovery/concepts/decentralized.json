@@ -103,6 +103,18 @@
       "source_repo": "status-im/status-app",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/ic-tee",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-tee",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "status-im/status-app",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-tee",
+      "status": "candidate",
+      "text": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer."
     }
   ],
   "candidate_related_terms": [
@@ -314,11 +332,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-tee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

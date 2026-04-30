@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mengyao/Complete-Striped-Smith-Waterman-Library",
+      "target": "nanxstats/ssw-r",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:11.400721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12788
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mengyao/Complete-Striped-Smith-Waterman-Library",
+    "html_url": "https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library",
+    "language": "C",
+    "pushed_at": "2026-01-15T03:00:40Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-03-31T11:08:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanxstats/ssw-r",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

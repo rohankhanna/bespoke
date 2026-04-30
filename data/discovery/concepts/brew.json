@@ -55,6 +55,18 @@
       "source_repo": "Justintime50/homebrew-releaser",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate-context",
+      "text": "Emacs Plus formulae for the Homebrew package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate-context",
+      "text": "Build Emacs.app"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Justintime50/homebrew-releaser",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate",
+      "text": "Build Emacs.app"
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Justintime50/homebrew-releaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "d12frosted/homebrew-emacs-plus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nixprime/cpsm",
+      "target": "jazzcore/ctrlp-cmatcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nixprime/cpsm",
+      "target": "felikz/ctrlp-py-matcher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:22.255380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CtrlP matcher, specialized for paths.",
+    "fork": false,
+    "full_name": "nixprime/cpsm",
+    "html_url": "https://github.com/nixprime/cpsm",
+    "language": "Python",
+    "pushed_at": "2026-02-10T02:48:33Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-02-10T02:48:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felikz/ctrlp-py-matcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jazzcore/ctrlp-cmatcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

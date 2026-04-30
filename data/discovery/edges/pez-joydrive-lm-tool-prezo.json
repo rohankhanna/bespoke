@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "ai-text-to-speech",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "copliot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "joyride",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "vibe-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "PEZ/joydrive-lm-tool-prezo"
+}

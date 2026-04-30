@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:10.139325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reinforcement learning algorithms for MuJoCo tasks",
+    "fork": false,
+    "full_name": "aravindr93/mjrl",
+    "html_url": "https://github.com/aravindr93/mjrl",
+    "language": "Python",
+    "pushed_at": "2025-03-13T22:00:38Z",
+    "stargazers_count": 458,
+    "topics": [
+      "mujoco",
+      "reinforcement-learning",
+      "robotics",
+      "simulation"
+    ],
+    "updated_at": "2026-04-18T08:56:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

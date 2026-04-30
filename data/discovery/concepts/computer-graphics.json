@@ -127,6 +127,54 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate-context",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "A High-Quality Real Time Upscaler for Anime Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

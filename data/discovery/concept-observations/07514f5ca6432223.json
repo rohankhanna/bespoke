@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ChocoBuilder (Chocolate Factory) is a cutting-edge LLM toolkit designed to empower you in creating your very own AI assistant.Chocolate Factory \u662f\u4e00\u6b3e\u5f00\u6e90\u7684 LLM \u5e94\u7528\u5f00\u53d1\u6846\u67b6\uff0c\u65e8\u5728\u5e2e\u52a9\u60a8\u8f7b\u677e\u6253\u9020\u5f3a\u5927\u7684\u8f6f\u4ef6\u5f00\u53d1 SDLC + LLM \u751f\u6210\u52a9\u624b\u3002\u65e0\u8bba\u60a8\u662f\u9700\u8981\u751f\u6210\u524d\u7aef\u9875\u9762\u3001\u540e\u7aef API\u3001SQL \u56fe\u8868\uff0c\u8fd8\u662f\u6d4b\u8bd5\u7528\u4f8b\u6570\u636e\uff0cChocolate Factory \u90fd\u80fd\u6ee1\u8db3\u60a8\u7684\u9700\u6c42\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045979,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045869,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045867,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045747,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045127,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "liberation"
+    }
+  ],
+  "concept_id": "release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release",
+  "observation_id": "07514f5ca6432223",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Release",
+  "source_context_snippet": "Release",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "unit-mesh/choco-builder",
+  "source_repo_description": "ChocoBuilder (Chocolate Factory) is a cutting-edge LLM toolkit designed to empower you in creating your very own AI assistant.Chocolate Factory \u662f\u4e00\u6b3e\u5f00\u6e90\u7684 LLM \u5e94\u7528\u5f00\u53d1\u6846\u67b6\uff0c\u65e8\u5728\u5e2e\u52a9\u60a8\u8f7b\u677e\u6253\u9020\u5f3a\u5927\u7684\u8f6f\u4ef6\u5f00\u53d1 SDLC + LLM \u751f\u6210\u52a9\u624b\u3002\u65e0\u8bba\u60a8\u662f\u9700\u8981\u751f\u6210\u524d\u7aef\u9875\u9762\u3001\u540e\u7aef API\u3001SQL \u56fe\u8868\uff0c\u8fd8\u662f\u6d4b\u8bd5\u7528\u4f8b\u6570\u636e\uff0cChocolate Factory \u90fd\u80fd\u6ee1\u8db3\u60a8\u7684\u9700\u6c42\u3002"
+}

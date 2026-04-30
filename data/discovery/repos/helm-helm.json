@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:52:16.962785+00:00",
+  "fetched_at": "2026-04-30T08:09:31.373513+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -355,7 +355,7 @@
     },
     {
       "path": "go.mod",
-      "size": 8997
+      "size": 8918
     },
     {
       "path": ".github/workflows/build-test.yml",
@@ -363,7 +363,7 @@
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
-      "size": 2641
+      "size": 2667
     },
     {
       "path": ".github/workflows/golangci-lint.yml",
@@ -383,7 +383,7 @@
     },
     {
       "path": ".github/workflows/stale.yaml",
-      "size": 826
+      "size": 907
     }
   ],
   "related_repositories": [],
@@ -395,8 +395,8 @@
     "full_name": "helm/helm",
     "html_url": "https://github.com/helm/helm",
     "language": "Go",
-    "pushed_at": "2026-04-21T18:11:39Z",
-    "stargazers_count": 29713,
+    "pushed_at": "2026-04-29T13:35:53Z",
+    "stargazers_count": 29768,
     "topics": [
       "chart",
       "charts",
@@ -404,7 +404,7 @@
       "helm",
       "kubernetes"
     ],
-    "updated_at": "2026-04-21T18:11:59Z"
+    "updated_at": "2026-04-30T07:10:51Z"
   },
   "repo_links": [],
   "terms": [

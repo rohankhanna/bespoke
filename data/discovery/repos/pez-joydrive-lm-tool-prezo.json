@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "ai-text-to-speech",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "ai-text-to-speech",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "copliot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "joyride",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "vibe-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/joydrive-lm-tool-prezo",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:21.832082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10222
+    },
+    {
+      "path": "package.json",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A self contained project for presenting CoPilot support for Joyride",
+    "fork": false,
+    "full_name": "PEZ/joydrive-lm-tool-prezo",
+    "html_url": "https://github.com/PEZ/joydrive-lm-tool-prezo",
+    "language": "Clojure",
+    "pushed_at": "2025-08-26T15:09:42Z",
+    "stargazers_count": 7,
+    "topics": [
+      "copliot",
+      "joyride",
+      "vibe-coding",
+      "vscode"
+    ],
+    "updated_at": "2025-10-22T17:25:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Presenting Joyride with an AI powered presentation system, made with Joyride*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "copliot"
+    },
+    {
+      "context_snippet": "*Presenting Joyride with an AI powered presentation system, made with Joyride*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "joyride"
+    },
+    {
+      "context_snippet": "*Presenting Joyride with an AI powered presentation system, made with Joyride*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
+    },
+    {
+      "context_snippet": "*Presenting Joyride with an AI powered presentation system, made with Joyride*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

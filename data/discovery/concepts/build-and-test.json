@@ -4,7 +4,8 @@
     "Build and test",
     "build-and-test",
     "build and test",
-    "Build And Test"
+    "Build And Test",
+    "\ud83d\ude80 Build and Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -1049,6 +1050,138 @@
       "source_repo": "astahmer/typed-openapi",
       "status": "candidate-context",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos library for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "A Github Action to install the current Vulkan SDK and runtime library. It also supports installing SwiftShader and Lavapipe software rasterizers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "\"\ud83d\ude80 Build and Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "CUDA Kernel Benchmarking Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Dafny is a verification-aware programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BetterThanTomorrow/calva-power-tools",
+      "status": "candidate-context",
+      "text": "A VS Code Extension providing commands for extra powerful things in the Clojure ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/calva-power-tools",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/ktfmt",
+      "status": "candidate-context",
+      "text": "A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/ktfmt",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/buck2",
+      "status": "candidate-context",
+      "text": "Build system, successor to Buck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck2",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Infinidat/munch",
+      "status": "candidate-context",
+      "text": "A Munch is a Python dictionary that provides attribute-style access (a la JavaScript objects)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infinidat/munch",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate-context",
+      "text": "A TypeScript sample app for the Retrieval Augmented Generation pattern running on Azure, using Azure AI Search for retrieval and Azure OpenAI and LangChain large language models (LLMs) to power ChatGPT-style and Q&A experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate-context",
+      "text": "Build and test"
     }
   ],
   "candidate_glosses": [
@@ -1573,6 +1706,72 @@
       "source_repo": "astahmer/typed-openapi",
       "status": "candidate",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate",
+      "text": "\"\ud83d\ude80 Build and Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate",
+      "text": "build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/calva-power-tools",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/ktfmt",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck2",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Infinidat/munch",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript",
+      "status": "candidate",
+      "text": "Build and test"
     }
   ],
   "candidate_related_terms": [
@@ -2174,11 +2373,95 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-and-test.yaml",
       "source_repo": "astahmer/typed-openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test-linux.yml",
+      "source_repo": "NVIDIA/nvbench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "BetterThanTomorrow/calva-power-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "facebook/ktfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Infinidat/munch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

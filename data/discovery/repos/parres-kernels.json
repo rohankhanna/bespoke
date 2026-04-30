@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ParRes/Kernels",
+      "target": "kokkos/kokkos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ParRes/Kernels",
+      "target": "llnl/raja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ParRes/Kernels",
+      "target": "memkind/memkind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "ParRes/Kernels",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "ParRes/Kernels",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "coarray-fortran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "fortran2008",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "kokkos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "openacc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "parallel-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "pgas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "shmem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "sycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels",
+      "target": "threading",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:03.961717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14672
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a set of simple programs that can be used to explore the features of a parallel platform.",
+    "fork": false,
+    "full_name": "ParRes/Kernels",
+    "html_url": "https://github.com/ParRes/Kernels",
+    "language": "C",
+    "pushed_at": "2026-01-27T21:53:40Z",
+    "stargazers_count": 473,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "coarray-fortran",
+      "fortran2008",
+      "hpc",
+      "julia",
+      "kokkos",
+      "mpi",
+      "openacc",
+      "opencl",
+      "openmp",
+      "parallel",
+      "parallel-programming",
+      "pgas",
+      "python3",
+      "shmem",
+      "sycl",
+      "threading"
+    ],
+    "updated_at": "2026-04-02T16:38:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kokkos/kokkos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llnl/raja",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "memkind/memkind",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coarray-fortran"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fortran2008"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kokkos"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openacc"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-programming"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pgas"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shmem"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    },
+    {
+      "context_snippet": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threading"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml"
+    },
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml"
+    },
+    {
+      "component": "lizheming/github-translate-action",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "qwen/qwen3-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "Close and lock inactive threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "lizheming/github-translate-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "target": "translator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:53.344898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60010
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/inactive.yaml",
+      "size": 1461
+    },
+    {
+      "path": ".github/workflows/translate.yaml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen3-TTS",
+    "html_url": "https://github.com/QwenLM/Qwen3-TTS",
+    "language": "Python",
+    "pushed_at": "2026-03-17T06:38:41Z",
+    "stargazers_count": 11064,
+    "topics": [],
+    "updated_at": "2026-04-30T10:09:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwen/qwen3-tts",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close and lock inactive threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive.yaml",
+      "term": "Close and lock inactive threads"
+    },
+    {
+      "context_snippet": "'translator'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yaml",
+      "term": "translator"
+    }
+  ]
+}

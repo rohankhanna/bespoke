@@ -1,0 +1,504 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-unicorn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "Azure/setup-azd@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azure-samples/azure-search-openai-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azure-samples/azure-search-openai-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azure-samples/azure-search-openai-demo-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azure-samples/azure-search-openai-demo-csharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "eslint-plugin-unicorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "Azure/setup-azd@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "Deploy to Azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "Build workshop docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "ncipollo/release-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "Update workshop packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slides.yml",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "Deploy slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "fastify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "target": "workshop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:08.010339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9024
+    },
+    {
+      "path": "package.json",
+      "size": 1821
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1492
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/packages.yml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/slides.yml",
+      "size": 995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop",
+    "fork": false,
+    "full_name": "Azure-Samples/azure-openai-rag-workshop",
+    "html_url": "https://github.com/Azure-Samples/azure-openai-rag-workshop",
+    "language": "Bicep",
+    "pushed_at": "2026-01-20T13:15:16Z",
+    "stargazers_count": 148,
+    "topics": [
+      "azd-templates",
+      "azure",
+      "chatgpt",
+      "fastify",
+      "langchain",
+      "nodejs",
+      "openai",
+      "rag",
+      "workshop"
+    ],
+    "updated_at": "2026-04-27T11:44:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-search-openai-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-search-openai-demo-csharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-search-openai-demo-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-search-openai-javascript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to Azure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to Azure"
+    },
+    {
+      "context_snippet": "Build workshop docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build workshop docs"
+    },
+    {
+      "context_snippet": "Update workshop packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "term": "Update workshop packages"
+    },
+    {
+      "context_snippet": "Deploy slides",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slides.yml",
+      "term": "Deploy slides"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workshop"
+    }
+  ]
+}

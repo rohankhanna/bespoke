@@ -19,12 +19,30 @@
       "source_repo": "jupyter-server/jupyter_server",
       "status": "candidate-context",
       "text": "\"Publish Changelog\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipykernel",
+      "status": "candidate-context",
+      "text": "IPython Kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipykernel",
+      "status": "candidate-context",
+      "text": "\"Publish Changelog\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate",
+      "text": "\"Publish Changelog\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipykernel",
       "status": "candidate",
       "text": "\"Publish Changelog\""
     }
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish-changelog.yml",
       "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "ipython/ipykernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-changelog.yml",
+      "source_repo": "jupyter-server/jupyter_server"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

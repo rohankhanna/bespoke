@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:17:54.628972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "NVlabs/metfaces-dataset",
+    "html_url": "https://github.com/NVlabs/metfaces-dataset",
+    "language": "Python",
+    "pushed_at": "2021-09-16T11:28:41Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-03-24T14:11:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeGen",
+      "target": "generativemodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeGen",
+      "target": "languagemodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeGen",
+      "target": "programsynthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeGen",
+      "target": "tpu-acceleration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:54.210883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CodeGen is a family of open-source model for program synthesis. Trained on TPU-v4. Competitive with OpenAI Codex.",
+    "fork": false,
+    "full_name": "salesforce/CodeGen",
+    "html_url": "https://github.com/salesforce/CodeGen",
+    "language": "Python",
+    "pushed_at": "2025-10-27T18:57:36Z",
+    "stargazers_count": 5175,
+    "topics": [
+      "codex",
+      "generativemodel",
+      "languagemodel",
+      "llm",
+      "programsynthesis",
+      "tpu-acceleration"
+    ],
+    "updated_at": "2026-04-29T13:45:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generativemodel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languagemodel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programsynthesis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tpu-acceleration"
+    }
+  ]
+}

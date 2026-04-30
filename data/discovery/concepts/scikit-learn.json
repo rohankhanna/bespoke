@@ -115,6 +115,18 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate-context",
       "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "Automated Machine Learning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "dusty-nv/jetson-containers",
       "status": "candidate",
       "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/katib"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

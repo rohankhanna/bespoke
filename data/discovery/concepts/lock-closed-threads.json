@@ -43,6 +43,18 @@
       "source_repo": "pyinstaller/pyinstaller",
       "status": "candidate-context",
       "text": "Lock Closed Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "'Lock Closed Threads'"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pyinstaller/pyinstaller",
       "status": "candidate",
       "text": "Lock Closed Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "'Lock Closed Threads'"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lock-threads.yml",
       "source_repo": "pyinstaller/pyinstaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

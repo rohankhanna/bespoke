@@ -67,6 +67,18 @@
       "source_repo": "adamiBs/vscode-terraform-live-graph",
       "status": "candidate-context",
       "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate-context",
+      "text": "> Idiomatic PHP client for [Google Cloud Platform](https://cloud.google.com/) services."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "adamiBs/vscode-terraform-live-graph",
       "status": "candidate",
       "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate",
+      "text": "> Idiomatic PHP client for [Google Cloud Platform](https://cloud.google.com/) services."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "adamiBs/vscode-terraform-live-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-php"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

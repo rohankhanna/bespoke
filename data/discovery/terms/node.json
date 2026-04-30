@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -386,6 +386,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "aws/jsii"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "i18next/i18next-subliminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "poolifier/tatami-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "jquery/jquery-ui"
     }
   ],
   "term": "node"

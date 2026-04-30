@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:27:43.723394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 225
+    },
+    {
+      "path": "go.mod",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Example libp2p applications",
+    "fork": false,
+    "full_name": "libp2p/go-libp2p-examples",
+    "html_url": "https://github.com/libp2p/go-libp2p-examples",
+    "language": null,
+    "pushed_at": "2021-05-12T14:13:05Z",
+    "stargazers_count": 336,
+    "topics": [],
+    "updated_at": "2025-12-19T14:14:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

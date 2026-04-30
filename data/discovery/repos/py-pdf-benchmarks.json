@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "py-pdf/benchmarks",
+      "target": "py-pdf/sample-files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "data-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "mupdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "poppler-utils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "pypdf2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks",
+      "target": "text-extraction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:42.059329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31673
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarking PDF libraries",
+    "fork": false,
+    "full_name": "py-pdf/benchmarks",
+    "html_url": "https://github.com/py-pdf/benchmarks",
+    "language": "Python",
+    "pushed_at": "2025-07-02T11:11:50Z",
+    "stargazers_count": 328,
+    "topics": [
+      "benchmark",
+      "data-extraction",
+      "mupdf",
+      "pdf",
+      "poppler-utils",
+      "pypdf2",
+      "text-extraction"
+    ],
+    "updated_at": "2026-04-17T17:28:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "py-pdf/sample-files",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-extraction"
+    },
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mupdf"
+    },
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "poppler-utils"
+    },
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypdf2"
+    },
+    {
+      "context_snippet": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-extraction"
+    }
+  ]
+}

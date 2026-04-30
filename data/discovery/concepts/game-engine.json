@@ -127,6 +127,30 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate-context",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "The ioquake3 community effort to continue supporting/developing id's Quake III Arena"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hecrj/coffee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

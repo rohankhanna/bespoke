@@ -151,6 +151,18 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "DLRover: An Automatic Distributed Deep Learning System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

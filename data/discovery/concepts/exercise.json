@@ -19,6 +19,18 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate-context",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuhonas/free-exercise-db",
+      "status": "candidate",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

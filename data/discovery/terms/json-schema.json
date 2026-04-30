@@ -1,7 +1,27 @@
 {
-  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -20,32 +40,7 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "fastapi/fastapi"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "h2non/baloo"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "APIDevTools/swagger-parser"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "confluentinc/schema-registry"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "pydantic/pydantic"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/full-stack-fastapi-template"
+      "source_repo": "stoplightio/spectral"
     }
   ],
   "term": "json-schema"

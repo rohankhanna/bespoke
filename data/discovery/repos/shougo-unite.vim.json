@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/unite.vim",
+      "target": "shougo/neomru.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:34.672423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":dragon: Unite and create user interfaces",
+    "fork": false,
+    "full_name": "Shougo/unite.vim",
+    "html_url": "https://github.com/Shougo/unite.vim",
+    "language": "Vim Script",
+    "pushed_at": "2023-05-18T09:48:39Z",
+    "stargazers_count": 2835,
+    "topics": [],
+    "updated_at": "2026-04-26T10:39:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neomru.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

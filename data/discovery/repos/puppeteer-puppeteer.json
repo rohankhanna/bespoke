@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/changed-packages.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changed-packages.yml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -266,7 +266,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -276,7 +276,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -301,7 +301,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -336,7 +336,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -346,7 +346,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -356,7 +356,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -366,7 +366,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -376,7 +376,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -386,7 +386,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -406,7 +406,7 @@
       "source_file": ".github/workflows/daily.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily.yml"
     },
@@ -426,7 +426,7 @@
       "source_file": ".github/workflows/daily.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily.yml"
     },
@@ -446,7 +446,7 @@
       "source_file": ".github/workflows/daily.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily.yml"
     },
@@ -466,7 +466,7 @@
       "source_file": ".github/workflows/deflake.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deflake.yml"
     },
@@ -486,7 +486,7 @@
       "source_file": ".github/workflows/deflake.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deflake.yml"
     },
@@ -506,7 +506,7 @@
       "source_file": ".github/workflows/devtools.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/devtools.yml"
     },
@@ -526,7 +526,7 @@
       "source_file": ".github/workflows/pre-release.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-release.yml"
     },
@@ -536,7 +536,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -546,7 +546,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -872,7 +872,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changed-packages.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -907,7 +907,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -963,7 +963,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -1012,7 +1012,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deflake.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -1047,7 +1047,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/devtools.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -1082,7 +1082,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -1103,7 +1103,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "puppeteer/puppeteer",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -1191,7 +1191,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:44:53.183556+00:00",
+  "fetched_at": "2026-04-30T10:18:48.490336+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1243,8 +1243,8 @@
     "full_name": "puppeteer/puppeteer",
     "html_url": "https://github.com/puppeteer/puppeteer",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T14:57:51Z",
-    "stargazers_count": 94177,
+    "pushed_at": "2026-04-30T10:05:57Z",
+    "stargazers_count": 94218,
     "topics": [
       "automation",
       "chrome",
@@ -1256,7 +1256,7 @@
       "testing",
       "web"
     ],
-    "updated_at": "2026-04-24T01:04:22Z"
+    "updated_at": "2026-04-30T09:39:39Z"
   },
   "repo_links": [],
   "terms": [

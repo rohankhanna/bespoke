@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger Build Web Page"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics library and rendering framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "Trigger Build Web Page"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate",
+      "text": "Trigger Build Web Page"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44778,
+      "status": "candidate",
+      "text": "html"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44258,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43532,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43458,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43429,
+      "status": "candidate",
+      "text": "internet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger Build Web Page",
+  "concept_id": "trigger-build-web-page",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/trigger-build-web-page.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Build Web Page",
+      "sense_id": "trigger-build-web-page#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

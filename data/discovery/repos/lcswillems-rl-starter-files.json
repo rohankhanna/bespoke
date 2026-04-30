@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "lcswillems/torch-ac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "minigrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "multi-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "preprocessed-observations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files",
+      "target": "reward-shaping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:41.973216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6957
+    },
+    {
+      "path": "requirements.txt",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RL starter files in order to immediately train, visualize and evaluate an agent without writing any line of code",
+    "fork": false,
+    "full_name": "lcswillems/rl-starter-files",
+    "html_url": "https://github.com/lcswillems/rl-starter-files",
+    "language": "Python",
+    "pushed_at": "2024-05-12T22:04:26Z",
+    "stargazers_count": 723,
+    "topics": [
+      "a2c",
+      "a3c",
+      "minigrid",
+      "multi-process",
+      "ppo",
+      "preprocessed-observations",
+      "pytorch",
+      "reward-shaping"
+    ],
+    "updated_at": "2026-04-30T06:11:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcswillems/torch-ac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minigrid"
+    },
+    {
+      "context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-process"
+    },
+    {
+      "context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preprocessed-observations"
+    },
+    {
+      "context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reward-shaping"
+    }
+  ]
+}

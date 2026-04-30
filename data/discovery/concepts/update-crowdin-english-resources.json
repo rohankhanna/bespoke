@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Crowdin English Resources"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "Update Crowdin English Resources"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate",
+      "text": "Update Crowdin English Resources"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21631,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21595,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21583,
+      "status": "candidate",
+      "text": "retool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20579,
+      "status": "candidate",
+      "text": "connecticut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20555,
+      "status": "candidate",
+      "text": "canada"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Crowdin English Resources",
+  "concept_id": "update-crowdin-english-resources",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/crowdin-update-resources.yml",
+      "source_repo": "appium/appium-inspector"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Crowdin English Resources",
+      "sense_id": "update-crowdin-english-resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

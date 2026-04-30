@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:13:00.096856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parallelformers: An Efficient Model Parallelization Toolkit for Deployment",
+    "fork": false,
+    "full_name": "tunib-ai/parallelformers",
+    "html_url": "https://github.com/tunib-ai/parallelformers",
+    "language": "Python",
+    "pushed_at": "2023-04-24T11:42:30Z",
+    "stargazers_count": 789,
+    "topics": [],
+    "updated_at": "2026-04-23T23:15:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-review.yml",
       "source_repo": "graffle-js/graffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-pr-review.yml",
+      "source_repo": "insitro/redun"
     }
   ],
   "term": "Claude PR Review"

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:09:57.244913+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MRE for navigator.nvim issue https://github.com/ray-x/navigator.lua/issues/34",
+    "fork": false,
+    "full_name": "fky2015/navigator.nvim-bug-report",
+    "html_url": "https://github.com/fky2015/navigator.nvim-bug-report",
+    "language": "Lua",
+    "pushed_at": "2022-01-10T06:15:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-02-19T03:50:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

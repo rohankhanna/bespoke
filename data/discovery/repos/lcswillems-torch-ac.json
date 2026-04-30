@@ -1,0 +1,200 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lcswillems/torch-ac",
+      "target": "lcswillems/torch-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "advantage-actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "minigrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "multi-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "proximal-policy-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "recurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "recurrent-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac",
+      "target": "reward-shaping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:51.081935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO",
+    "fork": false,
+    "full_name": "lcswillems/torch-ac",
+    "html_url": "https://github.com/lcswillems/torch-ac",
+    "language": "Python",
+    "pushed_at": "2022-10-05T23:17:23Z",
+    "stargazers_count": 207,
+    "topics": [
+      "a2c",
+      "a3c",
+      "actor-critic",
+      "advantage-actor-critic",
+      "deep-reinforcement-learning",
+      "minigrid",
+      "multi-process",
+      "ppo",
+      "proximal-policy-optimization",
+      "pytorch",
+      "recurrent",
+      "recurrent-neural-networks",
+      "reinforcement-learning",
+      "reward-shaping"
+    ],
+    "updated_at": "2026-03-16T17:42:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcswillems/torch-rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actor-critic"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advantage-actor-critic"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minigrid"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-process"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proximal-policy-optimization"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recurrent"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recurrent-neural-networks"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reward-shaping"
+    }
+  ]
+}

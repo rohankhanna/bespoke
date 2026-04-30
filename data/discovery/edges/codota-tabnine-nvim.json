@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chat.yaml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chat.yaml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chat.yaml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "ClementTsang/cargo-action@v0.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chat.yaml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "Chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-pr-jira-association.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "usehaystack/jira-pr-link-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-pr-jira-association.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "Enforce PR-Jira association",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua-format-check-pr.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua-format-check-pr.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua-format-check-pr.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "reviewdog/action-suggester@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lua-format-check-pr.yml",
+      "source_repo": "codota/tabnine-nvim",
+      "target": "Check Lint With Stylua",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "codota/tabnine-nvim"
+}

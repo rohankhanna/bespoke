@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-or-update-comment@67dcc547d311b736a8e6c5c236542148a47adc3d",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    }
+  ]
+}

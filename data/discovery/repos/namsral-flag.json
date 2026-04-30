@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:28:03.586093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Parse flags, environment variables and config files",
+    "fork": false,
+    "full_name": "namsral/flag",
+    "html_url": "https://github.com/namsral/flag",
+    "language": "Go",
+    "pushed_at": "2023-05-23T18:05:34Z",
+    "stargazers_count": 531,
+    "topics": [],
+    "updated_at": "2026-02-20T11:22:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

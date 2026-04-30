@@ -1,0 +1,17 @@
+{
+  "component": "actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "jawah/wassima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/SYNC.yml",
+      "source_repo": "jawah/wassima"
+    }
+  ]
+}

@@ -622,6 +622,90 @@
       "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e A simple, tiny and lightweight benchmarking library!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "CUDA Kernel Benchmarking Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "This project is a work-in-progress. Everything is subject to change."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate-context",
+      "text": "Lies, Damned Lies, and Selective Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate-context",
+      "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate-context",
+      "text": "Super-easy automated image compression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate-context",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
     }
   ],
   "candidate_glosses": [
@@ -930,6 +1014,48 @@
       "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate",
+      "text": "This project is a work-in-progress. Everything is subject to change."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/ldlasb",
+      "status": "candidate",
+      "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
     }
   ],
   "candidate_related_terms": [
@@ -1405,11 +1531,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/image-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/ldlasb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Antares0982/ssrJSON"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sumcumo/imagemin-merlin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

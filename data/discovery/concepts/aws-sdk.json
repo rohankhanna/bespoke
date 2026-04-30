@@ -55,6 +55,42 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate-context",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "Modularized AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate-context",
+      "text": "A simple note taking application using modular AWS SDK for JavaScript (v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate-context",
+      "text": "In this app, you are going to build a simple note taking application using"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/aws-sdk-core.svg)](https://badge.fury.io/rb/aws-sdk-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate",
+      "text": "In this app, you are going to build a simple note taking application using"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +172,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aws/aws-sdk-java-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

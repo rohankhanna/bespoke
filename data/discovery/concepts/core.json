@@ -58,6 +58,18 @@
       "source_repo": "adonisjs/core",
       "status": "candidate-context",
       "text": "**Featured sponsors**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "core"
     }
   ],
   "candidate_glosses": [
@@ -90,6 +102,12 @@
       "source_repo": "adonisjs/core",
       "status": "candidate",
       "text": "**Featured sponsors**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate",
+      "text": "core"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +235,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

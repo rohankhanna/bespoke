@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "andreasveit/densenet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "bamos/densenet.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "baldassarrefe/pytorch-densenet-tiramisu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "barrykui/3ddensenet.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "liuzhuang13/DenseNet"
+}

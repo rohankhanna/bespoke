@@ -236,6 +236,18 @@
       "source_repo": "5sControl/idle-control",
       "status": "candidate-context",
       "text": "dev"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/min-max",
+      "status": "candidate-context",
+      "text": "Automatically detect number of items left in stock using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/min-max",
+      "status": "candidate-context",
+      "text": "dev"
     }
   ],
   "candidate_glosses": [
@@ -350,6 +362,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "5sControl/idle-control",
+      "status": "candidate",
+      "text": "dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/min-max",
       "status": "candidate",
       "text": "dev"
     }
@@ -581,11 +599,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "gulpjs/vinyl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/min-max"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "micromatch/is-glob"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

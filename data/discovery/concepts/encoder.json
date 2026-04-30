@@ -79,6 +79,18 @@
       "source_repo": "xiph/vorbis",
       "status": "candidate-context",
       "text": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "GIF encoder written in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate-context",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "xiph/vorbis",
       "status": "candidate",
       "text": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dloebl/cgif",
+      "status": "candidate",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dloebl/cgif"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

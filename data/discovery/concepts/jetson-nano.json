@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "jetson-nano"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "An easy to use PyTorch to TensorRT converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "jetson-nano",
+  "concept_id": "jetson-nano",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetson-nano",
+      "sense_id": "jetson-nano#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

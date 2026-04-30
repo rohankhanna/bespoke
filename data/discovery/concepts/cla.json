@@ -67,6 +67,12 @@
       "source_repo": "conda/conda",
       "status": "candidate-context",
       "text": "CLA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-db",
+      "status": "candidate-context",
+      "text": "CLA"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda/conda",
+      "status": "candidate",
+      "text": "CLA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-db",
       "status": "candidate",
       "text": "CLA"
     }
@@ -178,11 +190,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "aquasecurity/trivy-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "jina-ai/serve"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

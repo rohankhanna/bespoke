@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping",
+      "target": "Elixir CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:16.613125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5001
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udece\ufe0f    The easy way to ping (wake) an idle Heroku App from slumber.",
+    "fork": false,
+    "full_name": "dwyl/ping",
+    "html_url": "https://github.com/dwyl/ping",
+    "language": "Elixir",
+    "pushed_at": "2026-04-02T11:10:03Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-02T11:10:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Elixir CI"
+    }
+  ]
+}

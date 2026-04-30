@@ -283,6 +283,18 @@
       "source_repo": "saphyr-rs/saphyr",
       "status": "candidate-context",
       "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "YamlDotNet is a .NET library for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "| Appveyor | NuGet |"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "saphyr-rs/saphyr",
       "status": "candidate",
       "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate",
+      "text": "| Appveyor | NuGet |"
     }
   ],
   "candidate_related_terms": [
@@ -610,11 +628,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "saphyr-rs/saphyr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

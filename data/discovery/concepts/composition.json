@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "composition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JizhiziLi/GFM",
+      "status": "candidate-context",
+      "text": "[IJCV 2022] Bridging Composite and Real: Towards End-to-end Deep Image Matting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JizhiziLi/GFM",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JizhiziLi/GFM",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993481,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985277,
+      "status": "candidate",
+      "text": "authorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985009,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981908,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981072,
+      "status": "candidate",
+      "text": "penning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22050,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "opus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7071,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
+  "canonical_name": "composition",
+  "concept_id": "composition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "composition",
+      "sense_id": "composition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

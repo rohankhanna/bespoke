@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Vite plugin that inserts the current year to the html file during build. Useful for adding a copyright year to the HTML file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Runtime"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Runtime"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928118,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920514,
+      "status": "candidate",
+      "text": "execute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914164,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29909133,
+      "status": "candidate",
+      "text": "performance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904056,
+      "status": "candidate",
+      "text": "enforcement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Runtime",
+      "sense_id": "runtime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "runtime",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "runtime",
+  "observation_id": "1263619454cbedd4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Runtime",
+  "source_context_snippet": "Runtime",
+  "source_file": ".github/workflows/runtime.yml",
+  "source_repo": "8hobbies/vite-plugin-year",
+  "source_repo_description": "A Vite plugin that inserts the current year to the html file during build. Useful for adding a copyright year to the HTML file."
+}

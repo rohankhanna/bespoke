@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Starters"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Starters"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11099,
+      "status": "candidate",
+      "text": "neck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11099,
+      "status": "candidate",
+      "text": "ornithopter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11099,
+      "status": "candidate",
+      "text": "whole-word method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "bullpen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "first"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Starters",
+      "sense_id": "publish-starters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-starters",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-starters",
+  "observation_id": "f27a5c1776ff862b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Publish Starters",
+  "source_context_snippet": "Publish Starters",
+  "source_file": ".github/workflows/publish-starters.yml",
+  "source_repo": "jpedroschmitz/rocketdocs",
+  "source_repo_description": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+}

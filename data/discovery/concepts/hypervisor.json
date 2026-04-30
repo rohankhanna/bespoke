@@ -19,6 +19,18 @@
       "source_repo": "Solo5/solo5",
       "status": "candidate-context",
       "text": "| ___|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate-context",
+      "text": "A specialized hypervisor for Hermit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate-context",
+      "text": "<img width=\"200\" align=\"right\" src=\"img/uhyve.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Solo5/solo5",
       "status": "candidate",
       "text": "| ___|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/uhyve",
+      "status": "candidate",
+      "text": "<img width=\"200\" align=\"right\" src=\"img/uhyve.svg\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Solo5/solo5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/uhyve"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

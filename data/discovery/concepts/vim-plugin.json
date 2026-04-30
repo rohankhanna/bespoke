@@ -607,6 +607,30 @@
       "source_repo": "codota/tabnine-vim",
       "status": "candidate-context",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate-context",
+      "text": "Directory viewer for Vim :zap: netrW => netrL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate-context",
+      "text": "dirvish.vim :zap:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate-context",
+      "text": "Plugpac is a plugin manger written in Vim9 based on minpac, provides vim-plug-like experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate-context",
+      "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
     }
   ],
   "candidate_glosses": [
@@ -909,6 +933,18 @@
       "source_repo": "codota/tabnine-vim",
       "status": "candidate",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate",
+      "text": "dirvish.vim :zap:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate",
+      "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
     }
   ],
   "candidate_related_terms": [],
@@ -1306,11 +1342,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

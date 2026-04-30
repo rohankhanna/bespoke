@@ -44,6 +44,18 @@
       "source_repo": "python-websockets/websockets",
       "status": "candidate-context",
       "text": "Make release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "\"Make Release\""
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "python-websockets/websockets",
       "status": "candidate",
       "text": "Make release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate",
+      "text": "\"Make Release\""
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "python-websockets/websockets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Antares0982/ssrJSON"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

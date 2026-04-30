@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:14:10.351344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2113
+    },
+    {
+      "path": "requirements.txt",
+      "size": 915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fixed error in the repo given by offical",
+    "fork": false,
+    "full_name": "Ultraopxt/yolov10cpp",
+    "html_url": "https://github.com/Ultraopxt/yolov10cpp",
+    "language": "C++",
+    "pushed_at": "2024-07-22T08:26:53Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-01-01T16:57:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

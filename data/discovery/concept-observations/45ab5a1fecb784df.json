@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyLint plugin that outputs to SonarQube-importable JSON with configurable severity, effort, and type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jslint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "findbugs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "buildbot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "stylecop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "buddy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sonarqube",
+      "sense_id": "sonarqube#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sonarqube",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sonarqube",
+  "observation_id": "45ab5a1fecb784df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sonarqube",
+  "source_context_snippet": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab.",
+  "source_file": null,
+  "source_repo": "omegacen/pylint-sonarjson",
+  "source_repo_description": "A PyLint plugin that outputs to SonarQube-importable JSON with configurable severity, effort, and type"
+}

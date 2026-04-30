@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Router Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7f Supergraph demo for Federation 2 and Apollo Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "status": "candidate-context",
+      "text": "CI Router Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/supergraph-demo-fed2",
+      "status": "candidate",
+      "text": "CI Router Main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23264,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "cisco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "rotary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "rout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Router Main",
+  "concept_id": "ci-router-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/local-router-rust-dev.yaml",
+      "source_repo": "apollographql/supergraph-demo-fed2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Router Main",
+      "sense_id": "ci-router-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

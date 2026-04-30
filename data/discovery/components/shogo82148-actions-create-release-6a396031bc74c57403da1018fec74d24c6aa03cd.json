@@ -1,0 +1,12 @@
+{
+  "component": "shogo82148/actions-create-release@6a396031bc74c57403da1018fec74d24c6aa03cd",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-actionlint"
+    }
+  ]
+}

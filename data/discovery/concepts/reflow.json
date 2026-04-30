@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "reflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate-context",
+      "text": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koreader",
+      "status": "candidate",
+      "text": "[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000891,
+      "status": "candidate",
+      "text": "rebates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000891,
+      "status": "candidate",
+      "text": "refunds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000891,
+      "status": "candidate",
+      "text": "reimbursements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000891,
+      "status": "candidate",
+      "text": "repayments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000890,
+      "status": "candidate",
+      "text": "reflip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "reflow",
+  "concept_id": "reflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "koreader/koreader"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reflow",
+      "sense_id": "reflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

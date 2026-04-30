@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -261,6 +261,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "johmsalas/text-case.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "matter-labs/zksync-crypto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "LavaMoat/LavaMoat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "poolifier/tatami-ng"
     }
   ],
   "term": "Release Please"

@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v1-release",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inherd/forming",
+      "target": "udoprog/codeviz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inherd/forming",
+      "target": "udoprog/genco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inherd/forming",
+      "target": "mingrammer/diagrams",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inherd/forming",
+      "target": "nrc/libhoare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "inherd/forming",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "inherd/forming",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inherd/forming",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inherd/forming",
+      "target": "architecture-description-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inherd/forming",
+      "target": "forming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:23.020671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2674
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1124
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00",
+    "fork": false,
+    "full_name": "inherd/forming",
+    "html_url": "https://github.com/inherd/forming",
+    "language": "Rust",
+    "pushed_at": "2024-02-22T20:06:30Z",
+    "stargazers_count": 26,
+    "topics": [
+      "architecture",
+      "architecture-description-language",
+      "forming"
+    ],
+    "updated_at": "2025-08-14T09:20:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingrammer/diagrams",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrc/libhoare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udoprog/codeviz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udoprog/genco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture-description-language"
+    },
+    {
+      "context_snippet": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forming"
+    }
+  ]
+}

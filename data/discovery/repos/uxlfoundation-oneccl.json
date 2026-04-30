@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "intel/torch-ccl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "slackapi/slack-github-action@70cd7be8e40a46e8b0eced40b0de447bdb42f68e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "Slack PR Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "ai-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "ai-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "swrepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL",
+      "target": "sycl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:39.270440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10338
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 2126
+    },
+    {
+      "path": ".github/workflows/slack-pr.yaml",
+      "size": 831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "oneAPI Collective Communications Library (oneCCL)",
+    "fork": false,
+    "full_name": "uxlfoundation/oneCCL",
+    "html_url": "https://github.com/uxlfoundation/oneCCL",
+    "language": "C++",
+    "pushed_at": "2026-04-23T10:13:59Z",
+    "stargazers_count": 264,
+    "topics": [
+      "ai-machine-learning",
+      "ai-training",
+      "deep-learning",
+      "libraries",
+      "oneapi",
+      "swrepo",
+      "sycl"
+    ],
+    "updated_at": "2026-04-29T11:16:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/torch-ccl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "Slack PR Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "term": "Slack PR Notification"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-machine-learning"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-training"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libraries"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swrepo"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    }
+  ]
+}

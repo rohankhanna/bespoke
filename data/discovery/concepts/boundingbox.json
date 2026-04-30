@@ -19,6 +19,18 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

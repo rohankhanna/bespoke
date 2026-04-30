@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "bitbeans/minisign-net",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "bitbeans/minisign-net",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitbeans/minisign-net",
+      "target": "libsodium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitbeans/minisign-net",
+      "target": "minisign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitbeans/minisign-net",
+      "target": "signature",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:32.992755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2989
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ".NET library to handle and create minisign signatures",
+    "fork": false,
+    "full_name": "bitbeans/minisign-net",
+    "html_url": "https://github.com/bitbeans/minisign-net",
+    "language": "C#",
+    "pushed_at": "2025-11-17T04:00:43Z",
+    "stargazers_count": 32,
+    "topics": [
+      "libsodium",
+      "minisign",
+      "signature"
+    ],
+    "updated_at": "2026-04-18T21:30:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![.NET Core](https://github.com/bitbeans/minisign-net/workflows/.NET%208/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsodium"
+    },
+    {
+      "context_snippet": "![.NET Core](https://github.com/bitbeans/minisign-net/workflows/.NET%208/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minisign"
+    },
+    {
+      "context_snippet": "![.NET Core](https://github.com/bitbeans/minisign-net/workflows/.NET%208/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signature"
+    }
+  ]
+}

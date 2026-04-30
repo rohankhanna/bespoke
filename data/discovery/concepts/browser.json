@@ -442,6 +442,138 @@
       "source_repo": "improbable-eng/grpc-web",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate-context",
+      "text": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "Run Typst in JavaScriptWorld."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "[Markdown](https://github.com/Myriad-Dreamin/typst.ts/blob/main/README.md) | [typst](./docs/cookery/introduction.typ) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "A full-featured browser reference implementation using Mozilla Android Components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": " \u26a0\ufe0f Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate-context",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate-context",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate-context",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Cross JavaScript runtime benchmarking library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "<h1 align=center>tatami-ng</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Sample for testing AWS SDK for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_glosses": [
@@ -660,6 +792,72 @@
       "source_repo": "improbable-eng/grpc-web",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-infra/sandbox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate",
+      "text": "[Markdown](https://github.com/Myriad-Dreamin/typst.ts/blob/main/README.md) | [typst](./docs/cookery/introduction.typ) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/reference-browser",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/reference-browser/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/tasks/index/mobile.v2.reference-browser.nightly.latest) [![chat.mozilla.org](https://img.shields.io/ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/fenix",
+      "status": "candidate",
+      "text": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/fenix/main/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebKit/WebKit",
+      "status": "candidate",
+      "text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate",
+      "text": "<h1 align=center>tatami-ng</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_related_terms": [
@@ -1011,11 +1209,113 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "improbable-eng/grpc-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/compressorjs-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Myriad-Dreamin/typst.ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/reference-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "WebKit/WebKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/tatami-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

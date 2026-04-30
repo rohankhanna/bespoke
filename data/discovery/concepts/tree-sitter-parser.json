@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tree-sitter-parser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for Tree-Sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate-context",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/tree-sitter-rescript",
+      "status": "candidate",
+      "text": "ReScript grammar for [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tree-sitter-parser",
+  "concept_id": "tree-sitter-parser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/tree-sitter-rescript"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tree-sitter-parser",
+      "sense_id": "tree-sitter-parser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916566,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899666,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887216,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887093,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39875997,
+      "status": "candidate",
+      "text": "normal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "formula",
+      "sense_id": "formula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30051,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18077,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18066,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14057,
+      "status": "candidate",
+      "text": "normal"
+    }
+  ],
+  "concept_id": "formula",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "formula",
+  "observation_id": "8058986c1a206c36",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "formula",
+  "source_context_snippet": "<br>",
+  "source_file": null,
+  "source_repo": "handsontable/hyperformula",
+  "source_repo_description": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+}

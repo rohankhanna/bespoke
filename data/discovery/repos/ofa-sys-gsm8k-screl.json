@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:14:48.327760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codes and Data for Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
+    "fork": false,
+    "full_name": "OFA-Sys/gsm8k-ScRel",
+    "html_url": "https://github.com/OFA-Sys/gsm8k-ScRel",
+    "language": "Python",
+    "pushed_at": "2024-09-12T14:15:59Z",
+    "stargazers_count": 270,
+    "topics": [],
+    "updated_at": "2026-02-08T15:13:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

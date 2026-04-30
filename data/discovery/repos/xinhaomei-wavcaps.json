@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:04:07.787442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This reporsitory contains metadata of WavCaps dataset and codes for downstream tasks.",
+    "fork": false,
+    "full_name": "XinhaoMei/WavCaps",
+    "html_url": "https://github.com/XinhaoMei/WavCaps",
+    "language": "Python",
+    "pushed_at": "2024-07-25T22:08:39Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2026-04-29T07:12:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

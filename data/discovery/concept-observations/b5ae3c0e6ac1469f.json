@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Environment Control"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Environment Control"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34359,
+      "status": "candidate",
+      "text": "euthenics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26523,
+      "status": "candidate",
+      "text": "placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19137,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18946,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18774,
+      "status": "candidate",
+      "text": "epa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Environment Control",
+      "sense_id": "test-environment-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-environment-control",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-environment-control",
+  "observation_id": "b5ae3c0e6ac1469f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Test Environment Control",
+  "source_context_snippet": "Test Environment Control",
+  "source_file": ".github/workflows/test-env-ctrl.yml",
+  "source_repo": "ServiceNow/webarena-verified",
+  "source_repo_description": "A verified version of the WebArena Benchmark"
+}

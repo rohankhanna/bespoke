@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinke-wang/EST-VQA",
+      "target": "mlpc-ucsd/bliva",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinke-wang/EST-VQA",
+      "target": "yuliang-liu/monkey",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:48.292245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3334
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2020] EST-VQA Dataset",
+    "fork": false,
+    "full_name": "xinke-wang/EST-VQA",
+    "html_url": "https://github.com/xinke-wang/EST-VQA",
+    "language": "Python",
+    "pushed_at": "2024-05-09T07:00:24Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-27T06:36:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlpc-ucsd/bliva",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliang-liu/monkey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

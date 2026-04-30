@@ -239,6 +239,30 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate-context",
       "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate-context",
+      "text": "A royal collection of exquisite widgets and helpers to rule your iced kingdom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (C++ host implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -355,6 +379,18 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate",
       "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host",
+      "status": "candidate",
+      "text": "Format"
     }
   ],
   "candidate_related_terms": [
@@ -709,11 +745,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "hecrj/iced_palace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

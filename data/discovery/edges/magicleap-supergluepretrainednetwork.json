@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "cvg/hierarchical-localization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "scannet/scannet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "zjhthu/oanet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "feature-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "magicleap/SuperGluePretrainedNetwork",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "magicleap/SuperGluePretrainedNetwork"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:21.767207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NVIDIA's Deep Imagination Team's PyTorch Library",
+    "fork": false,
+    "full_name": "NVlabs/imaginaire",
+    "html_url": "https://github.com/NVlabs/imaginaire",
+    "language": "Python",
+    "pushed_at": "2022-11-29T10:24:50Z",
+    "stargazers_count": 4075,
+    "topics": [],
+    "updated_at": "2026-04-28T15:10:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

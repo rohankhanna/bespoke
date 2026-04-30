@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:26:25.038190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5927\u6a21\u578b\u57fa\u7840: \u4e00\u6587\u4e86\u89e3\u5927\u6a21\u578b\u57fa\u7840\u77e5\u8bc6",
+    "fork": false,
+    "full_name": "datawhalechina/so-large-lm",
+    "html_url": "https://github.com/datawhalechina/so-large-lm",
+    "language": null,
+    "pushed_at": "2025-12-18T12:45:19Z",
+    "stargazers_count": 7206,
+    "topics": [],
+    "updated_at": "2026-04-30T09:22:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

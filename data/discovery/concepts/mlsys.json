@@ -55,6 +55,18 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate-context",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SpargeAttn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

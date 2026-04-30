@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jina-ai/dalle-flow",
-      "target": "jack000/glid-3-xl",
+      "target": "jina-ai/jina",
       "target_type": "repository"
     },
     {
@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jina-ai/dalle-flow",
-      "target": "jina-ai/glid-3-xl",
+      "target": "jina-ai/swinir",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:52:41.714394+00:00",
+  "fetched_at": "2026-04-30T08:18:30.227317+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -141,17 +141,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jack000/glid-3-xl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "jina-ai/docarray",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jina-ai/glid-3-xl",
+      "full_name": "jina-ai/jina",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jina-ai/swinir",
       "source_file": "README.md"
     }
   ],

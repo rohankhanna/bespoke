@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "End-to-end training of sparse deep neural networks with little-to-no performance loss. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computer-vision",
+      "sense_id": "computer-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "computer-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "computer-vision",
+  "observation_id": "db8195fff1bc0cb7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "computer-vision",
+  "source_context_snippet": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">",
+  "source_file": null,
+  "source_repo": "google-research/rigl",
+  "source_repo_description": "End-to-end training of sparse deep neural networks with little-to-no performance loss. "
+}

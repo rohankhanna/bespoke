@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "brightmart/nlp_chinese_corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair"
     }
   ],
   "term": "text-classification"

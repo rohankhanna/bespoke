@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "olafurpg/setup-scala@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "olafurpg/setup-scala@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "olafurpg/setup-scala@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jodersky/sbt-gpg",
+      "target": "sbt-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:22:56.820714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7005
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3588
+    },
+    {
+      "path": ".github/workflows/clean.yml",
+      "size": 2337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple and secure artifact signing for sbt.",
+    "fork": false,
+    "full_name": "jodersky/sbt-gpg",
+    "html_url": "https://github.com/jodersky/sbt-gpg",
+    "language": "Scala",
+    "pushed_at": "2024-09-03T21:33:35Z",
+    "stargazers_count": 49,
+    "topics": [
+      "gpg",
+      "sbt-plugin"
+    ],
+    "updated_at": "2025-02-14T23:10:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Clean",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean.yml",
+      "term": "Clean"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/jodersky/sbt-gpg.svg?branch=master)](https://travis-ci.org/jodersky/sbt-gpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbt-plugin"
+    }
+  ]
+}

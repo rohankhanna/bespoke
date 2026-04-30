@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:06:00.753489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "marko-js/examples",
+    "html_url": "https://github.com/marko-js/examples",
+    "language": null,
+    "pushed_at": "2026-03-15T03:32:26Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-15T03:32:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

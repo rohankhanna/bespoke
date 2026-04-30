@@ -151,6 +151,18 @@
       "source_repo": "qubvel-org/segmentation_models.pytorch",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JizhiziLi/RIM",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Referring Image Matting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JizhiziLi/RIM",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Referring Image Matting [CVPR-2023]</h1>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "qubvel-org/segmentation_models.pytorch",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JizhiziLi/RIM",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Referring Image Matting [CVPR-2023]</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JizhiziLi/RIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

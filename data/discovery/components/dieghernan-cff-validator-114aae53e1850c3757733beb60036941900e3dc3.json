@@ -1,0 +1,12 @@
+{
+  "component": "dieghernan/cff-validator@114aae53e1850c3757733beb60036941900e3dc3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp"
+    }
+  ]
+}

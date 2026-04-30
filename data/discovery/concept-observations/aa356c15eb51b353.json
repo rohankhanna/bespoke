@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39199325,
+      "status": "candidate",
+      "text": "newt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811447,
+      "status": "candidate",
+      "text": "tritium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811446,
+      "status": "candidate",
+      "text": "trineutron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811445,
+      "status": "candidate",
+      "text": "trion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811443,
+      "status": "candidate",
+      "text": "trithorium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "triton",
+      "sense_id": "triton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "newt"
+    }
+  ],
+  "concept_id": "triton",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "triton",
+  "observation_id": "aa356c15eb51b353",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "triton",
+  "source_context_snippet": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)",
+  "source_file": null,
+  "source_repo": "flagos-ai/FlagGems",
+  "source_repo_description": "FlagGems is an operator library for large language models implemented in the Triton Language."
+}

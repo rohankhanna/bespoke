@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/setup-r-dependencies@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/R-CMD-check.yaml",
       "source_repo": "atusy/felp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "galaxyproject/tools-devteam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sudo-tripwire.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "ropensci/git2r"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nanxstats/ssw-r"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nanxstats/ssw-r"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "galaxyproteomics/tools-galaxyp"
     }
   ]
 }

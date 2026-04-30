@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "advimman/lama",
-      "target": "richzhang/perceptualsimilarity",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "advimman/lama",
@@ -135,7 +128,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:56:49.939812+00:00",
+  "fetched_at": "2026-04-30T10:12:53.786889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -180,11 +173,6 @@
     "updated_at": "2026-04-29T21:34:10Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "richzhang/perceptualsimilarity",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "sanster/lama-cleaner",

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-build.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-build.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-build.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "core-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "core-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devel-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "devel-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-push.yml",
+      "source_repo": "google/tsunami-security-scanner",
+      "target": "full-push",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "google/tsunami-security-scanner"
+}

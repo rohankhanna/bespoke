@@ -1,0 +1,217 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "ashvardanian/usearchmolecules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "ashvardanian/usearch-molecules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "aws-s3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "cheminformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "chemistry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "compchem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "drug-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "open-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "opendata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:13.311583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20945
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3342
+    },
+    {
+      "path": "requirements.txt",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Searching for structural similarities across billions of molecules in milliseconds",
+    "fork": false,
+    "full_name": "unum-bio/USearchMolecules",
+    "html_url": "https://github.com/unum-bio/USearchMolecules",
+    "language": "Python",
+    "pushed_at": "2026-04-09T12:19:55Z",
+    "stargazers_count": 100,
+    "topics": [
+      "aws-s3",
+      "bioinformatics",
+      "biology",
+      "cheminformatics",
+      "chemistry",
+      "compchem",
+      "drug-discovery",
+      "open-data",
+      "opendata",
+      "vector-search",
+      "vector-search-engine"
+    ],
+    "updated_at": "2026-04-29T12:47:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/usearchmolecules",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/usearch-molecules",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-s3"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biology"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cheminformatics"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chemistry"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compchem"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drug-discovery"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-data"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opendata"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    }
+  ]
+}

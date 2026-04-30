@@ -235,6 +235,54 @@
       "source_repo": "bshall/acoustic-model",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fixie-ai/ultravox",
+      "status": "candidate-context",
+      "text": "A fast multimodal LLM for real-time voice"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fixie-ai/ultravox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7aef\u5230\u7aef\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\uff0c\u4ece\u5165\u95e8\u5230\u5b9e\u6218\uff0c\u8d85\u7b80\u5355\u7684\u5165\u95e8\u6848\u4f8b\uff0c\u8d85\u5b9e\u7528\u7684\u4f01\u4e1a\u9879\u76ee\u3002\u652f\u6301\u5f53\u524d\u6700\u6d41\u884c\u7684DeepSpeech2\u3001Conformer\u3001Squeezeformer\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate-context",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "A fast, high-quality neural vocoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "Official Implementation of Mockingjay in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +399,30 @@
       "source_repo": "bshall/acoustic-model",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fixie-ai/ultravox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +622,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bshall/acoustic-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fixie-ai/ultravox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

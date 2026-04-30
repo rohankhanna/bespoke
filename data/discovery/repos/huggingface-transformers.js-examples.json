@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "huggingface/transformers.js-examples",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "huggingface/transformers.js-examples",
+      "target": "prettier-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "huggingface/transformers.js-examples",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transformers.js-examples",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/transformers.js-examples",
+      "target": "transformersjs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:47.176335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3367
+    },
+    {
+      "path": "package.json",
+      "size": 732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of \ud83e\udd17 Transformers.js demos and example applications",
+    "fork": false,
+    "full_name": "huggingface/transformers.js-examples",
+    "html_url": "https://github.com/huggingface/transformers.js-examples",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-17T18:29:44Z",
+    "stargazers_count": 2031,
+    "topics": [
+      "transformers",
+      "transformersjs"
+    ],
+    "updated_at": "2026-04-30T08:08:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of [\ud83e\udd17 Transformers.js](https://huggingface.co/docs/transformers.js) demos and example applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "A collection of [\ud83e\udd17 Transformers.js](https://huggingface.co/docs/transformers.js) demos and example applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformersjs"
+    }
+  ]
+}

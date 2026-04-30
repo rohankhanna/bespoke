@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emersion/grim",
+      "target": "emersion/slurp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emersion/grim",
+      "target": "swaywm/sway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emersion/grim",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emersion/grim",
+      "target": "scrot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emersion/grim",
+      "target": "wayland",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:24.813523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Grab images from a Wayland compositor",
+    "fork": false,
+    "full_name": "emersion/grim",
+    "html_url": "https://github.com/emersion/grim",
+    "language": "C",
+    "pushed_at": "2022-03-30T08:20:08Z",
+    "stargazers_count": 996,
+    "topics": [
+      "cli",
+      "screenshot",
+      "scrot",
+      "wayland"
+    ],
+    "updated_at": "2026-04-26T16:09:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emersion/slurp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swaywm/sway",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **Heads up!** This project has [moved to SourceHut](https://sr.ht/~emersion/grim/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **Heads up!** This project has [moved to SourceHut](https://sr.ht/~emersion/grim/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrot"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **Heads up!** This project has [moved to SourceHut](https://sr.ht/~emersion/grim/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland"
+    }
+  ]
+}

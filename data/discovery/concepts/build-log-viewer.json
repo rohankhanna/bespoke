@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Log Viewer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Inspect: A framework for large language model evaluations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Build Log Viewer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate",
+      "text": "Build Log Viewer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18209,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18103,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18103,
+      "status": "candidate",
+      "text": "pitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18103,
+      "status": "candidate",
+      "text": "pitched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18092,
+      "status": "candidate",
+      "text": "auditorium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Log Viewer",
+  "concept_id": "build-log-viewer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/log_viewer.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Log Viewer",
+      "sense_id": "build-log-viewer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

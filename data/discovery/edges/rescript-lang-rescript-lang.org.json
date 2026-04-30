@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "rescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-ok-to-deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/github-script@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-ok-to-deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "Clear ok-to-deploy on new commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/github-script@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/setup-node@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-fork-preview.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "Deploy Fork PR Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/setup-node@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "cypress-io/github-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "Deploy to Cloudflare Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "actions/setup-node@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "target": "Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "rescript-lang/rescript-lang.org"
+}

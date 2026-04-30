@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "elixir-protobuf/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "ahamez/protox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "arduino/setup-protoc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "Elixir CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drowzy/protobuf_generate",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:25.892615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3825
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protobuf code generation as a mix task",
+    "fork": false,
+    "full_name": "drowzy/protobuf_generate",
+    "html_url": "https://github.com/drowzy/protobuf_generate",
+    "language": "Elixir",
+    "pushed_at": "2025-11-27T11:06:15Z",
+    "stargazers_count": 16,
+    "topics": [
+      "elixir",
+      "protobuf"
+    ],
+    "updated_at": "2026-01-27T14:25:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahamez/protox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-protobuf/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Elixir CI"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/drowzy/protobuf_generate/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/drowzy/protobuf_generate/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

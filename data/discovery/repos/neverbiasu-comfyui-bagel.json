@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "loscrossos/lib_flashattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "comfyui-custom-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "target": "custom-nodes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:32.304785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6656
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 699
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A ComfyUI extention for BAGEL(Unified Model for Multimodal Understanding and Generation)",
+    "fork": false,
+    "full_name": "neverbiasu/ComfyUI-BAGEL",
+    "html_url": "https://github.com/neverbiasu/ComfyUI-BAGEL",
+    "language": "Python",
+    "pushed_at": "2025-10-13T00:36:22Z",
+    "stargazers_count": 189,
+    "topics": [
+      "comfyui",
+      "comfyui-custom-node",
+      "comfyui-nodes",
+      "custom-nodes"
+    ],
+    "updated_at": "2026-04-09T06:31:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loscrossos/lib_flashattention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-custom-node"
+    },
+    {
+      "context_snippet": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom-nodes"
+    }
+  ]
+}

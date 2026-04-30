@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build and publish dlrover controller image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "DLRover: An Automatic Distributed Deep Learning System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "build and publish dlrover controller image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate",
+      "text": "build and publish dlrover controller image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28128,
+      "status": "candidate",
+      "text": "judge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27909,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27828,
+      "status": "candidate",
+      "text": "device"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27757,
+      "status": "candidate",
+      "text": "layout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27723,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build and publish dlrover controller image",
+  "concept_id": "build-and-publish-dlrover-controller-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/image_dlrover_controller.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build and publish dlrover controller image",
+      "sense_id": "build-and-publish-dlrover-controller-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

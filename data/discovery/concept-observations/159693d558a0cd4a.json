@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Display and control your Android device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836756,
+      "status": "candidate",
+      "text": "reflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836755,
+      "status": "candidate",
+      "text": "reflecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807625,
+      "status": "candidate",
+      "text": "doubling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29797418,
+      "status": "candidate",
+      "text": "duplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29795455,
+      "status": "candidate",
+      "text": "replica"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirroring",
+      "sense_id": "mirroring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirroring",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirroring",
+  "observation_id": "159693d558a0cd4a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "mirroring",
+  "source_context_snippet": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official",
+  "source_file": null,
+  "source_repo": "Genymobile/scrcpy",
+  "source_repo_description": "Display and control your Android device"
+}

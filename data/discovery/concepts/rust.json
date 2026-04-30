@@ -5554,6 +5554,468 @@
       "source_repo": "ClickHouse/clickhouse-rs",
       "status": "candidate-context",
       "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "MuJoCo bindings and high-level wrappers for the Rust programming language. Includes the viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the C++ api of PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the C++ api of PyTorch. The goal of the `tch` crate is to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate-context",
+      "text": "Rust library for OpenAI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "Light LDAP implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "TuGraph: A High Performance Graph Database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "[![Continuous integration](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml/badge.svg)](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Brooooooklyn/snappy",
+      "status": "candidate-context",
+      "text": "Fastest Snappy compression library in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brooooooklyn/snappy",
+      "status": "candidate-context",
+      "text": "![https://github.com/Brooooooklyn/snappy/actions](https://github.com/Brooooooklyn/snappy/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "Kakoune Language Server Protocol Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "Rust audio playback library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "[![Crates.io Version](https://img.shields.io/crates/v/rodio.svg)](https://crates.io/crates/rodio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-task",
+      "status": "candidate-context",
+      "text": "Task abstraction for building executors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-task",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/async-task/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "Low rank adaptation (LoRA) for Candle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/License-MIT-informational)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Rust-based static site generator for Markdown documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate-context",
+      "text": "An alternative ggez implementation on top of miniquad."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "image-rs/image",
+      "status": "candidate-context",
+      "text": "Encoding and decoding images in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "image-rs/image",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate-context",
+      "text": "High performance flexbox implementation written in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrmuizel/raqote",
+      "status": "candidate-context",
+      "text": "Rust 2D graphics library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrmuizel/raqote",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "A base16 and base24 color scheme manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-lambda/cargo-lambda",
+      "status": "candidate-context",
+      "text": "Cargo Lambda is a Cargo subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-lambda/cargo-lambda",
+      "status": "candidate-context",
+      "text": "cargo-lambda is a [Cargo](https://doc.rust-lang.org/cargo/) subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maralla/pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The missing vim8 package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maralla/pack",
+      "status": "candidate-context",
+      "text": "pack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "A minimal, fast alternative to 'du -sh'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate-context",
+      "text": "Periodically build some cargo binary packages and publish them to my personal pacman repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "A collection of Rust programs for personal use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "Fast Rust port of Steve Yegge's beads: local-first, non-invasive issue tracker storing tasks in SQLite with JSONL export for git collaboration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "A query engine for any combination of data sources. Query your files and APIs as if they were databases!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chyh1990/yaml-rust",
+      "status": "candidate-context",
+      "text": "A pure rust YAML implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chyh1990/yaml-rust",
+      "status": "candidate-context",
+      "text": "The missing YAML 1.2 implementation for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate-context",
+      "text": "A template rendering engine based on Jinja, generating type-safe Rust code at compile time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "Instant, controllable, local pre-trained AI models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fitzgen/bumpalo",
+      "status": "candidate-context",
+      "text": "A fast bump allocation arena for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fitzgen/bumpalo",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Rust - port of Python version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate-context",
+      "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "status": "candidate-context",
+      "text": "yandex Clickhouse native rust driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ddulesov/clickhouse_driver.svg?branch=master)](https://travis-ci.org/ddulesov/clickhouse_driver)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "Fast ML inference & training for ONNX models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/memmap2-rs",
+      "status": "candidate-context",
+      "text": "[FORK] cross-platform Rust API for memory mapped IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/memmap2-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "A parallel universal-ctags wrapper for git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate-context",
+      "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
     }
   ],
   "candidate_glosses": [
@@ -8406,6 +8868,240 @@
       "source_repo": "ClickHouse/clickhouse-rs",
       "status": "candidate",
       "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/tch-rs",
+      "status": "candidate",
+      "text": "Rust bindings for the C++ api of PyTorch. The goal of the `tch` crate is to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate",
+      "text": "[![Continuous integration](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml/badge.svg)](https://github.com/filecoin-project/ref-fvm/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brooooooklyn/snappy",
+      "status": "candidate",
+      "text": "![https://github.com/Brooooooklyn/snappy/actions](https://github.com/Brooooooklyn/snappy/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate",
+      "text": "[![Crates.io Version](https://img.shields.io/crates/v/rodio.svg)](https://crates.io/crates/rodio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-task",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/async-task/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/License-MIT-informational)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "image-rs/image",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vislyhq/stretch",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrmuizel/raqote",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-lambda/cargo-lambda",
+      "status": "candidate",
+      "text": "cargo-lambda is a [Cargo](https://doc.rust-lang.org/cargo/) subcommand to help you work with AWS Lambda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maralla/pack",
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_rust",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate",
+      "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chyh1990/yaml-rust",
+      "status": "candidate",
+      "text": "The missing YAML 1.2 implementation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Floneum</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fitzgen/bumpalo",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "status": "candidate",
+      "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddulesov/clickhouse_driver",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ddulesov/clickhouse_driver.svg?branch=master)](https://travis-ci.org/ddulesov/clickhouse_driver)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/memmap2-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalance/ptags",
+      "status": "candidate",
+      "text": "A parallel [universal-ctags](https://ctags.io) wrapper for git repository"
     }
   ],
   "candidate_related_terms": [
@@ -12307,11 +13003,443 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ClickHouse/clickhouse-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "davidhozic/mujoco-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LaurentMazare/tch-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "64bit/async-openai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lldap/lldap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/ref-fvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Brooooooklyn/snappy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "RustAudio/rodio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/async-task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EricLBuehler/candle-lora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yhirose/docs-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "image-rs/image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jrmuizel/raqote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cargo-lambda/cargo-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "maralla/pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/diskus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/beads_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "obi1kenobi/trustfall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chyh1990/yaml-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "askama-rs/askama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "floneum/floneum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "fitzgen/bumpalo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ingonyama-zk/icicle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ddulesov/clickhouse_driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ddulesov/clickhouse_driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pykeio/ort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lnx-search/memmap2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dalance/ptags"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

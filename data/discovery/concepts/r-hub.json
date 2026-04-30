@@ -103,6 +103,30 @@
       "source_repo": "atusy/felp",
       "status": "candidate-context",
       "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": ":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sillyplots/spotifyr",
+      "status": "candidate-context",
+      "text": "R wrapper for Spotify's Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sillyplots/spotifyr",
+      "status": "candidate-context",
+      "text": "R-hub"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "atusy/felp",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sillyplots/spotifyr",
       "status": "candidate",
       "text": "R-hub"
     }
@@ -214,11 +250,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/rhub.yaml",
       "source_repo": "atusy/felp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

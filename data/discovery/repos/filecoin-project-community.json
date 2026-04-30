@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-project/community-china",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-project/rust-fil-proofs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-project/notary-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-project/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "discussion-forum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-ecosystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-meetup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "filecoin-shipyard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/community",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:37.349904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Filecoin community and ecosystem channels, discussion forums, and more",
+    "fork": false,
+    "full_name": "filecoin-project/community",
+    "html_url": "https://github.com/filecoin-project/community",
+    "language": null,
+    "pushed_at": "2026-03-30T07:56:37Z",
+    "stargazers_count": 494,
+    "topics": [
+      "discussion-forum",
+      "filecoin",
+      "filecoin-community",
+      "filecoin-ecosystem",
+      "filecoin-meetup",
+      "filecoin-shipyard",
+      "protocol"
+    ],
+    "updated_at": "2026-04-28T05:33:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/community-china",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/notary-governance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/rust-fil-proofs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/specs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussion-forum"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin-community"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin-ecosystem"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin-meetup"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin-shipyard"
+    },
+    {
+      "context_snippet": "- [Community](#community)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

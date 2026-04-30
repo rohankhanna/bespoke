@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. Builds are used by https://github.com/jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arm64",
+      "sense_id": "arm64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arm64",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arm64",
+  "observation_id": "c4713be55af94aa7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "arm64",
+  "source_context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+  "source_file": null,
+  "source_repo": "jakoch/vulkan-sdk-arm",
+  "source_repo_description": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. Builds are used by https://github.com/jakoch/install-vulkan-sdk-action"
+}

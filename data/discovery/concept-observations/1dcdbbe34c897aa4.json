@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust-tokenizer offers high-performance tokenizers for modern language models, including WordPiece, Byte-Pair Encoding (BPE) and Unigram (SentencePiece) models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023780,
+      "status": "candidate",
+      "text": "tokeniser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023779,
+      "status": "candidate",
+      "text": "parser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023778,
+      "status": "candidate",
+      "text": "lexical analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023777,
+      "status": "candidate",
+      "text": "terp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023776,
+      "status": "candidate",
+      "text": "serializer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tokenizer",
+      "sense_id": "tokenizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tokenizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tokenizer",
+  "observation_id": "1dcdbbe34c897aa4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "tokenizer",
+  "source_context_snippet": "[![Build Status](https://github.com/guillaume-be/rust-tokenizers/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-tokenizers/actions)",
+  "source_file": null,
+  "source_repo": "guillaume-be/rust-tokenizers",
+  "source_repo_description": "Rust-tokenizer offers high-performance tokenizers for modern language models, including WordPiece, Byte-Pair Encoding (BPE) and Unigram (SentencePiece) models"
+}

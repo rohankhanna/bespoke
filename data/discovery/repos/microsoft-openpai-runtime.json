@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openpai-runtime",
+      "target": "runtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:43.958716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3389
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 1491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Runtime for deep learning workload",
+    "fork": false,
+    "full_name": "microsoft/openpai-runtime",
+    "html_url": "https://github.com/microsoft/openpai-runtime",
+    "language": "Python",
+    "pushed_at": "2022-05-24T07:57:44Z",
+    "stargazers_count": 21,
+    "topics": [
+      "deep-learning",
+      "kubernetes",
+      "runtime"
+    ],
+    "updated_at": "2025-11-25T19:30:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/openpairuntime/openpai-runtime)](https://hub.docker.com/repository/docker/openpairuntime/openpai-runtime) [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/microsoft/openpai-runtime/CI/master)](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/openpairuntime/openpai-runtime)](https://hub.docker.com/repository/docker/openpairuntime/openpai-runtime) [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/microsoft/openpai-runtime/CI/master)](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/openpairuntime/openpai-runtime)](https://hub.docker.com/repository/docker/openpairuntime/openpai-runtime) [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/microsoft/openpai-runtime/CI/master)](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    }
+  ]
+}

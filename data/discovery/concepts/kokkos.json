@@ -31,6 +31,18 @@
       "source_repo": "kokkos/kokkos-kernels",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kokkos/kokkos-kernels/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kokkos/kokkos-kernels)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "kokkos/kokkos-kernels",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kokkos/kokkos-kernels/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kokkos/kokkos-kernels)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -72,11 +90,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "kokkos/kokkos-kernels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saharmor/whisper-playground",
+      "target": "saharmor/saharmor.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saharmor/whisper-playground",
+      "target": "ethanzrd/whisper-playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharmor/whisper-playground",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharmor/whisper-playground",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharmor/whisper-playground",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharmor/whisper-playground",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:28.554341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    },
+    {
+      "path": "requirements.txt",
+      "size": 47
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build real time speech2text web apps using OpenAI's Whisper https://openai.com/blog/whisper/",
+    "fork": false,
+    "full_name": "saharmor/whisper-playground",
+    "html_url": "https://github.com/saharmor/whisper-playground",
+    "language": "Python",
+    "pushed_at": "2025-09-12T02:54:11Z",
+    "stargazers_count": 831,
+    "topics": [
+      "machine-learning",
+      "openai",
+      "speech-recognition",
+      "speech-to-text",
+      "whisper"
+    ],
+    "updated_at": "2026-04-10T07:52:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethanzrd/whisper-playground",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saharmor/saharmor.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

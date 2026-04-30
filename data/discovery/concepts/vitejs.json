@@ -19,6 +19,18 @@
       "source_repo": "vitejs/awesome-vite",
       "status": "candidate-context",
       "text": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "GreptimeDB dashboard web application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "Dashboard is a data-visualization platform for [GreptimeDB](https://github.com/greptimeteam/greptimedb) developed with Vue3, Vite, TypeScript and Arco Design."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vitejs/awesome-vite",
       "status": "candidate",
       "text": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate",
+      "text": "Dashboard is a data-visualization platform for [GreptimeDB](https://github.com/greptimeteam/greptimedb) developed with Vue3, Vite, TypeScript and Arco Design."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vitejs/awesome-vite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/dashboard"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

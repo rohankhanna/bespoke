@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build docker image manually"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "GreptimeDB dashboard web application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate-context",
+      "text": "Build docker image manually"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/dashboard",
+      "status": "candidate",
+      "text": "Build docker image manually"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22101,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19071,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18551,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18461,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18461,
+      "status": "candidate",
+      "text": "pitch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build docker image manually",
+  "concept_id": "build-docker-image-manually",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-manual-build.yml",
+      "source_repo": "GreptimeTeam/dashboard"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build docker image manually",
+      "sense_id": "build-docker-image-manually#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

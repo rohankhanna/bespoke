@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "minimax-ai/minimax-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "minimax-ai/minimax-m2.1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "kvcache-ai/ktransformers",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "MiniMax-AI/MiniMax-M2.5"
+}

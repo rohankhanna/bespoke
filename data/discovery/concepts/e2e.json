@@ -236,6 +236,18 @@
       "source_repo": "sigstore/gitsign",
       "status": "candidate-context",
       "text": "E2E"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "Sigstore OIDC PKI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "E2E"
     }
   ],
   "candidate_glosses": [
@@ -350,6 +362,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sigstore/gitsign",
+      "status": "candidate",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
       "status": "candidate",
       "text": "E2E"
     }
@@ -635,11 +653,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "distribution/distribution"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

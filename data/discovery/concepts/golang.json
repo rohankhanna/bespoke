@@ -3071,6 +3071,204 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate-context",
       "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "Go bindings for GLFW 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Ebitengine frameworks, libraries and software "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "Go with your own intelligence - Go applications that directly integrate llama.cpp for local inference using hardware acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate-context",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "All-in-One Backend as a Service with Headless CMS Power"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "status": "candidate-context",
+      "text": "Sql mock driver for golang to test database interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "Package gorilla/securecookie encodes and decodes authenticated and optionally encrypted cookie values for Go web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate-context",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "go-flutter implementations for popular Flutter plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate-context",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aead/minisign",
+      "status": "candidate-context",
+      "text": "A dead simple tool to sign files and verify digital signatures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aead/minisign",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/aead.dev/minisign.svg)](https://pkg.go.dev/aead.dev/minisign)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate-context",
+      "text": "Package Management for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate-context",
+      "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "DRA Driver for NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "Golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 implementation for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "<!-- Badges: status -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate-context",
+      "text": "Vulkan API bindings for Go programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate-context",
+      "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aldernero/sketchy",
+      "status": "candidate-context",
+      "text": "A framework for creating generative art in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldernero/sketchy",
+      "status": "candidate-context",
+      "text": "![sketchy_logo](assets/images/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -4609,6 +4807,108 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate",
       "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hybridgroup/yzma",
+      "status": "candidate",
+      "text": "![yzma logo](./images/yzma-logo-full-color-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DATA-DOG/go-sqlmock",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "status": "candidate",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aead/minisign",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/aead.dev/minisign.svg)](https://pkg.go.dev/aead.dev/minisign)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate",
+      "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate",
+      "text": "Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "<!-- Badges: status -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vulkan-go/vulkan",
+      "status": "candidate",
+      "text": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldernero/sketchy",
+      "status": "candidate",
+      "text": "![sketchy_logo](assets/images/logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -6362,11 +6662,173 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-gl/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hybridgroup/yzma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastschema/fastschema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DATA-DOG/go-sqlmock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/securecookie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ingonyama-zk/icicle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aead/minisign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/glide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aldernero/sketchy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

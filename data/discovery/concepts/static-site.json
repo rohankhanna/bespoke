@@ -43,6 +43,18 @@
       "source_repo": "newtheatre/history-project",
       "status": "candidate-context",
       "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "Tool to create minimalist and beautiful API documentation pages using your Insomnia workspace export file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "![Insomnia Documenter](assets/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "newtheatre/history-project",
       "status": "candidate",
       "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate",
+      "text": "![Insomnia Documenter](assets/logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

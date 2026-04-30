@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pypmml",
+      "target": "autodeployai/pypmml-spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "autodeployai/pypmml",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml-evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml-python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml",
+      "target": "pmml-scoring-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:10:40.215834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6740
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python PMML scoring library",
+    "fork": false,
+    "full_name": "autodeployai/pypmml",
+    "html_url": "https://github.com/autodeployai/pypmml",
+    "language": "Python",
+    "pushed_at": "2026-04-26T18:25:29Z",
+    "stargazers_count": 81,
+    "topics": [
+      "pmml",
+      "pmml-deployment",
+      "pmml-evaluator",
+      "pmml-python",
+      "pmml-python-library",
+      "pmml-scoring-library"
+    ],
+    "updated_at": "2026-04-26T18:25:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pypmml-spark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-deployment"
+    },
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-evaluator"
+    },
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-python"
+    },
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-python-library"
+    },
+    {
+      "context_snippet": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scoring-library"
+    }
+  ]
+}

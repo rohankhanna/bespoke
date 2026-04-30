@@ -44,6 +44,18 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate-context",
       "text": "Lint and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "Lint and test"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate",
+      "text": "Lint and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
       "status": "candidate",
       "text": "Lint and test"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fingerprintjs/fingerprintjs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

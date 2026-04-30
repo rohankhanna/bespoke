@@ -19,12 +19,48 @@
       "source_repo": "ldclabs/anda-db",
       "status": "candidate-context",
       "text": "Dockers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate-context",
+      "text": "\ud83e\udde0 A native graph-based memory system for autonomous AI agents, featuring bio-inspired sleep-based memory consolidation and powered by KIP & AndaDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate-context",
+      "text": "Dockers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/ic-tee",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 Make Trusted Execution Environments (TEEs) work with the Internet Computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-tee",
+      "status": "candidate-context",
+      "text": "Dockers"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ldclabs/anda-db",
+      "status": "candidate",
+      "text": "Dockers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "status": "candidate",
+      "text": "Dockers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-tee",
       "status": "candidate",
       "text": "Dockers"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-dockers.yml",
       "source_repo": "ldclabs/anda-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/anda-hippocampus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/ic-tee"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

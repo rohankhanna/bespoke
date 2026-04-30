@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test extra build flows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test extra build flows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27255,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27189,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "epilepsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "overdraw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test extra build flows",
+      "sense_id": "test-extra-build-flows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-extra-build-flows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-extra-build-flows",
+  "observation_id": "bbdb39259b33a0e7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Test extra build flows",
+  "source_context_snippet": "Test extra build flows",
+  "source_file": ".github/workflows/extra-builds.yml",
+  "source_repo": "YosysHQ/yosys",
+  "source_repo_description": "Yosys Open SYnthesis Suite"
+}

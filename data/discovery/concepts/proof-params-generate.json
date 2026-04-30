@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Proof params generate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "status": "candidate-context",
+      "text": "Proofs for Filecoin in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "status": "candidate-context",
+      "text": "Proof params generate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "status": "candidate",
+      "text": "Proof params generate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18570,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18570,
+      "status": "candidate",
+      "text": "keyword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10316,
+      "status": "candidate",
+      "text": "arguments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10316,
+      "status": "candidate",
+      "text": "char"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10316,
+      "status": "candidate",
+      "text": "decimal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Proof params generate",
+  "concept_id": "proof-params-generate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Proof params generate",
+      "sense_id": "proof-params-generate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

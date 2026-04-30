@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "representation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate-context",
+      "text": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate-context",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolor",
+      "status": "candidate",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996595,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981984,
+      "status": "candidate",
+      "text": "delegacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005959,
+      "status": "candidate",
+      "text": "internal representation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005959,
+      "status": "candidate",
+      "text": "mental representation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005799,
+      "status": "candidate",
+      "text": "representing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23058,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "delegacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1012,
+      "status": "candidate",
+      "text": "mental representation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "internal representation"
+    }
+  ],
+  "canonical_name": "representation",
+  "concept_id": "representation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "representation",
+      "sense_id": "representation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

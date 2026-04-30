@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Simulator",
+      "target": "minedojo/minedojo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:18.103865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4600
+    },
+    {
+      "path": "requirements.txt",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modified version of MineDojo",
+    "fork": false,
+    "full_name": "CraftJarvis/MC-Simulator",
+    "html_url": "https://github.com/CraftJarvis/MC-Simulator",
+    "language": "Java",
+    "pushed_at": "2024-02-28T07:41:48Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-12-07T03:33:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/minedojo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

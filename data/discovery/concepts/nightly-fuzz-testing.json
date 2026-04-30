@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Fuzz Testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate-context",
+      "text": "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate-context",
+      "text": "Nightly Fuzz Testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "status": "candidate",
+      "text": "Nightly Fuzz Testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19159,
+      "status": "candidate",
+      "text": "kiwi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19159,
+      "status": "candidate",
+      "text": "rat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19076,
+      "status": "candidate",
+      "text": "nap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19040,
+      "status": "candidate",
+      "text": "burn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Fuzz Testing",
+  "concept_id": "nightly-fuzz-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Fuzz Testing",
+      "sense_id": "nightly-fuzz-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

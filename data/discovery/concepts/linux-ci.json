@@ -116,6 +116,30 @@
       "source_repo": "PowerShell/PowerShell",
       "status": "candidate-context",
       "text": "Linux-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dev0x13/pywuffs",
+      "status": "candidate-context",
+      "text": "Python bindings for Wuffs the Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dev0x13/pywuffs",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "WAMP for C++ in Boost/Asio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "Linux CI"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +196,18 @@
       "source_repo": "PowerShell/PowerShell",
       "status": "candidate",
       "text": "Linux-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dev0x13/pywuffs",
+      "status": "candidate",
+      "text": "Linux CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate",
+      "text": "Linux CI"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +311,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/linux-ci.yml",
       "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "dev0x13/pywuffs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-linux.yaml",
+      "source_repo": "crossbario/autobahn-cpp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

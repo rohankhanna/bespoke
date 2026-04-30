@@ -373,6 +373,54 @@
       "source_repo": "syl20bnr/spacemacs",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "status": "candidate-context",
+      "text": "This repo is the home of the official  documentation for Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "status": "candidate-context",
+      "text": "Bazel rules for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Distributed AI Model Training and LLM Fine-Tuning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587Mixtral\u6df7\u5408\u4e13\u5bb6\u5927\u6a21\u578b\uff08Chinese Mixtral MoE LLMs\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -559,6 +607,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -814,11 +886,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "syl20bnr/spacemacs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/github-stale.yaml",
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-Mixtral"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

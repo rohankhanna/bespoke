@@ -45,13 +45,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AutoCodeRoverSG/auto-code-rover",
-      "target": "yuntongzhang/swe-bench",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "AutoCodeRoverSG/auto-code-rover",
@@ -122,7 +115,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T02:46:02.114818+00:00",
+  "fetched_at": "2026-04-30T10:23:41.026274+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -171,11 +164,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nus-apr/auto-code-rover",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yuntongzhang/swe-bench",
       "source_file": "README.md"
     }
   ],

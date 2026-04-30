@@ -447,6 +447,54 @@
       "source_repo": "ibireme/yyjson",
       "status": "candidate-context",
       "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "caching proxy for OpenAI API, deployable as a Cloudflare Worker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "[Deprecated]  An early language server for Typst, plus a VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -669,6 +717,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
       "status": "candidate",
       "text": "Checks"
     }
@@ -1025,11 +1097,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "ibireme/yyjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "open-telemetry/semantic-conventions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dagger/dagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "6/openai-caching-proxy-worker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nvarner/typst-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

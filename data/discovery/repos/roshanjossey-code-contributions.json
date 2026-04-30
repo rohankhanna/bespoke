@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "rossjrw/pr-preview-action@df22037db54ab6ee34d3c1e2b8810ac040a530c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/revert-contributors-change.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "Build and Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "rossjrw/pr-preview-action@df22037db54ab6ee34d3c1e2b8810ac040a530c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "Deploy PR previews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/revert-contributors-change.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/revert-contributors-change.yml",
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "Revert contributors.js changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "beginner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "beginner-friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "contribute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "good-first-contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "good-first-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "tutorial-exercises",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:28.463600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2874
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/pr-preview.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/revert-contributors-change.yml",
+      "size": 1586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects",
+    "fork": false,
+    "full_name": "Roshanjossey/code-contributions",
+    "html_url": "https://github.com/Roshanjossey/code-contributions",
+    "language": "HTML",
+    "pushed_at": "2026-04-09T16:52:30Z",
+    "stargazers_count": 207,
+    "topics": [
+      "beginner",
+      "beginner-friendly",
+      "contribute",
+      "good-first-contribution",
+      "good-first-issue",
+      "good-first-pr",
+      "open-source",
+      "tutorial-exercises",
+      "tutorials"
+    ],
+    "updated_at": "2026-04-28T15:06:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Build and Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Deploy PR previews",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-preview.yml",
+      "term": "Deploy PR previews"
+    },
+    {
+      "context_snippet": "Revert contributors.js changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/revert-contributors-change.yml",
+      "term": "Revert contributors.js changes"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner-friendly"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contribute"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-contribution"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-pr"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial-exercises"
+    },
+    {
+      "context_snippet": "This is a project for you to practice contributing to open source projects with code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

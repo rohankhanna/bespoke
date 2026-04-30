@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tabnine Client for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Chat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Chat"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991200,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991104,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991078,
+      "status": "candidate",
+      "text": "confabulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989179,
+      "status": "candidate",
+      "text": "chitchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985972,
+      "status": "candidate",
+      "text": "natter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Chat",
+      "sense_id": "chat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16042,
+      "status": "candidate",
+      "text": "chatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10031,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9045,
+      "status": "candidate",
+      "text": "visit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "jaw"
+    }
+  ],
+  "concept_id": "chat",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chat",
+  "observation_id": "03d83921415a7615",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Chat",
+  "source_context_snippet": "Chat",
+  "source_file": ".github/workflows/chat.yaml",
+  "source_repo": "codota/tabnine-nvim",
+  "source_repo_description": "Tabnine Client for Neovim"
+}

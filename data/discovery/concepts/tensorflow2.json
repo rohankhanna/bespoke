@@ -121,6 +121,30 @@
       "source_repo": "google-research/human-scene-transformer",
       "status": "candidate-context",
       "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "Tensorflow implementation of MIRNet for Low-light image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
       "source_repo": "google-research/human-scene-transformer",
       "status": "candidate",
       "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +286,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google-research/human-scene-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google/unisim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

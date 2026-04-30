@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GraalVM](.github/assets/logo_320x64.svg)][website]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39461663,
+      "status": "candidate",
+      "text": "coffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852988,
+      "status": "candidate",
+      "text": "sumatra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29852741,
+      "status": "candidate",
+      "text": "bali"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29512883,
+      "status": "candidate",
+      "text": "javascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29468788,
+      "status": "candidate",
+      "text": "cuppa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "java",
+      "sense_id": "java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2055,
+      "status": "candidate",
+      "text": "coffee"
+    }
+  ],
+  "concept_id": "java",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java",
+  "observation_id": "7a2d249450054c42",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "java",
+  "source_context_snippet": "[![GraalVM](.github/assets/logo_320x64.svg)][website]",
+  "source_file": null,
+  "source_repo": "oracle/graal",
+  "source_repo_description": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+}

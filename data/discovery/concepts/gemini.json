@@ -505,6 +505,42 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "Powerful AI Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
     }
   ],
   "candidate_glosses": [
@@ -753,6 +789,24 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
     }
   ],
   "candidate_related_terms": [
@@ -1398,11 +1452,71 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/live-api-web-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

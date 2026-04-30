@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    },
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "tinted-theming/tinted-kermit-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "tinted-theming/tinty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "Update with the latest tinted-theming colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "base16-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "base16-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit",
+      "target": "terminal-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:04.559245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1418
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 238
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Base16 for kermit",
+    "fork": false,
+    "full_name": "tinted-theming/tinted-kermit",
+    "html_url": "https://github.com/tinted-theming/tinted-kermit",
+    "language": "Mustache",
+    "pushed_at": "2025-01-06T07:10:55Z",
+    "stargazers_count": 4,
+    "topics": [
+      "base16",
+      "base16-template",
+      "base16-theme",
+      "terminal-theme"
+    ],
+    "updated_at": "2025-01-06T07:11:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/tinted-kermit-terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/tinty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "Update with the latest tinted-theming colorschemes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update with the latest tinted-theming colorschemes"
+    },
+    {
+      "context_snippet": "**Deprecated**: tinted-kermit and all the other Tinted Theming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "**Deprecated**: tinted-kermit and all the other Tinted Theming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16-template"
+    },
+    {
+      "context_snippet": "**Deprecated**: tinted-kermit and all the other Tinted Theming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16-theme"
+    },
+    {
+      "context_snippet": "**Deprecated**: tinted-kermit and all the other Tinted Theming",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-theme"
+    }
+  ]
+}

@@ -151,6 +151,18 @@
       "source_repo": "HarderThenHarder/RLLoggingBoard",
       "status": "candidate-context",
       "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate-context",
+      "text": "WebGLM: An Efficient Web-enhanced Question Answering System (KDD 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate-context",
+      "text": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "HarderThenHarder/RLLoggingBoard",
       "status": "candidate",
       "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/WebGLM",
+      "status": "candidate",
+      "text": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "HarderThenHarder/RLLoggingBoard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/WebGLM"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

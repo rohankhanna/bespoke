@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "mengyao/complete-striped-smith-waterman-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "pypa/cibuildwheel@v2.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "jeffdaily/parasail-python",
+      "target": "Build and upload to PyPI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:10.461536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 20215
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 3313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python bindings for the parasail C library.",
+    "fork": false,
+    "full_name": "jeffdaily/parasail-python",
+    "html_url": "https://github.com/jeffdaily/parasail-python",
+    "language": "Python",
+    "pushed_at": "2024-09-04T18:17:37Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-02-16T14:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mengyao/complete-striped-smith-waterman-library",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "Build and upload to PyPI"
+    }
+  ]
+}

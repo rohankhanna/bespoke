@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/ECGAN",
+      "target": "ha0tang/edgegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/ECGAN",
+      "target": "ha0tang/lggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/ECGAN",
+      "target": "sswuai/panogan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/ECGAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:20.657659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis",
+    "fork": false,
+    "full_name": "Ha0Tang/ECGAN",
+    "html_url": "https://github.com/Ha0Tang/ECGAN",
+    "language": "Python",
+    "pushed_at": "2023-07-22T00:14:58Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2025-10-31T13:46:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/edgegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/lggan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sswuai/panogan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

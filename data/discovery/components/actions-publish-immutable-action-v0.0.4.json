@@ -1,0 +1,12 @@
+{
+  "component": "actions/publish-immutable-action@v0.0.4",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-immutable-actions.yml",
+      "source_repo": "actions/setup-python"
+    }
+  ]
+}

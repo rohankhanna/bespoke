@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Headless Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "Headless Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate",
+      "text": "Headless Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10376,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "acephalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "anarchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "bivalve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "cape"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Headless Linux",
+  "concept_id": "headless-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/headless-linux.yml",
+      "source_repo": "web-infra-dev/midscene"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Headless Linux",
+      "sense_id": "headless-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

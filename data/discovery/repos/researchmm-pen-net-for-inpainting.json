@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "target": "attention-transfer-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "target": "image-inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "target": "pen-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:21.161587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "pytorch",
+    "description": "[CVPR'2019] PEN-Net: Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting ",
+    "fork": false,
+    "full_name": "researchmm/PEN-Net-for-Inpainting",
+    "html_url": "https://github.com/researchmm/PEN-Net-for-Inpainting",
+    "language": "Python",
+    "pushed_at": "2021-11-29T20:51:39Z",
+    "stargazers_count": 361,
+    "topics": [
+      "attention",
+      "attention-transfer-network",
+      "image-inpainting",
+      "pen-net"
+    ],
+    "updated_at": "2026-04-24T07:23:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-transfer-network"
+    },
+    {
+      "context_snippet": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-inpainting"
+    },
+    {
+      "context_snippet": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pen-net"
+    }
+  ]
+}

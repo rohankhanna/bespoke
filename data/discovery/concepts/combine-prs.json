@@ -37,6 +37,18 @@
       "source_repo": "EspressoSystems/espresso-example-l2",
       "status": "candidate-context",
       "text": "Combine PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "[Deprecated]  An early language server for Typst, plus a VS Code extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate-context",
+      "text": "'Combine PRs'"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "EspressoSystems/espresso-example-l2",
       "status": "candidate",
       "text": "Combine PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvarner/typst-lsp",
+      "status": "candidate",
+      "text": "'Combine PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/combine-prs.yml",
       "source_repo": "EspressoSystems/espresso-example-l2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "nvarner/typst-lsp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test extra build flows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Test extra build flows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate",
+      "text": "Test extra build flows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27255,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27189,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "epilepsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27154,
+      "status": "candidate",
+      "text": "overdraw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test extra build flows",
+  "concept_id": "test-extra-build-flows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test extra build flows",
+      "sense_id": "test-extra-build-flows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "inverse-problems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "mobile-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP",
+      "target": "ntire",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:46.857327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11241
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!",
+    "fork": false,
+    "full_name": "mv-lab/AISP",
+    "html_url": "https://github.com/mv-lab/AISP",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-03-05T06:58:24Z",
+    "stargazers_count": 565,
+    "topics": [
+      "camera",
+      "computational-photography",
+      "computer-vision",
+      "cvpr",
+      "deblurring",
+      "deep-learning",
+      "denoising",
+      "image-enhancement",
+      "image-processing",
+      "image-restoration",
+      "imaging",
+      "inverse-problems",
+      "isp",
+      "low-level-vision",
+      "mobile-ai",
+      "ntire",
+      "raw",
+      "rgb"
+    ],
+    "updated_at": "2026-04-30T06:20:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-photography"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deblurring"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enhancement"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imaging"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverse-problems"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-level-vision"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-ai"
+    },
+    {
+      "context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntire"
+    }
+  ]
+}

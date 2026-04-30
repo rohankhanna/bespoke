@@ -19,6 +19,18 @@
       "source_repo": "highlightjs/vue-plugin",
       "status": "candidate-context",
       "text": "[![latest version](https://badgen.net/npm/v/@highlightjs/vue-plugin/latest?label=latest)](https://www.npmjs.com/package/@highlightjs/vue-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8c\ufe0f Renders highlighted Prism output to React (+ theming & vendored Prism)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "highlightjs/vue-plugin",
       "status": "candidate",
       "text": "[![latest version](https://badgen.net/npm/v/@highlightjs/vue-plugin/latest?label=latest)](https://www.npmjs.com/package/@highlightjs/vue-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "highlightjs/vue-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FormidableLabs/prism-react-renderer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

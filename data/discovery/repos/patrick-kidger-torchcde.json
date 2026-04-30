@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "patrick-kidger/diffrax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "patrick-kidger/signatory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "pypa/gh-action-pypi-publish@v1.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "Run test suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "controlled-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "dynamical-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "neural-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:40.738983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17474
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 3764
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 3196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Differentiable controlled differential equation solvers for PyTorch with GPU support and memory-efficient adjoint backpropagation.",
+    "fork": false,
+    "full_name": "patrick-kidger/torchcde",
+    "html_url": "https://github.com/patrick-kidger/torchcde",
+    "language": "Python",
+    "pushed_at": "2025-09-04T15:41:14Z",
+    "stargazers_count": 482,
+    "topics": [
+      "controlled-differential-equations",
+      "deep-learning",
+      "deep-neural-networks",
+      "differential-equations",
+      "dynamical-systems",
+      "machine-learning",
+      "neural-differential-equations",
+      "neural-networks",
+      "pytorch",
+      "time-series"
+    ],
+    "updated_at": "2026-04-27T01:09:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrick-kidger/diffrax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrick-kidger/signatory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Run test suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Run test suite"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlled-differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamical-systems"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align='center'>torchcde</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

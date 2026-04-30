@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Docker testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate",
+      "text": "Docker testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13107,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13107,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13107,
+      "status": "candidate",
+      "text": "loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13107,
+      "status": "candidate",
+      "text": "pier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13107,
+      "status": "candidate",
+      "text": "ramrod"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker testing",
+  "concept_id": "docker-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker_testing.yml",
+      "source_repo": "allenai/tango"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker testing",
+      "sense_id": "docker-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

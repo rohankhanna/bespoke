@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:03:53.430214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18234
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Helsinki-NLP/Tatoeba-Challenge",
+    "html_url": "https://github.com/Helsinki-NLP/Tatoeba-Challenge",
+    "language": "Makefile",
+    "pushed_at": "2024-08-20T12:56:22Z",
+    "stargazers_count": 850,
+    "topics": [],
+    "updated_at": "2026-04-23T06:23:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

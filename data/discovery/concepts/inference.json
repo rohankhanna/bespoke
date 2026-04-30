@@ -595,6 +595,90 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "An easy to use PyTorch to TensorRT converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate-context",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "A project that optimizes OWL-ViT for real-time inference with NVIDIA TensorRT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "Fast ML inference & training for ONNX models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "User documentation for KServe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
     }
   ],
   "candidate_glosses": [
@@ -891,6 +975,48 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "status": "candidate",
+      "text": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-AI-IOT/nanoowl",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">NanoOWL</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
     }
   ],
   "candidate_related_terms": [
@@ -1386,11 +1512,89 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/nanoowl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pykeio/ort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kserve/website"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

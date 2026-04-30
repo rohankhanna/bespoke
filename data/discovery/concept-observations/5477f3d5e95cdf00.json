@@ -48,7 +48,7 @@
   "normalized_form": "daily-pr-recap",
   "observation_id": "5477f3d5e95cdf00",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "daily-pr-recap",
   "source_context_snippet": "daily-pr-recap",
   "source_file": ".github/workflows/daily-pr-recap.yml",

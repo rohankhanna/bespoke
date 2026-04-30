@@ -1,0 +1,225 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolor",
+      "target": "thomasbrandon/mish-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolor",
+      "target": "junnyu/mish-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolor",
+      "target": "fbcotter/pytorch_wavelets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "explicit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "implicit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "scaled-yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "unified-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "yolor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolor",
+      "target": "yolov4-csp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:26.407427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10400
+    },
+    {
+      "path": "requirements.txt",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)",
+    "fork": false,
+    "full_name": "WongKinYiu/yolor",
+    "html_url": "https://github.com/WongKinYiu/yolor",
+    "language": "Python",
+    "pushed_at": "2024-11-03T00:14:38Z",
+    "stargazers_count": 2007,
+    "topics": [
+      "darknet",
+      "explicit",
+      "implicit",
+      "pytorch",
+      "representation",
+      "scaled-yolov4",
+      "unified-network",
+      "yolo",
+      "yolor",
+      "yolov4",
+      "yolov4-csp"
+    ],
+    "updated_at": "2026-04-22T05:34:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fbcotter/pytorch_wavelets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junnyu/mish-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomasbrandon/mish-cuda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darknet"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explicit"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaled-yolov4"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unified-network"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolor"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    },
+    {
+      "context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4-csp"
+    }
+  ]
+}

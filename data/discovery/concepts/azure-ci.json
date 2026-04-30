@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "AZURE CI"
+    "AZURE CI",
+    "Azure CI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,6 +14,18 @@
       "source_repo": "redis-stack/redis-stack-cloudimages",
       "status": "candidate-context",
       "text": "AZURE CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "Upserts, Deletes And Incremental Processing on Big Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
+      "status": "candidate-context",
+      "text": "Azure CI"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +34,12 @@
       "source_repo": "redis-stack/redis-stack-cloudimages",
       "status": "candidate",
       "text": "AZURE CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi",
+      "status": "candidate",
+      "text": "Azure CI"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +89,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/azure.yml",
       "source_repo": "redis-stack/redis-stack-cloudimages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/azure_ci_check.yml",
+      "source_repo": "apache/hudi"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

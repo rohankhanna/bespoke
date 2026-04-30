@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish the demo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "Publish the demo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "Publish the demo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11190,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11190,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11060,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11060,
+      "status": "candidate",
+      "text": "blazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11060,
+      "status": "candidate",
+      "text": "blazoned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish the demo",
+  "concept_id": "publish-the-demo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "fingerprintjs/fingerprintjs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish the demo",
+      "sense_id": "publish-the-demo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

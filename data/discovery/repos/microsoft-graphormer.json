@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Graphormer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Graphormer",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Graphormer",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Graphormer",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer",
+      "target": "ai4science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer",
+      "target": "molecule-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:44.877499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5763
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graphormer is a general-purpose deep learning backbone for molecular modeling.",
+    "fork": false,
+    "full_name": "microsoft/Graphormer",
+    "html_url": "https://github.com/microsoft/Graphormer",
+    "language": "Python",
+    "pushed_at": "2024-06-07T17:01:35Z",
+    "stargazers_count": 2444,
+    "topics": [
+      "ai4science",
+      "deep-learning",
+      "graph",
+      "molecule-simulation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-30T10:11:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo-10.png\" width=100%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai4science"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo-10.png\" width=100%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo-10.png\" width=100%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo-10.png\" width=100%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "molecule-simulation"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo-10.png\" width=100%>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

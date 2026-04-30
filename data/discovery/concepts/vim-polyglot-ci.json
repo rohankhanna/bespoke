@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Vim Polyglot CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "A solid language pack for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "Vim Polyglot CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate",
+      "text": "Vim Polyglot CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9591,
+      "status": "candidate",
+      "text": "gender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9591,
+      "status": "candidate",
+      "text": "harris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Vim Polyglot CI",
+  "concept_id": "vim-polyglot-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sheerun/vim-polyglot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vim Polyglot CI",
+      "sense_id": "vim-polyglot-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

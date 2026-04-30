@@ -141,6 +141,30 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate-context",
       "text": "Publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate-context",
+      "text": "A unified framework for privacy-preserving data analysis and machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +233,18 @@
       "source_repo": "capitalone/datacompy",
       "status": "candidate",
       "text": "Publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "secretflow/secretflow",
+      "status": "candidate",
+      "text": "Publish Docs"
     }
   ],
   "candidate_related_terms": [
@@ -354,11 +390,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish-docs.yml",
       "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dev-docs-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs-publish.yml",
+      "source_repo": "secretflow/secretflow"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

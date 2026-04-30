@@ -86,28 +86,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "google-deepmind/dm_control",
+      "target": "mathworks-robotics/mujoco-simulink-blockset",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "commonwealthrobotics/mujoco-java",
+      "target": "liuliu/swift-mujoco",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "davidhozic/mujoco-rs",
+      "target": "jamiemair/mujoco.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/mujoco",
-      "target": "gazebosim/gz-mujoco",
+      "target": "kevinzakka/obj2mjcf",
       "target_type": "repository"
     },
     {
@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:42:09.210876+00:00",
+  "fetched_at": "2026-04-30T07:07:21.159154+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -294,27 +294,27 @@
       "physics",
       "robotics"
     ],
-    "updated_at": "2026-04-30T02:33:41Z"
+    "updated_at": "2026-04-30T04:05:49Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "commonwealthrobotics/mujoco-java",
+      "full_name": "jamiemair/mujoco.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "davidhozic/mujoco-rs",
+      "full_name": "kevinzakka/obj2mjcf",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gazebosim/gz-mujoco",
+      "full_name": "liuliu/swift-mujoco",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "google-deepmind/dm_control",
+      "full_name": "mathworks-robotics/mujoco-simulink-blockset",
       "source_file": "README.md"
     }
   ],

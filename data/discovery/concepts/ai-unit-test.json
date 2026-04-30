@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AI unit test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "AI unit test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate",
+      "text": "AI unit test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25893,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25823,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23373,
+      "status": "candidate",
+      "text": "sloth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22463,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16414,
+      "status": "candidate",
+      "text": "robotics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AI unit test",
+  "concept_id": "ai-unit-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ai-unit-test.yml",
+      "source_repo": "web-infra-dev/midscene"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI unit test",
+      "sense_id": "ai-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

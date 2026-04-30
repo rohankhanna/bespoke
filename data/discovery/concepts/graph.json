@@ -151,6 +151,54 @@
       "source_repo": "shenweichen/GraphEmbedding",
       "status": "candidate-context",
       "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "TuGraph: A High Performance Graph Database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate-context",
+      "text": "Interface with complex data via graph mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate-context",
+      "text": "![Pathom Logo](repo-resources/pathom-banner-padded.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate-context",
+      "text": "[BMVC 2020 Oral] Bipartite Graph Reasoning GANs for Person Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "Graphormer is a general-purpose deep learning backbone for molecular modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo-10.png\" width=100%>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "shenweichen/GraphEmbedding",
       "status": "candidate",
       "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate",
+      "text": "![Pathom Logo](repo-resources/pathom-banner-padded.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Graphormer",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo-10.png\" width=100%>"
     }
   ],
   "candidate_related_terms": [
@@ -366,11 +438,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "shenweichen/GraphEmbedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wilkerlucio/pathom3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Graphormer"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

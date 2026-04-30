@@ -91,6 +91,18 @@
       "source_repo": "visionml/pytracking",
       "status": "candidate-context",
       "text": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate-context",
+      "text": "SenseTime Research platform for single object tracking, implementing algorithms like SiamRPN and SiamMask."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate-context",
+      "text": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "visionml/pytracking",
       "status": "candidate",
       "text": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate",
+      "text": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +270,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "STVIR/pysot"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

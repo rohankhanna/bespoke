@@ -103,6 +103,30 @@
       "source_repo": "swz30/MIRNetv2",
       "status": "candidate-context",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "The state-of-the-art image restoration model without nonlinear activation functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Multi-Stage Progressive Image Restoration. SOTA results for Image deblurring, deraining, and denoising."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "swz30/MIRNetv2",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
       "status": "candidate",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
     }
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "swz30/MIRNetv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MPRNet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

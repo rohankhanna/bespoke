@@ -103,6 +103,18 @@
       "source_repo": "chengzeyi/ParaAttention",
       "status": "candidate-context",
       "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate-context",
+      "text": "[CVPR'2019] PEN-Net: Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate-context",
+      "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "chengzeyi/ParaAttention",
       "status": "candidate",
       "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate",
+      "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -279,11 +297,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "chengzeyi/ParaAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gobuild.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gobuild.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "goreleaser/goreleaser-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tenable/terrascan",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "aws-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "azure-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "cloud-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "cloudsecurity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "devsecops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "gcp-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "sast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "scans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "security-violations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan",
+      "target": "terrascan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:23.992062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11410
+    },
+    {
+      "path": "go.mod",
+      "size": 12762
+    },
+    {
+      "path": ".github/workflows/gobuild.yml",
+      "size": 1544
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.",
+    "fork": false,
+    "full_name": "tenable/terrascan",
+    "html_url": "https://github.com/tenable/terrascan",
+    "language": "Go",
+    "pushed_at": "2025-11-20T19:37:10Z",
+    "stargazers_count": 5212,
+    "topics": [
+      "architecture",
+      "aws",
+      "aws-security",
+      "azure-security",
+      "cloud-security",
+      "cloudsecurity",
+      "devops",
+      "devsecops",
+      "gcp-security",
+      "iac",
+      "infrastructure",
+      "infrastructure-as-code",
+      "kubernetes",
+      "sast",
+      "scans",
+      "security",
+      "security-tools",
+      "security-violations",
+      "terraform",
+      "terrascan"
+    ],
+    "updated_at": "2026-04-24T10:14:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gobuild.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-security"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-security"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-security"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudsecurity"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devsecops"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcp-security"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sast"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scans"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-violations"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terrascan"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "k2-fsa/sherpa-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "k2-fsa/sherpa-ncnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "Generate doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-3d-speaker.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-3d-speaker.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-3d-speaker.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-3d-speaker.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "export-3d-speaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-pyannote.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-pyannote.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-pyannote.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-pyannote.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "export-pyannote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-sense-voice.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-sense-voice.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-sense-voice.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-sense-voice.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "export-sense-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-silero-vad.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-silero-vad.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-silero-vad.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-silero-vad.yaml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "export-silero-vad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-whisper.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-whisper.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-whisper.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-whisper.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "export-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "nick-fields/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa",
+      "target": "build-wheels-cpu-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa",
+      "target": "end-to-end-asr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa",
+      "target": "transducer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "k2-fsa/sherpa"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:43.115389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Danfeng Hong, Zhu Han, Jing Yao, Lianru Gao, Bing Zhang, Antonio Plaza, Jocelyn Chanussot. Spectralformer: Rethinking hyperspectral image classification with transformers, IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2021",
+    "fork": false,
+    "full_name": "danfenghong/IEEE_TGRS_SpectralFormer",
+    "html_url": "https://github.com/danfenghong/IEEE_TGRS_SpectralFormer",
+    "language": "Python",
+    "pushed_at": "2024-11-30T01:29:45Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-04-24T12:03:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

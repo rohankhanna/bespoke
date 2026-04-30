@@ -19,6 +19,18 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbc Neovim plugin to manage global and project-local settings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate-context",
+      "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate",
+      "text": "**neoconf.nvim** is a Neovim plugin to manage global and project-local settings."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "LazyVim/LazyVim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "folke/neoconf.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

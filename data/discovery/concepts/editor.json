@@ -139,6 +139,30 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate-context",
+      "text": "Official VSCode plugin for ReScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "A lightweight text editor written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-vscode",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate",
+      "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -330,11 +366,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/tdo.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/mmgp",
+      "target": "deepbeepmeep/ominicontrolgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/mmgp",
+      "target": "deepbeepmeep/yuegp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/mmgp",
+      "target": "woct0rdho/triton-windows",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:07.125081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15905
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Memory Management for the GPU Poor, run the latest open source frontier models on consumer Nvidia GPUs",
+    "fork": false,
+    "full_name": "deepbeepmeep/mmgp",
+    "html_url": "https://github.com/deepbeepmeep/mmgp",
+    "language": "Python",
+    "pushed_at": "2026-02-16T17:00:51Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-04-19T19:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/ominicontrolgp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/yuegp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "woct0rdho/triton-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

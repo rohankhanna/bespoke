@@ -115,6 +115,78 @@
       "source_repo": "appbaseio/reactivesearch",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/appbase-js",
+      "status": "candidate-context",
+      "text": "appbase.io search client library for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/appbase-js",
+      "status": "candidate-context",
+      "text": "<h2 id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate-context",
+      "text": "SearchBox UI component library for flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate-context",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate-context",
+      "text": "Free and Open Source, Distributed, RESTful Search Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate-context",
+      "text": "docs-build"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "appbaseio/reactivesearch",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/appbase-js",
+      "status": "candidate",
+      "text": "<h2 id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/elasticsearch",
+      "status": "candidate",
+      "text": "docs-build"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +382,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/appbase-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/dejavu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elastic/elasticsearch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

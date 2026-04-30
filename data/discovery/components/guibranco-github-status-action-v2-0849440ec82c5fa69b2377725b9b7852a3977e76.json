@@ -1,0 +1,17 @@
+{
+  "component": "guibranco/github-status-action-v2@0849440ec82c5fa69b2377725b9b7852a3977e76",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-netlify.yml",
+      "source_repo": "electron-userland/electron-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-netlify.yml",
+      "source_repo": "electron-userland/electron-builder"
+    }
+  ]
+}

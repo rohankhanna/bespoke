@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -527,6 +527,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/compile.yml",
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ipinfo.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-build-tools.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer"
     }
   ]
 }

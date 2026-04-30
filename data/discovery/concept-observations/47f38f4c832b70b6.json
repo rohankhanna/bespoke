@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Export Insomnia workspace HTML documentation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Export Insomnia workspace HTML documentation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "insomnia-plugins",
+      "sense_id": "insomnia-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "insomnia-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "insomnia-plugins",
+  "observation_id": "47f38f4c832b70b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "insomnia-plugins",
+  "source_context_snippet": "Export Insomnia workspace HTML documentation.",
+  "source_file": null,
+  "source_repo": "devhammed/insomnia-plugin-documenter",
+  "source_repo_description": "Export Insomnia workspace HTML documentation."
+}

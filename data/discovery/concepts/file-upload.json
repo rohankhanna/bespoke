@@ -19,6 +19,18 @@
       "source_repo": "csznet/tgState",
       "status": "candidate-context",
       "text": "tgState"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://img.shields.io/codecov/c/github/fengyuanchen/compressorjs.svg)](https://codecov.io/gh/fengyuanchen/compressorjs) [![Downloads](https://img.shields.io/npm/dm/compressorjs.svg)](https://www.npmjs.com/package/compressorjs) [![Version](https://img.shields\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "csznet/tgState",
       "status": "candidate",
       "text": "tgState"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://img.shields.io/codecov/c/github/fengyuanchen/compressorjs.svg)](https://codecov.io/gh/fengyuanchen/compressorjs) [![Downloads](https://img.shields.io/npm/dm/compressorjs.svg)](https://www.npmjs.com/package/compressorjs) [![Version](https://img.shields\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "csznet/tgState"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fengyuanchen/compressorjs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check GitHub Actions with Macaron"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "Check GitHub Actions with Macaron"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate",
+      "text": "Check GitHub Actions with Macaron"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "bak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check GitHub Actions with Macaron",
+  "concept_id": "check-github-actions-with-macaron",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml",
+      "source_repo": "oracle/graal"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check GitHub Actions with Macaron",
+      "sense_id": "check-github-actions-with-macaron#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

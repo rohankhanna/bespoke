@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "listr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "listr-input",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-link-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "listr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "listr-input",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "markdown-link-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alrra/browser-logos",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "Check links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "alrra/browser-logos",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "browser-logos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "browsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "iconset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "iconsets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "logo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "logos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "svg-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/browser-logos",
+      "target": "svgs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:29.338751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3933
+    },
+    {
+      "path": "package.json",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "size": 683
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\uddc2 High resolution web browser logos",
+    "fork": false,
+    "full_name": "alrra/browser-logos",
+    "html_url": "https://github.com/alrra/browser-logos",
+    "language": null,
+    "pushed_at": "2025-10-13T03:11:27Z",
+    "stargazers_count": 6037,
+    "topics": [
+      "browser-logos",
+      "browsers",
+      "icons",
+      "iconset",
+      "iconsets",
+      "logo",
+      "logos",
+      "svg",
+      "svg-icons",
+      "svgs"
+    ],
+    "updated_at": "2026-04-30T05:43:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "term": "Check links"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-logos"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browsers"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconset"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconsets"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logo"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logos"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-icons"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svgs"
+    }
+  ]
+}

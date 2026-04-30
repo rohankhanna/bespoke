@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ifsheldon/async-openai-wasm",
+      "target": "ihrwein/backoff",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:48.135030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10852
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "wasm",
+    "description": "Async Rust library for OpenAI and others on WASM",
+    "fork": true,
+    "full_name": "ifsheldon/async-openai-wasm",
+    "html_url": "https://github.com/ifsheldon/async-openai-wasm",
+    "language": "Rust",
+    "pushed_at": "2025-12-02T07:40:33Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-12-02T07:40:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihrwein/backoff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

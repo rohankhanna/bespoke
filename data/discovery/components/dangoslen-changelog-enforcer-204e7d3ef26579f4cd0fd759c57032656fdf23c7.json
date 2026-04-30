@@ -1,0 +1,12 @@
+{
+  "component": "dangoslen/changelog-enforcer@204e7d3ef26579f4cd0fd759c57032656fdf23c7",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl"
+    }
+  ]
+}

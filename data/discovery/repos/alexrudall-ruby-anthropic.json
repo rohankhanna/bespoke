@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrudall/ruby-anthropic",
+      "target": "anthropics/anthropic-sdk-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrudall/ruby-anthropic",
+      "target": "alexrudall/midjourney",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrudall/ruby-anthropic",
+      "target": "motdotla/dotenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrudall/ruby-anthropic",
+      "target": "vcr/vcr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:50.761081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Anthropic (Claude) API + Ruby! \ud83e\udd16\ud83c\udf0c",
+    "fork": false,
+    "full_name": "alexrudall/ruby-anthropic",
+    "html_url": "https://github.com/alexrudall/ruby-anthropic",
+    "language": "Ruby",
+    "pushed_at": "2026-04-16T21:13:45Z",
+    "stargazers_count": 235,
+    "topics": [],
+    "updated_at": "2026-04-15T00:31:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrudall/midjourney",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/anthropic-sdk-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "motdotla/dotenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vcr/vcr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

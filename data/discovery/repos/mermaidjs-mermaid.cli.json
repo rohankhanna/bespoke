@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fortawesome/fontawesome-free-webfonts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mermaid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn-upgrade-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "@fortawesome/fontawesome-free-webfonts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "babel-preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "mermaid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "yarn-upgrade-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mermaidjs/mermaid.cli",
+      "target": "mermaid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:07:04.105376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4113
+    },
+    {
+      "path": "package.json",
+      "size": 939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Development has been moved to https://github.com/mermaid-js/mermaid-cli",
+    "fork": false,
+    "full_name": "mermaidjs/mermaid.cli",
+    "html_url": "https://github.com/mermaidjs/mermaid.cli",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-22T00:22:20Z",
+    "stargazers_count": 1089,
+    "topics": [
+      "mermaid"
+    ],
+    "updated_at": "2026-04-10T06:14:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid"
+    }
+  ]
+}

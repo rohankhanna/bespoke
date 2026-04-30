@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945244,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896963,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895695,
+      "status": "candidate",
+      "text": "tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947356,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947355,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imaging",
+      "sense_id": "imaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10049,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3013,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "tomography"
+    }
+  ],
+  "concept_id": "imaging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imaging",
+  "observation_id": "27729513f365487c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "imaging",
+  "source_context_snippet": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)",
+  "source_file": null,
+  "source_repo": "mv-lab/AISP",
+  "source_repo_description": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+}

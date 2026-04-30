@@ -9,7 +9,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -287,6 +289,42 @@
       "source_repo": "NVIDIA/gpu-operator",
       "status": "candidate-context",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/setup-python",
+      "status": "candidate-context",
+      "text": "Set up your GitHub Actions workflow with a specific version of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-python",
+      "status": "candidate-context",
+      "text": "e2e tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "'E2E Tests'"
     }
   ],
   "candidate_glosses": [
@@ -427,6 +465,24 @@
       "source_repo": "NVIDIA/gpu-operator",
       "status": "candidate",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/setup-python",
+      "status": "candidate",
+      "text": "e2e tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "'E2E Tests'"
     }
   ],
   "candidate_related_terms": [
@@ -746,11 +802,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/e2e-tests.yaml",
       "source_repo": "NVIDIA/gpu-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wix/Detox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "actions/setup-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e-install.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

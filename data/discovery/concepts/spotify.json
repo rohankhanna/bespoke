@@ -151,6 +151,18 @@
       "source_repo": "Spotifyd/spotifyd",
       "status": "candidate-context",
       "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sillyplots/spotifyr",
+      "status": "candidate-context",
+      "text": "R wrapper for Spotify's Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sillyplots/spotifyr",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Spotifyd/spotifyd",
       "status": "candidate",
       "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sillyplots/spotifyr",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +364,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "teticio/Deej-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sillyplots/spotifyr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

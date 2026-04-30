@@ -79,6 +79,18 @@
       "source_repo": "pyppeteer/pyppeteer",
       "status": "candidate-context",
       "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miyakogi/pyppeteer",
+      "status": "candidate-context",
+      "text": "Headless chrome/chromium automation library (unofficial port of puppeteer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miyakogi/pyppeteer",
+      "status": "candidate-context",
+      "text": "Pyppeteer"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "pyppeteer/pyppeteer",
       "status": "candidate",
       "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miyakogi/pyppeteer",
+      "status": "candidate",
+      "text": "Pyppeteer"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "pyppeteer/pyppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "miyakogi/pyppeteer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

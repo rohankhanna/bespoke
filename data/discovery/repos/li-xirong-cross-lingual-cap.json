@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-xirong/cross-lingual-cap",
+      "target": "weiyuk/fluent-cap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:53.283434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-lingual image captioning",
+    "fork": false,
+    "full_name": "li-xirong/cross-lingual-cap",
+    "html_url": "https://github.com/li-xirong/cross-lingual-cap",
+    "language": null,
+    "pushed_at": "2022-05-09T01:13:46Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-10T08:56:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiyuk/fluent-cap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

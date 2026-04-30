@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/configure-bazel-remote-cache-auth@144b0b915f13a418f5eafe2f68d19564ec136c62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "cgrindel/gha_join_jobs@605424defceef3181c9fde3df903ea8ec35e267a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "tweag/cabal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "tweag/rules_haskell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "tweag/configure-bazel-remote-cache-auth@144b0b915f13a418f5eafe2f68d19564ec136c62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "cgrindel/gha_join_jobs@605424defceef3181c9fde3df903ea8ec35e267a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:28:25.417336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10843
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 3381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A gazelle extension to generate haskell_module rules",
+    "fork": false,
+    "full_name": "tweag/gazelle_haskell_modules",
+    "html_url": "https://github.com/tweag/gazelle_haskell_modules",
+    "language": "Haskell",
+    "pushed_at": "2026-04-22T18:32:47Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-22T18:32:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tweag/cabal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tweag/rules_haskell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "Continuous integration"
+    }
+  ]
+}

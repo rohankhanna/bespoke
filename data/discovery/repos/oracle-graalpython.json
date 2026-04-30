@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml"
+    },
+    {
+      "component": "docker/setup-docker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graalpython",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graalpython",
+      "target": "timfel/graalpy-jbang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graalpython",
+      "target": "timfel/racing-all-afternoon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graalpython",
+      "target": "josephnavarro/racing-all-afternoon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Build Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Generate CI Matrix from ci.jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Post Merge Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Run Weekly unittest retagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unittests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-unittests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Run CI unittests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Weekly Downstream Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "docker/setup-docker-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "source_repo": "oracle/graalpython",
+      "target": "Test on exotic platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graalpython",
+      "target": "embeddable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graalpython",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graalpython",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graalpython",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:50.276165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9080
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/ci-matrix-gen.yml",
+      "size": 10841
+    },
+    {
+      "path": ".github/workflows/ci-post-merge.yml",
+      "size": 4954
+    },
+    {
+      "path": ".github/workflows/ci-unittest-retagger.yml",
+      "size": 3249
+    },
+    {
+      "path": ".github/workflows/ci-unittests.yml",
+      "size": 2260
+    },
+    {
+      "path": ".github/workflows/downstream-tests.yml",
+      "size": 3064
+    },
+    {
+      "path": ".github/workflows/platforms-tests.yml",
+      "size": 3037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java",
+    "fork": false,
+    "full_name": "oracle/graalpython",
+    "html_url": "https://github.com/oracle/graalpython",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:47:31Z",
+    "stargazers_count": 1586,
+    "topics": [
+      "embeddable",
+      "graalvm",
+      "java",
+      "python",
+      "python3"
+    ],
+    "updated_at": "2026-04-30T07:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josephnavarro/racing-all-afternoon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timfel/graalpy-jbang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timfel/racing-all-afternoon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "Build Wheels"
+    },
+    {
+      "context_snippet": "Generate CI Matrix from ci.jsonnet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-matrix-gen.yml",
+      "term": "Generate CI Matrix from ci.jsonnet"
+    },
+    {
+      "context_snippet": "Post Merge Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "term": "Post Merge Actions"
+    },
+    {
+      "context_snippet": "Run Weekly unittest retagger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-unittest-retagger.yml",
+      "term": "Run Weekly unittest retagger"
+    },
+    {
+      "context_snippet": "Run CI unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-unittests.yml",
+      "term": "Run CI unittests"
+    },
+    {
+      "context_snippet": "Weekly Downstream Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream-tests.yml",
+      "term": "Weekly Downstream Tests"
+    },
+    {
+      "context_snippet": "Test on exotic platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platforms-tests.yml",
+      "term": "Test on exotic platforms"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddable"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

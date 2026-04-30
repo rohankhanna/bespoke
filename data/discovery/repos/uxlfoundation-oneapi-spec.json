@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "actions/checkout@v4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "actions/setup-python@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "actions/upload-artifact@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "PR Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "accelerator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "oneapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "parallel-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "sycl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "target": "video-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:52.052641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4221
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 158
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1409
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 2592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "oneAPI Specification source files",
+    "fork": false,
+    "full_name": "uxlfoundation/oneAPI-spec",
+    "html_url": "https://github.com/uxlfoundation/oneAPI-spec",
+    "language": "Python",
+    "pushed_at": "2026-04-21T21:57:12Z",
+    "stargazers_count": 213,
+    "topics": [
+      "accelerator",
+      "analytics",
+      "deep-learning",
+      "linear-algebra",
+      "oneapi",
+      "parallel-programming",
+      "sycl",
+      "video-processing"
+    ],
+    "updated_at": "2026-04-17T22:14:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"PR Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Tests"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accelerator"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oneapi"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-programming"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sycl"
+    },
+    {
+      "context_snippet": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    }
+  ]
+}

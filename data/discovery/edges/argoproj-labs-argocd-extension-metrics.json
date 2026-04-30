@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "golangci/golangci-lint-action@3a919529898de77ec3da873e3063ca4b10e7f5cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "docker/login-action@dd4fa0671be5250ee6f50aedf4cb05514abda2c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "goreleaser/goreleaser-action@5fdedb94abba051217030cc86d4523cf3f02243d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "argoproj-labs/argocd-extension-metrics"
+}

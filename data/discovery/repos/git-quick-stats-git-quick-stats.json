@@ -1,0 +1,301 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "detailed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "git-addons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "git-pathspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "gitlog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "meeting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "statistical-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "suggestion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "topics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:41.176845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13946
+    },
+    {
+      "path": "Dockerfile",
+      "size": 849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository.",
+    "fork": false,
+    "full_name": "git-quick-stats/git-quick-stats",
+    "html_url": "https://github.com/git-quick-stats/git-quick-stats",
+    "language": "Shell",
+    "pushed_at": "2026-04-18T12:15:43Z",
+    "stargazers_count": 6969,
+    "topics": [
+      "bash",
+      "changelog",
+      "commits",
+      "contributors",
+      "detailed",
+      "git",
+      "git-addons",
+      "git-pathspec",
+      "gitlog",
+      "history",
+      "meeting",
+      "review",
+      "reviewer",
+      "shell",
+      "shell-script",
+      "statistical-analysis",
+      "statistics",
+      "stats",
+      "suggestion",
+      "topics"
+    ],
+    "updated_at": "2026-04-28T08:28:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commits"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributors"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detailed"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-addons"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-pathspec"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlog"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "history"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meeting"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "review"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reviewer"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-analysis"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stats"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suggestion"
+    },
+    {
+      "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topics"
+    }
+  ]
+}

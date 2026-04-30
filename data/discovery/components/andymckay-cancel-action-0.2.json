@@ -1,12 +1,17 @@
 {
   "component": "andymckay/cancel-action@0.2",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/focus-sync-strings.yml",
       "source_repo": "mozilla-mobile/focus-android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix"
     }
   ]
 }

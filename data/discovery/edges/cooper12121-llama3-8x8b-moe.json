@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cooper12121/llama3-8x8b-MoE",
+      "target": "ymcui/chinese-mixtral",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "cooper12121/llama3-8x8b-MoE"
+}

@@ -247,6 +247,66 @@
       "source_repo": "mozilla/DeepSpeech",
       "status": "candidate-context",
       "text": "Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "Speech-to-text server framework with next-gen Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "`sherpa` is an open-source speech-text-text inference framework using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate-context",
+      "text": "Real-time speech recognition and voice activity detection (VAD) using next-gen Kaldi with ncnn without Internet connection. Support iOS, Android, Linux, macOS, Windows, Raspberry Pi, VisionFive2, LicheePi4A etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate-context",
+      "text": "|Real-time Speech recognition|Speech synthesis | Voice activity detection |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7aef\u5230\u7aef\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\uff0c\u4ece\u5165\u95e8\u5230\u5b9e\u6218\uff0c\u8d85\u7b80\u5355\u7684\u5165\u95e8\u6848\u4f8b\uff0c\u8d85\u5b9e\u7528\u7684\u4f01\u4e1a\u9879\u76ee\u3002\u652f\u6301\u5f53\u524d\u6700\u6d41\u884c\u7684DeepSpeech2\u3001Conformer\u3001Squeezeformer\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate-context",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharmor/whisper-playground",
+      "status": "candidate-context",
+      "text": "Build real time speech2text web apps using OpenAI's Whisper https://openai.com/blog/whisper/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/whisper-playground",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/speech-representations",
+      "status": "candidate-context",
+      "text": "Code for DeCoAR (ICASSP 2020) and BERTphone (Odyssey 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/speech-representations",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +429,36 @@
       "source_repo": "mozilla/DeepSpeech",
       "status": "candidate",
       "text": "Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate",
+      "text": "`sherpa` is an open-source speech-text-text inference framework using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "status": "candidate",
+      "text": "|Real-time Speech recognition|Speech synthesis | Voice activity detection |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeyupiaoling/PPASR",
+      "status": "candidate",
+      "text": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/whisper-playground",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/speech-representations",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +646,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-ncnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "saharmor/whisper-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/speech-representations"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

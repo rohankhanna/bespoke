@@ -145,6 +145,18 @@
       "source_repo": "mlocati/docker-php-extension-installer",
       "status": "candidate-context",
       "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "Deforum extension for AUTOMATIC1111's Stable Diffusion webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +231,12 @@
       "source_repo": "mlocati/docker-php-extension-installer",
       "status": "candidate",
       "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +430,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mlocati/docker-php-extension-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "sewenew/tokenizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "renenyffenegger/cpp-base64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/qwen.cpp",
+      "target": "qwen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:14.999952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5950
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "C++ implementation of Qwen-LM",
+    "fork": false,
+    "full_name": "QwenLM/qwen.cpp",
+    "html_url": "https://github.com/QwenLM/qwen.cpp",
+    "language": "C++",
+    "pushed_at": "2024-12-06T08:32:28Z",
+    "stargazers_count": 626,
+    "topics": [
+      "large-language-models",
+      "qwen"
+    ],
+    "updated_at": "2026-04-27T19:19:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renenyffenegger/cpp-base64",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sewenew/tokenizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    }
+  ]
+}

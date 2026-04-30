@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945351,
+      "status": "candidate",
+      "text": "workout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945155,
+      "status": "candidate",
+      "text": "work out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901974,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878891,
+      "status": "candidate",
+      "text": "drill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39870430,
+      "status": "candidate",
+      "text": "exert"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "exercise",
+      "sense_id": "exercise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42067,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27060,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "carry out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16032,
+      "status": "candidate",
+      "text": "exert"
+    }
+  ],
+  "concept_id": "exercise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "exercise",
+  "observation_id": "53b17b06a7419ce6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "exercise",
+  "source_context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+  "source_file": null,
+  "source_repo": "yuhonas/free-exercise-db",
+  "source_repo_description": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend"
+}

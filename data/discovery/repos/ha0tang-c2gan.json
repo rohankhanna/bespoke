@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "ha0tang/xinggan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "mikecheninoulu/unsupervised_iepgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "ha0tang/guided-i2i-translation-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "facial-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "keypoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN",
+      "target": "landmarks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:17.103846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8966
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ACM MM 2019 Oral] Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation",
+    "fork": false,
+    "full_name": "Ha0Tang/C2GAN",
+    "html_url": "https://github.com/Ha0Tang/C2GAN",
+    "language": "Python",
+    "pushed_at": "2023-02-18T00:53:54Z",
+    "stargazers_count": 70,
+    "topics": [
+      "facial-landmarks",
+      "gans",
+      "image-generation",
+      "image-to-image-translation",
+      "image-translation",
+      "keypoints",
+      "landmarks"
+    ],
+    "updated_at": "2026-03-15T05:07:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/guided-i2i-translation-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/xinggan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikecheninoulu/unsupervised_iepgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-landmarks"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keypoints"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landmarks"
+    }
+  ]
+}

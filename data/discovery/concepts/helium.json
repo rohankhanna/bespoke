@@ -1,0 +1,101 @@
+{
+  "aliases": [
+    "helium"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Lighter web automation with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050872,
+      "status": "candidate",
+      "text": "atomic number 2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050871,
+      "status": "candidate",
+      "text": "neon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013182,
+      "status": "candidate",
+      "text": "gas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985037,
+      "status": "candidate",
+      "text": "superfluid"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "atomic number 2"
+    }
+  ],
+  "canonical_name": "helium",
+  "concept_id": "helium",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mherrmann/helium"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helium",
+      "sense_id": "helium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

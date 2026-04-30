@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "NTBBloodbath/selene-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "mattn/efm-langserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "iamcco/diagnostic-languageserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "mfussenegger/nvim-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "lewis6991/hover.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "autogen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "NTBBloodbath/selene-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "neovim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jose-elias-alvarez/null-ls.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:10.487898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11546
+    },
+    {
+      "path": ".github/workflows/autogen.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/default.yml",
+      "size": 1150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.",
+    "fork": false,
+    "full_name": "jose-elias-alvarez/null-ls.nvim",
+    "html_url": "https://github.com/jose-elias-alvarez/null-ls.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-10-03T08:04:11Z",
+    "stargazers_count": 3598,
+    "topics": [
+      "lsp",
+      "neovim",
+      "neovim-lsp",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-29T23:21:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iamcco/diagnostic-languageserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewis6991/hover.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/efm-langserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mfussenegger/nvim-lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "autogen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autogen.yml",
+      "term": "autogen"
+    },
+    {
+      "context_snippet": "default",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "term": "default"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-configure-file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-configure-file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lsp"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-configure-file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

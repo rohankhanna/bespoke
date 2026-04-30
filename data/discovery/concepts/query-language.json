@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "query-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "A query engine for any combination of data sources. Query your files and APIs as if they were databases!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate",
+      "text": "Trustfall is a query engine for querying any kind of data source, from APIs and databases"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "query-language",
+  "concept_id": "query-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "obi1kenobi/trustfall"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "query-language",
+      "sense_id": "query-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

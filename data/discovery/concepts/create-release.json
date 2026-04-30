@@ -674,6 +674,78 @@
       "source_repo": "aliyun/aliyun-cli",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ittapi",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ittapi",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate-context",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate-context",
+      "text": "An elegant Go board and SGF editor for a more civilized age."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddfa\ufe0f A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
+      "status": "candidate-context",
+      "text": "OpenCL SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1010,6 +1082,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ittapi",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/android-components",
+      "status": "candidate",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SabakiHQ/Sabaki",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/OpenCL-SDK",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -1511,11 +1619,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aliyun/aliyun-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intel/ittapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "mozilla-mobile/android-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "SabakiHQ/Sabaki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mrjones2014/legendary.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "KhronosGroup/OpenCL-SDK"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

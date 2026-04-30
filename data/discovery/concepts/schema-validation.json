@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "schema-validation"
+    "schema-validation",
+    "Schema Validation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "colinhacks/zod",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/serverless-snippets",
+      "status": "candidate-context",
+      "text": "Snippets of code used for Serverless Development. Code examples hosted on serverlessland.com/snippets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/serverless-snippets",
+      "status": "candidate-context",
+      "text": "\"Schema Validation\""
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "colinhacks/zod",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/serverless-snippets",
+      "status": "candidate",
+      "text": "\"Schema Validation\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10562,
+      "status": "candidate",
+      "text": "scenario"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "assimilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "acculturation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "adminicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10470,
+      "status": "candidate",
+      "text": "afterthought"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "schema-validation",
   "concept_id": "schema-validation",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "colinhacks/zod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/schema-validation-for-snippet.yml",
+      "source_repo": "aws-samples/serverless-snippets"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/piggieback",
+      "target": "djblue/nrepl-cljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/piggieback",
+      "target": "thheller/shadow-cljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/piggieback",
+      "target": "ccw-ide/ccw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback",
+      "target": "nrepl-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:20.549779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nREPL support for ClojureScript REPLs",
+    "fork": false,
+    "full_name": "nrepl/piggieback",
+    "html_url": "https://github.com/nrepl/piggieback",
+    "language": "Clojure",
+    "pushed_at": "2025-09-01T16:53:38Z",
+    "stargazers_count": 485,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "nrepl",
+      "nrepl-middleware",
+      "repl"
+    ],
+    "updated_at": "2026-02-07T08:43:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ccw-ide/ccw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djblue/nrepl-cljs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thheller/shadow-cljs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl-middleware"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

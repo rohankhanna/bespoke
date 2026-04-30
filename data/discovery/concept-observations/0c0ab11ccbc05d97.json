@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High performance gradient boosting for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rubyml",
+      "sense_id": "rubyml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rubyml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rubyml",
+  "observation_id": "0c0ab11ccbc05d97",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "rubyml",
+  "source_context_snippet": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby",
+  "source_file": null,
+  "source_repo": "ankane/xgboost-ruby",
+  "source_repo_description": "High performance gradient boosting for Ruby"
+}

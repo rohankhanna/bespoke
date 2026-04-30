@@ -91,6 +91,18 @@
       "source_repo": "DavHau/nix-portable",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate-context",
+      "text": "Package Management for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate-context",
+      "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "DavHau/nix-portable",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/glide",
+      "status": "candidate",
+      "text": "![glide logo](https://glide.sh/assets/logo-small.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "DavHau/nix-portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/glide"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

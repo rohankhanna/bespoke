@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/BUILD_AND_PACKAGE_REUSABLE.yml",
       "source_repo": "redis-stack/redis-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/AgentLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/BrowserGym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ppwwyyxx/cocoapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ServiceNow/WorkArena"
     }
   ],
   "term": "Build and Publish"

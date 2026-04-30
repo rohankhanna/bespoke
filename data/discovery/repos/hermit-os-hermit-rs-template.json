@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mkroening/rust-toolchain-toml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/hermit-rs-template",
+      "target": "hermit-os/rust-std-hermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermit-os/hermit-rs-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermit-os/hermit-rs-template",
+      "target": "mkroening/rust-toolchain-toml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:44.723842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2155
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 193
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An application template for Hermit for Rust.",
+    "fork": false,
+    "full_name": "hermit-os/hermit-rs-template",
+    "html_url": "https://github.com/hermit-os/hermit-rs-template",
+    "language": "Rust",
+    "pushed_at": "2026-03-19T08:53:24Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-29T07:25:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermit-os/rust-std-hermit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

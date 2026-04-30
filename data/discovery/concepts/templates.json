@@ -127,6 +127,30 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate-context",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate-context",
+      "text": " The Toolkit for Vim Color Scheme Designers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate-context",
+      "text": "The Toolkit for Vim Color Scheme Designers!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc18 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "jonschlinkert/whence",
       "status": "candidate",
       "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate",
+      "text": "The Toolkit for Vim Color Scheme Designers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +334,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "erlef/setup-beam@v1",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -292,6 +292,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-workflow.yaml",
       "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bugfix-reproducer.yml",
+      "source_repo": "rrrene/html_sanitize_ex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "rrrene/html_sanitize_ex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "source_repo": "rrrene/html_sanitize_ex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-alpine.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "msz/hammox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/gen_stage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-payment-processing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-papertrail-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/w3c_interop.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/who"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/nimble_pool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "keathley/finch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway_sqs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-grpc/grpc-reflection"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latest_conformance.yml",
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint_web_socket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "sneako/finch"
     }
   ]
 }

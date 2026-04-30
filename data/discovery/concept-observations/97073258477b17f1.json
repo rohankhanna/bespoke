@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046360,
+      "status": "candidate",
+      "text": "implied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040479,
+      "status": "candidate",
+      "text": "understood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036108,
+      "status": "candidate",
+      "text": "inherent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017661,
+      "status": "candidate",
+      "text": "tacit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014074,
+      "status": "candidate",
+      "text": "unquestioning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "implicit",
+      "sense_id": "implicit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44044,
+      "status": "candidate",
+      "text": "tacit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29040,
+      "status": "candidate",
+      "text": "inherent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12043,
+      "status": "candidate",
+      "text": "silent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12031,
+      "status": "candidate",
+      "text": "implied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7020,
+      "status": "candidate",
+      "text": "inexplicit"
+    }
+  ],
+  "concept_id": "implicit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "implicit",
+  "observation_id": "97073258477b17f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "implicit",
+  "source_context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+  "source_file": null,
+  "source_repo": "WongKinYiu/yolor",
+  "source_repo_description": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+}

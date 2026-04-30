@@ -1,0 +1,255 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "v-iashin/v-iashin.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "peihaochen/regnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "v-iashin/video_features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "bmvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "evaluation-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "vggsound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "video-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN",
+      "target": "vqvae",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:04:11.741199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34748
+    },
+    {
+      "path": "Dockerfile",
+      "size": 9407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)",
+    "fork": false,
+    "full_name": "v-iashin/SpecVQGAN",
+    "html_url": "https://github.com/v-iashin/SpecVQGAN",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-12T09:05:58Z",
+    "stargazers_count": 371,
+    "topics": [
+      "audio",
+      "audio-generation",
+      "bmvc",
+      "evaluation-metrics",
+      "gan",
+      "melgan",
+      "multi-modal",
+      "pytorch",
+      "transformer",
+      "vas",
+      "vggsound",
+      "video",
+      "video-features",
+      "video-understanding",
+      "vqvae"
+    ],
+    "updated_at": "2026-03-23T07:27:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peihaochen/regnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "v-iashin/v-iashin.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "v-iashin/video_features",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bmvc"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-metrics"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melgan"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vggsound"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-features"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    },
+    {
+      "context_snippet": "BMVC 2021 \u2013 Oral Presentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vqvae"
+    }
+  ]
+}

@@ -67,6 +67,18 @@
       "source_repo": "Janspiry/distributed-pytorch-template",
       "status": "candidate-context",
       "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/logr",
+      "status": "candidate-context",
+      "text": "A simple logging interface for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/logr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/logr.svg)](https://pkg.go.dev/github.com/go-logr/logr)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Janspiry/distributed-pytorch-template",
       "status": "candidate",
       "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/logr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/logr.svg)](https://pkg.go.dev/github.com/go-logr/logr)"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Janspiry/distributed-pytorch-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-logr/logr"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typstyle-rs/prettyless",
+      "target": "kfl/wpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/prettyless",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/prettyless",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/prettyless",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:41.893992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1878
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wadler-style pretty-printing combinators with more features in Rust (fork of pretty.rs)",
+    "fork": false,
+    "full_name": "typstyle-rs/prettyless",
+    "html_url": "https://github.com/typstyle-rs/prettyless",
+    "language": "Rust",
+    "pushed_at": "2026-02-20T13:55:19Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-11T08:31:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kfl/wpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

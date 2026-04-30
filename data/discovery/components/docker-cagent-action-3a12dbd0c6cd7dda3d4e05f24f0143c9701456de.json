@@ -1,0 +1,12 @@
+{
+  "component": "docker/cagent-action@3a12dbd0c6cd7dda3d4e05f24f0143c9701456de",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-docs-scan.yml",
+      "source_repo": "docker/docs"
+    }
+  ]
+}

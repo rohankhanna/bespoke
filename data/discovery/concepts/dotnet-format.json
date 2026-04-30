@@ -56,6 +56,30 @@
       "source_repo": "autofac/Autofac.Multitenant",
       "status": "candidate-context",
       "text": "dotnet format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "dotnet-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/binskim",
+      "status": "candidate-context",
+      "text": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/binskim",
+      "status": "candidate-context",
+      "text": "dotnet format"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +104,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate",
+      "text": "dotnet format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate",
+      "text": "dotnet-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/binskim",
       "status": "candidate",
       "text": "dotnet format"
     }
@@ -149,11 +185,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dotnet-format.yml",
       "source_repo": "autofac/Autofac.Multitenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/agent-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/binskim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

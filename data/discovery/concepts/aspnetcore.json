@@ -79,6 +79,30 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate-context",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ligershark/WebOptimizer",
+      "status": "candidate-context",
+      "text": "A bundler and minifier for ASP.NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ligershark/WebOptimizer",
+      "status": "candidate-context",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/twj2lkgnm4th6qh9?svg=true)](https://ci.appveyor.com/project/madskristensen/weboptimizer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smartstore/Smartstore",
+      "status": "candidate-context",
+      "text": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/Smartstore",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
       "status": "candidate",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ligershark/WebOptimizer",
+      "status": "candidate",
+      "text": "[![Build status](https://ci.appveyor.com/api/projects/status/twj2lkgnm4th6qh9?svg=true)](https://ci.appveyor.com/project/madskristensen/weboptimizer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smartstore/Smartstore",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ligershark/WebOptimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "amazon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "broadway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway_sqs",
+      "target": "genstage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:23.923995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1451
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Broadway producer for Amazon SQS",
+    "fork": false,
+    "full_name": "dashbitco/broadway_sqs",
+    "html_url": "https://github.com/dashbitco/broadway_sqs",
+    "language": "Elixir",
+    "pushed_at": "2025-05-30T21:47:37Z",
+    "stargazers_count": 97,
+    "topics": [
+      "amazon",
+      "broadway",
+      "genstage",
+      "sqs"
+    ],
+    "updated_at": "2025-08-11T20:16:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon"
+    },
+    {
+      "context_snippet": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "broadway"
+    },
+    {
+      "context_snippet": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genstage"
+    }
+  ]
+}

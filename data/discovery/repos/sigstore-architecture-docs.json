@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "martinthomson/i-d-template@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "communityspecification/1.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "Archive Issues and Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "Update Editor's Copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "Publish New Draft Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setup.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "Perform Initial Repository Setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "sigstore/architecture-docs",
+      "target": "Update Generated Files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:20:47.737748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5651
+    },
+    {
+      "path": ".github/workflows/archive.yml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/ghpages.yml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1255
+    },
+    {
+      "path": ".github/workflows/setup.yml",
+      "size": 3497
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Specification of sigstore's architecture in an IETF internet-draft format",
+    "fork": true,
+    "full_name": "sigstore/architecture-docs",
+    "html_url": "https://github.com/sigstore/architecture-docs",
+    "language": null,
+    "pushed_at": "2026-04-13T16:32:27Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-01T06:37:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "communityspecification/1.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinthomson/i-d-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Archive Issues and Pull Requests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "term": "Archive Issues and Pull Requests"
+    },
+    {
+      "context_snippet": "\"Update Editor's Copy\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "term": "Update Editor's Copy"
+    },
+    {
+      "context_snippet": "\"Publish New Draft Version\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish New Draft Version"
+    },
+    {
+      "context_snippet": "\"Perform Initial Repository Setup\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/setup.yml",
+      "term": "Perform Initial Repository Setup"
+    },
+    {
+      "context_snippet": "\"Update Generated Files\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Generated Files"
+    }
+  ]
+}

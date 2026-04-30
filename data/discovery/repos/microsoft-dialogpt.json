@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DialoGPT",
+      "target": "dreasysnail/retgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DialoGPT",
+      "target": "golsun/dialogrpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DialoGPT",
+      "target": "andreamad8/dialogpt2-interact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DialoGPT",
+      "target": "facebookresearch/parlai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "data-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "dialogpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "dialogue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "text-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "text-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:50.975155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Large-scale pretraining for dialogue",
+    "fork": false,
+    "full_name": "microsoft/DialoGPT",
+    "html_url": "https://github.com/microsoft/DialoGPT",
+    "language": "Python",
+    "pushed_at": "2022-10-17T23:41:52Z",
+    "stargazers_count": 2421,
+    "topics": [
+      "data-processing",
+      "dialogpt",
+      "dialogue",
+      "gpt-2",
+      "machine-learning",
+      "pytorch",
+      "text-data",
+      "text-generation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T17:50:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreamad8/dialogpt2-interact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dreasysnail/retgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/parlai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golsun/dialogrpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-processing"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialogpt"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialogue"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-data"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    },
+    {
+      "context_snippet": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

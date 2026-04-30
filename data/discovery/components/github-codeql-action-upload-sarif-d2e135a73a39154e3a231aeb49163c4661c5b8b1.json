@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@d2e135a73a39154e3a231aeb49163c4661c5b8b1",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath"
+    }
+  ]
+}

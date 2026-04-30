@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "computer-aided-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "computer-assisted-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "language-technology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "language-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "target": "translation-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:18:16.891673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OPUS-CAT is a collection of software which make it possible to OPUS-MT neural machine translation models in professional translation. OPUS-CAT includes a local offline MT engine and a collection of CAT tool plugins.",
+    "fork": false,
+    "full_name": "Helsinki-NLP/OPUS-CAT",
+    "html_url": "https://github.com/Helsinki-NLP/OPUS-CAT",
+    "language": "C#",
+    "pushed_at": "2025-02-04T09:20:57Z",
+    "stargazers_count": 85,
+    "topics": [
+      "computer-aided-translation",
+      "computer-assisted-translation",
+      "language-technology",
+      "language-translation",
+      "machine-translation",
+      "natural-language-processing",
+      "translation-tool"
+    ],
+    "updated_at": "2026-03-06T08:52:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-aided-translation"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-assisted-translation"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-technology"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-translation"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation-tool"
+    }
+  ]
+}

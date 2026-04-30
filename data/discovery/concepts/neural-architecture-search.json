@@ -55,6 +55,18 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate-context",
       "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "Automated Machine Learning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate",
       "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/katib"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

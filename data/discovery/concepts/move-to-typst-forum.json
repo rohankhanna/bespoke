@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Move to Typst Forum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "A new markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate-context",
+      "text": "Move to Typst Forum"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst",
+      "status": "candidate",
+      "text": "Move to Typst Forum"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "proceeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "troll"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Move to Typst Forum",
+  "concept_id": "move-to-typst-forum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/forum.yml",
+      "source_repo": "Myriad-Dreamin/typst"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Move to Typst Forum",
+      "sense_id": "move-to-typst-forum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

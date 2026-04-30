@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/partner-runner-images",
+      "target": "customer-terms/github-online-services-sla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions/partner-runner-images",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:41.507773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "About GitHub Actions runner images provided by 3rd parties",
+    "fork": false,
+    "full_name": "actions/partner-runner-images",
+    "html_url": "https://github.com/actions/partner-runner-images",
+    "language": null,
+    "pushed_at": "2026-04-17T21:29:35Z",
+    "stargazers_count": 229,
+    "topics": [
+      "github-actions"
+    ],
+    "updated_at": "2026-04-29T04:57:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "customer-terms/github-online-services-sla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Table of Contents**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

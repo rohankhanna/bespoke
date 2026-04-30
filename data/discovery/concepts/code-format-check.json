@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code Format Check"
+    "Code Format Check",
+    "Code-Format-Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "deepseek-ai/DeepEP",
       "status": "candidate-context",
       "text": "Code Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagTree",
+      "status": "candidate-context",
+      "text": "FlagTree is a unified compiler supporting multiple AI chip backends for custom Deep Learning operations, which is forked from triton-lang/triton."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagTree",
+      "status": "candidate-context",
+      "text": "Code-Format-Check"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "deepseek-ai/DeepEP",
       "status": "candidate",
       "text": "Code Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagTree",
+      "status": "candidate",
+      "text": "Code-Format-Check"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "deepseek-ai/DeepEP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code-format-check.yml",
+      "source_repo": "flagos-ai/FlagTree"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

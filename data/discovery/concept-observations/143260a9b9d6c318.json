@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049916,
+      "status": "candidate",
+      "text": "hypertext transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044651,
+      "status": "candidate",
+      "text": "www"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969455,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928261,
+      "status": "candidate",
+      "text": "ftp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861873,
+      "status": "candidate",
+      "text": "synchro"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http",
+      "sense_id": "http#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hypertext transfer protocol"
+    }
+  ],
+  "concept_id": "http",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "http",
+  "observation_id": "143260a9b9d6c318",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "http",
+  "source_context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+  "source_file": null,
+  "source_repo": "elixir-mint/mint",
+  "source_repo_description": "Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 \ud83c\udf31"
+}

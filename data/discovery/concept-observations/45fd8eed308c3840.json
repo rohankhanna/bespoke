@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTelemetry Erlang SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Elixir"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Elixir"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001296,
+      "status": "candidate",
+      "text": "panacea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000952,
+      "status": "candidate",
+      "text": "vitriol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000279,
+      "status": "candidate",
+      "text": "cure-all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994794,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973357,
+      "status": "candidate",
+      "text": "paregoric"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Elixir",
+      "sense_id": "elixir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elixir",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elixir",
+  "observation_id": "45fd8eed308c3840",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Elixir",
+  "source_context_snippet": "Elixir",
+  "source_file": ".github/workflows/elixir.yml",
+  "source_repo": "open-telemetry/opentelemetry-erlang",
+  "source_repo_description": "OpenTelemetry Erlang SDK"
+}

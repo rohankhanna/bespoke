@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "buildsville/add-remove-label@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "buildsville/add-remove-label@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "buildsville/add-remove-label@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "buildsville/add-remove-label@v2.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "georgesapkin/hyperstickler@v1-rc.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multi-arch-test-build.yml"
+    },
+    {
+      "component": "openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multi-arch-test-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openwrt/packages",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openwrt/packages",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openwrt/packages",
+      "target": "buildsville/add-remove-label@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "openwrt/packages",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multi-arch-test-build.yml",
+      "source_repo": "openwrt/packages",
+      "target": "georgesapkin/hyperstickler@v1-rc.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multi-arch-test-build.yml",
+      "source_repo": "openwrt/packages",
+      "target": "openwrt/actions-shared-workflows/.github/workflows/multi-arch-test-build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multi-arch-test-build.yml",
+      "source_repo": "openwrt/packages",
+      "target": "Test and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwrt/packages",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:19.880096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 997
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 2387
+    },
+    {
+      "path": ".github/workflows/multi-arch-test-build.yml",
+      "size": 877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
+    "fork": false,
+    "full_name": "openwrt/packages",
+    "html_url": "https://github.com/openwrt/packages",
+    "language": "Makefile",
+    "pushed_at": "2026-04-30T09:38:15Z",
+    "stargazers_count": 4480,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-30T09:37:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Pull Request Labeler'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Test and Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multi-arch-test-build.yml",
+      "term": "Test and Build"
+    },
+    {
+      "context_snippet": "This is the OpenWrt \"packages\"-feed containing community-maintained build scripts, options and patches for applications, modules and libraries used within OpenWrt.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

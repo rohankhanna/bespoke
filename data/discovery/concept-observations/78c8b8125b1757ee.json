@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rdkafka extension stubs for your IDE. Always compatibile with the latest php-rdkafka version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025297,
+      "status": "candidate",
+      "text": "abrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024687,
+      "status": "candidate",
+      "text": "scrape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004235,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994022,
+      "status": "candidate",
+      "text": "skin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872755,
+      "status": "candidate",
+      "text": "counterfoil"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stub",
+      "sense_id": "stub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35059,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20042,
+      "status": "candidate",
+      "text": "abrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17051,
+      "status": "candidate",
+      "text": "scrape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14078,
+      "status": "candidate",
+      "text": "skin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6037,
+      "status": "candidate",
+      "text": "nub"
+    }
+  ],
+  "concept_id": "stub",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stub",
+  "observation_id": "78c8b8125b1757ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "stub",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)",
+  "source_file": null,
+  "source_repo": "kwn/php-rdkafka-stubs",
+  "source_repo_description": "Rdkafka extension stubs for your IDE. Always compatibile with the latest php-rdkafka version."
+}

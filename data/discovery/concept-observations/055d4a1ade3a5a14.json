@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Looking for Contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Looking for Contributors"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "authors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "donor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "peers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "perpetrators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "talmudist"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Looking for Contributors",
+      "sense_id": "looking-for-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "looking-for-contributors",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "looking-for-contributors",
+  "observation_id": "055d4a1ade3a5a14",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Looking for Contributors",
+  "source_context_snippet": "Looking for Contributors",
+  "source_file": ".github/workflows/looking-for-contributors.yml",
+  "source_repo": "wix/Detox",
+  "source_repo_description": "Gray box end-to-end testing and automation framework for mobile apps"
+}

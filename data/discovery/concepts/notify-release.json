@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glassflow/clickhouse-etl",
+      "status": "candidate-context",
+      "text": "GlassFlow OSS: Purpose-built for running any terabyte-scale transformations in Kafka-to-ClickHouse pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glassflow/clickhouse-etl",
+      "status": "candidate-context",
+      "text": "Notify Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glassflow/clickhouse-etl",
+      "status": "candidate",
+      "text": "Notify Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12791,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "acquaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "admonish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "advertise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "advise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify Release",
+  "concept_id": "notify-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/notify.yaml",
+      "source_repo": "glassflow/clickhouse-etl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify Release",
+      "sense_id": "notify-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

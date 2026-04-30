@@ -115,6 +115,30 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate-context",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for SDEdit: Image Synthesis and Editing with Stochastic Differential Equations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ermongroup/SDEdit",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ermongroup/SDEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

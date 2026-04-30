@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browser-fingerprinting",
+      "sense_id": "browser-fingerprinting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browser-fingerprinting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browser-fingerprinting",
+  "observation_id": "acf746cb3e41e00e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "browser-fingerprinting",
+  "source_context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+  "source_file": null,
+  "source_repo": "fingerprintjs/fingerprintjs",
+  "source_repo_description": "The most advanced free and open-source browser fingerprinting library"
+}

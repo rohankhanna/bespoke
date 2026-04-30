@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Firebase Hosting on merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate-context",
+      "text": "\ud83d\udd01 A custom refresh indicator for flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate-context",
+      "text": "Deploy to Firebase Hosting on merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate",
+      "text": "Deploy to Firebase Hosting on merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17755,
+      "status": "candidate",
+      "text": "flagstaff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16842,
+      "status": "candidate",
+      "text": "castle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16842,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16842,
+      "status": "candidate",
+      "text": "internalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16842,
+      "status": "candidate",
+      "text": "socialize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Firebase Hosting on merge",
+  "concept_id": "deploy-to-firebase-hosting-on-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Firebase Hosting on merge",
+      "sense_id": "deploy-to-firebase-hosting-on-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

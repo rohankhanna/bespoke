@@ -55,6 +55,18 @@
       "source_repo": "av/harbor",
       "status": "candidate-context",
       "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "av/harbor",
       "status": "candidate",
       "text": "https://github.com/user-attachments/assets/8a7705e1-6f0e-4374-8784-62b95816aebc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "av/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amd/gaia"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

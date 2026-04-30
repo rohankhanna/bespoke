@@ -431,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:35:52.653192+00:00",
+  "fetched_at": "2026-04-30T07:13:35.910560+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -439,7 +439,7 @@
     },
     {
       "path": "package.json",
-      "size": 4128
+      "size": 4164
     },
     {
       "path": ".github/workflows/beta.yml",
@@ -483,10 +483,10 @@
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T11:12:34Z",
-    "stargazers_count": 146871,
+    "pushed_at": "2026-04-30T07:10:42Z",
+    "stargazers_count": 152194,
     "topics": [],
-    "updated_at": "2026-04-21T11:35:34Z"
+    "updated_at": "2026-04-30T07:12:01Z"
   },
   "repo_links": [],
   "terms": [

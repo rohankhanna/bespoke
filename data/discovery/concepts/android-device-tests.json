@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android Device Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate-context",
+      "text": "Native JVM WebAssembly runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate-context",
+      "text": "Android Device Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/chicory",
+      "status": "candidate",
+      "text": "Android Device Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24678,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23607,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22620,
+      "status": "candidate",
+      "text": "brain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22599,
+      "status": "candidate",
+      "text": "brains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22557,
+      "status": "candidate",
+      "text": "hal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android Device Tests",
+  "concept_id": "android-device-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "dylibso/chicory"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Device Tests",
+      "sense_id": "android-device-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

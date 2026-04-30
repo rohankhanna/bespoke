@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/lectures",
+      "target": "parres/kernels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/lectures",
+      "target": "ist-daslab/quartet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/lectures",
+      "target": "ist-daslab/qutlass",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:54.326085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Material for gpu-mode lectures",
+    "fork": false,
+    "full_name": "gpu-mode/lectures",
+    "html_url": "https://github.com/gpu-mode/lectures",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-22T23:42:05Z",
+    "stargazers_count": 6030,
+    "topics": [],
+    "updated_at": "2026-04-30T06:31:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/quartet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/qutlass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parres/kernels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/moment_detr",
+      "target": "linjieli222/hero_video_feature_extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/moment_detr",
+      "target": "jayleicn/tvretrieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/moment_detr",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/moment_detr",
+      "target": "video-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:05.847327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2021] Moment-DETR code and QVHighlights dataset",
+    "fork": false,
+    "full_name": "jayleicn/moment_detr",
+    "html_url": "https://github.com/jayleicn/moment_detr",
+    "language": "Python",
+    "pushed_at": "2026-03-09T02:52:41Z",
+    "stargazers_count": 341,
+    "topics": [
+      "pytorch",
+      "video-retrieval"
+    ],
+    "updated_at": "2026-04-24T16:37:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvretrieval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linjieli222/hero_video_feature_extractor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://arxiv.org/abs/2107.09609), NeurIPS 2021",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries](https://arxiv.org/abs/2107.09609), NeurIPS 2021",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    }
+  ]
+}

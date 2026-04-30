@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GIF encoder written in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970323,
+      "status": "candidate",
+      "text": "invigoration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969883,
+      "status": "candidate",
+      "text": "vivification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969764,
+      "status": "candidate",
+      "text": "living"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968971,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964909,
+      "status": "candidate",
+      "text": "liveliness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "animation",
+      "sense_id": "animation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 67036,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20060,
+      "status": "candidate",
+      "text": "life"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "aliveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7026,
+      "status": "candidate",
+      "text": "liveliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "invigoration"
+    }
+  ],
+  "concept_id": "animation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "animation",
+  "observation_id": "3c20c31fc7839cf4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "animation",
+  "source_context_snippet": "[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/cgif.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:cgif)",
+  "source_file": null,
+  "source_repo": "dloebl/cgif",
+  "source_repo_description": "GIF encoder written in C"
+}

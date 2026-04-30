@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Test with tune API"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "Automated Machine Learning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "E2E Test with tune API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate",
+      "text": "E2E Test with tune API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "recorded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22490,
+      "status": "candidate",
+      "text": "blight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22490,
+      "status": "candidate",
+      "text": "blighted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22424,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Test with tune API",
+  "concept_id": "e2e-test-with-tune-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/e2e-test-tune-api.yaml",
+      "source_repo": "kubeflow/katib"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Test with tune API",
+      "sense_id": "e2e-test-with-tune-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

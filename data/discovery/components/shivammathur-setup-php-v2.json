@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@v2",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "myclabs/DeepCopy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/periodic.yml",
+      "source_repo": "lindera/lindera"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "lindera/lindera"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lindera/lindera"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-bigtable-proxy.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-storage-emulator.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-bigtable.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-datastore.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-firestore.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-pubsub.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-spanner.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-recent-versions.yml",
+      "source_repo": "mlocati/pecl-info"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-all.yml",
+      "source_repo": "mlocati/pecl-info"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "php-memcached-dev/php-memcached"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box"
     }
   ]
 }

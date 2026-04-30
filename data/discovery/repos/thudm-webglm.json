@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/WebGLM",
+      "target": "thudm/chatglm2-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/WebGLM",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/WebGLM",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/WebGLM",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/WebGLM",
+      "target": "rlhf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/WebGLM",
+      "target": "webglm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:16.952379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10114
+    },
+    {
+      "path": "requirements.txt",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebGLM: An Efficient Web-enhanced Question Answering System (KDD 2023)",
+    "fork": false,
+    "full_name": "THUDM/WebGLM",
+    "html_url": "https://github.com/THUDM/WebGLM",
+    "language": "Python",
+    "pushed_at": "2025-03-25T03:31:42Z",
+    "stargazers_count": 1603,
+    "topics": [
+      "chatgpt",
+      "llm",
+      "rlhf",
+      "webglm"
+    ],
+    "updated_at": "2026-04-28T21:54:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm2-6b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    },
+    {
+      "context_snippet": "<h1>WebGLM: Towards An Efficient Web-enhanced Question Answering System with Human Preferences</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webglm"
+    }
+  ]
+}

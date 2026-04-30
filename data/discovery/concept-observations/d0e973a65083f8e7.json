@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write JS code that runs in a different context. E.g. use the DOM in a Web Worker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027433,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025679,
+      "status": "candidate",
+      "text": "proletarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024720,
+      "status": "candidate",
+      "text": "prole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020950,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "accidents"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "workers",
+      "sense_id": "workers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "workers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "workers",
+  "observation_id": "d0e973a65083f8e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "workers",
+  "source_context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+  "source_file": null,
+  "source_repo": "AshleyScirra/via.js",
+  "source_repo_description": "Write JS code that runs in a different context. E.g. use the DOM in a Web Worker."
+}

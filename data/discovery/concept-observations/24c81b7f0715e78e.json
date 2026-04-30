@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Broadway producer for Amazon SQS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39740960,
+      "status": "candidate",
+      "text": "virago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847481,
+      "status": "candidate",
+      "text": "amazon river"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847480,
+      "status": "candidate",
+      "text": "amazonian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29664825,
+      "status": "candidate",
+      "text": "amazonia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29647216,
+      "status": "candidate",
+      "text": "amazonas"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "amazon",
+      "sense_id": "amazon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "virago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "amazon river"
+    }
+  ],
+  "concept_id": "amazon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "amazon",
+  "observation_id": "24c81b7f0715e78e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "amazon",
+  "source_context_snippet": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway).",
+  "source_file": null,
+  "source_repo": "dashbitco/broadway_sqs",
+  "source_repo_description": "A Broadway producer for Amazon SQS"
+}

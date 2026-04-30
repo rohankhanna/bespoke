@@ -79,6 +79,18 @@
       "source_repo": "danielgtaylor/openapi-cli-generator",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 implementation for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "<!-- Badges: status -->"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "danielgtaylor/openapi-cli-generator",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "<!-- Badges: status -->"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

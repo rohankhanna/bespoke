@@ -19,12 +19,30 @@
       "source_repo": "All-Hands-AI/OpenHands-Cloud",
       "status": "candidate-context",
       "text": "Publish Helm Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Distributed AI Model Training and LLM Fine-Tuning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Publish Helm Charts"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate",
+      "text": "Publish Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
       "status": "candidate",
       "text": "Publish Helm Charts"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish-helm-charts.yml",
       "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-helm-charts.yaml",
+      "source_repo": "kubeflow/trainer"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

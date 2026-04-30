@@ -283,6 +283,42 @@
       "source_repo": "rust-lang/log",
       "status": "candidate-context",
       "text": "log"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "Node.js client integration between Stackdriver Logging and Winston."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Python API and SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/logr",
+      "status": "candidate-context",
+      "text": "A simple logging interface for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/logr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/logr.svg)](https://pkg.go.dev/github.com/go-logr/logr)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +459,24 @@
       "source_repo": "rust-lang/log",
       "status": "candidate",
       "text": "log"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel/python-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01PD4HUVBL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/logr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/logr.svg)](https://pkg.go.dev/github.com/go-logr/logr)"
     }
   ],
   "candidate_related_terms": [
@@ -610,11 +664,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rust-lang/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-logging-winston"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-logr/logr"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoblack.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoblack.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "sphinx-notes/pages@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfoster0/CLAP",
+      "target": "nz99/self-attention-experiments-vision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfoster0/CLAP",
+      "target": "micpie/clasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoblack.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoblack.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoblack.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "autoblack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "sphinx-notes/pages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "cfoster0/CLAP",
+      "target": "Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:18:25.836776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1412
+    },
+    {
+      "path": ".github/workflows/autoblack.yml",
+      "size": 1164
+    },
+    {
+      "path": ".github/workflows/sphinx.yml",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Contrastive Language-Audio Pretraining",
+    "fork": false,
+    "full_name": "cfoster0/CLAP",
+    "html_url": "https://github.com/cfoster0/CLAP",
+    "language": "Python",
+    "pushed_at": "2022-03-06T20:24:10Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2026-03-23T20:36:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micpie/clasp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nz99/self-attention-experiments-vision",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "autoblack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoblack.yml",
+      "term": "autoblack"
+    },
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "term": "Pages"
+    }
+  ]
+}

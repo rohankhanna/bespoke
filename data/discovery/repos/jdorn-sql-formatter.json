@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:10:59.624845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting.",
+    "fork": false,
+    "full_name": "jdorn/sql-formatter",
+    "html_url": "https://github.com/jdorn/sql-formatter",
+    "language": "HTML",
+    "pushed_at": "2023-05-26T00:23:48Z",
+    "stargazers_count": 3858,
+    "topics": [],
+    "updated_at": "2026-04-28T03:56:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

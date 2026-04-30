@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ronghanghu/cc_torch",
+      "target": "zsef123/connected_components_pytorch.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:18.365216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ronghanghu/cc_torch",
+    "description": null,
+    "fork": false,
+    "full_name": "ronghanghu/cc_torch",
+    "html_url": "https://github.com/ronghanghu/cc_torch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-29T21:38:26Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-19T16:54:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsef123/connected_components_pytorch.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

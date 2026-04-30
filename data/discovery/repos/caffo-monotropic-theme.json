@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caffo/monotropic-theme",
+      "target": "maio/eink-emacs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:06.544412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(Almost) monochromatic theme for emacs.",
+    "fork": false,
+    "full_name": "caffo/monotropic-theme",
+    "html_url": "https://github.com/caffo/monotropic-theme",
+    "language": "Emacs Lisp",
+    "pushed_at": "2021-11-16T13:28:56Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-04-20T01:14:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maio/eink-emacs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

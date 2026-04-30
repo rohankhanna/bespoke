@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002574,
+      "status": "candidate",
+      "text": "topic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000950,
+      "status": "candidate",
+      "text": "root word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993458,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993317,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989009,
+      "status": "candidate",
+      "text": "composition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "theme",
+      "sense_id": "theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45069,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42061,
+      "status": "candidate",
+      "text": "radical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39052,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35066,
+      "status": "candidate",
+      "text": "composition"
+    }
+  ],
+  "concept_id": "theme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "theme",
+  "observation_id": "00ae21de704f36a2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "theme",
+  "source_context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+  "source_file": null,
+  "source_repo": "StartBootstrap/startbootstrap-freelancer",
+  "source_repo_description": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+}

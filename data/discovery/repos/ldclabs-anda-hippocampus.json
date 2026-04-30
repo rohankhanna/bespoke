@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "Dockers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "agent-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "cognitive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda-hippocampus",
+      "target": "persistent-memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:24.056921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27822
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1847
+    },
+    {
+      "path": ".github/workflows/build-dockers.yml",
+      "size": 796
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4827
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udde0 A native graph-based memory system for autonomous AI agents, featuring bio-inspired sleep-based memory consolidation and powered by KIP & AndaDB.",
+    "fork": false,
+    "full_name": "ldclabs/anda-hippocampus",
+    "html_url": "https://github.com/ldclabs/anda-hippocampus",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T01:44:36Z",
+    "stargazers_count": 43,
+    "topics": [
+      "agent-memory",
+      "cognitive",
+      "kip",
+      "knowledge-graph",
+      "persistent-memory"
+    ],
+    "updated_at": "2026-04-30T00:37:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dockers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockers.yml",
+      "term": "Dockers"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-memory"
+    },
+    {
+      "context_snippet": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cognitive"
+    },
+    {
+      "context_snippet": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "> Burn electricity to train large models, and you get a neural network ontology; burn tokens to train a memory graph, and you get a symbolic network ontology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "persistent-memory"
+    }
+  ]
+}

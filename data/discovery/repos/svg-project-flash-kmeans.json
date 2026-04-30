@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "svg-project/flash-kmeans",
+      "target": "demoriarty/fast_pytorch_kmeans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "svg-project/flash-kmeans",
+      "target": "answerdotai/fastkmeans",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:12.690252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4901
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and memory-efficient exact kmeans",
+    "fork": false,
+    "full_name": "svg-project/flash-kmeans",
+    "html_url": "https://github.com/svg-project/flash-kmeans",
+    "language": "Python",
+    "pushed_at": "2026-04-30T06:48:21Z",
+    "stargazers_count": 554,
+    "topics": [],
+    "updated_at": "2026-04-30T09:49:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "answerdotai/fastkmeans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "demoriarty/fast_pytorch_kmeans",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

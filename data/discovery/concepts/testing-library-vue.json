@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "testing-library-vue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "Explore the charm of Vue composition API! Vite?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate-context",
+      "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutoe/vue3-realworld-example-app",
+      "status": "candidate",
+      "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "testing-library-vue",
+  "concept_id": "testing-library-vue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mutoe/vue3-realworld-example-app"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "testing-library-vue",
+      "sense_id": "testing-library-vue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

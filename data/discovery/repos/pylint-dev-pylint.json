@@ -235,14 +235,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.rst",
       "source_repo": "pylint-dev/pylint",
-      "target": "cnescatlab/pylint-sonarjson-catlab",
+      "target": "facebook/pyre-check",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.rst",
       "source_repo": "pylint-dev/pylint",
-      "target": "danielnoord/pydocstringformatter",
+      "target": "myint/autoflake",
       "target_type": "repository"
     },
     {
@@ -561,7 +561,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:43:58.005161+00:00",
+  "fetched_at": "2026-04-30T09:12:46.908032+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -639,12 +639,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cnescatlab/pylint-sonarjson-catlab",
+      "full_name": "facebook/pyre-check",
       "source_file": "README.rst"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielnoord/pydocstringformatter",
+      "full_name": "myint/autoflake",
       "source_file": "README.rst"
     }
   ],

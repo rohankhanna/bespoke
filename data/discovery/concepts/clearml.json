@@ -19,6 +19,30 @@
       "source_repo": "clearml/clearml",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "ClearML - Model-Serving Orchestration and Repository Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-session",
+      "status": "candidate-context",
+      "text": "ClearML Remote - CLI for launching JupyterLab / VSCode on a remote machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-session",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "clearml/clearml",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-session",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-serving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-session"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

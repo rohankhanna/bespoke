@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "web-api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "A project for supporting API Endpoints in ASP.NET Core web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate",
+      "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "web-api",
+  "concept_id": "web-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "web-api",
+      "sense_id": "web-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

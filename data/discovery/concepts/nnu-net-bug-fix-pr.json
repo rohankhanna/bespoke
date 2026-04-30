@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "nnU-Net Bug Fix PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "status": "candidate-context",
+      "text": "nnU-Net Bug Fix PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "status": "candidate",
+      "text": "nnU-Net Bug Fix PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19178,
+      "status": "candidate",
+      "text": "misprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18907,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18822,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18822,
+      "status": "candidate",
+      "text": "impregnate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18822,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nnU-Net Bug Fix PR",
+  "concept_id": "nnu-net-bug-fix-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "source_repo": "MIC-DKFZ/nnUNet"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nnU-Net Bug Fix PR",
+      "sense_id": "nnu-net-bug-fix-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

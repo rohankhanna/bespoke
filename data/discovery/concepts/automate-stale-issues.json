@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automate stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "Automate stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "Automate stale issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "choke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "crate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "essex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "lemon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "scar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automate stale issues",
+  "concept_id": "automate-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/automate-stale-issues.yml",
+      "source_repo": "dagster-io/dagster"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automate stale issues",
+      "sense_id": "automate-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:07:15.956119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "kornia/kornia-examples",
+    "html_url": "https://github.com/kornia/kornia-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-08T14:36:26Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-03-05T23:54:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

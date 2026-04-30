@@ -1,0 +1,12 @@
+{
+  "component": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml@v5",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "spring-projects/spring-ai"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/setup-gradle@v5",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codegen-ci.yml",
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smithy-lang/smithy-typescript"
     }
   ]
 }

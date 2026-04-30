@@ -1,0 +1,12 @@
+{
+  "component": "sigstore/sigstore-conformance@4d66ba3cb0c9c95f705c757c0f5e226d3f4d5151",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "sigstore/sigstore-python"
+    }
+  ]
+}

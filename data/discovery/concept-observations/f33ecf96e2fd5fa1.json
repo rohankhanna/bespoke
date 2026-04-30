@@ -84,7 +84,7 @@
   "normalized_form": "docker-validation-nightly",
   "observation_id": "f33ecf96e2fd5fa1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "docker-validation Nightly",
   "source_context_snippet": "docker-validation Nightly",
   "source_file": ".github/workflows/docker-validation-nightly.yml",

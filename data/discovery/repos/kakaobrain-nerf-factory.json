@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/nerf-factory",
+      "target": "postech-cvlab/nerf-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/nerf-factory",
+      "target": "kai-46/nerfplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/nerf-factory",
+      "target": "google/mipnerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/nerf-factory",
+      "target": "google-research/multinerf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:22.674009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6239
+    },
+    {
+      "path": "requirements.txt",
+      "size": 194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An awesome PyTorch NeRF library",
+    "fork": false,
+    "full_name": "kakaobrain/nerf-factory",
+    "html_url": "https://github.com/kakaobrain/nerf-factory",
+    "language": "Python",
+    "pushed_at": "2024-07-23T07:09:27Z",
+    "stargazers_count": 1275,
+    "topics": [],
+    "updated_at": "2026-04-18T15:08:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/multinerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/mipnerf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kai-46/nerfplusplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postech-cvlab/nerf-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

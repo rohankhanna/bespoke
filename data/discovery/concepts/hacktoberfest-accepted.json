@@ -19,6 +19,30 @@
       "source_repo": "butlerx/wetty",
       "status": "candidate-context",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate-context",
+      "text": "pythainlp-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate-context",
+      "text": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "butlerx/wetty",
       "status": "candidate",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate",
+      "text": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

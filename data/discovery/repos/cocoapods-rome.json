@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "dynamic-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "rome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:11.828008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Makes it easy to build a list of frameworks.",
+    "fork": false,
+    "full_name": "CocoaPods/Rome",
+    "html_url": "https://github.com/CocoaPods/Rome",
+    "language": "Ruby",
+    "pushed_at": "2025-07-28T13:28:57Z",
+    "stargazers_count": 695,
+    "topics": [
+      "cocoapods",
+      "dependency-manager",
+      "dynamic-framework",
+      "objective-c",
+      "rome",
+      "swift"
+    ],
+    "updated_at": "2026-04-04T18:24:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-framework"
+    },
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rome"
+    },
+    {
+      "context_snippet": "![](yolo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

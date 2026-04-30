@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:10:59.492019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 195
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "googleapis/synthtool",
+    "html_url": "https://github.com/googleapis/synthtool",
+    "language": "Python",
+    "pushed_at": "2026-04-21T22:55:41Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-21T09:40:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

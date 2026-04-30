@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "target": "gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "target": "personal-website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "target": "webpage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:18:28.059261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal webpage",
+    "fork": false,
+    "full_name": "v-iashin/v-iashin.github.io",
+    "html_url": "https://github.com/v-iashin/v-iashin.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-04-25T13:52:44Z",
+    "stargazers_count": 5,
+    "topics": [
+      "gh-pages",
+      "personal-website",
+      "webpage"
+    ],
+    "updated_at": "2026-04-25T13:52:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the source code for my personal page `v-iashin.github.io`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gh-pages"
+    },
+    {
+      "context_snippet": "This repository contains the source code for my personal page `v-iashin.github.io`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-website"
+    },
+    {
+      "context_snippet": "This repository contains the source code for my personal page `v-iashin.github.io`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpage"
+    }
+  ]
+}

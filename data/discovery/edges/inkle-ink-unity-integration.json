@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "hecomi/create-upm-branch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "Update-UPM-Branch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "inkle/ink-unity-integration"
+}

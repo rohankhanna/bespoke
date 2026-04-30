@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Links in Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Links in Documentation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18585,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "consult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "endgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "guard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Links in Documentation",
+      "sense_id": "check-links-in-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-links-in-documentation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-links-in-documentation",
+  "observation_id": "81711aee7940c1fc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Check Links in Documentation",
+  "source_context_snippet": "Check Links in Documentation",
+  "source_file": ".github/workflows/docs-linkcheck.yml",
+  "source_repo": "python-telegram-bot/python-telegram-bot",
+  "source_repo_description": "We have made you a wrapper you can't refuse"
+}

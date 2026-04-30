@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high performance implementation of the Ruby programming language, built on GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "docker-stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "docker-stable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-stable",
+      "sense_id": "docker-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-stable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-stable",
+  "observation_id": "2bcbb2710e301d12",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "docker-stable",
+  "source_context_snippet": "docker-stable",
+  "source_file": ".github/workflows/docker-stable.yml",
+  "source_repo": "truffleruby/truffleruby",
+  "source_repo_description": "A high performance implementation of the Ruby programming language, built on GraalVM."
+}

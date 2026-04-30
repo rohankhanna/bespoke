@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "autoblack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cfoster0/CLAP",
+      "status": "candidate-context",
+      "text": "Contrastive Language-Audio Pretraining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfoster0/CLAP",
+      "status": "candidate-context",
+      "text": "autoblack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfoster0/CLAP",
+      "status": "candidate",
+      "text": "autoblack"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "autoblack",
+  "concept_id": "autoblack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/autoblack.yml",
+      "source_repo": "cfoster0/CLAP"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "autoblack",
+      "sense_id": "autoblack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

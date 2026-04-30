@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googlecloudplatform/gcloud-golang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googleapis/nodejs-bigtable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googlecloudplatform/dotnet-docs-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googleapis/google-cloud-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples"
+}

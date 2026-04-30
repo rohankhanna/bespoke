@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "htqin/awesome-model-quantization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "hyperspectral-image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "hyperspectral-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "snapshot-compressive-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "spectral-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "caiyuanhao1998/BiSCI"
+}

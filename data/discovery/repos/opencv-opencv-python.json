@@ -1,0 +1,502 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencv/opencv-python",
+      "target": "lucasg/dependencies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencv/opencv-python",
+      "target": "skvark/opencv-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "macOS ARM64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "Manylinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "opencv/opencv-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "manylinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "opencv-contrib-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "opencv-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "precompiled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python",
+      "target": "wheel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:55.883122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17912
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/build_wheels_macos.yml",
+      "size": 8737
+    },
+    {
+      "path": ".github/workflows/build_wheels_macos_m1.yml",
+      "size": 8103
+    },
+    {
+      "path": ".github/workflows/build_wheels_manylinux.yml",
+      "size": 10811
+    },
+    {
+      "path": ".github/workflows/build_wheels_windows.yml",
+      "size": 8244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "4.x",
+    "description": "Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless packages.",
+    "fork": false,
+    "full_name": "opencv/opencv-python",
+    "html_url": "https://github.com/opencv/opencv-python",
+    "language": "Python",
+    "pushed_at": "2026-02-03T07:13:13Z",
+    "stargazers_count": 5249,
+    "topics": [
+      "manylinux",
+      "opencv",
+      "opencv-contrib-python",
+      "opencv-python",
+      "precompiled",
+      "pypi",
+      "python",
+      "python-3",
+      "wheel"
+    ],
+    "updated_at": "2026-04-29T13:26:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasg/dependencies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skvark/opencv-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "macOS ARM64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "term": "macOS ARM64"
+    },
+    {
+      "context_snippet": "Manylinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_manylinux.yml",
+      "term": "Manylinux"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manylinux"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv-contrib-python"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv-python"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "precompiled"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wheel"
+    }
+  ]
+}

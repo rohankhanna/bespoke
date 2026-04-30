@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and accurate AI powered file content types detection "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update the trampoline release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update the trampoline release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23179,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22860,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22838,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18882,
+      "status": "candidate",
+      "text": "anvil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18849,
+      "status": "candidate",
+      "text": "bomb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update the trampoline release",
+      "sense_id": "update-the-trampoline-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-the-trampoline-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-the-trampoline-release",
+  "observation_id": "c7eb86962f883f4c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Update the trampoline release",
+  "source_context_snippet": "Update the trampoline release",
+  "source_file": ".github/workflows/cli-latest.yml",
+  "source_repo": "google/magika",
+  "source_repo_description": "Fast and accurate AI powered file content types detection "
+}

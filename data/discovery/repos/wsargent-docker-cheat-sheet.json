@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "docker/docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "docker/distribution",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "docker/docker.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "docker/docker-bench-security",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "cheet-sheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wsargent/docker-cheat-sheet",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:07.118715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker Cheat Sheet",
+    "fork": false,
+    "full_name": "wsargent/docker-cheat-sheet",
+    "html_url": "https://github.com/wsargent/docker-cheat-sheet",
+    "language": null,
+    "pushed_at": "2024-12-31T03:00:47Z",
+    "stargazers_count": 22511,
+    "topics": [
+      "cheet-sheet",
+      "docker"
+    ],
+    "updated_at": "2026-04-29T22:46:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/distribution",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker-bench-security",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Want to improve this cheat sheet? See the [Contributing](#contributing) section!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cheet-sheet"
+    },
+    {
+      "context_snippet": "**Want to improve this cheat sheet? See the [Contributing](#contributing) section!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

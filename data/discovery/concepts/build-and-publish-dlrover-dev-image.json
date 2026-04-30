@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build and publish dlrover dev image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "DLRover: An Automatic Distributed Deep Learning System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "build and publish dlrover dev image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate",
+      "text": "build and publish dlrover dev image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17711,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17542,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17414,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17276,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17276,
+      "status": "candidate",
+      "text": "printed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build and publish dlrover dev image",
+  "concept_id": "build-and-publish-dlrover-dev-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/image_dlrover_dev.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build and publish dlrover dev image",
+      "sense_id": "build-and-publish-dlrover-dev-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

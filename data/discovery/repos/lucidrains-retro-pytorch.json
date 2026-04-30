@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:00:50.600856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13806
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch",
+    "fork": false,
+    "full_name": "lucidrains/RETRO-pytorch",
+    "html_url": "https://github.com/lucidrains/RETRO-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-10-30T17:10:58Z",
+    "stargazers_count": 880,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "retrieval",
+      "transformers"
+    ],
+    "updated_at": "2026-04-22T12:16:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./RETRO.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./RETRO.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "<img src=\"./RETRO.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./RETRO.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval"
+    },
+    {
+      "context_snippet": "<img src=\"./RETRO.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

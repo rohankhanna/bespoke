@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulkan-go/vulkan",
+      "target": "vulkan-go/demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulkan-go/vulkan",
+      "target": "vulkan-go/asche",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulkan-go/vulkan",
+      "target": "khronosgroup/vulkan-validationlayers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulkan-go/vulkan",
+      "target": "lunarg/vulkantools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "android-ndk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "golang-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vulkan-go/vulkan",
+      "target": "vulkan-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:38.856153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10338
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vulkan API bindings for Go programming language",
+    "fork": false,
+    "full_name": "vulkan-go/vulkan",
+    "html_url": "https://github.com/vulkan-go/vulkan",
+    "language": "C",
+    "pushed_at": "2023-08-05T21:12:55Z",
+    "stargazers_count": 801,
+    "topics": [
+      "android-ndk",
+      "framework",
+      "golang",
+      "golang-bindings",
+      "graphics",
+      "vulkan",
+      "vulkan-api"
+    ],
+    "updated_at": "2026-03-25T13:26:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vulkan-validationlayers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lunarg/vulkantools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vulkan-go/asche",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vulkan-go/demos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-ndk"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-bindings"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<img src=\"https://cl.ly/2H2E3c0T1X16/Vulkan_500px_Mar15.png\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    }
+  ]
+}

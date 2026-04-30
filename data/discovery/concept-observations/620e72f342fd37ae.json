@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zig-library",
+      "sense_id": "zig-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zig-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zig-library",
+  "observation_id": "620e72f342fd37ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "zig-library",
+  "source_context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+  "source_file": null,
+  "source_repo": "EzequielRamis/zimdjson",
+  "source_repo_description": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features."
+}

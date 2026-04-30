@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051321,
+      "status": "candidate",
+      "text": "nosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10010948,
+      "status": "candidate",
+      "text": "bite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9845487,
+      "status": "candidate",
+      "text": "collation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "appetizers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "biscuits"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snacks",
+      "sense_id": "snacks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snacks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snacks",
+  "observation_id": "65e16b1151557e16",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "snacks",
+  "source_context_snippet": "<div align = \"center\">",
+  "source_file": null,
+  "source_repo": "2KAbhishek/pickme.nvim",
+  "source_repo_description": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51"
+}

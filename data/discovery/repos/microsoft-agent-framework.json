@@ -1,0 +1,667 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "danielpalme/ReportGenerator-GitHub-Action@5.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml"
+    },
+    {
+      "component": "jitterbit/get-changed-files@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "azure/login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "DevFlow PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/setup-dotnet@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "danielpalme/ReportGenerator-GitHub-Action@5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "dotnet-build-and-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "jitterbit/get-changed-files@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "dotnet-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/setup-dotnet@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "dotnet-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/setup-dotnet@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "dotnet-verify-samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-manual.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "Integration Tests (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "azure/login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/agent-framework",
+      "target": "Label issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "agent-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:41.115071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11183
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2971
+    },
+    {
+      "path": ".github/workflows/devflow-pr-review.yml",
+      "size": 5659
+    },
+    {
+      "path": ".github/workflows/dotnet-build-and-test.yml",
+      "size": 14140
+    },
+    {
+      "path": ".github/workflows/dotnet-format.yml",
+      "size": 3713
+    },
+    {
+      "path": ".github/workflows/dotnet-integration-tests.yml",
+      "size": 4337
+    },
+    {
+      "path": ".github/workflows/dotnet-verify-samples.yml",
+      "size": 4283
+    },
+    {
+      "path": ".github/workflows/integration-tests-manual.yml",
+      "size": 4739
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 7370
+    },
+    {
+      "path": ".github/workflows/label-issues.yml",
+      "size": 4548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+    "fork": false,
+    "full_name": "microsoft/agent-framework",
+    "html_url": "https://github.com/microsoft/agent-framework",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:36:32Z",
+    "stargazers_count": 9974,
+    "topics": [
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "dotnet",
+      "multi-agent",
+      "orchestration",
+      "python",
+      "sdk",
+      "workflows"
+    ],
+    "updated_at": "2026-04-30T08:11:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "DevFlow PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devflow-pr-review.yml",
+      "term": "DevFlow PR Review"
+    },
+    {
+      "context_snippet": "dotnet-build-and-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build-and-test.yml",
+      "term": "dotnet-build-and-test"
+    },
+    {
+      "context_snippet": "dotnet-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-format.yml",
+      "term": "dotnet-format"
+    },
+    {
+      "context_snippet": "dotnet-integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-integration-tests.yml",
+      "term": "dotnet-integration-tests"
+    },
+    {
+      "context_snippet": "dotnet-verify-samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-verify-samples.yml",
+      "term": "dotnet-verify-samples"
+    },
+    {
+      "context_snippet": "Integration Tests (Manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests-manual.yml",
+      "term": "Integration Tests (Manual)"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    },
+    {
+      "context_snippet": "Label issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issues.yml",
+      "term": "Label issues"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-framework"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "![Microsoft Agent Framework](docs/assets/readme-banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

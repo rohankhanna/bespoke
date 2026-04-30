@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:02.362318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 772
+    },
+    {
+      "path": "requirements.txt",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "SHI-Labs/Text2Video-Zero-sd-webui",
+    "html_url": "https://github.com/SHI-Labs/Text2Video-Zero-sd-webui",
+    "language": "Python",
+    "pushed_at": "2023-04-10T20:45:14Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2025-11-19T11:32:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

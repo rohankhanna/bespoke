@@ -55,6 +55,30 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "A collection of Rust programs for personal use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexandresanlim/Badges4-README.md-Profile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

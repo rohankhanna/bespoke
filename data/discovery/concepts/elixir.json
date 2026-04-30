@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "elixir"
+    "elixir",
+    "Elixir"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -367,6 +370,198 @@
       "source_repo": "CuatroElixir/spear",
       "status": "candidate-context",
       "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phoenixframework/phoenix",
+      "status": "candidate-context",
+      "text": "Peace of mind from prototype to production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phoenixframework/phoenix",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd6  A tutorial showing how to return different content for the same route based on accepts header. Build a Web App and JSON API!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 A detailed example for how to encrypt data in an Elixir (Phoenix v1.7) App before inserting into a database using Ecto Types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "beam-telemetry/telemetry",
+      "status": "candidate-context",
+      "text": "Dynamic dispatching library for metrics and instrumentations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry",
+      "status": "candidate-context",
+      "text": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "Concurrent and multi-stage data ingestion and data processing with Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate-context",
+      "text": "An Elixir implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate-context",
+      "text": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-mint/mint",
+      "status": "candidate-context",
+      "text": "Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-mint/mint",
+      "status": "candidate-context",
+      "text": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac  a curated list of quotes that inspire action + code that returns quotes by tag/author/etc. \ud83d\udca1 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Erlang SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate-context",
+      "text": "Elixir"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Erlang & Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate-context",
+      "text": "Elixir"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate-context",
+      "text": "Protobuf code generation as a mix task"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/drowzy/protobuf_generate/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate-context",
+      "text": "A pure Elixir implementation of Google Protobuf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sneako/finch",
+      "status": "candidate-context",
+      "text": "Elixir HTTP client, focused on performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sneako/finch",
+      "status": "candidate-context",
+      "text": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +744,102 @@
       "source_repo": "CuatroElixir/spear",
       "status": "candidate",
       "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phoenixframework/phoenix",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "beam-telemetry/telemetry",
+      "status": "candidate",
+      "text": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate",
+      "text": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-mint/mint",
+      "status": "candidate",
+      "text": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate",
+      "text": "[![Elixir CI](https://github.com/brainlid/langchain/actions/workflows/elixir.yml/badge.svg)](https://github.com/brainlid/langchain/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang",
+      "status": "candidate",
+      "text": "Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib",
+      "status": "candidate",
+      "text": "Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate",
+      "text": "![CI](https://github.com/drowzy/protobuf_generate/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sneako/finch",
+      "status": "candidate",
+      "text": "<img alt=\"Finch\" height=\"350px\" src=\"assets/Finch_logo_onWhite.png#gh-light-mode-only\">"
     }
   ],
   "candidate_related_terms": [
@@ -790,11 +1081,125 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phoenixframework/phoenix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "msz/hammox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brainlid/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "open-telemetry/opentelemetry-erlang-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "drowzy/protobuf_generate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sneako/finch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

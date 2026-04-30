@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICML2025, NeurIPS2025 Spotlight] Sparse VideoGen 1 & 2: Accelerating Video Diffusion Transformers with Sparse Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\" id=\"sglangtop\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"sglangtop\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse-attention",
+      "sense_id": "sparse-attention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sparse-attention",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparse-attention",
+  "observation_id": "7430cba41efba21d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sparse-attention",
+  "source_context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+  "source_file": null,
+  "source_repo": "svg-project/Sparse-VideoGen",
+  "source_repo_description": "[ICML2025, NeurIPS2025 Spotlight] Sparse VideoGen 1 & 2: Accelerating Video Diffusion Transformers with Sparse Attention"
+}

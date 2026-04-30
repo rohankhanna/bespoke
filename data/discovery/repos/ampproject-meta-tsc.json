@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:20:34.208233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The AMP Technical Steering Committee",
+    "fork": false,
+    "full_name": "ampproject/meta-tsc",
+    "html_url": "https://github.com/ampproject/meta-tsc",
+    "language": null,
+    "pushed_at": "2023-12-15T14:31:53Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-03-27T15:00:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

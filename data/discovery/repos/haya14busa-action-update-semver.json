@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actionutils/trusted-tag-verifier@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actionutils/trusted-tag-releaser/.github/workflows/release-preview-comment.yml@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actionutils/trusted-tag-releaser/.github/workflows/release-check.yml@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actionutils/trusted-tag-releaser/.github/workflows/trusted-release-workflow.yml@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "haya14busa/action-cond@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-shellcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-misspell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actionutils/trusted-tag-verifier@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actionutils/trusted-tag-releaser/.github/workflows/release-preview-comment.yml@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actionutils/trusted-tag-releaser/.github/workflows/release-check.yml@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actionutils/trusted-tag-releaser/.github/workflows/trusted-release-workflow.yml@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "haya14busa/action-cond@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "reviewdog/action-shellcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "reviewdog/action-misspell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver",
+      "target": "reviewdog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:28.544419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2072
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2746
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Updates major/minor release tags on a tag push",
+    "fork": false,
+    "full_name": "haya14busa/action-update-semver",
+    "html_url": "https://github.com/haya14busa/action-update-semver",
+    "language": "Shell",
+    "pushed_at": "2025-09-14T03:16:36Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-30T19:16:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "reviewdog"
+    }
+  ]
+}

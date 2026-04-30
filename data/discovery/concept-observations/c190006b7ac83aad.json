@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "COLMAP - Structure-from-Motion and Multi-View Stereo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "COLMAP (Windows)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "COLMAP (Windows)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "COLMAP (Windows)",
+      "sense_id": "colmap-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "colmap-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "colmap-windows",
+  "observation_id": "c190006b7ac83aad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "COLMAP (Windows)",
+  "source_context_snippet": "COLMAP (Windows)",
+  "source_file": ".github/workflows/build-windows.yml",
+  "source_repo": "colmap/colmap",
+  "source_repo_description": "COLMAP - Structure-from-Motion and Multi-View Stereo"
+}

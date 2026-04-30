@@ -262,6 +262,18 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "nREPL support for ClojureScript REPLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +402,12 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
     }
   ],
   "candidate_related_terms": [
@@ -559,11 +577,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

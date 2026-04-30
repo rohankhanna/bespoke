@@ -55,6 +55,54 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "Intel staging area for llvm.org contribution. Home for Intel LLVM-based projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate-context",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "oneAPI Specification source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llvm",
+      "status": "candidate",
+      "text": "This is the Intel staging area for llvm.org contributions and the home for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate",
+      "text": "[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE.txt) [![oneTBB CI](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml/badge.svg)](https://github.com/uxlfoundation/oneTBB/actions/workflows/ci.yml?query=branch%3Amast\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +190,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intel/llvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy PR previews"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy PR previews"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "cinema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11171,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9786,
+      "status": "candidate",
+      "text": "introductions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9786,
+      "status": "candidate",
+      "text": "reports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9786,
+      "status": "candidate",
+      "text": "shows"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy PR previews",
+      "sense_id": "deploy-pr-previews#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-pr-previews",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-pr-previews",
+  "observation_id": "4d2366d40f6ab012",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Deploy PR previews",
+  "source_context_snippet": "Deploy PR previews",
+  "source_file": ".github/workflows/pr-preview.yml",
+  "source_repo": "Roshanjossey/code-contributions",
+  "source_repo_description": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+}

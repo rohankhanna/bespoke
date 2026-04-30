@@ -53,20 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/lang",
-      "target": "googlefonts/gftools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/lang",
-      "target": "googlefonts/shaperglot",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "googlefonts/lang",
@@ -144,7 +130,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:43:48.663849+00:00",
+  "fetched_at": "2026-04-30T08:16:31.405409+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -181,18 +167,7 @@
     "topics": [],
     "updated_at": "2026-02-25T11:34:17Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/gftools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/shaperglot",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Create and Publish Release",

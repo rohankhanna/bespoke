@@ -1,0 +1,17 @@
+{
+  "component": "azure/CLI@v3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
+    }
+  ]
+}

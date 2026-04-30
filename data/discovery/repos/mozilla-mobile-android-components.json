@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "mozilla-mobile/relbot@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml"
+    },
+    {
+      "component": "gabrielluong/issue-linker@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-linker.yml"
+    },
+    {
+      "component": "gabrielluong/milestone@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "mozilla-mobile/ac-version-for-fenix-beta@1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml"
+    },
+    {
+      "component": "mozilla-mobile/sync-strings-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml"
+    },
+    {
+      "component": "mozilla-mobile/relbot@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-geckoview.yml"
+    },
+    {
+      "component": "mozilla-mobile/relbot@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-geckoview.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla/application-services",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "square/okhttp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla-mobile/relbot@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Glean probe-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "gabrielluong/issue-linker@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Issue Linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "gabrielluong/milestone@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Tag Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla-mobile/ac-version-for-fenix-beta@1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla-mobile/sync-strings-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Sync Strings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-geckoview.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla-mobile/relbot@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-geckoview.yml",
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "Update GeckoView",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/android-components",
+      "target": "mozilla",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:15.305086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19166
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/glean-probe-scraper.yml",
+      "size": 195
+    },
+    {
+      "path": ".github/workflows/issue-linker.yml",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/milestone.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/sync-strings.yml",
+      "size": 1521
+    },
+    {
+      "path": ".github/workflows/update-geckoview.yml",
+      "size": 1516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\u26a0\ufe0f This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android",
+    "fork": false,
+    "full_name": "mozilla-mobile/android-components",
+    "html_url": "https://github.com/mozilla-mobile/android-components",
+    "language": "Kotlin",
+    "pushed_at": "2022-10-31T22:11:33Z",
+    "stargazers_count": 1997,
+    "topics": [
+      "android",
+      "browser",
+      "components",
+      "kotlin",
+      "mozilla"
+    ],
+    "updated_at": "2026-04-22T18:09:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/application-services",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "square/okhttp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Create Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Glean probe-scraper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "term": "Glean probe-scraper"
+    },
+    {
+      "context_snippet": "Issue Linker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "term": "Issue Linker"
+    },
+    {
+      "context_snippet": "Tag Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "term": "Tag Milestone"
+    },
+    {
+      "context_snippet": "\"Sync Strings\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-strings.yml",
+      "term": "Sync Strings"
+    },
+    {
+      "context_snippet": "\"Update GeckoView\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-geckoview.yml",
+      "term": "Update GeckoView"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "components"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-mobile/android-components/main/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mozilla"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "File format for 3D Gaussian splats. About 10x smaller than the PLY equivalent with virtually no perceptible loss in visual quality. Offered as open source by Niantic Labs. More details at https://scaniverse.com/spz #3dgaussiansplats #gaussiansplatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936248,
+      "status": "candidate",
+      "text": "splash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29926168,
+      "status": "candidate",
+      "text": "cooling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923271,
+      "status": "candidate",
+      "text": "crush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981520,
+      "status": "candidate",
+      "text": "slatback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981519,
+      "status": "candidate",
+      "text": "spelk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "splat",
+      "sense_id": "splat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "splat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "splat",
+  "observation_id": "c8503feecc473af1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "splat",
+  "source_context_snippet": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library",
+  "source_file": null,
+  "source_repo": "nianticlabs/spz",
+  "source_repo_description": "File format for 3D Gaussian splats. About 10x smaller than the PLY equivalent with virtually no perceptible loss in visual quality. Offered as open source by Niantic Labs. More details at https://scaniverse.com/spz #3dgaussiansplats #gaussiansplatting"
+}

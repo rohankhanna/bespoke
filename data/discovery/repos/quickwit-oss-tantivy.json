@@ -101,6 +101,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "quickwit-oss/tantivy",
+      "target": "quickwit-oss/quickwit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quickwit-oss/tantivy",
+      "target": "quickwit-oss/search-benchmark-game",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quickwit-oss/tantivy",
       "target": "lindera-morphology/lindera-tantivy",
       "target_type": "repository"
     },
@@ -108,21 +122,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "quickwit-oss/tantivy",
-      "target": "lindera-morphology/lindera-ko-dic-builder",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "baygeldin/tantiny",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "lnx-search/lnx",
+      "target": "matrix-org/seshat",
       "target_type": "repository"
     },
     {
@@ -273,7 +273,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:53:47.211764+00:00",
+  "fetched_at": "2026-04-30T07:11:35.570339+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,24 +310,14 @@
     "html_url": "https://github.com/quickwit-oss/tantivy",
     "language": "Rust",
     "pushed_at": "2026-04-29T20:04:40Z",
-    "stargazers_count": 15100,
+    "stargazers_count": 15107,
     "topics": [
       "rust",
       "search-engine"
     ],
-    "updated_at": "2026-04-29T19:41:28Z"
+    "updated_at": "2026-04-30T05:43:41Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "baygeldin/tantiny",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lindera-morphology/lindera-ko-dic-builder",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lindera-morphology/lindera-tantivy",
@@ -335,7 +325,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lnx-search/lnx",
+      "full_name": "matrix-org/seshat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quickwit-oss/quickwit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quickwit-oss/search-benchmark-game",
       "source_file": "README.md"
     }
   ],

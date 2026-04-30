@@ -84,7 +84,7 @@
   "normalized_form": "close-inactive-issues-and-pull-requests",
   "observation_id": "c59749994476cb4a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Close inactive issues and pull requests",
   "source_context_snippet": "Close inactive issues and pull requests",
   "source_file": ".github/workflows/stale.yml",

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "flavorjones/ruby-c-extensions-explained",
       "status": "candidate-context",
       "text": "precompiled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencv/opencv-python",
+      "status": "candidate-context",
+      "text": "Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv-python",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "flavorjones/ruby-c-extensions-explained",
       "status": "candidate",
       "text": "precompiled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv-python",
+      "status": "candidate",
+      "text": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/precompiled.yml",
       "source_repo": "flavorjones/ruby-c-extensions-explained"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

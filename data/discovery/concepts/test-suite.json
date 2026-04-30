@@ -186,6 +186,42 @@
       "source_repo": "bcrypt-ruby/bcrypt-ruby",
       "status": "candidate-context",
       "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "What if you never had to write CSS again?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate-context",
+      "text": "Google Auth Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "The Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
     }
   ],
   "candidate_glosses": [
@@ -278,6 +314,24 @@
       "source_repo": "bcrypt-ruby/bcrypt-ruby",
       "status": "candidate",
       "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -411,11 +465,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "bcrypt-ruby/bcrypt-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mdgriffith/elm-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ruby/spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "redis-developer/redis-product-search"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

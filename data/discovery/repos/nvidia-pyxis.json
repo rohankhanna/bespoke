@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/pyxis",
+      "target": "schedmd/slurm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "NVIDIA/pyxis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "NVIDIA/pyxis",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:13.031764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7764
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 1226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Container plugin for Slurm Workload Manager",
+    "fork": false,
+    "full_name": "NVIDIA/pyxis",
+    "html_url": "https://github.com/NVIDIA/pyxis",
+    "language": "C",
+    "pushed_at": "2026-04-29T05:54:39Z",
+    "stargazers_count": 431,
+    "topics": [],
+    "updated_at": "2026-04-29T08:21:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schedmd/slurm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    }
+  ]
+}

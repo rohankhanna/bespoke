@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\u4ee5\u53ca\u4eba\u8138\u8d28\u91cf\u8bc4\u4ef7\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\uff0c\u5f7b\u5e95\u6446\u8131\u5bf9\u4efb\u4f55\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\u7684\u4f9d\u8d56\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opencv-dnn",
+      "sense_id": "opencv-dnn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opencv-dnn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opencv-dnn",
+  "observation_id": "ea2a5f9ce2b13b75",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "opencv-dnn",
+  "source_context_snippet": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002",
+  "source_file": null,
+  "source_repo": "hpc203/yolov8-face-landmarks-opencv-dnn",
+  "source_repo_description": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\u4ee5\u53ca\u4eba\u8138\u8d28\u91cf\u8bc4\u4ef7\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\uff0c\u5f7b\u5e95\u6446\u8131\u5bf9\u4efb\u4f55\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\u7684\u4f9d\u8d56\u3002"
+}

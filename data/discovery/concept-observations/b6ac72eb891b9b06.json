@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flexible authentication solution for Rails with Warden."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006215,
+      "status": "candidate",
+      "text": "invent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005134,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998338,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997950,
+      "status": "candidate",
+      "text": "organize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997318,
+      "status": "candidate",
+      "text": "excogitate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devise",
+      "sense_id": "devise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40035,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20051,
+      "status": "candidate",
+      "text": "forge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "formulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15038,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11043,
+      "status": "candidate",
+      "text": "organize"
+    }
+  ],
+  "concept_id": "devise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "devise",
+  "observation_id": "b6ac72eb891b9b06",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "devise",
+  "source_context_snippet": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)",
+  "source_file": null,
+  "source_repo": "heartcombo/devise",
+  "source_repo_description": "Flexible authentication solution for Rails with Warden."
+}

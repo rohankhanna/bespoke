@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
-      "target": "microsoft/admin-torch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
       "target": "liyuanlucasliu/transforemr-clinic",
       "target_type": "repository"
     },
@@ -30,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:51:20.372964+00:00",
+  "fetched_at": "2026-04-30T08:17:27.988149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -60,11 +53,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "liyuanlucasliu/transforemr-clinic",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/admin-torch",
       "source_file": "README.md"
     }
   ],

@@ -1035,6 +1035,138 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "All-in-One Backend as a Service with Headless CMS Power"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "\ud83d\udd8c\ufe0f Renders highlighted Prism output to React (+ theming & vendored Prism)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate-context",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate-context",
+      "text": "A flexible playground for live editing React components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "React-based framework with performance, scalability, and security built in."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "Storybook builder and frameworks powered by Rsbuild."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1553,6 +1685,72 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastschema/fastschema",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/prism-react-renderer",
+      "status": "candidate",
+      "text": "<a href=\"https://commerce.nearform.com/open-source/\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gatsbyjs/gatsby",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/dejavu",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/appbaseio/dejavu/dev/LICENSE.md) ![React Version](https://img.shields.io/badge/react-v16.6-brightgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate",
+      "text": "![Latest Release](https://img.shields.io/github/v/release/spacemeshos/smapp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate",
+      "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2289,11 +2487,125 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastschema/fastschema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FormidableLabs/prism-react-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FormidableLabs/react-live"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gatsbyjs/gatsby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/dejavu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smapp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/storybook-rsbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "marmelab/react-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vincentbernat/vbeterm",
+      "target": "gnome/vte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vincentbernat/vbeterm",
+      "target": "pyr/sterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "vincentbernat/vbeterm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vincentbernat/vbeterm",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vincentbernat/vbeterm",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:06.964989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2415
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Custom terminal based on VTE",
+    "fork": false,
+    "full_name": "vincentbernat/vbeterm",
+    "html_url": "https://github.com/vincentbernat/vbeterm",
+    "language": "C",
+    "pushed_at": "2026-02-18T19:41:32Z",
+    "stargazers_count": 23,
+    "topics": [
+      "terminal",
+      "terminal-emulators",
+      "vte"
+    ],
+    "updated_at": "2026-02-18T19:41:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnome/vte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyr/sterm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vbeterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "vbeterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    }
+  ]
+}

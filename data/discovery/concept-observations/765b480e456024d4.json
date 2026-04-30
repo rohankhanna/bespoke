@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Human Image Gender Classifier for Expressive Body Capture"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749946,
+      "status": "candidate",
+      "text": "human being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39746836,
+      "status": "candidate",
+      "text": "hominid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39745999,
+      "status": "candidate",
+      "text": "hominine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39669977,
+      "status": "candidate",
+      "text": "anthropoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39662175,
+      "status": "candidate",
+      "text": "anthropomorphic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human",
+      "sense_id": "human#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37037,
+      "status": "candidate",
+      "text": "frail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33052,
+      "status": "candidate",
+      "text": "soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "weak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25042,
+      "status": "candidate",
+      "text": "individual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "fallible"
+    }
+  ],
+  "concept_id": "human",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "human",
+  "observation_id": "765b480e456024d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "human",
+  "source_context_snippet": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")",
+  "source_file": null,
+  "source_repo": "nghorbani/homogenus",
+  "source_repo_description": "Human Image Gender Classifier for Expressive Body Capture"
+}

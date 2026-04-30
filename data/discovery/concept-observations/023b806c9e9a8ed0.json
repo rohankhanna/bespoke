@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040073,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038412,
+      "status": "candidate",
+      "text": "constrict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036636,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978655,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962850,
+      "status": "candidate",
+      "text": "contract"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compress",
+      "sense_id": "compress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12035,
+      "status": "candidate",
+      "text": "constrict"
+    }
+  ],
+  "concept_id": "compress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compress",
+  "observation_id": "023b806c9e9a8ed0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "compress",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026",
+  "source_file": null,
+  "source_repo": "j9t/compressorjs-next",
+  "source_repo_description": "JavaScript image compressor and converter"
+}

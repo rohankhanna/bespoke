@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test action inputs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for running cargo-semver-checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate-context",
+      "text": "Test action inputs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate",
+      "text": "Test action inputs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "trial balloon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24664,
+      "status": "candidate",
+      "text": "input"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test action inputs",
+  "concept_id": "test-action-inputs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-inputs.yml",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test action inputs",
+      "sense_id": "test-action-inputs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

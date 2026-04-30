@@ -13,12 +13,48 @@
       "source_repo": "k2-fsa/icefall",
       "status": "candidate-context",
       "text": "Generate doc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "FSA/FST algorithms, differentiable, with PyTorch compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "Generate doc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "Speech-to-text server framework with next-gen Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "Generate doc"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "k2-fsa/icefall",
+      "status": "candidate",
+      "text": "Generate doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate",
+      "text": "Generate doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
       "status": "candidate",
       "text": "Generate doc"
     }
@@ -70,11 +106,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-doc.yml",
       "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/k2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/sherpa"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

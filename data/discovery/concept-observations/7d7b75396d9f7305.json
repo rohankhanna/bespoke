@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "seize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11072,
+      "status": "candidate",
+      "text": "arsenal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11072,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11072,
+      "status": "candidate",
+      "text": "cached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11072,
+      "status": "candidate",
+      "text": "depot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build cache",
+      "sense_id": "build-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-cache",
+  "observation_id": "7d7b75396d9f7305",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build cache",
+  "source_context_snippet": "Build cache",
+  "source_file": ".github/workflows/cache.yml",
+  "source_repo": "jhipster/generator-jhipster",
+  "source_repo_description": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+}

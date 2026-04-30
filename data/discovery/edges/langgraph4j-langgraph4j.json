@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "bhavuklabs/research4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "azure-samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "bsorrentino/java-async-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "breezeware-os/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "gitleaks/gitleaks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Baseline CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy Project Site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy Site to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy New SNAPSHOT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy New Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "langchain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "langgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "spring-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "langgraph4j/langgraph4j"
+}

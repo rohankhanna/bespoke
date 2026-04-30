@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "mupdf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarking PDF libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate-context",
+      "text": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate",
+      "text": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pymupdf/PyMuPDF",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "openpdf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tcpdf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "evince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "pdf.js"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "apache pdfbox"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mupdf",
+  "concept_id": "mupdf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pymupdf/PyMuPDF"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mupdf",
+      "sense_id": "mupdf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

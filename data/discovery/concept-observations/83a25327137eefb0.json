@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Revert contributors.js changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Revert contributors.js changes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "backslide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "downgrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "downgraded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "downgrading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11775,
+      "status": "candidate",
+      "text": "reaction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Revert contributors.js changes",
+      "sense_id": "revert-contributors.js-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "revert-contributors.js-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "revert-contributors.js-changes",
+  "observation_id": "83a25327137eefb0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Revert contributors.js changes",
+  "source_context_snippet": "Revert contributors.js changes",
+  "source_file": ".github/workflows/revert-contributors-change.yml",
+  "source_repo": "Roshanjossey/code-contributions",
+  "source_repo_description": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+}

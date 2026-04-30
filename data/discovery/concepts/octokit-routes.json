@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "octokit-routes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swinton/github-rest-apis-for-insomnia",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaf A complete set of GitHub REST API route specifications that can be imported straight into Insomnia REST Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swinton/github-rest-apis-for-insomnia",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">:100:<tt>github-rest-apis-for-insomnia</tt></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swinton/github-rest-apis-for-insomnia",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">:100:<tt>github-rest-apis-for-insomnia</tt></h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "octokit-routes",
+  "concept_id": "octokit-routes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swinton/github-rest-apis-for-insomnia"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "octokit-routes",
+      "sense_id": "octokit-routes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

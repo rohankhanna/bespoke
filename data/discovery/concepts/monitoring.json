@@ -451,6 +451,30 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate-context",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istio/proxy",
+      "status": "candidate-context",
+      "text": "The Istio proxy components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/proxy",
+      "status": "candidate-context",
+      "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +699,18 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/proxy",
+      "status": "candidate",
+      "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
     }
   ],
   "candidate_related_terms": [
@@ -976,11 +1012,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "istio/proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

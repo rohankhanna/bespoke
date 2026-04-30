@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300a\u5927\u6a21\u578b\u767d\u76d2\u5b50\u6784\u5efa\u6307\u5357\u300b\uff1a\u4e00\u4e2a\u5168\u624b\u6413\u7684Tiny-Universe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evaluation-metrics",
+      "sense_id": "evaluation-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "evaluation-metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluation-metrics",
+  "observation_id": "c33210fee3886c1d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "evaluation-metrics",
+  "source_context_snippet": "<div align=center>",
+  "source_file": null,
+  "source_repo": "datawhalechina/tiny-universe",
+  "source_repo_description": "\u300a\u5927\u6a21\u578b\u767d\u76d2\u5b50\u6784\u5efa\u6307\u5357\u300b\uff1a\u4e00\u4e2a\u5168\u624b\u6413\u7684Tiny-Universe"
+}

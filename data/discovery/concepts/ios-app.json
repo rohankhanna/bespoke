@@ -19,6 +19,18 @@
       "source_repo": "ChatGPTNextWeb/NextChat-iOS",
       "status": "candidate-context",
       "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate-context",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ChatGPTNextWeb/NextChat-iOS",
       "status": "candidate",
       "text": "> [ \ud83d\udc49 Click Here Install Now](https://apps.apple.com/us/app/nextchat-ai/id6743085599)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "status": "candidate",
+      "text": "Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat-iOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

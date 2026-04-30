@@ -81,13 +81,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lindera/lindera-tantivy",
-      "target": "lindera/lindera",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lindera/lindera-tantivy",
       "target": "tantivy-search/tantivy",
       "target_type": "repository"
     },
@@ -183,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:48:46.972705+00:00",
+  "fetched_at": "2026-04-30T10:24:33.101393+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,11 +218,6 @@
     "updated_at": "2026-04-12T13:52:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lindera/lindera",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tantivy-search/tantivy",

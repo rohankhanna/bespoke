@@ -184,6 +184,24 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate-context",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +294,18 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
     }
   ],
   "candidate_related_terms": [
@@ -445,11 +475,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mariolukas/HydraPlay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/generator-jhipster"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

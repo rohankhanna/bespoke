@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/youngs-cql",
+      "target": "aviralkumar2907/cql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/youngs-cql",
+      "target": "sfujim/td3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/youngs-cql",
+      "target": "vitchyr/rlkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/youngs-cql",
+      "target": "rll/rllab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:18.302066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "antmaze-replication",
+    "description": "Conservative Q Learning on top of SAC",
+    "fork": false,
+    "full_name": "scottemmons/youngs-cql",
+    "html_url": "https://github.com/scottemmons/youngs-cql",
+    "language": "Python",
+    "pushed_at": "2021-12-10T04:16:42Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-04-15T10:33:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aviralkumar2907/cql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rll/rllab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfujim/td3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitchyr/rlkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

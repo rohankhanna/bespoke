@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "intelligent-machine-learning/dlrover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "customizable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-model-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-task-fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "multi-task-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder",
+      "target": "user-friendly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:46.337171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17248
+    },
+    {
+      "path": "requirements.txt",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High Accuracy and efficiency multi-task fine-tuning framework for Code LLMs. This work has been accepted by KDD 2024.",
+    "fork": false,
+    "full_name": "codefuse-ai/MFTCoder",
+    "html_url": "https://github.com/codefuse-ai/MFTCoder",
+    "language": "Python",
+    "pushed_at": "2024-12-30T06:01:59Z",
+    "stargazers_count": 716,
+    "topics": [
+      "customizable",
+      "multi-model-support",
+      "multi-task-fine-tuning",
+      "multi-task-learning",
+      "user-friendly"
+    ],
+    "updated_at": "2026-04-24T09:30:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelligent-machine-learning/dlrover",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "customizable"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-model-support"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-fine-tuning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-friendly"
+    }
+  ]
+}

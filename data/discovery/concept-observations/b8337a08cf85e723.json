@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source repo for Docker's Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Documentation Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Documentation Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18929,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18507,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18507,
+      "status": "candidate",
+      "text": "lectern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18478,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18450,
+      "status": "candidate",
+      "text": "papers"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Documentation Scan",
+      "sense_id": "nightly-documentation-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-documentation-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-documentation-scan",
+  "observation_id": "b8337a08cf85e723",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Nightly Documentation Scan",
+  "source_context_snippet": "Nightly Documentation Scan",
+  "source_file": ".github/workflows/nightly-docs-scan.yml",
+  "source_repo": "docker/docs",
+  "source_repo_description": "Source repo for Docker's Documentation"
+}

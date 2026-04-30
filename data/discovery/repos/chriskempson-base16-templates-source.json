@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates-source",
+      "target": "adilosa/base16-jetbrains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates-source",
+      "target": "atelierbram/base16-prism",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates-source",
+      "target": "afq984/base16-xfce4-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-templates-source",
+      "target": "base16-project/base16-xresources",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:24.665696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A common list of templates for base16-builders",
+    "fork": false,
+    "full_name": "chriskempson/base16-templates-source",
+    "html_url": "https://github.com/chriskempson/base16-templates-source",
+    "language": null,
+    "pushed_at": "2024-08-17T19:33:22Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-03T14:47:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adilosa/base16-jetbrains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afq984/base16-xfce4-terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atelierbram/base16-prism",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base16-project/base16-xresources",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

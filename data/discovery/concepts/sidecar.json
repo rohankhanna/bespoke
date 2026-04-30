@@ -19,6 +19,18 @@
       "source_repo": "mosn/mosn",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "istio/proxy",
+      "status": "candidate-context",
+      "text": "The Istio proxy components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/proxy",
+      "status": "candidate-context",
+      "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mosn/mosn",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "istio/proxy",
+      "status": "candidate",
+      "text": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mosn/mosn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "istio/proxy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

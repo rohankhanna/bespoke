@@ -19,6 +19,18 @@
       "source_repo": "sindresorhus/hyper-snazzy",
       "status": "candidate-context",
       "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate-context",
+      "text": "Base16 for kermit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate-context",
+      "text": "**Deprecated**: tinted-kermit and all the other Tinted Theming"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sindresorhus/hyper-snazzy",
       "status": "candidate",
       "text": "hyper-snazzy \u2014 Elegant Hyper theme with bright colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate",
+      "text": "**Deprecated**: tinted-kermit and all the other Tinted Theming"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/hyper-snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "Archive Issues and Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "Update Editor's Copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "Publish New Draft Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "Update Generated Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "anonymized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-protocol",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "DNSCrypt/dnscrypt-protocol"
+}

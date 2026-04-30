@@ -1,0 +1,12 @@
+{
+  "component": "mmkal/runovate@eeeb766a1e77a21c12080c13716cde85b48ec9c6",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "mmkal/expect-type"
+    }
+  ]
+}

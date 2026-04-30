@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "bcoe/conventional-release-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yaml"
+    },
+    {
+      "component": "TigreGotico/gh-automations/.github/workflows/publish-stable.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "fadenb/matrix-chat-message@v0.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "hexgrad/misaki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "dmort27/epitran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "de-mh/persian_phonemizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "chorusai/arpa2ipa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "bcoe/conventional-release-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "conventional-release-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "TigreGotico/gh-automations/.github/workflows/publish-stable.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "Stable Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "fadenb/matrix-chat-message@v0.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "Release Alpha and Propose Stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "Run Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "phonetics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx",
+      "target": "tigregotico",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:49.729301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15673
+    },
+    {
+      "path": ".github/workflows/conventional-label.yaml",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/publish_stable.yml",
+      "size": 1715
+    },
+    {
+      "path": ".github/workflows/release_workflow.yml",
+      "size": 3412
+    },
+    {
+      "path": ".github/workflows/unit_tests.yml",
+      "size": 1175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "A Python library for multilingual phonemization and Text-to-Speech (TTS) using ONNX models.",
+    "fork": false,
+    "full_name": "TigreGotico/phoonnx",
+    "html_url": "https://github.com/TigreGotico/phoonnx",
+    "language": "Python",
+    "pushed_at": "2026-04-27T23:18:48Z",
+    "stargazers_count": 22,
+    "topics": [
+      "hacktoberfest",
+      "library",
+      "onnx",
+      "phonetics",
+      "text-to-speech",
+      "tigregotico"
+    ],
+    "updated_at": "2026-04-09T14:16:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chorusai/arpa2ipa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "de-mh/persian_phonemizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmort27/epitran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hexgrad/misaki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "conventional-release-labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "term": "conventional-release-labels"
+    },
+    {
+      "context_snippet": "Stable Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "term": "Stable Release"
+    },
+    {
+      "context_snippet": "Release Alpha and Propose Stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "term": "Release Alpha and Propose Stable"
+    },
+    {
+      "context_snippet": "Run Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "term": "Run Unit Tests"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonetics"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tigregotico"
+    }
+  ]
+}

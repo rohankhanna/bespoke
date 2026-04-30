@@ -45,14 +45,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vim-airline/vim-airline",
-      "target": "airblade/vim-gitgutter",
+      "target": "chrisbra/csv.vim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vim-airline/vim-airline",
-      "target": "autozimu/languageclient-neovim",
+      "target": "cdelledonne/vim-cmake",
       "target_type": "repository"
     },
     {
@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:43:09.384274+00:00",
+  "fetched_at": "2026-04-30T09:08:40.538212+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,8 +143,8 @@
     "full_name": "vim-airline/vim-airline",
     "html_url": "https://github.com/vim-airline/vim-airline",
     "language": "Vim Script",
-    "pushed_at": "2026-04-22T20:42:40Z",
-    "stargazers_count": 17947,
+    "pushed_at": "2026-04-27T17:09:10Z",
+    "stargazers_count": 17952,
     "topics": [
       "statusline",
       "tabline",
@@ -152,19 +152,9 @@
       "vim-airline",
       "vim-plugin"
     ],
-    "updated_at": "2026-04-22T23:32:18Z"
+    "updated_at": "2026-04-30T02:45:45Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "airblade/vim-gitgutter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "autozimu/languageclient-neovim",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "bling/minivimrc",
@@ -173,6 +163,16 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bling/vim-bufferline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdelledonne/vim-cmake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisbra/csv.vim",
       "source_file": "README.md"
     }
   ],

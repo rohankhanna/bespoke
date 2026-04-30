@@ -19,6 +19,30 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate-context",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate-context",
+      "text": "[BMVC 2020 Oral] Bipartite Graph Reasoning GANs for Person Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/BiGraphGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/BiGraphGAN"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

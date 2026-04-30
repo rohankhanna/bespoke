@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "detailed"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "\u2581\u2585\u2586\u2583\u2585 Git quick statistics is a simple and efficient way to access various statistics in git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate-context",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "status": "candidate",
+      "text": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037997,
+      "status": "candidate",
+      "text": "careful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034970,
+      "status": "candidate",
+      "text": "elaborated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034646,
+      "status": "candidate",
+      "text": "elaborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042142,
+      "status": "candidate",
+      "text": "thorough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041893,
+      "status": "candidate",
+      "text": "meticulous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20036,
+      "status": "candidate",
+      "text": "elaborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "careful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8020,
+      "status": "candidate",
+      "text": "elaborated"
+    }
+  ],
+  "canonical_name": "detailed",
+  "concept_id": "detailed",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "detailed",
+      "sense_id": "detailed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

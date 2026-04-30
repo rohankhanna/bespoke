@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Web Service Discovery host daemon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3",
+      "sense_id": "python3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python3",
+  "observation_id": "1f928582f2b66fbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "python3",
+  "source_context_snippet": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)",
+  "source_file": null,
+  "source_repo": "christgau/wsdd",
+  "source_repo_description": "A Web Service Discovery host daemon."
+}

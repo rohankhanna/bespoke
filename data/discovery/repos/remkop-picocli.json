@@ -1,0 +1,614 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action/composite@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "emibcn/badge-action@808173dd03e2f30c980d03ee49e181626088eee8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "emibcn/badge-action@808173dd03e2f30c980d03ee49e181626088eee8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "andymckay/append-gist-action@ab30bf28df67017c7ad696500b218558c7c04db3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@a34ca99b4610d924e04c68db79e503e1f79f9f02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "remkop/picocli",
+      "target": "classgraph/classgraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "remkop/picocli",
+      "target": "intuit/karate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "remkop/picocli",
+      "target": "apache/ignite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "remkop/picocli",
+      "target": "apache/sling-org-apache-sling-feature-modelconverter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "EnricoMi/publish-unit-test-result-action/composite@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "emibcn/badge-action@808173dd03e2f30c980d03ee49e181626088eee8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "andymckay/append-gist-action@ab30bf28df67017c7ad696500b218558c7c04db3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "remkop/picocli",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "github/codeql-action/init@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "github/codeql-action/autobuild@a34ca99b4610d924e04c68db79e503e1f79f9f02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "github/codeql-action/analyze@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "github/codeql-action/upload-sarif@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "remkop/picocli",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "ansi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "ansi-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "argument-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "bash-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "cli-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "command-line-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "executable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "native-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "options-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "remkop/picocli",
+      "target": "subcommands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:13.061668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41023
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6017
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3143
+    },
+    {
+      "path": ".github/workflows/scorecards-analysis.yml",
+      "size": 2280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. ",
+    "fork": false,
+    "full_name": "remkop/picocli",
+    "html_url": "https://github.com/remkop/picocli",
+    "language": "Java",
+    "pushed_at": "2025-10-30T11:04:09Z",
+    "stargazers_count": 5365,
+    "topics": [
+      "annotations",
+      "ansi",
+      "ansi-colors",
+      "argument-parsing",
+      "autocomplete",
+      "bash-completion",
+      "cli",
+      "cli-framework",
+      "command-line",
+      "command-line-parser",
+      "commandline",
+      "completion",
+      "executable",
+      "git",
+      "graalvm",
+      "java",
+      "native-image",
+      "options-parsing",
+      "parser",
+      "subcommands"
+    ],
+    "updated_at": "2026-04-30T05:21:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/ignite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/sling-org-apache-sling-feature-modelconverter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "classgraph/classgraph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intuit/karate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotations"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-colors"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parsing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-completion"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "executable"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options-parsing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subcommands"
+    }
+  ]
+}

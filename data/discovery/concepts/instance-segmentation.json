@@ -127,6 +127,18 @@
       "source_repo": "CVHub520/X-AnyLabeling",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "A Simple, Lightweight, and Extensible Serving Framework for X-AnyLabeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CVHub520/X-AnyLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling-Server"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

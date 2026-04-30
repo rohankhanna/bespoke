@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "extism/java-sdk",
+      "target": "extism/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "extism/java-sdk",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/java-sdk",
+      "target": "extism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/java-sdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/java-sdk",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/java-sdk",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/java-sdk",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:33.373595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8283
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extism Java Host SDK enables Java programs to embed and run WebAssembly plugins.",
+    "fork": false,
+    "full_name": "extism/java-sdk",
+    "html_url": "https://github.com/extism/java-sdk",
+    "language": "Java",
+    "pushed_at": "2025-06-26T07:22:43Z",
+    "stargazers_count": 44,
+    "topics": [
+      "extism",
+      "java",
+      "jvm",
+      "plugins",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-03T15:35:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extism/plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extism"
+    },
+    {
+      "context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins"
+    },
+    {
+      "context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

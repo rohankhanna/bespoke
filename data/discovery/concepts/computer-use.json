@@ -55,6 +55,18 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/midscene"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/scout",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/scout",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/scout",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/scout",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:50.503617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10861
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1319
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1172
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2311
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Source Company Brain",
+    "fork": false,
+    "full_name": "agno-agi/scout",
+    "html_url": "https://github.com/agno-agi/scout",
+    "language": "Python",
+    "pushed_at": "2026-04-29T09:23:32Z",
+    "stargazers_count": 427,
+    "topics": [],
+    "updated_at": "2026-04-30T06:27:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    }
+  ]
+}

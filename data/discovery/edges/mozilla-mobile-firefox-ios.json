@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "mozilla-mobile/fxios-ctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "@mozilla/readability",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "darkreader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "dompurify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "page-metadata-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "babel-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "script-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kingfisher-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kingfisher-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kingfisher-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kingfisher-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "slackapi/slack-github-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-component-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-component-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-component-dependency.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contribution-guardrails.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Contribution Guardrails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-autofill-playwrite-tests.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-autofill-playwrite-tests.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-autofill-playwrite-tests.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "slackapi/slack-github-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firefox-ios-autofill-playwrite-tests.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Build and Run Autofill Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firefox-ios-build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Build contributor PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-import-strings.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-import-strings.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-import-strings.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firefox-ios-import-strings.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Firefox: import translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Firefox: reference string linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-publish-docc.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-publish-docc.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-publish-docc.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firefox-ios-publish-docc.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firefox-ios-publish-docc.yml",
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "Build and publish ComponentLibrary DocC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "ios-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "mozilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/firefox-ios",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "mozilla-mobile/firefox-ios"
+}

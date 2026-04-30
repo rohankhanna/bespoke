@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dfinity/setup-dfx@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dfinity/setup-dfx@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "ldclabs/ic-tee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "Crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "dfinity/setup-dfx@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "dfinity/setup-dfx@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/ic-cose",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-cose",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-cose",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/ic-cose",
+      "target": "cose",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:27.725426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3479
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1299
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer.",
+    "fork": false,
+    "full_name": "ldclabs/ic-cose",
+    "html_url": "https://github.com/ldclabs/ic-cose",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T00:26:42Z",
+    "stargazers_count": 8,
+    "topics": [
+      "cbor",
+      "config",
+      "cose",
+      "icp"
+    ],
+    "updated_at": "2026-04-30T00:26:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldclabs/ic-tee",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "term": "Crates"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "\u2699\ufe0f A decentralized COnfiguration service with Signing and Encryption on the Internet Computer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cose"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml"
+    },
+    {
+      "component": "dotnet/actions-create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "microsoft/vsdocs.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "microsoftdocs/cpp-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "dotnet/actions-create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "clean repo - images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:03.248001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1813
+    },
+    {
+      "path": ".github/workflows/add-awp-metadata.yml",
+      "size": 11712
+    },
+    {
+      "path": ".github/workflows/clean-repo.yml",
+      "size": 1226
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo is the home of the official  documentation for Visual Studio.",
+    "fork": false,
+    "full_name": "MicrosoftDocs/visualstudio-docs",
+    "html_url": "https://github.com/MicrosoftDocs/visualstudio-docs",
+    "language": "Python",
+    "pushed_at": "2026-04-29T22:08:50Z",
+    "stargazers_count": 1152,
+    "topics": [],
+    "updated_at": "2026-04-29T22:08:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vsdocs.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftdocs/cpp-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"clean repo - images\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-repo.yml",
+      "term": "clean repo - images"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

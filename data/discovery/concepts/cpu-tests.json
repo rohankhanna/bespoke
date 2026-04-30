@@ -56,6 +56,18 @@
       "source_repo": "MoonshotAI/checkpoint-engine",
       "status": "candidate-context",
       "text": "CPU Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "\"CPU Tests\""
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "MoonshotAI/checkpoint-engine",
       "status": "candidate",
       "text": "CPU Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "\"CPU Tests\""
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cpu-tests.yml",
       "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pretest.yaml",
+      "source_repo": "oumi-ai/oumi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

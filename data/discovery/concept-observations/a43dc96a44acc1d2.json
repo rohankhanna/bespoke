@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scoop bucket for installing fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999968,
+      "status": "candidate",
+      "text": "government issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983607,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983179,
+      "status": "candidate",
+      "text": "issuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982901,
+      "status": "candidate",
+      "text": "payoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980441,
+      "status": "candidate",
+      "text": "supply"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue",
+      "sense_id": "issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72086,
+      "status": "candidate",
+      "text": "yield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45069,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37039,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32046,
+      "status": "candidate",
+      "text": "egress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31064,
+      "status": "candidate",
+      "text": "effect"
+    }
+  ],
+  "concept_id": "issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue",
+  "observation_id": "a43dc96a44acc1d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Issue",
+  "source_context_snippet": "Issue",
+  "source_file": ".github/workflows/issues.yml",
+  "source_repo": "KnotUntied/scoop-fonts",
+  "source_repo_description": "Scoop bucket for installing fonts"
+}

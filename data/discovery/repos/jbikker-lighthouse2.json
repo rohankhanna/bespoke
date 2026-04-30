@@ -1,0 +1,309 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbikker/lighthouse2",
+      "target": "syoyo/tinyobjloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbikker/lighthouse2",
+      "target": "leethomason/tinyxml2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "cuda-opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "glfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "gltf-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "optix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "path-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "raytracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "rendering-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "rendersystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2",
+      "target": "svgf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:54.142680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lighthouse 2 framework for real-time ray tracing",
+    "fork": false,
+    "full_name": "jbikker/lighthouse2",
+    "html_url": "https://github.com/jbikker/lighthouse2",
+    "language": "C++",
+    "pushed_at": "2024-04-26T02:58:20Z",
+    "stargazers_count": 868,
+    "topics": [
+      "cuda",
+      "cuda-opengl",
+      "denoising",
+      "game-engine",
+      "gamedev",
+      "glfw",
+      "gltf",
+      "gltf-viewer",
+      "gpu",
+      "opengl",
+      "optix",
+      "path-tracing",
+      "raytracer",
+      "real-time",
+      "render",
+      "rendering",
+      "rendering-engine",
+      "rendersystem",
+      "rtx",
+      "svgf"
+    ],
+    "updated_at": "2026-03-18T00:39:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leethomason/tinyxml2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syoyo/tinyobjloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-opengl"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf-viewer"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optix"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-tracing"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracer"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "render"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering-engine"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendersystem"
+    },
+    {
+      "context_snippet": "Lighthouse 2 framework for real-time ray tracing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svgf"
+    }
+  ]
+}

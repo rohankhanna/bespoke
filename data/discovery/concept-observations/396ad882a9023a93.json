@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29657449,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979608,
+      "status": "candidate",
+      "text": "lossful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979607,
+      "status": "candidate",
+      "text": "fluxless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979606,
+      "status": "candidate",
+      "text": "compressionless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19979605,
+      "status": "candidate",
+      "text": "unslackening"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lossless",
+      "sense_id": "lossless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lossless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lossless",
+  "observation_id": "396ad882a9023a93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "lossless",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026",
+  "source_file": null,
+  "source_repo": "j9t/image-guard",
+  "source_repo_description": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+}

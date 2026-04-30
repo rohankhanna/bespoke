@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/toolchain@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1477,6 +1477,176 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "suo/lintrunner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/tch-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "source_repo": "64bit/async-openai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/long_running.yml",
+      "source_repo": "ChillFish8/tantivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChillFish8/tantivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "feakin/fklang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "feakin/fklang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "inherd/coco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/coco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "artempyanykh/zeta-note"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "artempyanykh/zeta-note"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/candle-lora"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EricLBuehler/candle-sampling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dylibso/xtp-python-bindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "extism/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kurtbuilds/checkexec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "kurtbuilds/checkexec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spacemeshos/randomx-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cov.yml",
+      "source_repo": "spacemeshos/randomx-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maralla/pack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/diskus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chat.yaml",
+      "source_repo": "codota/tabnine-nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/diffusers-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/tch-ext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "guillaume-be/rust-tokenizers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "madsim-rs/sqlx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "madsim-rs/sqlx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "wilsonzlin/minify-html"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "wilsonzlin/minify-html"
     }
   ]
 }

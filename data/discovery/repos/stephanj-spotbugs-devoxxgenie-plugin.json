@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "andrepdo/findbugs-idea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "codecov/codecov-action@v1.0.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stephanj/spotbugs-devoxxgenie-plugin",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:59.076021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5876
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The SpotBugs Plugin for IntelliJ IDEA with support for DevoxxGenie",
+    "fork": true,
+    "full_name": "stephanj/spotbugs-devoxxgenie-plugin",
+    "html_url": "https://github.com/stephanj/spotbugs-devoxxgenie-plugin",
+    "language": "Java",
+    "pushed_at": "2026-02-18T11:44:20Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-18T11:43:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrepdo/findbugs-idea",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

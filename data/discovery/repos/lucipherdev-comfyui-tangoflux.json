@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LucipherDev/ComfyUI-TangoFlux",
+      "target": "liewfeng/teacache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "LucipherDev/ComfyUI-TangoFlux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "LucipherDev/ComfyUI-TangoFlux",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "LucipherDev/ComfyUI-TangoFlux",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:04:07.143041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3245
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 565
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI Custom Nodes for \"TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching\". This generates high-quality 44.1kHz audio up to 30 seconds using just a text prompt.",
+    "fork": false,
+    "full_name": "LucipherDev/ComfyUI-TangoFlux",
+    "html_url": "https://github.com/LucipherDev/ComfyUI-TangoFlux",
+    "language": "Python",
+    "pushed_at": "2025-03-28T18:39:16Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-04-22T11:56:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liewfeng/teacache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

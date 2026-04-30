@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rubyjs/libv8",
-      "target": "rubyjs/libv8-node",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-30T04:57:55.754639+00:00",
+  "edges": [],
+  "fetched_at": "2026-04-30T09:24:26.535193+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -30,12 +22,6 @@
     "topics": [],
     "updated_at": "2026-02-08T10:50:44Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rubyjs/libv8-node",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

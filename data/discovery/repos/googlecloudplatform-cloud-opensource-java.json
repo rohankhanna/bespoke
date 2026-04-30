@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "googleapis/java-cloud-bom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:13.829075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1913
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for detecting and avoiding linkage errors in GCP open source projects",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/cloud-opensource-java",
+    "html_url": "https://github.com/GoogleCloudPlatform/cloud-opensource-java",
+    "language": "Java",
+    "pushed_at": "2026-04-08T01:38:47Z",
+    "stargazers_count": 163,
+    "topics": [
+      "cloud",
+      "gcp",
+      "java",
+      "open-source"
+    ],
+    "updated_at": "2026-04-08T01:38:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/java-cloud-bom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

@@ -355,6 +355,18 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "bytebot-ai/bytebot",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate",
+      "text": "![Microsoft Agent Framework](docs/assets/readme-banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -790,11 +808,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/agent-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

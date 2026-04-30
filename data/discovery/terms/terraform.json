@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -176,6 +176,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "scottwinkler/terraform-provider-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tenable/terrascan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov"
     }
   ],
   "term": "terraform"

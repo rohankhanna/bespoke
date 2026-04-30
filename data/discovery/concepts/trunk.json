@@ -19,12 +19,30 @@
       "source_repo": "graffle-js/graffle",
       "status": "candidate-context",
       "text": "trunk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma-labs/bema",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0e Delightful benchmarking for Node.js "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma-labs/bema",
+      "status": "candidate-context",
+      "text": "trunk"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "graffle-js/graffle",
+      "status": "candidate",
+      "text": "trunk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma-labs/bema",
       "status": "candidate",
       "text": "trunk"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/trunk.yml",
       "source_repo": "graffle-js/graffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "prisma-labs/bema"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

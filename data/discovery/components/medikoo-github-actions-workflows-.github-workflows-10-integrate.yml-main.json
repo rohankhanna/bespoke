@@ -1,0 +1,12 @@
+{
+  "component": "medikoo/github-actions-workflows/.github/workflows/10-integrate.yml@main",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "medikoo/type"
+    }
+  ]
+}

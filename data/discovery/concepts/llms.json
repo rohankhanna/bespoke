@@ -583,6 +583,54 @@
       "source_repo": "dstackai/dstack",
       "status": "candidate-context",
       "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate-context",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate-context",
+      "text": "The official repo of MiniMax-Text-01 and MiniMax-VL-01, large-language-model & vision-language-model based on Linear Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +921,30 @@
       "source_repo": "dstackai/dstack",
       "status": "candidate",
       "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oumi-ai/oumi",
+      "status": "candidate",
+      "text": "![Oumi Logo](https://github.com/oumi-ai/oumi/raw/main/docs/_static/logo/header_readme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1324,11 +1396,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

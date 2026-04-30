@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "imatge-upc/rvos",
+      "target": "imatge-upc/rsis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imatge-upc/rvos",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imatge-upc/rvos",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imatge-upc/rvos",
+      "target": "visual-object-tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:21.088946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6787
+    },
+    {
+      "path": "requirements.txt",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RVOS: End-to-End Recurrent Network for Video Object Segmentation (CVPR 2019)",
+    "fork": false,
+    "full_name": "imatge-upc/rvos",
+    "html_url": "https://github.com/imatge-upc/rvos",
+    "language": "Python",
+    "pushed_at": "2022-11-22T01:38:39Z",
+    "stargazers_count": 277,
+    "topics": [
+      "deep-learning",
+      "video-processing",
+      "visual-object-tracking"
+    ],
+    "updated_at": "2026-03-11T16:29:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imatge-upc/rsis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "See our project website [here](https://imatge-upc.github.io/rvos/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "See our project website [here](https://imatge-upc.github.io/rvos/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    },
+    {
+      "context_snippet": "See our project website [here](https://imatge-upc.github.io/rvos/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-object-tracking"
+    }
+  ]
+}

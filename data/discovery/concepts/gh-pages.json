@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -49,6 +51,30 @@
       "source_repo": "awestlake87/pyo3-asyncio",
       "status": "candidate-context",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "status": "candidate-context",
+      "text": "Personal webpage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for my personal page `v-iashin.github.io`."
     }
   ],
   "candidate_glosses": [
@@ -75,6 +101,18 @@
       "source_repo": "awestlake87/pyo3-asyncio",
       "status": "candidate",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/v-iashin.github.io",
+      "status": "candidate",
+      "text": "This repository contains the source code for my personal page `v-iashin.github.io`."
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +144,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/guide.yml",
       "source_repo": "awestlake87/pyo3-asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/v-iashin.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

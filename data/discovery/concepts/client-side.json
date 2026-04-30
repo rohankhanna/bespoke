@@ -19,6 +19,18 @@
       "source_repo": "SenseLogic/PENDOWN",
       "status": "candidate-context",
       "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SenseLogic/PENDOWN",
       "status": "candidate",
       "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "SenseLogic/PENDOWN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/compressorjs-next"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

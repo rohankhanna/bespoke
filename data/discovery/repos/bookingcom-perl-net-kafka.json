@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "edenhill/librdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "trinitum/perl-kafka-librd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "librdkafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "perl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bookingcom/perl-Net-Kafka",
+      "target": "perl5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:27.060803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Net::Kafka - High-performant Perl client for Apache Kafka",
+    "fork": false,
+    "full_name": "bookingcom/perl-Net-Kafka",
+    "html_url": "https://github.com/bookingcom/perl-Net-Kafka",
+    "language": "Perl",
+    "pushed_at": "2023-09-08T14:51:47Z",
+    "stargazers_count": 13,
+    "topics": [
+      "apache-kafka",
+      "kafka",
+      "librdkafka",
+      "perl",
+      "perl5"
+    ],
+    "updated_at": "2026-03-24T18:29:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edenhill/librdkafka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trinitum/perl-kafka-librd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-kafka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librdkafka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl5"
+    }
+  ]
+}

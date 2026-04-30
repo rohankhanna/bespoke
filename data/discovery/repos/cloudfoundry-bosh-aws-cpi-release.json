@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/bosh-aws-cpi-release",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/bosh-aws-cpi-release",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/bosh-aws-cpi-release",
+      "target": "Run Specs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:14.060673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BOSH AWS CPI",
+    "fork": false,
+    "full_name": "cloudfoundry/bosh-aws-cpi-release",
+    "html_url": "https://github.com/cloudfoundry/bosh-aws-cpi-release",
+    "language": "Ruby",
+    "pushed_at": "2026-04-30T05:29:38Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-30T05:29:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Run Specs"
+    }
+  ]
+}

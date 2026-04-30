@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027185,
+      "status": "candidate",
+      "text": "slender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024315,
+      "status": "candidate",
+      "text": "lissome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023735,
+      "status": "candidate",
+      "text": "lissom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022008,
+      "status": "candidate",
+      "text": "lithesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021847,
+      "status": "candidate",
+      "text": "lithe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "svelte",
+      "sense_id": "svelte#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59036,
+      "status": "candidate",
+      "text": "lithe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54035,
+      "status": "candidate",
+      "text": "refined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32033,
+      "status": "candidate",
+      "text": "sophisticated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29036,
+      "status": "candidate",
+      "text": "slender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25021,
+      "status": "candidate",
+      "text": "lissom"
+    }
+  ],
+  "concept_id": "svelte",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "svelte",
+  "observation_id": "68cb56134eda023e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "svelte",
+  "source_context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+  "source_file": null,
+  "source_repo": "hchiam/learning",
+  "source_repo_description": "What I'm learning/practicing"
+}

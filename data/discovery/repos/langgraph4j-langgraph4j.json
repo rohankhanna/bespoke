@@ -1,0 +1,512 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "gitleaks/gitleaks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "bhavuklabs/research4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "azure-samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "bsorrentino/java-async-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "breezeware-os/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "gitleaks/gitleaks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Baseline CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy Project Site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy Site to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy New SNAPSHOT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "Deploy New Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "langchain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "langgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "spring-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:20:13.826323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29538
+    },
+    {
+      "path": ".github/workflows/baseline-ci.yml",
+      "size": 3955
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "size": 1503
+    },
+    {
+      "path": ".github/workflows/deploy-site.yml",
+      "size": 2446
+    },
+    {
+      "path": ".github/workflows/deploy-snapshot.yaml",
+      "size": 2538
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 1789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 LangGraph for Java. A library for develop AI Agentic Architectures in the Java ecosystem. Designed to work seamlessly with both Langchain4j and Spring AI.",
+    "fork": false,
+    "full_name": "langgraph4j/langgraph4j",
+    "html_url": "https://github.com/langgraph4j/langgraph4j",
+    "language": "Java",
+    "pushed_at": "2026-04-29T15:43:54Z",
+    "stargazers_count": 1593,
+    "topics": [
+      "agents",
+      "ai",
+      "langchain4j",
+      "langgraph",
+      "spring-ai",
+      "workflow"
+    ],
+    "updated_at": "2026-04-29T15:14:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/agent-openai-java-banking-assistant-langgraph4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhavuklabs/research4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezeware-os/dynamo-multi-ai-agent-langgraph4j-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/java-async-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Baseline CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseline-ci.yml",
+      "term": "Baseline CI"
+    },
+    {
+      "context_snippet": "Deploy Project Site to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "term": "Deploy Project Site to Pages"
+    },
+    {
+      "context_snippet": "Deploy Site to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "term": "Deploy Site to GitHub Pages"
+    },
+    {
+      "context_snippet": "Deploy New SNAPSHOT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "term": "Deploy New SNAPSHOT"
+    },
+    {
+      "context_snippet": "Deploy New Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deploy New Version"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain4j"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

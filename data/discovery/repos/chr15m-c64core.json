@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "@keyv/sqlite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "keyv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemailer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sqlite3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "twitter-api-v2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chr15m/c64core",
+      "target": "borkdude/nbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "@keyv/sqlite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "keyv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "nbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "nodemailer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chr15m/c64core",
+      "target": "twitter-api-v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "aesthetics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "pinterest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "pinterest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "twitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "twitter-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chr15m/c64core",
+      "target": "twitter-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:09.358870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 428
+    },
+    {
+      "path": "package.json",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "retrocompute aesthetics twitter bot",
+    "fork": false,
+    "full_name": "chr15m/c64core",
+    "html_url": "https://github.com/chr15m/c64core",
+    "language": "Clojure",
+    "pushed_at": "2021-09-30T09:35:17Z",
+    "stargazers_count": 10,
+    "topics": [
+      "aesthetics",
+      "bot",
+      "clojurescript",
+      "pinterest",
+      "pinterest-api",
+      "twitter",
+      "twitter-api",
+      "twitter-bot"
+    ],
+    "updated_at": "2022-05-01T13:40:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/nbb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aesthetics"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinterest"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinterest-api"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twitter"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twitter-api"
+    },
+    {
+      "context_snippet": "This bot runs https://twitter.com/c64core",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twitter-bot"
+    }
+  ]
+}

@@ -165,6 +165,18 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "<br>"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate",
+      "text": "<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -372,11 +390,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

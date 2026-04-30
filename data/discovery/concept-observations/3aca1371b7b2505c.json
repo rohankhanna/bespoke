@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Address Sanitizer Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Address Sanitizer Check\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18473,
+      "status": "candidate",
+      "text": "antimalarial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15356,
+      "status": "candidate",
+      "text": "germ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15074,
+      "status": "candidate",
+      "text": "aloe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15074,
+      "status": "candidate",
+      "text": "soap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10356,
+      "status": "candidate",
+      "text": "antibacterial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Address Sanitizer Check",
+      "sense_id": "address-sanitizer-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "address-sanitizer-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "address-sanitizer-check",
+  "observation_id": "3aca1371b7b2505c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Address Sanitizer Check",
+  "source_context_snippet": "\"Address Sanitizer Check\"",
+  "source_file": ".github/workflows/asan-check.yml",
+  "source_repo": "Antares0982/ssrJSON",
+  "source_repo_description": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+}

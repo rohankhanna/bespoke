@@ -19,6 +19,18 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate-context",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wix/Detox"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

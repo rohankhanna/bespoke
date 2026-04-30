@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "sandai-org/magi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "demonatic/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "sandai-org/magi-1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "strivin0311/strivin0311.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "MagiAttention Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "SandAI-org/MagiAttention",
+      "target": "sphinx deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:59.179751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19692
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2228
+    },
+    {
+      "path": "requirements.txt",
+      "size": 101
+    },
+    {
+      "path": ".github/workflows/build_test.yaml",
+      "size": 6628
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/sphinx.yaml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Distributed Attention Towards Linear Scalability for Ultra-Long Context, Heterogeneous Data Training",
+    "fork": false,
+    "full_name": "SandAI-org/MagiAttention",
+    "html_url": "https://github.com/SandAI-org/MagiAttention",
+    "language": "Python",
+    "pushed_at": "2026-04-21T04:59:42Z",
+    "stargazers_count": 796,
+    "topics": [],
+    "updated_at": "2026-04-29T14:25:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "demonatic/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sandai-org/magi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sandai-org/magi-1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strivin0311/strivin0311.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MagiAttention Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "term": "MagiAttention Build and Test"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "sphinx deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "term": "sphinx deploy"
+    }
+  ]
+}

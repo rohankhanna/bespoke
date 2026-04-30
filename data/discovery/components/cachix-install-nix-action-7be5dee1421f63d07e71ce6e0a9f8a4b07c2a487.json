@@ -1,0 +1,22 @@
+{
+  "component": "cachix/install-nix-action@7be5dee1421f63d07e71ce6e0a9f8a4b07c2a487",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    }
+  ]
+}

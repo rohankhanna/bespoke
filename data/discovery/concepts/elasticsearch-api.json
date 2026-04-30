@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "elasticsearch-api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "elasticsearch-api",
+  "concept_id": "elasticsearch-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elasticsearch-api",
+      "sense_id": "elasticsearch-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

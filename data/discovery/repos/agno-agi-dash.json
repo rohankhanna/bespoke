@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/dash",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/dash",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/dash",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/dash",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:49.198975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14708
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1022
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1092
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1929
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A self-learning data agent built with systems engineering principles. It grounds answers in 6 layers of context and improves with every query.",
+    "fork": false,
+    "full_name": "agno-agi/dash",
+    "html_url": "https://github.com/agno-agi/dash",
+    "language": "Python",
+    "pushed_at": "2026-04-08T11:50:51Z",
+    "stargazers_count": 2043,
+    "topics": [],
+    "updated_at": "2026-04-29T21:53:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    }
+  ]
+}

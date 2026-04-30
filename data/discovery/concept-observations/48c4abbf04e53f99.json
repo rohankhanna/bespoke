@@ -84,7 +84,7 @@
   "normalized_form": "nalgebra-ci-build",
   "observation_id": "48c4abbf04e53f99",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "nalgebra CI build",
   "source_context_snippet": "nalgebra CI build",
   "source_file": ".github/workflows/nalgebra-ci-build.yml",

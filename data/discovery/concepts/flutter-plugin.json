@@ -19,6 +19,30 @@
       "source_repo": "DavBfr/dart_pdf",
       "status": "candidate-context",
       "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate-context",
+      "text": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "go-flutter implementations for popular Flutter plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "DavBfr/dart_pdf",
       "status": "candidate",
       "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate",
+      "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/plugins"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

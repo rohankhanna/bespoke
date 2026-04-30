@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cyclejs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "A functional and reactive JavaScript framework for predictable code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cyclejs",
+  "concept_id": "cyclejs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cyclejs/cyclejs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cyclejs",
+      "sense_id": "cyclejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

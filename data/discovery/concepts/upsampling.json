@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "upsampling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "A High-Quality Real Time Upscaler for Anime Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024947,
+      "status": "candidate",
+      "text": "upscaling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024946,
+      "status": "candidate",
+      "text": "upsizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024945,
+      "status": "candidate",
+      "text": "downsample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024944,
+      "status": "candidate",
+      "text": "amplification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024943,
+      "status": "candidate",
+      "text": "amplifying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "upsampling",
+  "concept_id": "upsampling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "upsampling",
+      "sense_id": "upsampling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

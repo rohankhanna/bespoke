@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taoyds/test-suite-sql-eval",
+      "target": "jkkummerfeld/text2sql-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taoyds/test-suite-sql-eval",
+      "target": "ruiqi-zhong/testsuiteeval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:35.312607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Semantic Evaluation for Text-to-SQL with Distilled Test Suites",
+    "fork": false,
+    "full_name": "taoyds/test-suite-sql-eval",
+    "html_url": "https://github.com/taoyds/test-suite-sql-eval",
+    "language": "Python",
+    "pushed_at": "2024-06-05T12:16:42Z",
+    "stargazers_count": 318,
+    "topics": [],
+    "updated_at": "2026-04-30T06:07:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkkummerfeld/text2sql-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruiqi-zhong/testsuiteeval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "component": "DiligentGraphics/github-action/build@v11",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-emscripten.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    }
+  ]
+}

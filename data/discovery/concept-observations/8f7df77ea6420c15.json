@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Desktop integration portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Portals](doc/website/assets/readme.png)](https://flatpak.github.io/xdg-desktop-portal/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Portals](doc/website/assets/readme.png)](https://flatpak.github.io/xdg-desktop-portal/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861643,
+      "status": "candidate",
+      "text": "sandpile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908782,
+      "status": "candidate",
+      "text": "park"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19881514,
+      "status": "candidate",
+      "text": "environment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930279,
+      "status": "candidate",
+      "text": "sandiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930278,
+      "status": "candidate",
+      "text": "sandblasting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sandboxing",
+      "sense_id": "sandboxing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sandboxing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sandboxing",
+  "observation_id": "8f7df77ea6420c15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sandboxing",
+  "source_context_snippet": "[![Portals](doc/website/assets/readme.png)](https://flatpak.github.io/xdg-desktop-portal/)",
+  "source_file": null,
+  "source_repo": "flatpak/xdg-desktop-portal",
+  "source_repo_description": "Desktop integration portal"
+}

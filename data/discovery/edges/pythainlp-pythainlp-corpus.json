@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-page.yml",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "Build pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "target": "hacktoberfest-accepted",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "PyThaiNLP/pythainlp-corpus"
+}

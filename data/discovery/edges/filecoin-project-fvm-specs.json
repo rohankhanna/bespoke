@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "filecoin-project/fvm-runtime-experiment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "actions/add-to-project@7334092eccc670a2b274d0cafbfa1e4d8208cfab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "Add to FVM project",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "filecoin-project/fvm-specs"
+}

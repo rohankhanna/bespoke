@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyrildiagne/basnet-http",
+      "target": "nathanua/basnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:53.141867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2023
+    },
+    {
+      "path": "Dockerfile",
+      "size": 638
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP service wrapper for BASNet: Boundary-Aware Salient Object Detection",
+    "fork": false,
+    "full_name": "cyrildiagne/basnet-http",
+    "html_url": "https://github.com/cyrildiagne/basnet-http",
+    "language": "Python",
+    "pushed_at": "2022-11-22T05:08:23Z",
+    "stargazers_count": 448,
+    "topics": [],
+    "updated_at": "2026-04-01T19:56:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/basnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

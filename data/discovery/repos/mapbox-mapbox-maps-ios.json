@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "mapbox/vector-tile-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "mapbox/mapbox-gl-native-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "mapbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "priority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:47.810257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2438
+    },
+    {
+      "path": ".github/workflows/analyze.yml",
+      "size": 2993
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal",
+    "fork": false,
+    "full_name": "mapbox/mapbox-maps-ios",
+    "html_url": "https://github.com/mapbox/mapbox-maps-ios",
+    "language": "Swift",
+    "pushed_at": "2026-04-30T04:40:10Z",
+    "stargazers_count": 592,
+    "topics": [
+      "ios",
+      "map",
+      "mapbox",
+      "maps",
+      "metal",
+      "priority",
+      "swift"
+    ],
+    "updated_at": "2026-04-29T12:15:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/mapbox-gl-native-ios",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/vector-tile-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maps"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "priority"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_build.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-standard.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/r-devel-test.yaml"
+    },
+    {
+      "component": "r-hub/actions/debug-shell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/r-devel-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lib/actions",
+      "target": "quarto-dev/quarto-actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lib/actions",
+      "target": "sdras/awesome-actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "source_repo": "r-lib/actions",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "source_repo": "r-lib/actions",
+      "target": "ClusterFuzzLite continuous builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "r-lib/actions",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "r-lib/actions",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "r-lib/actions",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-standard.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/r-devel-test.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/r-devel-test.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "r-hub/actions/debug-shell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/r-devel-test.yaml",
+      "source_repo": "r-lib/actions",
+      "target": "R-devel test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/actions",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:28:30.844803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8700
+    },
+    {
+      "path": ".github/workflows/cflite_build.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1094
+    },
+    {
+      "path": ".github/workflows/check-full.yaml",
+      "size": 1676
+    },
+    {
+      "path": ".github/workflows/check-release.yaml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/check-standard.yaml",
+      "size": 1362
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/lock.yaml",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/r-devel-test.yaml",
+      "size": 1596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2-branch",
+    "description": "GitHub Actions for the R community",
+    "fork": false,
+    "full_name": "r-lib/actions",
+    "html_url": "https://github.com/r-lib/actions",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-30T07:55:46Z",
+    "stargazers_count": 1060,
+    "topics": [
+      "github-actions",
+      "r"
+    ],
+    "updated_at": "2026-04-30T07:24:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quarto-dev/quarto-actions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdras/awesome-actions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite continuous builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "term": "ClusterFuzzLite continuous builds"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "R-devel test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/r-devel-test.yaml",
+      "term": "R-devel test"
+    },
+    {
+      "context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

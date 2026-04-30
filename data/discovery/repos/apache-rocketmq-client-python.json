@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-client-python",
+      "target": "rocketmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:28.548288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache RocketMQ python client",
+    "fork": false,
+    "full_name": "apache/rocketmq-client-python",
+    "html_url": "https://github.com/apache/rocketmq-client-python",
+    "language": "Python",
+    "pushed_at": "2025-12-18T06:48:36Z",
+    "stargazers_count": 304,
+    "topics": [
+      "rocketmq"
+    ],
+    "updated_at": "2026-04-20T22:30:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    }
+  ]
+}

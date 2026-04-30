@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lnx-search/lnx-vfs",
+      "target": "lnx-search/memmap2-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:39.203698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1318
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The lnx VFS page storage system split out from the main repository. (Migration in progress)",
+    "fork": false,
+    "full_name": "lnx-search/lnx-vfs",
+    "html_url": "https://github.com/lnx-search/lnx-vfs",
+    "language": "Rust",
+    "pushed_at": "2025-10-22T21:10:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-22T20:12:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lnx-search/memmap2-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "google/google-api-php-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "symfony/cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-bigtable-proxy.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-bigtable-proxy.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-bigtable-proxy.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-tests-bigtable-proxy.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Run Bigtable Conformance Tests With Proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-storage-emulator.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-tests-storage-emulator.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@verbose",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shrink/actions-docker-extract@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "nick-invision/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "DocFX Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-bigtable.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-bigtable.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulator-system-tests-bigtable.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Emulator System Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-datastore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-datastore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulator-system-tests-datastore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Emulator System Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-firestore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-firestore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulator-system-tests-firestore.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Emulator System Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-pubsub.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-pubsub.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulator-system-tests-pubsub.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Emulator System Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-spanner.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-spanner.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulator-system-tests-spanner.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulator-system-tests-spanner.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "Emulator System Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "GoogleCloudPlatform/php-tools/.github/workflows/code-standards.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "CS Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-php",
+      "target": "google-cloud-platform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "googleapis/google-cloud-php"
+}

@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkspector.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkspector.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "colinkennedy/nvim-best-practices-plugin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "emmyluals/emmylua-analyzer-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "colinkennedy/mega.cmdparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "kdheepak/panvimdoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkspector.yml",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkspector.yml",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkspector.yml",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "Linkspector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "target": "plugin-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:38.671681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27572
+    },
+    {
+      "path": ".github/workflows/linkspector.yml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of DOs and DON'Ts for modern Neovim Lua plugin development",
+    "fork": false,
+    "full_name": "lumen-oss/nvim-best-practices",
+    "html_url": "https://github.com/lumen-oss/nvim-best-practices",
+    "language": null,
+    "pushed_at": "2026-03-19T14:22:47Z",
+    "stargazers_count": 706,
+    "topics": [
+      "best-practices",
+      "development",
+      "guide",
+      "lua",
+      "neovim",
+      "nvim",
+      "plugin",
+      "plugin-development"
+    ],
+    "updated_at": "2026-04-30T08:54:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colinkennedy/mega.cmdparse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colinkennedy/nvim-best-practices-plugin-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emmyluals/emmylua-analyzer-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kdheepak/panvimdoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linkspector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkspector.yml",
+      "term": "Linkspector"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guide"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-development"
+    }
+  ]
+}

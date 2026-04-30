@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fuzz Test Linux-X64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fuzz Test Linux-X64"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13489,
+      "status": "candidate",
+      "text": "rat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12510,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12510,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12510,
+      "status": "candidate",
+      "text": "fur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12510,
+      "status": "candidate",
+      "text": "fuzzy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fuzz Test Linux-X64",
+      "sense_id": "fuzz-test-linux-x64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fuzz-test-linux-x64",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzz-test-linux-x64",
+  "observation_id": "653097fe4ed898fd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Fuzz Test Linux-X64",
+  "source_context_snippet": "Fuzz Test Linux-X64",
+  "source_file": ".github/workflows/fuzzing.yml",
+  "source_repo": "bytedance/sonic",
+  "source_repo_description": "A blazingly fast JSON serializing & deserializing library"
+}

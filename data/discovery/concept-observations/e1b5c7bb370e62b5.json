@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Self-Supervised Speech Pre-training and Representation Learning Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757784,
+      "status": "candidate",
+      "text": "pidlimdi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757784,
+      "status": "candidate",
+      "text": "yamaltu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757781,
+      "status": "candidate",
+      "text": "nyam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757780,
+      "status": "candidate",
+      "text": "adara"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757779,
+      "status": "candidate",
+      "text": "\u00e1nc\u00e1"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tera",
+      "sense_id": "tera#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "yamaltu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "pidlimdi"
+    }
+  ],
+  "concept_id": "tera",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tera",
+  "observation_id": "e1b5c7bb370e62b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "tera",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "s3prl/s3prl",
+  "source_repo_description": "Self-Supervised Speech Pre-training and Representation Learning Toolkit"
+}

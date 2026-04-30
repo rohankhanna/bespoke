@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml"
+    },
+    {
+      "component": "FirebaseExtended/action-hosting-deploy@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "FirebaseExtended/action-hosting-deploy@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart/.github/workflows/publish.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "Deploy to Preview Channel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "Deploy to Live Channel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "dart-lang/setup-dart/.github/workflows/publish.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "Publish to pub.dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "animated-text-kit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "flutter-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Animated-Text-Kit",
+      "target": "text-animation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:09.096602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15809
+    },
+    {
+      "path": ".github/workflows/deploy-preview.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/deploy-prod.yml",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1396
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd14  A flutter package to create cool and beautiful text animations. [Flutter Favorite Package]",
+    "fork": false,
+    "full_name": "aagarwal1012/Animated-Text-Kit",
+    "html_url": "https://github.com/aagarwal1012/Animated-Text-Kit",
+    "language": "Dart",
+    "pushed_at": "2025-10-04T13:42:18Z",
+    "stargazers_count": 1767,
+    "topics": [
+      "animated-text-kit",
+      "animation",
+      "dart",
+      "flutter",
+      "flutter-package",
+      "material-design",
+      "text-animation"
+    ],
+    "updated_at": "2026-04-29T08:01:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to Preview Channel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "term": "Deploy to Preview Channel"
+    },
+    {
+      "context_snippet": "Deploy to Live Channel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "term": "Deploy to Live Channel"
+    },
+    {
+      "context_snippet": "Publish to pub.dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to pub.dev"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animated-text-kit"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-package"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-animation"
+    }
+  ]
+}

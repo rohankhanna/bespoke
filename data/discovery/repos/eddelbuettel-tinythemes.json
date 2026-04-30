@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/tinythemes",
+      "target": "hrbrmstr/hrbrthemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/tinythemes",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/tinythemes",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:51.013423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3302
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight Repackaging of 'Themes' for 'ggplot2'",
+    "fork": false,
+    "full_name": "eddelbuettel/tinythemes",
+    "html_url": "https://github.com/eddelbuettel/tinythemes",
+    "language": "R",
+    "pushed_at": "2026-02-14T01:28:42Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-02-14T01:28:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrbrmstr/hrbrthemes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

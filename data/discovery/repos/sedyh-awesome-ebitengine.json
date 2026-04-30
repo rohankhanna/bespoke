@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "aethiopicuschan/cubism-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "alexander-r/box2d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "alexanderscrimgeour/biogo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "aldernero/sketchy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "ebiten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "ebitengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:04.313835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome Ebitengine frameworks, libraries and software ",
+    "fork": false,
+    "full_name": "sedyh/awesome-ebitengine",
+    "html_url": "https://github.com/sedyh/awesome-ebitengine",
+    "language": null,
+    "pushed_at": "2026-04-13T18:39:21Z",
+    "stargazers_count": 960,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "ebiten",
+      "ebitengine",
+      "game-development",
+      "gamedev",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-04-28T03:06:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aethiopicuschan/cubism-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aldernero/sketchy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexander-r/box2d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexanderscrimgeour/biogo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebiten"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebitengine"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

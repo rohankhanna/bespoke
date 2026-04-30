@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Red Alert Open Source Projects](banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Red Alert Open Source Projects](banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963637,
+      "status": "candidate",
+      "text": "readiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963650,
+      "status": "candidate",
+      "text": "prepared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963546,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963444,
+      "status": "candidate",
+      "text": "ready"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963311,
+      "status": "candidate",
+      "text": "procinct"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preparedness",
+      "sense_id": "preparedness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "readiness"
+    }
+  ],
+  "concept_id": "preparedness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preparedness",
+  "observation_id": "ef54173da8a36658",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "preparedness",
+  "source_context_snippet": "![Red Alert Open Source Projects](banner.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Awesome-Red-Alerts",
+  "source_repo_description": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel"
+}

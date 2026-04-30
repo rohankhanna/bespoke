@@ -79,6 +79,30 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate-context",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/gan-compression",
+      "status": "candidate-context",
+      "text": "[CVPR 2020] GAN Compression: Efficient Architectures for Interactive Conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/gan-compression",
+      "status": "candidate-context",
+      "text": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/C2GAN",
+      "status": "candidate-context",
+      "text": "[ACM MM 2019 Oral] Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/C2GAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "Ha0Tang/SelectionGAN",
       "status": "candidate",
       "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/gan-compression",
+      "status": "candidate",
+      "text": "**[NEW!]** GAN Compression is accepted by T-PAMI! We released our T-PAMI version in the [arXiv v4](https://arxiv.org/abs/2003.08936)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/C2GAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/C2GAN/blob/master/LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/gan-compression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/C2GAN"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

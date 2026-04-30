@@ -1,7 +1,8 @@
 {
   "aliases": [
     "test-pr",
-    "Test PR"
+    "Test PR",
+    "test pr"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "Kong/official-images",
       "status": "candidate-context",
       "text": "Test PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "A repository for hosting auto-generated Neovim plugins and tree-sitter parsers for Luarocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "test pr"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "Kong/official-images",
       "status": "candidate",
       "text": "Test PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate",
+      "text": "test pr"
     }
   ],
   "candidate_related_terms": [
@@ -101,6 +120,41 @@
       "score": 12750,
       "status": "candidate",
       "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110095911,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110094911,
+      "status": "candidate",
+      "text": "testbed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110093911,
+      "status": "candidate",
+      "text": "test model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110092911,
+      "status": "candidate",
+      "text": "test article"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109995911,
+      "status": "candidate",
+      "text": "checkout"
     }
   ],
   "candidate_synonyms": [],
@@ -149,11 +203,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test-pr.yml",
       "source_repo": "Kong/official-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

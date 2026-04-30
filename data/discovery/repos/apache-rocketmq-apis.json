@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq-apis",
+      "target": "apache/rocketmq-clients",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apache/rocketmq-apis",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:26.927540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 757
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RocketMQ APIs - Protobuf definition for Apache RocketMQ",
+    "fork": false,
+    "full_name": "apache/rocketmq-apis",
+    "html_url": "https://github.com/apache/rocketmq-apis",
+    "language": "Starlark",
+    "pushed_at": "2026-01-27T09:24:46Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-28T07:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-clients",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

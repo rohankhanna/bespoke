@@ -131,6 +131,18 @@
       "source_repo": "themix-project/themix-gui",
       "status": "candidate-context",
       "text": "Code Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Auto QUality Assurance for Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Code style"
     }
   ],
   "candidate_glosses": [
@@ -193,6 +205,12 @@
       "source_repo": "themix-project/themix-gui",
       "status": "candidate",
       "text": "Code Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate",
+      "text": "Code style"
     }
   ],
   "candidate_related_terms": [
@@ -296,11 +314,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "themix-project/themix-gui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "JuliaTesting/Aqua.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

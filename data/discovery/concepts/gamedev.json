@@ -199,6 +199,66 @@
       "source_repo": "r-lyeh/stdarc.c",
       "status": "candidate-context",
       "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "Go bindings for GLFW 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Ebitengine frameworks, libraries and software "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "A modern cross-platform low-level graphics library and rendering framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate-context",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate-context",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate-context",
+      "text": "An alternative ggez implementation on top of miniquad."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "r-lyeh/stdarc.c",
       "status": "candidate",
       "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/glfw",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DiligentGraphics/DiligentEngine",
+      "status": "candidate",
+      "text": "**A Modern Cross-Platform Low-Level 3D Graphics Library and Rendering Framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbikker/lighthouse2",
+      "status": "candidate",
+      "text": "Lighthouse 2 framework for real-time ray tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/good-web-game",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +508,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "r-lyeh/stdarc.c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-gl/glfw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DiligentGraphics/DiligentEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jbikker/lighthouse2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

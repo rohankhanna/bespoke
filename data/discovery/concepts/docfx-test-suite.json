@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "DocFX Test Suite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate-context",
+      "text": "DocFX Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-php",
+      "status": "candidate",
+      "text": "DocFX Test Suite"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12228,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11985,
+      "status": "candidate",
+      "text": "chamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "tent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "DocFX Test Suite",
+  "concept_id": "docfx-test-suite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "googleapis/google-cloud-php"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DocFX Test Suite",
+      "sense_id": "docfx-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

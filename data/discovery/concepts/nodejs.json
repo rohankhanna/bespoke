@@ -2317,6 +2317,306 @@
       "source_repo": "aws-samples/aws-cdk-changelogs-demo",
       "status": "candidate-context",
       "text": "This is an open source application designed to showcase the usage of modern"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "Modularized AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos library for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "A Zstd Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/mongodb-js/zstd/actions/workflows/test.yml/badge.svg)](https://github.com/mongodb-js/zstd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate-context",
+      "text": ":chart_with_upwards_trend: General purpose hits (page views) counter written in Node.js backed by filesystem. (MVP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate-context",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "Create your own ChatGPT with Retrieval-Augmented-Generation workshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "status": "candidate-context",
+      "text": "JavaScript Engine Switcher determines unified interface for access to the basic features of popular JavaScript engines. This library allows you to quickly and easily switch to using of another JavaScript engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "status": "candidate-context",
+      "text": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate-context",
+      "text": "Performance bridge for KurrentDB Node.js client using Rust native addons via Neon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "Run Typst in JavaScriptWorld."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "[Markdown](https://github.com/Myriad-Dreamin/typst.ts/blob/main/README.md) | [typst](./docs/cookery/introduction.typ) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mklement0/n-install",
+      "status": "candidate-context",
+      "text": "Installs n, the Node.js version manager, without needing to install Node.js first: curl -L https://bit.ly/n-install | bash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mklement0/n-install",
+      "status": "candidate-context",
+      "text": "[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mklement0/n-install/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "Node.js client integration between Stackdriver Logging and Winston."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "A tutorial for creating a complete application using Node.js on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "This repository contains the complete sample code for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "Package manager version manager for Node.js projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate-context",
+      "text": "[![Join us on OpenJS slack (channel #nodejs-corepack)](https://img.shields.io/badge/OpenJS%20Slack-%23nodejs--corepack-blue)](https://slack-invite.openjsf.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "low-light\ud83d\udca1 image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "GraalJS \u2013 A high-performance, ECMAScript compliant, and embeddable JavaScript runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate-context",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 middlware and mocks for Express.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "execa \u2014 Process execution for humans"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate-context",
+      "text": "SHA3 for JavaScript - The Keccak family of hash algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate-context",
+      "text": "[![Travis CI][3]][4]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate-context",
+      "text": "A simple note taking application using modular AWS SDK for JavaScript (v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate-context",
+      "text": "In this app, you are going to build a simple note taking application using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Sample for testing AWS SDK for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_glosses": [
@@ -3471,6 +3771,156 @@
       "source_repo": "aws-samples/aws-cdk-changelogs-demo",
       "status": "candidate",
       "text": "This is an open source application designed to showcase the usage of modern"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMmtFajZWQmNUbEhidnBKN1VncjRrNVI3d0JUcFpGWUd3STh4T3N3Rnljc1BMaEIrYm9HU2t4YTV1RlE1YmlnUG9XM3luY0Ftc2tBc0xTeVFJMkVOa24wPSIsIml2UGFyYW1ldGVyU3BlYyI6IlBDMDl6UEROK1dlU1h1OWciLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/mongodb-js/zstd/actions/workflows/test.yml/badge.svg)](https://github.com/mongodb-js/zstd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hits-nodejs",
+      "status": "candidate",
+      "text": "![hits-dwyl-teal-banner](https://user-images.githubusercontent.com/194400/30136430-d1b2c2b8-9356-11e7-9ed5-3d84f6e44066.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher",
+      "status": "candidate",
+      "text": "JavaScript Engine Switcher [![NuGet version](http://img.shields.io/nuget/v/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.org/packages/JavaScriptEngineSwitcher.Core/) [![Download count](https://img.shields.io/nuget/dt/JavaScriptEngineSwitcher.Core.svg)](https://www.nuget.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate",
+      "text": "[Markdown](https://github.com/Myriad-Dreamin/typst.ts/blob/main/README.md) | [typst](./docs/cookery/introduction.typ) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mklement0/n-install",
+      "status": "candidate",
+      "text": "[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mklement0/n-install/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/nodejs-logging-winston",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/handwritten/)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate",
+      "text": "This repository contains the complete sample code for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/corepack",
+      "status": "candidate",
+      "text": "[![Join us on OpenJS slack (channel #nodejs-corepack)](https://img.shields.io/badge/OpenJS%20Slack-%23nodejs--corepack-blue)](https://slack-invite.openjsf.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graaljs",
+      "status": "candidate",
+      "text": "[![https://graalvm.slack.com](https://img.shields.io/badge/slack-join%20channel-active)](https://www.graalvm.org/slack-invitation/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kriszyp/lmdb-js",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate",
+      "text": "Swagger Express Middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate",
+      "text": "[![Travis CI][3]][4]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "status": "candidate",
+      "text": "In this app, you are going to build a simple note taking application using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_related_terms": [],
@@ -5032,11 +5482,269 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "aws-samples/aws-cdk-changelogs-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/hits-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-openai-rag-workshop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Taritsyn/JavaScriptEngineSwitcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Myriad-Dreamin/typst.ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mklement0/n-install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/nodejs-logging-winston"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/corepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graaljs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/execa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phusion/node-sha3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

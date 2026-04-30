@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "reflexo::release::docker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "Run Typst in JavaScriptWorld."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate-context",
+      "text": "reflexo::release::docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/typst.ts",
+      "status": "candidate",
+      "text": "reflexo::release::docker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999350,
+      "status": "candidate",
+      "text": "engine room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999232,
+      "status": "candidate",
+      "text": "wide berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998993,
+      "status": "candidate",
+      "text": "on board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998028,
+      "status": "candidate",
+      "text": "come to"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997990,
+      "status": "candidate",
+      "text": "pull in"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "reflexo::release::docker",
+  "concept_id": "reflexo-release-docker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "Myriad-Dreamin/typst.ts"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "reflexo::release::docker",
+      "sense_id": "reflexo-release-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

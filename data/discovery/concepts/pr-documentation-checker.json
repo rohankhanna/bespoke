@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Documentation Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "PR Documentation Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "PR Documentation Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9749,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9658,
+      "status": "candidate",
+      "text": "agent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Documentation Checker",
+  "concept_id": "pr-documentation-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-pr.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Documentation Checker",
+      "sense_id": "pr-documentation-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

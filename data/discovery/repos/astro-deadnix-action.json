@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "nixpkgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix-action",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:11.997986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Workflow to find and delete dead nix code",
+    "fork": false,
+    "full_name": "astro/deadnix-action",
+    "html_url": "https://github.com/astro/deadnix-action",
+    "language": null,
+    "pushed_at": "2025-12-10T09:09:38Z",
+    "stargazers_count": 25,
+    "topics": [
+      "action",
+      "actions",
+      "github",
+      "nix",
+      "nixos",
+      "nixpkgs",
+      "workflow"
+    ],
+    "updated_at": "2026-02-24T07:20:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action"
+    },
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    },
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixpkgs"
+    },
+    {
+      "context_snippet": "Automatically creates pull requests to remove unused code in `.nix`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

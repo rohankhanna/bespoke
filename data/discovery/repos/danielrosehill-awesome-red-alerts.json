@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "adipalko/hatraot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "5c077m4n/pikud-haoref-api-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "alonw0/cc-redalerts-statusline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "amir684/esp32c3-red-alert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "pikud-haoref",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "preparedness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-Red-Alerts",
+      "target": "red-alert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:53.453791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Awesome-Red-Alerts",
+    "html_url": "https://github.com/danielrosehill/Awesome-Red-Alerts",
+    "language": null,
+    "pushed_at": "2026-04-06T14:14:22Z",
+    "stargazers_count": 1,
+    "topics": [
+      "israel",
+      "pikud-haoref",
+      "preparedness",
+      "red-alert"
+    ],
+    "updated_at": "2026-04-06T14:14:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5c077m4n/pikud-haoref-api-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adipalko/hatraot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alonw0/cc-redalerts-statusline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amir684/esp32c3-red-alert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Red Alert Open Source Projects](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "![Red Alert Open Source Projects](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pikud-haoref"
+    },
+    {
+      "context_snippet": "![Red Alert Open Source Projects](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preparedness"
+    },
+    {
+      "context_snippet": "![Red Alert Open Source Projects](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-alert"
+    }
+  ]
+}

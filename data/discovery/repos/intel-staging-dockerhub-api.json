@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:11:42.141307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 543
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python Docker Hub API client library",
+    "fork": true,
+    "full_name": "intel-staging/DockerHub-API",
+    "html_url": "https://github.com/intel-staging/DockerHub-API",
+    "language": "Python",
+    "pushed_at": "2025-05-08T21:55:39Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-05-08T21:55:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

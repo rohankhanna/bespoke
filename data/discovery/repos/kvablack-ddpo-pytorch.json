@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvablack/ddpo-pytorch",
+      "target": "jannerm/ddpo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvablack/ddpo-pytorch",
+      "target": "kvablack/llava-server",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:50.994156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DDPO for finetuning diffusion models, implemented in PyTorch with LoRA support",
+    "fork": false,
+    "full_name": "kvablack/ddpo-pytorch",
+    "html_url": "https://github.com/kvablack/ddpo-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-03-22T12:50:35Z",
+    "stargazers_count": 753,
+    "topics": [],
+    "updated_at": "2026-04-29T08:28:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jannerm/ddpo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvablack/llava-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

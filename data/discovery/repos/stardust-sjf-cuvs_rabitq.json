@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/pr-builder.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-actions/telemetry-dispatch-stash-base-env-vars@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "nv-gha-runners/get-pr-info@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-actions/check_nightly_success/dispatch@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/changed-files.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/checks.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-post-build-checks.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/build-in-devcontainer.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-actions/telemetry-dispatch-summarize@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-rust.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-post-build-checks.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "rapidsai/shared-workflows/.github/workflows/breaking-change-alert.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-upload-packages.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/pr-builder.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-actions/telemetry-dispatch-stash-base-env-vars@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-actions/check_nightly_success/dispatch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/changed-files.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/checks.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-post-build-checks.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/build-in-devcontainer.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-actions/telemetry-dispatch-summarize@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-rust.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-rust.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-post-build-checks.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-cpp-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/conda-python-tests.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/custom-job.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/wheels-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "rapidsai/shared-workflows/.github/workflows/breaking-change-alert.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "target": "Trigger Breaking Change Notifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:17.355963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11036
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3076
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1799
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 8101
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 197
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 18686
+    },
+    {
+      "path": ".github/workflows/publish-rust.yaml",
+      "size": 1726
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 2722
+    },
+    {
+      "path": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "cuVS - a library for vector search and clustering on the GPU. The IVF RaBitQ is under the cuvs_ivf_rabitq branch.",
+    "fork": true,
+    "full_name": "Stardust-SJF/cuvs_rabitq",
+    "html_url": "https://github.com/Stardust-SJF/cuvs_rabitq",
+    "language": null,
+    "pushed_at": "2026-04-23T14:40:55Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-28T12:54:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-rust.yaml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Trigger Breaking Change Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "term": "Trigger Breaking Change Notifications"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd14  A flutter package to create cool and beautiful text animations. [Flutter Favorite Package]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy to Preview Channel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy to Preview Channel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22557,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22557,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22036,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21458,
+      "status": "candidate",
+      "text": "adduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21458,
+      "status": "candidate",
+      "text": "adducing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Preview Channel",
+      "sense_id": "deploy-to-preview-channel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-to-preview-channel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-to-preview-channel",
+  "observation_id": "a82f7889e2f53900",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Deploy to Preview Channel",
+  "source_context_snippet": "Deploy to Preview Channel",
+  "source_file": ".github/workflows/deploy-preview.yml",
+  "source_repo": "aagarwal1012/Animated-Text-Kit",
+  "source_repo_description": "\ud83d\udd14  A flutter package to create cool and beautiful text animations. [Flutter Favorite Package]"
+}

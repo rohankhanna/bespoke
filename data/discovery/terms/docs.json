@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -656,6 +656,86 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "scalar/starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsdoc/jsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/candle-lora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/candle-sampling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "yhirose/docs-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "thoughtbot/factory_bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mujocolab/mjlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action"
     }
   ],
   "term": "Docs"

@@ -1,0 +1,421 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-oidc-issuers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml"
+    },
+    {
+      "component": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml"
+    },
+    {
+      "component": "sigstore/community/.github/workflows/reusable-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml"
+    },
+    {
+      "component": "sigstore/community/.github/workflows/reusable-dependency-review.yml@f57b2d1c73f8595fe268259720efb21388db2a27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "sigstore-conformance/extremely-dangerous-public-oidc-beacon@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/fulcio",
+      "target": "theupdateframework/go-tuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-oidc-issuers.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-oidc-issuers.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "Check OIDC Issuers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "github/codeql-action/init@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "github/codeql-action/autobuild@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "github/codeql-action/analyze@65c74964a9ed8c44ed9f19d4bbc5757a6a8e9ab9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-build.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "CI-Container-Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "sigstore/community/.github/workflows/reusable-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "Cut Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "sigstore/community/.github/workflows/reusable-dependency-review.yml@f57b2d1c73f8595fe268259720efb21388db2a27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "sigstore-conformance/extremely-dangerous-public-oidc-beacon@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sigstore/fulcio",
+      "target": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:43.444699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7122
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1554
+    },
+    {
+      "path": "go.mod",
+      "size": 8657
+    },
+    {
+      "path": ".github/workflows/check-oidc-issuers.yml",
+      "size": 3289
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/container-build.yml",
+      "size": 2122
+    },
+    {
+      "path": ".github/workflows/cut-release.yml",
+      "size": 988
+    },
+    {
+      "path": ".github/workflows/depsreview.yml",
+      "size": 968
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 2644
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2017
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sigstore OIDC PKI",
+    "fork": false,
+    "full_name": "sigstore/fulcio",
+    "html_url": "https://github.com/sigstore/fulcio",
+    "language": "Go",
+    "pushed_at": "2026-04-27T02:33:12Z",
+    "stargazers_count": 832,
+    "topics": [],
+    "updated_at": "2026-04-29T07:31:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theupdateframework/go-tuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check OIDC Issuers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-oidc-issuers.yml",
+      "term": "Check OIDC Issuers"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "CI-Container-Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-build.yml",
+      "term": "CI-Container-Build"
+    },
+    {
+      "context_snippet": "Cut Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release.yml",
+      "term": "Cut Release"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "E2E",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "E2E"
+    }
+  ]
+}

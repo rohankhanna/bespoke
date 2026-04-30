@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "bresenham",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gl-matrix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madbence/node-drawille",
+      "target": "asciimoo/drawille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madbence/node-drawille",
+      "target": "madbence/node-bresenham",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madbence/node-drawille",
+      "target": "madbence/node-drawille-canvas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madbence/node-drawille",
+      "target": "maxogden/dat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille",
+      "target": "bresenham",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "madbence/node-drawille",
+      "target": "gl-matrix",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:16.661184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1947
+    },
+    {
+      "path": "package.json",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drawing in terminal with unicode braille characters",
+    "fork": false,
+    "full_name": "madbence/node-drawille",
+    "html_url": "https://github.com/madbence/node-drawille",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-16T21:40:07Z",
+    "stargazers_count": 1025,
+    "topics": [],
+    "updated_at": "2026-04-26T10:39:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asciimoo/drawille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madbence/node-bresenham",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madbence/node-drawille-canvas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxogden/dat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

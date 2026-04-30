@@ -79,6 +79,18 @@
       "source_repo": "rapidsai/raft",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "oneAPI Specification source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "rapidsai/raft",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rapidsai/raft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dimforge/nalgebra"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

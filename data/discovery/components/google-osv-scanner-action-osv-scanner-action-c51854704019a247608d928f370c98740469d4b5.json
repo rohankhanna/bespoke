@@ -1,0 +1,12 @@
+{
+  "component": "google/osv-scanner-action/osv-scanner-action@c51854704019a247608d928f370c98740469d4b5",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-scan.yml",
+      "source_repo": "envoyproxy/gateway"
+    }
+  ]
+}

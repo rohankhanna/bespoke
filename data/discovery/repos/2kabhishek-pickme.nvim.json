@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "2kabhishek/octohub.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "2kabhishek/exercism.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "CI Lint and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "Generate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "fzf-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "snacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "telescope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:32.550548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14081
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51",
+    "fork": false,
+    "full_name": "2KAbhishek/pickme.nvim",
+    "html_url": "https://github.com/2KAbhishek/pickme.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-12-24T21:33:56Z",
+    "stargazers_count": 74,
+    "topics": [
+      "fzf-lua",
+      "neovim",
+      "neovim-plugin",
+      "snacks",
+      "telescope",
+      "utility"
+    ],
+    "updated_at": "2026-04-01T17:22:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/exercism.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/octohub.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Lint and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Lint and Test"
+    },
+    {
+      "context_snippet": "Generate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Docs"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fzf-lua"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snacks"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

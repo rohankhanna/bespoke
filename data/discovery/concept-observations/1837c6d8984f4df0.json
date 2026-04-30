@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prettier Java Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Binary artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Binary artifacts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "ones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "apostrophe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "coupler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10565,
+      "status": "candidate",
+      "text": "diplopia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Binary artifacts",
+      "sense_id": "binary-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "binary-artifacts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "binary-artifacts",
+  "observation_id": "1837c6d8984f4df0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Binary artifacts",
+  "source_context_snippet": "Binary artifacts",
+  "source_file": ".github/workflows/binaries.yml",
+  "source_repo": "jhipster/prettier-java",
+  "source_repo_description": "Prettier Java Plugin"
+}

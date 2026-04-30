@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "videocrafter/videocrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "doubiiu/dynamicrafter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:14.622934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9797
+    },
+    {
+      "path": "requirements.txt",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models",
+    "fork": false,
+    "full_name": "AILab-CVC/VideoCrafter",
+    "html_url": "https://github.com/AILab-CVC/VideoCrafter",
+    "language": "Python",
+    "pushed_at": "2026-01-09T15:01:22Z",
+    "stargazers_count": 5053,
+    "topics": [
+      "image-to-video",
+      "text-to-video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-30T02:41:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doubiiu/dynamicrafter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "videocrafter/videocrafter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href='https://ailab-cvc.github.io/videocrafter2/'><img src='https://img.shields.io/badge/Project-Page-green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "<a href='https://ailab-cvc.github.io/videocrafter2/'><img src='https://img.shields.io/badge/Project-Page-green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<a href='https://ailab-cvc.github.io/videocrafter2/'><img src='https://img.shields.io/badge/Project-Page-green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

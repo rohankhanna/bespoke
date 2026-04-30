@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-continuum",
+      "target": "tmux-plugins/tmux-resurrect",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:10.085018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Continuous saving of tmux environment. Automatic restore when tmux is started. Automatic tmux start when computer is turned on.",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-continuum",
+    "html_url": "https://github.com/tmux-plugins/tmux-continuum",
+    "language": "Shell",
+    "pushed_at": "2024-08-02T10:44:53Z",
+    "stargazers_count": 3915,
+    "topics": [],
+    "updated_at": "2026-04-30T03:35:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-resurrect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

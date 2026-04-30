@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/auto_update_version.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/publish_release.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_release.yml"
     },
@@ -31,12 +31,12 @@
       "source_file": ".github/workflows/publish_release.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml"
     },
@@ -82,7 +82,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "swiftlang/swift-format",
-      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.11",
       "target_type": "component"
     },
     {
@@ -96,7 +96,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-format",
-      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "target_type": "component"
     },
     {
@@ -110,14 +110,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-format",
-      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-format",
-      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
       "target_type": "component"
     },
     {
@@ -135,7 +135,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:11:40.185903+00:00",
+  "fetched_at": "2026-04-30T09:10:03.717913+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,15 +147,15 @@
     },
     {
       "path": ".github/workflows/automerge.yml",
-      "size": 1126
+      "size": 1127
     },
     {
       "path": ".github/workflows/publish_release.yml",
-      "size": 7856
+      "size": 7857
     },
     {
       "path": ".github/workflows/pull_request.yml",
-      "size": 3589
+      "size": 3591
     }
   ],
   "related_repositories": [],
@@ -167,10 +167,10 @@
     "full_name": "swiftlang/swift-format",
     "html_url": "https://github.com/swiftlang/swift-format",
     "language": "Swift",
-    "pushed_at": "2026-04-22T08:41:07Z",
-    "stargazers_count": 2905,
+    "pushed_at": "2026-04-30T05:39:05Z",
+    "stargazers_count": 2903,
     "topics": [],
-    "updated_at": "2026-04-21T13:26:39Z"
+    "updated_at": "2026-04-30T05:39:03Z"
   },
   "repo_links": [
     {

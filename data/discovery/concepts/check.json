@@ -515,6 +515,42 @@
       "source_repo": "tox-dev/pipdeptree",
       "status": "candidate-context",
       "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "Redirect checker for .htaccess files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chep/copilot-chat.el",
+      "status": "candidate-context",
+      "text": "Chat with Github copilot in Emacs !"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chep/copilot-chat.el",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -775,6 +811,24 @@
       "source_repo": "tox-dev/pipdeptree",
       "status": "candidate",
       "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chep/copilot-chat.el",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "Check"
     }
   ],
   "candidate_related_terms": [
@@ -1195,11 +1249,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "tox-dev/pipdeptree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "rtfeldman/node-test-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "chep/copilot-chat.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tensorchord/VectorChord"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

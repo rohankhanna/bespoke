@@ -1,0 +1,12 @@
+{
+  "component": "trufflesecurity/trufflehog@fe5624c70923355128868cffd647b6e2cfe11443",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync-crypto"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A solid language pack for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vim Polyglot CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vim Polyglot CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9591,
+      "status": "candidate",
+      "text": "gender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9591,
+      "status": "candidate",
+      "text": "harris"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "polonium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9486,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vim Polyglot CI",
+      "sense_id": "vim-polyglot-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vim-polyglot-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vim-polyglot-ci",
+  "observation_id": "4fa63701071bb2ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Vim Polyglot CI",
+  "source_context_snippet": "Vim Polyglot CI",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "sheerun/vim-polyglot",
+  "source_repo_description": "A solid language pack for Vim."
+}

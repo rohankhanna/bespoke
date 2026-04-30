@@ -55,6 +55,18 @@
       "source_repo": "pytorch/serve",
       "status": "candidate-context",
       "text": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "ClearML - Model-Serving Orchestration and Repository Solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "pytorch/serve",
       "status": "candidate",
       "text": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-serving",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +195,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pytorch/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-serving"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

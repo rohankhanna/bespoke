@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "aigc-apps/cogvideox-fun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "black-forest-labs/flux2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "kijai/comfyui-kjnodes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "kijai/comfyui-easyanimatewrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aigc-apps/VideoX-Fun",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:21.015339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46158
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1270
+    },
+    {
+      "path": "requirements.txt",
+      "size": 328
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcf9 A more flexible framework that can generate videos at any resolution and creates videos from images. ",
+    "fork": false,
+    "full_name": "aigc-apps/VideoX-Fun",
+    "html_url": "https://github.com/aigc-apps/VideoX-Fun",
+    "language": "Python",
+    "pushed_at": "2026-04-29T09:54:25Z",
+    "stargazers_count": 2053,
+    "topics": [],
+    "updated_at": "2026-04-30T08:03:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc-apps/cogvideox-fun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "black-forest-labs/flux2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-easyanimatewrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-kjnodes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

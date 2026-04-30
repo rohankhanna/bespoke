@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "css-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:16:22.860640+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of awesome CSS frameworks in 2026",
+    "fork": false,
+    "full_name": "troxler/awesome-css-frameworks",
+    "html_url": "https://github.com/troxler/awesome-css-frameworks",
+    "language": "CSS",
+    "pushed_at": "2026-04-11T08:46:47Z",
+    "stargazers_count": 9308,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "collection",
+      "css",
+      "css-framework",
+      "framework",
+      "list",
+      "scss"
+    ],
+    "updated_at": "2026-04-30T01:49:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collection"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-framework"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "List of awesome CSS frameworks in 2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

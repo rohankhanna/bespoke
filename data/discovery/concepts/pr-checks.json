@@ -134,6 +134,30 @@
       "source_repo": "cjkreklow/t38c",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate-context",
+      "text": "Rust library for OpenAI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate-context",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/beaker-py",
+      "status": "candidate-context",
+      "text": "A pure-Python Beaker client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-py",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -200,6 +224,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cjkreklow/t38c",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/async-openai",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/beaker-py",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -323,11 +359,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "cjkreklow/t38c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/beaker-py"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

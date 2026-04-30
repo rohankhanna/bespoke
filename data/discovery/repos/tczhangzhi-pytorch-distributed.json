@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:13:22.343726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22102
+    },
+    {
+      "path": "requirements.txt",
+      "size": 61
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A quickstart and benchmark for pytorch distributed training.",
+    "fork": false,
+    "full_name": "tczhangzhi/pytorch-distributed",
+    "html_url": "https://github.com/tczhangzhi/pytorch-distributed",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:57:27Z",
+    "stargazers_count": 1660,
+    "topics": [],
+    "updated_at": "2026-04-26T09:01:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

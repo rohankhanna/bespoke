@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-gl/gl",
+      "target": "go-gl/glow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-gl/gl",
+      "target": "go-gl/example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/gl",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/gl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "go-gl/gl",
+      "target": "Main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:30.412411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5266
+    },
+    {
+      "path": "go.mod",
+      "size": 36
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go bindings for OpenGL (generated via glow)",
+    "fork": false,
+    "full_name": "go-gl/gl",
+    "html_url": "https://github.com/go-gl/gl",
+    "language": "C",
+    "pushed_at": "2026-03-31T23:51:17Z",
+    "stargazers_count": 1195,
+    "topics": [],
+    "updated_at": "2026-04-24T11:39:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-gl/example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-gl/glow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    }
+  ]
+}

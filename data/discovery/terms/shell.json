@@ -1,16 +1,16 @@
 {
-  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "pacstall/pacstall"
+      "source_repo": "agent-infra/sandbox"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "aws/amazon-q-developer-cli"
+      "source_repo": "git-quick-stats/git-quick-stats"
     },
     {
       "discovered_via": "repo-topic",
@@ -21,11 +21,6 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nodenv/nodenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "sagiegurari/duckscript"
     },
     {
       "discovered_via": "repo-topic",
@@ -45,37 +40,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "tinted-theming/tinted-shell"
+      "source_repo": "sindresorhus/execa"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "google/zx"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "PowerShell/PowerShell"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "Justintime50/homebrew-releaser"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "tmux-plugins/tmux-yank"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "2KAbhishek/shelly"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/typer"
+      "source_repo": "BrianPugh/cyclopts"
     }
   ],
   "term": "shell"

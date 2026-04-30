@@ -286,6 +286,108 @@
       "source_repo": "brunohaf/action-bandit",
       "status": "candidate-context",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haya14busa/action-update-semver",
+      "status": "candidate-context",
+      "text": "Updates major/minor release tags on a tag push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-update-semver",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate-context",
+      "text": "thrift-gen-validator is a thriftgo plugin to generate struct validators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate-context",
+      "text": "run actionlint with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate-context",
+      "text": ":dog: Runs alex with reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-alex/workflows/Test/badge.svg)](https://github.com/reviewdog/action-alex/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Template to create your composite action based reviewdog actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate-context",
+      "text": "Run eslint with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate-context",
+      "text": "[![depup](https://github.com/reviewdog/action-eslint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-eslint/actions?query=workflow%3Adepup)"
     }
   ],
   "candidate_glosses": [
@@ -432,6 +534,66 @@
       "source_repo": "brunohaf/action-bandit",
       "status": "candidate",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-update-semver",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-alex/workflows/Test/badge.svg)](https://github.com/reviewdog/action-alex/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate",
+      "text": "[![depup](https://github.com/reviewdog/action-eslint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-eslint/actions?query=workflow%3Adepup)"
     }
   ],
   "candidate_related_terms": [],
@@ -673,11 +835,113 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "brunohaf/action-bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-update-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "cloudwego/thrift-gen-validator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-actionlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-eslint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

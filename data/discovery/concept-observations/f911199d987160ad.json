@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The `sf` cli."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022627,
+      "status": "candidate",
+      "text": "sales force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022626,
+      "status": "candidate",
+      "text": "sales team"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022625,
+      "status": "candidate",
+      "text": "company"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022624,
+      "status": "candidate",
+      "text": "sales representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022623,
+      "status": "candidate",
+      "text": "leadership"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "salesforce",
+      "sense_id": "salesforce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "salesforce",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "salesforce",
+  "observation_id": "f911199d987160ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "salesforce",
+  "source_context_snippet": "[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)",
+  "source_file": null,
+  "source_repo": "salesforcecli/cli",
+  "source_repo_description": "The `sf` cli."
+}

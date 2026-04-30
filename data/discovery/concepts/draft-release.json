@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Draft release",
-    "Draft Release"
+    "Draft Release",
+    "draft-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -92,6 +93,18 @@
       "source_repo": "mozilla/addons-server",
       "status": "candidate-context",
       "text": "Draft Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buildpacks/lifecycle",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Cloud Native Buildpacks lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildpacks/lifecycle",
+      "status": "candidate-context",
+      "text": "draft-release"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +149,12 @@
       "source_repo": "mozilla/addons-server",
       "status": "candidate",
       "text": "Draft Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buildpacks/lifecycle",
+      "status": "candidate",
+      "text": "draft-release"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +246,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

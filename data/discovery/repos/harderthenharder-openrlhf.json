@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "meetkai/functionary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "openai/gpt-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "HarderThenHarder/OpenRLHF",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:38.686840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21237
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2148
+    },
+    {
+      "path": "requirements.txt",
+      "size": 249
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & RingAttention & RFT)",
+    "fork": true,
+    "full_name": "HarderThenHarder/OpenRLHF",
+    "html_url": "https://github.com/HarderThenHarder/OpenRLHF",
+    "language": null,
+    "pushed_at": "2025-01-16T12:21:25Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-05-15T02:22:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meetkai/functionary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AWS CodeBuild CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AWS CodeBuild CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "abundance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AWS CodeBuild CI",
+      "sense_id": "aws-codebuild-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-codebuild-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-codebuild-ci",
+  "observation_id": "e59712b84d021c86",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "AWS CodeBuild CI",
+  "source_context_snippet": "AWS CodeBuild CI",
+  "source_file": ".github/workflows/codebuild-ci.yml",
+  "source_repo": "aws/aws-tools-for-powershell",
+  "source_repo_description": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment."
+}

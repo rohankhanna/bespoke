@@ -19,6 +19,18 @@
       "source_repo": "rapidsai/cugraph",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate-context",
+      "text": "Always sparse. Never dense. But never say never. A Sparse Training repository for the Adaptive Sparse Connectivity concept and its algorithmic instantiation, i.e. Sparse Evolutionary Training, to boost Deep Learning scalability on various aspects (e.g. memory and computational time efficiency, representation and generalization power)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate-context",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rapidsai/cugraph",
       "status": "candidate",
       "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

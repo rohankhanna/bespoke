@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Dominate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.  It allows you to write HTML pages in pure Python very concisely, which eliminate the need to learn another template language, and to take advantage of the more powerful features of Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate-context",
+      "text": "Dominate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Knio/dominate",
+      "status": "candidate",
+      "text": "Dominate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030952,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030841,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028460,
+      "status": "candidate",
+      "text": "predominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027907,
+      "status": "candidate",
+      "text": "prevail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026312,
+      "status": "candidate",
+      "text": "rule"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34049,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "prevail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "overlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24076,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18066,
+      "status": "candidate",
+      "text": "rule"
+    }
+  ],
+  "canonical_name": "Dominate",
+  "concept_id": "dominate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Knio/dominate"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dominate",
+      "sense_id": "dominate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

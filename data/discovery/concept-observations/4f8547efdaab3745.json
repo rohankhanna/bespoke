@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official pytorch repository for \"QD-DETR : Query-Dependent Video Representation for Moment Retrieval and Highlight Detection\" (CVPR 2023 Paper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "by"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "by"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-summarization",
+      "sense_id": "video-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-summarization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-summarization",
+  "observation_id": "4f8547efdaab3745",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "video-summarization",
+  "source_context_snippet": "by",
+  "source_file": null,
+  "source_repo": "wjun0830/QD-DETR",
+  "source_repo_description": "Official pytorch repository for \"QD-DETR : Query-Dependent Video Representation for Moment Retrieval and Highlight Detection\" (CVPR 2023 Paper)"
+}

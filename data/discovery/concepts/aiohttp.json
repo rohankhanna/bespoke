@@ -31,6 +31,18 @@
       "source_repo": "aio-libs/aiohttp-demos",
       "status": "candidate-context",
       "text": "============="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aio-libs/aiohttp-demos",
       "status": "candidate",
       "text": "============="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "aio-libs/aiohttp-demos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

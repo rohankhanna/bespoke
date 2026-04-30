@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:01:11.214879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Human preference data for \"Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback\"",
+    "fork": false,
+    "full_name": "anthropics/hh-rlhf",
+    "html_url": "https://github.com/anthropics/hh-rlhf",
+    "language": null,
+    "pushed_at": "2025-06-17T15:43:37Z",
+    "stargazers_count": 1840,
+    "topics": [],
+    "updated_at": "2026-04-22T06:44:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

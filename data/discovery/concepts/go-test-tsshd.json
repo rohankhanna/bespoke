@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go test tsshd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/tsshd",
+      "status": "candidate-context",
+      "text": "tsshd is a UDP-based SSH server built for unreliable networks. It supports seamless roaming across networks and IP changes, and works well on high-latency links such as cellular connections and unstable Wi-Fi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/tsshd",
+      "status": "candidate-context",
+      "text": "Go test tsshd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/tsshd",
+      "status": "candidate",
+      "text": "Go test tsshd"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30672,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29472,
+      "status": "candidate",
+      "text": "passed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28210,
+      "status": "candidate",
+      "text": "make it"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11872,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11872,
+      "status": "candidate",
+      "text": "age"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go test tsshd",
+  "concept_id": "go-test-tsshd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/tsshd"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go test tsshd",
+      "sense_id": "go-test-tsshd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

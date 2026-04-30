@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfanto/fzf-lsp.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfanto/fzf-lsp.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gfanto/fzf-lsp.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:57.778713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enable the power of fzf fuzzy search for the neovim built in lsp",
+    "fork": false,
+    "full_name": "gfanto/fzf-lsp.nvim",
+    "html_url": "https://github.com/gfanto/fzf-lsp.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-08-07T03:57:52Z",
+    "stargazers_count": 239,
+    "topics": [
+      "fzf",
+      "lsp",
+      "neovim",
+      "neovim-lua",
+      "nvim",
+      "vim"
+    ],
+    "updated_at": "2026-03-14T13:38:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Show document symbols](https://raw.githubusercontent.com/gfanto/fzf-lsp.nvim/main/.github/images/example.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![Show document symbols](https://raw.githubusercontent.com/gfanto/fzf-lsp.nvim/main/.github/images/example.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "![Show document symbols](https://raw.githubusercontent.com/gfanto/fzf-lsp.nvim/main/.github/images/example.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:01:12.127787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5566
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 554
+    },
+    {
+      "path": "requirements.txt",
+      "size": 317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accelerating MoE with IO and Tile-aware Optimizations",
+    "fork": false,
+    "full_name": "Dao-AILab/sonic-moe",
+    "html_url": "https://github.com/Dao-AILab/sonic-moe",
+    "language": "Python",
+    "pushed_at": "2026-04-30T06:06:48Z",
+    "stargazers_count": 664,
+    "topics": [],
+    "updated_at": "2026-04-30T05:51:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

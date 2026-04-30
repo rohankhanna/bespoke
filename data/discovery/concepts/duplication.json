@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "duplication"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "Convert Machine Learning Code Between Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "duplication"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate",
+      "text": "duplication"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018346,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020580,
+      "status": "candidate",
+      "text": "duplicating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020579,
+      "status": "candidate",
+      "text": "replica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020521,
+      "status": "candidate",
+      "text": "duplicative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020329,
+      "status": "candidate",
+      "text": "copy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "duplicating"
+    }
+  ],
+  "canonical_name": "duplication",
+  "concept_id": "duplication",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/duplication.yml",
+      "source_repo": "unifyai/ivy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "duplication",
+      "sense_id": "duplication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

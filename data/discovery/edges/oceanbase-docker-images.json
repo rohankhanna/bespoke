@@ -1,0 +1,300 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "helm/chart-releaser-action@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "Release Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-latest-lts-oceanbase-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release latest lts oceanbase-ce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-lts-oceanbase-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release lts oceanbase-ce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-ob-configserver.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release ob-configserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-obagent.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release obagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-obbinlog-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release obbinlog-ce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-obproxy-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release obproxy-ce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-oceanbase-ce.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release oceanbase-ce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-oceanbase-cloud-native.yml",
+      "source_repo": "oceanbase/docker-images",
+      "target": "release oceanbase-cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/docker-images",
+      "target": "oceanbase",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "oceanbase/docker-images"
+}

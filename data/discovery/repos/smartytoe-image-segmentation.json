@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:14:55.816591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image segmentation",
+    "fork": false,
+    "full_name": "SmartyToe/Image-segmentation",
+    "html_url": "https://github.com/SmartyToe/Image-segmentation",
+    "language": "Swift",
+    "pushed_at": "2021-06-13T10:06:53Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-02-13T11:35:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -103,6 +103,42 @@
       "source_repo": "peter-evans/enable-pull-request-automerge",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "A Github Action to install the current Vulkan SDK and runtime library. It also supports installing SwiftShader and Lavapipe software rasterizers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/install-vulkan-sdk-action.svg?style=flat-square)](https://github.com/jakoch/install-vulkan-sdk-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to run Bandit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate-context",
+      "text": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA)."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "peter-evans/enable-pull-request-automerge",
       "status": "candidate",
       "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/install-vulkan-sdk-action.svg?style=flat-square)](https://github.com/jakoch/install-vulkan-sdk-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate",
+      "text": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA)."
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +268,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "peter-evans/enable-pull-request-automerge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

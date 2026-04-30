@@ -1,0 +1,12 @@
+{
+  "component": "nelonoel/branch-name@1ea5c86cb559a8c4e623da7f188496208232e49f",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-netlify.yml",
+      "source_repo": "electron-userland/electron-builder"
+    }
+  ]
+}

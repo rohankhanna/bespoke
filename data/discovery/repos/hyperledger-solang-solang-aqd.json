@@ -43,13 +43,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "hyperledger-solang/solang-aqd",
-      "target": "rustcrypto/aeads",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "hyperledger-solang/solang-aqd",
       "target": "solana-labs/curve25519-dalek",
       "target_type": "repository"
     },
@@ -82,7 +75,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:48:33.655005+00:00",
+  "fetched_at": "2026-04-30T09:15:59.173149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -116,11 +109,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "hyperledger/solang-aqd",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rustcrypto/aeads",
-      "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",

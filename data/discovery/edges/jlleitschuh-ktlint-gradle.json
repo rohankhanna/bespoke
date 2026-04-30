@@ -1,0 +1,349 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "al-cheb/configure-pagefile-action@9b6da52fb72a3c6147c1aad2df22d8d905681adc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "Build and check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-release.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-release.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-release.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "New plugin release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submit-dependency-graph.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submit-dependency-graph.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submit-dependency-graph.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "Download and submit dependency graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "thomaseizinger/keep-a-changelog-new-release@f62c3c390716df5af712ba5d94f4f4a8efc1306d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "Trigger Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "gradle-script-kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "ktlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "target": "linting",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "JLLeitschuh/ktlint-gradle"
+}

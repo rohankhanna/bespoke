@@ -48,7 +48,7 @@
   "normalized_form": "compliance-close",
   "observation_id": "98803e2e51720780",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "compliance-close",
   "source_context_snippet": "compliance-close",
   "source_file": ".github/workflows/compliance-close.yml",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Newbeeer/stf",
+      "target": "nvlabs/stylegan3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:36.771531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11257
+    },
+    {
+      "path": "Dockerfile",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for ICLR 2023 Paper, \"Stable Target Field for Reduced Variance Score Estimation in Diffusion Models\u201d",
+    "fork": false,
+    "full_name": "Newbeeer/stf",
+    "html_url": "https://github.com/Newbeeer/stf",
+    "language": "Python",
+    "pushed_at": "2023-06-06T15:43:25Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2025-05-13T21:50:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/stylegan3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

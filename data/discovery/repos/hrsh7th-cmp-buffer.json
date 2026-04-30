@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-buffer",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:23.107672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nvim-cmp source for buffer words",
+    "fork": false,
+    "full_name": "hrsh7th/cmp-buffer",
+    "html_url": "https://github.com/hrsh7th/cmp-buffer",
+    "language": "Lua",
+    "pushed_at": "2025-04-01T08:46:29Z",
+    "stargazers_count": 669,
+    "topics": [
+      "nvim-cmp"
+    ],
+    "updated_at": "2026-04-26T16:01:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "nvim-cmp source for buffer words.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

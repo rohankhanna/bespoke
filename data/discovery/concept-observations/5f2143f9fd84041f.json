@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross platform (cljs and clj) utilities for testing re-frame applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008578,
+      "status": "candidate",
+      "text": "reframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008577,
+      "status": "candidate",
+      "text": "reencode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008576,
+      "status": "candidate",
+      "text": "reexplain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008575,
+      "status": "candidate",
+      "text": "reexamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008574,
+      "status": "candidate",
+      "text": "reconceptualise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "re-frame",
+      "sense_id": "re-frame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "re-frame",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "re-frame",
+  "observation_id": "5f2143f9fd84041f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "re-frame",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "day8/re-frame-test",
+  "source_repo_description": "Cross platform (cljs and clj) utilities for testing re-frame applications"
+}

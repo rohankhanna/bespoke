@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "stardust-sjf/cuvs_rabitq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "tensorchord/vectorchord",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "cockroachdb/cockroach",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "elastic/elasticsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:13:58.945947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An official lightweight library for the RaBitQ algorithm and its applications in vector search.",
+    "fork": false,
+    "full_name": "VectorDB-NTU/RaBitQ-Library",
+    "html_url": "https://github.com/VectorDB-NTU/RaBitQ-Library",
+    "language": "C++",
+    "pushed_at": "2026-04-25T09:04:24Z",
+    "stargazers_count": 198,
+    "topics": [
+      "nearest-neighbor-search",
+      "quantization",
+      "vector-database",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-29T03:27:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cockroachdb/cockroach",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/elasticsearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stardust-sjf/cuvs_rabitq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorchord/vectorchord",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

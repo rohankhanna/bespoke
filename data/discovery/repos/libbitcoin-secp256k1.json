@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:29:42.420288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eliptic Curve Library with MSVC build",
+    "fork": true,
+    "full_name": "libbitcoin/secp256k1",
+    "html_url": "https://github.com/libbitcoin/secp256k1",
+    "language": "C",
+    "pushed_at": "2025-03-09T15:53:52Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-11-18T11:38:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

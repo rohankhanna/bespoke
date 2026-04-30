@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "smartcard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate-context",
+      "text": "Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate-context",
+      "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate",
+      "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019724,
+      "status": "candidate",
+      "text": "swipe card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019723,
+      "status": "candidate",
+      "text": "key card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019722,
+      "status": "candidate",
+      "text": "punchcard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019721,
+      "status": "candidate",
+      "text": "sportscard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019720,
+      "status": "candidate",
+      "text": "charge card"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "smartcard",
+  "concept_id": "smartcard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smartcard",
+      "sense_id": "smartcard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

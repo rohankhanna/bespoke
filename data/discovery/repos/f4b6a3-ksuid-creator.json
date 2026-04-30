@@ -1,0 +1,180 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "f4b6a3/uuid-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "f4b6a3/ulid-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "f4b6a3/tsid-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "id-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "identifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "ksuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "primary-key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "unique-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:09.832835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Java implementation of K-Sortable Unique Identifiers (KSUID).",
+    "fork": false,
+    "full_name": "f4b6a3/ksuid-creator",
+    "html_url": "https://github.com/f4b6a3/ksuid-creator",
+    "language": "Java",
+    "pushed_at": "2025-03-30T18:54:22Z",
+    "stargazers_count": 33,
+    "topics": [
+      "flake",
+      "id",
+      "id-generator",
+      "identifier",
+      "java",
+      "ksuid",
+      "primary-key",
+      "unique-id",
+      "uuid"
+    ],
+    "updated_at": "2026-04-28T09:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4b6a3/tsid-creator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4b6a3/ulid-creator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4b6a3/uuid-creator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "id-generator"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identifier"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ksuid"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "primary-key"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unique-id"
+    },
+    {
+      "context_snippet": "KSUID Creator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

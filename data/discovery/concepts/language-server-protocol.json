@@ -415,6 +415,30 @@
       "source_repo": "ebkalderon/tower-lsp",
       "status": "candidate-context",
       "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "Kakoune Language Server Protocol Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/copilot-language-server-release",
+      "status": "candidate-context",
+      "text": "Feedback for the GitHub Copilot Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/copilot-language-server-release",
+      "status": "candidate-context",
+      "text": "The Copilot Language Server enables any editor or IDE to integrate with GitHub"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +645,18 @@
       "source_repo": "ebkalderon/tower-lsp",
       "status": "candidate",
       "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/copilot-language-server-release",
+      "status": "candidate",
+      "text": "The Copilot Language Server enables any editor or IDE to integrate with GitHub"
     }
   ],
   "candidate_related_terms": [],
@@ -1018,11 +1054,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "github/copilot-language-server-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/broadway",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "broadway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "concurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "data-ingestion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "data-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway",
+      "target": "genstage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:30.392922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4268
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Concurrent and multi-stage data ingestion and data processing with Elixir",
+    "fork": false,
+    "full_name": "dashbitco/broadway",
+    "html_url": "https://github.com/dashbitco/broadway",
+    "language": "Elixir",
+    "pushed_at": "2026-04-17T06:55:38Z",
+    "stargazers_count": 2643,
+    "topics": [
+      "broadway",
+      "concurrent",
+      "data-ingestion",
+      "data-processing",
+      "elixir",
+      "genstage"
+    ],
+    "updated_at": "2026-04-30T05:12:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "broadway"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrent"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-ingestion"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-processing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genstage"
+    }
+  ]
+}

@@ -103,6 +103,54 @@
       "source_repo": "codota/tabnine-vim",
       "status": "candidate-context",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "llama and other  large language models on iOS and MacOS offline using GGML library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion\ud83d\udd25] [scaling laws in visual generation\ud83d\udcc8] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate-context",
+      "text": "Large-scale pretraining for dialogue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate-context",
+      "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "codota/tabnine-vim",
       "status": "candidate",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guillaume-be/rust-bert",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/guillaume-be/rust-bert/workflows/Build/badge.svg?event=push)](https://github.com/guillaume-be/rust-bert/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guinmoon/LLMFarm",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DialoGPT",
+      "status": "candidate",
+      "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +340,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guillaume-be/rust-bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/VAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DialoGPT"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

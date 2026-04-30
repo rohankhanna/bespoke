@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeetKai/functionary",
+      "target": "nexusflowai/nexusraven",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeetKai/functionary",
+      "target": "shishirpatil/gorilla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeetKai/functionary",
+      "target": "rgbkrk/chatlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "MeetKai/functionary",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "MeetKai/functionary",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeetKai/functionary",
+      "target": "function-calling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:34.947541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33485
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chat language model that can use tools and interpret the results",
+    "fork": false,
+    "full_name": "MeetKai/functionary",
+    "html_url": "https://github.com/MeetKai/functionary",
+    "language": "Python",
+    "pushed_at": "2025-12-03T13:34:53Z",
+    "stargazers_count": 1594,
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "function-calling",
+      "llm",
+      "ml",
+      "python"
+    ],
+    "updated_at": "2026-04-06T07:21:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nexusflowai/nexusraven",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgbkrk/chatlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shishirpatil/gorilla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://meetkai.com/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-calling"
+    }
+  ]
+}

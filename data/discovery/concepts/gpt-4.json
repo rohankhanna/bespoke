@@ -397,6 +397,42 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate-context",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "OpenAI API + Ruby! \ud83e\udd16\u2764\ufe0f GPT-5 & Realtime WebRTC compatible!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "caching proxy for OpenAI API, deployable as a Cloudflare Worker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -597,6 +633,24 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -898,11 +952,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tianyi-lab/HallusionBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "alexrudall/ruby-openai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "6/openai-caching-proxy-worker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. Try it. Test it. If you feel it's better, use it! \ud835\udc09\ud835\udc1a\ud835\udc2f\ud835\udc1a\u6709\ud835\udc1d\ud835\udc2e\ud835\udc1b\ud835\udc1b\ud835\udc28, \ud835\udc06\ud835\udc28\ud835\udc25\ud835\udc1a\ud835\udc27\ud835\udc20\u6709\ud835\udc2b\ud835\udc29\ud835\udc1c\ud835\udc31! build for cloud!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- **stable branch**: v1.7.x"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- **stable branch**: v1.7.x"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grpc",
+      "sense_id": "grpc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grpc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grpc",
+  "observation_id": "c2b5adf1f7d20772",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "grpc",
+  "source_context_snippet": "- **stable branch**: v1.7.x",
+  "source_file": null,
+  "source_repo": "smallnest/rpcx",
+  "source_repo_description": "Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. Try it. Test it. If you feel it's better, use it! \ud835\udc09\ud835\udc1a\ud835\udc2f\ud835\udc1a\u6709\ud835\udc1d\ud835\udc2e\ud835\udc1b\ud835\udc1b\ud835\udc28, \ud835\udc06\ud835\udc28\ud835\udc25\ud835\udc1a\ud835\udc27\ud835\udc20\u6709\ud835\udc2b\ud835\udc29\ud835\udc1c\ud835\udc31! build for cloud!"
+}

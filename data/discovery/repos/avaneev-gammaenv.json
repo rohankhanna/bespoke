@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/gammaenv",
+      "target": "envelope-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/gammaenv",
+      "target": "low-pass-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:32.733202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DSP S-curve envelope signal generator/low-pass filter C++",
+    "fork": false,
+    "full_name": "avaneev/gammaenv",
+    "html_url": "https://github.com/avaneev/gammaenv",
+    "language": "C++",
+    "pushed_at": "2021-10-04T13:21:09Z",
+    "stargazers_count": 29,
+    "topics": [
+      "dsp",
+      "envelope-generator",
+      "low-pass-filter"
+    ],
+    "updated_at": "2025-12-19T08:47:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"gammaenv\" produces smoothed-out S-curve envelope signal with the specified",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envelope-generator"
+    },
+    {
+      "context_snippet": "\"gammaenv\" produces smoothed-out S-curve envelope signal with the specified",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-pass-filter"
+    }
+  ]
+}

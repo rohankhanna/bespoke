@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set up your GitHub Actions workflow with a specific version of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Publish Immutable Action Version'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Publish Immutable Action Version'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34499,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34218,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34196,
+      "status": "candidate",
+      "text": "discretionary account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34196,
+      "status": "candidate",
+      "text": "normalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34196,
+      "status": "candidate",
+      "text": "spank"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Immutable Action Version",
+      "sense_id": "publish-immutable-action-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-immutable-action-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-immutable-action-version",
+  "observation_id": "79fed5368cd63222",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Publish Immutable Action Version",
+  "source_context_snippet": "'Publish Immutable Action Version'",
+  "source_file": ".github/workflows/publish-immutable-actions.yml",
+  "source_repo": "actions/setup-python",
+  "source_repo_description": "Set up your GitHub Actions workflow with a specific version of Python"
+}

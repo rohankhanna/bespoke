@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk",
+      "target": "directory-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk",
+      "target": "symbolic-links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk",
+      "target": "unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karrick/godirwalk",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:43.773435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15522
+    },
+    {
+      "path": "go.mod",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast directory traversal for Golang",
+    "fork": false,
+    "full_name": "karrick/godirwalk",
+    "html_url": "https://github.com/karrick/godirwalk",
+    "language": "Go",
+    "pushed_at": "2023-04-26T14:25:28Z",
+    "stargazers_count": 726,
+    "topics": [
+      "directory-tree",
+      "golang-library",
+      "symbolic-links",
+      "unix",
+      "windows"
+    ],
+    "updated_at": "2026-04-15T21:44:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`godirwalk` is a library for traversing a directory tree on a file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directory-tree"
+    },
+    {
+      "context_snippet": "`godirwalk` is a library for traversing a directory tree on a file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "`godirwalk` is a library for traversing a directory tree on a file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbolic-links"
+    },
+    {
+      "context_snippet": "`godirwalk` is a library for traversing a directory tree on a file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    },
+    {
+      "context_snippet": "`godirwalk` is a library for traversing a directory tree on a file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

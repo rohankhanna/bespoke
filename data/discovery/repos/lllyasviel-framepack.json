@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:09.636117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16558
+    },
+    {
+      "path": "requirements.txt",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lets make video diffusion practical!",
+    "fork": false,
+    "full_name": "lllyasviel/FramePack",
+    "html_url": "https://github.com/lllyasviel/FramePack",
+    "language": "Python",
+    "pushed_at": "2025-10-16T01:28:50Z",
+    "stargazers_count": 16767,
+    "topics": [],
+    "updated_at": "2026-04-30T05:29:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

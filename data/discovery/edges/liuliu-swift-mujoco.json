@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "liuliu/s4nnc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "macos-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "macos-spm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-bazel.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "ubuntu-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-spm.yaml",
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "ubuntu-spm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuliu/swift-mujoco",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "liuliu/swift-mujoco"
+}

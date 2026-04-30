@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/sysv_ipc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/sysv_ipc",
+      "target": "pypa/cibuildwheel@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/sysv_ipc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/sysv_ipc",
+      "target": "Build and test wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:56.574171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1560
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/build-wheels.yaml",
+      "size": 874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "osvenskan/sysv_ipc",
+    "html_url": "https://github.com/osvenskan/sysv_ipc",
+    "language": "C",
+    "pushed_at": "2026-01-12T13:02:53Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-02-12T06:59:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "term": "Build and test wheels"
+    }
+  ]
+}

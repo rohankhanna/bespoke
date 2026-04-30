@@ -79,6 +79,42 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate-context",
+      "text": "Based on sharp.js, compress your image before vite generate bundle. It's easy and fast! \u57fa\u4e8esharp.js\u7684vite\u56fe\u7247\u538b\u7f29\u63d2\u4ef6\uff0c\u53c8\u5feb\u53c8\u597d\u7528\uff01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate-context",
+      "text": "**English** | [\u4e2d\u6587](README.CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "60late/vite-plugin-minipic",
+      "status": "candidate",
+      "text": "**English** | [\u4e2d\u6587](README.CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/compressorjs-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/image-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "60late/vite-plugin-minipic"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

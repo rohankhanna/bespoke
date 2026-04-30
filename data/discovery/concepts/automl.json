@@ -79,6 +79,30 @@
       "source_repo": "google/automl",
       "status": "candidate-context",
       "text": "This repository contains a list of AutoML related models and libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "Automated Machine Learning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/eps",
+      "status": "candidate-context",
+      "text": "Machine learning for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/eps",
+      "status": "candidate-context",
+      "text": "Machine learning for Ruby"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "google/automl",
       "status": "candidate",
       "text": "This repository contains a list of AutoML related models and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/katib",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml/badge.svg?branch=master)](https://github.com/kubeflow/katib/actions/workflows/test-go.yaml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/eps",
+      "status": "candidate",
+      "text": "Machine learning for Ruby"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/automl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kubeflow/katib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/eps"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

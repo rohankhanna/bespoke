@@ -19,6 +19,18 @@
       "source_repo": "githubharald/CTCDecoder",
       "status": "candidate-context",
       "text": "**Update 2021: installable Python package**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate-context",
+      "text": "Combine Baidu Research warpctc with Caffe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate-context",
+      "text": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "githubharald/CTCDecoder",
       "status": "candidate",
       "text": "**Update 2021: installable Python package**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmfbit/warpctc-caffe",
+      "status": "candidate",
+      "text": "CTC Loss is used in sequence learning. The repo merges WarpCTC which is implmented and maintained by Baidu Research into Caffe."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "githubharald/CTCDecoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xmfbit/warpctc-caffe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

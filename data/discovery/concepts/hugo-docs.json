@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "hugo-docs"
+    "hugo-docs",
+    "Hugo Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "gohugoio/hugoDocs",
       "status": "candidate-context",
       "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Hugo Docs"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "gohugoio/hugoDocs",
       "status": "candidate",
       "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate",
+      "text": "Hugo Docs"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10688,
+      "status": "candidate",
+      "text": "victor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "cesar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10563,
+      "status": "candidate",
+      "text": "delacroix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "anne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "jean"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "hugo-docs",
   "concept_id": "hugo-docs",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "gohugoio/hugoDocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "envoyproxy/gateway"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

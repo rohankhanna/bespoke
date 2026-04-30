@@ -70,6 +70,18 @@
       "source_repo": "r-lib/remotes",
       "status": "candidate-context",
       "text": "Commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/devtools",
+      "status": "candidate-context",
+      "text": "Tools to make an R developer's life easier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/devtools",
+      "status": "candidate-context",
+      "text": "Commands"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-lib/remotes",
+      "status": "candidate",
+      "text": "Commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/devtools",
       "status": "candidate",
       "text": "Commands"
     }
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr-commands.yaml",
       "source_repo": "r-lib/remotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/devtools"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

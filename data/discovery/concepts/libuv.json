@@ -19,6 +19,18 @@
       "source_repo": "MagicStack/uvloop",
       "status": "candidate-context",
       "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "Bare libuv bindings for lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "luv"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MagicStack/uvloop",
       "status": "candidate",
       "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate",
+      "text": "luv"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "MagicStack/uvloop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "luvit/luv"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

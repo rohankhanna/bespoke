@@ -1,7 +1,7 @@
 {
   "component": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automation.yml",
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "LavaMoat/LavaMoat"
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "microsoft/gsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "isocpp/CppCoreGuidelines",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:58.367391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4135
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/jekyll-gh-pages.yml",
+      "size": 1411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++",
+    "fork": false,
+    "full_name": "isocpp/CppCoreGuidelines",
+    "html_url": "https://github.com/isocpp/CppCoreGuidelines",
+    "language": "CSS",
+    "pushed_at": "2026-04-16T19:07:57Z",
+    "stargazers_count": 44933,
+    "topics": [],
+    "updated_at": "2026-04-30T04:25:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/gsl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

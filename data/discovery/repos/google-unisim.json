@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "isort/isort-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/unisim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/unisim",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/unisim",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/unisim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/unisim",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/unisim",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/unisim",
+      "target": "isort/isort-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/unisim",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "fuzzy-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "tensorflow2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/unisim",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:16.552079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9271
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 63
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  ",
+    "fork": false,
+    "full_name": "google/unisim",
+    "html_url": "https://github.com/google/unisim",
+    "language": "Python",
+    "pushed_at": "2025-04-04T05:24:18Z",
+    "stargazers_count": 147,
+    "topics": [
+      "deduplication",
+      "fuzzy-matching",
+      "nlp",
+      "onnx",
+      "similarity",
+      "tensorflow2",
+      "vector-search"
+    ],
+    "updated_at": "2026-03-10T14:37:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deduplication"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-matching"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    },
+    {
+      "context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

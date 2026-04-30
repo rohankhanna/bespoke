@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Quarto Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Inspect: A framework for large language model evaluations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Quarto Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate",
+      "text": "Quarto Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13175,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12511,
+      "status": "candidate",
+      "text": "folio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12154,
+      "status": "candidate",
+      "text": "demy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12154,
+      "status": "candidate",
+      "text": "foolscap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12154,
+      "status": "candidate",
+      "text": "imperial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Quarto Publish",
+  "concept_id": "quarto-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quarto Publish",
+      "sense_id": "quarto-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

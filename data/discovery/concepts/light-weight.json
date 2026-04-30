@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "light-weight"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e A simple, tiny and lightweight benchmarking library!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008472,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005562,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002724,
+      "status": "candidate",
+      "text": "sparse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999070,
+      "status": "candidate",
+      "text": "slight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994923,
+      "status": "candidate",
+      "text": "minor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "light-weight",
+  "concept_id": "light-weight",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinylibs/tinybench"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "light-weight",
+      "sense_id": "light-weight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

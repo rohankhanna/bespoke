@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "machine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024450,
+      "status": "candidate",
+      "text": "simple machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017022,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005290,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005152,
+      "status": "candidate",
+      "text": "motorcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002909,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6065,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6044,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "motorcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "simple machine"
+    }
+  ],
+  "canonical_name": "machine",
+  "concept_id": "machine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine",
+      "sense_id": "machine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

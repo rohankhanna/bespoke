@@ -1,0 +1,12 @@
+{
+  "component": "myci-actions/add-deb-repo@10",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "zeromq/libzmq"
+    }
+  ]
+}

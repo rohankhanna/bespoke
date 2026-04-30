@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "64bit/async-openai",
+      "target": "ifsheldon/async-openai-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "64bit/async-openai",
+      "target": "frankfralick/openai-func-enums",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "source_repo": "64bit/async-openai",
+      "target": "WASM PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "64bit/async-openai",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:10:27.085492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9280
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/pr-checks.yml",
+      "size": 2826
+    },
+    {
+      "path": ".github/workflows/wasm-pr-checks.yml",
+      "size": 2707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust library for OpenAI ",
+    "fork": false,
+    "full_name": "64bit/async-openai",
+    "html_url": "https://github.com/64bit/async-openai",
+    "language": "Rust",
+    "pushed_at": "2026-04-26T19:36:16Z",
+    "stargazers_count": 1862,
+    "topics": [
+      "openai",
+      "rust"
+    ],
+    "updated_at": "2026-04-30T05:03:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frankfralick/openai-func-enums",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifsheldon/async-openai-wasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "WASM PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm-pr-checks.yml",
+      "term": "WASM PR Checks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

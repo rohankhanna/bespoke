@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "target": "figwheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "target": "flappy-bird",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:16.828171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the original Flappy Bird Demo updated to use the latest incarnation of Figwheel.",
+    "fork": false,
+    "full_name": "bhauman/flappy-bird-demo-new",
+    "html_url": "https://github.com/bhauman/flappy-bird-demo-new",
+    "language": "Clojure",
+    "pushed_at": "2025-01-13T22:24:34Z",
+    "stargazers_count": 26,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "demo",
+      "figwheel",
+      "flappy-bird"
+    ],
+    "updated_at": "2025-01-13T22:24:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the original Flappy Bird Demo updated to use the newer versions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "This is the original Flappy Bird Demo updated to use the newer versions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "This is the original Flappy Bird Demo updated to use the newer versions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This is the original Flappy Bird Demo updated to use the newer versions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "figwheel"
+    },
+    {
+      "context_snippet": "This is the original Flappy Bird Demo updated to use the newer versions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flappy-bird"
+    }
+  ]
+}

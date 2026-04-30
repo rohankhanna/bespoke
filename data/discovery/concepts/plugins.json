@@ -163,6 +163,30 @@
       "source_repo": "hyper-mcp-rs/arxiv-plugin",
       "status": "candidate-context",
       "text": "A plugin that let you search for papers on arXiv and download them."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate-context",
+      "text": "Extism Java Host SDK enables Java programs to embed and run WebAssembly plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "A curated list of awesome things related to Rstack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "hyper-mcp-rs/arxiv-plugin",
       "status": "candidate",
       "text": "A plugin that let you search for papers on arXiv and download them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/java-sdk",
+      "status": "candidate",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +454,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "extism/java-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/awesome-rstack"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

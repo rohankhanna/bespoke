@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el",
+      "target": "fuzzy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:07.482534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fuzzy matching utilities for GNU Emacs",
+    "fork": false,
+    "full_name": "auto-complete/fuzzy-el",
+    "html_url": "https://github.com/auto-complete/fuzzy-el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-31T16:22:40Z",
+    "stargazers_count": 55,
+    "topics": [
+      "emacs",
+      "emacs-lisp",
+      "fuzzy"
+    ],
+    "updated_at": "2025-12-31T16:22:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    }
+  ]
+}

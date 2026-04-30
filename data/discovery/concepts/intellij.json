@@ -55,6 +55,18 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate-context",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marcoieni/intellimacs",
+      "status": "candidate-context",
+      "text": "Spacemacs' like key bindings for IntelliJ platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcoieni/intellimacs",
+      "status": "candidate-context",
+      "text": "Spacemacs' like key bindings for IntelliJ platform."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcoieni/intellimacs",
+      "status": "candidate",
+      "text": "Spacemacs' like key bindings for IntelliJ platform."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "marcoieni/intellimacs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

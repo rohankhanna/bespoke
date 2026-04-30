@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "hazelcast/hazelcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "batch-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "event-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "low-latency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:05.400398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Distributed Stream and Batch Processing",
+    "fork": false,
+    "full_name": "hazelcast/hazelcast-jet",
+    "html_url": "https://github.com/hazelcast/hazelcast-jet",
+    "language": "Java",
+    "pushed_at": "2024-12-19T11:55:10Z",
+    "stargazers_count": 1112,
+    "topics": [
+      "batch-processing",
+      "big-data",
+      "cdc",
+      "event-processing",
+      "hacktoberfest",
+      "java",
+      "kafka",
+      "low-latency",
+      "stream-processing"
+    ],
+    "updated_at": "2026-04-24T09:39:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazelcast/hazelcast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batch-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-latency"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    }
+  ]
+}

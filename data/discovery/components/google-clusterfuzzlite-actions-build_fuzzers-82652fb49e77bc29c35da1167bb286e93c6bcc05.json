@@ -1,0 +1,17 @@
+{
+  "component": "google/clusterfuzzlite/actions/build_fuzzers@82652fb49e77bc29c35da1167bb286e93c6bcc05",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cflite_build.yml",
+      "source_repo": "r-lib/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "r-lib/actions"
+    }
+  ]
+}

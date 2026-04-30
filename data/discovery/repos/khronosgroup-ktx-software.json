@@ -172,13 +172,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "KhronosGroup/KTX-Software",
-      "target": "khronosgroup/ktx-software-cts",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "KhronosGroup/KTX-Software",
@@ -445,7 +438,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:56:43.013629+00:00",
+  "fetched_at": "2026-04-30T10:31:03.466007+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -497,7 +490,7 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-04-25T13:02:39Z",
+    "pushed_at": "2026-04-30T05:34:45Z",
     "stargazers_count": 1239,
     "topics": [
       "ktx",
@@ -516,11 +509,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "khronosgroup/ktx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "khronosgroup/ktx-software-cts",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High performance gradient boosting for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xgboost",
+      "sense_id": "xgboost#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xgboost",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xgboost",
+  "observation_id": "8c7fc3fd4b3cb3c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "xgboost",
+  "source_context_snippet": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby",
+  "source_file": null,
+  "source_repo": "ankane/xgboost-ruby",
+  "source_repo_description": "High performance gradient boosting for Ruby"
+}

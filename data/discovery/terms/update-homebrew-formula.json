@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/bump-homebrew-formula.yml",
       "source_repo": "git-friendly/git-friendly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "A2-ai/rv"
     }
   ],
   "term": "Update Homebrew Formula"

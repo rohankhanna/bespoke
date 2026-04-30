@@ -1,7 +1,8 @@
 {
   "aliases": [
     "examples",
-    "Examples"
+    "Examples",
+    "Examples \ud83d\udcd5"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -346,6 +347,54 @@
       "source_repo": "cloudwego/kitex-examples",
       "status": "candidate-context",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "Macro-oriented asynchronous web-framework written in Nim with \u2665"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "Examples \ud83d\udcd5"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/devenv",
+      "status": "candidate-context",
+      "text": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/devenv",
+      "status": "candidate-context",
+      "text": "\"Examples\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madsim-rs/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madsim-rs/sqlx",
+      "status": "candidate-context",
+      "text": "Examples"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +565,30 @@
       "source_repo": "cloudwego/kitex-examples",
       "status": "candidate",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate",
+      "text": "Examples \ud83d\udcd5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/devenv",
+      "status": "candidate",
+      "text": "\"Examples\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madsim-rs/sqlx",
+      "status": "candidate",
+      "text": "Examples"
     }
   ],
   "candidate_related_terms": [
@@ -553,6 +626,41 @@
       "score": 10040085,
       "status": "candidate",
       "text": "illustration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "cases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "example"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "experiences"
     }
   ],
   "candidate_synonyms": [],
@@ -775,11 +883,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "cloudwego/kitex-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "HapticX/happyx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cachix/devenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "madsim-rs/sqlx"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007084,
+      "status": "candidate",
+      "text": "deduplicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007083,
+      "status": "candidate",
+      "text": "deep copy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007082,
+      "status": "candidate",
+      "text": "autodeletion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007081,
+      "status": "candidate",
+      "text": "self-deletion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007080,
+      "status": "candidate",
+      "text": "replication"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deduplication",
+      "sense_id": "deduplication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deduplication",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deduplication",
+  "observation_id": "e52cd884856331ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "deduplication",
+  "source_context_snippet": "_NOTE (4/3/2025): This repository has been archived and no longer actively maintained._",
+  "source_file": null,
+  "source_repo": "google/unisim",
+  "source_repo_description": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  "
+}

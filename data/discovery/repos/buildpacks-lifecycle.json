@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "CycloneDX/gh-gomod-generate-sbom@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "azure/docker-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "anchore/scan-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml"
+    },
+    {
+      "component": "anchore/scan-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml"
+    },
+    {
+      "component": "azure/docker-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-s390x.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@v1.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-s390x.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "buildpacks/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "CycloneDX/gh-gomod-generate-sbom@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "azure/docker-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "anchore/scan-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "anchore/scan-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "check-latest-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "draft-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "azure/docker-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "post-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-s390x.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-s390x.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "appleboy/ssh-action@v1.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-s390x.yml",
+      "source_repo": "buildpacks/lifecycle",
+      "target": "test-s390x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildpacks/lifecycle",
+      "target": "buildpacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildpacks/lifecycle",
+      "target": "cloud-native-buildpacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buildpacks/lifecycle",
+      "target": "cncf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:41.706155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6981
+    },
+    {
+      "path": "go.mod",
+      "size": 16308
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8976
+    },
+    {
+      "path": ".github/workflows/check-latest-release.yml",
+      "size": 4923
+    },
+    {
+      "path": ".github/workflows/draft-release.yml",
+      "size": 8401
+    },
+    {
+      "path": ".github/workflows/post-release.yml",
+      "size": 8104
+    },
+    {
+      "path": ".github/workflows/test-s390x.yml",
+      "size": 3657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference implementation of the Cloud Native Buildpacks lifecycle",
+    "fork": false,
+    "full_name": "buildpacks/lifecycle",
+    "html_url": "https://github.com/buildpacks/lifecycle",
+    "language": "Go",
+    "pushed_at": "2026-04-29T20:26:50Z",
+    "stargazers_count": 206,
+    "topics": [
+      "buildpacks",
+      "cloud-native-buildpacks",
+      "cncf"
+    ],
+    "updated_at": "2026-04-29T20:26:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildpacks/spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "check-latest-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-latest-release.yml",
+      "term": "check-latest-release"
+    },
+    {
+      "context_snippet": "draft-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "term": "draft-release"
+    },
+    {
+      "context_snippet": "post-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-release.yml",
+      "term": "post-release"
+    },
+    {
+      "context_snippet": "test-s390x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-s390x.yml",
+      "term": "test-s390x"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildpacks"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native-buildpacks"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/buildpacks/lifecycle/workflows/build/badge.svg)](https://github.com/buildpacks/lifecycle/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    }
+  ]
+}

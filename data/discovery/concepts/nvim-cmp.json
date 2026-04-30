@@ -103,6 +103,18 @@
       "source_repo": "hrsh7th/cmp-cmdline",
       "status": "candidate-context",
       "text": "nvim-cmp source for vim's cmdline."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/cmp-buffer",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for buffer words"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-buffer",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for buffer words."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "hrsh7th/cmp-cmdline",
       "status": "candidate",
       "text": "nvim-cmp source for vim's cmdline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-buffer",
+      "status": "candidate",
+      "text": "nvim-cmp source for buffer words."
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hrsh7th/cmp-cmdline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-buffer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "Build with make",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "fribidi/fribidi",
+      "target": "Build with meson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:39.765585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6269
+    },
+    {
+      "path": ".github/workflows/make.yml",
+      "size": 960
+    },
+    {
+      "path": ".github/workflows/meson.yml",
+      "size": 1294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GNU FriBidi",
+    "fork": false,
+    "full_name": "fribidi/fribidi",
+    "html_url": "https://github.com/fribidi/fribidi",
+    "language": "C",
+    "pushed_at": "2026-04-13T19:09:20Z",
+    "stargazers_count": 420,
+    "topics": [],
+    "updated_at": "2026-04-14T12:06:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build with make",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "term": "Build with make"
+    },
+    {
+      "context_snippet": "Build with meson",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meson.yml",
+      "term": "Build with meson"
+    }
+  ]
+}

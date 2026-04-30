@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "@neon-rs/load",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@neon-rs/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/node20",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@c39a3b234af58f0cf85888573d361fb6fa281534",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "eventstore/kurrentdb-bridge-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "eventstore/eventstore-streaming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "eventstore/kurrentdb-client-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "neon-bindings/neon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "@neon-rs/load",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "@neon-rs/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "@tsconfig/node20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "robinraju/release-downloader@c39a3b234af58f0cf85888573d361fb6fa281534",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "kurrentdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "kurrentdb-nodejs-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:16.230685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1471
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 55
+    },
+    {
+      "path": "package.json",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4354
+    },
+    {
+      "path": ".github/workflows/release-package.yml",
+      "size": 4594
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1518
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Performance bridge for KurrentDB Node.js client using Rust native addons via Neon",
+    "fork": false,
+    "full_name": "kurrent-io/KurrentDB-Bridge-Client",
+    "html_url": "https://github.com/kurrent-io/KurrentDB-Bridge-Client",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T10:08:31Z",
+    "stargazers_count": 1,
+    "topics": [
+      "kurrentdb",
+      "kurrentdb-nodejs-client",
+      "neon",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-13T10:08:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/eventstore-streaming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/kurrentdb-bridge-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/kurrentdb-client-nodejs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neon-bindings/neon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-package.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrentdb"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrentdb-nodejs-client"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

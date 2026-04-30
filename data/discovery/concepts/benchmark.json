@@ -1360,6 +1360,138 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate-context",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e A simple, tiny and lightweight benchmarking library!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "CUDA Kernel Benchmarking Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate-context",
+      "text": "This project is a work-in-progress. Everything is subject to change."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarking PDF libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate-context",
+      "text": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate-context",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "Cross JavaScript runtime benchmarking library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate-context",
+      "text": "<h1 align=center>tatami-ng</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "Computational framework for reinforcement learning in traffic control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
     }
   ],
   "candidate_glosses": [
@@ -2040,6 +2172,72 @@
       "source_repo": "tianyi-lab/HallusionBench",
       "status": "candidate",
       "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nvbench",
+      "status": "candidate",
+      "text": "This project is a work-in-progress. Everything is subject to change."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-pdf/benchmarks",
+      "status": "candidate",
+      "text": "This benchmark is about reading pure PDF files - notscanned documents and not documents that applied OCR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evanwashere/mitata",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/tatami-ng",
+      "status": "candidate",
+      "text": "<h1 align=center>tatami-ng</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -2991,11 +3189,137 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tianyi-lab/HallusionBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ServiceNow/AgentLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nvbench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "bytedance/sonic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "py-pdf/benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/tatami-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flow-project/flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

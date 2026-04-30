@@ -355,6 +355,66 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate-context",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "ClearML Fractional GPU - Run multiple containers on the same GPU with driver level memory limitation \u2728 and compute time-slicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +591,36 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate",
+      "text": "[![GAIA CLI Tests](https://github.com/amd/gaia/actions/workflows/test_gaia_cli.yml/badge.svg)](https://github.com/amd/gaia/tree/main/tests \"Check out our cli tests\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "<img height=\"128\" src=\"src/main/resources/icons/pluginIcon.svg\" width=\"128\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -718,11 +808,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PRIS-CV/DemoFusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amd/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "blaizzy/mlx-vlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "modelscope/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yml",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive.yml",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive.yml",
+      "source_repo": "QwenLM/Qwen3.6",
+      "target": "Close and lock inactive threads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:54.464167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11737
+    },
+    {
+      "path": ".github/workflows/inactive.yml",
+      "size": 1456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qwen3.6 is the large language model series developed by Qwen team, Alibaba Group.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen3.6",
+    "html_url": "https://github.com/QwenLM/Qwen3.6",
+    "language": null,
+    "pushed_at": "2026-04-22T13:00:00Z",
+    "stargazers_count": 3222,
+    "topics": [],
+    "updated_at": "2026-04-30T10:15:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blaizzy/mlx-vlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close and lock inactive threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactive.yml",
+      "term": "Close and lock inactive threads"
+    }
+  ]
+}

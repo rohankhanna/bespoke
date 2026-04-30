@@ -19,6 +19,18 @@
       "source_repo": "tox-dev/pipdeptree",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pipdeptree?style=flat-square)](https://pypi.org/project/pipdeptree)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "Statoscope is a toolkit to analyze and validate webpack bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tox-dev/pipdeptree",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pipdeptree?style=flat-square)](https://pypi.org/project/pipdeptree)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "tox-dev/pipdeptree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "statoscope/statoscope"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

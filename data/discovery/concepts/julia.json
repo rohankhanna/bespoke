@@ -253,6 +253,30 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -381,6 +405,18 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -556,11 +592,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

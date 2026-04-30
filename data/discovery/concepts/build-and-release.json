@@ -182,6 +182,54 @@
       "source_repo": "spacemeshos/go-spacemesh",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/xtp-cpp-bindgen",
+      "status": "candidate-context",
+      "text": "XTP bindgen support for C++, generating a C++ PDK from an XTP Schema "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-cpp-bindgen",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-csharp-bindgen",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/xtp-go-bindgen",
+      "status": "candidate-context",
+      "text": "XTP bindgen support for Go, generating a Go PDK from an XTP Schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-go-bindgen",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-python-bindgen",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Build and Release"
     }
   ],
   "candidate_glosses": [
@@ -272,6 +320,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-cpp-bindgen",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-csharp-bindgen",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-go-bindgen",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-python-bindgen",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
       "status": "candidate",
       "text": "Build and Release"
     }
@@ -419,11 +497,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dylibso/xtp-cpp-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dylibso/xtp-csharp-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dylibso/xtp-go-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dylibso/xtp-python-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "devhammed/insomnia-plugin-documenter"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

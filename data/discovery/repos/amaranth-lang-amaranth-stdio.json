@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "amaranth-hdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "target": "interface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:44.489179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 293
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1591
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Industry standard I/O for Amaranth HDL",
+    "fork": false,
+    "full_name": "amaranth-lang/amaranth-stdio",
+    "html_url": "https://github.com/amaranth-lang/amaranth-stdio",
+    "language": "Python",
+    "pushed_at": "2026-01-27T15:16:24Z",
+    "stargazers_count": 31,
+    "topics": [
+      "amaranth-hdl",
+      "fpga",
+      "interface"
+    ],
+    "updated_at": "2026-01-27T15:22:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth-hdl"
+    },
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "TODO",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interface"
+    }
+  ]
+}

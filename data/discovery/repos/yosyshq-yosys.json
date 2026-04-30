@@ -1,0 +1,559 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml"
+    },
+    {
+      "component": "dfm/rtds-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-vendor.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-vendor.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml"
+    },
+    {
+      "component": "aminya/setup-cpp@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sanitizers.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sanitizers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verific-cfg.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/yosys",
+      "target": "yosyshq/sby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YosysHQ/yosys",
+      "target": "yosyshq/oss-cad-suite-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Test extra build flows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "dfm/rtds-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Build docs artifact with Verific",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-vendor.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/source-vendor.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-vendor.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Create source archive with vendored dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Build and run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-compile.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "aminya/setup-cpp@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-compile.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Compiler testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sanitizers.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sanitizers.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sanitizers.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Check clang sanitizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-verific-cfg.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-verific-cfg.yml",
+      "source_repo": "YosysHQ/yosys",
+      "target": "Build various Verific configurations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:47.098034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9501
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 187
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 725
+    },
+    {
+      "path": ".github/workflows/extra-builds.yml",
+      "size": 5011
+    },
+    {
+      "path": ".github/workflows/prepare-docs.yml",
+      "size": 3295
+    },
+    {
+      "path": ".github/workflows/source-vendor.yml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 7983
+    },
+    {
+      "path": ".github/workflows/test-compile.yml",
+      "size": 3272
+    },
+    {
+      "path": ".github/workflows/test-sanitizers.yml",
+      "size": 2785
+    },
+    {
+      "path": ".github/workflows/test-verific-cfg.yml",
+      "size": 4613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yosys Open SYnthesis Suite",
+    "fork": false,
+    "full_name": "YosysHQ/yosys",
+    "html_url": "https://github.com/YosysHQ/yosys",
+    "language": "C++",
+    "pushed_at": "2026-04-29T13:55:49Z",
+    "stargazers_count": 4420,
+    "topics": [],
+    "updated_at": "2026-04-29T21:18:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/oss-cad-suite-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/sby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Test extra build flows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra-builds.yml",
+      "term": "Test extra build flows"
+    },
+    {
+      "context_snippet": "Build docs artifact with Verific",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-docs.yml",
+      "term": "Build docs artifact with Verific"
+    },
+    {
+      "context_snippet": "Create source archive with vendored dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/source-vendor.yml",
+      "term": "Create source archive with vendored dependencies"
+    },
+    {
+      "context_snippet": "Build and run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "Build and run tests"
+    },
+    {
+      "context_snippet": "Compiler testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-compile.yml",
+      "term": "Compiler testing"
+    },
+    {
+      "context_snippet": "Check clang sanitizers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sanitizers.yml",
+      "term": "Check clang sanitizers"
+    },
+    {
+      "context_snippet": "Build various Verific configurations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-verific-cfg.yml",
+      "term": "Build various Verific configurations"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Looking for Contributors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Looking for Contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "Looking for Contributors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "authors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "donor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "peers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "perpetrators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "talmudist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Looking for Contributors",
+  "concept_id": "looking-for-contributors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/looking-for-contributors.yml",
+      "source_repo": "wix/Detox"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Looking for Contributors",
+      "sense_id": "looking-for-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

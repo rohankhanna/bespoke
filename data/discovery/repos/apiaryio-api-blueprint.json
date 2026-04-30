@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apiaryio/api-blueprint",
+      "target": "timdorr/model-s-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apiaryio/api-blueprint",
+      "target": "apiaryio/api-blueprint-rfcs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:01.942956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "API Blueprint",
+    "fork": false,
+    "full_name": "apiaryio/api-blueprint",
+    "html_url": "https://github.com/apiaryio/api-blueprint",
+    "language": null,
+    "pushed_at": "2023-08-19T19:11:28Z",
+    "stargazers_count": 8654,
+    "topics": [],
+    "updated_at": "2026-04-28T16:04:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apiaryio/api-blueprint-rfcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdorr/model-s-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

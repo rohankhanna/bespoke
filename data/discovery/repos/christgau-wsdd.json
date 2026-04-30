@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analyses.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analyses.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "christgau/wsdd",
+      "target": "christgau/wsdd-gentoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "christgau/wsdd",
+      "target": "andy2244/wsdd2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analyses.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-analyses.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analyses.yml",
+      "source_repo": "christgau/wsdd",
+      "target": "PEP8 and mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "christgau/wsdd",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "christgau/wsdd",
+      "target": "samba",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:13:11.414028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16853
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/static-analyses.yml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Web Service Discovery host daemon.",
+    "fork": false,
+    "full_name": "christgau/wsdd",
+    "html_url": "https://github.com/christgau/wsdd",
+    "language": "Python",
+    "pushed_at": "2025-12-31T13:23:16Z",
+    "stargazers_count": 960,
+    "topics": [
+      "python3",
+      "samba",
+      "wsd"
+    ],
+    "updated_at": "2026-04-07T18:01:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andy2244/wsdd2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "christgau/wsdd-gentoo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"PEP8 and mypy\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-analyses.yml",
+      "term": "PEP8 and mypy"
+    },
+    {
+      "context_snippet": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samba"
+    }
+  ]
+}

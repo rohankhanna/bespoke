@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:05:19.282063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'23] Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors",
+    "fork": false,
+    "full_name": "Thartvigsen/GRACE",
+    "html_url": "https://github.com/Thartvigsen/GRACE",
+    "language": "Python",
+    "pushed_at": "2024-12-21T14:18:21Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-03-15T14:08:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

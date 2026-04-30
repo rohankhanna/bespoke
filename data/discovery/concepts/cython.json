@@ -103,6 +103,18 @@
       "source_repo": "cython/cython",
       "status": "candidate-context",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate-context",
+      "text": "Python wrapper to Philipp Kr\u00e4henb\u00fchl's dense (fully connected) CRFs with gaussian edge potentials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate-context",
+      "text": "PyDenseCRF"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "cython/cython",
       "status": "candidate",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate",
+      "text": "PyDenseCRF"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

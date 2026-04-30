@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A command line tool to mine and analyze data from version-control systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-analysis-tool",
+      "sense_id": "code-analysis-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-analysis-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-analysis-tool",
+  "observation_id": "2af82a28cdd8c3e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "code-analysis-tool",
+  "source_context_snippet": "Code Maat is a command line tool used to mine and analyze data from version-control systems (VCS).",
+  "source_file": null,
+  "source_repo": "adamtornhill/code-maat",
+  "source_repo_description": "A command line tool to mine and analyze data from version-control systems"
+}

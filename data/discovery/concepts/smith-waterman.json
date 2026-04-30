@@ -19,6 +19,18 @@
       "source_repo": "Martinsos/opal",
       "status": "candidate-context",
       "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Martinsos/opal",
       "status": "candidate",
       "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Martinsos/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

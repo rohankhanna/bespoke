@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "creyD/prettier_action@v4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "creyD/prettier_action@v4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "timdorr/tesla-api",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdorr/tesla-api",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timdorr/tesla-api",
+      "target": "tesla",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:02.939101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2285
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude98 A Ruby gem and unofficial documentation of Tesla's JSON API for the Model S, 3, X, and Y.",
+    "fork": false,
+    "full_name": "timdorr/tesla-api",
+    "html_url": "https://github.com/timdorr/tesla-api",
+    "language": "Ruby",
+    "pushed_at": "2026-03-04T13:42:11Z",
+    "stargazers_count": 2055,
+    "topics": [
+      "api",
+      "car",
+      "iot",
+      "ruby",
+      "tesla"
+    ],
+    "updated_at": "2026-04-29T20:42:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Referrals are back! Need a vehicle to test with? [Get a Tesla with free supercharging](http://ts.la/timothy8449)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tesla"
+    }
+  ]
+}

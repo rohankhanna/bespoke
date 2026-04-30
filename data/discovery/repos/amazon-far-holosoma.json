@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-training.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-training.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-training.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-training.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-training.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-training.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "Nightly Training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "Pytests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "amazon-far/holosoma",
+      "target": "Static Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:46.202482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5284
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3363
+    },
+    {
+      "path": ".github/workflows/nightly-training.yaml",
+      "size": 4390
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 3614
+    },
+    {
+      "path": ".github/workflows/static-checks.yaml",
+      "size": 1367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "amazon-far/holosoma",
+    "html_url": "https://github.com/amazon-far/holosoma",
+    "language": "Python",
+    "pushed_at": "2026-04-29T06:54:33Z",
+    "stargazers_count": 1293,
+    "topics": [],
+    "updated_at": "2026-04-30T02:04:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly Training",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-training.yaml",
+      "term": "Nightly Training"
+    },
+    {
+      "context_snippet": "Pytests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Pytests"
+    },
+    {
+      "context_snippet": "Static Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "term": "Static Checks"
+    }
+  ]
+}

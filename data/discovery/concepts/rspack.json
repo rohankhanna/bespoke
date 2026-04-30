@@ -67,6 +67,66 @@
       "source_repo": "web-infra-dev/rslib",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "A curated list of awesome things related to Rstack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate-context",
+      "text": "Use this template to create your own Rsbuild plugin \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate-context",
+      "text": "Example plugin for Rsbuild."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rstack-design-resources",
+      "status": "candidate-context",
+      "text": "Design resources for Rstack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rstack-design-resources",
+      "status": "candidate-context",
+      "text": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "Storybook builder and frameworks powered by Rsbuild."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rstest",
+      "status": "candidate-context",
+      "text": "The testing framework powered by Rspack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rstest",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +157,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "web-infra-dev/rslib",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate",
+      "text": "Example plugin for Rsbuild."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rstack-design-resources",
+      "status": "candidate",
+      "text": "Design resources for Rstack, including Rspack, Rsbuild, Rspress, Rsdoctor, Rslib and Rstest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rstest",
       "status": "candidate",
       "text": "<picture>"
     }
@@ -136,11 +226,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/awesome-rstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/rsbuild-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/rstack-design-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/storybook-rsbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rstest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

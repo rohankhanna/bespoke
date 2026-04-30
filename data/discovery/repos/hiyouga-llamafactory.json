@@ -128,6 +128,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
+      "target": "jiaweizzhao/galore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
       "target": "dvlab-research/longlora",
       "target_type": "repository"
     },
@@ -136,13 +143,6 @@
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
       "target": "facebookresearch/llama",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
-      "target": "ieit-yuan/yuan-2.0",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:45:25.369055+00:00",
+  "fetched_at": "2026-04-30T10:18:37.884982+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
     "pushed_at": "2026-04-29T15:21:13Z",
-    "stargazers_count": 70778,
+    "stargazers_count": 70790,
     "topics": [
       "agent",
       "ai",
@@ -484,7 +484,7 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-04-30T03:16:19Z"
+    "updated_at": "2026-04-30T09:52:52Z"
   },
   "repo_links": [
     {
@@ -504,7 +504,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ieit-yuan/yuan-2.0",
+      "full_name": "jiaweizzhao/galore",
       "source_file": "README.md"
     }
   ],

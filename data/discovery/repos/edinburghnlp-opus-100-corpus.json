@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:18:16.337524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "EdinburghNLP/opus-100-corpus",
+    "html_url": "https://github.com/EdinburghNLP/opus-100-corpus",
+    "language": "Python",
+    "pushed_at": "2024-02-13T17:35:26Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-02-20T14:08:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

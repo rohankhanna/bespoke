@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347744,
+      "status": "candidate",
+      "text": "yolo county"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347743,
+      "status": "candidate",
+      "text": "university of california-davis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347742,
+      "status": "candidate",
+      "text": "lund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347741,
+      "status": "candidate",
+      "text": "plainfield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347740,
+      "status": "candidate",
+      "text": "coniston"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yolo",
+      "sense_id": "yolo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yolo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yolo",
+  "observation_id": "965ae377862eb8be",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "yolo",
+  "source_context_snippet": "implementation of paper - [You Only Learn One Representation: Unified Network for Multiple Tasks](https://arxiv.org/abs/2105.04206)",
+  "source_file": null,
+  "source_repo": "WongKinYiu/yolor",
+  "source_repo_description": "implementation of paper - You Only Learn One Representation: Unified Network for Multiple Tasks (https://arxiv.org/abs/2105.04206)"
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "timheuer/base64-to-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "negz/create-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "Build the executables",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "inkle/inky"
+}

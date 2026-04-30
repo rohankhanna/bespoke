@@ -55,6 +55,18 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "A functional and reactive JavaScript framework for predictable code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "dotnet/fsharp",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cyclejs/cyclejs"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

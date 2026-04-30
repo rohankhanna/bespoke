@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "broccolijs/broccoli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "broccolijs/broccoli-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/broccoli-caching-writer"
     }
   ],
   "term": "Publish Stable"

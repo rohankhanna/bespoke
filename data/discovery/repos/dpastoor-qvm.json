@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "anchore/sbom-action/download-syft@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml"
+    },
+    {
+      "component": "actions/setup-go@v5.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/setup-go@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/cache@v4.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "sigstore/cosign-installer@v3.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "anchore/sbom-action/download-syft@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "codecov/codecov-action@v5.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "goreleaser/goreleaser-action@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/setup-go@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/setup-go@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "actions/cache@v4.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "source_repo": "dpastoor/qvm",
+      "target": "Cross-Platform Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:57.350717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7180
+    },
+    {
+      "path": "go.mod",
+      "size": 2717
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 1819
+    },
+    {
+      "path": ".github/workflows/test-cross-platform.yml",
+      "size": 2759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dpastoor/qvm",
+    "html_url": "https://github.com/dpastoor/qvm",
+    "language": "Go",
+    "pushed_at": "2025-10-09T10:43:15Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-20T07:25:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "integration-tests"
+    },
+    {
+      "context_snippet": "Cross-Platform Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cross-platform.yml",
+      "term": "Cross-Platform Tests"
+    }
+  ]
+}

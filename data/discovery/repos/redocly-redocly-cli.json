@@ -1,0 +1,894 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-schema-to-ts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "outdent",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pegjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "slackify-markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "errata-ai/vale-action@reviewdog",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "becheran/mlc@7ec24825cefe0c9c8c6bac48430e1f69e3ec356e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-version-release-guard.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "RomanHotsiy/changesets-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@fcfb566f8b0aab22203f066d80ca1d7e4b5d05b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changeset.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changeset.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "redocly/redocly-cli-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "swagger-api/swagger-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "stoplightio/spectral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "mermade/oas-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "@vitest/coverage-istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "json-schema-to-ts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "json-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "outdent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "pegjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "slackify-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "errata-ai/vale-action@reviewdog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "becheran/mlc@7ec24825cefe0c9c8c6bac48430e1f69e3ec356e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "Documentation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-version-release-guard.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-version-release-guard.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "Major Version Release Guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "Performance Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "PR Title and Description Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "Pre-release Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "RomanHotsiy/changesets-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "slackapi/slack-github-action@fcfb566f8b0aab22203f066d80ca1d7e4b5d05b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changeset.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-changeset.yaml",
+      "source_repo": "Redocly/redocly-cli",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "api-governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "arazzo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "asyncapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "contract-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "openapi-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "openapi31",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "redoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "redocly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli",
+      "target": "swagger2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:13.754066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7450
+    },
+    {
+      "path": "Dockerfile",
+      "size": 512
+    },
+    {
+      "path": "package.json",
+      "size": 2799
+    },
+    {
+      "path": ".github/workflows/docs-tests.yaml",
+      "size": 1094
+    },
+    {
+      "path": ".github/workflows/main-version-release-guard.yaml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/performance.yaml",
+      "size": 1953
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 2376
+    },
+    {
+      "path": ".github/workflows/pre-release.yaml",
+      "size": 1478
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 9558
+    },
+    {
+      "path": ".github/workflows/require-changeset.yaml",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2692\ufe0f Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more.",
+    "fork": false,
+    "full_name": "Redocly/redocly-cli",
+    "html_url": "https://github.com/Redocly/redocly-cli",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T18:27:06Z",
+    "stargazers_count": 1440,
+    "topics": [
+      "api-governance",
+      "arazzo",
+      "asyncapi",
+      "cicd",
+      "contract-testing",
+      "linter",
+      "openapi",
+      "openapi-cli",
+      "openapi3",
+      "openapi31",
+      "redoc",
+      "redocly",
+      "swagger2"
+    ],
+    "updated_at": "2026-04-29T14:27:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mermade/oas-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redocly/redocly-cli-cookbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stoplightio/spectral",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swagger-api/swagger-editor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Documentation tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-tests.yaml",
+      "term": "Documentation tests"
+    },
+    {
+      "context_snippet": "Major Version Release Guard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-version-release-guard.yaml",
+      "term": "Major Version Release Guard"
+    },
+    {
+      "context_snippet": "Performance Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yaml",
+      "term": "Performance Benchmark"
+    },
+    {
+      "context_snippet": "PR Title and Description Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR Title and Description Check"
+    },
+    {
+      "context_snippet": "Pre-release Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yaml",
+      "term": "Pre-release Checks"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-governance"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arazzo"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncapi"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contract-testing"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-cli"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi31"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redoc"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redocly"
+    },
+    {
+      "context_snippet": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger2"
+    }
+  ]
+}

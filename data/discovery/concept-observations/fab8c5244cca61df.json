@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Free EXR file viewer. DJV is a free, open-source high bit-depth image sequence player built for professional film, VFX & animation workflows. Use it for frame-accurate dailies, shot review, and A/B comparisons. Available for Linux, macOS, and Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025005,
+      "status": "candidate",
+      "text": "role player"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917805,
+      "status": "candidate",
+      "text": "participant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916832,
+      "status": "candidate",
+      "text": "histrion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916555,
+      "status": "candidate",
+      "text": "thespian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892719,
+      "status": "candidate",
+      "text": "actor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "player",
+      "sense_id": "player#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20047,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13035,
+      "status": "candidate",
+      "text": "thespian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10039,
+      "status": "candidate",
+      "text": "participant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "histrion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "musician"
+    }
+  ],
+  "concept_id": "player",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "player",
+  "observation_id": "fab8c5244cca61df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "player",
+  "source_context_snippet": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+  "source_file": null,
+  "source_repo": "grizzlypeak3d/DJV",
+  "source_repo_description": "Free EXR file viewer. DJV is a free, open-source high bit-depth image sequence player built for professional film, VFX & animation workflows. Use it for frame-accurate dailies, shot review, and A/B comparisons. Available for Linux, macOS, and Windows."
+}

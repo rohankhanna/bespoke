@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "@tensorflow/tfjs-node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "socket.io",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "socket.io-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "5scontrol/5s-user-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "5scontrol/manufacturing-automatization-enterprise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "5scontrol/min-max",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "5scontrol/operation-control-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "@tensorflow/tfjs-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "socket.io",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/inference-server-js",
+      "target": "socket.io-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/inference-server-js",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/inference-server-js",
+      "target": "manufacturing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/inference-server-js",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:16.712307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5772
+    },
+    {
+      "path": "Dockerfile",
+      "size": 125
+    },
+    {
+      "path": "package.json",
+      "size": 852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inference server for JS algorithms",
+    "fork": false,
+    "full_name": "5sControl/inference-server-js",
+    "html_url": "https://github.com/5sControl/inference-server-js",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-04T07:50:14Z",
+    "stargazers_count": 0,
+    "topics": [
+      "javascript",
+      "machine-learning",
+      "manufacturing",
+      "open-source"
+    ],
+    "updated_at": "2023-10-20T07:55:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/manufacturing-automatization-enterprise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/min-max",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/operation-control-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manufacturing"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build hatchling"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build hatchling"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13650,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12530,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12530,
+      "status": "candidate",
+      "text": "egg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12360,
+      "status": "candidate",
+      "text": "embryo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build hatchling",
+      "sense_id": "build-hatchling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-hatchling",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-hatchling",
+  "observation_id": "9bce17c5d40f6589",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "build hatchling",
+  "source_context_snippet": "build hatchling",
+  "source_file": ".github/workflows/build-hatchling.yml",
+  "source_repo": "pypa/hatch",
+  "source_repo_description": "Modern, extensible Python project management"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2d-inc/developer_quest",
+      "target": "2d-inc/dev_rpg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:07.489219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Respository for the I/O 2019 demo: Become a tech lead, slay bugs, and don't get fired.",
+    "fork": false,
+    "full_name": "2d-inc/developer_quest",
+    "html_url": "https://github.com/2d-inc/developer_quest",
+    "language": "Dart",
+    "pushed_at": "2021-05-05T10:56:43Z",
+    "stargazers_count": 2976,
+    "topics": [],
+    "updated_at": "2026-04-28T10:47:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2d-inc/dev_rpg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

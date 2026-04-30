@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kumuji/mix3d",
+      "target": "chrischoy/spatiotemporalsegmentation-scannet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kumuji/mix3d",
+      "target": "huguesthomas/kpconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kumuji/mix3d",
+      "target": "huguesthomas/kpconv-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "kumuji/mix3d",
+      "target": "timothycrosley/isort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kumuji/mix3d",
+      "target": "3dvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kumuji/mix3d",
+      "target": "augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kumuji/mix3d",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kumuji/mix3d",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:26.494071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5715
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mix3D: Out-of-Context Data Augmentation for 3D Scenes (3DV 2021 Oral)",
+    "fork": false,
+    "full_name": "kumuji/mix3d",
+    "html_url": "https://github.com/kumuji/mix3d",
+    "language": "Python",
+    "pushed_at": "2022-11-27T16:31:03Z",
+    "stargazers_count": 251,
+    "topics": [
+      "3d",
+      "3dvision",
+      "augmentation",
+      "point-cloud",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-02-11T11:25:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/spatiotemporalsegmentation-scannet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huguesthomas/kpconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huguesthomas/kpconv-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timothycrosley/isort",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dvision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "augmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

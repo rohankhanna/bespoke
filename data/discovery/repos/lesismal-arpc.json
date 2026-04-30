@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bsd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bsd.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lesismal/arpc",
+      "target": "micro-svc/go-rpc-framework-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lesismal/arpc",
+      "target": "rpcxio/rpcx-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lesismal/arpc",
+      "target": "lesismal/arpcex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bsd.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bsd.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_bsd.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "build-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "codecov/codecov-action@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "build-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "build-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "source_repo": "lesismal/arpc",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:18:39.220795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13479
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/build_bsd.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/build_linux.yml",
+      "size": 1052
+    },
+    {
+      "path": ".github/workflows/build_windows.yml",
+      "size": 824
+    },
+    {
+      "path": ".github/workflows/close_inactive_issues.yml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "More effective network communication, two-way calling, notify and broadcast supported.",
+    "fork": false,
+    "full_name": "lesismal/arpc",
+    "html_url": "https://github.com/lesismal/arpc",
+    "language": "Go",
+    "pushed_at": "2025-10-13T11:57:06Z",
+    "stargazers_count": 1089,
+    "topics": [],
+    "updated_at": "2026-04-29T15:51:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lesismal/arpcex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micro-svc/go-rpc-framework-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpcxio/rpcx-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_bsd.yml",
+      "term": "build-macos"
+    },
+    {
+      "context_snippet": "build-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "term": "build-linux"
+    },
+    {
+      "context_snippet": "build-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "term": "build-windows"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "term": "Close inactive issues"
+    }
+  ]
+}

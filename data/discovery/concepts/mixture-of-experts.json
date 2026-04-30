@@ -91,6 +91,18 @@
       "source_repo": "PKU-YuanGroup/MoE-LLaVA",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587Mixtral\u6df7\u5408\u4e13\u5bb6\u5927\u6a21\u578b\uff08Chinese Mixtral MoE LLMs\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "PKU-YuanGroup/MoE-LLaVA",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-Mixtral"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

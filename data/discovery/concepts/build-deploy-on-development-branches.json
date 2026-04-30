@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build + Deploy on development branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "Build + Deploy on development branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate",
+      "text": "Build + Deploy on development branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34086,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33855,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33424,
+      "status": "candidate",
+      "text": "manoeuvre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33240,
+      "status": "candidate",
+      "text": "ectomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33213,
+      "status": "candidate",
+      "text": "implementation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build + Deploy on development branches",
+  "concept_id": "build-deploy-on-development-branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build + Deploy on development branches",
+      "sense_id": "build-deploy-on-development-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

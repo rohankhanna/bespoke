@@ -151,6 +151,18 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate-context",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate-context",
+      "text": "The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate-context",
+      "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate",
+      "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +394,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "octokit/oauth-authorization-url.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "3dgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "cvpr2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:21.148649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment",
+    "fork": false,
+    "full_name": "cuiziteng/Luminance-GS",
+    "html_url": "https://github.com/cuiziteng/Luminance-GS",
+    "language": "Python",
+    "pushed_at": "2026-02-25T02:40:31Z",
+    "stargazers_count": 75,
+    "topics": [
+      "3dgs",
+      "computational-photography",
+      "cvpr",
+      "cvpr2025",
+      "low-level-vision",
+      "low-light-image-enhancement"
+    ],
+    "updated_at": "2026-04-25T14:28:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dgs"
+    },
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-photography"
+    },
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2025"
+    },
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-level-vision"
+    },
+    {
+      "context_snippet": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GreptimeTeam/greptimedb-ingester-cpp",
+      "target": "greptimeteam/greptimedb-client-cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:34.345304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C++ ingester for GreptimeDB, which is compatible with GreptimeDB protocol and lightweight.",
+    "fork": false,
+    "full_name": "GreptimeTeam/greptimedb-ingester-cpp",
+    "html_url": "https://github.com/GreptimeTeam/greptimedb-ingester-cpp",
+    "language": "C++",
+    "pushed_at": "2023-09-11T10:59:12Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-08-08T06:35:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greptimeteam/greptimedb-client-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

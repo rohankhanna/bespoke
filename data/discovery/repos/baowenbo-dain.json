@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baowenbo/DAIN",
+      "target": "baowenbo/memc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baowenbo/DAIN",
+      "target": "nvlabs/pwc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baowenbo/DAIN",
+      "target": "anchen1011/toflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:28.303515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Depth-Aware Video Frame Interpolation (CVPR 2019)",
+    "fork": false,
+    "full_name": "baowenbo/DAIN",
+    "html_url": "https://github.com/baowenbo/DAIN",
+    "language": "Python",
+    "pushed_at": "2023-02-13T12:40:12Z",
+    "stargazers_count": 8313,
+    "topics": [],
+    "updated_at": "2026-04-24T01:50:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anchen1011/toflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baowenbo/memc-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/pwc-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

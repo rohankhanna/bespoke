@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "chain-of-thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "gpt3-prompts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "gpt3-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:55.322839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2079
+    },
+    {
+      "path": "requirements.txt",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for \"Automatic Chain of Thought Prompting in Large Language Models\" (stay tuned & more will be updated)",
+    "fork": false,
+    "full_name": "amazon-science/auto-cot",
+    "html_url": "https://github.com/amazon-science/auto-cot",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-13T12:25:02Z",
+    "stargazers_count": 2028,
+    "topics": [
+      "chain-of-thought",
+      "gpt-3",
+      "gpt3-prompts",
+      "gpt3-resources",
+      "large-language-models",
+      "prompt-engineering",
+      "reasoning"
+    ],
+    "updated_at": "2026-04-28T09:16:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chain-of-thought"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt3-prompts"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt3-resources"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

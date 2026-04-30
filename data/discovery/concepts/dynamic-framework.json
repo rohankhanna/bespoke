@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dynamic-framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "Makes it easy to build a list of frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate-context",
+      "text": "![](yolo.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Rome",
+      "status": "candidate",
+      "text": "![](yolo.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dynamic-framework",
+  "concept_id": "dynamic-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CocoaPods/Rome"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-framework",
+      "sense_id": "dynamic-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MacOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MacOS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983714,
+      "status": "candidate",
+      "text": "xmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983713,
+      "status": "candidate",
+      "text": "mando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983712,
+      "status": "candidate",
+      "text": "cmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983711,
+      "status": "candidate",
+      "text": "moddies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983710,
+      "status": "candidate",
+      "text": "module"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MacOS",
+      "sense_id": "macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos",
+  "observation_id": "89fa7745f1abde89",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "MacOS",
+  "source_context_snippet": "MacOS",
+  "source_file": ".github/workflows/macos.yml",
+  "source_repo": "isl-org/Open3D",
+  "source_repo_description": "Open3D: A Modern Library for 3D Data Processing"
+}

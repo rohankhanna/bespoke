@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/libhermit",
+      "target": "hermitcore/rusty-hermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/libhermit",
+      "target": "hermitcore/libhermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/libhermit",
+      "target": "hermitcore/hermit-toolchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/libhermit",
+      "target": "rwth-os/linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "cloud-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "multi-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "osdev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "unikernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:46.586783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17564
+    },
+    {
+      "path": "Dockerfile",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "HermitCore: A C-based, lightweight unikernel",
+    "fork": false,
+    "full_name": "hermit-os/libhermit",
+    "html_url": "https://github.com/hermit-os/libhermit",
+    "language": "C",
+    "pushed_at": "2021-11-05T09:26:51Z",
+    "stargazers_count": 226,
+    "topics": [
+      "cloud-computing",
+      "high-performance-computing",
+      "kernel",
+      "multi-kernel",
+      "operating-system",
+      "osdev",
+      "unikernel",
+      "virtualization"
+    ],
+    "updated_at": "2026-03-11T15:41:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermitcore/hermit-toolchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermitcore/libhermit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermitcore/rusty-hermit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwth-os/linux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-computing"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-kernel"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osdev"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unikernel"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    }
+  ]
+}

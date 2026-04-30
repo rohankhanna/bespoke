@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/LLaVA-CoT",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:58.495329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025] LLaVA-CoT, a visual language model capable of spontaneous, systematic reasoning",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/LLaVA-CoT",
+    "html_url": "https://github.com/PKU-YuanGroup/LLaVA-CoT",
+    "language": "Python",
+    "pushed_at": "2025-12-12T02:30:57Z",
+    "stargazers_count": 2134,
+    "topics": [],
+    "updated_at": "2026-04-27T01:36:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-recipes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

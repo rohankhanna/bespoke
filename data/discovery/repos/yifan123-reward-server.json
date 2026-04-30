@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yifan123/reward-server",
+      "target": "zhiyuanyou/deqa-score",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:51.505778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yifan123/reward-server",
+    "html_url": "https://github.com/yifan123/reward-server",
+    "language": "Python",
+    "pushed_at": "2025-07-10T09:39:55Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-04-14T13:44:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyuanyou/deqa-score",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

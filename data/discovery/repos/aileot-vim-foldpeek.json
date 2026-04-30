@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aileot/vim-foldpeek",
-      "target": "leafcage/foldcc.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aileot/vim-foldpeek",
       "target": "kaile256/vim-foldpeek",
       "target_type": "repository"
     },
@@ -44,14 +37,13 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:54:05.557754+00:00",
+  "fetched_at": "2026-04-30T10:29:04.946563+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 1988
     }
   ],
-  "metadata_refreshed_at": "2026-04-30T05:52:03.015600+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
@@ -76,11 +68,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "kaile256/vim-foldpeek",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "leafcage/foldcc.vim",
       "source_file": "README.md"
     }
   ],

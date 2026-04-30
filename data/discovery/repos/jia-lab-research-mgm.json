@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "dvlab-research/mgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "freedomintelligence/allava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "kushalkafle/dvqa_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "open-compass/mmbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:28.654106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21564
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repo for \"Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models\"",
+    "fork": false,
+    "full_name": "JIA-Lab-research/MGM",
+    "html_url": "https://github.com/JIA-Lab-research/MGM",
+    "language": "Python",
+    "pushed_at": "2024-05-04T14:36:51Z",
+    "stargazers_count": 3326,
+    "topics": [
+      "generation",
+      "large-language-models",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-30T06:06:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/mgm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freedomintelligence/allava",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kushalkafle/dvqa_dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/mmbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation"
+    },
+    {
+      "context_snippet": "<a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

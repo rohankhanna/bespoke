@@ -116,13 +116,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Farama-Foundation/Minigrid",
-      "target": "mila-iqia/babyai",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/Minigrid",
       "target": "lcswillems/torch-rl",
       "target_type": "repository"
     },
@@ -302,7 +295,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:42:47.462894+00:00",
+  "fetched_at": "2026-04-30T10:20:33.864264+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -358,11 +351,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "lcswillems/torch-rl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mila-iqia/babyai",
       "source_file": "README.md"
     }
   ],

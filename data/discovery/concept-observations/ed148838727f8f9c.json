@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcbc Neovim plugin to manage global and project-local settings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Schemas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Schemas"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014426,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "arrangements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "blueprints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "charts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "constructs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Schemas",
+      "sense_id": "schemas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "schemas",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "schemas",
+  "observation_id": "ed148838727f8f9c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Schemas",
+  "source_context_snippet": "Schemas",
+  "source_file": ".github/workflows/schemas.yml",
+  "source_repo": "folke/neoconf.nvim",
+  "source_repo_description": "\ud83d\udcbc Neovim plugin to manage global and project-local settings"
+}

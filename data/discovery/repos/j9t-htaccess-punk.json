@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "j9t/obsohtml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "j9t/image-guard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "npm Publishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/htaccess-punk",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "htaccess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk",
+      "target": "redirects",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:21:10.063349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3717
+    },
+    {
+      "path": "package.json",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/npm.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Redirect checker for .htaccess files",
+    "fork": false,
+    "full_name": "j9t/htaccess-punk",
+    "html_url": "https://github.com/j9t/htaccess-punk",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T10:02:10Z",
+    "stargazers_count": 2,
+    "topics": [
+      "apache",
+      "check",
+      "checker",
+      "htaccess",
+      "http",
+      "links",
+      "quality",
+      "redirects"
+    ],
+    "updated_at": "2026-04-21T10:02:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j9t/image-guard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j9t/obsohtml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"npm Publishing\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "term": "npm Publishing"
+    },
+    {
+      "context_snippet": "\"Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "check"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checker"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htaccess"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "links"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redirects"
+    }
+  ]
+}

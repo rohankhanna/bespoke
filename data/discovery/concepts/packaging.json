@@ -197,6 +197,18 @@
       "source_repo": "jazzband/pip-tools",
       "status": "candidate-context",
       "text": "<!-- pyml disable-next-line first-line-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +307,12 @@
       "source_repo": "jazzband/pip-tools",
       "status": "candidate",
       "text": "<!-- pyml disable-next-line first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -493,11 +511,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pypa/hatch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

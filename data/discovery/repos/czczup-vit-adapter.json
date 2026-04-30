@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "opengvlab/internvl-mmdetseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "ofa-sys/one-peace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "lavreniuk/2nd-place-solution-in-scene-understanding-for-autonomous-drone-delivery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "nvlabs/fb-bev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "adapter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czczup/ViT-Adapter",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:41.931769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2023 Spotlight] Vision Transformer Adapter for Dense Predictions",
+    "fork": false,
+    "full_name": "czczup/ViT-Adapter",
+    "html_url": "https://github.com/czczup/ViT-Adapter",
+    "language": "Python",
+    "pushed_at": "2025-06-03T15:00:23Z",
+    "stargazers_count": 1483,
+    "topics": [
+      "adapter",
+      "object-detection",
+      "semantic-segmentation",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-29T21:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lavreniuk/2nd-place-solution-in-scene-understanding-for-autonomous-drone-delivery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/fb-bev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ofa-sys/one-peace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/internvl-mmdetseg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adapter"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vision-transformer-adapter-for-dense/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=vision-transformer-adapter-for-dense)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

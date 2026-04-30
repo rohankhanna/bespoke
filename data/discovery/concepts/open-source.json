@@ -583,6 +583,138 @@
       "source_repo": "firstcontributions/first-contributions",
       "status": "candidate-context",
       "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "Macro-oriented asynchronous web-framework written in Nim with \u2665"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "Validate your Swagger JSON/YAML today!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/inference-server-js",
+      "status": "candidate-context",
+      "text": "Inference server for JS algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/inference-server-js",
+      "status": "candidate-context",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate-context",
+      "text": "Tools for detecting and avoiding linkage errors in GCP open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate-context",
+      "text": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "status": "candidate-context",
+      "text": "Training-Free (Inversion-Free) methods meet WAN2.1-T2V\ud83e\udd17"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "status": "candidate-context",
+      "text": "**Star\ud83c\udf1f is a great help in open source development!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Learn how to make code contributions to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate-context",
+      "text": "This is a project for you to practice contributing to open source projects with code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "Swagger Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +987,72 @@
       "source_repo": "firstcontributions/first-contributions",
       "status": "candidate",
       "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/jenkins/build.svg?jobUrl=https://jenkins.swagger.io/job/oss-swagger-validator-badge-master)](https://jenkins.swagger.io/view/OSS%20-%20Java/job/oss-swagger-validator-badge-master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/inference-server-js",
+      "status": "candidate",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java",
+      "status": "candidate",
+      "text": "[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "status": "candidate",
+      "text": "**Star\ud83c\udf1f is a great help in open source development!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roshanjossey/code-contributions",
+      "status": "candidate",
+      "text": "This is a project for you to practice contributing to open source projects with code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/quickwit-oss/quickwit/actions/workflows/ci.yml/badge.svg)](https://github.com/quickwit-oss/quickwit/actions?query=workflow%3ACI+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_related_terms": [
@@ -1342,11 +1540,113 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "firstcontributions/first-contributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HapticX/happyx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/inference-server-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-opensource-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Roshanjossey/code-contributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

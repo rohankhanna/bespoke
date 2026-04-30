@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "huage001/linfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "hp-l33/flash-bidirectional-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "leaplabthu/mlla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "qhfan/rala",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "machine-learning-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "target": "triton-lang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:41.209180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Triton implement of bi-directional (non-causal) linear attention",
+    "fork": false,
+    "full_name": "fla-org/flash-bidirectional-linear-attention",
+    "html_url": "https://github.com/fla-org/flash-bidirectional-linear-attention",
+    "language": "Python",
+    "pushed_at": "2026-03-01T04:06:49Z",
+    "stargazers_count": 75,
+    "topics": [
+      "computer-vision",
+      "machine-learning-systems",
+      "triton-lang"
+    ],
+    "updated_at": "2026-04-23T07:18:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hp-l33/flash-bidirectional-linear-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huage001/linfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leaplabthu/mlla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qhfan/rala",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton-lang"
+    }
+  ]
+}

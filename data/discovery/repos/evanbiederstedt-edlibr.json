@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:11:12.873771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R integration for edlib, a C/C++ library for pairwise sequence alignment using edit distance (Levenshtein distance).",
+    "fork": false,
+    "full_name": "evanbiederstedt/edlibR",
+    "html_url": "https://github.com/evanbiederstedt/edlibR",
+    "language": "C++",
+    "pushed_at": "2025-07-20T23:10:14Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-07-20T23:10:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

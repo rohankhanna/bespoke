@@ -1,0 +1,402 @@
+{
+  "components": [
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "add",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-protobuf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grpc-web-client",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parcel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-redux",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-ui-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "add",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "google-protobuf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "grpc-web-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "parcel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "react-redux",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "semantic-ui-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "yarn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "grpc-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "target": "redux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:22:37.769613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6458
+    },
+    {
+      "path": "go.mod",
+      "size": 903
+    },
+    {
+      "path": "package.json",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2337
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend",
+    "fork": false,
+    "full_name": "easyCZ/grpc-web-hacker-news",
+    "html_url": "https://github.com/easyCZ/grpc-web-hacker-news",
+    "language": "TypeScript",
+    "pushed_at": "2023-03-06T22:33:40Z",
+    "stargazers_count": 389,
+    "topics": [
+      "example",
+      "golang",
+      "grpc",
+      "grpc-web",
+      "react",
+      "redux",
+      "typescript"
+    ],
+    "updated_at": "2025-12-03T05:47:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-web"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux"
+    }
+  ]
+}

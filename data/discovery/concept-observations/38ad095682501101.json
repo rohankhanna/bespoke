@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051367,
+      "status": "candidate",
+      "text": "watercourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038554,
+      "status": "candidate",
+      "text": "rain cats and dogs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037854,
+      "status": "candidate",
+      "text": "rain buckets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026635,
+      "status": "candidate",
+      "text": "current"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017436,
+      "status": "candidate",
+      "text": "flow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "streams",
+      "sense_id": "streams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "streams",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "streams",
+  "observation_id": "38ad095682501101",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "streams",
+  "source_context_snippet": "execa \u2014 Process execution for humans",
+  "source_file": null,
+  "source_repo": "sindresorhus/execa",
+  "source_repo_description": "Process execution for humans"
+}

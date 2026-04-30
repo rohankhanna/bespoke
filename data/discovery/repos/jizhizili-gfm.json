@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/GFM",
+      "target": "vitae-transformer/vitae-transformer-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/GFM",
+      "target": "jizhizili/rim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/GFM",
+      "target": "vitae-transformer/p3m-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/GFM",
+      "target": "jizhizili/matting-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "animal-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "composition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/GFM",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:30.465383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15742
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IJCV 2022] Bridging Composite and Real: Towards End-to-end Deep Image Matting",
+    "fork": false,
+    "full_name": "JizhiziLi/GFM",
+    "html_url": "https://github.com/JizhiziLi/GFM",
+    "language": "Python",
+    "pushed_at": "2023-04-13T03:50:40Z",
+    "stargazers_count": 938,
+    "topics": [
+      "animal-matting",
+      "composition",
+      "datasets",
+      "image-matting",
+      "matting",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-23T03:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/matting-survey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/rim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/p3m-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/vitae-transformer-matting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animal-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composition"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bridging Composite and Real: Towards End-to-end Deep Image Matting [IJCV-2022]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

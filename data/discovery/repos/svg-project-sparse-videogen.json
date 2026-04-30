@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "svg-project/flash-kmeans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "nvidia/cosmos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "efficientml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "hunyuan-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svg-project/Sparse-VideoGen",
+      "target": "sparse-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:24.911743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9632
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML2025, NeurIPS2025 Spotlight] Sparse VideoGen 1 & 2: Accelerating Video Diffusion Transformers with Sparse Attention",
+    "fork": false,
+    "full_name": "svg-project/Sparse-VideoGen",
+    "html_url": "https://github.com/svg-project/Sparse-VideoGen",
+    "language": "Python",
+    "pushed_at": "2026-03-06T23:00:48Z",
+    "stargazers_count": 662,
+    "topics": [
+      "diffusion",
+      "diffusion-model",
+      "efficientml",
+      "hunyuan-video",
+      "sparse-attention",
+      "wan"
+    ],
+    "updated_at": "2026-04-28T04:09:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/cosmos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "svg-project/flash-kmeans",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientml"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan-video"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"sglangtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-attention"
+    }
+  ]
+}

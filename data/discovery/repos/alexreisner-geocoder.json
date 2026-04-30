@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexreisner/geocoder",
+      "target": "rgeo/rgeo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "alexreisner/geocoder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "alexreisner/geocoder",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "alexreisner/geocoder",
+      "target": "default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexreisner/geocoder",
+      "target": "geocoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexreisner/geocoder",
+      "target": "geocoding-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexreisner/geocoder",
+      "target": "geocoding-objects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexreisner/geocoder",
+      "target": "geocoding-requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:36.098733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34414
+    },
+    {
+      "path": ".github/workflows/default.yml",
+      "size": 557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Complete Ruby geocoding solution.",
+    "fork": false,
+    "full_name": "alexreisner/geocoder",
+    "html_url": "https://github.com/alexreisner/geocoder",
+    "language": "Ruby",
+    "pushed_at": "2026-03-28T00:56:26Z",
+    "stargazers_count": 6440,
+    "topics": [
+      "geocoding",
+      "geocoding-api",
+      "geocoding-objects",
+      "geocoding-requests"
+    ],
+    "updated_at": "2026-04-23T07:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgeo/rgeo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "default",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "term": "default"
+    },
+    {
+      "context_snippet": "Geocoder",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocoding"
+    },
+    {
+      "context_snippet": "Geocoder",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocoding-api"
+    },
+    {
+      "context_snippet": "Geocoder",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocoding-objects"
+    },
+    {
+      "context_snippet": "Geocoder",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocoding-requests"
+    }
+  ]
+}

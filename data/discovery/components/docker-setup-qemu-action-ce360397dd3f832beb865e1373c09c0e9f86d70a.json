@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -427,6 +427,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "mikedh/trimesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ipinfo.yml",
+      "source_repo": "akvorado/akvorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-build-tools.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-host"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "reviewdog/action-actionlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-actionlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker_images.yml",
+      "source_repo": "quickwit-oss/quickwit"
     }
   ]
 }

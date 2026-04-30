@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010966,
+      "status": "candidate",
+      "text": "high-definition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018354,
+      "status": "candidate",
+      "text": "multipixel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018353,
+      "status": "candidate",
+      "text": "pixeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018352,
+      "status": "candidate",
+      "text": "multiresolutional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018351,
+      "status": "candidate",
+      "text": "multiresolution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "high-resolution",
+      "sense_id": "high-resolution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "high-resolution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "high-resolution",
+  "observation_id": "4c205cc3c2c19eb9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "high-resolution",
+  "source_context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+  "source_file": null,
+  "source_repo": "hkchengrex/CascadePSP",
+  "source_repo_description": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement"
+}

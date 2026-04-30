@@ -40,6 +40,18 @@
       "source_repo": "google-deepmind/lab",
       "status": "candidate-context",
       "text": "precommit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab2d",
+      "status": "candidate-context",
+      "text": "A customisable 2D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab2d",
+      "status": "candidate-context",
+      "text": "precommit"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google-deepmind/lab",
+      "status": "candidate",
+      "text": "precommit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab2d",
       "status": "candidate",
       "text": "precommit"
     }
@@ -121,11 +139,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab2d"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

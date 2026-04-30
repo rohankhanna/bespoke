@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:12:59.331033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kendryte/K230_training_scripts",
+    "html_url": "https://github.com/kendryte/K230_training_scripts",
+    "language": "C++",
+    "pushed_at": "2025-10-20T03:54:37Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-02-23T12:01:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

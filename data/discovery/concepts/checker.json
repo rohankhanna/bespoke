@@ -34,6 +34,18 @@
       "source_repo": "checkstyle/checkstyle",
       "status": "candidate-context",
       "text": "Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "Redirect checker for .htaccess files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "checkstyle/checkstyle",
       "status": "candidate",
       "text": "Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/htaccess-punk",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/htaccess-punk.svg)](https://www.npmjs.com/package/htaccess-punk) [![Build status](https://github.com/j9t/htaccess-punk/workflows/Tests/badge.svg)](https://github.com/j9t/htaccess-punk/actions) [![Socket](https://badge.socket.dev/npm/p\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/checker-framework.yml",
       "source_repo": "checkstyle/checkstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/htaccess-punk"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

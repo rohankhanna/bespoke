@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fractional"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "ClearML Fractional GPU - Run multiple containers on the same GPU with driver level memory limitation \u2728 and compute time-slicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-fractional-gpu",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015215,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014307,
+      "status": "candidate",
+      "text": "divisional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011462,
+      "status": "candidate",
+      "text": "half"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010944,
+      "status": "candidate",
+      "text": "halfway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010886,
+      "status": "candidate",
+      "text": "component"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17068,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5050,
+      "status": "candidate",
+      "text": "semi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "fragmentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "fragmental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "aliquot"
+    }
+  ],
+  "canonical_name": "fractional",
+  "concept_id": "fractional",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fractional",
+      "sense_id": "fractional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

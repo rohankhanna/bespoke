@@ -7,23 +7,9 @@
       "source_repo": "hbai98/SCM",
       "target": "164140757/scm",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hbai98/SCM",
-      "target": "vasgaowei/ts-cam",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hbai98/SCM",
-      "target": "clovaai/wsolevaluation",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T05:13:59.791376+00:00",
+  "fetched_at": "2026-04-30T10:14:06.452204+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,16 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "164140757/scm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clovaai/wsolevaluation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vasgaowei/ts-cam",
       "source_file": "README.md"
     }
   ],

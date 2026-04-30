@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate text line images for training deep learning OCR models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sphinx Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sphinx Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10972,
+      "status": "candidate",
+      "text": "egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10972,
+      "status": "candidate",
+      "text": "giza"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10926,
+      "status": "candidate",
+      "text": "lion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10796,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10711,
+      "status": "candidate",
+      "text": "cecropia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sphinx Pages",
+      "sense_id": "sphinx-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sphinx-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sphinx-pages",
+  "observation_id": "6241ded8a3c97f61",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Sphinx Pages",
+  "source_context_snippet": "Sphinx Pages",
+  "source_file": ".github/workflows/pages.yml",
+  "source_repo": "oh-my-ocr/text_renderer",
+  "source_repo_description": "Generate text line images for training deep learning OCR models"
+}

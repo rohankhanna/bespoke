@@ -79,6 +79,30 @@
       "source_repo": "clojure-emacs/clj-refactor.el",
       "status": "candidate-context",
       "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "nREPL support for ClojureScript REPLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "Clojure nREPL client for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "clojure-emacs/clj-refactor.el",
       "status": "candidate",
       "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "clojure-emacs/clj-refactor.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sanel/monroe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

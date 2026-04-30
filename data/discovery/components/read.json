@@ -1,7 +1,7 @@
 {
   "component": "read",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -207,6 +207,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_and_publish.yml",
       "source_repo": "quarkiverse/quarkiverse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
     }
   ]
 }

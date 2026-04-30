@@ -1,0 +1,805 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "swagger-api/swagger-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "swagger-api/swagger-inflector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "CodeQL scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/dependency-review-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Build Test PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Build Test PR v1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Build Test Deploy v1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Build Test Deploy master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Next Snapshot V1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Next Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "Prepare Release V1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "openapi-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "swagger-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser",
+      "target": "swagger-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:12.225419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21392
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/maven-pulls.yml",
+      "size": 798
+    },
+    {
+      "path": ".github/workflows/maven-v1-pulls.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/maven-v1.yml",
+      "size": 1404
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1965
+    },
+    {
+      "path": ".github/workflows/next-snapshot-v1.yml",
+      "size": 3110
+    },
+    {
+      "path": ".github/workflows/next-snapshot.yml",
+      "size": 3136
+    },
+    {
+      "path": ".github/workflows/prepare-release-v1.yml",
+      "size": 2191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swagger Spec to Java POJOs",
+    "fork": false,
+    "full_name": "swagger-api/swagger-parser",
+    "html_url": "https://github.com/swagger-api/swagger-parser",
+    "language": "Java",
+    "pushed_at": "2026-04-28T15:03:25Z",
+    "stargazers_count": 860,
+    "topics": [
+      "hacktoberfest",
+      "java",
+      "open-source",
+      "openapi",
+      "openapi-specification",
+      "openapi3",
+      "rest",
+      "rest-api",
+      "swagger",
+      "swagger-oss",
+      "swagger-parser"
+    ],
+    "updated_at": "2026-04-28T15:03:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swagger-api/swagger-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swagger-api/swagger-inflector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL scanning - action"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Build Test PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-pulls.yml",
+      "term": "Build Test PR"
+    },
+    {
+      "context_snippet": "Build Test PR v1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-v1-pulls.yml",
+      "term": "Build Test PR v1"
+    },
+    {
+      "context_snippet": "Build Test Deploy v1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-v1.yml",
+      "term": "Build Test Deploy v1"
+    },
+    {
+      "context_snippet": "Build Test Deploy master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Build Test Deploy master"
+    },
+    {
+      "context_snippet": "Next Snapshot V1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-snapshot-v1.yml",
+      "term": "Next Snapshot V1"
+    },
+    {
+      "context_snippet": "Next Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-snapshot.yml",
+      "term": "Next Snapshot"
+    },
+    {
+      "context_snippet": "Prepare Release V1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release-v1.yml",
+      "term": "Prepare Release V1"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-specification"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-oss"
+    },
+    {
+      "context_snippet": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-parser"
+    }
+  ]
+}

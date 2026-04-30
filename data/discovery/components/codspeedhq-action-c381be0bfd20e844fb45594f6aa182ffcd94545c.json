@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "web-infra-dev/rstest"
+    }
+  ]
+}

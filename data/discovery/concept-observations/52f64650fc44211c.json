@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Parse CSS and add vendor prefixes to rules by Can I Use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" width=\"94\" height=\"71\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"94\" height=\"71\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "postcss-plugins",
+      "sense_id": "postcss-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "postcss-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "postcss-plugins",
+  "observation_id": "52f64650fc44211c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "postcss-plugins",
+  "source_context_snippet": "<img align=\"right\" width=\"94\" height=\"71\"",
+  "source_file": null,
+  "source_repo": "postcss/autoprefixer",
+  "source_repo_description": " Parse CSS and add vendor prefixes to rules by Can I Use"
+}

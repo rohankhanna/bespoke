@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:22:28.133339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20299
+    },
+    {
+      "path": "go.mod",
+      "size": 454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "rueian/rueidis-benchmark",
+    "html_url": "https://github.com/rueian/rueidis-benchmark",
+    "language": "Go",
+    "pushed_at": "2025-07-18T03:02:22Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-08-03T09:25:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

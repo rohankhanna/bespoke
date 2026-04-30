@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_blazeface",
+      "target": "nihui/ncnn-android-scrfd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_blazeface",
+      "target": "google/mediapipe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:44.751509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This a demo of BlazeFace infer by ncnn",
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn_Android_blazeface",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn_Android_blazeface",
+    "language": "C++",
+    "pushed_at": "2022-04-26T00:20:51Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-03-13T01:40:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/mediapipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/ncnn-android-scrfd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

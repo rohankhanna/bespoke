@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RL starter files in order to immediately train, visualize and evaluate an agent without writing any line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-process",
+      "sense_id": "multi-process#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multi-process",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multi-process",
+  "observation_id": "39981e252168dddb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "multi-process",
+  "source_context_snippet": "RL starter files in order to immediatly train, visualize and evaluate an agent **without writing any line of code**.",
+  "source_file": null,
+  "source_repo": "lcswillems/rl-starter-files",
+  "source_repo_description": "RL starter files in order to immediately train, visualize and evaluate an agent without writing any line of code"
+}

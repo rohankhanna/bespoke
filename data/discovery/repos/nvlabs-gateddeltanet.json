@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/GatedDeltaNet",
+      "target": "nvidia/ruler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/GatedDeltaNet",
+      "target": "hazyresearch/prefix-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVlabs/GatedDeltaNet",
+      "target": "sustcsonglin/flash-linear-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:40.552316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10567
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] Official PyTorch Implementation of Gated Delta Networks: Improving Mamba2 with Delta Rule",
+    "fork": false,
+    "full_name": "NVlabs/GatedDeltaNet",
+    "html_url": "https://github.com/NVlabs/GatedDeltaNet",
+    "language": "Python",
+    "pushed_at": "2026-03-13T21:53:31Z",
+    "stargazers_count": 557,
+    "topics": [],
+    "updated_at": "2026-04-29T07:45:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/prefix-linear-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/ruler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sustcsonglin/flash-linear-attention",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Coral issue tracker (and legacy Edge TPU API source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This `edgetpu` repo is primarily our issue tracker for all types of bugs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This `edgetpu` repo is primarily our issue tracker for all types of bugs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941552,
+      "status": "candidate",
+      "text": "precious coral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941422,
+      "status": "candidate",
+      "text": "red coral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780754,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39767204,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29817528,
+      "status": "candidate",
+      "text": "bleaching"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coral",
+      "sense_id": "coral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "red coral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "precious coral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "colored"
+    }
+  ],
+  "concept_id": "coral",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coral",
+  "observation_id": "1229145f12431f6d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "coral",
+  "source_context_snippet": "This `edgetpu` repo is primarily our issue tracker for all types of bugs",
+  "source_file": null,
+  "source_repo": "google-coral/edgetpu",
+  "source_repo_description": "Coral issue tracker (and legacy Edge TPU API source)"
+}

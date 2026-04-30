@@ -19,6 +19,18 @@
       "source_repo": "linkedin/Liger-Kernel",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "linkedin/Liger-Kernel",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate",
+      "text": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagGems"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

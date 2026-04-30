@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "got-10k/toolkit",
+      "target": "got-10k/siamfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "got-10k/toolkit",
+      "target": "flyers/drone-tracking",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:04.444206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8633
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Python toolkit for generic object tracking benchmark GOT-10k and beyond",
+    "fork": false,
+    "full_name": "got-10k/toolkit",
+    "html_url": "https://github.com/got-10k/toolkit",
+    "language": "Python",
+    "pushed_at": "2023-10-03T21:34:25Z",
+    "stargazers_count": 587,
+    "topics": [],
+    "updated_at": "2026-04-26T01:01:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flyers/drone-tracking",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "got-10k/siamfc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

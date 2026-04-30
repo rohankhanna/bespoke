@@ -163,6 +163,78 @@
       "source_repo": "GreptimeTeam/greptimedb",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "oneAPI Specification source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate-context",
+      "text": "Simple, powerful JavaScript analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate-context",
+      "text": ":fire: Visit and event tracking for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +315,42 @@
       "source_repo": "GreptimeTeam/greptimedb",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate",
+      "text": ".. SPDX-FileCopyrightText: 2019-2020 Intel Corporation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy.js",
+      "status": "candidate",
+      "text": ":fire: Visit and event tracking for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +472,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneAPI-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

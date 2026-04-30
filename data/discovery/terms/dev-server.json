@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/devserver.yml",
+      "source_repo": "jhipster/generator-jhipster"
     }
   ],
   "term": "dev-server"

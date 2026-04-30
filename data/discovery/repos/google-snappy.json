@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riscv64-qemu-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/snappy",
+      "target": "google/snappy.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/snappy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riscv64-qemu-test.yaml",
+      "source_repo": "google/snappy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/riscv64-qemu-test.yaml",
+      "source_repo": "google/snappy",
+      "target": "riscv64-qemu-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:05.963875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6690
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4962
+    },
+    {
+      "path": ".github/workflows/riscv64-qemu-test.yaml",
+      "size": 1454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast compressor/decompressor",
+    "fork": false,
+    "full_name": "google/snappy",
+    "html_url": "https://github.com/google/snappy",
+    "language": "C++",
+    "pushed_at": "2026-03-06T22:30:42Z",
+    "stargazers_count": 6562,
+    "topics": [],
+    "updated_at": "2026-04-30T09:02:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/snappy.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "riscv64-qemu-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/riscv64-qemu-test.yaml",
+      "term": "riscv64-qemu-test"
+    }
+  ]
+}

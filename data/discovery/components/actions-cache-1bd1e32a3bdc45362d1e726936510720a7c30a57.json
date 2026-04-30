@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "argoproj-labs/argocd-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jfmengels/node-elm-review"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojupyter/clojupyter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/toolsdeps-build.yml",
+      "source_repo": "clojupyter/clojupyter"
     }
   ]
 }

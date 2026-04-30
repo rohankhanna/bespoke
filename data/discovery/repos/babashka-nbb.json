@@ -117,7 +117,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "borkdude/nbb-action-example",
+      "target": "chr15m/sitefox",
       "target_type": "repository"
     },
     {
@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:04:25.750696+00:00",
+  "fetched_at": "2026-04-30T08:27:07.570563+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -306,17 +306,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "borkdude/nbb-action-example",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "borkdude/sci",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "chr15m/c64core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chr15m/sitefox",
       "source_file": "README.md"
     }
   ],

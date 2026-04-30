@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/phpstan.yml",
       "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-review.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/requirement-checker.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box"
     }
   ]
 }

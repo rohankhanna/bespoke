@@ -18,20 +18,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
-      "target": "bazelbuild/tulsi",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
-      "target": "tuist/xcodeproj",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_pr_title.yml",
       "source_repo": "MobileNativeFoundation/rules_xcodeproj",
@@ -130,7 +116,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:56:51.776382+00:00",
+  "fetched_at": "2026-04-30T08:25:27.136484+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -170,18 +156,7 @@
     ],
     "updated_at": "2026-04-29T21:41:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bazelbuild/tulsi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tuist/xcodeproj",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "'Check commit message style'",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Speech-to-text server framework with next-gen Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "export-3d-speaker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "export-3d-speaker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "export-3d-speaker",
+      "sense_id": "export-3d-speaker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "export-3d-speaker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "export-3d-speaker",
+  "observation_id": "63c561ee728064ce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "export-3d-speaker",
+  "source_context_snippet": "export-3d-speaker",
+  "source_file": ".github/workflows/export-3d-speaker.yml",
+  "source_repo": "k2-fsa/sherpa",
+  "source_repo_description": "Speech-to-text server framework with next-gen Kaldi"
+}

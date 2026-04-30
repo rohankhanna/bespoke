@@ -3,7 +3,8 @@
     "code-quality",
     "Code Quality",
     "code quality",
-    "Code quality"
+    "Code quality",
+    "\ud83d\udccb Code Quality"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -348,6 +349,18 @@
       "source_repo": "CarperAI/trlx",
       "status": "candidate-context",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "Fast ML inference & training for ONNX models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb Code Quality"
     }
   ],
   "candidate_glosses": [
@@ -518,6 +531,12 @@
       "source_repo": "CarperAI/trlx",
       "status": "candidate",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate",
+      "text": "\ud83d\udccb Code Quality"
     }
   ],
   "candidate_related_terms": [
@@ -759,11 +778,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/code_quality.yml",
       "source_repo": "CarperAI/trlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "pykeio/ort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

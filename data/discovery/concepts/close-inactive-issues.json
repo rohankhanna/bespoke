@@ -579,6 +579,72 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oobabooga/textgen-extensions",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/ksp",
+      "status": "candidate-context",
+      "text": "Kotlin Symbol Processing API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/ksp",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Analyze bundle stats(bundle size, assets, modules, packages) and compare the results between different builds. Support for webpack, rspack, vite, rolldown and rollup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lesismal/arpc",
+      "status": "candidate-context",
+      "text": "More effective network communication, two-way calling, notify and broadcast supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/arpc",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -867,6 +933,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xorbitsai/inference",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oobabooga/textgen-extensions",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/ksp",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "relative-ci/bundle-stats",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/arpc",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -1284,11 +1386,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/issue.yaml",
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oobabooga/textgen-extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "google/ksp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/issues-inactive.yml",
+      "source_repo": "relative-ci/bundle-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "source_repo": "lesismal/arpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_dagger_on_depot_local_engine.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_dagger_on_depot_remote_engine.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "dagger/checks@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daggerverse-preview.yml"
+    },
+    {
+      "component": "dagger/dagger-for-github@v8.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daggerverse-preview.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_dagger_on_depot_local_engine.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_dagger_on_depot_local_engine.yml",
+      "source_repo": "dagger/dagger",
+      "target": "Dagger on Depot - Local Engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_dagger_on_depot_remote_engine.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_dagger_on_depot_remote_engine.yml",
+      "source_repo": "dagger/dagger",
+      "target": "Dagger on Depot - Remote Engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml",
+      "source_repo": "dagger/dagger",
+      "target": "Alternative CI Engines 1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-ci-runners-1.yml",
+      "source_repo": "dagger/dagger",
+      "target": "Alternative CI Runners 1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "dagger/dagger",
+      "target": "thollander/actions-comment-pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dagger/dagger",
+      "target": "dagger/checks@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dagger/dagger",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daggerverse-preview.yml",
+      "source_repo": "dagger/dagger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daggerverse-preview.yml",
+      "source_repo": "dagger/dagger",
+      "target": "dagger/dagger-for-github@v8.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daggerverse-preview.yml",
+      "source_repo": "dagger/dagger",
+      "target": "daggerverse-preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "continuous-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "dagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagger/dagger",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:16.425584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3016
+    },
+    {
+      "path": "go.mod",
+      "size": 17759
+    },
+    {
+      "path": ".github/workflows/.gitattributes",
+      "size": 28
+    },
+    {
+      "path": ".github/workflows/_dagger_on_depot_local_engine.yml",
+      "size": 1486
+    },
+    {
+      "path": ".github/workflows/_dagger_on_depot_remote_engine.yml",
+      "size": 1512
+    },
+    {
+      "path": ".github/workflows/alternative-ci-engines-1.yml",
+      "size": 4337
+    },
+    {
+      "path": ".github/workflows/alternative-ci-runners-1.yml",
+      "size": 1023
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 1516
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1870
+    },
+    {
+      "path": ".github/workflows/daggerverse-preview.yml",
+      "size": 1284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+    "fork": false,
+    "full_name": "dagger/dagger",
+    "html_url": "https://github.com/dagger/dagger",
+    "language": "Go",
+    "pushed_at": "2026-04-30T09:09:49Z",
+    "stargazers_count": 15746,
+    "topics": [
+      "agents",
+      "caching",
+      "ci-cd",
+      "containers",
+      "continuous-deployment",
+      "continuous-integration",
+      "dag",
+      "dagger",
+      "devops",
+      "docker",
+      "graphql",
+      "workflows"
+    ],
+    "updated_at": "2026-04-30T04:34:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dagger on Depot - Local Engine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_dagger_on_depot_local_engine.yml",
+      "term": "Dagger on Depot - Local Engine"
+    },
+    {
+      "context_snippet": "Dagger on Depot - Remote Engine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_dagger_on_depot_remote_engine.yml",
+      "term": "Dagger on Depot - Remote Engine"
+    },
+    {
+      "context_snippet": "Alternative CI Engines 1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-ci-engines-1.yml",
+      "term": "Alternative CI Engines 1"
+    },
+    {
+      "context_snippet": "Alternative CI Runners 1",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-ci-runners-1.yml",
+      "term": "Alternative CI Runners 1"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "daggerverse-preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daggerverse-preview.yml",
+      "term": "daggerverse-preview"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-deployment"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dagger"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

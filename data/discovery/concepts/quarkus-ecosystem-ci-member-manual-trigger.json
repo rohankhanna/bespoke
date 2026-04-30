@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Quarkus Ecosystem CI Member Manual Trigger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "status": "candidate-context",
+      "text": "Repository used for orchestrating cross-CI builds of extensions part of Quarkiverse - Quarkus ecosystem of extensions. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "status": "candidate-context",
+      "text": "\"Quarkus Ecosystem CI Member Manual Trigger\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "status": "candidate",
+      "text": "\"Quarkus Ecosystem CI Member Manual Trigger\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44212,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35925,
+      "status": "candidate",
+      "text": "environment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33868,
+      "status": "candidate",
+      "text": "mutagen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33835,
+      "status": "candidate",
+      "text": "envelope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33825,
+      "status": "candidate",
+      "text": "attractor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Quarkus Ecosystem CI Member Manual Trigger",
+  "concept_id": "quarkus-ecosystem-ci-member-manual-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ecosystem-member-action.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quarkus Ecosystem CI Member Manual Trigger",
+      "sense_id": "quarkus-ecosystem-ci-member-manual-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

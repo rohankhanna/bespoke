@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/FIPs",
+      "target": "filecoin-project/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "filecoin-project/FIPs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "filecoin-project/FIPs",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "filecoin-project/FIPs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "filecoin-project/FIPs",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:29.157299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24554
+    },
+    {
+      "path": ".github/workflows/githublabeler.py",
+      "size": 7360
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 759
+    },
+    {
+      "path": ".github/workflows/requirements.txt",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 692
+    },
+    {
+      "path": ".github/workflows/test_githublabeler.py",
+      "size": 4401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Filecoin Improvement Proposal repository",
+    "fork": false,
+    "full_name": "filecoin-project/FIPs",
+    "html_url": "https://github.com/filecoin-project/FIPs",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-21T21:35:09Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2026-04-21T21:35:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/specs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

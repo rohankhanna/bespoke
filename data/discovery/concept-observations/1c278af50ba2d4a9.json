@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast Python in-process signal/event dispatching system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blinker provides a fast dispatching system that allows any number of"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blinker provides a fast dispatching system that allows any number of"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027165,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019159,
+      "status": "candidate",
+      "text": "signalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009665,
+      "status": "candidate",
+      "text": "indicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004900,
+      "status": "candidate",
+      "text": "betoken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9992109,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "signals",
+      "sense_id": "signals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "signals",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "signals",
+  "observation_id": "1c278af50ba2d4a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "signals",
+  "source_context_snippet": "Blinker provides a fast dispatching system that allows any number of",
+  "source_file": null,
+  "source_repo": "pallets-eco/blinker",
+  "source_repo_description": "A fast Python in-process signal/event dispatching system."
+}

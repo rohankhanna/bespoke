@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "nuget/setup-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "Azure/template-analyzer",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:28.080874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8910
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/dotnet.yml",
+      "size": 2610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template scanner for security misconfiguration and best practices",
+    "fork": false,
+    "full_name": "Azure/template-analyzer",
+    "html_url": "https://github.com/Azure/template-analyzer",
+    "language": "C#",
+    "pushed_at": "2026-01-08T23:51:51Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-04-28T09:51:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    }
+  ]
+}

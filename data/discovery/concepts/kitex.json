@@ -19,6 +19,18 @@
       "source_repo": "cloudwego/kitex-examples",
       "status": "candidate-context",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "Time-sharing car rental system suite based on CloudWeGo series framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "![FreeCar](img/FreeCar.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cloudwego/kitex-examples",
       "status": "candidate",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate",
+      "text": "![FreeCar](img/FreeCar.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "cloudwego/kitex-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CyanAsterisk/FreeCar"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

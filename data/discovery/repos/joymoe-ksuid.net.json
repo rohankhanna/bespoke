@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "target": "ksuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "target": "unique-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:11.663071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "K-Sortable Globally Unique IDs for .Net",
+    "fork": false,
+    "full_name": "JoyMoe/Ksuid.Net",
+    "html_url": "https://github.com/JoyMoe/Ksuid.Net",
+    "language": "C#",
+    "pushed_at": "2022-04-05T12:38:35Z",
+    "stargazers_count": 48,
+    "topics": [
+      "ksuid",
+      "unique-id",
+      "uuid"
+    ],
+    "updated_at": "2025-12-15T15:34:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This library implements the [K-Sortable Globally Unique IDs](https://github.com/segmentio/ksuid) from Segment. See also the article called [A Brief History of the UUID](https://segment.com/blog/a-brief-history-of-the-uuid/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ksuid"
+    },
+    {
+      "context_snippet": "This library implements the [K-Sortable Globally Unique IDs](https://github.com/segmentio/ksuid) from Segment. See also the article called [A Brief History of the UUID](https://segment.com/blog/a-brief-history-of-the-uuid/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unique-id"
+    },
+    {
+      "context_snippet": "This library implements the [K-Sortable Globally Unique IDs](https://github.com/segmentio/ksuid) from Segment. See also the article called [A Brief History of the UUID](https://segment.com/blog/a-brief-history-of-the-uuid/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

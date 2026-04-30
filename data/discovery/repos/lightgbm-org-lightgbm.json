@@ -146,28 +146,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "dmlc/treelite",
+      "target": "jpmml/jpmml-lightgbm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "bayeswitnesses/m2cgen",
+      "target": "intel/scikit-learn-intelex",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "dmitryikh/leaves",
+      "target": "iqvia-ml/lightgbm.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lightgbm-org/LightGBM",
-      "target": "ankane/lightgbm-ruby",
+      "target": "joaquinamatrodrigo/skforecast",
       "target_type": "repository"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:43:12.265766+00:00",
+  "fetched_at": "2026-04-30T09:12:02.473650+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,7 +510,7 @@
     "full_name": "lightgbm-org/LightGBM",
     "html_url": "https://github.com/lightgbm-org/LightGBM",
     "language": "C++",
-    "pushed_at": "2026-04-29T03:55:27Z",
+    "pushed_at": "2026-04-30T03:13:45Z",
     "stargazers_count": 18305,
     "topics": [
       "data-mining",
@@ -533,22 +533,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ankane/lightgbm-ruby",
+      "full_name": "intel/scikit-learn-intelex",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bayeswitnesses/m2cgen",
+      "full_name": "iqvia-ml/lightgbm.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dmitryikh/leaves",
+      "full_name": "joaquinamatrodrigo/skforecast",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dmlc/treelite",
+      "full_name": "jpmml/jpmml-lightgbm",
       "source_file": "README.md"
     }
   ],

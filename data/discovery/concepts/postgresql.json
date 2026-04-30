@@ -307,6 +307,66 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial explaining how to create a reverse image search using the Python imagehash library and PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brianc/node-postgres",
+      "status": "candidate-context",
+      "text": "PostgreSQL client for node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianc/node-postgres",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/brianc/node-postgres/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/eslint-plugin-sql",
+      "status": "candidate-context",
+      "text": "SQL linting rules for ESLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-sql",
+      "status": "candidate-context",
+      "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +519,36 @@
       "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianc/node-postgres",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/brianc/node-postgres/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-sql",
+      "status": "candidate",
+      "text": "<a name=\"user-content-eslint-plugin-sql\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -681,11 +771,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brianc/node-postgres"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gajus/eslint-plugin-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/VectorChord"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

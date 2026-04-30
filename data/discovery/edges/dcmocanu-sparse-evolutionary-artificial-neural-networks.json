@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "selimac/tutorial-scads-summer-school-2020-scalable-deep-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "alliedtoasters/synapses",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "shiweiliuiiiiiii/sparse_topology_distance.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "zahraatashgahi/quickselection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "adaptive-sparse-connectivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "artificial-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "complex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-learning-papers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "evolutionary-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "multi-layer-perceptron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "neuroevolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "randomization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "restricted-boltzmann-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "scalable-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-evolutionary-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks"
+}

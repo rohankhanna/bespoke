@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:18:50.321194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension for stable-diffusion-webui to load lycoris models. ",
+    "fork": false,
+    "full_name": "KohakuBlueleaf/a1111-sd-webui-lycoris",
+    "html_url": "https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris",
+    "language": "Python",
+    "pushed_at": "2024-02-16T08:38:29Z",
+    "stargazers_count": 892,
+    "topics": [],
+    "updated_at": "2026-03-09T06:25:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

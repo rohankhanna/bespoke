@@ -343,6 +343,66 @@
       "source_repo": "mmatl/pyrender",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": ":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "status": "candidate-context",
+      "text": "PointNet and PointNet++ implemented by pytorch (pure python) and on ModelNet, ShapeNet and S3DIS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "status": "candidate-context",
+      "text": "This repo is implementation for [PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) and [PointNet++](http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf) in p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate-context",
+      "text": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate-context",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +573,36 @@
       "source_repo": "mmatl/pyrender",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch",
+      "status": "candidate",
+      "text": "This repo is implementation for [PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) and [PointNet++](http://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space.pdf) in p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
     }
   ],
   "candidate_related_terms": [
@@ -745,11 +835,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mmatl/pyrender"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yanx27/Pointnet_Pointnet2_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lunayach/visNER"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamieMair/MuJoCo.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

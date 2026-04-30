@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cloudwego"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "Time-sharing car rental system suite based on CloudWeGo series framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate-context",
+      "text": "![FreeCar](img/FreeCar.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyanAsterisk/FreeCar",
+      "status": "candidate",
+      "text": "![FreeCar](img/FreeCar.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cloudwego",
+  "concept_id": "cloudwego",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CyanAsterisk/FreeCar"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudwego",
+      "sense_id": "cloudwego#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

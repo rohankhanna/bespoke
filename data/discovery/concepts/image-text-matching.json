@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "image-text-matching"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of GroupViT: Semantic Segmentation Emerges from Text Supervision, CVPR 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate-context",
+      "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/GroupViT",
+      "status": "candidate",
+      "text": "GroupViT is a framework for learning semantic segmentation purely from text captions without"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-text-matching",
+  "concept_id": "image-text-matching",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-text-matching",
+      "sense_id": "image-text-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:27:43.749426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1770
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure Rust implementation of a D-Bus client",
+    "fork": false,
+    "full_name": "Arnavion/dbus-pure",
+    "html_url": "https://github.com/Arnavion/dbus-pure",
+    "language": "Rust",
+    "pushed_at": "2025-06-30T01:39:39Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-02-01T13:40:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

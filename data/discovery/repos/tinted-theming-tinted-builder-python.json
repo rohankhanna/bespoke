@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "inspectormustache/base16-builder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "base24/base24-builder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "base24/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "base24/base24-builder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "tinted-theming/home/.github/workflows/shared-auto-assign-issues.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "base24",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "base24-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "target": "theming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:25:08.966559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10319
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1451
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Finally, a base24 builder that doesn't require me to install anything new.",
+    "fork": false,
+    "full_name": "tinted-theming/tinted-builder-python",
+    "html_url": "https://github.com/tinted-theming/tinted-builder-python",
+    "language": "Python",
+    "pushed_at": "2024-09-02T12:02:25Z",
+    "stargazers_count": 10,
+    "topics": [
+      "base24",
+      "base24-builder",
+      "python",
+      "python3",
+      "theme",
+      "theming"
+    ],
+    "updated_at": "2026-01-22T19:22:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base24/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base24/base24-builder-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inspectormustache/base16-builder-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base24/base24-builder-python",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24"
+    },
+    {
+      "context_snippet": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24-builder"
+    },
+    {
+      "context_snippet": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theming"
+    }
+  ]
+}

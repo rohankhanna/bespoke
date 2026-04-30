@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-check-updates",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xyz",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "elm-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "npm-check-updates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "xyz",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "cachix/install-nix-action@v22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "doctest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "elm-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stoeffel/elm-verify-examples",
+      "target": "verify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:58.840253+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "stoeffel/elm-verify-examples",
+    "html_url": "https://github.com/stoeffel/elm-verify-examples",
+    "language": "Elm",
+    "pushed_at": "2024-04-16T07:59:35Z",
+    "stargazers_count": 167,
+    "topics": [
+      "doctest",
+      "elm",
+      "elm-test",
+      "verify"
+    ],
+    "updated_at": "2026-01-02T12:12:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "elm-verify-examples \u2014 Verify examples in Elm doc-comments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doctest"
+    },
+    {
+      "context_snippet": "elm-verify-examples \u2014 Verify examples in Elm doc-comments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-test"
+    },
+    {
+      "context_snippet": "elm-verify-examples \u2014 Verify examples in Elm doc-comments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verify"
+    }
+  ]
+}

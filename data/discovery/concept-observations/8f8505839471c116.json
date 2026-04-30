@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CUDA Kernel Benchmarking Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run as coder user"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run as coder user"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26177,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26115,
+      "status": "candidate",
+      "text": "command line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21608,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21551,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21404,
+      "status": "candidate",
+      "text": "spy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run as coder user",
+      "sense_id": "run-as-coder-user#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-as-coder-user",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-as-coder-user",
+  "observation_id": "8f8505839471c116",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Run as coder user",
+  "source_context_snippet": "Run as coder user",
+  "source_file": ".github/workflows/run-as-coder.yml",
+  "source_repo": "NVIDIA/nvbench",
+  "source_repo_description": "CUDA Kernel Benchmarking Library"
+}

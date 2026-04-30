@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26485996,
+      "status": "candidate",
+      "text": "duffy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16524805,
+      "status": "candidate",
+      "text": "dena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16524804,
+      "status": "candidate",
+      "text": "denson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16524803,
+      "status": "candidate",
+      "text": "docken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16524802,
+      "status": "candidate",
+      "text": "denning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deno",
+      "sense_id": "deno#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deno",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deno",
+  "observation_id": "4addc9c906c55c12",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "deno",
+  "source_context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+  "source_file": null,
+  "source_repo": "evanwashere/mitata",
+  "source_repo_description": "benchmark tooling that loves you \u2764\ufe0f"
+}

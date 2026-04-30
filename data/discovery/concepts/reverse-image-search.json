@@ -19,6 +19,30 @@
       "source_repo": "qwertyforce/image_search",
       "status": "candidate-context",
       "text": "new stuff<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial explaining how to create a reverse image search using the Python imagehash library and PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate-context",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qwertyforce/ambience",
+      "status": "candidate-context",
+      "text": "reverse image search and similarity search engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qwertyforce/ambience",
+      "status": "candidate-context",
+      "text": "reverse image search and similarity search engine <br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "qwertyforce/image_search",
       "status": "candidate",
       "text": "new stuff<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "status": "candidate",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qwertyforce/ambience",
+      "status": "candidate",
+      "text": "reverse image search and similarity search engine <br>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "qwertyforce/image_search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "qwertyforce/ambience"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

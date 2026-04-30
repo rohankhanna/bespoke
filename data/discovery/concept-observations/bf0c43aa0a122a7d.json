@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build ComfyUI Desktop"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build ComfyUI Desktop"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "dell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "desk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11001,
+      "status": "candidate",
+      "text": "architecture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build ComfyUI Desktop",
+      "sense_id": "build-comfyui-desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-comfyui-desktop",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-comfyui-desktop",
+  "observation_id": "bf0c43aa0a122a7d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build ComfyUI Desktop",
+  "source_context_snippet": "Build ComfyUI Desktop",
+  "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+  "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+  "source_repo_description": "ComfyUI Plugin of Nunchaku"
+}

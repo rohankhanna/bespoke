@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-buble",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ankane/ahoy.js",
+      "target": "@rollup/plugin-buble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ankane/ahoy.js",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ankane/ahoy.js",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ankane/ahoy.js",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ankane/ahoy.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy.js",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy.js",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy.js",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js",
+      "target": "first-party-analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/ahoy.js",
+      "target": "visits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:37.895630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5251
+    },
+    {
+      "path": "package.json",
+      "size": 849
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, powerful JavaScript analytics",
+    "fork": false,
+    "full_name": "ankane/ahoy.js",
+    "html_url": "https://github.com/ankane/ahoy.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-25T00:35:41Z",
+    "stargazers_count": 509,
+    "topics": [
+      "analytics",
+      "events",
+      "first-party-analytics",
+      "visits"
+    ],
+    "updated_at": "2026-04-09T10:31:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": ":fire: Visit and event tracking for JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": ":fire: Visit and event tracking for JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": ":fire: Visit and event tracking for JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-party-analytics"
+    },
+    {
+      "context_snippet": ":fire: Visit and event tracking for JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visits"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Weekly Micronaut Tests (--future-defaults=all)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate-context",
+      "text": "Weekly Micronaut Tests (--future-defaults=all)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graal",
+      "status": "candidate",
+      "text": "Weekly Micronaut Tests (--future-defaults=all)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "newsmagazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "newsweekly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10618,
+      "status": "candidate",
+      "text": "alt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Weekly Micronaut Tests (--future-defaults=all)",
+  "concept_id": "weekly-micronaut-tests---future-defaults-all",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/micronaut-future-defaults.yml",
+      "source_repo": "oracle/graal"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weekly Micronaut Tests (--future-defaults=all)",
+      "sense_id": "weekly-micronaut-tests---future-defaults-all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

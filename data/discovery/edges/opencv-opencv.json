@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "opencv/opencv",
-      "target": "opencv/opencv_contrib",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/4.x.yml",
       "source_repo": "opencv/opencv",
@@ -19,6 +12,13 @@
       "source_file": ".github/workflows/PR-4.x.yaml",
       "source_repo": "opencv/opencv",
       "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux-NoHAL.yaml@main",
       "target_type": "component"
     },
     {
@@ -155,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "opencv/opencv"
 }

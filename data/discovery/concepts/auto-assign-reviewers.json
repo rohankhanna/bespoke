@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Assign Reviewers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/devenv",
+      "status": "candidate-context",
+      "text": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/devenv",
+      "status": "candidate-context",
+      "text": "Auto Assign Reviewers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/devenv",
+      "status": "candidate",
+      "text": "Auto Assign Reviewers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "checkout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "ravel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22421,
+      "status": "candidate",
+      "text": "award"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22421,
+      "status": "candidate",
+      "text": "refer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Assign Reviewers",
+  "concept_id": "auto-assign-reviewers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-assign-reviewers.yml",
+      "source_repo": "cachix/devenv"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Assign Reviewers",
+      "sense_id": "auto-assign-reviewers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

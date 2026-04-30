@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dnscrypt-enabled-resolvers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate",
+      "text": "![CI status](https://github.com/DNSCrypt/dnscrypt-resolvers/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dnscrypt-enabled-resolvers",
+  "concept_id": "dnscrypt-enabled-resolvers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-resolvers"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dnscrypt-enabled-resolvers",
+      "sense_id": "dnscrypt-enabled-resolvers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

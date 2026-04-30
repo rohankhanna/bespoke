@@ -19,12 +19,30 @@
       "source_repo": "alibaba/spring-cloud-alibaba",
       "status": "candidate-context",
       "text": "Issue and PR comment commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Issue and PR comment commands"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "Issue and PR comment commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
       "status": "candidate",
       "text": "Issue and PR comment commands"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/issue-command.yml",
       "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/issue-comment.yaml",
+      "source_repo": "envoyproxy/gateway"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-pre-commit",
-      "target": "observing/pre-commit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-pre-commit",
       "target": "nelsonic/learn-pre-commit",
       "target_type": "repository"
     },
@@ -20,15 +13,8 @@
       "source_repo": "dwyl/learn-pre-commit",
       "target": "jrans/node-git-hooks",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/learn-pre-commit",
-      "target": "sonarsource/sonar-java",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "dwyl/learn-pre-commit"
 }

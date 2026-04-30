@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:11:50.902268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Seed Machine Translation Data",
+    "fork": false,
+    "full_name": "openlanguagedata/seed",
+    "html_url": "https://github.com/openlanguagedata/seed",
+    "language": null,
+    "pushed_at": "2024-11-12T09:50:56Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-13T09:13:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

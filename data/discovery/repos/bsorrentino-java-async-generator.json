@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "Deploy New Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "bsorrentino/java-async-generator",
+      "target": "Deploy New Version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:52.552675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1971
+    },
+    {
+      "path": "package.json",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/deploy-github-pages.yml",
+      "size": 1370
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yaml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/deploy-snapshot.yaml",
+      "size": 868
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a Java version of Javascript async generator",
+    "fork": false,
+    "full_name": "bsorrentino/java-async-generator",
+    "html_url": "https://github.com/bsorrentino/java-async-generator",
+    "language": "Java",
+    "pushed_at": "2026-04-21T22:06:31Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-22T00:29:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-github-pages.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yaml",
+      "term": "Deploy Documentation"
+    },
+    {
+      "context_snippet": "Deploy New Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "term": "Deploy New Snapshot"
+    },
+    {
+      "context_snippet": "Deploy New Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deploy New Version"
+    }
+  ]
+}

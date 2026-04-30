@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple note taking application using modular AWS SDK for JavaScript (v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In this app, you are going to build a simple note taking application using"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In this app, you are going to build a simple note taking application using"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-sdk",
+      "sense_id": "aws-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-sdk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-sdk",
+  "observation_id": "2492c692747a5722",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "aws-sdk",
+  "source_context_snippet": "In this app, you are going to build a simple note taking application using",
+  "source_file": null,
+  "source_repo": "aws-samples/aws-sdk-js-notes-app",
+  "source_repo_description": "A simple note taking application using modular AWS SDK for JavaScript (v3)"
+}

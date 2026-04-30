@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:21:09.069018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8562
+    },
+    {
+      "path": "requirements.txt",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PIPs++",
+    "fork": false,
+    "full_name": "aharley/pips2",
+    "html_url": "https://github.com/aharley/pips2",
+    "language": "Python",
+    "pushed_at": "2024-07-08T17:59:52Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-02-26T11:09:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

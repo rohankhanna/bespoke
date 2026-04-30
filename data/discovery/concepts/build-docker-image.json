@@ -268,6 +268,18 @@
       "source_repo": "mlocati/docker-php-extension-installer",
       "status": "candidate-context",
       "text": "Build Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate-context",
+      "text": "Build Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -402,6 +414,12 @@
       "source_repo": "mlocati/docker-php-extension-installer",
       "status": "candidate",
       "text": "Build Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risingwavelabs/risingwave",
+      "status": "candidate",
+      "text": "Build Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -589,11 +607,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/test-dockerfile.yml",
       "source_repo": "mlocati/docker-php-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "geocompx/docker"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

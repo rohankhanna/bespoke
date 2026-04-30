@@ -379,6 +379,90 @@
       "source_repo": "unum-cloud/USearch",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "A library for audio oversampling, which tries to offer a simple api while wrapping HIIR, by Laurent De Soras, for minimum phase antialiasing, and r8brain-free-src, by Aleksey Vaneev, for linear phase antialiasing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for lemire/simdjson (and full C# port)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate-context",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +651,48 @@
       "source_repo": "unum-cloud/USearch",
       "status": "candidate",
       "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_related_terms": [
@@ -844,11 +970,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/hiir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/oversimple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/sonic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Antares0982/ssrJSON"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

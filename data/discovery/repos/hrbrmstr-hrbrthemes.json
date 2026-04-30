@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "r-hub/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-r@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "R-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "datavisualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "ggplot-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "ggplot2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "ggplot2-scales",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "ggplot2-themes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:52.047562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14794
+    },
+    {
+      "path": ".github/workflows/rhub.yaml",
+      "size": 2942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components",
+    "fork": false,
+    "full_name": "hrbrmstr/hrbrthemes",
+    "html_url": "https://github.com/hrbrmstr/hrbrthemes",
+    "language": "R",
+    "pushed_at": "2026-04-19T13:43:33Z",
+    "stargazers_count": 1341,
+    "topics": [
+      "data-visualization",
+      "datavisualization",
+      "ggplot-extension",
+      "ggplot2",
+      "ggplot2-scales",
+      "ggplot2-themes",
+      "r",
+      "rstats",
+      "visualization"
+    ],
+    "updated_at": "2026-04-20T23:14:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "R-hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "term": "R-hub"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datavisualization"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggplot-extension"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggplot2"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggplot2-scales"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggplot2-themes"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "[![Project Status: Active \u2013 The project has reached a stable, usable",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

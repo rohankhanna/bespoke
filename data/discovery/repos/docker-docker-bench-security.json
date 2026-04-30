@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "pozil/auto-assign-issue@74b9f64cc1a08f99358061073e243a4c3d7dd5c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    },
+    {
+      "component": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    },
+    {
+      "component": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "pozil/auto-assign-issue@74b9f64cc1a08f99358061073e243a4c3d7dd5c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "Issue assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slsa.yml",
+      "source_repo": "docker/docker-bench-security",
+      "target": "SLSA",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:49.624678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6534
+    },
+    {
+      "path": "Dockerfile",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/slsa.yml",
+      "size": 2444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.",
+    "fork": false,
+    "full_name": "docker/docker-bench-security",
+    "html_url": "https://github.com/docker/docker-bench-security",
+    "language": "Shell",
+    "pushed_at": "2024-10-21T07:26:06Z",
+    "stargazers_count": 9627,
+    "topics": [],
+    "updated_at": "2026-04-29T09:48:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Issue assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issue assignment"
+    },
+    {
+      "context_snippet": "SLSA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slsa.yml",
+      "term": "SLSA"
+    }
+  ]
+}

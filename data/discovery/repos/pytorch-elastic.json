@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:16:12.466606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 392
+    },
+    {
+      "path": "Dockerfile",
+      "size": 168
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "PyTorch elastic training",
+    "fork": false,
+    "full_name": "pytorch/elastic",
+    "html_url": "https://github.com/pytorch/elastic",
+    "language": "Python",
+    "pushed_at": "2022-06-15T13:02:27Z",
+    "stargazers_count": 729,
+    "topics": [],
+    "updated_at": "2026-03-13T15:43:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

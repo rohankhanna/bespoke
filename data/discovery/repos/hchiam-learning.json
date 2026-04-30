@@ -1,0 +1,293 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning",
+      "target": "googlechromelabs/projectvisbug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning",
+      "target": "hchiam/_2dnote",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning",
+      "target": "hchiam/anonymous-input",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning",
+      "target": "hchiam/alexasample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "angularjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "chrome-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "conlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "genetic-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "google-voice-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:40.333623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "What I'm learning/practicing",
+    "fork": false,
+    "full_name": "hchiam/learning",
+    "html_url": "https://github.com/hchiam/learning",
+    "language": null,
+    "pushed_at": "2026-02-14T04:35:44Z",
+    "stargazers_count": 19,
+    "topics": [
+      "angularjs",
+      "api",
+      "backend",
+      "chrome-extension",
+      "conlang",
+      "frontend",
+      "game",
+      "genetic-algorithm",
+      "google-voice-assistant",
+      "javascript",
+      "machine-learning",
+      "plugin",
+      "programming-language",
+      "python",
+      "react",
+      "server",
+      "svelte",
+      "unit-testing",
+      "vue"
+    ],
+    "updated_at": "2026-04-20T11:36:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechromelabs/projectvisbug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/_2dnote",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/alexasample",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/anonymous-input",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angularjs"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backend"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conlang"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frontend"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genetic-algorithm"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-voice-assistant"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

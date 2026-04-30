@@ -19,6 +19,30 @@
       "source_repo": "ankane/lightgbm-ruby",
       "status": "candidate-context",
       "text": "[LightGBM](https://github.com/microsoft/LightGBM) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/xgboost-ruby",
+      "status": "candidate-context",
+      "text": "High performance gradient boosting for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/xgboost-ruby",
+      "status": "candidate-context",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/eps",
+      "status": "candidate-context",
+      "text": "Machine learning for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/eps",
+      "status": "candidate-context",
+      "text": "Machine learning for Ruby"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ankane/lightgbm-ruby",
       "status": "candidate",
       "text": "[LightGBM](https://github.com/microsoft/LightGBM) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/xgboost-ruby",
+      "status": "candidate",
+      "text": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/eps",
+      "status": "candidate",
+      "text": "Machine learning for Ruby"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ankane/lightgbm-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/xgboost-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/eps"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

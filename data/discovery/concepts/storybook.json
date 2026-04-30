@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Storybook"
+    "Storybook",
+    "storybook"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -13,6 +16,18 @@
       "source_repo": "codesyntax/volto-countup-block",
       "status": "candidate-context",
       "text": "Storybook"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "Storybook builder and frameworks powered by Rsbuild."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate-context",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +36,12 @@
       "source_repo": "codesyntax/volto-countup-block",
       "status": "candidate",
       "text": "Storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/storybook-rsbuild",
+      "status": "candidate",
+      "text": "![Storybook Rsbuild](https://github.com/rstackjs/storybook-rsbuild/assets/7237365/00165054-9e3e-4a15-8a99-27985989b9d2)"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +91,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/storybook.yml",
       "source_repo": "codesyntax/volto-countup-block"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/storybook-rsbuild"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

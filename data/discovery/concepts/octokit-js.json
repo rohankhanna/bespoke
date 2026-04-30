@@ -307,6 +307,30 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate-context",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "\"npm init\" script to create a new Octokit JS module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
     }
   ],
   "candidate_related_terms": [],
@@ -622,11 +658,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "octokit/oauth-authorization-url.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/authentication-strategies.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-unauthenticated.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/create-octokit-project.js"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datawhalechina/llm-universe",
+      "target": "datawhalechina/so-large-lm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datawhalechina/llm-universe",
+      "target": "langchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:24.438254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7701
+    },
+    {
+      "path": "requirements.txt",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u672c\u9879\u76ee\u662f\u4e00\u4e2a\u9762\u5411\u5c0f\u767d\u5f00\u53d1\u8005\u7684\u5927\u6a21\u578b\u5e94\u7528\u5f00\u53d1\u6559\u7a0b\uff0c\u5728\u7ebf\u9605\u8bfb\u5730\u5740\uff1ahttps://datawhalechina.github.io/llm-universe/",
+    "fork": false,
+    "full_name": "datawhalechina/llm-universe",
+    "html_url": "https://github.com/datawhalechina/llm-universe",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-24T14:33:21Z",
+    "stargazers_count": 12866,
+    "topics": [
+      "langchain",
+      "rag"
+    ],
+    "updated_at": "2026-04-30T09:54:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datawhalechina/so-large-lm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    }
+  ]
+}

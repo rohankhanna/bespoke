@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/sonar-developer-toolset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PrepareNextIteration.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PrepareNextIteration.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PrepareNextIteration.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/release-github-actions/create-pull-request@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PrepareNextIteration.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Prepare Next Development Iteration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/gh-action-lt-backlog/PullRequestClosed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestClosed.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Pull Request Closed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/gh-action-lt-backlog/PullRequestCreated@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PullRequestCreated.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Pull Request Created",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasabilityCheck.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ReleasabilityCheck.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/gh-action_releasability/releasability-status@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ReleasabilityCheck.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Releasability Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/gh-action-lt-backlog/RequestReview@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RequestReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Request review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/gh-action-lt-backlog/SubmitReview@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Submit Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ToggleLockBranch.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/vault-action-wrapper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ToggleLockBranch.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarsource/gh-action-lt-backlog/ToggleLockBranch@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ToggleLockBranch.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Toggle lock branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UpdateRuleMetadata.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/release-github-actions/update-rule-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UpdateRuleMetadata.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Update Rule Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "SonarSource/release-github-actions/.github/workflows/automated-release.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "SonarSource/sonar-java",
+      "target": "Automated Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "language-team",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "sonarqube",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "static-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SonarSource/sonar-java",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "SonarSource/sonar-java"
+}

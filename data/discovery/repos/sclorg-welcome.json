@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/welcome",
+      "target": "sclorg/softwarecollections",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/welcome",
+      "target": "sclorg/centpkg-sclo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/welcome",
+      "target": "sclorg/rpm-list-builder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:23.615446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Welcome page with basic overview around the sclorg organization, aka what all one can find here.",
+    "fork": false,
+    "full_name": "sclorg/welcome",
+    "html_url": "https://github.com/sclorg/welcome",
+    "language": null,
+    "pushed_at": "2026-01-21T11:35:09Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-01-21T11:35:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sclorg/centpkg-sclo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sclorg/rpm-list-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sclorg/softwarecollections",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

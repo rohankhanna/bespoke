@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Toggle lock branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Toggle lock branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Toggle lock branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23471,
+      "status": "candidate",
+      "text": "fluke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23417,
+      "status": "candidate",
+      "text": "harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22677,
+      "status": "candidate",
+      "text": "detent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22627,
+      "status": "candidate",
+      "text": "fang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22627,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Toggle lock branch",
+  "concept_id": "toggle-lock-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ToggleLockBranch.yml",
+      "source_repo": "SonarSource/sonar-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Toggle lock branch",
+      "sense_id": "toggle-lock-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

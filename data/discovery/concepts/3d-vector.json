@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "3d-vector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3d-vector",
+  "concept_id": "3d-vector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-vector",
+      "sense_id": "3d-vector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

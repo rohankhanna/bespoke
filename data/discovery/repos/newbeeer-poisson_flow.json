@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Newbeeer/Poisson_flow",
+      "target": "yang-song/score_sde_pytorch.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:36.174766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10306
+    },
+    {
+      "path": "requirements.txt",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for NeurIPS 2022 Paper, \"Poisson Flow Generative Models\" (PFGM)",
+    "fork": false,
+    "full_name": "Newbeeer/Poisson_flow",
+    "html_url": "https://github.com/Newbeeer/Poisson_flow",
+    "language": "Python",
+    "pushed_at": "2023-06-06T15:52:42Z",
+    "stargazers_count": 872,
+    "topics": [],
+    "updated_at": "2026-04-11T13:59:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yang-song/score_sde_pytorch.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

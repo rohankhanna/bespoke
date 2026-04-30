@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -301,6 +301,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "OpenBMB/BMInf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "bghira/CaptionFlow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "Alir3z4/html2text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jawah/niquests"
     }
   ],
   "term": "Publish to PyPI"

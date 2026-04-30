@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -782,6 +782,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-hurl.yml",
       "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/qa.yml",
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "poolifier/tatami-ng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "poolifier/tatami-ng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "poolifier/tatami-ng"
     }
   ]
 }

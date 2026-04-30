@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTCResources",
+      "target": "blcuicall/ccl2022-cltc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTCResources",
+      "target": "acl2020spellgcn/spellgcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTCResources",
+      "target": "dadamrx/realise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTCResources",
+      "target": "autotemp/shallow-aggressive-decoding",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:23.759692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "destwang/CTCResources",
+    "html_url": "https://github.com/destwang/CTCResources",
+    "language": null,
+    "pushed_at": "2024-07-26T02:41:27Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-13T06:56:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acl2020spellgcn/spellgcn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autotemp/shallow-aggressive-decoding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blcuicall/ccl2022-cltc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dadamrx/realise",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

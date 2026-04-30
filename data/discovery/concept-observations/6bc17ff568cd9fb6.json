@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HermitCore: A C-based, lightweight unikernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "osdev",
+      "sense_id": "osdev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "osdev",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "osdev",
+  "observation_id": "6bc17ff568cd9fb6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "osdev",
+  "source_context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+  "source_file": null,
+  "source_repo": "hermit-os/libhermit",
+  "source_repo_description": "HermitCore: A C-based, lightweight unikernel"
+}

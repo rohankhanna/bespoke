@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to Cloudflare Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate-context",
+      "text": "Official documentation website for the ReScript programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate-context",
+      "text": "Deploy to Cloudflare Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript-lang.org",
+      "status": "candidate",
+      "text": "Deploy to Cloudflare Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11494,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "beeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11105,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to Cloudflare Pages",
+  "concept_id": "deploy-to-cloudflare-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rescript-lang/rescript-lang.org"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to Cloudflare Pages",
+      "sense_id": "deploy-to-cloudflare-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

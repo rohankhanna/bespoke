@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bosh-google-cpi-release",
+      "target": "cloudfoundry/bosh-bootloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bosh-google-cpi-release",
+      "target": "cloudfoundry-incubator/bosh-google-cpi-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-google-cpi-release",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-google-cpi-release",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/bosh-google-cpi-release",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:12:16.783561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2952
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BOSH Google CPI",
+    "fork": false,
+    "full_name": "cloudfoundry/bosh-google-cpi-release",
+    "html_url": "https://github.com/cloudfoundry/bosh-google-cpi-release",
+    "language": "Go",
+    "pushed_at": "2026-04-21T00:58:20Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-21T00:58:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/bosh-google-cpi-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-bootloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

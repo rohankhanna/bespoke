@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "rouge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate-context",
+      "text": "Evaluation code for various unsupervised automated metrics for Natural Language Generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Maluuba/nlg-eval",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050349,
+      "status": "candidate",
+      "text": "blusher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960726,
+      "status": "candidate",
+      "text": "paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050591,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050538,
+      "status": "candidate",
+      "text": "redness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050359,
+      "status": "candidate",
+      "text": "flushed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "blusher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4060,
+      "status": "candidate",
+      "text": "paint"
+    }
+  ],
+  "canonical_name": "rouge",
+  "concept_id": "rouge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Maluuba/nlg-eval"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rouge",
+      "sense_id": "rouge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

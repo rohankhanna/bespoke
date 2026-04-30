@@ -431,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:31:39.732715+00:00",
+  "fetched_at": "2026-04-30T10:20:46.424064+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -484,7 +484,7 @@
     "html_url": "https://github.com/distribution/distribution",
     "language": "Go",
     "pushed_at": "2026-04-22T18:07:46Z",
-    "stargazers_count": 10369,
+    "stargazers_count": 10385,
     "topics": [
       "cncf",
       "containers",
@@ -493,7 +493,7 @@
       "oci-specification",
       "registry"
     ],
-    "updated_at": "2026-04-22T18:07:53Z"
+    "updated_at": "2026-04-30T03:53:32Z"
   },
   "repo_links": [],
   "terms": [

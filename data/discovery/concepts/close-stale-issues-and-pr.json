@@ -43,6 +43,18 @@
       "source_repo": "external-secrets/kubernetes-external-secrets",
       "status": "candidate-context",
       "text": "'Close stale issues and PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "A complete solution to package and build a ready for distribution Electron app with \u201cauto update\u201d support out of the box"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PR'"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "'Close stale issues and PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-builder",
       "status": "candidate",
       "text": "'Close stale issues and PR'"
     }
@@ -172,11 +190,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/bot.yml",
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "electron-userland/electron-builder"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

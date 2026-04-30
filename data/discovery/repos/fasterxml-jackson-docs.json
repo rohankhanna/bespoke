@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:22:53.746640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation for the Jackson JSON processor.",
+    "fork": false,
+    "full_name": "FasterXML/jackson-docs",
+    "html_url": "https://github.com/FasterXML/jackson-docs",
+    "language": null,
+    "pushed_at": "2022-06-22T02:48:47Z",
+    "stargazers_count": 759,
+    "topics": [],
+    "updated_at": "2026-04-23T12:45:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

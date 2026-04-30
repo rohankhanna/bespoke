@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bincheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "bincheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate",
+      "text": "bincheck"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bincheck",
+  "concept_id": "bincheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/bincheck.yml",
+      "source_repo": "cockroachdb/cockroach"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bincheck",
+      "sense_id": "bincheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

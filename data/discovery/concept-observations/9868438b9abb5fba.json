@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reproduction Required"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reproduction Required"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "casted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11650,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11650,
+      "status": "candidate",
+      "text": "airs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11563,
+      "status": "candidate",
+      "text": "endogamy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reproduction Required",
+      "sense_id": "reproduction-required#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reproduction-required",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reproduction-required",
+  "observation_id": "9868438b9abb5fba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Reproduction Required",
+  "source_context_snippet": "Reproduction Required",
+  "source_file": ".github/workflows/reproduction-required.yml",
+  "source_repo": "wix/Detox",
+  "source_repo_description": "Gray box end-to-end testing and automation framework for mobile apps"
+}

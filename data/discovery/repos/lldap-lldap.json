@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lldap/lldap",
+      "target": "zepmann/lldap-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "ldap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "opaque",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lldap/lldap",
+      "target": "web-assembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:43.899239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10436
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 636
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3259
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.alpine",
+      "size": 1325
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.alpine-base",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.alpine-rootless",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.debian",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.debian-base",
+      "size": 3168
+    },
+    {
+      "path": ".github/workflows/Dockerfile.ci.debian-rootless",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/Dockerfile.dev",
+      "size": 1815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Light LDAP implementation",
+    "fork": false,
+    "full_name": "lldap/lldap",
+    "html_url": "https://github.com/lldap/lldap",
+    "language": "Rust",
+    "pushed_at": "2026-03-29T08:19:27Z",
+    "stargazers_count": 6196,
+    "topics": [
+      "authentication",
+      "ldap",
+      "opaque",
+      "rust",
+      "security",
+      "wasm",
+      "web-assembly"
+    ],
+    "updated_at": "2026-04-30T04:36:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zepmann/lldap-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ldap"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opaque"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-assembly"
+    }
+  ]
+}

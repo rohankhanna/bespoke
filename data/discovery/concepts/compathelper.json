@@ -121,6 +121,54 @@
       "source_repo": "JuliaLogging/TerminalLoggers.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "The official registry of general Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for yyjson for reading and parsing JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +229,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -256,11 +334,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaLogging/TerminalLoggers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaRegistries/General"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

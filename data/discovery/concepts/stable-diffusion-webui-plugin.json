@@ -127,6 +127,30 @@
       "source_repo": "pkuliyi2015/sd-webui-stablesr",
       "status": "candidate-context",
       "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate-context",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate-context",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladmandic/sd-extension-steps-animation",
+      "status": "candidate-context",
+      "text": "Save Interim Steps as Animation extension for SD WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sd-extension-steps-animation",
+      "status": "candidate-context",
+      "text": "Extension to create animation sequence from denoised intermediate steps"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "pkuliyi2015/sd-webui-stablesr",
       "status": "candidate",
       "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "status": "candidate",
+      "text": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sd-extension-steps-animation",
+      "status": "candidate",
+      "text": "Extension to create animation sequence from denoised intermediate steps"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "pkuliyi2015/sd-webui-stablesr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vladmandic/sd-extension-steps-animation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

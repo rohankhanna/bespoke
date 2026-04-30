@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Documentation Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Documentation Coverage"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936748,
+      "status": "candidate",
+      "text": "unsynchronized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936426,
+      "status": "candidate",
+      "text": "unsynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935095,
+      "status": "candidate",
+      "text": "nonsynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932657,
+      "status": "candidate",
+      "text": "nonparallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912568,
+      "status": "candidate",
+      "text": "anachronic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asynchronous",
+      "sense_id": "asynchronous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5046,
+      "status": "candidate",
+      "text": "serial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "anachronistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "anachronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "nonsynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "allochronic"
+    }
+  ],
+  "concept_id": "asynchronous",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asynchronous",
+  "observation_id": "62cc6b710987b3a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "asynchronous",
+  "source_context_snippet": "Documentation Coverage",
+  "source_file": null,
+  "source_repo": "socketry/async",
+  "source_repo_description": "An awesome asynchronous event-driven reactor for Ruby."
+}

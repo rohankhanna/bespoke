@@ -139,6 +139,30 @@
       "source_repo": "Ha0Tang/GestureGAN",
       "status": "candidate-context",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion\ud83d\udd25] [scaling laws in visual generation\ud83d\udcc8] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/progen",
+      "status": "candidate-context",
+      "text": "Official release of the ProGen models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/progen",
+      "status": "candidate-context",
+      "text": "Suite of open-sourced projects and models for protein engineering and design."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "Ha0Tang/GestureGAN",
       "status": "candidate",
       "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/progen",
+      "status": "candidate",
+      "text": "Suite of open-sourced projects and models for protein engineering and design."
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +328,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Ha0Tang/GestureGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/VAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/progen"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

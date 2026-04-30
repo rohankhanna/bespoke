@@ -1,0 +1,212 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "euagendas/semeval_8_2022_ia_downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "computational-linguistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "cross-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "crosslingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "multi-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "semantic-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "semeval-2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "xlm-roberta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:24.261133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deep-learning system proposed by HFL for SemEval-2022 Task 8: Multilingual News Similarity",
+    "fork": false,
+    "full_name": "GeekDream-x/SemEval2022-Task8-TonyX",
+    "html_url": "https://github.com/GeekDream-x/SemEval2022-Task8-TonyX",
+    "language": "Python",
+    "pushed_at": "2022-07-15T05:42:33Z",
+    "stargazers_count": 40,
+    "topics": [
+      "computational-linguistics",
+      "cross-lingual",
+      "crosslingual",
+      "deep-learning",
+      "machine-learning",
+      "multi-lingual",
+      "multilingual",
+      "natural-language-processing",
+      "nlp",
+      "paper",
+      "semantic-similarity",
+      "semeval-2022",
+      "xlm-roberta"
+    ],
+    "updated_at": "2025-09-03T08:06:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "euagendas/semeval_8_2022_ia_downloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-linguistics"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crosslingual"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-lingual"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-similarity"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semeval-2022"
+    },
+    {
+      "context_snippet": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlm-roberta"
+    }
+  ]
+}

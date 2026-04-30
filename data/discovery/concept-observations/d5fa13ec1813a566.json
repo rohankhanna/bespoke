@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python bindings to PDFium, reasonably cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pdf-to-image",
+      "sense_id": "pdf-to-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pdf-to-image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pdf-to-image",
+  "observation_id": "d5fa13ec1813a566",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "pdf-to-image",
+  "source_context_snippet": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->",
+  "source_file": null,
+  "source_repo": "pypdfium2-team/pypdfium2",
+  "source_repo_description": "Python bindings to PDFium, reasonably cross-platform."
+}

@@ -19,6 +19,18 @@
       "source_repo": "4e554c4c/base16-halloy",
       "status": "candidate-context",
       "text": "This repository contains [base16][1] templates for the [Halloy][2] IRC client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate-context",
+      "text": "Base16 for kermit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate-context",
+      "text": "**Deprecated**: tinted-kermit and all the other Tinted Theming"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "4e554c4c/base16-halloy",
       "status": "candidate",
       "text": "This repository contains [base16][1] templates for the [Halloy][2] IRC client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-kermit",
+      "status": "candidate",
+      "text": "**Deprecated**: tinted-kermit and all the other Tinted Theming"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "4e554c4c/base16-halloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-kermit"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

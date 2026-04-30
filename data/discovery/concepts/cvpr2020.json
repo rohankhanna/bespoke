@@ -67,6 +67,18 @@
       "source_repo": "clovaai/wsolevaluation",
       "status": "candidate-context",
       "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "clovaai/wsolevaluation",
       "status": "candidate",
       "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "clovaai/wsolevaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

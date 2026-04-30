@@ -67,6 +67,18 @@
       "source_repo": "FStarLang/karamel",
       "status": "candidate-context",
       "text": "KaRaMeL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Dafny is a verification-aware programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/dafny-lang/dafny/workflows/Build%20and%20Test/badge.svg)](https://github.com/dafny-lang/dafny/actions?query=workflow%3A%22Build+and+Test%22) [![Gitter](https://badges.gitter.im/dafny-lang/community.svg)](https://gitter.im/dafny-lang/communit\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "FStarLang/karamel",
       "status": "candidate",
       "text": "KaRaMeL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/dafny-lang/dafny/workflows/Build%20and%20Test/badge.svg)](https://github.com/dafny-lang/dafny/actions?query=workflow%3A%22Build+and+Test%22) [![Gitter](https://badges.gitter.im/dafny-lang/community.svg)](https://gitter.im/dafny-lang/communit\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -200,11 +218,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

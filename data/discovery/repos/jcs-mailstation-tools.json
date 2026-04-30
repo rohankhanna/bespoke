@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcs/mailstation-tools",
+      "target": "sudar/arduino-makefile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jcs/mailstation-tools",
+      "target": "mailstation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:16:34.060896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 77182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for working with Cidco Mailstations",
+    "fork": false,
+    "full_name": "jcs/mailstation-tools",
+    "html_url": "https://github.com/jcs/mailstation-tools",
+    "language": "Assembly",
+    "pushed_at": "2024-08-19T16:31:12Z",
+    "stargazers_count": 26,
+    "topics": [
+      "mailstation",
+      "z80"
+    ],
+    "updated_at": "2026-03-05T13:25:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sudar/arduino-makefile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a collection of tools for working with Cidco Mailstation devices",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mailstation"
+    }
+  ]
+}

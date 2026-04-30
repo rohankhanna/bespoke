@@ -19,6 +19,18 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate-context",
+      "text": "Set up commonly used \ud83d\udce6 components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "r-lib/usethis"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

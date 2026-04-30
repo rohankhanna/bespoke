@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "assertions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate-context",
+      "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate-context",
+      "text": "Asserting type with help of TypeScript compiler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate",
+      "text": "Asserting type with help of TypeScript compiler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051417,
+      "status": "candidate",
+      "text": "asseveration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051369,
+      "status": "candidate",
+      "text": "averment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051258,
+      "status": "candidate",
+      "text": "affirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050374,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "affirmations"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "assertions",
+  "concept_id": "assertions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ksxnodemodules/static-type-assert"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assertions",
+      "sense_id": "assertions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

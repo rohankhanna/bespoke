@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Agent Context"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "Test Agent Context"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate",
+      "text": "Test Agent Context"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19064,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18269,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18195,
+      "status": "candidate",
+      "text": "anachronism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18195,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18195,
+      "status": "candidate",
+      "text": "functional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Agent Context",
+  "concept_id": "test-agent-context",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-agent-context.yaml",
+      "source_repo": "socketry/async"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Agent Context",
+      "sense_id": "test-agent-context#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

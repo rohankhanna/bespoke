@@ -71,6 +71,18 @@
       "source_repo": "standardrb/standard",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "RuboCop"
     }
   ],
   "candidate_glosses": [
@@ -103,6 +115,12 @@
       "source_repo": "standardrb/standard",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate",
+      "text": "RuboCop"
     }
   ],
   "candidate_related_terms": [],
@@ -140,11 +158,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/rubocop.yaml",
+      "source_repo": "socketry/async"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

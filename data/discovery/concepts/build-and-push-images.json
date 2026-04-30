@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and push images"
+    "Build and push images",
+    "Build and Push Images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "eth-act/ere",
       "status": "candidate-context",
       "text": "Build and push images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/network",
+      "status": "candidate-context",
+      "text": "This is the monorepo for the Succinct Prover Network, a protocol on Ethereum that coordinates a distributed network of provers to generate zero knowledge proofs for any piece of software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/network",
+      "status": "candidate-context",
+      "text": "Build and Push Images"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "eth-act/ere",
       "status": "candidate",
       "text": "Build and push images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/network",
+      "status": "candidate",
+      "text": "Build and Push Images"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build-and-push-images.yml",
       "source_repo": "eth-act/ere"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "succinctlabs/network"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

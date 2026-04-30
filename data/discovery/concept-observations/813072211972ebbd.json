@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "      Fklang \u662f\u4e00\u4e2a\u9762\u5411\u8f6f\u4ef6\u5f00\u53d1\u5de5\u4e1a\u5316\u7684\u67b6\u6784\u8bbe\u8ba1 DSL\uff0c\u901a\u8fc7\u663e\u6027\u5316\u8f6f\u4ef6\u67b6\u6784\u8bbe\u8ba1\uff0c\u4ee5\u786e\u4fdd\u8f6f\u4ef6\u7cfb\u7edf\u63cf\u8ff0\u4e0e\u5b9e\u73b0\u7684\u4e00\u81f4\u6027\u3002\u5e76\u5728\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5185\u5d4c\u5bf9\u4e8e AI \u4ee3\u7801\u751f\u6210\u8f6f\u4ef6\u7684\u652f\u6301\uff0c\u4ee5\u6784\u7b51\u5b8c\u6574\u7684\u5f00\u53d1\u8005\u4f53\u9a8c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build](https://github.com/feakin/fklang/actions/workflows/build.yml/badge.svg)](https://github.com/feakin/fklang/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/feakin/fklang/actions/workflows/build.yml/badge.svg)](https://github.com/feakin/fklang/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048691,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047606,
+      "status": "candidate",
+      "text": "nomenclature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047372,
+      "status": "candidate",
+      "text": "terminology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034443,
+      "status": "candidate",
+      "text": "lyric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948742,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language",
+      "sense_id": "language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17052,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15051,
+      "status": "candidate",
+      "text": "nomenclature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "terminology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "words"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "linguistic communication"
+    }
+  ],
+  "concept_id": "language",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language",
+  "observation_id": "813072211972ebbd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "language",
+  "source_context_snippet": "[![Build](https://github.com/feakin/fklang/actions/workflows/build.yml/badge.svg)](https://github.com/feakin/fklang/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "feakin/fklang",
+  "source_repo_description": "      Fklang \u662f\u4e00\u4e2a\u9762\u5411\u8f6f\u4ef6\u5f00\u53d1\u5de5\u4e1a\u5316\u7684\u67b6\u6784\u8bbe\u8ba1 DSL\uff0c\u901a\u8fc7\u663e\u6027\u5316\u8f6f\u4ef6\u67b6\u6784\u8bbe\u8ba1\uff0c\u4ee5\u786e\u4fdd\u8f6f\u4ef6\u7cfb\u7edf\u63cf\u8ff0\u4e0e\u5b9e\u73b0\u7684\u4e00\u81f4\u6027\u3002\u5e76\u5728\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5185\u5d4c\u5bf9\u4e8e AI \u4ee3\u7801\u751f\u6210\u8f6f\u4ef6\u7684\u652f\u6301\uff0c\u4ee5\u6784\u7b51\u5b8c\u6574\u7684\u5f00\u53d1\u8005\u4f53\u9a8c\u3002"
+}

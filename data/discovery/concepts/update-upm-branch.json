@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Update-UPM-Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inkle/ink-unity-integration",
+      "status": "candidate-context",
+      "text": "Unity integration for the open source ink narrative scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inkle/ink-unity-integration",
+      "status": "candidate-context",
+      "text": "Update-UPM-Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inkle/ink-unity-integration",
+      "status": "candidate",
+      "text": "Update-UPM-Branch"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Update-UPM-Branch",
+  "concept_id": "update-upm-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update-UPM-Branch",
+      "sense_id": "update-upm-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

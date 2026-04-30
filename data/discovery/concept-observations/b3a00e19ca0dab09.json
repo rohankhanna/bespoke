@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A template rendering engine based on Jinja, generating type-safe Rust code at compile time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018547,
+      "status": "candidate",
+      "text": "saidan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018546,
+      "status": "candidate",
+      "text": "kagura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018545,
+      "status": "candidate",
+      "text": "baithak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018544,
+      "status": "candidate",
+      "text": "o-mikuji"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018543,
+      "status": "candidate",
+      "text": "haniwa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jinja",
+      "sense_id": "jinja#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jinja",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jinja",
+  "observation_id": "b3a00e19ca0dab09",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "jinja",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)",
+  "source_file": null,
+  "source_repo": "askama-rs/askama",
+  "source_repo_description": "A template rendering engine based on Jinja, generating type-safe Rust code at compile time."
+}

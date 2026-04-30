@@ -1,0 +1,1087 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bridgecrewio/gha-reusable-workflows/.github/workflows/publish-image.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bridgecrewio/gha-reusable-workflows/.github/workflows/publish-image.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@45775bd8235c68ba998cffa5171334d58593da47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@5f3409748e2230350e149a7f7b5b8e9bcd785d44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "stefanzweifel/changelog-updater-action@a938690fad7edf25368f37e43a1ed1b34303eb36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml"
+    },
+    {
+      "component": "bridgecrewio/gha-reusable-workflows/.github/workflows/pre-commit.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "bridgecrewio/gha-reusable-workflows/.github/workflows/mypy.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "bridgecrewio/gha-reusable-workflows/.github/workflows/publish-image.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "github/codeql-action/init@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "github/codeql-action/autobuild@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "github/codeql-action/analyze@45775bd8235c68ba998cffa5171334d58593da47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jekyll-gh-pages.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "mikepenz/release-changelog-builder-action@5f3409748e2230350e149a7f7b5b8e9bcd785d44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "stefanzweifel/changelog-updater-action@a938690fad7edf25368f37e43a1ed1b34303eb36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "Nightly Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "pipenv-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "bridgecrewio/gha-reusable-workflows/.github/workflows/pre-commit.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "bridgecrewio/gha-reusable-workflows/.github/workflows/mypy.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "imranismail/setup-kustomize@a76db1c6419124d51470b1e388c4b29476f495f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov",
+      "target": "PR Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "aws-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "scans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:31.442015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23252
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1366
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4507
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 18947
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2250
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 1799
+    },
+    {
+      "path": ".github/workflows/jekyll-gh-pages.yml",
+      "size": 1673
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 6356
+    },
+    {
+      "path": ".github/workflows/pipenv-update.yml",
+      "size": 1727
+    },
+    {
+      "path": ".github/workflows/pr-test.yml",
+      "size": 22311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
+    "fork": false,
+    "full_name": "bridgecrewio/checkov",
+    "html_url": "https://github.com/bridgecrewio/checkov",
+    "language": "Python",
+    "pushed_at": "2026-04-26T23:11:54Z",
+    "stargazers_count": 8677,
+    "topics": [
+      "aws",
+      "aws-security",
+      "azure",
+      "cloudformation",
+      "compliance",
+      "devops",
+      "gcp",
+      "hacktoberfest",
+      "infrastructure-as-code",
+      "kubernetes",
+      "scans",
+      "static-analysis",
+      "terraform"
+    ],
+    "updated_at": "2026-04-30T00:23:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Nightly Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Run"
+    },
+    {
+      "context_snippet": "pipenv-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipenv-update.yml",
+      "term": "pipenv-update"
+    },
+    {
+      "context_snippet": "PR Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yml",
+      "term": "PR Test"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-security"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compliance"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scans"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

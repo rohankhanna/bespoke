@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:12:12.089212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cglib - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP, testing, data access frameworks to generate dynamic proxy objects and intercept field access.",
+    "fork": false,
+    "full_name": "cglib/cglib",
+    "html_url": "https://github.com/cglib/cglib",
+    "language": "Java",
+    "pushed_at": "2024-08-16T10:22:51Z",
+    "stargazers_count": 4896,
+    "topics": [],
+    "updated_at": "2026-04-28T13:59:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

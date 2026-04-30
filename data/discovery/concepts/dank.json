@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "dank"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": "a little task queue for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate-context",
+      "text": ".. image:: https://media.charlesleifer.com/blog/photos/huey3-logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coleifer/huey",
+      "status": "candidate",
+      "text": ".. image:: https://media.charlesleifer.com/blog/photos/huey3-logo.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046583,
+      "status": "candidate",
+      "text": "wet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045008,
+      "status": "candidate",
+      "text": "clammy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046744,
+      "status": "candidate",
+      "text": "damp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016594,
+      "status": "candidate",
+      "text": "swamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046774,
+      "status": "candidate",
+      "text": "donk"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "wet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "clammy"
+    }
+  ],
+  "canonical_name": "dank",
+  "concept_id": "dank",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "coleifer/huey"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dank",
+      "sense_id": "dank#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

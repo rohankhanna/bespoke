@@ -79,6 +79,18 @@
       "source_repo": "psf/requests",
       "status": "candidate-context",
       "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Lint code"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "psf/requests",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
       "status": "candidate",
       "text": "Lint code"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "jawah/niquests"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

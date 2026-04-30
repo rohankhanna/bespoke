@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugfix-reproducer.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugfix-reproducer.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugfix-reproducer.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugfix-reproducer.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugfix-reproducer.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "Reproducing Test-Case Detector (experimental)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "actions/checkout@v2.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "target": "Housekeeping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:21.843188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5000
+    },
+    {
+      "path": ".github/workflows/bugfix-reproducer.yml",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/ci-workflow.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/housekeeping.yml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTML sanitizer for Elixir",
+    "fork": false,
+    "full_name": "rrrene/html_sanitize_ex",
+    "html_url": "https://github.com/rrrene/html_sanitize_ex",
+    "language": "Elixir",
+    "pushed_at": "2026-04-09T15:18:44Z",
+    "stargazers_count": 290,
+    "topics": [],
+    "updated_at": "2026-04-24T21:31:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Reproducing Test-Case Detector (experimental)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugfix-reproducer.yml",
+      "term": "Reproducing Test-Case Detector (experimental)"
+    },
+    {
+      "context_snippet": "\"CI Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "term": "CI Tests"
+    },
+    {
+      "context_snippet": "\"Housekeeping\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "term": "Housekeeping"
+    }
+  ]
+}

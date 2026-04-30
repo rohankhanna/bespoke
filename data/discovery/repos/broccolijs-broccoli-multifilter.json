@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "broccoli-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "merge-trees",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "promise-map-series",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "broccoli-fixture",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai-as-promised",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "broccolijs/broccoli-merge-trees",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "broccoli-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "merge-trees",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "promise-map-series",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "broccoli-fixture",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "chai-as-promised",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "mocha-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "broccolijs/broccoli-multifilter",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:31:22.048377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4198
+    },
+    {
+      "path": "package.json",
+      "size": 921
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helper base class for Broccoli plugins that map input files into output files m-to-n.",
+    "fork": false,
+    "full_name": "broccolijs/broccoli-multifilter",
+    "html_url": "https://github.com/broccolijs/broccoli-multifilter",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-13T16:00:11Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2023-05-24T05:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "broccolijs/broccoli-merge-trees",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

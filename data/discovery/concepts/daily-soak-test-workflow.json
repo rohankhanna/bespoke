@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily soak test workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Dafny is a verification-aware programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate-context",
+      "text": "Daily soak test workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dafny-lang/dafny",
+      "status": "candidate",
+      "text": "Daily soak test workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31788,
+      "status": "candidate",
+      "text": "eddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31788,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31788,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31788,
+      "status": "candidate",
+      "text": "tub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31684,
+      "status": "candidate",
+      "text": "time"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily soak test workflow",
+  "concept_id": "daily-soak-test-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/daily-soak-test-build.yml",
+      "source_repo": "dafny-lang/dafny"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily soak test workflow",
+      "sense_id": "daily-soak-test-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

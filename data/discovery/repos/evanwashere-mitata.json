@@ -1,0 +1,175 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "graaljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "microbenchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "single-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evanwashere/mitata",
+      "target": "spidermonkey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:56.581830+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "benchmark tooling that loves you \u2764\ufe0f",
+    "fork": false,
+    "full_name": "evanwashere/mitata",
+    "html_url": "https://github.com/evanwashere/mitata",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-17T04:26:03Z",
+    "stargazers_count": 2422,
+    "topics": [
+      "benchmark",
+      "bun",
+      "cpp",
+      "deno",
+      "graaljs",
+      "javascript",
+      "jsc",
+      "library",
+      "microbenchmark",
+      "node",
+      "nodejs",
+      "performance",
+      "single-header",
+      "spidermonkey",
+      "v8"
+    ],
+    "updated_at": "2026-04-28T13:37:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graaljs"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microbenchmark"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    },
+    {
+      "context_snippet": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spidermonkey"
+    }
+  ]
+}

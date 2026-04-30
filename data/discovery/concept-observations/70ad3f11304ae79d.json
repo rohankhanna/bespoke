@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump Main Branch Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump Main Branch Version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43233,
+      "status": "candidate",
+      "text": "tapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43233,
+      "status": "candidate",
+      "text": "tapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33919,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33609,
+      "status": "candidate",
+      "text": "feeder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33524,
+      "status": "candidate",
+      "text": "limb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Main Branch Version",
+      "sense_id": "bump-main-branch-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-main-branch-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-main-branch-version",
+  "observation_id": "70ad3f11304ae79d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Bump Main Branch Version",
+  "source_context_snippet": "Bump Main Branch Version",
+  "source_file": ".github/workflows/bump-main.yml",
+  "source_repo": "risingwavelabs/risingwave",
+  "source_repo_description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale."
+}

@@ -44,6 +44,18 @@
       "source_repo": "agno-agi/agno",
       "status": "candidate-context",
       "text": "PR Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/network",
+      "status": "candidate-context",
+      "text": "This is the monorepo for the Succinct Prover Network, a protocol on Ethereum that coordinates a distributed network of provers to generate zero knowledge proofs for any piece of software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/network",
+      "status": "candidate-context",
+      "text": "PR Lint"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agno-agi/agno",
+      "status": "candidate",
+      "text": "PR Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/network",
       "status": "candidate",
       "text": "PR Lint"
     }
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr-lint.yml",
       "source_repo": "agno-agi/agno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "succinctlabs/network"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

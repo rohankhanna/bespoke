@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/start-here",
+      "target": "dwyl/who",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/start-here",
+      "target": "dwyl/time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/start-here",
+      "target": "dwyl/tudo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/start-here",
+      "target": "iteles/javascript-the-good-parts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "beginner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "beginner-friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "how-to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "howto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/start-here",
+      "target": "starter-kit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:49.722060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":bulb: A Quick-start Guide for People who want to dwyl :heart: :white_check_mark:",
+    "fork": false,
+    "full_name": "dwyl/start-here",
+    "html_url": "https://github.com/dwyl/start-here",
+    "language": null,
+    "pushed_at": "2024-10-16T22:51:40Z",
+    "stargazers_count": 1856,
+    "topics": [
+      "beginner",
+      "beginner-friendly",
+      "how-to",
+      "howto",
+      "learn",
+      "starter-kit"
+    ],
+    "updated_at": "2026-04-30T06:08:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/time",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/tudo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/who",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iteles/javascript-the-good-parts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner"
+    },
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner-friendly"
+    },
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "how-to"
+    },
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "howto"
+    },
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learn"
+    },
+    {
+      "context_snippet": "Start Here",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-kit"
+    }
+  ]
+}

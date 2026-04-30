@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "mlugg/setup-zig@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "mlugg/setup-zig@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cloudflare/pages-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "simdjson/simdjson-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "stephenberry/glaze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "mlugg/setup-zig@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "cloudflare/pages-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "simdjson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "zig-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "zig-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson",
+      "target": "ziglang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:54.631946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6206
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features.",
+    "fork": false,
+    "full_name": "EzequielRamis/zimdjson",
+    "html_url": "https://github.com/EzequielRamis/zimdjson",
+    "language": "Zig",
+    "pushed_at": "2026-04-18T06:40:57Z",
+    "stargazers_count": 164,
+    "topics": [
+      "json",
+      "json-parser",
+      "simd",
+      "simdjson",
+      "zig",
+      "zig-library",
+      "zig-package",
+      "ziglang"
+    ],
+    "updated_at": "2026-04-16T19:36:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simdjson/simdjson-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephenberry/glaze",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simdjson"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-library"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-package"
+    },
+    {
+      "context_snippet": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ziglang"
+    }
+  ]
+}

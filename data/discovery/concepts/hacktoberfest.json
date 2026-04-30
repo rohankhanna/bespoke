@@ -5041,6 +5041,612 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate-context",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e A simple, tiny and lightweight benchmarking library!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "Macro-oriented asynchronous web-framework written in Nim with \u2665"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "Distributed Stream and Batch Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "TuGraph: A High Performance Graph Database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate-context",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": ":angel: The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "A project for supporting API Endpoints in ASP.NET Core web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate-context",
+      "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-db",
+      "status": "candidate-context",
+      "text": "![Build DB](https://github.com/aquasecurity/trivy-db/workflows/Trivy%20DB/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "A Python library for multilingual phonemization and Text-to-Speech (TTS) using ONNX models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/gateway/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/gateway)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate-context",
+      "text": "Safely serialize JavaScript expressions to a superset of JSON, which includes Dates, BigInts, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate-context",
+      "text": "SearchBox UI component library for flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate-context",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "A high performance implementation of the Ruby programming language, built on GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojupyter/clojupyter",
+      "status": "candidate-context",
+      "text": "a Jupyter kernel for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojupyter/clojupyter",
+      "status": "candidate-context",
+      "text": "<img src=\"./resources/clojupyter/assets/logo-350x80.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate-context",
+      "text": "Programming in MS Paint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddfa\ufe0f A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "Bare libuv bindings for lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate-context",
+      "text": "luv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "Statoscope is a toolkit to analyze and validate webpack bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "A functional and reactive JavaScript framework for predictable code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qri-io/rfcs",
+      "status": "candidate-context",
+      "text": "Request For Comments (RFCs) documenting changes to Qri"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/rfcs",
+      "status": "candidate-context",
+      "text": "[Qri RFCs]: #qri-rfcs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "A restricted execution environment for Python to run untrusted code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "The Ruby Spec Suite aka ruby/spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate-context",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "Core part of Jackson that defines Streaming API as well as basic shared abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate-context",
+      "text": "Raspberry Pi App Store for Open Source Projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "The .NET library for ImageMagick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate-context",
+      "text": "codeql analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "\"npm init\" script to create a new Octokit JS module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate-context",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "DLRover: An Automatic Distributed Deep Learning System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "Swagger Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate-context",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate-context",
+      "text": "pythainlp-data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate-context",
+      "text": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "User documentation for KServe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc18 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "A ktlint gradle plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
+      "status": "candidate-context",
+      "text": "This is the OpenWrt \"packages\"-feed containing community-maintained build scripts, options and patches for applications, modules and libraries used within OpenWrt."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate-context",
+      "text": "\ud83d\udd01 A custom refresh indicator for flutter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_glosses": [
@@ -7563,6 +8169,312 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate",
       "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml/badge.svg?branch=main)](https://github.com/tinylibs/tinybench/actions/workflows/qa.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HapticX/happyx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast-jet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "status": "candidate",
+      "text": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardalis/ApiEndpoints",
+      "status": "candidate",
+      "text": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-ui",
+      "status": "candidate",
+      "text": "[![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-db",
+      "status": "candidate",
+      "text": "![Build DB](https://github.com/aquasecurity/trivy-db/workflows/Trivy%20DB/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigreGotico/phoonnx",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/gateway",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/envoyproxy/gateway/badge)](https://securityscorecards.dev/viewer/?uri=github.com/envoyproxy/gateway)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/flutter-searchbox",
+      "status": "candidate",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate",
+      "text": "![TruffleRuby logo](logo/png/truffleruby_logo_horizontal_medium_outlined.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojupyter/clojupyter",
+      "status": "candidate",
+      "text": "<img src=\"./resources/clojupyter/assets/logo-350x80.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luvit/luv",
+      "status": "candidate",
+      "text": "luv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyclejs/cyclejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Cycle.js</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qri-io/rfcs",
+      "status": "candidate",
+      "text": "[Qri RFCs]: #qri-rfcs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/spec",
+      "status": "candidate",
+      "text": "[![Actions Build Status](https://github.com/ruby/spec/workflows/CI/badge.svg)](https://github.com/ruby/spec/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate",
+      "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Botspot/pi-apps",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dlemstra/Magick.NET",
+      "status": "candidate",
+      "text": "codeql analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/create-octokit-project.js",
+      "status": "candidate",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-editor",
+      "status": "candidate",
+      "text": "- [Anonymized analytics](#anonymized-analytics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp-corpus",
+      "status": "candidate",
+      "text": "![Build pages](https://github.com/PyThaiNLP/pythainlp-corpus/workflows/Build%20pages/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hazelcast/hazelcast",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-chat-green.svg)](https://slack.hazelcast.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate",
+      "text": "**Provides a convenient wrapper plugin over the [ktlint](https://github.com/pinterest/ktlint) project.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/packages",
+      "status": "candidate",
+      "text": "This is the OpenWrt \"packages\"-feed containing community-maintained build scripts, options and patches for applications, modules and libraries used within OpenWrt."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "**NOTE:** If you're looking for `swagger-parser` 1.X and OpenAPI 2.0, please refer to [v1 branch](https://github.com/swagger-api/swagger-parser/tree/v1)"
     }
   ],
   "candidate_related_terms": [],
@@ -10804,11 +11716,497 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HapticX/happyx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast-jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lagom/lagom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TigreGotico/phoonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wix/Detox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/rocketdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/flutter-searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "truffleruby/truffleruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clojupyter/clojupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mrjones2014/legendary.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "luvit/luv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "statoscope/statoscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cyclejs/cyclejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "qri-io/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ruby/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dlemstra/Magick.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-unauthenticated.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/create-octokit-project.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp-corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kserve/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openwrt/packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cockroachdb/cockroach"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

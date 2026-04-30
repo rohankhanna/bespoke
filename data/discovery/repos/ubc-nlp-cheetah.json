@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UBC-NLP/Cheetah",
+      "target": "ubc-nlp/serengeti",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:51.441789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "UBC-NLP/Cheetah",
+    "html_url": "https://github.com/UBC-NLP/Cheetah",
+    "language": null,
+    "pushed_at": "2024-08-12T19:56:18Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-10-26T00:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ubc-nlp/serengeti",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

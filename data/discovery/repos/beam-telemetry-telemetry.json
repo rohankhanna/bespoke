@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "open-telemetry/opentelemetry-erlang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "open-telemetry/opentelemetry-erlang-contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "instrumentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beam-telemetry/telemetry",
+      "target": "metrics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:44.888902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7322
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dynamic dispatching library for metrics and instrumentations.",
+    "fork": false,
+    "full_name": "beam-telemetry/telemetry",
+    "html_url": "https://github.com/beam-telemetry/telemetry",
+    "language": "Erlang",
+    "pushed_at": "2026-03-10T16:00:43Z",
+    "stargazers_count": 911,
+    "topics": [
+      "elixir",
+      "events",
+      "instrumentation",
+      "metrics"
+    ],
+    "updated_at": "2026-04-28T04:00:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-erlang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-erlang-contrib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrumentation"
+    },
+    {
+      "context_snippet": "[![Codecov](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)](https://codecov.io/gh/beam-telemetry/telemetry/branch/master/graphs/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    }
+  ]
+}

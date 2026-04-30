@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mila-iqia/babyai",
+      "target": "maximecb/gym-minigrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "mila-iqia/babyai",
+      "target": "mila-udem/babyai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai",
+      "target": "nlp-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai",
+      "target": "openai-gym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai",
+      "target": "reinforcement-learning-environments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:54.076436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5687
+    },
+    {
+      "path": "Dockerfile",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BabyAI platform. A testbed for training agents to understand and execute language commands.",
+    "fork": false,
+    "full_name": "mila-iqia/babyai",
+    "html_url": "https://github.com/mila-iqia/babyai",
+    "language": "Python",
+    "pushed_at": "2023-10-01T01:53:59Z",
+    "stargazers_count": 761,
+    "topics": [
+      "imitation-learning",
+      "nlp",
+      "nlp-machine-learning",
+      "openai-gym",
+      "reinforcement-learning-environments"
+    ],
+    "updated_at": "2026-04-28T09:29:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximecb/gym-minigrid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mila-udem/babyai",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-gym"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-environments"
+    }
+  ]
+}

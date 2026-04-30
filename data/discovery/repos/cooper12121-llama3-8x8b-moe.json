@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cooper12121/llama3-8x8b-MoE",
+      "target": "ymcui/chinese-mixtral",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:13:16.371865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Copy the MLP of llama3 8 times as 8 experts , created a router with random initialization,add load balancing loss to construct an 8x8b MoE model based on llama3.",
+    "fork": false,
+    "full_name": "cooper12121/llama3-8x8b-MoE",
+    "html_url": "https://github.com/cooper12121/llama3-8x8b-MoE",
+    "language": "Python",
+    "pushed_at": "2024-07-01T10:47:04Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-05-23T13:48:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-mixtral",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

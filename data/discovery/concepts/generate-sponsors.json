@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Sponsors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw-in-js/twind",
+      "status": "candidate-context",
+      "text": "The smallest, fastest, most feature complete Tailwind-in-JS solution in existence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw-in-js/twind",
+      "status": "candidate-context",
+      "text": "Generate Sponsors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw-in-js/twind",
+      "status": "candidate",
+      "text": "Generate Sponsors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10610,
+      "status": "candidate",
+      "text": "patron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "impresario"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "pilot film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "pilot program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Sponsors",
+  "concept_id": "generate-sponsors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/generate-sponsors.yml",
+      "source_repo": "tw-in-js/twind"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Sponsors",
+      "sense_id": "generate-sponsors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

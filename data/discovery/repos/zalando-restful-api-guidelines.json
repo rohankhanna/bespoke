@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "vadeg/github-app-token-action@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "vadeg/github-app-token-action@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "restful",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "restful-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines",
+      "target": "zalando",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:24.950106+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A model set of guidelines for RESTful APIs and Events, created by Zalando",
+    "fork": false,
+    "full_name": "zalando/restful-api-guidelines",
+    "html_url": "https://github.com/zalando/restful-api-guidelines",
+    "language": "CSS",
+    "pushed_at": "2026-04-28T15:17:12Z",
+    "stargazers_count": 3200,
+    "topics": [
+      "api",
+      "documentation",
+      "guidelines",
+      "rest-api",
+      "restful",
+      "restful-api",
+      "zalando"
+    ],
+    "updated_at": "2026-04-25T01:14:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guidelines"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restful"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restful-api"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zalando"
+    }
+  ]
+}

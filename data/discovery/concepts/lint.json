@@ -3725,6 +3725,372 @@
       "source_repo": "microsoft/pai",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renll/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Efficient implementations of state-of-the-art linear attention models in Torch and Triton"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renll/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A minimal training framework for scaling FLA models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Minimalist framework for running and monitoring an agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "Convert Machine Learning Code Between Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "A Zstd Compression Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mohkale/consult-eglot",
+      "status": "candidate-context",
+      "text": "Jump to workspace symbols with eglot and consult"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mohkale/consult-eglot",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate-context",
+      "text": "Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner. From version 6.0.1, Polly targets .NET Standard 1.1 and 2.0+."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-environment-tools",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate-context",
+      "text": "Google Auth Library for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate-context",
+      "text": "tiny vision language model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "status": "candidate-context",
+      "text": "A Vite plugin that inserts the current year to the html file during build. Useful for adding a copyright year to the HTML file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SandAI-org/MagiAttention",
+      "status": "candidate-context",
+      "text": "A Distributed Attention Towards Linear Scalability for Ultra-Long Context, Heterogeneous Data Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SandAI-org/MagiAttention",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate-context",
+      "text": "A royal collection of exquisite widgets and helpers to rule your iced kingdom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/llama-server",
+      "status": "candidate-context",
+      "text": "Download, embed, and run llama.cpp in your Rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/llama-server",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "A base16 and base24 color scheme manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/devtools",
+      "status": "candidate-context",
+      "text": "Tools to make an R developer's life easier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/devtools",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/agent-skills",
+      "status": "candidate-context",
+      "text": "A collection of Agent Skills for Rstack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/agent-skills",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate-context",
+      "text": "Use this template to create your own Rsbuild plugin \ud83c\udf1f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "A Sigstore client written in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "Simple tool for fixing common misspellings, typos in source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Israeli Oref Alerts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "A vLLM plugin built on the FlagOS unified multi-chip backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Jest "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -5609,6 +5975,192 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/pai",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renll/flash-linear-attention",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/midscene",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/zstd",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mohkale/consult-eglot",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-environment-tools",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-php",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m87-labs/moondream",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SandAI-org/MagiAttention",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/iced_palace",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/llama-server",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinty",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/devtools",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/agent-skills",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/rsbuild-plugin-template",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amitfin/oref_alert",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
       "status": "candidate",
       "text": "Lint"
     }
@@ -8407,11 +8959,383 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "microsoft/pai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "renll/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "fla-org/flame"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "web-infra-dev/midscene"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/tinyagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PyThaiNLP/pythainlp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mohkale/consult-eglot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "App-vNext/Polly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/python-environment-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "m87-labs/moondream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8hobbies/vite-plugin-year"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "SandAI-org/MagiAttention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "jpedroschmitz/rocketdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "hecrj/iced_palace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "hecrj/llama-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tinted-theming/tinty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rstackjs/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rstackjs/rsbuild-plugin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bytedance/sonic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "amitfin/oref_alert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "jest-community/eslint-plugin-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "kevinzakka/obj2mjcf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-cpu-ubuntu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "FSA/FST algorithms, differentiable, with PyTorch compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "build-cpu-ubuntu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate",
+      "text": "build-cpu-ubuntu"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-cpu-ubuntu",
+  "concept_id": "build-cpu-ubuntu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-cpu-ubuntu",
+      "sense_id": "build-cpu-ubuntu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

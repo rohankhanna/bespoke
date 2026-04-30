@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "munter/netlify-plugin-checklinks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "aiohttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:14.231696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3372
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second",
+    "fork": false,
+    "full_name": "scivision/linkchecker-markdown",
+    "html_url": "https://github.com/scivision/linkchecker-markdown",
+    "language": "Python",
+    "pushed_at": "2025-01-08T04:18:45Z",
+    "stargazers_count": 38,
+    "topics": [
+      "aiohttp",
+      "asyncio",
+      "hugo",
+      "jekyll",
+      "markdown"
+    ],
+    "updated_at": "2025-10-09T09:20:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "munter/netlify-plugin-checklinks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiohttp"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

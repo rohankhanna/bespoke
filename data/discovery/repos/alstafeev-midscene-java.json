@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "Automated Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alstafeev/midscene-java",
+      "target": "Publish to Maven Central",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:57.526825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5161
+    },
+    {
+      "path": ".github/workflows/automated-release.yml",
+      "size": 1581
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 431
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Your AI Operator for Web Automation Testing.",
+    "fork": false,
+    "full_name": "alstafeev/midscene-java",
+    "html_url": "https://github.com/alstafeev/midscene-java",
+    "language": "HTML",
+    "pushed_at": "2026-04-09T15:58:36Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-02T02:08:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automated Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-release.yml",
+      "term": "Automated Release"
+    },
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "Publish to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish to Maven Central"
+    }
+  ]
+}

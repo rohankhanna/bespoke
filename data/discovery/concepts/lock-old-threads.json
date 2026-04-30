@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock old threads"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "Lock old threads"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "Lock old threads"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26581,
+      "status": "candidate",
+      "text": "charpie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19558,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "meshing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "stitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "stitched"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock old threads",
+  "concept_id": "lock-old-threads",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "sphinx-doc/sphinx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock old threads",
+      "sense_id": "lock-old-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

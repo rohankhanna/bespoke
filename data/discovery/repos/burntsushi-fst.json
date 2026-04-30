@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/fst",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/fst",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:27.631597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2284
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Represent large sets and maps compactly with finite state transducers.",
+    "fork": false,
+    "full_name": "BurntSushi/fst",
+    "html_url": "https://github.com/BurntSushi/fst",
+    "language": "Rust",
+    "pushed_at": "2024-09-25T20:46:04Z",
+    "stargazers_count": 2063,
+    "topics": [],
+    "updated_at": "2026-04-27T23:21:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

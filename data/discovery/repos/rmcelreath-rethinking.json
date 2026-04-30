@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:19:43.381473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistical Rethinking course and book package",
+    "fork": false,
+    "full_name": "rmcelreath/rethinking",
+    "html_url": "https://github.com/rmcelreath/rethinking",
+    "language": "R",
+    "pushed_at": "2026-03-18T10:03:44Z",
+    "stargazers_count": 2377,
+    "topics": [],
+    "updated_at": "2026-04-29T15:46:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

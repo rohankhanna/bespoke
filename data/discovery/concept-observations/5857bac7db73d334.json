@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39686047,
+      "status": "candidate",
+      "text": "siamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39117500,
+      "status": "candidate",
+      "text": "tai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686079,
+      "status": "candidate",
+      "text": "central thai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686041,
+      "status": "candidate",
+      "text": "lao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29685938,
+      "status": "candidate",
+      "text": "khmer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thai",
+      "sense_id": "thai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "central thai"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "siamese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "tai"
+    }
+  ],
+  "concept_id": "thai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "thai",
+  "observation_id": "5857bac7db73d334",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "thai",
+  "source_context_snippet": "![Project Logo](./docs/images/logo.png)",
+  "source_file": null,
+  "source_repo": "PyThaiNLP/pythainlp",
+  "source_repo_description": "Thai natural language processing in Python"
+}

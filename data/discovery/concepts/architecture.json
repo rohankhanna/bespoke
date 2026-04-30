@@ -43,6 +43,42 @@
       "source_repo": "phodal/coca",
       "status": "candidate-context",
       "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "phodal/coca",
       "status": "candidate",
       "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bionic</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate",
+      "text": "> Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +186,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "archguard/codedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tenable/terrascan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "inherd/forming"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

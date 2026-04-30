@@ -37,6 +37,36 @@
       "source_repo": "cloudwego/kitex-examples",
       "status": "candidate-context",
       "text": "Push Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate-context",
+      "text": "thrift-gen-validator is a thriftgo plugin to generate struct validators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate-context",
+      "text": "Push Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate-context",
+      "text": "Universal Utilities for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate-context",
+      "text": "Push Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
+      "status": "candidate-context",
+      "text": "Push Check"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +85,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate",
+      "text": "Push Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/thrift-gen-validator",
+      "status": "candidate",
+      "text": "Push Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/gopkg",
+      "status": "candidate",
+      "text": "Push Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll-benchmark",
       "status": "candidate",
       "text": "Push Check"
     }
@@ -118,11 +166,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/push-check.yml",
       "source_repo": "cloudwego/kitex-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/thrift-gen-validator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "bytedance/gopkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/netpoll-benchmark"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

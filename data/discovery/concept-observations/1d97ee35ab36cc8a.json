@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extract structured text from pdfs quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Script test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Script test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11996,
+      "status": "candidate",
+      "text": "bee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11996,
+      "status": "candidate",
+      "text": "score"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11939,
+      "status": "candidate",
+      "text": "dee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11939,
+      "status": "candidate",
+      "text": "eraser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10974,
+      "status": "candidate",
+      "text": "actor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Script test",
+      "sense_id": "script-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "script-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "script-test",
+  "observation_id": "1d97ee35ab36cc8a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Script test",
+  "source_context_snippet": "Script test",
+  "source_file": ".github/workflows/scripts.yml",
+  "source_repo": "datalab-to/pdftext",
+  "source_repo_description": "Extract structured text from pdfs quickly"
+}

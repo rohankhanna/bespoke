@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "nikitabobko/homebrew-tap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "ianyh/amethyst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "koekeishiya/yabai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-third-party-issues.yml",
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "close-third-party-issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "i3wm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "tiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "tiling-window-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikitabobko/AeroSpace",
+      "target": "window-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:30.174617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10953
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2381
+    },
+    {
+      "path": ".github/workflows/close-third-party-issues.yml",
+      "size": 1131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AeroSpace is an i3-like tiling window manager for macOS",
+    "fork": false,
+    "full_name": "nikitabobko/AeroSpace",
+    "html_url": "https://github.com/nikitabobko/AeroSpace",
+    "language": "Swift",
+    "pushed_at": "2026-04-14T18:03:21Z",
+    "stargazers_count": 20534,
+    "topics": [
+      "apple",
+      "i3",
+      "i3wm",
+      "mac",
+      "macos",
+      "swift",
+      "tiling",
+      "tiling-window-manager",
+      "window-manager"
+    ],
+    "updated_at": "2026-04-30T09:23:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ianyh/amethyst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koekeishiya/yabai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikitabobko/homebrew-tap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "close-third-party-issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-third-party-issues.yml",
+      "term": "close-third-party-issues"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i3wm"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling-window-manager"
+    },
+    {
+      "context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "window-manager"
+    }
+  ]
+}

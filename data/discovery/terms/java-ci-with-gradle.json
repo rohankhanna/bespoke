@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test-gradle.yml",
       "source_repo": "apache/poi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
     }
   ],
   "term": "Java CI with Gradle"

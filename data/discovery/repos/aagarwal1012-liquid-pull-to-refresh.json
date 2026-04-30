@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml"
+    },
+    {
+      "component": "FirebaseExtended/action-hosting-deploy@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml"
+    },
+    {
+      "component": "FirebaseExtended/action-hosting-deploy@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "Deploy to Firebase Hosting on merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "FirebaseExtended/action-hosting-deploy@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "Deploy to Firebase Hosting on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "pull-to-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "refresh-indicator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swipe-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swipe-to-refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aagarwal1012/Liquid-Pull-To-Refresh",
+      "target": "swiperefreshlayout",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:29:12.039038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9731
+    },
+    {
+      "path": ".github/workflows/firebase-hosting-merge.yml",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/firebase-hosting-pull-request.yml",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd01 A custom refresh indicator for flutter.",
+    "fork": false,
+    "full_name": "aagarwal1012/Liquid-Pull-To-Refresh",
+    "html_url": "https://github.com/aagarwal1012/Liquid-Pull-To-Refresh",
+    "language": "Dart",
+    "pushed_at": "2023-07-26T12:15:44Z",
+    "stargazers_count": 1298,
+    "topics": [
+      "android",
+      "flutter",
+      "hacktoberfest",
+      "ios",
+      "pull-to-refresh",
+      "refresh-indicator",
+      "swipe-refresh",
+      "swipe-to-refresh",
+      "swiperefreshlayout"
+    ],
+    "updated_at": "2026-04-16T11:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to Firebase Hosting on merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-merge.yml",
+      "term": "Deploy to Firebase Hosting on merge"
+    },
+    {
+      "context_snippet": "Deploy to Firebase Hosting on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-hosting-pull-request.yml",
+      "term": "Deploy to Firebase Hosting on PR"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-to-refresh"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refresh-indicator"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swipe-refresh"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swipe-to-refresh"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://github.com/aagarwal1012/Liquid-Pull-To-Refresh/blob/master/display/cover.png?raw=true\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiperefreshlayout"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "blakejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-sha3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multihashes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webcrypto",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dirty-chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "blakejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "js-sha3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "multihashes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "webcrypto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-multihashing",
+      "target": "dirty-chai",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:15:01.281077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6965
+    },
+    {
+      "path": "package.json",
+      "size": 1883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Use all the functions in multihash.",
+    "fork": false,
+    "full_name": "multiformats/js-multihashing",
+    "html_url": "https://github.com/multiformats/js-multihashing",
+    "language": "JavaScript",
+    "pushed_at": "2021-08-11T16:45:40Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-02-05T17:24:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

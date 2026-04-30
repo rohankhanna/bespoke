@@ -1,0 +1,12 @@
+{
+  "component": "jbangdev/jbang-action@ff16f52fffad177d85a395fe8265e0882eaa5d6e",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nohttp.yml",
+      "source_repo": "junit-team/junit-examples"
+    }
+  ]
+}

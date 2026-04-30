@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "aklt/plantuml-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "aliev/vim-compiler-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "adamclerk/vim-razor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "amadeus/vim-xml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "Vim Polyglot CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "language-packs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheerun/vim-polyglot",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:44.929150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21460
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A solid language pack for Vim.",
+    "fork": false,
+    "full_name": "sheerun/vim-polyglot",
+    "html_url": "https://github.com/sheerun/vim-polyglot",
+    "language": "Vim Script",
+    "pushed_at": "2025-08-27T17:10:22Z",
+    "stargazers_count": 5710,
+    "topics": [
+      "language-packs",
+      "plugin",
+      "vim"
+    ],
+    "updated_at": "2026-04-29T16:35:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamclerk/vim-razor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aklt/plantuml-syntax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliev/vim-compiler-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amadeus/vim-xml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Vim Polyglot CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Vim Polyglot CI"
+    },
+    {
+      "context_snippet": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-packs"
+    },
+    {
+      "context_snippet": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

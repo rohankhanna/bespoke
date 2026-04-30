@@ -97,6 +97,30 @@
       "source_repo": "retorquere/zotero-better-bibtex",
       "status": "candidate-context",
       "text": "Better BibTeX (BBT) is an extension for [Zotero](https://www.zotero.org) and (in principle) [Juris-M](https://juris-m.github.io) that makes it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on [LaTeX](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for LaTeX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/latex-lsp/texlab/workflows/CI/badge.svg)](https://github.com/latex-lsp/texlab/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "latex-lsp/texlab-vscode",
+      "status": "candidate-context",
+      "text": "LaTeX for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab-vscode",
+      "status": "candidate-context",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
       "source_repo": "retorquere/zotero-better-bibtex",
       "status": "candidate",
       "text": "Better BibTeX (BBT) is an extension for [Zotero](https://www.zotero.org) and (in principle) [Juris-M](https://juris-m.github.io) that makes it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on [LaTeX](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/latex-lsp/texlab/workflows/CI/badge.svg)](https://github.com/latex-lsp/texlab/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab-vscode",
+      "status": "candidate",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +289,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "retorquere/zotero-better-bibtex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "latex-lsp/texlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "latex-lsp/texlab-vscode"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

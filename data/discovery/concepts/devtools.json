@@ -262,6 +262,18 @@
       "source_repo": "binaryage/cljs-devtools",
       "status": "candidate-context",
       "text": "A collection of Chrome DevTools enhancements for ClojureScript developers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community-created collection of configuration, plugins and techniques for getting the best from Redocly CLI in every situation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate-context",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
     }
   ],
   "candidate_glosses": [
@@ -378,6 +390,12 @@
       "source_repo": "binaryage/cljs-devtools",
       "status": "candidate",
       "text": "A collection of Chrome DevTools enhancements for ClojureScript developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli-cookbook",
+      "status": "candidate",
+      "text": "A community collection of rulesets, configuration, custom plugins and other additions for [Redocly CLI](https://github.com/Redocly/redocly-cli). We know our users have some great tips, examples, and code to share, and this is the place to do just that. We would love to have your\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -523,11 +541,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "binaryage/cljs-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

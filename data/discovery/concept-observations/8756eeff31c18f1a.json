@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast compressor/decompressor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "riscv64-qemu-test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "riscv64-qemu-test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "riscv64-qemu-test",
+      "sense_id": "riscv64-qemu-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "riscv64-qemu-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "riscv64-qemu-test",
+  "observation_id": "8756eeff31c18f1a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "riscv64-qemu-test",
+  "source_context_snippet": "riscv64-qemu-test",
+  "source_file": ".github/workflows/riscv64-qemu-test.yaml",
+  "source_repo": "google/snappy",
+  "source_repo_description": "A fast compressor/decompressor"
+}

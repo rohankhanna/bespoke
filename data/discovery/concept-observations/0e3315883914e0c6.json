@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981456,
+      "status": "candidate",
+      "text": "genius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929810,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901136,
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39879814,
+      "status": "candidate",
+      "text": "elan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39796882,
+      "status": "candidate",
+      "text": "panache"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flair",
+      "sense_id": "flair#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29039,
+      "status": "candidate",
+      "text": "panache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21043,
+      "status": "candidate",
+      "text": "genius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "elan"
+    }
+  ],
+  "concept_id": "flair",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flair",
+  "observation_id": "0e3315883914e0c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "flair",
+  "source_context_snippet": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end.",
+  "source_file": null,
+  "source_repo": "lunayach/visNER",
+  "source_repo_description": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+}

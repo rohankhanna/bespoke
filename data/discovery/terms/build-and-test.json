@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -441,6 +441,66 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-and-test.yaml",
       "source_repo": "astahmer/typed-openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-linux.yml",
+      "source_repo": "NVIDIA/nvbench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "BetterThanTomorrow/calva-power-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "facebook/ktfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Infinidat/munch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-javascript"
     }
   ],
   "term": "Build and Test"

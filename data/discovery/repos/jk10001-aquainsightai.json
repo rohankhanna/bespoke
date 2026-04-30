@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:24:39.519343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14333
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI-powered multi-agent water analytics platform to analyse datasets, create visualisations, and produce technical reports",
+    "fork": false,
+    "full_name": "jk10001/aquainsightai",
+    "html_url": "https://github.com/jk10001/aquainsightai",
+    "language": "HTML",
+    "pushed_at": "2026-04-28T10:44:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-28T10:44:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

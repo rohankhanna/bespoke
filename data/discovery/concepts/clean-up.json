@@ -25,6 +25,30 @@
       "source_repo": "ipdxco/github-as-code",
       "status": "candidate-context",
       "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +61,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipdxco/github-as-code",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/github-mgmt",
       "status": "candidate",
       "text": "Clean Up"
     }
@@ -94,11 +142,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cleanup.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "filecoin-project/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipfs-examples/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipfs-shipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipld/github-mgmt"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

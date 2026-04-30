@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "astroturf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroturfcss/astroturf",
+      "status": "candidate-context",
+      "text": "Better Styling through Compiling: CSS-in-JS for those that want it all."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroturfcss/astroturf",
+      "status": "candidate-context",
+      "text": "**astroturf** lets you write CSS in your JavaScript files without adding any runtime layer, and with your existing CSS processing pipeline."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroturfcss/astroturf",
+      "status": "candidate",
+      "text": "**astroturf** lets you write CSS in your JavaScript files without adding any runtime layer, and with your existing CSS processing pipeline."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050608,
+      "status": "candidate",
+      "text": "artificial turf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050607,
+      "status": "candidate",
+      "text": "grass court"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050606,
+      "status": "candidate",
+      "text": "autograss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050605,
+      "status": "candidate",
+      "text": "turfdom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050604,
+      "status": "candidate",
+      "text": "astro"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "astroturf",
+  "concept_id": "astroturf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "astroturfcss/astroturf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "astroturf",
+      "sense_id": "astroturf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

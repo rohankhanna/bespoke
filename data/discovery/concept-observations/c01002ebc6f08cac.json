@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024595,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024441,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020106,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011063,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010429,
+      "status": "candidate",
+      "text": "upper-class"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quality",
+      "sense_id": "quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47051,
+      "status": "candidate",
+      "text": "timbre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31061,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24074,
+      "status": "candidate",
+      "text": "tone"
+    }
+  ],
+  "concept_id": "quality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quality",
+  "observation_id": "c01002ebc6f08cac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "quality",
+  "source_context_snippet": "Code Quality and Security for Java [![Build Status](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SonarSource/sonar-java/actions/workflows/build.yml) [![Quality Gate](https://next.sonarqube.com/sonarqube/api/pr\u2026",
+  "source_file": null,
+  "source_repo": "SonarSource/sonar-java",
+  "source_repo_description": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+}

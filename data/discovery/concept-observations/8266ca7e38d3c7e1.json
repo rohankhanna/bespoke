@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Firefox: reference string linter'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Firefox: reference string linter'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "link"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "numbering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "numbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "paragraph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Firefox: reference string linter",
+      "sense_id": "firefox-reference-string-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firefox-reference-string-linter",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firefox-reference-string-linter",
+  "observation_id": "8266ca7e38d3c7e1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Firefox: reference string linter",
+  "source_context_snippet": "'Firefox: reference string linter'",
+  "source_file": ".github/workflows/firefox-ios-l10n-linter.yml",
+  "source_repo": "mozilla-mobile/firefox-ios",
+  "source_repo_description": "Firefox for iOS"
+}

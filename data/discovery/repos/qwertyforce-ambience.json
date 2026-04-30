@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "@fastify/busboy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fastify/cors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fastify/multipart",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fastify/reply-from",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "form-data",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-schema-to-ts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwertyforce/ambience",
+      "target": "qwertyforce/global_features_web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwertyforce/ambience",
+      "target": "qwertyforce/color_web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwertyforce/ambience",
+      "target": "qwertyforce/image_text_features_web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwertyforce/ambience",
+      "target": "qwertyforce/image_caption_web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "@fastify/busboy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "@fastify/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "@fastify/multipart",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "@fastify/reply-from",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "fastify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "form-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "json-schema-to-ts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "qwertyforce/ambience",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/ambience",
+      "target": "image-retrieval-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/ambience",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/ambience",
+      "target": "image-search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/ambience",
+      "target": "reverse-image-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:55.727278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1193
+    },
+    {
+      "path": "Dockerfile",
+      "size": 411
+    },
+    {
+      "path": "package.json",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "reverse image search and similarity search engine",
+    "fork": false,
+    "full_name": "qwertyforce/ambience",
+    "html_url": "https://github.com/qwertyforce/ambience",
+    "language": "TypeScript",
+    "pushed_at": "2023-07-05T19:08:28Z",
+    "stargazers_count": 37,
+    "topics": [
+      "image-retrieval-system",
+      "image-search",
+      "image-search-engine",
+      "reverse-image-search"
+    ],
+    "updated_at": "2025-10-16T12:40:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/color_web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/global_features_web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/image_caption_web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/image_text_features_web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "reverse image search and similarity search engine <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval-system"
+    },
+    {
+      "context_snippet": "reverse image search and similarity search engine <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "reverse image search and similarity search engine <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search-engine"
+    },
+    {
+      "context_snippet": "reverse image search and similarity search engine <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-image-search"
+    }
+  ]
+}

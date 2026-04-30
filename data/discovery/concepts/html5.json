@@ -43,6 +43,18 @@
       "source_repo": "AnamuddinAhmad/Portfolio_1",
       "status": "candidate-context",
       "text": "This is the standard portfolio which elaborate about my skills and knowledge."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP for Browsers and NodeJS."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "AnamuddinAhmad/Portfolio_1",
       "status": "candidate",
       "text": "This is the standard portfolio which elaborate about my skills and knowledge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "WAMP for Browsers and NodeJS."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AnamuddinAhmad/Portfolio_1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

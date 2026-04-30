@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "yyjson"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for yyjson for reading and parsing JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yyjson",
+  "concept_id": "yyjson",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yyjson",
+      "sense_id": "yyjson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

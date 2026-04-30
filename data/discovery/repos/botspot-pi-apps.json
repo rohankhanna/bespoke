@@ -1,0 +1,631 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_PR.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_PR.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_shlink_links.yml"
+    },
+    {
+      "component": "actions/first-interaction@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-greeting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sha1sum.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "theofficialgman/chroot-runner-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_PR.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_PR.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_PR.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "Check PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_shlink_links.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-greeting.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/first-interaction@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-greeting.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "PR Greeting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sha1sum.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sha1sum.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "sha1sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "Shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "theofficialgman/chroot-runner-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_legacy_build.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "theofficialgman/chroot-runner-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "theofficialgman/chroot-runner-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apps.yml",
+      "source_repo": "Botspot/pi-apps",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "app-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "botspot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "gui-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "pi-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "raspberry-pi-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "raspberry-pi-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "raspbian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Botspot/pi-apps",
+      "target": "uninstall",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:20.339849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16623
+    },
+    {
+      "path": ".github/workflows/check_PR.yml",
+      "size": 1180
+    },
+    {
+      "path": ".github/workflows/create_shlink_links.yml",
+      "size": 3362
+    },
+    {
+      "path": ".github/workflows/pr-greeting.yml",
+      "size": 1226
+    },
+    {
+      "path": ".github/workflows/sha1sum.yml",
+      "size": 308
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/test_build.yml",
+      "size": 8749
+    },
+    {
+      "path": ".github/workflows/test_build_commands.sh",
+      "size": 12135
+    },
+    {
+      "path": ".github/workflows/test_legacy_build.yml",
+      "size": 5190
+    },
+    {
+      "path": ".github/workflows/update_apps.yml",
+      "size": 20335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Raspberry Pi App Store for Open Source Projects",
+    "fork": false,
+    "full_name": "Botspot/pi-apps",
+    "html_url": "https://github.com/Botspot/pi-apps",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T01:15:34Z",
+    "stargazers_count": 2717,
+    "topics": [
+      "app-store",
+      "arm64",
+      "botspot",
+      "gui",
+      "gui-script",
+      "hacktoberfest",
+      "install",
+      "installer",
+      "pi-apps",
+      "raspberry-pi",
+      "raspberry-pi-4",
+      "raspberry-pi-5",
+      "raspbian",
+      "uninstall"
+    ],
+    "updated_at": "2026-04-30T06:24:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_PR.yml",
+      "term": "Check PR"
+    },
+    {
+      "context_snippet": "PR Greeting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-greeting.yml",
+      "term": "PR Greeting"
+    },
+    {
+      "context_snippet": "sha1sum",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sha1sum.yml",
+      "term": "sha1sum"
+    },
+    {
+      "context_snippet": "Shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "Shellcheck"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-store"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botspot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-script"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "install"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pi-apps"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi-4"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi-5"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspbian"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uninstall"
+    }
+  ]
+}

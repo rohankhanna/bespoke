@@ -19,12 +19,30 @@
       "source_repo": "xlang-ai/DS-1000",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "status": "candidate-context",
+      "text": "[EMNLP 2022] Unifying and multi-tasking structured knowledge grounding with language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/UnifiedSKG",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/UnifiedSKG",
       "status": "candidate",
       "text": "<p align=\"left\">"
     }
@@ -46,11 +64,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

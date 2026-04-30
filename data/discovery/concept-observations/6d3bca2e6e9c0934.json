@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extism Java Host SDK enables Java programs to embed and run WebAssembly plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021831,
+      "status": "candidate",
+      "text": "history"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021830,
+      "status": "candidate",
+      "text": "olds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021829,
+      "status": "candidate",
+      "text": "thing of the past"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021828,
+      "status": "candidate",
+      "text": "obsoletism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021827,
+      "status": "candidate",
+      "text": "quondamship"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wasm",
+      "sense_id": "wasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wasm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wasm",
+  "observation_id": "6d3bca2e6e9c0934",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "wasm",
+  "source_context_snippet": "Java SDK for the [Extism](https://extism.org/) WebAssembly Plugin-System.",
+  "source_file": null,
+  "source_repo": "extism/java-sdk",
+  "source_repo_description": "Extism Java Host SDK enables Java programs to embed and run WebAssembly plugins."
+}

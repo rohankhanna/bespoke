@@ -118,6 +118,18 @@
       "source_repo": "ROCm/rocm-systems",
       "status": "candidate-context",
       "text": "Clang format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate-context",
+      "text": "(Deprecated) Python bindings for COLMAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate-context",
+      "text": "clang-format Check"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "ROCm/rocm-systems",
       "status": "candidate",
       "text": "Clang format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/pycolmap",
+      "status": "candidate",
+      "text": "clang-format Check"
     }
   ],
   "candidate_related_terms": [
@@ -306,11 +324,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/hip-formatting.yml",
       "source_repo": "ROCm/rocm-systems"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "colmap/pycolmap"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

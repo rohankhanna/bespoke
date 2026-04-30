@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUNLP/critic-rl",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "HKUNLP/critic-rl",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "HKUNLP/critic-rl",
+      "target": "zhxieml/rayinfer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:03.172089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4446
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2025] Teaching Language Models to Critique via Reinforcement Learning",
+    "fork": false,
+    "full_name": "HKUNLP/critic-rl",
+    "html_url": "https://github.com/HKUNLP/critic-rl",
+    "language": "Python",
+    "pushed_at": "2025-05-06T01:37:42Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-04-19T08:31:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhxieml/rayinfer",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

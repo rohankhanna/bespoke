@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qingw-dev/aworld-mcp-servers",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:05.272058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6730
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3391
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5151
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The accompanying repository for the AWorld project.",
+    "fork": false,
+    "full_name": "qingw-dev/aworld-mcp-servers",
+    "html_url": "https://github.com/qingw-dev/aworld-mcp-servers",
+    "language": "Python",
+    "pushed_at": "2025-08-05T03:20:00Z",
+    "stargazers_count": 7,
+    "topics": [
+      "agent",
+      "mcp-server"
+    ],
+    "updated_at": "2025-08-05T03:20:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The accompanying repository for the [AWorld](https://github.com/inclusionAI/AWorld) project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

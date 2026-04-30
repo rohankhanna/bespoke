@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:09:52.042620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Colour schemes for a variety of editors created by Dayle Rees.",
+    "fork": false,
+    "full_name": "daylerees/colour-schemes",
+    "html_url": "https://github.com/daylerees/colour-schemes",
+    "language": "HTML",
+    "pushed_at": "2024-01-08T11:55:52Z",
+    "stargazers_count": 9298,
+    "topics": [],
+    "updated_at": "2026-04-30T06:56:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

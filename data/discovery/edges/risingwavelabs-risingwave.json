@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "madsim-rs/getrandom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "madsim-rs/rust-tokio-retry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "madsim-rs/rust-postgres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "madsim-rs/sqlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-issue-milestone.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "fuyufjh/automatically-set-milestone-to-issue@v0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-issue-milestone.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Assign milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "rustsec/audit-check@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-issue.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-issue.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "dacbd/create-issue-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-issue.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Issue Documentation Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-pr.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "8BitJonny/gh-get-current-pr@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-pr.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-create-doc-issue-by-pr.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "PR Documentation Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-helm-and-operator-version-by-release.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-helm-and-operator-version-by-release.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image-on-demand-ec2.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image-on-demand-ec2.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "buildkite/trigger-pipeline-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image-on-demand-ec2.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Build Docker Image on On-Demand EC2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "buildkite/trigger-pipeline-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-main.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-main.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-main.yml",
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "Bump Main Branch Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "apache-iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "etl-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "event-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "materialized-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "stream-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "risingwavelabs/risingwave",
+      "target": "webhook",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "risingwavelabs/risingwave"
+}

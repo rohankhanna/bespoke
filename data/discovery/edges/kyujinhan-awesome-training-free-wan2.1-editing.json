@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "tencentarc/masactrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "classifier-free-guidance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "flowalign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "flowedit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "inversion-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "rectified-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "training-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "wanalign",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing"
+}

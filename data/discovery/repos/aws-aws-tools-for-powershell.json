@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "aws-actions/closed-issue-message@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml"
+    },
+    {
+      "component": "aws-actions/aws-codebuild-run-build@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml"
+    },
+    {
+      "component": "aws-github-ops/handle-stale-discussions@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml"
+    },
+    {
+      "component": "aws-actions/stale-issue-cleanup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-doc-metadata.yml"
+    },
+    {
+      "component": "awsdocs/aws-doc-sdk-examples-tools@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-doc-metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws/aws-sdk-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws-actions/closed-issue-message@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws-actions/aws-codebuild-run-build@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codebuild-ci.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codebuild-ci.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "AWS CodeBuild CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws-github-ops/handle-stale-discussions@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "HandleStaleDiscussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "issue-regression-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "aws-actions/stale-issue-cleanup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-doc-metadata.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-doc-metadata.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "awsdocs/aws-doc-sdk-examples-tools@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-doc-metadata.yml",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "target": "Validate Documentation Metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:28:07.269804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3532
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 749
+    },
+    {
+      "path": ".github/workflows/codebuild-ci.yml",
+      "size": 1872
+    },
+    {
+      "path": ".github/workflows/handle-stale-discussions.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/issue-regression-labeler.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/stale_issues.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/validate-doc-metadata.yml",
+      "size": 480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment.",
+    "fork": false,
+    "full_name": "aws/aws-tools-for-powershell",
+    "html_url": "https://github.com/aws/aws-tools-for-powershell",
+    "language": "C#",
+    "pushed_at": "2026-04-29T20:48:18Z",
+    "stargazers_count": 285,
+    "topics": [],
+    "updated_at": "2026-04-29T20:48:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sdk-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "AWS CodeBuild CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codebuild-ci.yml",
+      "term": "AWS CodeBuild CI"
+    },
+    {
+      "context_snippet": "HandleStaleDiscussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "term": "HandleStaleDiscussions"
+    },
+    {
+      "context_snippet": "issue-regression-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "term": "issue-regression-label"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Validate Documentation Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-doc-metadata.yml",
+      "term": "Validate Documentation Metadata"
+    }
+  ]
+}

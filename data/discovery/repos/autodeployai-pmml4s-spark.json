@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "autodeployai/pypmml-spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "autodeployai/pypmml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "pmml-scoring-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "pmml-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "pmml-spark-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "pmml-spark-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s-spark",
+      "target": "spark-ml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:10:37.854134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5539
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PMML scoring library for Spark as SparkML Transformer",
+    "fork": false,
+    "full_name": "autodeployai/pmml4s-spark",
+    "html_url": "https://github.com/autodeployai/pmml4s-spark",
+    "language": "Scala",
+    "pushed_at": "2024-10-20T15:31:18Z",
+    "stargazers_count": 22,
+    "topics": [
+      "pmml",
+      "pmml-scoring-library",
+      "pmml-spark",
+      "pmml-spark-ml",
+      "pmml-spark-transformer",
+      "spark-ml"
+    ],
+    "updated_at": "2025-10-30T07:18:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pypmml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pypmml-spark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scoring-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-spark"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-spark-ml"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-spark-transformer"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s-spark/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s-spark/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark-ml"
+    }
+  ]
+}

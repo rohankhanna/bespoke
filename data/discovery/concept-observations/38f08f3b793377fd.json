@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Abbreviation reminder plugin for Neovim 0.5+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "panvimdoc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "panvimdoc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "panvimdoc",
+      "sense_id": "panvimdoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "panvimdoc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "panvimdoc",
+  "observation_id": "38f08f3b793377fd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "panvimdoc",
+  "source_context_snippet": "panvimdoc",
+  "source_file": ".github/workflows/panvimdoc.yml",
+  "source_repo": "0styx0/abbreinder.nvim",
+  "source_repo_description": "Abbreviation reminder plugin for Neovim 0.5+"
+}

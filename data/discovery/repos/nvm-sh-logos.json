@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:06:52.932745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nvm logo assets",
+    "fork": false,
+    "full_name": "nvm-sh/logos",
+    "html_url": "https://github.com/nvm-sh/logos",
+    "language": null,
+    "pushed_at": "2025-02-03T18:27:57Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-27T00:56:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

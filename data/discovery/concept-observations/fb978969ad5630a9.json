@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GitHub Actions for the R community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-actions",
+      "sense_id": "github-actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-actions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-actions",
+  "observation_id": "fb978969ad5630a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "github-actions",
+  "source_context_snippet": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)",
+  "source_file": null,
+  "source_repo": "r-lib/actions",
+  "source_repo_description": "GitHub Actions for the R community"
+}

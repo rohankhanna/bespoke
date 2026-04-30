@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/agent-openai-java-banking-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/azure-search-openai-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/azureai-samples",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j"
+}

@@ -283,6 +283,42 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/tools-devteam",
+      "status": "candidate-context",
+      "text": "Contains a set of Galaxy Tools mostly written by the Galaxy Team."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-devteam",
+      "status": "candidate-context",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-devteam/workflows/Galaxy%20Tool%20Linting%20and%20Tests%20for%20push%20and%20PR/badge.svg)](https://github.com/galaxyproject/tools-devteam/actions?query=workflow%3A%22Galaxy+Tool+Linting+and\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate-context",
+      "text": "Fast & Simple Note Taking! \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": "LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": ".. image:: /readme/images/labelimg.png"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +459,24 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-devteam",
+      "status": "candidate",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-devteam/workflows/Galaxy%20Tool%20Linting%20and%20Tests%20for%20push%20and%20PR/badge.svg)](https://github.com/galaxyproject/tools-devteam/actions?query=workflow%3A%22Galaxy+Tool+Linting+and\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate",
+      "text": ".. image:: /readme/images/labelimg.png"
     }
   ],
   "candidate_related_terms": [
@@ -634,11 +688,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/tdo.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/tools-devteam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

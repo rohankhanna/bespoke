@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "aws-sdk-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "target": "react-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:52.306925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3097
+    },
+    {
+      "path": "package.json",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code Sample for testing AWS SDK for JavaScript",
+    "fork": false,
+    "full_name": "aws-samples/aws-sdk-js-tests",
+    "html_url": "https://github.com/aws-samples/aws-sdk-js-tests",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T19:08:42Z",
+    "stargazers_count": 68,
+    "topics": [
+      "aws",
+      "aws-sdk-js",
+      "browser",
+      "javascript",
+      "nodejs",
+      "react-native",
+      "sdk",
+      "typescript"
+    ],
+    "updated_at": "2026-04-07T00:04:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code Samples for testing AWS SDK for JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk-js"
+    },
+    {
+      "context_snippet": "Code Samples for testing AWS SDK for JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Code Samples for testing AWS SDK for JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Code Samples for testing AWS SDK for JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    }
+  ]
+}

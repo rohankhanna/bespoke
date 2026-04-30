@@ -67,6 +67,18 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate-context",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PRIS-CV/DemoFusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scoop bucket for installing fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028615,
+      "status": "candidate",
+      "text": "scoop up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005010,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938319,
+      "status": "candidate",
+      "text": "outflank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903094,
+      "status": "candidate",
+      "text": "take up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869270,
+      "status": "candidate",
+      "text": "outdo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scoop",
+      "sense_id": "scoop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21045,
+      "status": "candidate",
+      "text": "exclusive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "trump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "best"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4057,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "outflank"
+    }
+  ],
+  "concept_id": "scoop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scoop",
+  "observation_id": "e37601ca2f64338b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "scoop",
+  "source_context_snippet": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`",
+  "source_file": null,
+  "source_repo": "KnotUntied/scoop-fonts",
+  "source_repo_description": "Scoop bucket for installing fonts"
+}

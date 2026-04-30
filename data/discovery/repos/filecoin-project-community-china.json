@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community-china",
+      "target": "filecoin-project/bellperson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community-china",
+      "target": "filecoin-project/cpp-filecoin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community-china",
+      "target": "beelant/lotus-bee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/community-china",
+      "target": "cdcdx/lotus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:37.718737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Resources and forum for the Chinese community, maintained and moderated by CoinSummer & PL.",
+    "fork": false,
+    "full_name": "filecoin-project/community-china",
+    "html_url": "https://github.com/filecoin-project/community-china",
+    "language": "C",
+    "pushed_at": "2023-10-07T09:55:56Z",
+    "stargazers_count": 436,
+    "topics": [],
+    "updated_at": "2026-04-11T02:04:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beelant/lotus-bee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdcdx/lotus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/bellperson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/cpp-filecoin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -81,6 +81,18 @@
       "source_repo": "heal-research/pyoperon",
       "status": "candidate-context",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lesismal/arpc",
+      "status": "candidate-context",
+      "text": "More effective network communication, two-way calling, notify and broadcast supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/arpc",
+      "status": "candidate-context",
+      "text": "build-windows"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "heal-research/pyoperon",
+      "status": "candidate",
+      "text": "build-windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/arpc",
       "status": "candidate",
       "text": "build-windows"
     }
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "heal-research/pyoperon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/arpc"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039124,
+      "status": "candidate",
+      "text": "wares"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038723,
+      "status": "candidate",
+      "text": "merchandise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033702,
+      "status": "candidate",
+      "text": "production"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970957,
+      "status": "candidate",
+      "text": "intersection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039395,
+      "status": "candidate",
+      "text": "mathematical product"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "product",
+      "sense_id": "product#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "intersection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7058,
+      "status": "candidate",
+      "text": "production"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6046,
+      "status": "candidate",
+      "text": "merchandise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "mathematical product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "wares"
+    }
+  ],
+  "concept_id": "product",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "product",
+  "observation_id": "f54095b548a61c48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "product",
+  "source_context_snippet": "WSD/LLMNR Discovery/Name Service Daemon",
+  "source_file": null,
+  "source_repo": "Netgear/wsdd2",
+  "source_repo_description": "WSD/LLMNR Discovery/Name Service Daemon"
+}

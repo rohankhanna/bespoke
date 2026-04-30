@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Upserts, Deletes And Incremental Processing on Big Data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Title Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Title Validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16055,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16055,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16055,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16034,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "certification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Validation",
+      "sense_id": "pr-title-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-title-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-title-validation",
+  "observation_id": "45fd44a24b285c65",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "PR Title Validation",
+  "source_context_snippet": "PR Title Validation",
+  "source_file": ".github/workflows/pr_title_validation.yml",
+  "source_repo": "apache/hudi",
+  "source_repo_description": "Upserts, Deletes And Incremental Processing on Big Data."
+}

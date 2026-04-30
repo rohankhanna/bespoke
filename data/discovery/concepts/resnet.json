@@ -79,6 +79,42 @@
       "source_repo": "endernewton/tf-faster-rcnn",
       "status": "candidate-context",
       "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "Extract video features from raw videos using multiple GPUs. We support RAFT flow frames as well as S3D, I3D, R(2+1)D, VGGish, CLIP, and TIMM models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "status": "candidate-context",
+      "text": "Video Feature Extraction Code for EMNLP 2020 paper \"HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "status": "candidate-context",
+      "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "endernewton/tf-faster-rcnn",
       "status": "candidate",
       "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor",
+      "status": "candidate",
+      "text": "This repo aims at providing feature extraction code for video data in [HERO Paper](https://arxiv.org/abs/2005.00200) (EMNLP 2020)."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +262,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "endernewton/tf-faster-rcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/video_features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO_Video_Feature_Extractor"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

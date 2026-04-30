@@ -317,6 +317,42 @@
       "source_repo": "external-secrets/external-secrets",
       "status": "candidate-context",
       "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/attention-gym",
+      "status": "candidate-context",
+      "text": "Helpful tools and examples for working with flex-attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/attention-gym",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
     }
   ],
   "candidate_glosses": [
@@ -473,6 +509,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "external-secrets/external-secrets",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/attention-gym",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagster-io/dagster",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
       "status": "candidate",
       "text": "Deploy Docs"
     }
@@ -746,11 +800,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/attention-gym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "spring-projects/spring-ai"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

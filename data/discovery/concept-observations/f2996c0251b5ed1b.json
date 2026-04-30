@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018267,
+      "status": "candidate",
+      "text": "flaskful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032565,
+      "status": "candidate",
+      "text": "beaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028095,
+      "status": "candidate",
+      "text": "canister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026217,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024982,
+      "status": "candidate",
+      "text": "vial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flask",
+      "sense_id": "flask#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "flaskful"
+    }
+  ],
+  "concept_id": "flask",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flask",
+  "observation_id": "f2996c0251b5ed1b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "flask",
+  "source_context_snippet": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end.",
+  "source_file": null,
+  "source_repo": "lunayach/visNER",
+  "source_repo_description": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+}

@@ -319,6 +319,102 @@
       "source_repo": "dwyl/hits",
       "status": "candidate-context",
       "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 A detailed example for how to encrypt data in an Elixir (Phoenix v1.7) App before inserting into a database using Ecto Types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-alpine.js",
+      "status": "candidate-context",
+      "text": "\u26f0\ufe0f Learn how to use Alpine.js to build declarative + responsive UI in considerably less time!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-alpine.js",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "Elixir implementation of a LangChain style framework that lets Elixir projects integrate with and leverage LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-papertrail-demo",
+      "status": "candidate-context",
+      "text": "A SPIKE showcasing the use of PaperTrail in a simple Phoenix Todo List App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-papertrail-demo",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/ping",
+      "status": "candidate-context",
+      "text": "\ud83d\udece\ufe0f    The easy way to ping (wake) an idle Heroku App from slumber."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/ping",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac  a curated list of quotes that inspire action + code that returns quotes by tag/author/etc. \ud83d\udca1 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/who",
+      "status": "candidate-context",
+      "text": "\ud83d\udc65 the people in the dwyl org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/who",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate-context",
+      "text": "Protobuf code generation as a mix task"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drowzy/protobuf_generate",
+      "status": "candidate-context",
+      "text": "Elixir CI"
     }
   ],
   "candidate_glosses": [
@@ -475,6 +571,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dwyl/hits",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-alpine.js",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brainlid/langchain",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-papertrail-demo",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/ping",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/who",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drowzy/protobuf_generate",
       "status": "candidate",
       "text": "Elixir CI"
     }
@@ -700,11 +844,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "dwyl/hits"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-alpine.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "brainlid/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-papertrail-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/ping"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/elixir.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/who"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "drowzy/protobuf_generate"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

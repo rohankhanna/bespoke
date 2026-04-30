@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TabNine Completion for ddc.vim. This source collects candidates from TabNine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Doc](https://img.shields.io/badge/doc-%3Ah%20ddc--tabnine-orange.svg?style=flat-square)](doc/ddc-tabnine.txt)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Doc](https://img.shields.io/badge/doc-%3Ah%20ddc--tabnine-orange.svg?style=flat-square)](doc/ddc-tabnine.txt)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ddc-vim",
+      "sense_id": "ddc-vim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ddc-vim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ddc-vim",
+  "observation_id": "a7d025d3d2c2f4ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "ddc-vim",
+  "source_context_snippet": "[![Doc](https://img.shields.io/badge/doc-%3Ah%20ddc--tabnine-orange.svg?style=flat-square)](doc/ddc-tabnine.txt)",
+  "source_file": null,
+  "source_repo": "LumaKernel/ddc-tabnine",
+  "source_repo_description": "TabNine Completion for ddc.vim. This source collects candidates from TabNine."
+}

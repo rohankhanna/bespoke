@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:20:24.730651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2025] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask",
+    "fork": false,
+    "full_name": "rlawjdghek/PromptDresser",
+    "html_url": "https://github.com/rlawjdghek/PromptDresser",
+    "language": "Python",
+    "pushed_at": "2025-07-15T02:19:59Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-25T19:35:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

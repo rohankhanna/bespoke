@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Author Approval Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "The official registry of general Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate-context",
+      "text": "Author Approval Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaRegistries/General",
+      "status": "candidate",
+      "text": "Author Approval Label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18230,
+      "status": "candidate",
+      "text": "pseudonym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18230,
+      "status": "candidate",
+      "text": "quote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18230,
+      "status": "candidate",
+      "text": "quotes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18185,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18185,
+      "status": "candidate",
+      "text": "endorsement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Author Approval Label",
+  "concept_id": "author-approval-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/author_approval.yml",
+      "source_repo": "JuliaRegistries/General"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Author Approval Label",
+      "sense_id": "author-approval-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -68,6 +68,18 @@
       "source_repo": "a2aproject/a2a-go",
       "status": "candidate-context",
       "text": "validate-pr-title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "Validate PR title"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "a2aproject/a2a-go",
       "status": "candidate",
       "text": "validate-pr-title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate",
+      "text": "Validate PR title"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/validate-pr-title.yaml",
       "source_repo": "a2aproject/a2a-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "wandb/wandb"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,611 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chunk-ts-parsers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chunk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "leso-kn/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "leso-kn/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "leso-kn/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "leso-kn/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-tag-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-build-treesitter-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chunk-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chunk.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "leso-kn/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "test pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rlalik/setup-cpp-compiler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "leso-kn/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "hishamhm/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "Publish Dev Release LuaRocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rlalik/setup-cpp-compiler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "leso-kn/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "hishamhm/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "Publish tree-sitter parsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rlalik/setup-cpp-compiler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "leso-kn/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "hishamhm/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "Publish semver tags to LuaRocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ts-parsers-json.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr",
+      "target": "luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr",
+      "target": "plugin-repo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:34.322229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    },
+    {
+      "path": ".github/workflows/chunk-ts-parsers.yml",
+      "size": 1384
+    },
+    {
+      "path": ".github/workflows/chunk.yml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 3120
+    },
+    {
+      "path": ".github/workflows/publish-dev.yml",
+      "size": 2844
+    },
+    {
+      "path": ".github/workflows/publish-ts-parsers.yml",
+      "size": 10407
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 3878
+    },
+    {
+      "path": ".github/workflows/update-ts-parsers-json.yml",
+      "size": 1957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository for hosting auto-generated Neovim plugins and tree-sitter parsers for Luarocks.",
+    "fork": false,
+    "full_name": "lumen-oss/nurr",
+    "html_url": "https://github.com/lumen-oss/nurr",
+    "language": "Lua",
+    "pushed_at": "2026-04-06T23:31:21Z",
+    "stargazers_count": 42,
+    "topics": [
+      "luarocks",
+      "neovim",
+      "plugin-repo"
+    ],
+    "updated_at": "2026-04-06T23:31:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/luarocks-build-treesitter-parser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/luarocks-tag-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "test pr"
+    },
+    {
+      "context_snippet": "Publish Dev Release LuaRocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "term": "Publish Dev Release LuaRocks"
+    },
+    {
+      "context_snippet": "Publish tree-sitter parsers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ts-parsers.yml",
+      "term": "Publish tree-sitter parsers"
+    },
+    {
+      "context_snippet": "Publish semver tags to LuaRocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish semver tags to LuaRocks"
+    },
+    {
+      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luarocks"
+    },
+    {
+      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-repo"
+    }
+  ]
+}

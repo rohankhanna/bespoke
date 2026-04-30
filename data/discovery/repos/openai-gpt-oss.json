@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gpt-oss",
+      "target": "openai/harmony",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "openai/gpt-oss",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "openai/gpt-oss",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "openai/gpt-oss",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:37.725862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24255
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1267
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
+    "fork": false,
+    "full_name": "openai/gpt-oss",
+    "html_url": "https://github.com/openai/gpt-oss",
+    "language": "Python",
+    "pushed_at": "2026-03-27T23:22:09Z",
+    "stargazers_count": 20060,
+    "topics": [],
+    "updated_at": "2026-04-30T08:44:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/harmony",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

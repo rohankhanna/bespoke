@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "webpack-runtime-analyzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "Statoscope is a toolkit to analyze and validate webpack bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statoscope/statoscope",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/statoscope/all/badge.svg?label=financial+contributors)](https://opencollective.com/statoscope) [![Build and Test](https://github.com/statoscope/statoscope/actions/workflows/ci.yml/badge.svg)](https://github\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webpack-runtime-analyzer",
+  "concept_id": "webpack-runtime-analyzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "statoscope/statoscope"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webpack-runtime-analyzer",
+      "sense_id": "webpack-runtime-analyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

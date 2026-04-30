@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalist framework for running and monitoring an agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tests for Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tests for Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11691,
+      "status": "candidate",
+      "text": "ids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11417,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11417,
+      "status": "candidate",
+      "text": "trier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "accountant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "alexis de tocqueville"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests for Docs",
+      "sense_id": "tests-for-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tests-for-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tests-for-docs",
+  "observation_id": "0d8371c57db83dcf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Tests for Docs",
+  "source_context_snippet": "Tests for Docs",
+  "source_file": ".github/workflows/tests-docs.yaml",
+  "source_repo": "mozilla-ai/tinyagent",
+  "source_repo_description": "Minimalist framework for running and monitoring an agent"
+}

@@ -19,12 +19,30 @@
       "source_repo": "FasterXML/jackson-databind",
       "status": "candidate-context",
       "text": "Trigger downstream Jackson 2.x builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "Core part of Jackson that defines Streaming API as well as basic shared abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "Trigger downstream Jackson 2.x builds"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate",
+      "text": "Trigger downstream Jackson 2.x builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
       "status": "candidate",
       "text": "Trigger downstream Jackson 2.x builds"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
       "source_repo": "FasterXML/jackson-databind"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
+      "source_repo": "FasterXML/jackson-core"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

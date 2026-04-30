@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "eskatos/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "reactivecircus/android-emulator-runner@v2.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Android build PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "mozilla-mobile/fenix-beta-version@4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "andymckay/cancel-action@0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "mozilla-mobile/sync-strings-action@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fenix-sync-strings.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Fenix - Sync Strings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "mozilla-mobile/update-experiments@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Fenix - Update Nimbus Experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Glean probe-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "gabrielluong/issue-linker@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Issue Linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "gabrielluong/milestone@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Tag Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qa-needed.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "gabrielluong/qa-needed@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qa-needed.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "QA Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "gabrielluong/reopen-for-qa-needed@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "Reopen for QA Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "boek/AddTriageLabel@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "AssignTriageLabel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/fenix",
+      "target": "mozilla",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "mozilla-mobile/fenix"
+}

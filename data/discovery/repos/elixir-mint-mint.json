@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint",
+      "target": "elixir-mint/mint_web_socket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-mint/mint",
+      "target": "sneako/finch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "elixir-mint/mint",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "elixir-http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "elixir-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "elixir-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint",
+      "target": "http2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:21.903897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6852
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 \ud83c\udf31",
+    "fork": false,
+    "full_name": "elixir-mint/mint",
+    "html_url": "https://github.com/elixir-mint/mint",
+    "language": "Elixir",
+    "pushed_at": "2026-04-28T14:57:36Z",
+    "stargazers_count": 1412,
+    "topics": [
+      "elixir",
+      "elixir-http",
+      "elixir-lang",
+      "elixir-language",
+      "http",
+      "http-client",
+      "http2"
+    ],
+    "updated_at": "2026-04-28T13:45:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-mint/mint_web_socket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sneako/finch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-http"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-lang"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-language"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "[![CI badge](https://github.com/elixir-mint/mint/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-mint/mint/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Dev Release LuaRocks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "A repository for hosting auto-generated Neovim plugins and tree-sitter parsers for Luarocks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate-context",
+      "text": "Publish Dev Release LuaRocks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nurr",
+      "status": "candidate",
+      "text": "Publish Dev Release LuaRocks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26318,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22657,
+      "status": "candidate",
+      "text": "specimen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22633,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22622,
+      "status": "candidate",
+      "text": "hatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22610,
+      "status": "candidate",
+      "text": "close"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Dev Release LuaRocks",
+  "concept_id": "publish-dev-release-luarocks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "lumen-oss/nurr"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Dev Release LuaRocks",
+      "sense_id": "publish-dev-release-luarocks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

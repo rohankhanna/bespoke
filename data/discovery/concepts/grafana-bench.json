@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Grafana Bench"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate-context",
+      "text": "Grafana DataSource of GreptimeDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate-context",
+      "text": "Grafana Bench"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+      "status": "candidate",
+      "text": "Grafana Bench"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benches"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "college"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Grafana Bench",
+  "concept_id": "grafana-bench",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/grafana-bench.yml",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Grafana Bench",
+      "sense_id": "grafana-bench#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

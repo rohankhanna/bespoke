@@ -19,6 +19,18 @@
       "source_repo": "mapbox/node-pre-gyp",
       "status": "candidate-context",
       "text": "[![ci](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml/badge.svg)](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml) [![S3 Bucket Test](https://github.com/mapbox/node-pre-gyp/actions/workflows/s3-bucket.yml/badge.svg)](https://github.com/mapbox/nod\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mapbox/node-pre-gyp",
       "status": "candidate",
       "text": "[![ci](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml/badge.svg)](https://github.com/mapbox/node-pre-gyp/actions/workflows/ci.yml) [![S3 Bucket Test](https://github.com/mapbox/node-pre-gyp/actions/workflows/s3-bucket.yml/badge.svg)](https://github.com/mapbox/nod\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "mapbox/node-pre-gyp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

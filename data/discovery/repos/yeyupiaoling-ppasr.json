@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "yeyupiaoling/paddlepaddle-deepspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "yeyupiaoling/masr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "jiwidi/deepspeech-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "wenet-e2e/wenetspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "deepspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "squeezeformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeyupiaoling/PPASR",
+      "target": "streaming-asr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:25.756138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7965
+    },
+    {
+      "path": "requirements.txt",
+      "size": 307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "\u57fa\u4e8ePaddlePaddle\u5b9e\u73b0\u7aef\u5230\u7aef\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b\uff0c\u4ece\u5165\u95e8\u5230\u5b9e\u6218\uff0c\u8d85\u7b80\u5355\u7684\u5165\u95e8\u6848\u4f8b\uff0c\u8d85\u5b9e\u7528\u7684\u4f01\u4e1a\u9879\u76ee\u3002\u652f\u6301\u5f53\u524d\u6700\u6d41\u884c\u7684DeepSpeech2\u3001Conformer\u3001Squeezeformer\u6a21\u578b",
+    "fork": false,
+    "full_name": "yeyupiaoling/PPASR",
+    "html_url": "https://github.com/yeyupiaoling/PPASR",
+    "language": "Python",
+    "pushed_at": "2025-12-17T13:16:13Z",
+    "stargazers_count": 875,
+    "topics": [
+      "asr",
+      "chinese",
+      "conformer",
+      "deep-learning",
+      "deepspeech2",
+      "paddlepaddle",
+      "speech",
+      "speech-recognition",
+      "speech-to-text",
+      "squeezeformer",
+      "streaming-asr"
+    ],
+    "updated_at": "2026-04-26T10:55:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiwidi/deepspeech-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/wenetspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/masr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeyupiaoling/paddlepaddle-deepspeech",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformer"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeech2"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squeezeformer"
+    },
+    {
+      "context_snippet": "![python version](https://img.shields.io/badge/python-3.8+-orange.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-asr"
+    }
+  ]
+}

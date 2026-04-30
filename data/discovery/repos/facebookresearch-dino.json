@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dino",
+      "target": "facebookresearch/xcit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dino",
+      "target": "davisvideochallenge/davis-2017",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dino",
+      "target": "filipradenovic/revisitop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:10.791337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch code for Vision Transformers training with the Self-Supervised learning method DINO",
+    "fork": false,
+    "full_name": "facebookresearch/dino",
+    "html_url": "https://github.com/facebookresearch/dino",
+    "language": "Python",
+    "pushed_at": "2024-07-03T16:21:59Z",
+    "stargazers_count": 7541,
+    "topics": [],
+    "updated_at": "2026-04-29T08:32:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisvideochallenge/davis-2017",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xcit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filipradenovic/revisitop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

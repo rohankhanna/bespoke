@@ -84,7 +84,7 @@
   "normalized_form": "auto-tag-release",
   "observation_id": "59dfac5cc917b6ec",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Auto Tag Release",
   "source_context_snippet": "Auto Tag Release",
   "source_file": ".github/workflows/auto-tag-release.yml",

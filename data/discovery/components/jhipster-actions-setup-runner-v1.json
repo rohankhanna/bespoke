@@ -1,0 +1,22 @@
+{
+  "component": "jhipster/actions/setup-runner@v1",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devserver.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-integration.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "Integrate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medikoo/type",
+      "status": "candidate-context",
+      "text": "Runtime validation and processing of JavaScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medikoo/type",
+      "status": "candidate-context",
+      "text": "Integrate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medikoo/type",
+      "status": "candidate",
+      "text": "Integrate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050543,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043311,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034982,
+      "status": "candidate",
+      "text": "desegregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051196,
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051091,
+      "status": "candidate",
+      "text": "subsume"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36042,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4052,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "desegregate"
+    }
+  ],
+  "canonical_name": "Integrate",
+  "concept_id": "integrate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "medikoo/type"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integrate",
+      "sense_id": "integrate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

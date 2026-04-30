@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@5651179950649c44da31d346537e20c0534f0f25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/actors-utils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/actors-utils",
+      "target": "taiki-e/install-action@5651179950649c44da31d346537e20c0534f0f25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/actors-utils",
+      "target": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/actors-utils",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/actors-utils",
+      "target": "filecoin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:35.393721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6530
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of libraries to implement common patterns and standards on the Filecoin Virtual Machine",
+    "fork": false,
+    "full_name": "filecoin-project/actors-utils",
+    "html_url": "https://github.com/filecoin-project/actors-utils",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T10:26:07Z",
+    "stargazers_count": 17,
+    "topics": [
+      "filecoin"
+    ],
+    "updated_at": "2026-04-20T10:26:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[Filecoin](https://filecoin.io) is a decentralized storage network designed to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "danielrosehill/AI-Friendly-Badge",
       "status": "candidate-context",
       "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "Fast ML inference & training for ONNX models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "danielrosehill/AI-Friendly-Badge",
       "status": "candidate",
       "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/oneapi-src/oneCCL/badge)](https://scorecard.dev/viewer/?uri=github.com/oneapi-src/oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeio/ort",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Friendly-Badge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pykeio/ort"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

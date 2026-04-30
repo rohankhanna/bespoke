@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VITA-Group/FreeTickets",
+      "target": "shiweiliuiiiiiii/freetickets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/FreeTickets",
+      "target": "deepensemble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/FreeTickets",
+      "target": "deepleaning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/FreeTickets",
+      "target": "dynamicsparsetraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VITA-Group/FreeTickets",
+      "target": "efficientensemble",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:33.293939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2022] \"Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity\" by Shiwei Liu, Tianlong Chen, Zahra Atashgahi, Xiaohan Chen, Ghada Sokar, Elena Mocanu, Mykola Pechenizkiy, Zhangyang Wang, Decebal Constantin Mocanu",
+    "fork": false,
+    "full_name": "VITA-Group/FreeTickets",
+    "html_url": "https://github.com/VITA-Group/FreeTickets",
+    "language": "Python",
+    "pushed_at": "2022-06-15T10:17:23Z",
+    "stargazers_count": 27,
+    "topics": [
+      "deepensemble",
+      "deepleaning",
+      "dynamicsparsetraining",
+      "efficientensemble"
+    ],
+    "updated_at": "2024-09-02T12:37:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiweiliuiiiiiii/freetickets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepensemble"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepleaning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamicsparsetraining"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientensemble"
+    }
+  ]
+}

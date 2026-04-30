@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+      "target": "stefanknegt/probabilistic-unet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+      "target": "juliawolleb/diffusion-based-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:41.252353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4016
+    },
+    {
+      "path": "requirements.txt",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accepted in CVPR 2023",
+    "fork": false,
+    "full_name": "aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+    "html_url": "https://github.com/aimansnigdha/Ambiguous-Medical-Image-Segmentation-using-Diffusion-Models",
+    "language": "Python",
+    "pushed_at": "2023-06-06T19:05:49Z",
+    "stargazers_count": 215,
+    "topics": [
+      "medical-imaging",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-23T09:37:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliawolleb/diffusion-based-segmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stefanknegt/probabilistic-unet-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.04745.pdf) | [Project](https://aimansnigdha.github.io/cimd/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.04745.pdf) | [Project](https://aimansnigdha.github.io/cimd/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

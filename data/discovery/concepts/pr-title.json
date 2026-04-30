@@ -170,6 +170,42 @@
       "source_repo": "folke/neodev.nvim",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/which-key.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5   Create key bindings that stick. WhichKey helps you remember your Neovim keymaps, by showing available keybindings in a popup as you type."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/which-key.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbc Neovim plugin to manage global and project-local settings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate-context",
+      "text": "Cryptography libraries for ZKsync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate-context",
+      "text": "PR title"
     }
   ],
   "candidate_glosses": [
@@ -256,6 +292,24 @@
       "source_repo": "folke/neodev.nvim",
       "status": "candidate",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/which-key.nvim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neoconf.nvim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-crypto",
+      "status": "candidate",
+      "text": "PR title"
     }
   ],
   "candidate_related_terms": [
@@ -389,11 +443,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "folke/neodev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/which-key.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/neoconf.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "matter-labs/zksync-crypto"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

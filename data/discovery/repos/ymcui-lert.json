@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/LERT",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/LERT",
+      "target": "pengming617/bert_classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/LERT",
+      "target": "cluebenchmark/ocnli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/LERT",
+      "target": "prohiryu/bert-chinese-ner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "lert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "pre-train",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/LERT",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:21.159870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LERT: A Linguistically-motivated Pre-trained Language Model\uff08\u8bed\u8a00\u5b66\u4fe1\u606f\u589e\u5f3a\u7684\u9884\u8bad\u7ec3\u6a21\u578bLERT\uff09",
+    "fork": false,
+    "full_name": "ymcui/LERT",
+    "html_url": "https://github.com/ymcui/LERT",
+    "language": "Python",
+    "pushed_at": "2026-04-19T01:00:43Z",
+    "stargazers_count": 224,
+    "topics": [
+      "bert",
+      "lert",
+      "nlp",
+      "plm",
+      "pre-train",
+      "pytorch",
+      "tensorflow",
+      "transformer"
+    ],
+    "updated_at": "2026-04-19T01:00:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cluebenchmark/ocnli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengming617/bert_classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prohiryu/bert-chinese-ner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-train"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587**](https://github.com/ymcui/LERT) | [**English**](https://github.com/ymcui/LERT/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

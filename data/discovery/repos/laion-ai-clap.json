@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LAION-AI/CLAP",
+      "target": "cfoster0/clap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:04:09.606777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17399
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contrastive Language-Audio Pretraining",
+    "fork": false,
+    "full_name": "LAION-AI/CLAP",
+    "html_url": "https://github.com/LAION-AI/CLAP",
+    "language": "Python",
+    "pushed_at": "2025-05-15T19:55:29Z",
+    "stargazers_count": 2125,
+    "topics": [],
+    "updated_at": "2026-04-29T13:32:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfoster0/clap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

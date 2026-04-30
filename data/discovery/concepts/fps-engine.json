@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "fps-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "The ioquake3 community effort to continue supporting/developing id's Quake III Arena"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fps-engine",
+  "concept_id": "fps-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fps-engine",
+      "sense_id": "fps-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

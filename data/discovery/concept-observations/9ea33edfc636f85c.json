@@ -48,7 +48,7 @@
   "normalized_form": "glob-matcher",
   "observation_id": "9ea33edfc636f85c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "glob-matcher",
   "source_context_snippet": "> Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
   "source_file": null,

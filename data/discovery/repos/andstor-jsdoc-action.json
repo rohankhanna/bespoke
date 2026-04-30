@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/exec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_modules.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_modules.yml"
+    },
+    {
+      "component": "Actions-R-Us/actions-tagger@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "docstrap/docstrap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "nijikokun/minami",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "@actions/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_modules.yml",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_modules.yml",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "Actions-R-Us/actions-tagger@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "andstor/jsdoc-action",
+      "target": "Update version tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action",
+      "target": "jsdoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:39.246987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4142
+    },
+    {
+      "path": "package.json",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/node_modules.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/versioning.yml",
+      "size": 286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":book: :octocat:GitHub Action to build JSDoc documentation",
+    "fork": false,
+    "full_name": "andstor/jsdoc-action",
+    "html_url": "https://github.com/andstor/jsdoc-action",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-16T04:02:18Z",
+    "stargazers_count": 86,
+    "topics": [
+      "api",
+      "build",
+      "docs",
+      "documentation",
+      "github-actions",
+      "jsdoc"
+    ],
+    "updated_at": "2026-04-26T02:36:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docstrap/docstrap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nijikokun/minami",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update version tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioning.yml",
+      "term": "Update version tag"
+    },
+    {
+      "context_snippet": "> A GitHub Action to build JSDoc documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "> A GitHub Action to build JSDoc documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "> A GitHub Action to build JSDoc documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "> A GitHub Action to build JSDoc documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "> A GitHub Action to build JSDoc documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsdoc"
+    }
+  ]
+}

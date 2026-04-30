@@ -67,6 +67,30 @@
       "source_repo": "Redocly/redoc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Rust-based static site generator for Markdown documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "========"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "Redocly/redoc",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml/badge.svg)](https://github.com/yhirose/docs-gen/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "========"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "yhirose/docs-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

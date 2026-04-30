@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "niuiic/awesome-neovim-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "nvarner/typst-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "niuiic/core.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "itsethra/typst-live",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "niuiic/typst-preview.nvim",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:40.549121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim plugin to preview typst document.",
+    "fork": false,
+    "full_name": "niuiic/typst-preview.nvim",
+    "html_url": "https://github.com/niuiic/typst-preview.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-05-19T12:20:26Z",
+    "stargazers_count": 49,
+    "topics": [
+      "neovim",
+      "plugin",
+      "typst"
+    ],
+    "updated_at": "2026-04-28T17:11:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itsethra/typst-live",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/awesome-neovim-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niuiic/core.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvarner/typst-lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Neovim plugin to preview typst document.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Neovim plugin to preview typst document.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Neovim plugin to preview typst document.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dherse/comemo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dherse/comemo",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dherse/comemo",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:49.745640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2802
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Incremental computation through constrained memoization.",
+    "fork": true,
+    "full_name": "Dherse/comemo",
+    "html_url": "https://github.com/Dherse/comemo",
+    "language": "Rust",
+    "pushed_at": "2025-04-02T15:19:53Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-02T15:19:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    }
+  ]
+}

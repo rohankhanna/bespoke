@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/TLC",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/TLC",
+      "target": "swz30/mprnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/TLC",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "megvii-research/TLC",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:59.773750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10520
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test-time Local Converter",
+    "fork": false,
+    "full_name": "megvii-research/TLC",
+    "html_url": "https://github.com/megvii-research/TLC",
+    "language": "Python",
+    "pushed_at": "2023-06-09T03:06:51Z",
+    "stargazers_count": 253,
+    "topics": [
+      "deep-learning",
+      "neural-network"
+    ],
+    "updated_at": "2026-03-06T07:28:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swz30/mprnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-global-statistics-aggregation-for/image-defocus-deblurring-on-dpd)](https://paperswithcode.com/sota/image-defocus-deblurring-on-dpd?p=revisiting-global-statistics-aggregation-for)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-global-statistics-aggregation-for/image-defocus-deblurring-on-dpd)](https://paperswithcode.com/sota/image-defocus-deblurring-on-dpd?p=revisiting-global-statistics-aggregation-for)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    }
+  ]
+}

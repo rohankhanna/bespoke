@@ -1,0 +1,12 @@
+{
+  "component": "coursier/setup-action@6a582d7f7292a865e72c497ca64c3ef447cdb6c7",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom"
+    }
+  ]
+}

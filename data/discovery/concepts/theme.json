@@ -361,6 +361,42 @@
       "source_repo": "google/docsy",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable no-docsy-dev-external-urls -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate-context",
+      "text": "Finally, a base24 builder that doesn't require me to install anything new."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate-context",
+      "text": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base24",
+      "status": "candidate-context",
+      "text": "Base24/ Base16 can be used to easily generate your favourite theme for your favourite application. Many of the template repositories provide theme files that you can copy/ import into said application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base24",
+      "status": "candidate-context",
+      "text": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">"
     }
   ],
   "candidate_glosses": [
@@ -537,6 +573,24 @@
       "source_repo": "google/docsy",
       "status": "candidate",
       "text": "<!-- markdownlint-disable no-docsy-dev-external-urls -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate",
+      "text": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base24",
+      "status": "candidate",
+      "text": "<img alt=\"Color wheel\" src=\"./color_wheel.png\" width=\"100\" align=\"right\" style=\"padding-top:0.6rem;\">"
     }
   ],
   "candidate_related_terms": [
@@ -868,11 +922,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/docsy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base24"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

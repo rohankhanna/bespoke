@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "aaronp/args4c",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "aaronp/args4c",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "aaronp/args4c",
+      "target": "Scala CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:32.490633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/scala.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "typesafe configuration utilities - additional convenience functionality, helpers for going from main method to config",
+    "fork": false,
+    "full_name": "aaronp/args4c",
+    "html_url": "https://github.com/aaronp/args4c",
+    "language": "Scala",
+    "pushed_at": "2022-01-03T13:58:48Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-07-27T20:10:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scala CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "term": "Scala CI"
+    }
+  ]
+}

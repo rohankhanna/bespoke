@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto-merge Bot PRs"
+    "Auto-merge Bot PRs",
+    "Auto-merge bot PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "pyg-team/pyg-lib",
       "status": "candidate-context",
       "text": "Auto-merge Bot PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate-context",
+      "text": "Testing building mulled containers for multi-requirement tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate-context",
+      "text": "Auto-merge bot PRs"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "pyg-team/pyg-lib",
       "status": "candidate",
       "text": "Auto-merge Bot PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate",
+      "text": "Auto-merge bot PRs"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +137,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-merge-bot.yaml",
+      "source_repo": "BioContainers/multi-package-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

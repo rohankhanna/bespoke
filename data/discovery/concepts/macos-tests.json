@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "MacOS tests"
+    "MacOS tests",
+    "macOS tests",
+    "macOS Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +21,30 @@
       "source_repo": "Farama-Foundation/PettingZoo",
       "status": "candidate-context",
       "text": "MacOS tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "Instant, controllable, local pre-trained AI models in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate-context",
+      "text": "macOS tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "tools for sandboxing your dependency graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate-context",
+      "text": "macOS Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "Farama-Foundation/PettingZoo",
       "status": "candidate",
       "text": "MacOS tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floneum/floneum",
+      "status": "candidate",
+      "text": "macOS tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LavaMoat/LavaMoat",
+      "status": "candidate",
+      "text": "macOS Tests"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +120,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/macos-test.yml",
       "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "floneum/floneum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/nodejs-macos.yml",
+      "source_repo": "LavaMoat/LavaMoat"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

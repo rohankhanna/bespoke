@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:16:43.327480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2025] Breaking the Low-Rank Dilemma of Linear Attention",
+    "fork": false,
+    "full_name": "qhfan/RALA",
+    "html_url": "https://github.com/qhfan/RALA",
+    "language": "Python",
+    "pushed_at": "2025-03-11T07:23:06Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-03-30T08:10:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

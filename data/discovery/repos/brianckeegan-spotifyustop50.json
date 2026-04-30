@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "brianckeegan/SpotifyUSTop50",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "brianckeegan/SpotifyUSTop50",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "brianckeegan/SpotifyUSTop50",
+      "target": "Scraping Spotify Top 50",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:49.750623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 1022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "brianckeegan/SpotifyUSTop50",
+    "html_url": "https://github.com/brianckeegan/SpotifyUSTop50",
+    "language": "Python",
+    "pushed_at": "2024-12-01T20:41:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-12-01T20:41:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scraping Spotify Top 50",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "term": "Scraping Spotify Top 50"
+    }
+  ]
+}

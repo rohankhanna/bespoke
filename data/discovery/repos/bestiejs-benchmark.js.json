@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "platform",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "docdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qunit-extras",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qunitjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "requirejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "wadey/node-microtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "platform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "docdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "qunit-extras",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "qunitjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bestiejs/benchmark.js",
+      "target": "requirejs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:55.944729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2162
+    },
+    {
+      "path": "package.json",
+      "size": 1178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A benchmarking library. As used on jsPerf.com.",
+    "fork": false,
+    "full_name": "bestiejs/benchmark.js",
+    "html_url": "https://github.com/bestiejs/benchmark.js",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-22T13:38:09Z",
+    "stargazers_count": 5474,
+    "topics": [],
+    "updated_at": "2026-04-28T11:20:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wadey/node-microtime",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

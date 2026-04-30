@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/alphafold",
-      "target": "abseil/abseil-py",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/alphafold",
       "target": "deepmind/dm-haiku",
       "target_type": "repository"
     },
@@ -27,8 +20,15 @@
       "source_repo": "google-deepmind/alphafold",
       "target": "avirshup/py3dmol",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/alphafold",
+      "target": "deepmind/sonnet",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "google-deepmind/alphafold"
 }

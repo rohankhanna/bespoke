@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reward-shaping",
+      "sense_id": "reward-shaping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reward-shaping",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reward-shaping",
+  "observation_id": "0633c03a039cabac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "reward-shaping",
+  "source_context_snippet": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:",
+  "source_file": null,
+  "source_repo": "lcswillems/torch-ac",
+  "source_repo_description": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO"
+}

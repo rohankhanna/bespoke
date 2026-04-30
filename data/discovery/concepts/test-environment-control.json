@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Environment Control"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "Test Environment Control"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate",
+      "text": "Test Environment Control"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34359,
+      "status": "candidate",
+      "text": "euthenics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26523,
+      "status": "candidate",
+      "text": "placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19137,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18946,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18774,
+      "status": "candidate",
+      "text": "epa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Environment Control",
+  "concept_id": "test-environment-control",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-env-ctrl.yml",
+      "source_repo": "ServiceNow/webarena-verified"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Environment Control",
+      "sense_id": "test-environment-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

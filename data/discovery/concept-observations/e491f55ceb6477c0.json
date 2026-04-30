@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI-powered, vision-driven UI automation for every platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Headless Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Headless Linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10376,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "acephalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "anarchy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "bivalve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4427,
+      "status": "candidate",
+      "text": "cape"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Headless Linux",
+      "sense_id": "headless-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "headless-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "headless-linux",
+  "observation_id": "e491f55ceb6477c0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Headless Linux",
+  "source_context_snippet": "Headless Linux",
+  "source_file": ".github/workflows/headless-linux.yml",
+  "source_repo": "web-infra-dev/midscene",
+  "source_repo_description": "AI-powered, vision-driven UI automation for every platform."
+}

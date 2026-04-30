@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:16.480316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3108
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators",
+    "fork": true,
+    "full_name": "kijai/ComfyUI-MagicTimeWrapper",
+    "html_url": "https://github.com/kijai/ComfyUI-MagicTimeWrapper",
+    "language": "Python",
+    "pushed_at": "2024-04-12T13:58:56Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2025-07-02T01:27:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -372,6 +372,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/workflow.yaml",
       "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-fork-pr-image.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-image.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-hooks.yml",
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/webpack.yml",
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/webpack.yml",
+      "source_repo": "mongodb-js/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AngleSharp/AngleSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml",
+      "source_repo": "googleapis/google-cloud-node-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cargo-lambda/cargo-lambda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smithy-lang/smithy-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-npm-packages.yml",
+      "source_repo": "smithy-lang/smithy-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-npm-ssdk-libs.yml",
+      "source_repo": "smithy-lang/smithy-typescript"
     }
   ]
 }

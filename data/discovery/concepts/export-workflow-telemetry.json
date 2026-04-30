@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export Workflow Telemetry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Export Workflow Telemetry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "Export Workflow Telemetry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23617,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23617,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "jet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "jets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "scan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export Workflow Telemetry",
+  "concept_id": "export-workflow-telemetry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/github-export-otel.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export Workflow Telemetry",
+      "sense_id": "export-workflow-telemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

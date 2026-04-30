@@ -67,6 +67,18 @@
       "source_repo": "DavBfr/dart_pdf",
       "status": "candidate-context",
       "text": "Dart CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac  a curated list of quotes that inspire action + code that returns quotes by tag/author/etc. \ud83d\udca1 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "Dart CI"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate",
+      "text": "Dart CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
       "status": "candidate",
       "text": "Dart CI"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dart.yaml",
       "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dwyl/quotes"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhu-stups/prolog-jupyter-kernel",
+      "target": "ipython/ipykernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhu-stups/prolog-jupyter-kernel",
+      "target": "anbre/jupyterlab-prolog-codemirror-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhu-stups/prolog-jupyter-kernel",
+      "target": "anbre/prolog-jupyter-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hhu-stups/prolog-jupyter-kernel",
+      "target": "anbre/prolog-jupyter-kernel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:30.178671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13620
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Jupyter kernel for Prolog",
+    "fork": false,
+    "full_name": "hhu-stups/prolog-jupyter-kernel",
+    "html_url": "https://github.com/hhu-stups/prolog-jupyter-kernel",
+    "language": "Prolog",
+    "pushed_at": "2024-05-07T10:35:20Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-12-07T15:05:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anbre/jupyterlab-prolog-codemirror-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anbre/prolog-jupyter-kernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipython/ipykernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anbre/prolog-jupyter-kernel",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

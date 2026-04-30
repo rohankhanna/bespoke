@@ -56,6 +56,18 @@
       "source_repo": "newrelic/node-newrelic",
       "status": "candidate-context",
       "text": "Benchmark Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "Benchmark Tests"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "newrelic/node-newrelic",
+      "status": "candidate",
+      "text": "Benchmark Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
       "status": "candidate",
       "text": "Benchmark Tests"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/benchmark-tests.yml",
       "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "box-project/box"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

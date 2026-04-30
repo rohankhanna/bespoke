@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "QuTLASS: CUTLASS-Powered Quantized BLAS for Deep Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18661169,
+      "status": "candidate",
+      "text": "zalewski"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17192211,
+      "status": "candidate",
+      "text": "basil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17123113,
+      "status": "candidate",
+      "text": "pine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17002102,
+      "status": "candidate",
+      "text": "freedman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8689673,
+      "status": "candidate",
+      "text": "elsevier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blackwell",
+      "sense_id": "blackwell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blackwell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blackwell",
+  "observation_id": "fc6ea988878f0995",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "blackwell",
+  "source_context_snippet": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)",
+  "source_file": null,
+  "source_repo": "IST-DASLab/qutlass",
+  "source_repo_description": "QuTLASS: CUTLASS-Powered Quantized BLAS for Deep Learning "
+}

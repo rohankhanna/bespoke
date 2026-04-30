@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Review/Check GGUF files and estimate the memory usage and maximum tokens per second."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cmd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cmd"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021808,
+      "status": "candidate",
+      "text": "mmd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012880,
+      "status": "candidate",
+      "text": "mdc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963634,
+      "status": "candidate",
+      "text": "funded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941954,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728029,
+      "status": "candidate",
+      "text": "dcm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cmd",
+      "sense_id": "cmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmd",
+  "observation_id": "fc3869d5f33e4f55",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "cmd",
+  "source_context_snippet": "cmd",
+  "source_file": ".github/workflows/cmd.yml",
+  "source_repo": "gpustack/gguf-parser-go",
+  "source_repo_description": "Review/Check GGUF files and estimate the memory usage and maximum tokens per second."
+}

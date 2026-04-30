@@ -1,0 +1,529 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-runner.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-runner.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_preview_sites.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_preview_sites.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_preview_sites.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@57e9f42acd78f4d0f496b3be4368fc5f62696662",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "myrotvorets/set-commit-status-action@3730c0a348a2ace3c110851bed53331bc6406e9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@57e9f42acd78f4d0f496b3be4368fc5f62696662",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "myrotvorets/set-commit-status-action@3730c0a348a2ace3c110851bed53331bc6406e9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-review-trigger.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@57e9f42acd78f4d0f496b3be4368fc5f62696662",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-review-trigger.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openobserve/vector",
+      "target": "vectordotdev/vector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openobserve/vector",
+      "target": "vectordotdev/vector-test-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openobserve/vector",
+      "target": "greptimeteam/greptimedb-ingester-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openobserve/vector",
+      "target": "msxdos/ntapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-runner.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-runner.yml",
+      "source_repo": "openobserve/vector",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-runner.yml",
+      "source_repo": "openobserve/vector",
+      "target": "Build Test Runner Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_preview_sites.yml",
+      "source_repo": "openobserve/vector",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_preview_sites.yml",
+      "source_repo": "openobserve/vector",
+      "target": "Deploy Vector Preview Sites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "openobserve/vector",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changes.yml",
+      "source_repo": "openobserve/vector",
+      "target": "Identify Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "openobserve/vector",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "source_repo": "openobserve/vector",
+      "target": "Check Generated VRL Docs Freshness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "source_repo": "openobserve/vector",
+      "target": "Comment on PR (Generated VRL Docs)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "tspascoal/get-user-teams-membership@57e9f42acd78f4d0f496b3be4368fc5f62696662",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "myrotvorets/set-commit-status-action@3730c0a348a2ace3c110851bed53331bc6406e9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "source_repo": "openobserve/vector",
+      "target": "CI Integration Review Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-review-trigger.yml",
+      "source_repo": "openobserve/vector",
+      "target": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-review-trigger.yml",
+      "source_repo": "openobserve/vector",
+      "target": "tspascoal/get-user-teams-membership@57e9f42acd78f4d0f496b3be4368fc5f62696662",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-review-trigger.yml",
+      "source_repo": "openobserve/vector",
+      "target": "CI Review Trigger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:24:55.088263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15849
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 48867
+    },
+    {
+      "path": ".github/workflows/build-test-runner.yml",
+      "size": 1856
+    },
+    {
+      "path": ".github/workflows/build_preview_sites.yml",
+      "size": 2597
+    },
+    {
+      "path": ".github/workflows/changelog.yaml",
+      "size": 1682
+    },
+    {
+      "path": ".github/workflows/changes.yml",
+      "size": 18746
+    },
+    {
+      "path": ".github/workflows/check_generated_vrl_docs.yml",
+      "size": 4199
+    },
+    {
+      "path": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "size": 2151
+    },
+    {
+      "path": ".github/workflows/ci-integration-review.yml",
+      "size": 7838
+    },
+    {
+      "path": ".github/workflows/ci-review-trigger.yml",
+      "size": 7352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-performance observability data pipeline.",
+    "fork": true,
+    "full_name": "openobserve/vector",
+    "html_url": "https://github.com/openobserve/vector",
+    "language": "Rust",
+    "pushed_at": "2026-03-16T09:31:24Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-16T09:17:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectordotdev/vector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectordotdev/vector-test-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greptimeteam/greptimedb-ingester-rust",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msxdos/ntapi",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Test Runner Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-runner.yml",
+      "term": "Build Test Runner Image"
+    },
+    {
+      "context_snippet": "Deploy Vector Preview Sites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_preview_sites.yml",
+      "term": "Deploy Vector Preview Sites"
+    },
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "Identify Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changes.yml",
+      "term": "Identify Changes"
+    },
+    {
+      "context_snippet": "Check Generated VRL Docs Freshness",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generated_vrl_docs.yml",
+      "term": "Check Generated VRL Docs Freshness"
+    },
+    {
+      "context_snippet": "Comment on PR (Generated VRL Docs)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generated_vrl_docs_comment.yml",
+      "term": "Comment on PR (Generated VRL Docs)"
+    },
+    {
+      "context_snippet": "CI Integration Review Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-integration-review.yml",
+      "term": "CI Integration Review Trigger"
+    },
+    {
+      "context_snippet": "CI Review Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-review-trigger.yml",
+      "term": "CI Review Trigger"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "pry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "A runtime developer console and IRB alternative with powerful introspection capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "pry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate",
+      "text": "pry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014086,
+      "status": "candidate",
+      "text": "prise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005802,
+      "status": "candidate",
+      "text": "prize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991636,
+      "status": "candidate",
+      "text": "poke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947727,
+      "status": "candidate",
+      "text": "pry bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941321,
+      "status": "candidate",
+      "text": "wrecking bar"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14048,
+      "status": "candidate",
+      "text": "poke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13033,
+      "status": "candidate",
+      "text": "prise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "prize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9046,
+      "status": "candidate",
+      "text": "lever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7074,
+      "status": "candidate",
+      "text": "nose"
+    }
+  ],
+  "canonical_name": "pry",
+  "concept_id": "pry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pry/pry"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pry",
+      "sense_id": "pry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

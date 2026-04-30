@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Camel Quarkus CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate-context",
+      "text": "Apache Camel Quarkus Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate-context",
+      "text": "Camel Quarkus CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel-quarkus-examples",
+      "status": "candidate",
+      "text": "Camel Quarkus CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12134,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12134,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "non"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6902,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6488,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Camel Quarkus CI",
+  "concept_id": "camel-quarkus-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "apache/camel-quarkus-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Camel Quarkus CI",
+      "sense_id": "camel-quarkus-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

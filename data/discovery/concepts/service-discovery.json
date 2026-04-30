@@ -79,6 +79,18 @@
       "source_repo": "olric-data/olric-consul-plugin",
       "status": "candidate-context",
       "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallnest/rpcx",
+      "status": "candidate-context",
+      "text": "Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily. Try it. Test it. If you feel it's better, use it! \ud835\udc09\ud835\udc1a\ud835\udc2f\ud835\udc1a\u6709\ud835\udc1d\ud835\udc2e\ud835\udc1b\ud835\udc1b\ud835\udc28, \ud835\udc06\ud835\udc28\ud835\udc25\ud835\udc1a\ud835\udc27\ud835\udc20\u6709\ud835\udc2b\ud835\udc29\ud835\udc1c\ud835\udc31! build for cloud!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallnest/rpcx",
+      "status": "candidate-context",
+      "text": "- **stable branch**: v1.7.x"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "olric-data/olric-consul-plugin",
       "status": "candidate",
       "text": "This package implements `ServiceDiscovery` interface of Olric and uses Consul at background. With this plugin, you don't need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallnest/rpcx",
+      "status": "candidate",
+      "text": "- **stable branch**: v1.7.x"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric-consul-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "smallnest/rpcx"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

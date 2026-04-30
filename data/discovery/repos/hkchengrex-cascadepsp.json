@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "lextal/pspnet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "vacancy/synchronized-batchnorm-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "refinement-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP",
+      "target": "segmentation-refinement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:38.159759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement",
+    "fork": false,
+    "full_name": "hkchengrex/CascadePSP",
+    "html_url": "https://github.com/hkchengrex/CascadePSP",
+    "language": "Python",
+    "pushed_at": "2026-01-02T02:26:42Z",
+    "stargazers_count": 883,
+    "topics": [
+      "computer-vision",
+      "cvpr2020",
+      "deep-learning",
+      "high-resolution",
+      "pytorch",
+      "refinement-network",
+      "segmentation",
+      "segmentation-refinement"
+    ],
+    "updated_at": "2026-04-26T16:56:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lextal/pspnet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vacancy/synchronized-batchnorm-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refinement-network"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation-refinement"
+    }
+  ]
+}

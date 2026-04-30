@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "servicenow/tapeagents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "ai-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "attack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "browsergym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "defense",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "red-teaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "taubench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena",
+      "target": "web-agents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:40.615527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats",
+    "fork": false,
+    "full_name": "ServiceNow/DoomArena",
+    "html_url": "https://github.com/ServiceNow/DoomArena",
+    "language": "Python",
+    "pushed_at": "2025-09-12T20:59:58Z",
+    "stargazers_count": 58,
+    "topics": [
+      "ai",
+      "ai-safety",
+      "attack",
+      "browsergym",
+      "defense",
+      "llm",
+      "machine",
+      "machine-learning",
+      "red-teaming",
+      "security",
+      "taubench",
+      "web-agents"
+    ],
+    "updated_at": "2026-04-28T12:26:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servicenow/tapeagents",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-safety"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attack"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browsergym"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defense"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-teaming"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taubench"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-agents"
+    }
+  ]
+}

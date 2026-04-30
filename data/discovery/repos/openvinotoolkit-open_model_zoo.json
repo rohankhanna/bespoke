@@ -56,20 +56,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "openvinotoolkit/open_model_zoo",
-      "target": "openvisualcloud/ad-insertion-sample",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/open_model_zoo",
-      "target": "incluit/openvino-for-smartcity",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openvinotoolkit/open_model_zoo",
       "target": "incluit/openvino-driver-behaviour",
       "target_type": "repository"
     },
@@ -256,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:08:04.066298+00:00",
+  "fetched_at": "2026-04-30T08:15:47.712636+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -284,8 +270,8 @@
     "full_name": "openvinotoolkit/open_model_zoo",
     "html_url": "https://github.com/openvinotoolkit/open_model_zoo",
     "language": "Python",
-    "pushed_at": "2026-04-10T11:38:18Z",
-    "stargazers_count": 4384,
+    "pushed_at": "2026-04-29T09:31:56Z",
+    "stargazers_count": 4385,
     "topics": [
       "caffemodel",
       "cnn-model",
@@ -303,22 +289,12 @@
       "pytorch-models",
       "tensorflow-models"
     ],
-    "updated_at": "2026-04-21T18:52:46Z"
+    "updated_at": "2026-04-29T14:41:00Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "incluit/openvino-driver-behaviour",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "incluit/openvino-for-smartcity",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openvisualcloud/ad-insertion-sample",
       "source_file": "README.md"
     }
   ],

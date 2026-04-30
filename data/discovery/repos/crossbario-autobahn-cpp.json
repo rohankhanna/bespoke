@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "zaphoyd/websocketpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yaml",
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "asio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "autobahn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp",
+      "target": "wamp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:00.050835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17327
+    },
+    {
+      "path": ".github/workflows/ci-linux.yaml",
+      "size": 2765
+    },
+    {
+      "path": ".github/workflows/ci-windows.yaml",
+      "size": 1388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WAMP for C++ in Boost/Asio",
+    "fork": false,
+    "full_name": "crossbario/autobahn-cpp",
+    "html_url": "https://github.com/crossbario/autobahn-cpp",
+    "language": "C++",
+    "pushed_at": "2025-05-14T06:23:57Z",
+    "stargazers_count": 256,
+    "topics": [
+      "asio",
+      "autobahn",
+      "boost",
+      "pubsub",
+      "real-time",
+      "rpc",
+      "wamp"
+    ],
+    "updated_at": "2026-04-07T00:16:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zaphoyd/websocketpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yaml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yaml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asio"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autobahn"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boost"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "WAMP for C++ on Boost/ASIO.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wamp"
+    }
+  ]
+}

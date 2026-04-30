@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "srinathgs/mysqlstore",
+      "target": "go-sql-driver/mysql",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:22:30.835686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gorilla's Session Store Implementation for MySQL",
+    "fork": false,
+    "full_name": "srinathgs/mysqlstore",
+    "html_url": "https://github.com/srinathgs/mysqlstore",
+    "language": "Go",
+    "pushed_at": "2023-11-23T18:29:12Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-07-04T14:03:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-sql-driver/mysql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -109,6 +109,42 @@
       "source_repo": "bytedance/lynx-llm",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/Valley",
+      "status": "candidate-context",
+      "text": "Valley is a cutting-edge multimodal large model designed to handle a variety of tasks involving text, images, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Valley",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/UI-TARS",
+      "status": "candidate-context",
+      "text": "Pioneering Automated GUI Interaction with Native Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +201,24 @@
       "source_repo": "bytedance/lynx-llm",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Valley",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_related_terms": [
@@ -315,11 +369,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bytedance/lynx-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/Valley"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/UI-TARS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

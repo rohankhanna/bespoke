@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An orchestration platform for the development, production, and observation of data assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automate stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automate stale issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "choke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "crate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "essex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "lemon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22575,
+      "status": "candidate",
+      "text": "scar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automate stale issues",
+      "sense_id": "automate-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automate-stale-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automate-stale-issues",
+  "observation_id": "01937bf4d1095ac9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Automate stale issues",
+  "source_context_snippet": "Automate stale issues",
+  "source_file": ".github/workflows/automate-stale-issues.yml",
+  "source_repo": "dagster-io/dagster",
+  "source_repo_description": "An orchestration platform for the development, production, and observation of data assets."
+}

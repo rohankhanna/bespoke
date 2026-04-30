@@ -19,6 +19,30 @@
       "source_repo": "ckaznocha/protoc-gen-lint",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate-context",
+      "text": "An Elixir implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate-context",
+      "text": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate-context",
+      "text": "A pure Elixir implementation of Google Protobuf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ckaznocha/protoc-gen-lint",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-grpc/grpc",
+      "status": "candidate",
+      "text": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-protobuf/protobuf",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ckaznocha/protoc-gen-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

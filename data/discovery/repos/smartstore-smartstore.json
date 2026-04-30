@@ -1,0 +1,461 @@
+{
+  "components": [
+    {
+      "component": "Mattraks/delete-workflow-runs@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-old-workflow-runs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/delete-package-versions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smartstore/Smartstore",
+      "target": "smartstore/smartstorenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-old-workflow-runs.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "Mattraks/delete-workflow-runs@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-old-workflow-runs.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "Delete old workflow runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "actions/delete-package-versions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "Publish nightly dev Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "smartstore/Smartstore",
+      "target": "Publish release Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "asp-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "aspnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "cms-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "composable-commerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "e-commerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "ecommerce-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "headless-commerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "shop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smartstore/Smartstore",
+      "target": "shopping-cart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:31:48.974716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12659
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/delete-old-workflow-runs.yml",
+      "size": 1632
+    },
+    {
+      "path": ".github/workflows/publish-nightly.yml",
+      "size": 3130
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 2587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10",
+    "fork": false,
+    "full_name": "smartstore/Smartstore",
+    "html_url": "https://github.com/smartstore/Smartstore",
+    "language": "C#",
+    "pushed_at": "2026-04-30T02:23:14Z",
+    "stargazers_count": 1473,
+    "topics": [
+      "asp-net",
+      "aspnet",
+      "aspnet-core",
+      "aspnetcore",
+      "azure",
+      "bootstrap",
+      "cms",
+      "cms-framework",
+      "composable-commerce",
+      "csharp",
+      "dotnet",
+      "dxp",
+      "e-commerce",
+      "ecommerce",
+      "ecommerce-platform",
+      "headless",
+      "headless-commerce",
+      "rest-api",
+      "shop",
+      "shopping-cart"
+    ],
+    "updated_at": "2026-04-30T07:14:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smartstore/smartstorenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Delete old workflow runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-old-workflow-runs.yml",
+      "term": "Delete old workflow runs"
+    },
+    {
+      "context_snippet": "Publish nightly dev Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "term": "Publish nightly dev Docker image"
+    },
+    {
+      "context_snippet": "Publish release Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "Publish release Docker image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet-core"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cms-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composable-commerce"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "e-commerce"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless-commerce"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shop"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shopping-cart"
+    }
+  ]
+}

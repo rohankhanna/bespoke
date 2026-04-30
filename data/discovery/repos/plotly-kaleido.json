@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "chartboost/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "test-n-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "ruff-wf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "plotly/Kaleido",
+      "target": "test-wf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:59.605124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3798
+    },
+    {
+      "path": ".github/workflows/publish_testpypi.yml",
+      "size": 3549
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 197
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast static image export for web-based visualization libraries",
+    "fork": false,
+    "full_name": "plotly/Kaleido",
+    "html_url": "https://github.com/plotly/Kaleido",
+    "language": "Python",
+    "pushed_at": "2026-04-29T22:04:12Z",
+    "stargazers_count": 489,
+    "topics": [],
+    "updated_at": "2026-04-29T21:37:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-n-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_testpypi.yml",
+      "term": "test-n-build"
+    },
+    {
+      "context_snippet": "ruff-wf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "ruff-wf"
+    },
+    {
+      "context_snippet": "test-wf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test-wf"
+    }
+  ]
+}

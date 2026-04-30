@@ -225,6 +225,42 @@
       "source_repo": "paulmillr/chokidar",
       "status": "candidate-context",
       "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "Spacemesh App (Smesher + Wallet) \ud83c\udfe6\ud83d\udcca"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate-context",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -335,6 +371,24 @@
       "source_repo": "paulmillr/chokidar",
       "status": "candidate",
       "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smapp",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "Publish Release"
     }
   ],
   "candidate_related_terms": [
@@ -516,11 +570,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "paulmillr/chokidar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spacemeshos/smapp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "bonukai/MediaTracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-release.yaml",
+      "source_repo": "cortinico/kotlin-android-template"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

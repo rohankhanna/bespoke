@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:09:56.907702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Fuzzy matching for Neovim",
+    "fork": false,
+    "full_name": "amirrezaask/fuzzy.nvim",
+    "html_url": "https://github.com/amirrezaask/fuzzy.nvim",
+    "language": "Lua",
+    "pushed_at": "2021-05-16T06:20:55Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2025-04-10T23:02:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "haya14busa/action-cond@94f77f7a80cd666cb3155084e428254fea4281fd",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-eslint"
     }
   ]
 }

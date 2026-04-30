@@ -53,13 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mason-org/mason.nvim",
-      "target": "mholt/archiver",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cbfmt.yml",
       "source_repo": "mason-org/mason.nvim",
@@ -228,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:24:59.094729+00:00",
+  "fetched_at": "2026-04-30T10:28:26.200476+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -264,8 +257,8 @@
     "full_name": "mason-org/mason.nvim",
     "html_url": "https://github.com/mason-org/mason.nvim",
     "language": "Lua",
-    "pushed_at": "2026-04-21T14:31:27Z",
-    "stargazers_count": 10222,
+    "pushed_at": "2026-04-27T04:28:55Z",
+    "stargazers_count": 10244,
     "topics": [
       "lua",
       "mason",
@@ -278,15 +271,9 @@
       "package-manager",
       "packages"
     ],
-    "updated_at": "2026-04-23T01:22:53Z"
+    "updated_at": "2026-04-30T09:49:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mholt/archiver",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "cbfmt check",

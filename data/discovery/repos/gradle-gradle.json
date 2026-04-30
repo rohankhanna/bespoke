@@ -1,0 +1,518 @@
+{
+  "components": [
+    {
+      "component": "kentaro-m/auto-assign-action@v2.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-pr-to-author.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml"
+    },
+    {
+      "component": "aws-actions/aws-secretsmanager-get-secrets@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml"
+    },
+    {
+      "component": "ldez/gha-mjolnir@7572d92f300beade60bc2f8bbbb2cddc38d35cd3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-linked-issue-when-merged-into-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml"
+    },
+    {
+      "component": "gradle/issue-management-action/feedback@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-pr-to-author.yml",
+      "source_repo": "gradle/gradle",
+      "target": "kentaro-m/auto-assign-action@v2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-pr-to-author.yml",
+      "source_repo": "gradle/gradle",
+      "target": "Auto Assign PR to Author",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "gradle/gradle",
+      "target": "lycheeverse/lychee-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml",
+      "source_repo": "gradle/gradle",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml",
+      "source_repo": "gradle/gradle",
+      "target": "aws-actions/aws-secretsmanager-get-secrets@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml",
+      "source_repo": "gradle/gradle",
+      "target": "Cleanup stale performance test data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-linked-issue-when-merged-into-release.yml",
+      "source_repo": "gradle/gradle",
+      "target": "ldez/gha-mjolnir@7572d92f300beade60bc2f8bbbb2cddc38d35cd3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle",
+      "target": "Contributor CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback.yml",
+      "source_repo": "gradle/gradle",
+      "target": "gradle/issue-management-action/feedback@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback.yml",
+      "source_repo": "gradle/gradle",
+      "target": "Feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "gradle-bt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle/gradle",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:04.476680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7951
+    },
+    {
+      "path": ".github/workflows/auto-assign-pr-to-author.yml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/check-markdown-links.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/cleanup-stale-performance-data.yml",
+      "size": 2648
+    },
+    {
+      "path": ".github/workflows/close-linked-issue-when-merged-into-release.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.init.gradle",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 4076
+    },
+    {
+      "path": ".github/workflows/contributor-pr.yml",
+      "size": 5186
+    },
+    {
+      "path": ".github/workflows/extract-unit-test-split.jq",
+      "size": 171
+    },
+    {
+      "path": ".github/workflows/feedback.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Adaptable, fast automation for all",
+    "fork": false,
+    "full_name": "gradle/gradle",
+    "html_url": "https://github.com/gradle/gradle",
+    "language": "Groovy",
+    "pushed_at": "2026-04-30T09:14:26Z",
+    "stargazers_count": 18526,
+    "topics": [
+      "build-tool",
+      "good-first-issue",
+      "gradle",
+      "gradle-bt",
+      "groovy",
+      "java",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-30T08:18:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Auto Assign PR to Author'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-pr-to-author.yml",
+      "term": "Auto Assign PR to Author"
+    },
+    {
+      "context_snippet": "Cleanup stale performance test data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-performance-data.yml",
+      "term": "Cleanup stale performance test data"
+    },
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "Contributor CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "term": "Contributor CI Build"
+    },
+    {
+      "context_snippet": "Feedback",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback.yml",
+      "term": "Feedback"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-bt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groovy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

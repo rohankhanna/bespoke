@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL",
+      "target": "codegeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL",
+      "target": "languagemodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL",
+      "target": "machinelearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL",
+      "target": "programsynthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL",
+      "target": "reinforcementlearning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:12:35.503917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23350
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official code for the paper CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning (NeurIPS22).",
+    "fork": false,
+    "full_name": "salesforce/CodeRL",
+    "html_url": "https://github.com/salesforce/CodeRL",
+    "language": "Python",
+    "pushed_at": "2025-01-21T08:13:49Z",
+    "stargazers_count": 567,
+    "topics": [
+      "ai",
+      "codegeneration",
+      "languagemodel",
+      "machinelearning",
+      "programsynthesis",
+      "reinforcementlearning"
+    ],
+    "updated_at": "2026-04-28T16:21:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegeneration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languagemodel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machinelearning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programsynthesis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcementlearning"
+    }
+  ]
+}

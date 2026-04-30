@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:13:09.139510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": " A benchmark framework for Tensorflow",
+    "fork": false,
+    "full_name": "tensorflow/benchmarks",
+    "html_url": "https://github.com/tensorflow/benchmarks",
+    "language": "Python",
+    "pushed_at": "2023-10-06T04:12:22Z",
+    "stargazers_count": 1147,
+    "topics": [],
+    "updated_at": "2026-04-06T04:55:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@7334092eccc670a2b274d0cafbfa1e4d8208cfab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "filecoin-project/fvm-runtime-experiment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "actions/add-to-project@7334092eccc670a2b274d0cafbfa1e4d8208cfab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/fvm-specs",
+      "target": "Add to FVM project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:36.530750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6454
+    },
+    {
+      "path": ".github/workflows/project.yml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "home of the FVM (Filecoin Virtual Machine) project \u2699\ufe0f ",
+    "fork": false,
+    "full_name": "filecoin-project/fvm-specs",
+    "html_url": "https://github.com/filecoin-project/fvm-specs",
+    "language": null,
+    "pushed_at": "2022-08-18T11:18:35Z",
+    "stargazers_count": 172,
+    "topics": [],
+    "updated_at": "2026-03-24T06:16:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/fvm-runtime-experiment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add to FVM project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "term": "Add to FVM project"
+    }
+  ]
+}

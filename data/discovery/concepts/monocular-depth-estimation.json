@@ -55,6 +55,30 @@
       "source_repo": "LiheYoung/Depth-Anything",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "Muggled DPT: Depth estimation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "LiheYoung/Depth-Anything",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "LiheYoung/Depth-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

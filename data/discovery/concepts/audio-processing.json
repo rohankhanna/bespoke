@@ -67,6 +67,42 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate-context",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate-context",
+      "text": "A collection of template classes for audio dsp using SIMD instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate-context",
+      "text": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "A library for audio oversampling, which tries to offer a simple api while wrapping HIIR, by Laurent De Soras, for minimum phase antialiasing, and r8brain-free-src, by Aleksey Vaneev, for linear phase antialiasing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate",
+      "text": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +202,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "unevens/Curvessor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/hiir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/oversimple"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

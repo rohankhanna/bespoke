@@ -43,6 +43,18 @@
       "source_repo": "a-e-k/canvas_ity",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "A Github Action to install the current Vulkan SDK and runtime library. It also supports installing SwiftShader and Lavapipe software rasterizers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/install-vulkan-sdk-action.svg?style=flat-square)](https://github.com/jakoch/install-vulkan-sdk-action/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "a-e-k/canvas_ity",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate",
+      "text": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/install-vulkan-sdk-action.svg?style=flat-square)](https://github.com/jakoch/install-vulkan-sdk-action/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "a-e-k/canvas_ity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jakoch/install-vulkan-sdk-action"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

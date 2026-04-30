@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:05.310345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 911
+    },
+    {
+      "path": "package.json",
+      "size": 821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tutorial for creating a complete application using Node.js on Google Cloud Platform",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/nodejs-getting-started",
+    "html_url": "https://github.com/GoogleCloudPlatform/nodejs-getting-started",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-14T03:28:39Z",
+    "stargazers_count": 823,
+    "topics": [
+      "google-cloud",
+      "nodejs",
+      "samples",
+      "tutorial"
+    ],
+    "updated_at": "2026-04-20T15:30:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the complete sample code for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "This repository contains the complete sample code for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "This repository contains the complete sample code for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "This repository contains the complete sample code for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

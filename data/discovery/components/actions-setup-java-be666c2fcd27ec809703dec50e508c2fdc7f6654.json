@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -652,6 +652,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-maven.yml",
       "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-annotations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-check.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
     }
   ]
 }

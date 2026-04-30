@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/StableSR",
+      "target": "gameltb/comfyui-stablesr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/StableSR",
+      "target": "iceclear/ldm-srtuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/StableSR",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/StableSR",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/StableSR",
+      "target": "stablesr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IceClear/StableSR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:05.508602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15350
+    },
+    {
+      "path": "requirements.txt",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IJCV2024] Exploiting Diffusion Prior for Real-World Image Super-Resolution",
+    "fork": false,
+    "full_name": "IceClear/StableSR",
+    "html_url": "https://github.com/IceClear/StableSR",
+    "language": "Python",
+    "pushed_at": "2024-07-12T03:13:49Z",
+    "stargazers_count": 2653,
+    "topics": [
+      "stable-diffusion",
+      "stablesr",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-28T02:36:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gameltb/comfyui-stablesr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceclear/ldm-srtuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablesr"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

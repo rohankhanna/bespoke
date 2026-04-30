@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "flow-project/flow",
+      "target": "eclipse/sumo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "autonomous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "sumo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "traffic-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flow-project/flow",
+      "target": "vehicle-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:59.982301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2953
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1142
+    },
+    {
+      "path": "requirements.txt",
+      "size": 412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Computational framework for reinforcement learning in traffic control",
+    "fork": false,
+    "full_name": "flow-project/flow",
+    "html_url": "https://github.com/flow-project/flow",
+    "language": "Python",
+    "pushed_at": "2024-07-27T08:31:17Z",
+    "stargazers_count": 1185,
+    "topics": [
+      "autonomous",
+      "benchmark",
+      "reinforcement-learning",
+      "sumo",
+      "traffic-control",
+      "vehicle-control"
+    ],
+    "updated_at": "2026-04-27T15:18:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/sumo",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous"
+    },
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sumo"
+    },
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-control"
+    },
+    {
+      "context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle-control"
+    }
+  ]
+}

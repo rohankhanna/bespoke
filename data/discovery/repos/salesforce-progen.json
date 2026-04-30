@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/progen",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/progen",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/progen",
+      "target": "protein",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:55.371781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official release of the ProGen models",
+    "fork": false,
+    "full_name": "salesforce/progen",
+    "html_url": "https://github.com/salesforce/progen",
+    "language": "Python",
+    "pushed_at": "2023-08-04T05:13:11Z",
+    "stargazers_count": 699,
+    "topics": [
+      "generative-model",
+      "language-model",
+      "protein"
+    ],
+    "updated_at": "2026-04-23T00:50:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Suite of open-sourced projects and models for protein engineering and design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "Suite of open-sourced projects and models for protein engineering and design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Suite of open-sourced projects and models for protein engineering and design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protein"
+    }
+  ]
+}

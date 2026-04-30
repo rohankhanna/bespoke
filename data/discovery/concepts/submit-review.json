@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Submit Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": ":coffee: SonarSource Static Analyzer for Java Code Quality and Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate-context",
+      "text": "Submit Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "SonarLint for IntelliJ with DevoxxGenie support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate-context",
+      "text": "Submit Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SonarSource/sonar-java",
+      "status": "candidate",
+      "text": "Submit Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij",
+      "status": "candidate",
+      "text": "Submit Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28117,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28117,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "brief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Submit Review",
+  "concept_id": "submit-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "SonarSource/sonar-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/SubmitReview.yml",
+      "source_repo": "stephanj/sonarlint-devoxxgenie-intellij"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submit Review",
+      "sense_id": "submit-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

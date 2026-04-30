@@ -1,0 +1,102 @@
+{
+  "aliases": [
+    "broccoli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-caching-writer",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ember-cli/broccoli-caching-writer.svg?branch=master)](https://travis-ci.org/ember-cli/broccoli-caching-writer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-caching-writer",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ember-cli/broccoli-caching-writer.svg?branch=master)](https://travis-ci.org/ember-cli/broccoli-caching-writer)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999918,
+      "status": "candidate",
+      "text": "brassica oleracea italica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999917,
+      "status": "candidate",
+      "text": "steamed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046401,
+      "status": "candidate",
+      "text": "brockely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046400,
+      "status": "candidate",
+      "text": "wild cabbage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046399,
+      "status": "candidate",
+      "text": "cauliflower"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "brassica oleracea italica"
+    }
+  ],
+  "canonical_name": "broccoli",
+  "concept_id": "broccoli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/broccoli-caching-writer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "broccoli",
+      "sense_id": "broccoli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate-context",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "avaneev/r8brain-free-src"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/hiir"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

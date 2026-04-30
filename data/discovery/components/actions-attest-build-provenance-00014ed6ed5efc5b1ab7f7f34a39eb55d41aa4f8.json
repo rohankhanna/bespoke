@@ -1,0 +1,12 @@
+{
+  "component": "actions/attest-build-provenance@00014ed6ed5efc5b1ab7f7f34a39eb55d41aa4f8",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intel/ittapi"
+    }
+  ]
+}

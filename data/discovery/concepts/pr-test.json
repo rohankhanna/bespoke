@@ -32,6 +32,18 @@
       "source_repo": "Azure/cli",
       "status": "candidate-context",
       "text": "pr-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "PR Test"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "Azure/cli",
       "status": "candidate",
       "text": "pr-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate",
+      "text": "PR Test"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr-test.yml",
       "source_repo": "Azure/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "bridgecrewio/checkov"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

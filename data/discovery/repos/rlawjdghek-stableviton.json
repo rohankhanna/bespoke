@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:20:25.174801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR2024] StableVITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual Try-On",
+    "fork": false,
+    "full_name": "rlawjdghek/StableVITON",
+    "html_url": "https://github.com/rlawjdghek/StableVITON",
+    "language": "Python",
+    "pushed_at": "2025-10-12T11:55:22Z",
+    "stargazers_count": 1258,
+    "topics": [],
+    "updated_at": "2026-04-29T20:20:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

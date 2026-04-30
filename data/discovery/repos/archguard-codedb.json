@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "archguard/codedb",
-      "target": "cglib/cglib",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "archguard/codedb",
@@ -60,7 +53,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:49:05.384793+00:00",
+  "fetched_at": "2026-04-30T10:25:27.783611+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -91,11 +84,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "archguard/codedb-poc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cglib/cglib",
       "source_file": "README.md"
     }
   ],

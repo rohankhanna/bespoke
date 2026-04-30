@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/good-web-game",
+      "target": "not-fl3/miniquad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/good-web-game",
+      "target": "not-fl3/macroquad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/good-web-game",
+      "target": "optozorax/quad-storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/good-web-game",
+      "target": "gordon-f/miniquad_ios_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "ggez",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/good-web-game",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:46.435532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6363
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An alternative ggez implementation on top of miniquad.",
+    "fork": false,
+    "full_name": "ggez/good-web-game",
+    "html_url": "https://github.com/ggez/good-web-game",
+    "language": "Rust",
+    "pushed_at": "2024-05-24T18:31:00Z",
+    "stargazers_count": 350,
+    "topics": [
+      "game",
+      "gamedev",
+      "ggez",
+      "rust",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-26T02:31:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gordon-f/miniquad_ios_example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "not-fl3/macroquad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "not-fl3/miniquad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optozorax/quad-storage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggez"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"25%\" src=\"about/logo.svg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

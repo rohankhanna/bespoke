@@ -223,6 +223,18 @@
       "source_repo": "Samsung/netcoredbg",
       "status": "candidate-context",
       "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "A runtime developer console and IRB alternative with powerful introspection capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "Pry"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "Samsung/netcoredbg",
       "status": "candidate",
       "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate",
+      "text": "Pry"
     }
   ],
   "candidate_related_terms": [
@@ -496,11 +514,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pry/pry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

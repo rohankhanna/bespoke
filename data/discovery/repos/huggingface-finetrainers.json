@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/finetrainers",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/finetrainers",
+      "target": "huggingface/video-dataset-scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/finetrainers",
+      "target": "eisneim/ltx_lora_training_i2v_t2v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/finetrainers",
+      "target": "feizc/video-in-context",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "huggingface/finetrainers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "huggingface/finetrainers",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "source_repo": "huggingface/finetrainers",
+      "target": "Fast tests for PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:18.586785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8979
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 722
+    },
+    {
+      "path": "requirements.txt",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/pr_tests.yml",
+      "size": 928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable and memory-optimized training of diffusion models",
+    "fork": false,
+    "full_name": "huggingface/finetrainers",
+    "html_url": "https://github.com/huggingface/finetrainers",
+    "language": "Python",
+    "pushed_at": "2026-04-08T14:46:51Z",
+    "stargazers_count": 1358,
+    "topics": [
+      "ai",
+      "art",
+      "artificial-intelligence",
+      "diffusers",
+      "diffusion",
+      "diffusion-models",
+      "pytorch",
+      "transformers"
+    ],
+    "updated_at": "2026-04-28T08:12:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eisneim/ltx_lora_training_i2v_t2v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feizc/video-in-context",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/video-dataset-scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fast tests for PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_tests.yml",
+      "term": "Fast tests for PRs"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

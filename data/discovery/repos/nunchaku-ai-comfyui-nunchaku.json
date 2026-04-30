@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-main-into-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "tothebeginning/pulid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "mit-han-lab/deepcompressor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "hiddenswitch/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "asomoza/image_gen_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "Build ComfyUI Desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "Close Inactive Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-main-into-dev.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-main-into-dev.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "Merge main into dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "PR Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "mlsys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:21.712832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8229
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4788
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    },
+    {
+      "path": ".github/workflows/build-comfyui-desktop.yaml",
+      "size": 4000
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 2610
+    },
+    {
+      "path": ".github/workflows/build_comfyui_desktop.cmd",
+      "size": 4134
+    },
+    {
+      "path": ".github/workflows/close-inactive-issues.yaml",
+      "size": 3747
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1006
+    },
+    {
+      "path": ".github/workflows/merge-main-into-dev.yaml",
+      "size": 1741
+    },
+    {
+      "path": ".github/workflows/pr-test.yaml",
+      "size": 3264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI Plugin of Nunchaku",
+    "fork": false,
+    "full_name": "nunchaku-ai/ComfyUI-nunchaku",
+    "html_url": "https://github.com/nunchaku-ai/ComfyUI-nunchaku",
+    "language": "Python",
+    "pushed_at": "2026-02-19T07:29:18Z",
+    "stargazers_count": 2861,
+    "topics": [
+      "comfyui",
+      "diffusion",
+      "flux",
+      "genai",
+      "mlsys",
+      "quantization"
+    ],
+    "updated_at": "2026-04-30T05:48:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/deepcompressor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tothebeginning/pulid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asomoza/image_gen_aux",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiddenswitch/comfyui",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build ComfyUI Desktop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-comfyui-desktop.yaml",
+      "term": "Build ComfyUI Desktop"
+    },
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Close Inactive Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "term": "Close Inactive Issues"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Merge main into dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-main-into-dev.yaml",
+      "term": "Merge main into dev"
+    },
+    {
+      "context_snippet": "PR Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "term": "PR Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlsys"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

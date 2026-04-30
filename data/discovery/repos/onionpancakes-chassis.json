@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onionpancakes/chassis",
+      "target": "weavejester/hiccup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "onionpancakes/chassis",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "onionpancakes/chassis",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "onionpancakes/chassis",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "onionpancakes/chassis",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "onionpancakes/chassis",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis",
+      "target": "hiccup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:14.705398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26369
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast HTML5 templating in Clojure",
+    "fork": false,
+    "full_name": "onionpancakes/chassis",
+    "html_url": "https://github.com/onionpancakes/chassis",
+    "language": "Clojure",
+    "pushed_at": "2026-04-04T05:30:53Z",
+    "stargazers_count": 152,
+    "topics": [
+      "clojure",
+      "hiccup",
+      "html",
+      "serialization",
+      "template"
+    ],
+    "updated_at": "2026-04-22T02:48:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weavejester/hiccup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Fast HTML5 templating in Clojure.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Fast HTML5 templating in Clojure.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hiccup"
+    },
+    {
+      "context_snippet": "Fast HTML5 templating in Clojure.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Fast HTML5 templating in Clojure.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "Fast HTML5 templating in Clojure.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

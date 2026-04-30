@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official source of container configurations and images for OceanBase products."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "release latest lts oceanbase-ce"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "release latest lts oceanbase-ce"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "clause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "integers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "ips"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release latest lts oceanbase-ce",
+      "sense_id": "release-latest-lts-oceanbase-ce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-latest-lts-oceanbase-ce",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-latest-lts-oceanbase-ce",
+  "observation_id": "2c0d4b7407627586",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "release latest lts oceanbase-ce",
+  "source_context_snippet": "release latest lts oceanbase-ce",
+  "source_file": ".github/workflows/release-latest-lts-oceanbase-ce.yml",
+  "source_repo": "oceanbase/docker-images",
+  "source_repo_description": "Official source of container configurations and images for OceanBase products."
+}

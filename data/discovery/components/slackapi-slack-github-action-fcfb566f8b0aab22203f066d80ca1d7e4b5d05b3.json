@@ -1,0 +1,12 @@
+{
+  "component": "slackapi/slack-github-action@fcfb566f8b0aab22203f066d80ca1d7e4b5d05b3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redocly-cli"
+    }
+  ]
+}

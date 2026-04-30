@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -71,6 +71,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "gpustack/gguf-parser-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "filecoin-project/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipfs-examples/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipfs-shipyard/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipld/github-mgmt"
     }
   ],
   "term": "sync"

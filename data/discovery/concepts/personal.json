@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "personal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "A collection of Rust programs for personal use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-crates",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"crates/*\", \"script\", ] [profile.release] opt-level = \"s\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041598,
+      "status": "candidate",
+      "text": "subjective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033819,
+      "status": "candidate",
+      "text": "intimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031829,
+      "status": "candidate",
+      "text": "individualized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031321,
+      "status": "candidate",
+      "text": "personalized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029628,
+      "status": "candidate",
+      "text": "private"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49038,
+      "status": "candidate",
+      "text": "intimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "subjective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "private"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "physical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6021,
+      "status": "candidate",
+      "text": "individualized"
+    }
+  ],
+  "canonical_name": "personal",
+  "concept_id": "personal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-crates"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "personal",
+      "sense_id": "personal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

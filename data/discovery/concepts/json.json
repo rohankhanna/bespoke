@@ -835,6 +835,150 @@
       "source_repo": "ibireme/yyjson",
       "status": "candidate-context",
       "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate-context",
+      "text": "Safely serialize JavaScript expressions to a superset of JSON, which includes Dates, BigInts, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "Core part of Jackson that defines Streaming API as well as basic shared abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate-context",
+      "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "Rails 4.2+ templating system with JSON, XML and Plist support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "status": "candidate-context",
+      "text": "Document (PDF, Word, PPTX ...) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "status": "candidate-context",
+      "text": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate-context",
+      "text": "C# bindings for lemire/simdjson (and full C# port)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate-context",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "A SIMD boosted high-performance and correct Python JSON parsing library, faster than the fastest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for yyjson for reading and parsing JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate-context",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac  a curated list of quotes that inspire action + code that returns quotes by tag/author/etc. \ud83d\udca1 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1251,6 +1395,78 @@
       "source_repo": "ibireme/yyjson",
       "status": "candidate",
       "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flightcontrolhq/superjson",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-core",
+      "status": "candidate",
+      "text": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CatchTheTornado/text-extract-api",
+      "status": "candidate",
+      "text": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EgorBo/SimdJsonSharp",
+      "status": "candidate",
+      "text": "C# version of [lemire/simdjson](https://github.com/lemire/simdjson) (by Daniel Lemire and Geoff Langdale - https://arxiv.org/abs/1902.08318) fully ported from C to C#,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Antares0982/ssrJSON",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stoplightio/spectral",
+      "status": "candidate",
+      "text": "[![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/readme-header.svg)](https://stoplight.io/api-governance?utm_source=github&utm_medium=spectral&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/quotes",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1743,11 +1959,101 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ibireme/yyjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/sonic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CatchTheTornado/text-extract-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EgorBo/SimdJsonSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Antares0982/ssrJSON"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stoplightio/spectral"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

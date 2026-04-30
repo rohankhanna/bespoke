@@ -151,6 +151,114 @@
       "source_repo": "google-deepmind/tapnet",
       "status": "candidate-context",
       "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "MuJoCo bindings and high-level wrappers for the Rust programming language. Includes the viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "Reinforcement learning algorithms for MuJoCo tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate-context",
+      "text": "A lightweight suite of motion imitation methods for training controllers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate-context",
+      "text": "A collection of high-quality models for the MuJoCo physics engine, curated by Google DeepMind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "Repository to accompany RSS 2018 paper on dexterous hand manipulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate-context",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "[![PyPI Python Version][pypi-versions-badge]][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "Blocks for accessing MuJoCo physics engine within Simulink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "![Isaac Lab](docs/source/_static/isaaclab.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +333,60 @@
       "source_repo": "google-deepmind/tapnet",
       "status": "candidate",
       "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xbpeng/MimicKit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/hand_dapg",
+      "status": "candidate",
+      "text": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate",
+      "text": "[![PyPI Python Version][pypi-versions-badge]][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate",
+      "text": "![Isaac Lab](docs/source/_static/isaaclab.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +502,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "davidhozic/mujoco-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco_menagerie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "newton-physics/newton"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

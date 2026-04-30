@@ -1,0 +1,457 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml"
+    },
+    {
+      "component": "posit-dev/setup-air@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml"
+    },
+    {
+      "component": "reviewdog/action-suggester@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/pr-fetch@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/pr-push@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/pr-fetch@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "r-lib/actions/pr-push@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "posit-dev/setup-air@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "reviewdog/action-suggester@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "lint-undesirable-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/pr-fetch@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/pr-push@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/usethis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/usethis",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/usethis",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/usethis",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/usethis",
+      "target": "setup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:28:33.203201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4937
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 2111
+    },
+    {
+      "path": ".github/workflows/format-suggest.yaml",
+      "size": 1683
+    },
+    {
+      "path": ".github/workflows/lint-undesirable-functions.yaml",
+      "size": 2257
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/pr-commands.yaml",
+      "size": 2501
+    },
+    {
+      "path": ".github/workflows/test-coverage.yaml",
+      "size": 1992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set up commonly used \ud83d\udce6 components",
+    "fork": false,
+    "full_name": "r-lib/usethis",
+    "html_url": "https://github.com/r-lib/usethis",
+    "language": "R",
+    "pushed_at": "2026-04-29T14:14:41Z",
+    "stargazers_count": 902,
+    "topics": [
+      "github",
+      "package",
+      "r",
+      "rstats",
+      "setup"
+    ],
+    "updated_at": "2026-04-10T16:31:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lint-undesirable-functions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+      "term": "lint-undesirable-functions"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "setup"
+    }
+  ]
+}

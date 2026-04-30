@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/audio-dsp",
+      "target": "unevens/adsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/audio-dsp",
+      "target": "unevens/avec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/audio-dsp",
+      "target": "vectorclass/version2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "audio-dsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "noise-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "simd-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp",
+      "target": "spline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:33.588404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of template classes for audio dsp using SIMD instructions.",
+    "fork": false,
+    "full_name": "unevens/audio-dsp",
+    "html_url": "https://github.com/unevens/audio-dsp",
+    "language": "C++",
+    "pushed_at": "2021-11-13T22:34:26Z",
+    "stargazers_count": 12,
+    "topics": [
+      "audio",
+      "audio-dsp",
+      "audio-processing",
+      "dsp",
+      "noise-generator",
+      "simd-instructions",
+      "spline"
+    ],
+    "updated_at": "2026-04-28T14:40:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/adsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/avec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vectorclass/version2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-dsp"
+    },
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "noise-generator"
+    },
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-instructions"
+    },
+    {
+      "context_snippet": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spline"
+    }
+  ]
+}

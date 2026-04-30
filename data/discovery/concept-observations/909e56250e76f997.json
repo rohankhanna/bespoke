@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of optimizers, some arcane others well known, for Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of optimizers for Flax."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of optimizers for Flax."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968183,
+      "status": "candidate",
+      "text": "linseed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967838,
+      "status": "candidate",
+      "text": "flaxseed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917253,
+      "status": "candidate",
+      "text": "hackled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890527,
+      "status": "candidate",
+      "text": "toad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847770,
+      "status": "candidate",
+      "text": "linen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flax",
+      "sense_id": "flax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flax",
+  "observation_id": "909e56250e76f997",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "flax",
+  "source_context_snippet": "A collection of optimizers for Flax.",
+  "source_file": null,
+  "source_repo": "nestordemeure/flaxOptimizers",
+  "source_repo_description": "A collection of optimizers, some arcane others well known, for Flax."
+}

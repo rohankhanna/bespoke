@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaCI/PkgEval.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaCI/PkgEval.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaCI/PkgEval.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaCI/PkgEval.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaCI/PkgEval.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:52.791699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4532
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Keeping tabs on the julia ecosystem",
+    "fork": false,
+    "full_name": "JuliaCI/PkgEval.jl",
+    "html_url": "https://github.com/JuliaCI/PkgEval.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-02T04:55:30Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-02T04:55:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

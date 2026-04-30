@@ -628,6 +628,90 @@
       "source_repo": "nrepl/incomplete",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/nrepl/incomplete/tree/main.svg?style=svg)](https://circleci.com/gh/nrepl/incomplete/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/hickory",
+      "status": "candidate-context",
+      "text": "HTML as data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/hickory",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/hickory.svg)](https://clojars.org/org.clj-commons/hickory)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate-context",
+      "text": "Interface with complex data via graph mapping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate-context",
+      "text": "![Pathom Logo](repo-resources/pathom-banner-padded.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate-context",
+      "text": "Visual display for ClojureScript tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate-context",
+      "text": "This is the original Flappy Bird Demo updated to use the latest incarnation of Figwheel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate-context",
+      "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "nREPL support for ClojureScript REPLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "Clojure nREPL client for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -942,6 +1026,48 @@
       "source_repo": "nrepl/incomplete",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/nrepl/incomplete/tree/main.svg?style=svg)](https://circleci.com/gh/nrepl/incomplete/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/hickory",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/hickory.svg)](https://clojars.org/org.clj-commons/hickory)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wilkerlucio/pathom3",
+      "status": "candidate",
+      "text": "![Pathom Logo](repo-resources/pathom-banner-padded.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/cljs-test-display",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/flappy-bird-demo-new",
+      "status": "candidate",
+      "text": "This is the original Flappy Bird Demo updated to use the newer versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/piggieback",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/piggieback/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/piggieback/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1375,11 +1501,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nrepl/incomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/hickory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wilkerlucio/pathom3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/cljs-test-display"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/flappy-bird-demo-new"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/piggieback"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sanel/monroe"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

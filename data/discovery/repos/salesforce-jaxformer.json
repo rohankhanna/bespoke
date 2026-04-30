@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/jaxformer",
+      "target": "salesforce/codegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/jaxformer",
+      "target": "salesforce/progen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:01:54.091274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8396
+    },
+    {
+      "path": "requirements.txt",
+      "size": 177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal library to train LLMs on TPU in JAX with pjit().",
+    "fork": false,
+    "full_name": "salesforce/jaxformer",
+    "html_url": "https://github.com/salesforce/jaxformer",
+    "language": "Python",
+    "pushed_at": "2023-12-20T21:18:17Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-04-09T07:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/codegen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/progen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

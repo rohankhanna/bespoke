@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Landing Page to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Landing Page to GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43633,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34464,
+      "status": "candidate",
+      "text": "folio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34014,
+      "status": "candidate",
+      "text": "imposing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33614,
+      "status": "candidate",
+      "text": "inset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33614,
+      "status": "candidate",
+      "text": "layout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Landing Page to GitHub Pages",
+      "sense_id": "deploy-landing-page-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-landing-page-to-github-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-landing-page-to-github-pages",
+  "observation_id": "75249c820c156395",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Deploy Landing Page to GitHub Pages",
+  "source_context_snippet": "Deploy Landing Page to GitHub Pages",
+  "source_file": ".github/workflows/deploy-landing-page.yml",
+  "source_repo": "ServiceNow/AgentLab",
+  "source_repo_description": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+}

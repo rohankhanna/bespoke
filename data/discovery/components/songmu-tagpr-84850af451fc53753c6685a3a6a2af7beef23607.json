@@ -1,12 +1,17 @@
 {
   "component": "Songmu/tagpr@84850af451fc53753c6685a3a6a2af7beef23607",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tagpr.yaml",
       "source_repo": "x-motemen/ghq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagpr.yml",
+      "source_repo": "buty4649/mruby-yyjson"
     }
   ]
 }

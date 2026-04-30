@@ -247,6 +247,18 @@
       "source_repo": "sharkdp/pastel",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "A minimal, fast alternative to 'du -sh'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "sharkdp/pastel",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -574,11 +592,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sharkdp/pastel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/diskus"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

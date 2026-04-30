@@ -13,12 +13,30 @@
       "source_repo": "kitconcept/volto-light-theme",
       "status": "candidate-context",
       "text": "Backend Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "status": "candidate-context",
+      "text": "Pip / uv installable ComfyUI package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "status": "candidate-context",
+      "text": "Backend Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate",
+      "text": "Backend Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "status": "candidate",
       "text": "Backend Tests"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/backend-test.yml",
       "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

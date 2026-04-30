@@ -19,6 +19,30 @@
       "source_repo": "ZhaoJ9014/face.evoLVe",
       "status": "candidate-context",
       "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "Extract video features from raw videos using multiple GPUs. We support RAFT flow frames as well as S3D, I3D, R(2+1)D, VGGish, CLIP, and TIMM models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "Official Implementation of Mockingjay in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate-context",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ZhaoJ9014/face.evoLVe",
       "status": "candidate",
       "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/video_features",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "status": "candidate",
+      "text": "---------------------------------------------------------"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/video_features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

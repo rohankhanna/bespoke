@@ -31,6 +31,18 @@
       "source_repo": "bulletphysics/bullet3",
       "status": "candidate-context",
       "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "bulletphysics/bullet3",
       "status": "candidate",
       "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bulletphysics/bullet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

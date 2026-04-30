@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-bot.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "galaxyproject/galaxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "biocontainers/singularity-build-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-bot.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-bot.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "Auto-merge bot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "Build image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BioContainers/multi-package-containers",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:11:16.658149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10087
+    },
+    {
+      "path": ".github/workflows/auto-merge-bot.yaml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Testing building mulled containers for multi-requirement tools.",
+    "fork": false,
+    "full_name": "BioContainers/multi-package-containers",
+    "html_url": "https://github.com/BioContainers/multi-package-containers",
+    "language": null,
+    "pushed_at": "2026-04-28T04:04:20Z",
+    "stargazers_count": 84,
+    "topics": [
+      "containers",
+      "docker"
+    ],
+    "updated_at": "2026-04-28T04:04:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biocontainers/singularity-build-bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "galaxyproject/galaxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge bot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-bot.yaml",
+      "term": "Auto-merge bot PRs"
+    },
+    {
+      "context_snippet": "Build image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Build image"
+    },
+    {
+      "context_snippet": "[![Build image](https://github.com/BioContainers/multi-package-containers/workflows/Build%20image/badge.svg)](https://github.com/BioContainers/multi-package-containers/actions?query=workflow%3A%22Build+image%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![Build image](https://github.com/BioContainers/multi-package-containers/workflows/Build%20image/badge.svg)](https://github.com/BioContainers/multi-package-containers/actions?query=workflow%3A%22Build+image%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

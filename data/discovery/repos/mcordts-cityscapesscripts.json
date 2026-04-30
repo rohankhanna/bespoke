@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:13:05.652627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "README and scripts for the Cityscapes Dataset",
+    "fork": false,
+    "full_name": "mcordts/cityscapesScripts",
+    "html_url": "https://github.com/mcordts/cityscapesScripts",
+    "language": "Python",
+    "pushed_at": "2025-09-06T18:32:19Z",
+    "stargazers_count": 2339,
+    "topics": [],
+    "updated_at": "2026-04-15T12:00:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

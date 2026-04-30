@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nestordemeure/flaxOptimizers",
+      "target": "nestordemeure/adahessianjax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nestordemeure/flaxOptimizers",
+      "target": "flax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nestordemeure/flaxOptimizers",
+      "target": "optimizers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:02:55.408177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of optimizers, some arcane others well known, for Flax.",
+    "fork": false,
+    "full_name": "nestordemeure/flaxOptimizers",
+    "html_url": "https://github.com/nestordemeure/flaxOptimizers",
+    "language": "Python",
+    "pushed_at": "2021-08-06T22:53:09Z",
+    "stargazers_count": 29,
+    "topics": [
+      "flax",
+      "optimizers"
+    ],
+    "updated_at": "2024-04-05T03:38:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nestordemeure/adahessianjax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of optimizers for Flax.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    },
+    {
+      "context_snippet": "A collection of optimizers for Flax.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizers"
+    }
+  ]
+}

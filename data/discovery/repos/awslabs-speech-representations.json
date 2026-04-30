@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/speech-representations",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/speech-representations",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:10.866920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for DeCoAR (ICASSP 2020) and BERTphone (Odyssey 2020)",
+    "fork": false,
+    "full_name": "awslabs/speech-representations",
+    "html_url": "https://github.com/awslabs/speech-representations",
+    "language": "Python",
+    "pushed_at": "2022-11-26T19:40:47Z",
+    "stargazers_count": 104,
+    "topics": [
+      "deep-learning",
+      "nlp",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-02-09T10:48:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

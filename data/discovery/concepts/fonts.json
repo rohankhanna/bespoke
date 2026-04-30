@@ -130,6 +130,18 @@
       "source_repo": "googlefonts/gftools",
       "status": "candidate-context",
       "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "impallari/Font-Testing-Page",
+      "status": "candidate-context",
+      "text": "A webpage for testing typefaces, live at www.impallari.com/testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "impallari/Font-Testing-Page",
+      "status": "candidate-context",
+      "text": "Font Testing Page"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "googlefonts/gftools",
       "status": "candidate",
       "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "impallari/Font-Testing-Page",
+      "status": "candidate",
+      "text": "Font Testing Page"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +343,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "impallari/Font-Testing-Page"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

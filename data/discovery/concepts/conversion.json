@@ -43,6 +43,30 @@
       "source_repo": "ImageOptim/libimagequant",
       "status": "candidate-context",
       "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor and converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "This is the mono-repo for the following related projects"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ImageOptim/libimagequant",
       "status": "candidate",
       "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/compressorjs-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/compressorjs-next.svg)](https://www.npmjs.com/package/compressorjs-next) [![Build status](https://github.com/j9t/compressorjs-next/workflows/Tests/badge.svg)](https://github.com/j9t/compressorjs-next/actions) [![Socket](https://badge.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate",
+      "text": "This is the mono-repo for the following related projects"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +202,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/compressorjs-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mermade/oas-kit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

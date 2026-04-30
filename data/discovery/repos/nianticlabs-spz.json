@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nianticlabs/spz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nianticlabs/spz",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nianticlabs/spz",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nianticlabs/spz",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/spz",
+      "target": "3dgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/spz",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/spz",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/spz",
+      "target": "splat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:51.310639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10852
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1704
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File format for 3D Gaussian splats. About 10x smaller than the PLY equivalent with virtually no perceptible loss in visual quality. Offered as open source by Niantic Labs. More details at https://scaniverse.com/spz #3dgaussiansplats #gaussiansplatting",
+    "fork": false,
+    "full_name": "nianticlabs/spz",
+    "html_url": "https://github.com/nianticlabs/spz",
+    "language": "C++",
+    "pushed_at": "2026-04-30T05:21:16Z",
+    "stargazers_count": 759,
+    "topics": [
+      "3dgs",
+      "compression",
+      "gaussian-splatting",
+      "splat"
+    ],
+    "updated_at": "2026-04-29T20:30:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dgs"
+    },
+    {
+      "context_snippet": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "splat"
+    }
+  ]
+}

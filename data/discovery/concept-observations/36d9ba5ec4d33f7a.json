@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Flake ID Generator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Flake ID Generator"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032492,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025382,
+      "status": "candidate",
+      "text": "unusual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025260,
+      "status": "candidate",
+      "text": "specific"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025091,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024930,
+      "status": "candidate",
+      "text": "alone"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unique",
+      "sense_id": "unique#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33037,
+      "status": "candidate",
+      "text": "unusual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22041,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "unparalleled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "alone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "incomparable"
+    }
+  ],
+  "concept_id": "unique",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unique",
+  "observation_id": "36d9ba5ec4d33f7a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "unique",
+  "source_context_snippet": "Flake ID Generator",
+  "source_file": null,
+  "source_repo": "vipermind/flake-idgen",
+  "source_repo_description": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+}

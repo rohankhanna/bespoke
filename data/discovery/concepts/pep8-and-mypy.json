@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "PEP8 and mypy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "A Web Service Discovery host daemon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "\"PEP8 and mypy\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate",
+      "text": "\"PEP8 and mypy\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "PEP8 and mypy",
+  "concept_id": "pep8-and-mypy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/static-analyses.yml",
+      "source_repo": "christgau/wsdd"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PEP8 and mypy",
+      "sense_id": "pep8-and-mypy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

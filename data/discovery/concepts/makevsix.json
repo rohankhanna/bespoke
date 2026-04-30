@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "makevsix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hsimpson/vscode-glsllint",
+      "status": "candidate-context",
+      "text": "VSCode extension to lint GLSL shading language files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hsimpson/vscode-glsllint",
+      "status": "candidate-context",
+      "text": "makevsix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hsimpson/vscode-glsllint",
+      "status": "candidate",
+      "text": "makevsix"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "makevsix",
+  "concept_id": "makevsix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/worflow.yml",
+      "source_repo": "hsimpson/vscode-glsllint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "makevsix",
+      "sense_id": "makevsix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

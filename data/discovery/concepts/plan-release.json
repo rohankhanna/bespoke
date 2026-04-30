@@ -25,6 +25,24 @@
       "source_repo": "broccolijs/broccoli",
       "status": "candidate-context",
       "text": "Plan Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "broccolijs/broccoli-plugin",
+      "status": "candidate-context",
+      "text": "Base class for Broccoli plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broccolijs/broccoli-plugin",
+      "status": "candidate-context",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-caching-writer",
+      "status": "candidate-context",
+      "text": "Plan Release"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +55,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "broccolijs/broccoli",
+      "status": "candidate",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "broccolijs/broccoli-plugin",
+      "status": "candidate",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-caching-writer",
       "status": "candidate",
       "text": "Plan Release"
     }
@@ -94,11 +124,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/plan-release.yml",
       "source_repo": "broccolijs/broccoli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "broccolijs/broccoli-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "ember-cli/broccoli-caching-writer"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

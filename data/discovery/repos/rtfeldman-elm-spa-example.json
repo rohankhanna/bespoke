@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rtfeldman/elm-spa-example",
+      "target": "gothinkster/realworld-example-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rtfeldman/elm-spa-example",
+      "target": "gothinkster/realworld",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:47.800813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Single Page Application written in Elm",
+    "fork": false,
+    "full_name": "rtfeldman/elm-spa-example",
+    "html_url": "https://github.com/rtfeldman/elm-spa-example",
+    "language": "Elm",
+    "pushed_at": "2023-11-03T22:11:23Z",
+    "stargazers_count": 3307,
+    "topics": [],
+    "updated_at": "2026-04-19T18:24:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gothinkster/realworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gothinkster/realworld-example-apps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

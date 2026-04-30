@@ -19,6 +19,18 @@
       "source_repo": "spacejam/sled",
       "status": "candidate-context",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "Concurrent and multi-stage data ingestion and data processing with Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spacejam/sled",
       "status": "candidate",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

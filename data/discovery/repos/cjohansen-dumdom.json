@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-cljs-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dumdom",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dumdom",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dumdom",
+      "target": "karma-cljs-test",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:13.549315+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficiently render and re-render immutable data",
+    "fork": false,
+    "full_name": "cjohansen/dumdom",
+    "html_url": "https://github.com/cjohansen/dumdom",
+    "language": "Clojure",
+    "pushed_at": "2024-08-23T10:56:45Z",
+    "stargazers_count": 170,
+    "topics": [],
+    "updated_at": "2025-12-12T16:51:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

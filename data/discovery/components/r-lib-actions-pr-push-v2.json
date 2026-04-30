@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/pr-push@v2",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-commands.yaml",
       "source_repo": "r-lib/svglite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "tidyverse/ggplot2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yaml",
+      "source_repo": "r-lib/devtools"
     }
   ]
 }

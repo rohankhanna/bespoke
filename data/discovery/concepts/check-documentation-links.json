@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Check Documentation Links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Check Documentation Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate-context",
+      "text": "Check Documentation Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Check Documentation Links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate",
+      "text": "Check Documentation Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin",
+      "status": "candidate",
+      "text": "Check Documentation Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate",
+      "text": "Check Documentation Links"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18585,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "consult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "endgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "guard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Documentation Links",
+  "concept_id": "check-documentation-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check_doc_links.yml",
+      "source_repo": "amd/gaia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "isaac-sim/IsaacLab"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Documentation Links",
+      "sense_id": "check-documentation-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

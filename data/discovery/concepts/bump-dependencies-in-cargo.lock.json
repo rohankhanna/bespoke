@@ -55,6 +55,18 @@
       "source_repo": "obi1kenobi/cargo-semver-checks",
       "status": "candidate-context",
       "text": "Bump dependencies in Cargo.lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "A query engine for any combination of data sources. Query your files and APIs as if they were databases!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
+      "status": "candidate-context",
+      "text": "Bump dependencies in Cargo.lock"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate",
+      "text": "Bump dependencies in Cargo.lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/trustfall",
       "status": "candidate",
       "text": "Bump dependencies in Cargo.lock"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "obi1kenobi/cargo-semver-checks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "obi1kenobi/trustfall"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

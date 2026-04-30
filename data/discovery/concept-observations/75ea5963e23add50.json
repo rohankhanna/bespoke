@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Marksman extension for VSCode. Note taking with cross-references and diagnostics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043740,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039406,
+      "status": "candidate",
+      "text": "notation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038479,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031526,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030631,
+      "status": "candidate",
+      "text": "notice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "note",
+      "sense_id": "note#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34091,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24074,
+      "status": "candidate",
+      "text": "tone"
+    }
+  ],
+  "concept_id": "note",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "note",
+  "observation_id": "75ea5963e23add50",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "note",
+  "source_context_snippet": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown",
+  "source_file": null,
+  "source_repo": "artempyanykh/marksman-vscode",
+  "source_repo_description": "Marksman extension for VSCode. Note taking with cross-references and diagnostics."
+}

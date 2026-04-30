@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:13:08.997803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Danger plugin to lint your blog posts with proselint",
+    "fork": false,
+    "full_name": "dbgrandi/danger-prose",
+    "html_url": "https://github.com/dbgrandi/danger-prose",
+    "language": "Ruby",
+    "pushed_at": "2023-01-09T22:24:03Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-03-12T21:27:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman",
+      "target": "hassony2/obman_train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman",
+      "target": "ikalevatykh/mano_grasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/obman",
+      "target": "hassony2/obman_render",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman",
+      "target": "hand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/obman",
+      "target": "object",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:59.490236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[cvpr19] Hands+Objects synthetic dataset, instructions to download and code to load the dataset",
+    "fork": false,
+    "full_name": "hassony2/obman",
+    "html_url": "https://github.com/hassony2/obman",
+    "language": "Python",
+    "pushed_at": "2024-06-04T10:12:14Z",
+    "stargazers_count": 152,
+    "topics": [
+      "3d-reconstruction",
+      "cvpr2019",
+      "hand",
+      "object"
+    ],
+    "updated_at": "2026-03-24T15:53:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/obman_render",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/obman_train",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikalevatykh/mano_grasp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hand"
+    },
+    {
+      "context_snippet": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    }
+  ]
+}

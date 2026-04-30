@@ -19,6 +19,18 @@
       "source_repo": "lightbend/config",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akkadotnet/HOCON",
+      "status": "candidate-context",
+      "text": "C# implementation of Lightbend's HOCON (Human-Optimized Object Configuration Notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akkadotnet/HOCON",
+      "status": "candidate-context",
+      "text": "C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lightbend/config",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akkadotnet/HOCON",
+      "status": "candidate",
+      "text": "C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)"
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +80,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "lightbend/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "akkadotnet/HOCON"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

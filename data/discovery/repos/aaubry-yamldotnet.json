@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "docker://aaubry/yamldotnet-syntax-checker:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syntax-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "Create a new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syntax-checker.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "docker://aaubry/yamldotnet-syntax-checker:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "Test build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:06:20.694938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4557
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2928
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4618
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/syntax-checker.yml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 1109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YamlDotNet is a .NET library for YAML",
+    "fork": false,
+    "full_name": "aaubry/YamlDotNet",
+    "html_url": "https://github.com/aaubry/YamlDotNet",
+    "language": "C#",
+    "pushed_at": "2026-04-28T20:54:20Z",
+    "stargazers_count": 2812,
+    "topics": [
+      "dotnet",
+      "parser",
+      "serialization",
+      "yaml"
+    ],
+    "updated_at": "2026-04-29T18:11:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Create a new release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create a new release"
+    },
+    {
+      "context_snippet": "Test build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "Test build"
+    },
+    {
+      "context_snippet": "| Appveyor | NuGet |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "| Appveyor | NuGet |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "| Appveyor | NuGet |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "| Appveyor | NuGet |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

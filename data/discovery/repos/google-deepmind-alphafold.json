@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/alphafold",
-      "target": "abseil/abseil-py",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/alphafold",
       "target": "deepmind/dm-haiku",
       "target_type": "repository"
     },
@@ -28,9 +21,16 @@
       "source_repo": "google-deepmind/alphafold",
       "target": "avirshup/py3dmol",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/alphafold",
+      "target": "deepmind/sonnet",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T02:04:25.932305+00:00",
+  "fetched_at": "2026-04-30T10:18:08.761244+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -55,16 +55,11 @@
     "html_url": "https://github.com/google-deepmind/alphafold",
     "language": "Python",
     "pushed_at": "2026-04-22T17:58:21Z",
-    "stargazers_count": 14541,
+    "stargazers_count": 14542,
     "topics": [],
-    "updated_at": "2026-04-30T00:36:05Z"
+    "updated_at": "2026-04-30T07:28:39Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "abseil/abseil-py",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "avirshup/py3dmol",
@@ -78,6 +73,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/dm-haiku",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/sonnet",
       "source_file": "README.md"
     }
   ],

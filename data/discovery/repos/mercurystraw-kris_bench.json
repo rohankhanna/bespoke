@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:19:31.306769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NIPS 25'] Evaluation code of paper \"KRIS-Bench: Benchmarking Next-Level Intelligent Image Editing Models\"",
+    "fork": false,
+    "full_name": "mercurystraw/Kris_Bench",
+    "html_url": "https://github.com/mercurystraw/Kris_Bench",
+    "language": "Python",
+    "pushed_at": "2025-10-19T02:33:34Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-24T09:53:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

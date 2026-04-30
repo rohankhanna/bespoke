@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sean-Miningah/realWorld-DjangoRestFramework",
+      "target": "gothinkster/realworld",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:28:00.399284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    },
+    {
+      "path": "Dockerfile",
+      "size": 389
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 543
+    },
+    {
+      "path": "requirements.txt",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Realword is a medium clone. This implementation uses django rest framework to create a backend service for the blog.",
+    "fork": false,
+    "full_name": "Sean-Miningah/realWorld-DjangoRestFramework",
+    "html_url": "https://github.com/Sean-Miningah/realWorld-DjangoRestFramework",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-04T07:39:36Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-03-16T14:03:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gothinkster/realworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

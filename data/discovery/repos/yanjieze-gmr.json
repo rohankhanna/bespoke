@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/GMR",
+      "target": "amazon-far/twist2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/GMR",
+      "target": "engineai-robotics/engineai_ros2_workspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/GMR",
+      "target": "fftai/wiki-grx-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YanjieZe/GMR",
+      "target": "hshi74/toddlerbot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:29.467740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICRA 2026] GMR: General Motion Retargeting. Retarget human motions into diverse humanoid robots in real time on CPU. Retargeter for TWIST.",
+    "fork": false,
+    "full_name": "YanjieZe/GMR",
+    "html_url": "https://github.com/YanjieZe/GMR",
+    "language": "Python",
+    "pushed_at": "2026-04-02T09:34:42Z",
+    "stargazers_count": 2115,
+    "topics": [],
+    "updated_at": "2026-04-30T07:34:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazon-far/twist2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "engineai-robotics/engineai_ros2_workspace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fftai/wiki-grx-gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hshi74/toddlerbot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

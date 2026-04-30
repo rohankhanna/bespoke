@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "Generate docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "nvim-notify Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-notify",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:14:21.810831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10357
+    },
+    {
+      "path": "Dockerfile",
+      "size": 916
+    },
+    {
+      "path": ".github/workflows/docgen.yaml",
+      "size": 2301
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 2206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fancy, configurable, notification manager for NeoVim",
+    "fork": false,
+    "full_name": "rcarriga/nvim-notify",
+    "html_url": "https://github.com/rcarriga/nvim-notify",
+    "language": "Lua",
+    "pushed_at": "2025-09-06T20:22:11Z",
+    "stargazers_count": 3548,
+    "topics": [
+      "neovim",
+      "nvim"
+    ],
+    "updated_at": "2026-04-29T18:11:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "term": "Generate docs"
+    },
+    {
+      "context_snippet": "nvim-notify Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "nvim-notify Workflow"
+    },
+    {
+      "context_snippet": "A fancy, configurable, notification manager for NeoVim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A fancy, configurable, notification manager for NeoVim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

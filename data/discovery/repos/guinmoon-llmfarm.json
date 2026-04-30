@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "cmp-nct/ggllm.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "byroneverson/mia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "alexrozanski/llamachat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "ggml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "gptneox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "rwkv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "starcoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guinmoon/LLMFarm",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:39.660867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "llama and other  large language models on iOS and MacOS offline using GGML library.",
+    "fork": false,
+    "full_name": "guinmoon/LLMFarm",
+    "html_url": "https://github.com/guinmoon/LLMFarm",
+    "language": "C",
+    "pushed_at": "2026-01-30T20:52:36Z",
+    "stargazers_count": 2022,
+    "topics": [
+      "ai",
+      "ggml",
+      "gpt-2",
+      "gptneox",
+      "ios",
+      "llama",
+      "macos",
+      "rwkv",
+      "starcoder",
+      "swift"
+    ],
+    "updated_at": "2026-04-28T15:00:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexrozanski/llamachat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byroneverson/mia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmp-nct/ggllm.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gptneox"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starcoder"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

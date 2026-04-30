@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Housekeeping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "status": "candidate-context",
+      "text": "HTML sanitizer for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "status": "candidate-context",
+      "text": "\"Housekeeping\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrrene/html_sanitize_ex",
+      "status": "candidate",
+      "text": "\"Housekeeping\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973642,
+      "status": "candidate",
+      "text": "housework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973562,
+      "status": "candidate",
+      "text": "housecleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973457,
+      "status": "candidate",
+      "text": "homemaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973426,
+      "status": "candidate",
+      "text": "housekeeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972875,
+      "status": "candidate",
+      "text": "homemaker"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "housework"
+    }
+  ],
+  "canonical_name": "Housekeeping",
+  "concept_id": "housekeeping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/housekeeping.yml",
+      "source_repo": "rrrene/html_sanitize_ex"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Housekeeping",
+      "sense_id": "housekeeping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

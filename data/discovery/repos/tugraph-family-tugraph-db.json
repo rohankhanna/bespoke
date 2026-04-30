@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "TuGraph-family/alipay-cloud-devops-codescan@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloud_code_scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_auto_close.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_label.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_label.yml"
+    },
+    {
+      "component": "gacts/is-stargazer@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pre_close.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pre_close.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "cgcl-codes/yitu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "secretflow/secretflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloud_code_scan.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "TuGraph-family/alipay-cloud-devops-codescan@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloud_code_scan.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "Alipay Cloud Devops Codescan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "actions-cool/issues-helper@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "Issue Auto Close",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_label.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_label.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "Issue Labelled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pre_close.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "gacts/is-stargazer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pre_close.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_pre_close.yml",
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "Issue Pre Close",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "cypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "fastest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "finbench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TuGraph-family/tugraph-db",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:13:55.085069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6509
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4809
+    },
+    {
+      "path": ".github/workflows/cloud_code_scan.yml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/issue_auto_close.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/issue_label.yml",
+      "size": 1839
+    },
+    {
+      "path": ".github/workflows/issue_pre_close.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TuGraph: A High Performance Graph Database.",
+    "fork": false,
+    "full_name": "TuGraph-family/tugraph-db",
+    "html_url": "https://github.com/TuGraph-family/tugraph-db",
+    "language": "C++",
+    "pushed_at": "2026-03-31T03:18:27Z",
+    "stargazers_count": 1728,
+    "topics": [
+      "cpp",
+      "cypher",
+      "database",
+      "fastest",
+      "finbench",
+      "graph",
+      "hacktoberfest",
+      "rust",
+      "snb"
+    ],
+    "updated_at": "2026-04-27T07:09:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgcl-codes/yitu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "secretflow/secretflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alipay Cloud Devops Codescan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloud_code_scan.yml",
+      "term": "Alipay Cloud Devops Codescan"
+    },
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "Issue Auto Close",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "term": "Issue Auto Close"
+    },
+    {
+      "context_snippet": "Issue Labelled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_label.yml",
+      "term": "Issue Labelled"
+    },
+    {
+      "context_snippet": "Issue Pre Close",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_pre_close.yml",
+      "term": "Issue Pre Close"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cypher"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastest"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finbench"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Release](https://shields.io/github/v/release/tugraph-family/tugraph-db.svg?logo=stackblitz&label=Version&color=red)](https://github.com/TuGraph-family/tugraph-db/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

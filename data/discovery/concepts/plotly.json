@@ -67,6 +67,18 @@
       "source_repo": "plotly/plotly.py",
       "status": "candidate-context",
       "text": "<table>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/orca",
+      "status": "candidate-context",
+      "text": "Command line application for generating static images of interactive plotly charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/orca",
+      "status": "candidate-context",
+      "text": "> Orca support in Plotly.py is deprecated and will be removed after September 2025. Use [Kaleido](https://plotly.com/python/static-image-export/) instead."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "plotly/plotly.py",
       "status": "candidate",
       "text": "<table>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/orca",
+      "status": "candidate",
+      "text": "> Orca support in Plotly.py is deprecated and will be removed after September 2025. Use [Kaleido](https://plotly.com/python/static-image-export/) instead."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "plotly/orca"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

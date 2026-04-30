@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "swintransformer/transformer-ssl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "swintransformer/swin-transformer-object-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "swintransformer/video-swin-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "codecov/codecov-action@v1.0.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "swin-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "target": "upernet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:58.615627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5653
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3651
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Semantic Segmentation.",
+    "fork": true,
+    "full_name": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+    "html_url": "https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+    "language": "Python",
+    "pushed_at": "2022-08-24T09:40:20Z",
+    "stargazers_count": 1261,
+    "topics": [
+      "ade20k",
+      "semantic-segmentation",
+      "swin-transformer",
+      "upernet"
+    ],
+    "updated_at": "2026-04-20T03:08:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/swin-transformer-object-detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/transformer-ssl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/video-swin-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swin-transformer"
+    },
+    {
+      "context_snippet": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upernet"
+    }
+  ]
+}

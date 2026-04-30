@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "rubbaboy/mspaintide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "mspaintide/newocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "ms-paint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "mspaint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "ocr-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE",
+      "target": "paint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:01.687612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Programming in MS Paint",
+    "fork": false,
+    "full_name": "MSPaintIDE/MSPaintIDE",
+    "html_url": "https://github.com/MSPaintIDE/MSPaintIDE",
+    "language": "Java",
+    "pushed_at": "2023-08-07T22:39:23Z",
+    "stargazers_count": 1435,
+    "topics": [
+      "hacktoberfest",
+      "ide",
+      "java",
+      "ms-paint",
+      "mspaint",
+      "ocr",
+      "ocr-java",
+      "paint"
+    ],
+    "updated_at": "2026-04-23T12:52:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mspaintide/newocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubbaboy/mspaintide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ms-paint"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mspaint"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-java"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paint"
+    }
+  ]
+}

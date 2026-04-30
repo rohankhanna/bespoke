@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:20.711638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2005
+    },
+    {
+      "path": "requirements.txt",
+      "size": 10
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensorflow port for the Learned Perceptual Image Patch Similarity (LPIPS) metric.",
+    "fork": false,
+    "full_name": "alexlee-gk/lpips-tensorflow",
+    "html_url": "https://github.com/alexlee-gk/lpips-tensorflow",
+    "language": "Python",
+    "pushed_at": "2023-05-09T08:08:50Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2025-10-04T09:15:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

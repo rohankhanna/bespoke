@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Swift Binding for MuJoCo: https://mujoco.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "macos-spm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "macos-spm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "macos-spm",
+      "sense_id": "macos-spm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos-spm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos-spm",
+  "observation_id": "e4a9c9683f576d9d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "macos-spm",
+  "source_context_snippet": "macos-spm",
+  "source_file": ".github/workflows/macos-spm.yaml",
+  "source_repo": "liuliu/swift-mujoco",
+  "source_repo_description": "Swift Binding for MuJoCo: https://mujoco.org/"
+}

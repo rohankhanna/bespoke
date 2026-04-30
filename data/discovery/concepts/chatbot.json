@@ -415,6 +415,66 @@
       "source_repo": "X-PLUG/mPLUG-Owl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Pixtral by MistralAI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning SmolVLM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "Powerful AI Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "Large-scale, Informative, and Diverse Multi-round Chat Data (and Models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -619,6 +679,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Pixtral-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training Trnasformers compatible [Pixtral-12b](https://huggingface.co/mistral-community/pixtral-12b).<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chatboxai/chatbox",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -934,11 +1024,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "X-PLUG/mPLUG-Owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Pixtral-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/SmolVLM-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

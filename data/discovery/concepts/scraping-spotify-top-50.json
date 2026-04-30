@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Scraping Spotify Top 50"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianckeegan/SpotifyUSTop50",
+      "status": "candidate-context",
+      "text": "Scraping Spotify Top 50"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brianckeegan/SpotifyUSTop50",
+      "status": "candidate",
+      "text": "Scraping Spotify Top 50"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27543,
+      "status": "candidate",
+      "text": "scrape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17790,
+      "status": "candidate",
+      "text": "tie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17790,
+      "status": "candidate",
+      "text": "tied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17767,
+      "status": "candidate",
+      "text": "bail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17767,
+      "status": "candidate",
+      "text": "brass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scraping Spotify Top 50",
+  "concept_id": "scraping-spotify-top-50",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "brianckeegan/SpotifyUSTop50"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scraping Spotify Top 50",
+      "sense_id": "scraping-spotify-top-50#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

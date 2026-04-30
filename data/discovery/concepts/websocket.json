@@ -319,6 +319,54 @@
       "source_repo": "antlabs/quickws",
       "status": "candidate-context",
       "text": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "Speech-to-text server framework with next-gen Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "`sherpa` is an open-source speech-text-text inference framework using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "status": "candidate-context",
+      "text": "HTTP/1 and HTTP/2 WebSocket support for Mint \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "status": "candidate-context",
+      "text": "[![CI][ci-badge]][actions]"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +525,30 @@
       "source_repo": "antlabs/quickws",
       "status": "candidate",
       "text": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate",
+      "text": "`sherpa` is an open-source speech-text-text inference framework using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "WAMP for Browsers and NodeJS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-mint/mint_web_socket",
+      "status": "candidate",
+      "text": "[![CI][ci-badge]][actions]"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +730,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "antlabs/quickws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-mint/mint_web_socket"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

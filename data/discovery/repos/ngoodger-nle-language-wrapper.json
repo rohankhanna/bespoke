@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cpp.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "facebookresearch/minihack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cpp.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cpp.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "DoozyX/clang-format-lint-action@v0.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_cpp.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "Lintcheck C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "ngoodger/nle-language-wrapper",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:37.440499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9687
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/lint_cpp.yml",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 1271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nethack Learning Environment Wrapper for Language Interface",
+    "fork": false,
+    "full_name": "ngoodger/nle-language-wrapper",
+    "html_url": "https://github.com/ngoodger/nle-language-wrapper",
+    "language": "Python",
+    "pushed_at": "2023-09-11T11:31:21Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-03-29T12:07:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/minihack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lintcheck C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_cpp.yml",
+      "term": "Lintcheck C++"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

@@ -105,6 +105,18 @@
       "source_repo": "mfussenegger/nvim-fzy",
       "status": "candidate-context",
       "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "Fuzzy matching utilities for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "> [!Important]"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +167,12 @@
       "source_repo": "mfussenegger/nvim-fzy",
       "status": "candidate",
       "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate",
+      "text": "> [!Important]"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +300,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mfussenegger/nvim-fzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "aws-cloudformation",
   "observation_id": "7fb000fa84ae3a21",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "aws-cloudformation",
   "source_context_snippet": "<img alt=\"[cfn-lint logo]\" src=\"https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true\" width=\"150\" align=\"right\">",
   "source_file": null,

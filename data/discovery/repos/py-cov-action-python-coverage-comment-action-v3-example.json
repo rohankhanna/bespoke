@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "py-cov-action/python-coverage-comment-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "py-cov-action/python-coverage-comment-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "py-cov-action/python-coverage-comment-action-v2-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "py-cov-action/python-coverage-comment-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "py-cov-action/python-coverage-comment-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "Post coverage comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:55.294591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1315
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example repo for v3 of python-coverage-comment-action",
+    "fork": false,
+    "full_name": "py-cov-action/python-coverage-comment-action-v3-example",
+    "html_url": "https://github.com/py-cov-action/python-coverage-comment-action-v3-example",
+    "language": "Python",
+    "pushed_at": "2025-07-12T09:20:01Z",
+    "stargazers_count": 0,
+    "topics": [
+      "actions",
+      "github-actions"
+    ],
+    "updated_at": "2025-07-12T09:19:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "py-cov-action/python-coverage-comment-action-v2-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Post coverage comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Post coverage comment"
+    },
+    {
+      "context_snippet": "> **Note**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "> **Note**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

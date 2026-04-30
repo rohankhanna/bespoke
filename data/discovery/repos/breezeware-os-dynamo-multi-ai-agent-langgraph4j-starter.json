@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "ai-agent-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "langgraph4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "open-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "spring-ai-openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "target": "spring-boot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:50.296104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dynamo Multi AI Agent POC: Unlock the Power of Spring AI and LangGraph4J",
+    "fork": false,
+    "full_name": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+    "html_url": "https://github.com/Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+    "language": "Java",
+    "pushed_at": "2024-12-12T10:07:02Z",
+    "stargazers_count": 27,
+    "topics": [
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "java",
+      "langgraph4j",
+      "open-ai",
+      "spring-ai-openai",
+      "spring-boot"
+    ],
+    "updated_at": "2026-04-28T08:25:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/langgraph4j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agent-framework"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph4j"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-ai"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai-openai"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    }
+  ]
+}

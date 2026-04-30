@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/approve-dependabot.yml",
       "source_repo": "vega/vega"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
     }
   ],
   "term": "Dependabot auto-approve"

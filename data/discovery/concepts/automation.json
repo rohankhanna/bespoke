@@ -682,6 +682,78 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate-context",
       "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate-context",
+      "text": "The use of this Docker image simplifies the process of running an Android emulator within a Docker container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate-context",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "Near-lossless image compressor that\u2019s easy to use and easy to automate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "status": "candidate-context",
+      "text": "Modular MCP server for OPNsense firewall management - 88 tools providing access to 2000+ methods through AI assistants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "status": "candidate-context",
+      "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
     }
   ],
   "candidate_glosses": [
@@ -1014,6 +1086,42 @@
       "source_repo": "argoproj-labs/argocd-image-updater",
       "status": "candidate",
       "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/image-guard",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/image-guard.svg)](https://www.npmjs.com/package/image-guard) [![Build status](https://github.com/j9t/image-guard/workflows/Tests/badge.svg)](https://github.com/j9t/image-guard/actions) [![Socket](https://badge.socket.dev/npm/package/i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/luarocks-tag-release",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pixelworlds/opnsense-mcp-server",
+      "status": "candidate",
+      "text": "A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface."
     }
   ],
   "candidate_related_terms": [
@@ -1500,11 +1608,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amrsa1/Android-Emulator-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "j9t/image-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wix/Detox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "danger/danger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Pixelworlds/opnsense-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

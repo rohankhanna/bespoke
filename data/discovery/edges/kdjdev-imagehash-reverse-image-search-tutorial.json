@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "fake-name/pg-spgist_hamming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "kdjdev/probable-octo-chainsaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "image-hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "reverse-image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial"
+}

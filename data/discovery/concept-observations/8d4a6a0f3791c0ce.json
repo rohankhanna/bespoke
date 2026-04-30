@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Electron Apps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Electron Apps"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22359,
+      "status": "candidate",
+      "text": "bionics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22359,
+      "status": "candidate",
+      "text": "electronics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15067,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14451,
+      "status": "candidate",
+      "text": "engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14451,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Electron Apps",
+      "sense_id": "build-electron-apps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-electron-apps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-electron-apps",
+  "observation_id": "8d4a6a0f3791c0ce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build Electron Apps",
+  "source_context_snippet": "Build Electron Apps",
+  "source_file": ".github/workflows/build-electron-apps.yml",
+  "source_repo": "amd/gaia",
+  "source_repo_description": "Build AI agents for your PC"
+}

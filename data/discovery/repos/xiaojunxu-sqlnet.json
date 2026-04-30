@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xiaojunxu/SQLNet",
+      "target": "salesforce/wikisql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xiaojunxu/SQLNet",
+      "target": "stanfordnlp/glove",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:35.967045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2701
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural Network for generating structured queries from natural language.",
+    "fork": false,
+    "full_name": "xiaojunxu/SQLNet",
+    "html_url": "https://github.com/xiaojunxu/SQLNet",
+    "language": "Python",
+    "pushed_at": "2023-10-10T17:23:44Z",
+    "stargazers_count": 433,
+    "topics": [],
+    "updated_at": "2026-04-22T16:38:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/wikisql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanfordnlp/glove",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

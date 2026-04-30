@@ -163,6 +163,18 @@
       "source_repo": "2color/auspinner",
       "status": "candidate-context",
       "text": "![auspinner logo](./logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/team-mgmt",
+      "status": "candidate-context",
+      "text": "Planning and project management for the libp2p Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/team-mgmt",
+      "status": "candidate-context",
+      "text": "<a href=\"http://protocol.ai\"><img src=\"https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "2color/auspinner",
       "status": "candidate",
       "text": "![auspinner logo](./logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/team-mgmt",
+      "status": "candidate",
+      "text": "<a href=\"http://protocol.ai\"><img src=\"https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

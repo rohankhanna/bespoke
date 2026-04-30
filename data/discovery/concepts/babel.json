@@ -271,6 +271,18 @@
       "source_repo": "swc-project/swc",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "swc-project/swc",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_related_terms": [
@@ -630,11 +648,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

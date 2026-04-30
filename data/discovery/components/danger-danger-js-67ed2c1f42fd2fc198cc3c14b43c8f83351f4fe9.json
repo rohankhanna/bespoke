@@ -1,0 +1,12 @@
+{
+  "component": "danger/danger-js@67ed2c1f42fd2fc198cc3c14b43c8f83351f4fe9",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "jest-community/eslint-plugin-jest"
+    }
+  ]
+}

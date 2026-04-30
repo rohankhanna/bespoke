@@ -1,0 +1,17 @@
+{
+  "component": "form8ion/.github/.github/workflows/release-package.yml@455dc193bfbd8c08142b75126b4903dd7b647d0e",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/experimental-release.yml",
+      "source_repo": "travi/octokit-auth-netrc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node-ci.yml",
+      "source_repo": "travi/octokit-auth-netrc"
+    }
+  ]
+}

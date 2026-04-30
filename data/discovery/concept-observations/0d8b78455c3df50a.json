@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "0d8b78455c3df50a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux.",
+  "source_file": null,
+  "source_repo": "easyCZ/grpc-web-hacker-news",
+  "source_repo_description": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+}

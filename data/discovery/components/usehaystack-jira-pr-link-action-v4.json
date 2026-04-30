@@ -1,0 +1,12 @@
+{
+  "component": "usehaystack/jira-pr-link-action@v4",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/enforce-pr-jira-association.yml",
+      "source_repo": "codota/tabnine-nvim"
+    }
+  ]
+}

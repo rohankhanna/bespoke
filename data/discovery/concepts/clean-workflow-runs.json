@@ -19,12 +19,48 @@
       "source_repo": "mudler/vulkan-sdk-arm",
       "status": "candidate-context",
       "text": "\"\u2702 Clean Workflow Runs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "A Github Action to install the current Vulkan SDK and runtime library. It also supports installing SwiftShader and Lavapipe software rasterizers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate-context",
+      "text": "\"\u2702 Clean Workflow Runs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "status": "candidate-context",
+      "text": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. Builds are used by https://github.com/jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "status": "candidate-context",
+      "text": "\"\u2702 Clean Workflow Runs\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mudler/vulkan-sdk-arm",
+      "status": "candidate",
+      "text": "\"\u2702 Clean Workflow Runs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/install-vulkan-sdk-action",
+      "status": "candidate",
+      "text": "\"\u2702 Clean Workflow Runs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakoch/vulkan-sdk-arm",
       "status": "candidate",
       "text": "\"\u2702 Clean Workflow Runs\""
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/cleanup-workflows.yml",
       "source_repo": "mudler/vulkan-sdk-arm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

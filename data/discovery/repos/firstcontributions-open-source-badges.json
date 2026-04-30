@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firstcontributions/open-source-badges",
+      "target": "ellerbrock/open-source-badges",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:27.405303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":octocat: Open Source & Licence Badges",
+    "fork": true,
+    "full_name": "firstcontributions/open-source-badges",
+    "html_url": "https://github.com/firstcontributions/open-source-badges",
+    "language": null,
+    "pushed_at": "2022-07-07T00:51:13Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-27T16:45:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ellerbrock/open-source-badges",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

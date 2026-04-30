@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhoubolei/CAM",
+      "target": "csailvision/places365",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhoubolei/CAM",
+      "target": "metalbubble/cam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhoubolei/CAM",
+      "target": "jazzsaxmafia/weakly_detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhoubolei/CAM",
+      "target": "gcucurull/cam-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:09.625148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Class Activation Mapping",
+    "fork": false,
+    "full_name": "zhoubolei/CAM",
+    "html_url": "https://github.com/zhoubolei/CAM",
+    "language": "MATLAB",
+    "pushed_at": "2022-09-13T14:02:02Z",
+    "stargazers_count": 1885,
+    "topics": [],
+    "updated_at": "2026-04-29T08:57:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csailvision/places365",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcucurull/cam-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jazzsaxmafia/weakly_detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metalbubble/cam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

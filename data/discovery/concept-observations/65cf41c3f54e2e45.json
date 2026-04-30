@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MCP Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MCP Integration Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22455,
+      "status": "candidate",
+      "text": "biological clock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22382,
+      "status": "candidate",
+      "text": "program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22367,
+      "status": "candidate",
+      "text": "control"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MCP Integration Tests",
+      "sense_id": "mcp-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mcp-integration-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mcp-integration-tests",
+  "observation_id": "65cf41c3f54e2e45",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "MCP Integration Tests",
+  "source_context_snippet": "MCP Integration Tests",
+  "source_file": ".github/workflows/mcp-integration-tests.yml",
+  "source_repo": "spring-projects/spring-ai",
+  "source_repo_description": "An Application Framework for AI Engineering"
+}

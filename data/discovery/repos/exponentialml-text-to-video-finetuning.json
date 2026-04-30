@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "damo-vilab/i2vgen-xl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "kabachuha/sd-webui-text2video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "exponentialml/video-blip2-preprocessor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "bryandlee/tune-a-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "modelscope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ExponentialML/Text-To-Video-Finetuning",
+      "target": "text2video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:14.848272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Finetune ModelScope's Text To Video model using Diffusers \ud83e\udde8",
+    "fork": false,
+    "full_name": "ExponentialML/Text-To-Video-Finetuning",
+    "html_url": "https://github.com/ExponentialML/Text-To-Video-Finetuning",
+    "language": "Python",
+    "pushed_at": "2023-12-14T21:59:06Z",
+    "stargazers_count": 698,
+    "topics": [
+      "deep-learning",
+      "diffusers",
+      "diffusion-models",
+      "modelscope",
+      "pytorch",
+      "stable-diffusion",
+      "text-to-video",
+      "text2video"
+    ],
+    "updated_at": "2026-03-30T12:32:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bryandlee/tune-a-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-vilab/i2vgen-xl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exponentialml/video-blip2-preprocessor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kabachuha/sd-webui-text2video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelscope"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<div align=\"center\" width=\"100\" height=\"100\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2video"
+    }
+  ]
+}

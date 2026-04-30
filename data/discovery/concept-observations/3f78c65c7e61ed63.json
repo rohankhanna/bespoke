@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YamlDotNet is a .NET library for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| Appveyor | NuGet |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| Appveyor | NuGet |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotnet",
+      "sense_id": "dotnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dotnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dotnet",
+  "observation_id": "3f78c65c7e61ed63",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "dotnet",
+  "source_context_snippet": "| Appveyor | NuGet |",
+  "source_file": null,
+  "source_repo": "aaubry/YamlDotNet",
+  "source_repo_description": "YamlDotNet is a .NET library for YAML"
+}

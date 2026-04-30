@@ -1439,6 +1439,198 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "CLI interfaces & config objects, from types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "Scalar Docs Starter Kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate-context",
+      "text": "An API documentation generator for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate-context",
+      "text": "![Build status](https://github.com/jsdoc/jsdoc/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlabouardy/swaggymnia",
+      "status": "candidate-context",
+      "text": "Generate Swagger \ud83c\udf00 documentation for your existing API in Insomnia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabouardy/swaggymnia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "Low rank adaptation (LoRA) for Candle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate-context",
+      "text": "Sampling techniques for Candle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Rust-based static site generator for Markdown documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "A library for setting up Ruby objects as test data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": ":book: :octocat:GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": "> A GitHub Action to build JSDoc documentation"
     }
   ],
   "candidate_glosses": [
@@ -2161,6 +2353,102 @@
       "source_repo": "erg-lang/erg",
       "status": "candidate",
       "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate",
+      "text": "![Build status](https://github.com/jsdoc/jsdoc/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlabouardy/swaggymnia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-lora",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricLBuehler/candle-sampling",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaac-sim/IsaacLab",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate",
+      "text": "> A GitHub Action to build JSDoc documentation"
     }
   ],
   "candidate_related_terms": [
@@ -3216,11 +3504,173 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scalar/starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jsdoc/jsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/candle-lora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "EricLBuehler/candle-sampling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "yhirose/docs-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crossbario/autobahn-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "thoughtbot/factory_bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "isaac-sim/IsaacLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mujocolab/mjlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

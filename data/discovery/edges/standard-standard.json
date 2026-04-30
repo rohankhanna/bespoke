@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
+      "target": "showcases/clean-code-linters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/standard",
       "target": "w0rp/ale",
       "target_type": "repository"
     },
@@ -274,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "standard/standard"
 }

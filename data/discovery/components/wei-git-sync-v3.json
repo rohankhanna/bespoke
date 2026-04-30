@@ -1,0 +1,22 @@
+{
+  "component": "wei/git-sync@v3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git-sync.yml",
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git-sync.yml",
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git-sync.yml",
+      "source_repo": "smithy-lang/smithy-typescript"
+    }
+  ]
+}

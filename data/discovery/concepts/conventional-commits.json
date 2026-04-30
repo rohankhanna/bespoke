@@ -184,6 +184,42 @@
       "source_repo": "a2aproject/a2a-python",
       "status": "candidate-context",
       "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate-context",
+      "text": "Wrapper around adb used by appium + helper libs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate-context",
+      "text": "A WebDriver server for iOS and tvOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate-context",
+      "text": "Conventional Commits"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +312,24 @@
       "source_repo": "a2aproject/a2a-python",
       "status": "candidate",
       "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate",
+      "text": "Conventional Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate",
+      "text": "Conventional Commits"
     }
   ],
   "candidate_related_terms": [
@@ -421,11 +475,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/conventional-commits.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/appium-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/appium-adb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "appium/WebDriverAgent"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

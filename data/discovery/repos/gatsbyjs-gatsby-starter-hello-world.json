@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "gatsby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-hello-world",
+      "target": "gatsby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-hello-world",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gatsbyjs/gatsby-starter-hello-world",
+      "target": "react-dom",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:39.781017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5572
+    },
+    {
+      "path": "package.json",
+      "size": 703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Starter with the bare essentials needed for a Gatsby site",
+    "fork": false,
+    "full_name": "gatsbyjs/gatsby-starter-hello-world",
+    "html_url": "https://github.com/gatsbyjs/gatsby-starter-hello-world",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T15:04:56Z",
+    "stargazers_count": 645,
+    "topics": [],
+    "updated_at": "2026-04-14T15:05:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

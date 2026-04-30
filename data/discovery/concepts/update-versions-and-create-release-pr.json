@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update versions and create release PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate-context",
+      "text": "Load a GHCi session for a Haskell project and reload it when source files change"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate-context",
+      "text": "Update versions and create release PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate",
+      "text": "Update versions and create release PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40529,
+      "status": "candidate",
+      "text": "reprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40435,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40397,
+      "status": "candidate",
+      "text": "imprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34202,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28208,
+      "status": "candidate",
+      "text": "emend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update versions and create release PR",
+  "concept_id": "update-versions-and-create-release-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/version.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update versions and create release PR",
+      "sense_id": "update-versions-and-create-release-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

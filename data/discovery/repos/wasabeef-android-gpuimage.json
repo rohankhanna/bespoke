@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wasabeef/android-gpuimage",
+      "target": "bradlarson/gpuimage2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage",
+      "target": "gpuimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/android-gpuimage",
+      "target": "opengl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:09.864273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7738
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Android filters based on OpenGL (idea from GPUImage for iOS)",
+    "fork": false,
+    "full_name": "wasabeef/android-gpuimage",
+    "html_url": "https://github.com/wasabeef/android-gpuimage",
+    "language": "Java",
+    "pushed_at": "2022-08-03T16:07:30Z",
+    "stargazers_count": 9159,
+    "topics": [
+      "android",
+      "gpuimage",
+      "java",
+      "opengl"
+    ],
+    "updated_at": "2026-04-29T17:19:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradlarson/gpuimage2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpuimage"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    }
+  ]
+}

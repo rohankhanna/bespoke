@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@8hobbies/eslint-conf-baseline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "@typescript-eslint/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-lint.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Publish Dry Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-publish.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Publish to npmjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runtime.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "8hobbies/workflows/.github/workflows/npm-runtime.yml@816c71c37d500c15bb9f7681c9230d4a0ef63a66",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runtime.yml",
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "Runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8hobbies/vite-plugin-year",
+      "target": "vite",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "8hobbies/vite-plugin-year"
+}

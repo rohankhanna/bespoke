@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/OpenShell",
       "status": "candidate-context",
       "text": "GPU E2E Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "Distributed AI Model Training and LLM Fine-Tuning on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
+      "status": "candidate-context",
+      "text": "GPU E2E Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate",
+      "text": "GPU E2E Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeflow/trainer",
       "status": "candidate",
       "text": "GPU E2E Test"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/e2e-gpu-test.yaml",
       "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-e2e-gpu.yaml",
+      "source_repo": "kubeflow/trainer"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "google/zx",
       "status": "candidate-context",
       "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "execa \u2014 Process execution for humans"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "google/zx",
       "status": "candidate",
       "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/execa"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

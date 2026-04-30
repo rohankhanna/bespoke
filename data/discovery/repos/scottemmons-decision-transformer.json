@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:07:16.574499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official codebase for Decision Transformer: Reinforcement Learning via Sequence Modeling.",
+    "fork": true,
+    "full_name": "scottemmons/decision-transformer",
+    "html_url": "https://github.com/scottemmons/decision-transformer",
+    "language": null,
+    "pushed_at": "2022-04-24T23:12:49Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-09-17T17:29:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "chartboost/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "sarahweiii/coacd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "deepmind/mujoco_menagerie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "Mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf",
+      "target": "wavefront-obj",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:12.629972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2079
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 233
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo.",
+    "fork": false,
+    "full_name": "kevinzakka/obj2mjcf",
+    "html_url": "https://github.com/kevinzakka/obj2mjcf",
+    "language": "Python",
+    "pushed_at": "2024-10-15T16:56:20Z",
+    "stargazers_count": 357,
+    "topics": [
+      "mujoco",
+      "robotics",
+      "simulation",
+      "wavefront-obj"
+    ],
+    "updated_at": "2026-04-18T13:57:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco_menagerie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarahweiii/coacd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Mypy"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version][pypi-versions-badge]][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version][pypi-versions-badge]][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version][pypi-versions-badge]][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version][pypi-versions-badge]][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavefront-obj"
+    }
+  ]
+}

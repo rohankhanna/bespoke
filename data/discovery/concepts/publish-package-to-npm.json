@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish package to npm",
-    "Publish package to NPM"
+    "Publish package to NPM",
+    "Publish Package to npm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "axios/axios",
       "status": "candidate-context",
       "text": "Publish package to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate-context",
+      "text": "JavaScript image compressor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate-context",
+      "text": "Publish Package to npm"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "axios/axios",
       "status": "candidate",
       "text": "Publish package to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengyuanchen/compressorjs",
+      "status": "candidate",
+      "text": "Publish Package to npm"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "fengyuanchen/compressorjs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

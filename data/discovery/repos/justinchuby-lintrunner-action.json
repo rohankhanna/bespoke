@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "justinchuby/lintrunner-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinchuby/lintrunner-action",
+      "target": "justinchuby/lintrunner-adapters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinchuby/lintrunner-action",
+      "target": "microsoft/onnxscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "justinchuby/lintrunner-action",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "justinchuby/lintrunner-action",
+      "target": "justinchuby/lintrunner-action@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:13.939332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2084
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub action to run lintrunner in CI",
+    "fork": false,
+    "full_name": "justinchuby/lintrunner-action",
+    "html_url": "https://github.com/justinchuby/lintrunner-action",
+    "language": null,
+    "pushed_at": "2024-09-18T14:18:07Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-09-18T14:14:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinchuby/lintrunner-adapters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/onnxscript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

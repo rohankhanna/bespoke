@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "code-scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "code-scanning-enabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "code-scanning-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:23:11.999062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Action to run Bandit",
+    "fork": false,
+    "full_name": "PyCQA/bandit-action",
+    "html_url": "https://github.com/PyCQA/bandit-action",
+    "language": null,
+    "pushed_at": "2025-11-20T23:59:48Z",
+    "stargazers_count": 26,
+    "topics": [
+      "bandit",
+      "code-scanning",
+      "code-scanning-enabled",
+      "code-scanning-ready",
+      "github-action",
+      "github-actions"
+    ],
+    "updated_at": "2026-01-03T13:04:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bandit"
+    },
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanning"
+    },
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanning-enabled"
+    },
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanning-ready"
+    },
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:19:02.837599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "QwQ is the reasoning model series developed by Qwen team, Alibaba Cloud. ",
+    "fork": false,
+    "full_name": "QwenLM/QwQ",
+    "html_url": "https://github.com/QwenLM/QwQ",
+    "language": "Python",
+    "pushed_at": "2025-03-27T15:48:52Z",
+    "stargazers_count": 513,
+    "topics": [],
+    "updated_at": "2026-04-29T19:26:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

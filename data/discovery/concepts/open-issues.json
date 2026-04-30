@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Open Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x-ximon/acario.nvim",
+      "status": "candidate-context",
+      "text": "Acario.nvim: A port of the clean, high-contrast Doom Emacs Acario theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x-ximon/acario.nvim",
+      "status": "candidate-context",
+      "text": "Open Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x-ximon/acario.nvim",
+      "status": "candidate",
+      "text": "Open Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28701,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28301,
+      "status": "candidate",
+      "text": "forum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28235,
+      "status": "candidate",
+      "text": "glasnost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11901,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11901,
+      "status": "candidate",
+      "text": "discussion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Open Issues",
+  "concept_id": "open-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "0x-ximon/acario.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Open Issues",
+      "sense_id": "open-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

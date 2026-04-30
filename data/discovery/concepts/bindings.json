@@ -154,6 +154,18 @@
       "source_repo": "rust3ds/ctru-rs",
       "status": "candidate-context",
       "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "MuJoCo bindings and high-level wrappers for the Rust programming language. Includes the viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "rust3ds/ctru-rs",
       "status": "candidate",
       "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +403,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "davidhozic/mujoco-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -153,27 +153,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/oneDAL",
-      "target": "uxlfoundation/scikit-learn-intelex",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/oneDAL",
-      "target": "oap-project/oap-mllib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uxlfoundation/oneDAL",
-      "target": "uxlfoundation/foundation",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-aarch64.yml",
       "source_repo": "uxlfoundation/oneDAL",
@@ -454,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:42:17.328027+00:00",
+  "fetched_at": "2026-04-30T08:09:43.624167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -526,23 +505,7 @@
     ],
     "updated_at": "2026-04-27T21:05:36Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oap-project/oap-mllib",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "uxlfoundation/foundation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "uxlfoundation/scikit-learn-intelex",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CI AArch64\"",

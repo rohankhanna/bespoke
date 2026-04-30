@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "SebRollen/toml-action@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions-rs/install@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "facebook/dotslash-publish-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "facebook/buck2",
+      "target": "krallin/probminhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "facebook/buck2",
+      "target": "jean-pierreboth/probminhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "facebook/buck2",
+      "target": "facebookexperimental/rust-shed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "facebook/buck2",
+      "target": "jimblandy/perf-event",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml",
+      "source_repo": "facebook/buck2",
+      "target": "maxim-lobanov/setup-xcode@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-examples.yml",
+      "source_repo": "facebook/buck2",
+      "target": "Build and Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2",
+      "target": "maxim-lobanov/setup-xcode@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "SebRollen/toml-action@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions-rs/install@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "facebook/dotslash-publish-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "source_repo": "facebook/buck2",
+      "target": "Build, upload, and tag `buck2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:16.677546+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 19648
+    },
+    {
+      "path": ".github/workflows/build-and-examples.yml",
+      "size": 3551
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/upload_buck2.yml",
+      "size": 10927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build system, successor to Buck",
+    "fork": false,
+    "full_name": "facebook/buck2",
+    "html_url": "https://github.com/facebook/buck2",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T06:50:35Z",
+    "stargazers_count": 4324,
+    "topics": [],
+    "updated_at": "2026-04-30T06:30:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookexperimental/rust-shed",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jean-pierreboth/probminhash",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimblandy/perf-event",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krallin/probminhash",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-examples.yml",
+      "term": "Build and Examples"
+    },
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Build, upload, and tag `buck2`",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload_buck2.yml",
+      "term": "Build, upload, and tag `buck2"
+    }
+  ]
+}

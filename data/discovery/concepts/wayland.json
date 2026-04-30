@@ -55,6 +55,18 @@
       "source_repo": "YaLTeR/wl-clipboard-rs",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emersion/grim",
+      "status": "candidate-context",
+      "text": "Grab images from a Wayland compositor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emersion/grim",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **Heads up!** This project has [moved to SourceHut](https://sr.ht/~emersion/grim/)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "YaLTeR/wl-clipboard-rs",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emersion/grim",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **Heads up!** This project has [moved to SourceHut](https://sr.ht/~emersion/grim/)."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "YaLTeR/wl-clipboard-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "emersion/grim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

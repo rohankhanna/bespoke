@@ -1090,6 +1090,66 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate-context",
+      "text": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "\u2693\ufe0f+\u26a1\ufe0f- Oxlint plugin for vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "Simple tool for fixing common misspellings, typos in source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "This is the mono-repo for the following related projects"
     }
   ],
   "candidate_glosses": [
@@ -1632,6 +1692,36 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redocly-cli",
+      "status": "candidate",
+      "text": "[@Redocly](https://redocly.com) CLI is your all-in-one API documentation utility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "52-entertainment/vite-plugin-oxlint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vite-plugin-oxlint.svg)](https://www.npmjs.com/package/vite-plugin-oxlint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlajos/misspell-fixer",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vlajos/misspell-fixer.svg?branch=master)](https://travis-ci.org/vlajos/misspell-fixer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate",
+      "text": "This is the mono-repo for the following related projects"
     }
   ],
   "candidate_related_terms": [
@@ -2521,11 +2611,119 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redocly-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "52-entertainment/vite-plugin-oxlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "flagos-ai/FlagGems"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

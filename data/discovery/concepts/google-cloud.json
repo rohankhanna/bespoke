@@ -163,6 +163,18 @@
       "source_repo": "googleapis/google-cloud-node",
       "status": "candidate-context",
       "text": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "A tutorial for creating a complete application using Node.js on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "This repository contains the complete sample code for the"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "googleapis/google-cloud-node",
       "status": "candidate",
       "text": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate",
+      "text": "This repository contains the complete sample code for the"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

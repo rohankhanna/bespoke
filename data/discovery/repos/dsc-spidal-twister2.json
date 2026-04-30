@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:11:04.268388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A composable framework for fast and scalable data analytics",
+    "fork": true,
+    "full_name": "DSC-SPIDAL/twister2",
+    "html_url": "https://github.com/DSC-SPIDAL/twister2",
+    "language": null,
+    "pushed_at": "2022-11-20T01:07:16Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-03-02T11:20:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

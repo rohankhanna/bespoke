@@ -1,0 +1,52 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_text_features_web",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:03.161364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2470
+    },
+    {
+      "path": "Dockerfile",
+      "size": 386
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "microservice for image_text retrieval",
+    "fork": false,
+    "full_name": "qwertyforce/image_text_features_web",
+    "html_url": "https://github.com/qwertyforce/image_text_features_web",
+    "language": "Python",
+    "pushed_at": "2023-07-05T19:12:18Z",
+    "stargazers_count": 3,
+    "topics": [
+      "pytorch"
+    ],
+    "updated_at": "2024-11-02T09:36:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Faiss + Pytorch + FastAPI + LMDB <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteDance-Seed/Bagel",
+      "target": "mercurystraw/kris_bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteDance-Seed/Bagel",
+      "target": "phoenixz810/risebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteDance-Seed/Bagel",
+      "target": "pku-yuangroup/imgedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ByteDance-Seed/Bagel",
+      "target": "neverbiasu/comfyui-bagel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:36.443250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12307
+    },
+    {
+      "path": "requirements.txt",
+      "size": 435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source unified multimodal model",
+    "fork": false,
+    "full_name": "ByteDance-Seed/Bagel",
+    "html_url": "https://github.com/ByteDance-Seed/Bagel",
+    "language": "Python",
+    "pushed_at": "2025-10-27T03:01:28Z",
+    "stargazers_count": 5879,
+    "topics": [],
+    "updated_at": "2026-04-30T05:34:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mercurystraw/kris_bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neverbiasu/comfyui-bagel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phoenixz810/risebench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/imgedit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

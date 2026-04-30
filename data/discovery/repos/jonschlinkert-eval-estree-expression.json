@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "component": "@babel/eslint-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "escodegen",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "get-value",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "set-value",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "@babel/eslint-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "@babel/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "@babel/generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "@babel/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "escodegen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "get-value",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "set-value",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "babeljs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "clause",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "escodegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "esprima",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "estree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "eval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "evaluate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "evaluate-expressions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "expression-evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "when",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "target": "where",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:09.685665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11863
+    },
+    {
+      "path": "package.json",
+      "size": 2091
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Safely evaluate JavaScript (estree) expressions, sync and async.",
+    "fork": false,
+    "full_name": "jonschlinkert/eval-estree-expression",
+    "html_url": "https://github.com/jonschlinkert/eval-estree-expression",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-29T16:53:01Z",
+    "stargazers_count": 68,
+    "topics": [
+      "ast",
+      "babel",
+      "babeljs",
+      "clause",
+      "context",
+      "escodegen",
+      "esprima",
+      "estree",
+      "eval",
+      "evaluate",
+      "evaluate-expressions",
+      "evaluation",
+      "evaluator",
+      "expression",
+      "expression-evaluator",
+      "parse",
+      "parser",
+      "when",
+      "where"
+    ],
+    "updated_at": "2026-01-01T03:33:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babeljs"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clause"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "escodegen"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esprima"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "estree"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eval"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluate"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluate-expressions"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluator"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression-evaluator"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "when"
+    },
+    {
+      "context_snippet": "> Safely evaluate JavaScript (estree) expressions, sync and async.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "where"
+    }
+  ]
+}

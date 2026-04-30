@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:22:00.968403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1205
+    },
+    {
+      "path": "Dockerfile",
+      "size": 372
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "qwertyforce/color_web",
+    "html_url": "https://github.com/qwertyforce/color_web",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-05T19:10:51Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-01-17T16:00:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

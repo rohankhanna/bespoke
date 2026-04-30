@@ -1,12 +1,17 @@
 {
   "component": "googleapis/release-please-action@5c625bfb5d1ff62eadeeb3772007f7f66fdcf071",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "LavaMoat/LavaMoat"
     }
   ]
 }

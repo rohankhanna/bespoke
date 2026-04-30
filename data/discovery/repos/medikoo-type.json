@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-medikoo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "git-list-updated",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "github-release-from-cc-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-elastic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "medikoo/github-actions-workflows/.github/workflows/10-integrate.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yml"
+    },
+    {
+      "component": "medikoo/github-actions-workflows/.github/workflows/publish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "medikoo/github-actions-workflows/.github/workflows/10-validate.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "eslint-config-medikoo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "git-list-updated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "github-release-from-cc-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "medikoo/type",
+      "target": "prettier-elastic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "medikoo/type",
+      "target": "medikoo/github-actions-workflows/.github/workflows/10-integrate.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "medikoo/type",
+      "target": "Integrate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "medikoo/type",
+      "target": "medikoo/github-actions-workflows/.github/workflows/publish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "medikoo/type",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "medikoo/type",
+      "target": "medikoo/github-actions-workflows/.github/workflows/10-validate.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "medikoo/type",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:13.859200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6791
+    },
+    {
+      "path": "package.json",
+      "size": 2448
+    },
+    {
+      "path": ".github/workflows/integrate.yml",
+      "size": 252
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 314
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runtime validation and processing of JavaScript types",
+    "fork": false,
+    "full_name": "medikoo/type",
+    "html_url": "https://github.com/medikoo/type",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-30T19:11:21Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-03-05T15:41:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integrate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrate.yml",
+      "term": "Integrate"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    }
+  ]
+}

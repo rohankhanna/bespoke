@@ -19,6 +19,18 @@
       "source_repo": "abpframework/abp",
       "status": "candidate-context",
       "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "Kubernetes Scheduler for Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abpframework/abp",
       "status": "candidate",
       "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pool Usage Telemetry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pool Usage Telemetry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23130,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18459,
+      "status": "candidate",
+      "text": "telekinesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18388,
+      "status": "candidate",
+      "text": "applications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14371,
+      "status": "candidate",
+      "text": "customs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14371,
+      "status": "candidate",
+      "text": "nekton"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pool Usage Telemetry",
+      "sense_id": "pool-usage-telemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pool-usage-telemetry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pool-usage-telemetry",
+  "observation_id": "c3f49917e287810f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Pool Usage Telemetry",
+  "source_context_snippet": "Pool Usage Telemetry",
+  "source_file": ".github/workflows/pool-telemetry.yml",
+  "source_repo": "ServiceNow/WorkArena",
+  "source_repo_description": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+}

@@ -19,6 +19,30 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate-context",
       "text": "WAFFLE - Windows Authentication Framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos library for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate-context",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "A native Kerberos client implementation for Python on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate-context",
+      "text": "==========="
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "WAFFLE - Windows Authentication Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb-js/kerberos",
+      "status": "candidate",
+      "text": "Kerberos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/winkerberos",
+      "status": "candidate",
+      "text": "==========="
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb-js/kerberos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/winkerberos"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

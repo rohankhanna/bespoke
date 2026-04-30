@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:41:44.661776+00:00",
+  "fetched_at": "2026-04-30T09:08:18.169153+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -241,7 +241,7 @@
     "html_url": "https://github.com/nvim-tree/nvim-web-devicons",
     "language": "Lua",
     "pushed_at": "2026-04-28T01:19:44Z",
-    "stargazers_count": 2656,
+    "stargazers_count": 2657,
     "topics": [
       "icons",
       "lua",
@@ -249,7 +249,7 @@
       "neovim-plugins",
       "nerd-fonts"
     ],
-    "updated_at": "2026-04-28T06:10:47Z"
+    "updated_at": "2026-04-29T20:25:32Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write JS code that runs in a different context. E.g. use the DOM in a Web Worker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dom-api",
+      "sense_id": "dom-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dom-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dom-api",
+  "observation_id": "d49791d1711741e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "dom-api",
+  "source_context_snippet": "Via.js lets you write JavaScript code that runs in a different context. The two main uses for this are:",
+  "source_file": null,
+  "source_repo": "AshleyScirra/via.js",
+  "source_repo_description": "Write JS code that runs in a different context. E.g. use the DOM in a Web Worker."
+}

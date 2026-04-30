@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@1583c0f09d26c58c59d25b0eef29792b7ce99d9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml"
+    },
+    {
+      "component": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "docker/setup-buildx-action@1583c0f09d26c58c59d25b0eef29792b7ce99d9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "Push Docker Image to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "SDK CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "SDK Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "all-in-one",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "sandbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:28.687810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15276
+    },
+    {
+      "path": "package.json",
+      "size": 248
+    },
+    {
+      "path": ".github/workflows/push-to-ghcr.yml",
+      "size": 2211
+    },
+    {
+      "path": ".github/workflows/sdk-ci.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/sdk-publish.yml",
+      "size": 5377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
+    "fork": false,
+    "full_name": "agent-infra/sandbox",
+    "html_url": "https://github.com/agent-infra/sandbox",
+    "language": "Python",
+    "pushed_at": "2026-04-10T03:28:44Z",
+    "stargazers_count": 4483,
+    "topics": [
+      "agent",
+      "all-in-one",
+      "browser",
+      "filesystem",
+      "mcp",
+      "sandbox",
+      "shell"
+    ],
+    "updated_at": "2026-04-30T06:30:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push Docker Image to GHCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "term": "Push Docker Image to GHCR"
+    },
+    {
+      "context_snippet": "SDK CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "term": "SDK CI"
+    },
+    {
+      "context_snippet": "SDK Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "term": "SDK Publish"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "all-in-one"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sandbox"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

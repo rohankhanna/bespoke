@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "target": "jojkaart/comfyui-sampler-lcm-alternative",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "target": "animate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "target": "animatelcm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "target": "comfyui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:50.951181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI Custom Node for AnimateLCM",
+    "fork": false,
+    "full_name": "dezi-ai/ComfyUI-AnimateLCM",
+    "html_url": "https://github.com/dezi-ai/ComfyUI-AnimateLCM",
+    "language": "Python",
+    "pushed_at": "2024-02-07T17:34:39Z",
+    "stargazers_count": 164,
+    "topics": [
+      "animate",
+      "animatelcm",
+      "comfyui",
+      "lcm"
+    ],
+    "updated_at": "2026-01-16T06:21:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jojkaart/comfyui-sampler-lcm-alternative",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animate"
+    },
+    {
+      "context_snippet": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animatelcm"
+    },
+    {
+      "context_snippet": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    }
+  ]
+}

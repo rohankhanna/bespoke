@@ -31,6 +31,18 @@
       "source_repo": "bitwarden/server",
       "status": "candidate-context",
       "text": "Enforce PR labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Auto QUality Assurance for Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Enforce PR labels"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bitwarden/server",
+      "status": "candidate",
+      "text": "Enforce PR labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
       "status": "candidate",
       "text": "Enforce PR labels"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/enforce-labels.yml",
       "source_repo": "bitwarden/server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/enforce-labels.yml",
+      "source_repo": "JuliaTesting/Aqua.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:29:07.955860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flutter Launch Timeline Demo",
+    "fork": false,
+    "full_name": "2d-inc/HistoryOfEverything",
+    "html_url": "https://github.com/2d-inc/HistoryOfEverything",
+    "language": "Dart",
+    "pushed_at": "2021-09-22T19:36:20Z",
+    "stargazers_count": 6583,
+    "topics": [],
+    "updated_at": "2026-04-25T15:24:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

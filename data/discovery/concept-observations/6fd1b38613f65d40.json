@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tabnine Client for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enforce PR-Jira association"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enforce PR-Jira association"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12074,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "applied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "apply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "applying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce PR-Jira association",
+      "sense_id": "enforce-pr-jira-association#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-pr-jira-association",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-pr-jira-association",
+  "observation_id": "6fd1b38613f65d40",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Enforce PR-Jira association",
+  "source_context_snippet": "Enforce PR-Jira association",
+  "source_file": ".github/workflows/enforce-pr-jira-association.yml",
+  "source_repo": "codota/tabnine-nvim",
+  "source_repo_description": "Tabnine Client for Neovim"
+}

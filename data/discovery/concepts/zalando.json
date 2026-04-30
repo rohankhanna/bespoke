@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "zalando"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate-context",
+      "text": "A model set of guidelines for RESTful APIs and Events, created by Zalando"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate-context",
+      "text": "Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate",
+      "text": "Build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zalando",
+  "concept_id": "zalando",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zalando",
+      "sense_id": "zalando#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

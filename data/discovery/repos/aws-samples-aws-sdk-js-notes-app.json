@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "aws-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "aws-sdk-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-notes-app",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:50.890800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3576
+    },
+    {
+      "path": "package.json",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple note taking application using modular AWS SDK for JavaScript (v3)",
+    "fork": false,
+    "full_name": "aws-samples/aws-sdk-js-notes-app",
+    "html_url": "https://github.com/aws-samples/aws-sdk-js-notes-app",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-07T04:38:09Z",
+    "stargazers_count": 87,
+    "topics": [
+      "aws",
+      "aws-sdk",
+      "aws-sdk-js",
+      "javascript",
+      "lambda",
+      "nodejs",
+      "sdk",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T11:52:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "In this app, you are going to build a simple note taking application using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk"
+    },
+    {
+      "context_snippet": "In this app, you are going to build a simple note taking application using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk-js"
+    },
+    {
+      "context_snippet": "In this app, you are going to build a simple note taking application using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "In this app, you are going to build a simple note taking application using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

@@ -505,6 +505,54 @@
       "source_repo": "slime/slime",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate-context",
+      "text": "Emacs Plus formulae for the Homebrew package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate-context",
+      "text": "Build Emacs.app"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "Fuzzy matching utilities for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "status": "candidate-context",
+      "text": "Fancy completion all over Emacs, not just for buffers and files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "status": "candidate-context",
+      "text": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "Clojure nREPL client for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -759,6 +807,30 @@
       "source_repo": "slime/slime",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d12frosted/homebrew-emacs-plus",
+      "status": "candidate",
+      "text": "Build Emacs.app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "status": "candidate",
+      "text": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1054,11 +1126,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "slime/slime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "d12frosted/homebrew-emacs-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sanel/monroe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "runwayml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "status": "candidate-context",
+      "text": "RunwayML for Photoshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "status": "candidate-context",
+      "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runwayml/RunwayML-for-Photoshop",
+      "status": "candidate",
+      "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "runwayml",
+  "concept_id": "runwayml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "runwayml/RunwayML-for-Photoshop"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "runwayml",
+      "sense_id": "runwayml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

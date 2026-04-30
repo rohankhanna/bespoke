@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Compress Images"
+    "Compress Images",
+    "compress-images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,30 @@
       "source_repo": "twbs/bootstrap",
       "status": "candidate-context",
       "text": "Compress Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate-context",
+      "text": "Compress Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate-context",
+      "text": "Super-easy automated image compression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate-context",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +108,18 @@
       "source_repo": "twbs/bootstrap",
       "status": "candidate",
       "text": "Compress Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "status": "candidate",
+      "text": "Compress Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumcumo/imagemin-merlin",
+      "status": "candidate",
+      "text": "Merlin is an extension of [imagemin](https://www.npmjs.com/package/imagemin) that makes it _super-easy_ to automatically, efficiently compress GIF, JPG and PNG graphics."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +187,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/calibreapp-image-actions.yml",
       "source_repo": "twbs/bootstrap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sumcumo/imagemin-merlin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate-context",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps for iOS powered by vector tiles and Metal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-maps-ios",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "geocompx/geocompr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-ios"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

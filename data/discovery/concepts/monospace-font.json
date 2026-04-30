@@ -31,6 +31,18 @@
       "source_repo": "be5invis/Iosevka",
       "status": "candidate-context",
       "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "belluzj/fantasque-sans",
+      "status": "candidate-context",
+      "text": "A font family with a great monospaced variant for programmers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belluzj/fantasque-sans",
+      "status": "candidate-context",
+      "text": "Fantasque Sans Mono"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "be5invis/Iosevka",
       "status": "candidate",
       "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belluzj/fantasque-sans",
+      "status": "candidate",
+      "text": "Fantasque Sans Mono"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "be5invis/Iosevka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

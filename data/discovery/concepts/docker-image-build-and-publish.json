@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Image Build and Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate-context",
+      "text": "Install Argo CD extensions using init-containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate-context",
+      "text": "Docker Image Build and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "status": "candidate",
+      "text": "Docker Image Build and Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21375,
+      "status": "candidate",
+      "text": "pants"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21375,
+      "status": "candidate",
+      "text": "pier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21337,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21305,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21305,
+      "status": "candidate",
+      "text": "scoop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Image Build and Publish",
+  "concept_id": "docker-image-build-and-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Image Build and Publish",
+      "sense_id": "docker-image-build-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

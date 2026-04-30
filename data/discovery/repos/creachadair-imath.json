@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "creachadair/imath",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "creachadair/imath",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creachadair/imath",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creachadair/imath",
+      "target": "arithmetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "creachadair/imath",
+      "target": "math",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:28.517857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4282
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 1067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Arbitrary precision integer and rational arithmetic library",
+    "fork": false,
+    "full_name": "creachadair/imath",
+    "html_url": "https://github.com/creachadair/imath",
+    "language": "C",
+    "pushed_at": "2026-02-13T06:33:53Z",
+    "stargazers_count": 153,
+    "topics": [
+      "arbitrary-precision",
+      "arithmetic",
+      "c",
+      "math"
+    ],
+    "updated_at": "2026-04-08T06:07:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "IMath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "IMath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arithmetic"
+    },
+    {
+      "context_snippet": "IMath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    }
+  ]
+}

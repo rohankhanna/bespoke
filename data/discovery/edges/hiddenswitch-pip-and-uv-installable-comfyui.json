@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "hiddenswitch/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "facebookresearch/nougat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "hiddenswitch/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Append API Node PR template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Check AI Co-Authors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "insightsengineering/disk-space-reclaimer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-amd.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Build and Publish Docker Image (AMD)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "insightsengineering/disk-space-reclaimer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Build and Publish Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-latest.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Backend Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ci-container.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ci-container.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-ci-container.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "CI: Update CI Container",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
+}

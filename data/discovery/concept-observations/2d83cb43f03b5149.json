@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sql mock driver for golang to test database interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009734,
+      "status": "candidate",
+      "text": "bemock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996562,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958842,
+      "status": "candidate",
+      "text": "mimic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953441,
+      "status": "candidate",
+      "text": "imitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010576,
+      "status": "candidate",
+      "text": "spoofed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mock",
+      "sense_id": "mock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22046,
+      "status": "candidate",
+      "text": "mimic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9029,
+      "status": "candidate",
+      "text": "imitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5017,
+      "status": "candidate",
+      "text": "bemock"
+    }
+  ],
+  "concept_id": "mock",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mock",
+  "observation_id": "2d83cb43f03b5149",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "mock",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/DATA-DOG/go-sqlmock.svg)](https://travis-ci.org/DATA-DOG/go-sqlmock)",
+  "source_file": null,
+  "source_repo": "DATA-DOG/go-sqlmock",
+  "source_repo_description": "Sql mock driver for golang to test database interactions"
+}

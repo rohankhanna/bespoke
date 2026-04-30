@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "R-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sillyplots/spotifyr",
+      "target": "music-information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sillyplots/spotifyr",
+      "target": "spotify",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "sillyplots/spotifyr"
+}

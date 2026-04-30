@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDiff/BlueStyle",
-      "target": "juliaci/benchmarktools.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "JuliaDiff/BlueStyle",
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:00:06.202178+00:00",
+  "fetched_at": "2026-04-30T08:23:47.725719+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,13 +64,7 @@
     ],
     "updated_at": "2026-04-05T15:08:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliaci/benchmarktools.jl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)",

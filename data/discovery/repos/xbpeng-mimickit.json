@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xbpeng/MimicKit",
+      "target": "nvlabs/protomotions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xbpeng/MimicKit",
+      "target": "yanjieze/gmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit",
+      "target": "motion-imitation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xbpeng/MimicKit",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:29.445108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8211
+    },
+    {
+      "path": "requirements.txt",
+      "size": 107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight suite of motion imitation methods for training controllers.",
+    "fork": false,
+    "full_name": "xbpeng/MimicKit",
+    "html_url": "https://github.com/xbpeng/MimicKit",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:19:11Z",
+    "stargazers_count": 1914,
+    "topics": [
+      "animation",
+      "motion-imitation",
+      "reinforcement-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-04-30T05:37:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/protomotions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanjieze/gmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-imitation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

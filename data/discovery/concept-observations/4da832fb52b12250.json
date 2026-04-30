@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depth-estimation",
+      "sense_id": "depth-estimation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "depth-estimation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "depth-estimation",
+  "observation_id": "4da832fb52b12250",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "depth-estimation",
+  "source_context_snippet": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>",
+  "source_file": null,
+  "source_repo": "olegchomp/TDDepthAnything",
+  "source_repo_description": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation."
+}

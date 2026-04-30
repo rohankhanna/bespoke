@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "some-org/somerepo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "Docker Image Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "argoproj-labs/argocd-extension-installer",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:05.464289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8547
+    },
+    {
+      "path": "Dockerfile",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/publish-image.yml",
+      "size": 1410
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Install Argo CD extensions using init-containers",
+    "fork": false,
+    "full_name": "argoproj-labs/argocd-extension-installer",
+    "html_url": "https://github.com/argoproj-labs/argocd-extension-installer",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T17:27:45Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-18T00:00:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "some-org/somerepo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "Docker Image Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "term": "Docker Image Build and Publish"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

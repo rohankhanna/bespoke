@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:13.945706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10425
+    },
+    {
+      "path": "requirements.txt",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(NeurIPS 2024 Oral \ud83d\udd25) Improved Distribution Matching Distillation for Fast Image Synthesis",
+    "fork": false,
+    "full_name": "tianweiy/DMD2",
+    "html_url": "https://github.com/tianweiy/DMD2",
+    "language": "Python",
+    "pushed_at": "2025-03-05T06:04:36Z",
+    "stargazers_count": 1314,
+    "topics": [],
+    "updated_at": "2026-04-29T13:29:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "sigstore/gitsign",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/smimesign",
+      "status": "candidate-context",
+      "text": "An S/MIME signing utility for use with Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/smimesign",
+      "status": "candidate-context",
+      "text": "![PkgGoDev](https://pkg.go.dev/badge/github.com/github/smimesign?utm_source=godoc)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sigstore/gitsign",
       "status": "candidate",
       "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/smimesign",
+      "status": "candidate",
+      "text": "![PkgGoDev](https://pkg.go.dev/badge/github.com/github/smimesign?utm_source=godoc)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "github/smimesign"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

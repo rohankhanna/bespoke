@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.147.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yousty/event_store_client",
+      "target": "yousty/event_store_subscriptions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yousty/event_store_client",
+      "target": "eventstore/eventstore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "ruby/setup-ruby@v1.147.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "Test & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "ruby/setup-ruby@v1.147.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-test.yml",
+      "source_repo": "yousty/event_store_client",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:32:14.006219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2552
+    },
+    {
+      "path": ".github/workflows/gem-push.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/gem-test.yml",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby integration for https://eventstore.org",
+    "fork": false,
+    "full_name": "yousty/event_store_client",
+    "html_url": "https://github.com/yousty/event_store_client",
+    "language": "Ruby",
+    "pushed_at": "2023-09-14T08:03:23Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2025-08-04T08:53:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/eventstore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yousty/event_store_subscriptions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test & Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-push.yml",
+      "term": "Test & Publish"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem-test.yml",
+      "term": "Run tests"
+    }
+  ]
+}

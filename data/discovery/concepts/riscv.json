@@ -67,6 +67,18 @@
       "source_repo": "OAID/Tengine",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "A FPGA friendly 32 bit RISC-V CPU implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate-context",
+      "text": "- [Index](#index)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "OAID/Tengine",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "status": "candidate",
+      "text": "- [Index](#index)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

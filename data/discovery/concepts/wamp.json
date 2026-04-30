@@ -19,6 +19,30 @@
       "source_repo": "crossbario/autobahn-python",
       "status": "candidate-context",
       "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "WAMP for C++ in Boost/Asio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate-context",
+      "text": "WAMP for C++ on Boost/ASIO."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP in JavaScript for Browsers and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate-context",
+      "text": "WAMP for Browsers and NodeJS."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "crossbario/autobahn-python",
       "status": "candidate",
       "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-cpp",
+      "status": "candidate",
+      "text": "WAMP for C++ on Boost/ASIO."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-js",
+      "status": "candidate",
+      "text": "WAMP for Browsers and NodeJS."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "crossbario/autobahn-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-js"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

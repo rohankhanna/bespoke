@@ -1,0 +1,435 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@v0.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml"
+    },
+    {
+      "component": "hashicorp/packer-github-actions@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@v0.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_images.yml"
+    },
+    {
+      "component": "anc95/ChatGPT-CodeReview@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-schema.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-schema.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "battila7/get-version-action@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "appbaseio/searchbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "appbaseio/reactivesearch-api-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "appleboy/ssh-action@v0.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary-publish.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "hashicorp/packer-github-actions@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binary-publish.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "build binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_images.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "peter-evans/repository-dispatch@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_images.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "Send Build Image Event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-review.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "anc95/ChatGPT-CodeReview@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-review.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-schema.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-schema.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-schema.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "Create Schema for latest release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "battila7/get-version-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "ReactiveSearch API server - Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "api-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "elasticsearch-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "elasticsearch-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api",
+      "target": "reactivesearch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:26:30.472906+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18128
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1887
+    },
+    {
+      "path": "go.mod",
+      "size": 2314
+    },
+    {
+      "path": ".github/workflows/binary-publish.yml",
+      "size": 10712
+    },
+    {
+      "path": ".github/workflows/build_images.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/code-review.yml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/create-schema.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 1755
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "API Gateway for Elasticsearch with declarative querying and out-of-the-box access controls",
+    "fork": false,
+    "full_name": "appbaseio/reactivesearch-api",
+    "html_url": "https://github.com/appbaseio/reactivesearch-api",
+    "language": "Go",
+    "pushed_at": "2026-02-23T18:13:18Z",
+    "stargazers_count": 211,
+    "topics": [
+      "api-gateway",
+      "elasticsearch",
+      "elasticsearch-api",
+      "elasticsearch-plugin",
+      "hacktoberfest",
+      "reactivesearch"
+    ],
+    "updated_at": "2026-02-24T23:41:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/reactivesearch-api-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appbaseio/searchbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build binary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binary-publish.yml",
+      "term": "build binary"
+    },
+    {
+      "context_snippet": "Send Build Image Event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_images.yml",
+      "term": "Send Build Image Event"
+    },
+    {
+      "context_snippet": "Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-review.yml",
+      "term": "Code Review"
+    },
+    {
+      "context_snippet": "Create Schema for latest release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-schema.yml",
+      "term": "Create Schema for latest release"
+    },
+    {
+      "context_snippet": "ReactiveSearch API server - Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "ReactiveSearch API server - Docker build"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-gateway"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch-api"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch-plugin"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactivesearch"
+    }
+  ]
+}

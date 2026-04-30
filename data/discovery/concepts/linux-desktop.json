@@ -19,6 +19,18 @@
       "source_repo": "flutter/flutter",
       "status": "candidate-context",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatpak/xdg-desktop-portal",
+      "status": "candidate-context",
+      "text": "Desktop integration portal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/xdg-desktop-portal",
+      "status": "candidate-context",
+      "text": "[![Portals](doc/website/assets/readme.png)](https://flatpak.github.io/xdg-desktop-portal/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "flutter/flutter",
       "status": "candidate",
       "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/xdg-desktop-portal",
+      "status": "candidate",
+      "text": "[![Portals](doc/website/assets/readme.png)](https://flatpak.github.io/xdg-desktop-portal/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flatpak/xdg-desktop-portal"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

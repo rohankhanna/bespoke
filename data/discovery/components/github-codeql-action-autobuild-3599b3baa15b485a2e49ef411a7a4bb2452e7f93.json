@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@3599b3baa15b485a2e49ef411a7a4bb2452e7f93",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "google/magika"
+    }
+  ]
+}

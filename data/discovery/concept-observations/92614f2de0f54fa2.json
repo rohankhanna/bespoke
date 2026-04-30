@@ -84,7 +84,7 @@
   "normalized_form": "check-commit-message-style",
   "observation_id": "92614f2de0f54fa2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Check commit message style",
   "source_context_snippet": "'Check commit message style'",
   "source_file": ".github/workflows/check_pr_title.yml",

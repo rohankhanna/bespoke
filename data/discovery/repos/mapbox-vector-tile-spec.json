@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/vector-tile-spec",
+      "target": "mapbox/awesome-vector-tiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/vector-tile-spec",
+      "target": "jingsam/vector-tile-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/vector-tile-spec",
+      "target": "madefor/vector-tile-spec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:28.533388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mapbox Vector Tile specification",
+    "fork": false,
+    "full_name": "mapbox/vector-tile-spec",
+    "html_url": "https://github.com/mapbox/vector-tile-spec",
+    "language": null,
+    "pushed_at": "2024-04-17T09:18:02Z",
+    "stargazers_count": 997,
+    "topics": [],
+    "updated_at": "2026-04-16T07:15:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jingsam/vector-tile-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madefor/vector-tile-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/awesome-vector-tiles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

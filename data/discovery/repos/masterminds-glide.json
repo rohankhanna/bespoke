@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Masterminds/glide",
+      "target": "masterminds/semver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Masterminds/glide",
+      "target": "homebrew/homebrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Masterminds/glide",
+      "target": "masterminds/vcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Masterminds/glide",
+      "target": "mattfarina/golang-broken-vendor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Masterminds/glide",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Masterminds/glide",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Masterminds/glide",
+      "target": "semantic-versions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:35.887953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package Management for Golang",
+    "fork": false,
+    "full_name": "Masterminds/glide",
+    "html_url": "https://github.com/Masterminds/glide",
+    "language": "Go",
+    "pushed_at": "2024-07-22T15:41:52Z",
+    "stargazers_count": 8101,
+    "topics": [
+      "go",
+      "golang",
+      "package-management",
+      "semantic-versions"
+    ],
+    "updated_at": "2026-04-29T04:42:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homebrew/homebrew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masterminds/semver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masterminds/vcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattfarina/golang-broken-vendor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![glide logo](https://glide.sh/assets/logo-small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![glide logo](https://glide.sh/assets/logo-small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "![glide logo](https://glide.sh/assets/logo-small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-versions"
+    }
+  ]
+}

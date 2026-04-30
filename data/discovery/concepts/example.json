@@ -103,6 +103,18 @@
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader in React with gRPC-Web and Go backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate-context",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easyCZ/grpc-web-hacker-news",
+      "status": "candidate",
+      "text": "An example app implementing a Hacker News reader. This example aims to demonstrate usage of [grpc-web](https://github.com/improbable-eng/grpc-web)(v0.5.0) with React. It additionally shows how to integrate with Redux."
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +322,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "easyCZ/grpc-web-hacker-news"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

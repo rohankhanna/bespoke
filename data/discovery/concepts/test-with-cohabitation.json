@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test with Cohabitation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Test with Cohabitation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate",
+      "text": "Test with Cohabitation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15617,
+      "status": "candidate",
+      "text": "polygyny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15617,
+      "status": "candidate",
+      "text": "separation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15052,
+      "status": "candidate",
+      "text": "biopsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15052,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15052,
+      "status": "candidate",
+      "text": "feared"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test with Cohabitation",
+  "concept_id": "test-with-cohabitation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cohabitation-test.yml",
+      "source_repo": "jawah/niquests"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with Cohabitation",
+      "sense_id": "test-with-cohabitation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

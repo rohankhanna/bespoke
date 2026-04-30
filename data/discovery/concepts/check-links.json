@@ -118,6 +118,30 @@
       "source_repo": "open-telemetry/opentelemetry-python-contrib",
       "status": "candidate-context",
       "text": "check-links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Python API and SDK "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate-context",
+      "text": "check-links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alrra/browser-logos",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc2 High resolution web browser logos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/browser-logos",
+      "status": "candidate-context",
+      "text": "Check links"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "open-telemetry/opentelemetry-python-contrib",
       "status": "candidate",
       "text": "check-links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python",
+      "status": "candidate",
+      "text": "check-links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/browser-logos",
+      "status": "candidate",
+      "text": "Check links"
     }
   ],
   "candidate_related_terms": [
@@ -301,11 +337,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "open-telemetry/opentelemetry-python-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "alrra/browser-logos"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

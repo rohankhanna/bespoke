@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SearchBox UI component library for flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "searchbox",
+      "sense_id": "searchbox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "searchbox",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "searchbox",
+  "observation_id": "13fa8a7fce3352ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "searchbox",
+  "source_context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your Elasticsearch index using declarative props. It's available for React, Vue, React Native and Flutter. This repo contains the Flutter variant of the library. If y\u2026",
+  "source_file": null,
+  "source_repo": "appbaseio/flutter-searchbox",
+  "source_repo_description": "SearchBox UI component library for flutter"
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "imaging"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945244,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896963,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895695,
+      "status": "candidate",
+      "text": "tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947356,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947355,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10049,
+      "status": "candidate",
+      "text": "imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3013,
+      "status": "candidate",
+      "text": "mental imagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "tomography"
+    }
+  ],
+  "canonical_name": "imaging",
+  "concept_id": "imaging",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imaging",
+      "sense_id": "imaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

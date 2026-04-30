@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimal templating with {{mustaches}} in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Verify changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Verify changes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110094962,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110093962,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 110092962,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109994962,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 109994962,
+      "status": "candidate",
+      "text": "examine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify changes",
+      "sense_id": "verify-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verify-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify-changes",
+  "observation_id": "31e8a06f3cd59a3a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Verify changes",
+  "source_context_snippet": "Verify changes",
+  "source_file": ".github/workflows/verify.yml",
+  "source_repo": "janl/mustache.js",
+  "source_repo_description": "Minimal templating with {{mustaches}} in JavaScript"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:19:07.943805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 289
+    },
+    {
+      "path": "go.mod",
+      "size": 1586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "quickws\u7684example\u4ee3\u7801",
+    "fork": false,
+    "full_name": "antlabs/quickws-example",
+    "html_url": "https://github.com/antlabs/quickws-example",
+    "language": "Go",
+    "pushed_at": "2024-06-13T12:57:42Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-08-18T08:50:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

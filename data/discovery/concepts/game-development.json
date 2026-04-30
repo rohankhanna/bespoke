@@ -175,6 +175,30 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate-context",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Ebitengine frameworks, libraries and software "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "The ioquake3 community effort to continue supporting/developing id's Quake III Arena"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "hecrj/coffee",
       "status": "candidate",
       "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioquake/ioq3",
+      "status": "candidate",
+      "text": "![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "hecrj/coffee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ioquake/ioq3"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

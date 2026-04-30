@@ -400,6 +400,42 @@
       "source_repo": "appium/appium",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -598,6 +634,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "appium/appium",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-inspector",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -949,11 +1003,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "appium/appium-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

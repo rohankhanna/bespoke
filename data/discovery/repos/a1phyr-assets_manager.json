@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "a1phyr/assets_manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:45.774341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3312
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3284
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Conveniently load, cache, and reload external resources",
+    "fork": false,
+    "full_name": "a1phyr/assets_manager",
+    "html_url": "https://github.com/a1phyr/assets_manager",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T17:58:37Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-04-15T17:58:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

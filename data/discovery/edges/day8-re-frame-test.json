@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-test",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-test",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "browser-actions/setup-chrome@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "homoluctus/slatify@v2.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "browser-actions/setup-chrome@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-test",
+      "target": "homoluctus/slatify@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-test",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-test",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "day8/re-frame-test"
+}

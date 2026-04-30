@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hayguen/pffft_benchmarks",
+      "target": "hayguen/pffft",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:32.264225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "benchmarks for pffft",
+    "fork": false,
+    "full_name": "hayguen/pffft_benchmarks",
+    "html_url": "https://github.com/hayguen/pffft_benchmarks",
+    "language": "Shell",
+    "pushed_at": "2022-01-19T21:46:00Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-08-16T00:12:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hayguen/pffft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

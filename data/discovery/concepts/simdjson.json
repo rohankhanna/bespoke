@@ -43,6 +43,18 @@
       "source_repo": "eddelbuettel/rcppsimdjson",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate-context",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "eddelbuettel/rcppsimdjson",
       "status": "candidate",
       "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EzequielRamis/zimdjson",
+      "status": "candidate",
+      "text": "> JSON is everywhere on the Internet. Servers spend a _lot_ of time parsing it. We need a fresh approach."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "eddelbuettel/rcppsimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "EzequielRamis/zimdjson"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

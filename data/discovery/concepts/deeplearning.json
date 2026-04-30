@@ -235,6 +235,42 @@
       "source_repo": "jolibrain/caffe",
       "status": "candidate-context",
       "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-agent",
+      "status": "candidate-context",
+      "text": "ClearML Agent - ML-Ops made easy. ML-Ops scheduler & orchestration solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-agent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "Muggled DPT: Depth estimation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume, CVPR 2018 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "jolibrain/caffe",
       "status": "candidate",
       "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml-agent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -496,11 +550,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jolibrain/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/PWC-Net"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

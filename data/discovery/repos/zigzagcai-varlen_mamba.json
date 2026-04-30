@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "Jimver/cuda-toolkit@v0.2.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zigzagcai/varlen_mamba",
+      "target": "Build wheels and deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:01:18.053895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11490
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/_build.yml",
+      "size": 9530
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1475
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 3743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "feat/add-cu_seqlens",
+    "description": "Mamba SSM architecture that supports training on variable-length sequences",
+    "fork": true,
+    "full_name": "zigzagcai/varlen_mamba",
+    "html_url": "https://github.com/zigzagcai/varlen_mamba",
+    "language": "Python",
+    "pushed_at": "2025-09-01T03:10:09Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-09-01T03:10:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Build wheels and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Build wheels and deploy"
+    }
+  ]
+}

@@ -685,6 +685,66 @@
       "source_repo": "humbug/php-scoper",
       "status": "candidate-context",
       "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maralla/pack",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The missing vim8 package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maralla/pack",
+      "status": "candidate-context",
+      "text": "pack"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "A minimal, fast alternative to 'du -sh'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate-context",
+      "text": "Fast & Simple Note Taking! \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1023,6 +1083,36 @@
       "source_repo": "humbug/php-scoper",
       "status": "candidate",
       "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maralla/pack",
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/diskus",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/diskus/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1422,11 +1512,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "maralla/pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/diskus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "remkop/picocli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "box-project/box"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

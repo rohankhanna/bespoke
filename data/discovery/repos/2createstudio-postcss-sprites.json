@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "bluebird",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spritesmith",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg-sprite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-add-module-exports",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "ensighten/spritesmith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "jkphl/svg-sprite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "bluebird",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "spritesmith",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "svg-sprite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "babel-plugin-add-module-exports",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "postcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "postcss-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "sprites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "spritesheets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "spritesmith",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2createStudio/postcss-sprites",
+      "target": "svg-sprites",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:26:36.550947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6107
+    },
+    {
+      "path": "package.json",
+      "size": 1203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate sprites from stylesheets.",
+    "fork": false,
+    "full_name": "2createStudio/postcss-sprites",
+    "html_url": "https://github.com/2createStudio/postcss-sprites",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-17T07:35:52Z",
+    "stargazers_count": 414,
+    "topics": [
+      "css",
+      "postcss",
+      "postcss-plugin",
+      "sprites",
+      "spritesheets",
+      "spritesmith",
+      "svg",
+      "svg-sprites"
+    ],
+    "updated_at": "2026-01-27T23:39:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ensighten/spritesmith",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkphl/svg-sprite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss"
+    },
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss-plugin"
+    },
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sprites"
+    },
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spritesheets"
+    },
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spritesmith"
+    },
+    {
+      "context_snippet": "> [PostCSS](https://github.com/postcss/postcss) plugin that generates spritesheets from your stylesheets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-sprites"
+    }
+  ]
+}

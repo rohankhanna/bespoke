@@ -163,6 +163,30 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "caching proxy for OpenAI API, deployable as a Cloudflare Worker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate-context",
+      "text": "Llama3.java Inference engine with OpenAI Chat Completion REST API/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate-context",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "6/openai-caching-proxy-worker",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stephanj/Llama3JavaChatCompletionService",
+      "status": "candidate",
+      "text": "This project provides a REST API wrapper for the amazing [Llama3.java project](https://github.com/mukel/llama3.java) from Alfonso\u00b2 Peterssen."
     }
   ],
   "candidate_related_terms": [],
@@ -394,11 +430,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "6/openai-caching-proxy-worker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "stephanj/Llama3JavaChatCompletionService"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

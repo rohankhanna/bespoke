@@ -259,6 +259,18 @@
       "source_repo": "cloudwego/netpoll",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "cloudwego/netpoll",
       "status": "candidate",
       "text": "[\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/sonic",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +586,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/sonic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "pkuliyi2015/sd-webui-stablesr",
       "status": "candidate-context",
       "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate-context",
+      "text": "[IJCV2024] Exploiting Diffusion Prior for Real-World Image Super-Resolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pkuliyi2015/sd-webui-stablesr",
       "status": "candidate",
       "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IceClear/StableSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "pkuliyi2015/sd-webui-stablesr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IceClear/StableSR"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

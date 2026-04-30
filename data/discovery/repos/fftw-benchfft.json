@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:17:30.850695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FFT software benchmarks",
+    "fork": false,
+    "full_name": "FFTW/benchfft",
+    "html_url": "https://github.com/FFTW/benchfft",
+    "language": "C",
+    "pushed_at": "2025-03-18T20:19:12Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-08-28T15:46:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

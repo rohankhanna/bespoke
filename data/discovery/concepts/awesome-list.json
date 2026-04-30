@@ -499,6 +499,66 @@
       "source_repo": "kalaiser/awesome-cdk",
       "status": "candidate-context",
       "text": "awesome-cdk \u2014 A curated list of awesome projects related to the AWS Cloud Development Kit (AWS CDK)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Ebitengine frameworks, libraries and software "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sporto/awesome-elm",
+      "status": "candidate-context",
+      "text": "A curated list of useful Elm tutorials, libraries and software. Inspired by awesome list. Feel free to contribute. :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sporto/awesome-elm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate-context",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate-context",
+      "text": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "A curated list of awesome things related to Rstack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +801,36 @@
       "source_repo": "kalaiser/awesome-cdk",
       "status": "candidate",
       "text": "awesome-cdk \u2014 A curated list of awesome projects related to the AWS Cloud Development Kit (AWS CDK)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sedyh/awesome-ebitengine",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sporto/awesome-elm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "troxler/awesome-css-frameworks",
+      "status": "candidate",
+      "text": "List of awesome CSS frameworks in 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solido/awesome-flutter",
+      "status": "candidate",
+      "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstackjs/awesome-rstack",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1054,11 +1144,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kalaiser/awesome-cdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sedyh/awesome-ebitengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sporto/awesome-elm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "troxler/awesome-css-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "rstackjs/awesome-rstack"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

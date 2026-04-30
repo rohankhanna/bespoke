@@ -1,0 +1,252 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "a2zadeh/cmu-multimodalsdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "huggingface/pytorch-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "alexander-h-liu/end-to-end-asr-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "r9y9/tacotron_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "feature-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "mockingjay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "phone-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "phoneme-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "sentiment-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "speaker-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andi611/Mockingjay-Speech-Representation",
+      "target": "speech-representation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:08.492421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation of Mockingjay in Pytorch",
+    "fork": false,
+    "full_name": "andi611/Mockingjay-Speech-Representation",
+    "html_url": "https://github.com/andi611/Mockingjay-Speech-Representation",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:29:03Z",
+    "stargazers_count": 56,
+    "topics": [
+      "apc",
+      "feature-extraction",
+      "mockingjay",
+      "phone-classification",
+      "phoneme-prediction",
+      "pytorch",
+      "pytorch-implementation",
+      "representation-learning",
+      "sentiment-classification",
+      "speaker-classification",
+      "speaker-recognition",
+      "speech",
+      "speech-representation"
+    ],
+    "updated_at": "2026-01-25T13:30:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2zadeh/cmu-multimodalsdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexander-h-liu/end-to-end-asr-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r9y9/tacotron_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-extraction"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mockingjay"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phone-classification"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoneme-prediction"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentiment-classification"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-classification"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "---------------------------------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-representation"
+    }
+  ]
+}

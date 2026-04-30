@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaRegistries/General",
+      "target": "juliadocs/documenter.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaRegistries/General",
+      "target": "aviatesk/jet.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaRegistries/General",
+      "target": "invenia/pkgtemplates.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaRegistries/General",
+      "target": "gunnarfarneback/localregistry.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBotTriggers.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBotTriggers.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBotTriggers.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "TagBot Triggers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/author_approval.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "Author Approval Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "AutoMerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge_staging.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge_staging.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge_staging.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge_staging.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "AutoMerge (staging)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_change_feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_change_feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/breaking_change_feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/breaking_change_feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "Send breaking to Zulip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feed.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "Send to feeds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feed_manual_prs.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feed_manual_prs.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "Manual PRs feed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/redirects_page.yml",
+      "source_repo": "JuliaRegistries/General",
+      "target": "Generate and Deploy Redirects",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "JuliaRegistries/General"
+}

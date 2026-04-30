@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "egor-tensin/setup-mingw@84c781b557efd538dec66bde06988d81cd3138cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/smimesign",
+      "target": "lukesampson/scoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/smimesign",
+      "target": "opensc/opensc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "egor-tensin/setup-mingw@84c781b557efd538dec66bde06988d81cd3138cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "github/smimesign",
+      "target": "Build binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yml",
+      "source_repo": "github/smimesign",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yml",
+      "source_repo": "github/smimesign",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-go.yml",
+      "source_repo": "github/smimesign",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/smimesign",
+      "target": "signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/smimesign",
+      "target": "smime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:40.673156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6425
+    },
+    {
+      "path": "go.mod",
+      "size": 468
+    },
+    {
+      "path": ".github/workflows/build-binaries.yml",
+      "size": 6486
+    },
+    {
+      "path": ".github/workflows/test-go.yml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An S/MIME signing utility for use with Git",
+    "fork": false,
+    "full_name": "github/smimesign",
+    "html_url": "https://github.com/github/smimesign",
+    "language": "Go",
+    "pushed_at": "2025-12-08T17:26:44Z",
+    "stargazers_count": 646,
+    "topics": [
+      "git",
+      "signing",
+      "smime"
+    ],
+    "updated_at": "2026-04-28T12:57:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukesampson/scoop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensc/opensc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "term": "Build binaries"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-go.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![PkgGoDev](https://pkg.go.dev/badge/github.com/github/smimesign?utm_source=godoc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signing"
+    },
+    {
+      "context_snippet": "![PkgGoDev](https://pkg.go.dev/badge/github.com/github/smimesign?utm_source=godoc)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smime"
+    }
+  ]
+}

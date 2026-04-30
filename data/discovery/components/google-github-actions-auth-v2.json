@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@v2",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clean-gcloud-profiles.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-cuda.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-sycl.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ]
 }

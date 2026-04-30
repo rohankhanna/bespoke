@@ -1,0 +1,318 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Solido/awesome-flutter",
+      "target": "aagarwal1012/liquid-pull-to-refresh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Solido/awesome-flutter",
+      "target": "aagarwal1012/animated-text-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Solido/awesome-flutter",
+      "target": "2d-inc/historyofeverything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Solido/awesome-flutter",
+      "target": "2d-inc/developer_quest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "collections",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "dartlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "flutter-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "flutter-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "flutter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "flutter-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "mobile-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "mobile-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "reactive-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solido/awesome-flutter",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:01.873064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 82084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+    "fork": false,
+    "full_name": "Solido/awesome-flutter",
+    "html_url": "https://github.com/Solido/awesome-flutter",
+    "language": "Dart",
+    "pushed_at": "2026-04-21T19:06:09Z",
+    "stargazers_count": 59816,
+    "topics": [
+      "android",
+      "awesome",
+      "awesome-list",
+      "collections",
+      "cross-platform",
+      "dartlang",
+      "flutter",
+      "flutter-apps",
+      "flutter-examples",
+      "flutter-plugin",
+      "flutter-plugins",
+      "ios",
+      "material-design",
+      "mobile",
+      "mobile-app",
+      "mobile-development",
+      "reactive-programming",
+      "resources"
+    ],
+    "updated_at": "2026-04-30T06:15:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2d-inc/developer_quest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2d-inc/historyofeverything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aagarwal1012/animated-text-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aagarwal1012/liquid-pull-to-refresh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collections"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dartlang"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-apps"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-examples"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-plugin"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-plugins"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-app"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-development"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive-programming"
+    },
+    {
+      "context_snippet": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

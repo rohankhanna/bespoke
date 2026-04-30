@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/depup.yml",
       "source_repo": "brunohaf/action-bandit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-helm-and-operator-version-by-release.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml",
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-ci-container.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "ember-cli/broccoli-caching-writer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/releast-typst.yml",
+      "source_repo": "Myriad-Dreamin/shiroa"
     }
   ]
 }

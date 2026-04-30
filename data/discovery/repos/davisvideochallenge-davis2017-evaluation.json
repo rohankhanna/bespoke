@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisvideochallenge/davis2017-evaluation",
+      "target": "kmaninis/osvos-caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisvideochallenge/davis2017-evaluation",
+      "target": "imatge-upc/rvos",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:00:49.847350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluation Framework for DAVIS 2017 Semi-supervised and Unsupervised used in the DAVIS Challenges",
+    "fork": false,
+    "full_name": "davisvideochallenge/davis2017-evaluation",
+    "html_url": "https://github.com/davisvideochallenge/davis2017-evaluation",
+    "language": "Python",
+    "pushed_at": "2023-02-26T12:54:57Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-23T05:18:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imatge-upc/rvos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kmaninis/osvos-caffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

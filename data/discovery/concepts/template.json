@@ -295,6 +295,54 @@
       "source_repo": "Janspiry/distributed-pytorch-template",
       "status": "candidate-context",
       "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "Scalar Docs Starter Kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate-context",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate-context",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc18 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +489,30 @@
       "source_repo": "Janspiry/distributed-pytorch-template",
       "status": "candidate",
       "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/starter",
+      "status": "candidate",
+      "text": "[![Contributors](https://img.shields.io/github/contributors/scalar/starter)](https://github.com/scalar/starter/graphs/contributors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onionpancakes/chassis",
+      "status": "candidate",
+      "text": "Fast HTML5 templating in Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -685,11 +757,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Janspiry/distributed-pytorch-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scalar/starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "onionpancakes/chassis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyuanyou/DeQA-Score",
+      "target": "h4nwei/spaq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyuanyou/DeQA-Score",
+      "target": "haomingcai/pipal-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyuanyou/DeQA-Score",
+      "target": "lcysyzxdxc/agiqa-3k-database",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyuanyou/DeQA-Score",
+      "target": "q-future/q-align",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:52.146536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8283
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] Teaching Large Language Models to Regress Accurate Image Quality Scores using Score Distribution",
+    "fork": false,
+    "full_name": "zhiyuanyou/DeQA-Score",
+    "html_url": "https://github.com/zhiyuanyou/DeQA-Score",
+    "language": "Python",
+    "pushed_at": "2025-12-16T06:44:48Z",
+    "stargazers_count": 233,
+    "topics": [],
+    "updated_at": "2026-04-29T09:08:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h4nwei/spaq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haomingcai/pipal-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcysyzxdxc/agiqa-3k-database",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "q-future/q-align",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

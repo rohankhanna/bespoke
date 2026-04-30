@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799711,
+      "status": "candidate",
+      "text": "structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832767,
+      "status": "candidate",
+      "text": "architectural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832154,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832106,
+      "status": "candidate",
+      "text": "edifice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832086,
+      "status": "candidate",
+      "text": "framework"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "architecture",
+      "sense_id": "architecture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "structure"
+    }
+  ],
+  "concept_id": "architecture",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "architecture",
+  "observation_id": "6eaa62c7f617a10a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "architecture",
+  "source_context_snippet": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted.",
+  "source_file": null,
+  "source_repo": "tenable/terrascan",
+  "source_repo_description": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly and CICD Jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate-context",
+      "text": "This repo is the Java version of Microsoft's sample app for ChatGPT + Enterprise data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate-context",
+      "text": "Nightly and CICD Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java",
+      "status": "candidate",
+      "text": "Nightly and CICD Jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11786,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11786,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11786,
+      "status": "candidate",
+      "text": "newscast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11786,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11786,
+      "status": "candidate",
+      "text": "taps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly and CICD Jobs",
+  "concept_id": "nightly-and-cicd-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/nightly-jobs.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly and CICD Jobs",
+      "sense_id": "nightly-and-cicd-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

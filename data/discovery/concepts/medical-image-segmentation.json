@@ -43,6 +43,30 @@
       "source_repo": "givkashi/Focal-Unet",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DengPingFan/PraNet",
+      "status": "candidate-context",
+      "text": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (Oral). Code using Jittor Framework is available."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/PraNet",
+      "status": "candidate-context",
+      "text": "> **Authors:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plemeri/UACANet",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of UACANet: Uncertainty Augmented Context Attention for Polyp Segmentation (ACMMM 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/UACANet",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "givkashi/Focal-Unet",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.09263)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DengPingFan/PraNet",
+      "status": "candidate",
+      "text": "> **Authors:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/UACANet",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uacanet-uncertainty-augmented-context/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=uacanet-uncertainty-augmented-context)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "givkashi/Focal-Unet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "DengPingFan/PraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "plemeri/UACANet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

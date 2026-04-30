@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:16:02.956362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1402
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mattloper/chumpy",
+    "html_url": "https://github.com/mattloper/chumpy",
+    "language": "Python",
+    "pushed_at": "2025-08-18T15:14:07Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-04-19T12:23:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

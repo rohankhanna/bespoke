@@ -69,6 +69,30 @@
       "source_repo": "intel/intel-ipsec-mb",
       "status": "candidate-context",
       "text": "Style Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-semverver",
+      "status": "candidate-context",
+      "text": "Automatic checking for semantic versioning in library crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-semverver",
+      "status": "candidate-context",
+      "text": "Style check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Style Check"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intel/intel-ipsec-mb",
+      "status": "candidate",
+      "text": "Style Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-semverver",
+      "status": "candidate",
+      "text": "Style check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
       "status": "candidate",
       "text": "Style Check"
     }
@@ -180,11 +216,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "intel/intel-ipsec-mb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "rust-lang/rust-semverver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

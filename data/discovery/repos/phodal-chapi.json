@@ -48,20 +48,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "phodal/chapi",
-      "target": "unit-mesh/choco-builder",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "phodal/chapi",
-      "target": "antlr/grammars-v4",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "phodal/chapi",
       "target": "shevek/jcpp",
       "target_type": "repository"
     },
@@ -171,7 +157,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:49:07.433388+00:00",
+  "fetched_at": "2026-04-30T10:25:24.887434+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -210,22 +196,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antlr/grammars-v4",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "modernizing/chapi",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "shevek/jcpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unit-mesh/choco-builder",
       "source_file": "README.md"
     }
   ],

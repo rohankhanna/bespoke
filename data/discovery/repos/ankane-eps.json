@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/eps",
+      "target": "ankane/onnxruntime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/eps",
+      "target": "asafschers/scoruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/eps",
+      "target": "jpmml/sklearn2pmml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/eps",
+      "target": "ankane/gslr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/eps",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/eps",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/eps",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/eps",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/eps",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/eps",
+      "target": "rubyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:59.844451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11602
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine learning for Ruby",
+    "fork": false,
+    "full_name": "ankane/eps",
+    "html_url": "https://github.com/ankane/eps",
+    "language": "Ruby",
+    "pushed_at": "2026-04-15T04:37:02Z",
+    "stargazers_count": 686,
+    "topics": [
+      "automl",
+      "machine-learning",
+      "rubyml"
+    ],
+    "updated_at": "2026-04-25T03:30:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/gslr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/onnxruntime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asafschers/scoruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/sklearn2pmml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Machine learning for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "Machine learning for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Machine learning for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    }
+  ]
+}

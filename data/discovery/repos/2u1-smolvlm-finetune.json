@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "2u1/llama3.2-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "andimarafioti/florence2-finetuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "zhuyiche/llava-phi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:27.812893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10784
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source implementaion for fine-tuning SmolVLM.",
+    "fork": false,
+    "full_name": "2U1/SmolVLM-Finetune",
+    "html_url": "https://github.com/2U1/SmolVLM-Finetune",
+    "language": "Python",
+    "pushed_at": "2025-09-12T07:26:32Z",
+    "stargazers_count": 65,
+    "topics": [
+      "chatbot",
+      "multi-modal",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-03-20T05:59:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/llama3.2-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen2-vl-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andimarafioti/florence2-finetuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuyiche/llava-phi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

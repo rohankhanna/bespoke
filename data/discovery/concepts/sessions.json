@@ -43,6 +43,18 @@
       "source_repo": "antonlindstrom/pgstore",
       "status": "candidate-context",
       "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "Package gorilla/securecookie encodes and decodes authenticated and optionally encrypted cookie values for Go web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "antonlindstrom/pgstore",
       "status": "candidate",
       "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "antonlindstrom/pgstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/securecookie"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

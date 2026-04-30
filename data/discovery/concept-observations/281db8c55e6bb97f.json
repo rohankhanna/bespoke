@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "retrocompute aesthetics twitter bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This bot runs https://twitter.com/c64core"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39501601,
+      "status": "candidate",
+      "text": "chirrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39501470,
+      "status": "candidate",
+      "text": "chitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19502194,
+      "status": "candidate",
+      "text": "tweet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19502192,
+      "status": "candidate",
+      "text": "chirp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19502191,
+      "status": "candidate",
+      "text": "chatter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "twitter",
+      "sense_id": "twitter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16024,
+      "status": "candidate",
+      "text": "chirrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8021,
+      "status": "candidate",
+      "text": "chitter"
+    }
+  ],
+  "concept_id": "twitter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "twitter",
+  "observation_id": "281db8c55e6bb97f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "twitter",
+  "source_context_snippet": "This bot runs https://twitter.com/c64core",
+  "source_file": null,
+  "source_repo": "chr15m/c64core",
+  "source_repo_description": "retrocompute aesthetics twitter bot"
+}

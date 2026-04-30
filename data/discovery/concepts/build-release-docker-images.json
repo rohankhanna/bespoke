@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Release Docker Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "A hardware acceleration library for compute intensive cryptography :ice_cube:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate-context",
+      "text": "Build Release Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle",
+      "status": "candidate",
+      "text": "Build Release Docker Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25839,
+      "status": "candidate",
+      "text": "automatism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17702,
+      "status": "candidate",
+      "text": "bricklayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17026,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17024,
+      "status": "candidate",
+      "text": "dream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16972,
+      "status": "candidate",
+      "text": "restore"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Release Docker Images",
+  "concept_id": "build-release-docker-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-release-docker-img.yml",
+      "source_repo": "ingonyama-zk/icicle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Release Docker Images",
+      "sense_id": "build-release-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

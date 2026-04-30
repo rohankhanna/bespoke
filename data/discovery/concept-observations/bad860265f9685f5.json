@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cyclegan",
+      "sense_id": "cyclegan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cyclegan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cyclegan",
+  "observation_id": "bad860265f9685f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "cyclegan",
+  "source_context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+  "source_file": null,
+  "source_repo": "junyanz/CycleGAN",
+  "source_repo_description": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+}

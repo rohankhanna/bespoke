@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "darwinawardwinner/crm-custom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "darwinawardwinner/ido-ubiquitous",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "doublep/eldev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+      "target": "emacs-completion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:13.345876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11976
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fancy completion all over Emacs, not just for buffers and files.",
+    "fork": false,
+    "full_name": "DarwinAwardWinner/ido-completing-read-plus",
+    "html_url": "https://github.com/DarwinAwardWinner/ido-completing-read-plus",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-12-28T01:13:12Z",
+    "stargazers_count": 248,
+    "topics": [
+      "emacs",
+      "emacs-completion",
+      "ido"
+    ],
+    "updated_at": "2025-11-30T12:23:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darwinawardwinner/crm-custom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darwinawardwinner/ido-ubiquitous",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doublep/eldev",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-completion"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer-community/awesome-chainer",
+      "target": "chainer/chainercv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer-community/awesome-chainer",
+      "target": "apple2373/chainer-simple-fast-rnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer-community/awesome-chainer",
+      "target": "apple2373/chainer_stylenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer-community/awesome-chainer",
+      "target": "apple2373/chainer_caption_generation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:19.420403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chainer-community/awesome-chainer",
+    "html_url": "https://github.com/chainer-community/awesome-chainer",
+    "language": null,
+    "pushed_at": "2024-05-11T07:48:30Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2024-06-27T22:32:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple2373/chainer-simple-fast-rnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple2373/chainer_caption_generation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple2373/chainer_stylenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainer/chainercv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

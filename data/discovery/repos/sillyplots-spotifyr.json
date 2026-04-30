@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "r-hub/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-r@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "sillyplots/spotifyr",
+      "target": "R-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sillyplots/spotifyr",
+      "target": "music-information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sillyplots/spotifyr",
+      "target": "spotify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:29.399655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9373
+    },
+    {
+      "path": ".github/workflows/rhub.yaml",
+      "size": 2942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R wrapper for Spotify's Web API",
+    "fork": false,
+    "full_name": "sillyplots/spotifyr",
+    "html_url": "https://github.com/sillyplots/spotifyr",
+    "language": "R",
+    "pushed_at": "2024-10-24T08:28:09Z",
+    "stargazers_count": 378,
+    "topics": [
+      "music-information-retrieval",
+      "spotify"
+    ],
+    "updated_at": "2026-03-31T20:37:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "R-hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "term": "R-hub"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-information-retrieval"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    }
+  ]
+}

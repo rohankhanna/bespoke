@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akoksal/LongForm",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akoksal/LongForm",
+      "target": "text-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:53.431824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reverse Instructions to generate instruction tuning data with corpus examples",
+    "fork": false,
+    "full_name": "akoksal/LongForm",
+    "html_url": "https://github.com/akoksal/LongForm",
+    "language": null,
+    "pushed_at": "2024-03-05T11:35:12Z",
+    "stargazers_count": 215,
+    "topics": [
+      "instruction-tuning",
+      "text-generation"
+    ],
+    "updated_at": "2026-04-18T07:37:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    }
+  ]
+}

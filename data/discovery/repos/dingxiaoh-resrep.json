@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:13:08.627835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ResRep: Lossless CNN Pruning via Decoupling Remembering and Forgetting (ICCV 2021)",
+    "fork": false,
+    "full_name": "DingXiaoH/ResRep",
+    "html_url": "https://github.com/DingXiaoH/ResRep",
+    "language": "Python",
+    "pushed_at": "2022-12-01T06:55:31Z",
+    "stargazers_count": 301,
+    "topics": [],
+    "updated_at": "2026-03-11T07:08:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:12:38.794409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DO NOT CHECK OUT THESE FILES FROM GITHUB UNLESS YOU KNOW WHAT YOU ARE DOING. (See below.)",
+    "fork": false,
+    "full_name": "FFTW/fftw3",
+    "html_url": "https://github.com/FFTW/fftw3",
+    "language": "C",
+    "pushed_at": "2026-04-23T13:22:11Z",
+    "stargazers_count": 3064,
+    "topics": [],
+    "updated_at": "2026-04-29T18:20:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

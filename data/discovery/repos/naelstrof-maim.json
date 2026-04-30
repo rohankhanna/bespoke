@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naelstrof/maim",
+      "target": "naelstrof/slop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naelstrof/maim",
+      "target": "tremby/imgur.sh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naelstrof/maim",
+      "target": "i3/i3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/maim",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/maim",
+      "target": "imagemagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/maim",
+      "target": "scrot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naelstrof/maim",
+      "target": "takes-screenshots",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:28.574936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot.",
+    "fork": false,
+    "full_name": "naelstrof/maim",
+    "html_url": "https://github.com/naelstrof/maim",
+    "language": "C++",
+    "pushed_at": "2025-12-16T11:43:17Z",
+    "stargazers_count": 2266,
+    "topics": [
+      "c-plus-plus",
+      "imagemagick",
+      "scrot",
+      "takes-screenshots"
+    ],
+    "updated_at": "2026-04-26T23:51:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "i3/i3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naelstrof/slop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tremby/imgur.sh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    },
+    {
+      "context_snippet": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrot"
+    },
+    {
+      "context_snippet": "maim (Make Image) is an utility that takes screenshots of your desktop. It's meant to overcome shortcomings of scrot and performs better in several ways.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "takes-screenshots"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "anonymouscervine/depth-image-io-for-sdwebui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "deforum-art/deforum-for-automatic1111-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "animator-anon/animator_extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "andreasjansson/cog-stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "ai-painting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "pseudo-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "Kahsolt/stable-diffusion-webui-prompt-travel"
+}

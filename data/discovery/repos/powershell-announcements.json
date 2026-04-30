@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:26:58.682365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PowerShell Team Announcements",
+    "fork": false,
+    "full_name": "PowerShell/Announcements",
+    "html_url": "https://github.com/PowerShell/Announcements",
+    "language": null,
+    "pushed_at": "2025-10-15T21:58:03Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-28T02:28:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

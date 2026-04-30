@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WAMP for C++ in Boost/Asio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WAMP for C++ on Boost/ASIO."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WAMP for C++ on Boost/ASIO."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027208,
+      "status": "candidate",
+      "text": "genus asio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027206,
+      "status": "candidate",
+      "text": "otus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027205,
+      "status": "candidate",
+      "text": "ssrc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027204,
+      "status": "candidate",
+      "text": "interprocess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027203,
+      "status": "candidate",
+      "text": "rtti"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asio",
+      "sense_id": "asio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "genus asio"
+    }
+  ],
+  "concept_id": "asio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asio",
+  "observation_id": "f4bec990f78477f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "asio",
+  "source_context_snippet": "WAMP for C++ on Boost/ASIO.",
+  "source_file": null,
+  "source_repo": "crossbario/autobahn-cpp",
+  "source_repo_description": "WAMP for C++ in Boost/Asio"
+}

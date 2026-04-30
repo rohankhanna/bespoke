@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "supercharge/mongodb-github-action@1.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heartcombo/devise",
+      "target": "seattlerb/minitest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heartcombo/devise",
+      "target": "rails/strong_parameters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heartcombo/devise",
+      "target": "wardencommunity/warden",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/devise",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/devise",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/devise",
+      "target": "supercharge/mongodb-github-action@1.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/devise",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/devise",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/devise",
+      "target": "devise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/devise",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heartcombo/devise",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:53.604672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34763
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flexible authentication solution for Rails with Warden.",
+    "fork": false,
+    "full_name": "heartcombo/devise",
+    "html_url": "https://github.com/heartcombo/devise",
+    "language": "Ruby",
+    "pushed_at": "2026-04-10T14:43:55Z",
+    "stargazers_count": 24345,
+    "topics": [
+      "authentication",
+      "devise",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-28T16:32:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/strong_parameters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seattlerb/minitest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wardencommunity/warden",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devise"
+    },
+    {
+      "context_snippet": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

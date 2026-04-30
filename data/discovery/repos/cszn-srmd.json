@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "image-degradation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "matconvnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "non-blind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "sisr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SRMD",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:31.162578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning a Single Convolutional Super-Resolution Network for Multiple Degradations (CVPR, 2018) (Matlab)",
+    "fork": false,
+    "full_name": "cszn/SRMD",
+    "html_url": "https://github.com/cszn/SRMD",
+    "language": "MATLAB",
+    "pushed_at": "2021-10-09T22:05:35Z",
+    "stargazers_count": 433,
+    "topics": [
+      "cnn",
+      "deep-learning",
+      "denoising",
+      "image-degradation",
+      "matconvnet",
+      "matlab",
+      "non-blind",
+      "regression",
+      "sisr",
+      "super-resolution"
+    ],
+    "updated_at": "2026-03-05T12:08:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-degradation"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matconvnet"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-blind"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regression"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sisr"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SRMD)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

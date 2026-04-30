@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "ousret/charset_normalizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "Continuous Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "chardet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "charset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "charset-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "charset-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "charset-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "charset-normalizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "encoding-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nickspring/charset-normalizer-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:21:48.666189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9076
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1796
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Truly universal encoding detector in pure Rust - port of Python version",
+    "fork": false,
+    "full_name": "nickspring/charset-normalizer-rs",
+    "html_url": "https://github.com/nickspring/charset-normalizer-rs",
+    "language": "Rust",
+    "pushed_at": "2025-09-21T14:58:31Z",
+    "stargazers_count": 46,
+    "topics": [
+      "chardet",
+      "charset",
+      "charset-conversion",
+      "charset-detection",
+      "charset-detector",
+      "charset-normalizer",
+      "encoding",
+      "encoding-decoding",
+      "rust"
+    ],
+    "updated_at": "2026-04-30T02:17:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ousret/charset_normalizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Delivery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Continuous Delivery"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chardet"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-conversion"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-detection"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-detector"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-normalizer"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding-decoding"
+    },
+    {
+      "context_snippet": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

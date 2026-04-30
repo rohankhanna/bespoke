@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Slack PR Notification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "status": "candidate-context",
+      "text": "The UXL Foundation Open Source Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "status": "candidate-context",
+      "text": "Slack PR Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "Slack PR Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/open-source-working-group",
+      "status": "candidate",
+      "text": "Slack PR Notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17513,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17513,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17513,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17513,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17513,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slack PR Notification",
+  "concept_id": "slack-pr-notification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/slack-pr.yaml",
+      "source_repo": "uxlfoundation/open-source-working-group"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack PR Notification",
+      "sense_id": "slack-pr-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

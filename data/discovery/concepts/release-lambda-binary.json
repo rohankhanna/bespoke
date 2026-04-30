@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Lambda binary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Release Lambda binary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate",
+      "text": "Release Lambda binary"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15311,
+      "status": "candidate",
+      "text": "combinator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14453,
+      "status": "candidate",
+      "text": "equivalent-binary-digit factor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14435,
+      "status": "candidate",
+      "text": "decompression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14435,
+      "status": "candidate",
+      "text": "nettle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14373,
+      "status": "candidate",
+      "text": "superovulation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Lambda binary",
+  "concept_id": "release-lambda-binary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_lambda.yaml",
+      "source_repo": "quickwit-oss/quickwit"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Lambda binary",
+      "sense_id": "release-lambda-binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

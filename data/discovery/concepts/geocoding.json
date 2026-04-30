@@ -31,6 +31,18 @@
       "source_repo": "georust/proj",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexreisner/geocoder",
+      "status": "candidate-context",
+      "text": "Complete Ruby geocoding solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexreisner/geocoder",
+      "status": "candidate-context",
+      "text": "Geocoder"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "georust/proj",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexreisner/geocoder",
+      "status": "candidate",
+      "text": "Geocoder"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "georust/proj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "alexreisner/geocoder"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

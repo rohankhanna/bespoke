@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Evaluate"
+    "Evaluate",
+    "evaluate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "scrapinghub/article-extraction-benchmark",
       "status": "candidate-context",
       "text": "Evaluate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "scrapinghub/article-extraction-benchmark",
       "status": "candidate",
       "text": "Evaluate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +126,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/evaluate.yml",
       "source_repo": "scrapinghub/article-extraction-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

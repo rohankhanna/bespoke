@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "target": "jzhang38/easycontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "target": "megatron-lm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:21.823661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4984
+    },
+    {
+      "path": "requirements.txt",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Odysseus: Playground of LLM Sequence Parallelism",
+    "fork": false,
+    "full_name": "feifeibear/Odysseus-Transformer",
+    "html_url": "https://github.com/feifeibear/Odysseus-Transformer",
+    "language": "Python",
+    "pushed_at": "2024-06-17T08:29:19Z",
+    "stargazers_count": 78,
+    "topics": [
+      "llm",
+      "megatron-lm",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-27T13:42:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jzhang38/easycontext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The repository serves as a playground for variant sequence parallelism implementations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megatron-lm"
+    },
+    {
+      "context_snippet": "The repository serves as a playground for variant sequence parallelism implementations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

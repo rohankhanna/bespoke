@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browser-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chokidar",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "upath",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "browser-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "chokidar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "pug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "upath",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap-5-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "bootstrap5-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "freelancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:50.032604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4948
+    },
+    {
+      "path": "package.json",
+      "size": 1725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap",
+    "fork": false,
+    "full_name": "StartBootstrap/startbootstrap-freelancer",
+    "html_url": "https://github.com/StartBootstrap/startbootstrap-freelancer",
+    "language": "Pug",
+    "pushed_at": "2024-03-17T15:50:59Z",
+    "stargazers_count": 2608,
+    "topics": [
+      "bootstrap",
+      "bootstrap-4",
+      "bootstrap-5",
+      "bootstrap-5-template",
+      "bootstrap-template",
+      "bootstrap-theme",
+      "bootstrap4",
+      "bootstrap5",
+      "bootstrap5-template",
+      "css",
+      "free",
+      "freelancer",
+      "html",
+      "open-source",
+      "theme"
+    ],
+    "updated_at": "2026-04-29T18:12:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-4"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-5"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-5-template"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-template"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-theme"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap4"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap5"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap5-template"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freelancer"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

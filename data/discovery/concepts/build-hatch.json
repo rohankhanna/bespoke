@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build hatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "build hatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate",
+      "text": "build hatch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11606,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11550,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "algae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "arm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build hatch",
+  "concept_id": "build-hatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-hatch.yml",
+      "source_repo": "pypa/hatch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build hatch",
+      "sense_id": "build-hatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vim-abbreviations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate-context",
+      "text": "Abbreviation reminder plugin for Neovim 0.5+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate-context",
+      "text": "+ [Usecase](#usecase)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "status": "candidate",
+      "text": "+ [Usecase](#usecase)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-abbreviations",
+  "concept_id": "vim-abbreviations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "0styx0/abbreinder.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-abbreviations",
+      "sense_id": "vim-abbreviations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

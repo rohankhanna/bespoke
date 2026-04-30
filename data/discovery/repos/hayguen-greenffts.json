@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:17:31.246255+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Green FFTs",
+    "fork": false,
+    "full_name": "hayguen/greenffts",
+    "html_url": "https://github.com/hayguen/greenffts",
+    "language": "C",
+    "pushed_at": "2021-06-12T21:12:48Z",
+    "stargazers_count": 3,
+    "topics": [
+      "fft"
+    ],
+    "updated_at": "2025-10-18T18:09:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

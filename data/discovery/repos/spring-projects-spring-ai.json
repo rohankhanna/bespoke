@@ -1,0 +1,621 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml"
+    },
+    {
+      "component": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml"
+    },
+    {
+      "component": "spring-io/backport-bot@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-projects/spring-ai-integration-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-ai-community/awesome-spring-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-projects/spring-ai-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-io/spring-javaformat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Artifactory Milestone Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Auto Cherry-Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-issue.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-io/backport-bot@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-issue.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Backport Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Build + Deploy on development branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Ecosystem CI Dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation-upload.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-upload.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Documentation Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-release.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "Release to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp-integration-tests.yml",
+      "source_repo": "spring-projects/spring-ai",
+      "target": "MCP Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai",
+      "target": "spring-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:32.087244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10870
+    },
+    {
+      "path": ".github/workflows/artifactory-milestone-release.yml",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/auto-cherry-pick.yml",
+      "size": 273
+    },
+    {
+      "path": ".github/workflows/backport-issue.yml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 10456
+    },
+    {
+      "path": ".github/workflows/dependency-ci-dashboard.yml",
+      "size": 16736
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/documentation-upload.yml",
+      "size": 1732
+    },
+    {
+      "path": ".github/workflows/maven-central-release.yml",
+      "size": 963
+    },
+    {
+      "path": ".github/workflows/mcp-integration-tests.yml",
+      "size": 1443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Application Framework for AI Engineering",
+    "fork": false,
+    "full_name": "spring-projects/spring-ai",
+    "html_url": "https://github.com/spring-projects/spring-ai",
+    "language": "Java",
+    "pushed_at": "2026-04-29T12:44:33Z",
+    "stargazers_count": 8619,
+    "topics": [
+      "artificial-intelligence",
+      "hacktoberfest",
+      "java",
+      "spring-ai"
+    ],
+    "updated_at": "2026-04-30T09:02:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-ai-community/awesome-spring-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-io/spring-javaformat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects/spring-ai-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects/spring-ai-integration-tests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Artifactory Milestone Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifactory-milestone-release.yml",
+      "term": "Artifactory Milestone Release"
+    },
+    {
+      "context_snippet": "Auto Cherry-Pick",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "term": "Auto Cherry-Pick"
+    },
+    {
+      "context_snippet": "Backport Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-issue.yml",
+      "term": "Backport Issue"
+    },
+    {
+      "context_snippet": "Build + Deploy on development branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "term": "Build + Deploy on development branches"
+    },
+    {
+      "context_snippet": "Ecosystem CI Dashboard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-ci-dashboard.yml",
+      "term": "Ecosystem CI Dashboard"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Documentation Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation-upload.yml",
+      "term": "Documentation Upload"
+    },
+    {
+      "context_snippet": "Release to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central-release.yml",
+      "term": "Release to Maven Central"
+    },
+    {
+      "context_snippet": "MCP Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp-integration-tests.yml",
+      "term": "MCP Integration Tests"
+    },
+    {
+      "context_snippet": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-ai"
+    }
+  ]
+}

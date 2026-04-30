@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "aspnet/basicmiddleware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "ligershark/weboptimizer.less",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "ligershark/weboptimizer.autoprefixer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "ligershark/weboptimizer.i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "taghelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ligershark/WebOptimizer",
+      "target": "web-optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:04:57.428695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A bundler and minifier for ASP.NET Core",
+    "fork": false,
+    "full_name": "ligershark/WebOptimizer",
+    "html_url": "https://github.com/ligershark/WebOptimizer",
+    "language": "C#",
+    "pushed_at": "2025-09-03T18:46:09Z",
+    "stargazers_count": 844,
+    "topics": [
+      "aspnetcore",
+      "taghelper",
+      "web-optimization"
+    ],
+    "updated_at": "2026-04-28T20:58:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/basicmiddleware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ligershark/weboptimizer.autoprefixer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ligershark/weboptimizer.i18n",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ligershark/weboptimizer.less",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/twj2lkgnm4th6qh9?svg=true)](https://ci.appveyor.com/project/madskristensen/weboptimizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/twj2lkgnm4th6qh9?svg=true)](https://ci.appveyor.com/project/madskristensen/weboptimizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taghelper"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/twj2lkgnm4th6qh9?svg=true)](https://ci.appveyor.com/project/madskristensen/weboptimizer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-optimization"
+    }
+  ]
+}

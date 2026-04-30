@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Slow end to end tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Slow end to end tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate",
+      "text": "Slow end to end tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26223,
+      "status": "candidate",
+      "text": "linger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20518,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20518,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20309,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20309,
+      "status": "candidate",
+      "text": "scrutiny"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slow end to end tests",
+  "concept_id": "slow-end-to-end-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/slow_tests.yaml",
+      "source_repo": "huggingface/lighteval"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slow end to end tests",
+      "sense_id": "slow-end-to-end-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

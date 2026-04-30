@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "component": "actions-ecosystem/action-add-assignees@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml"
+    },
+    {
+      "component": "Tiryoh/gha-jobid-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplication.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplication.yml"
+    },
+    {
+      "component": "ivy-llc/ivy-integration-tests/.github/workflows/qa-integration-tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "lots0logs/gh-action-get-changed-files@2.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unifyai/ivy",
+      "target": "ivy-llc/ivy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions-ecosystem/action-add-assignees@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "Update docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "Tiryoh/gha-jobid-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "pr-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "Update docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplication.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplication.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplication.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "duplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-integration-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "ivy-llc/ivy-integration-tests/.github/workflows/qa-integration-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "lots0logs/gh-action-get-changed-files@2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "unifyai/ivy",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unifyai/ivy",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unifyai/ivy",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unifyai/ivy",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:04.432229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7859
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2807
+    },
+    {
+      "path": ".github/workflows/assign.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 2146
+    },
+    {
+      "path": ".github/workflows/commit-tests.yml",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/duplication.yml",
+      "size": 871
+    },
+    {
+      "path": ".github/workflows/full-integration-tests.yml",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert Machine Learning Code Between Frameworks",
+    "fork": false,
+    "full_name": "unifyai/ivy",
+    "html_url": "https://github.com/unifyai/ivy",
+    "language": "Python",
+    "pushed_at": "2026-02-07T22:20:29Z",
+    "stargazers_count": 14202,
+    "topics": [
+      "jax",
+      "numpy",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-29T16:20:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivy-llc/ivy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "assign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "term": "assign"
+    },
+    {
+      "context_snippet": "Update docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Update docs"
+    },
+    {
+      "context_snippet": "pr-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "term": "pr-tests"
+    },
+    {
+      "context_snippet": "Update docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Update docs"
+    },
+    {
+      "context_snippet": "duplication",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplication.yml",
+      "term": "duplication"
+    },
+    {
+      "context_snippet": "integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "integration-tests"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "<div style=\"display: block;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "<div style=\"display: block;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div style=\"display: block;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:19:44.671727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pyro models and misc examples.",
+    "fork": false,
+    "full_name": "pyro-ppl/sandbox",
+    "html_url": "https://github.com/pyro-ppl/sandbox",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-05-10T11:52:11Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-11-15T01:26:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

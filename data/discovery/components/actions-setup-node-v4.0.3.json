@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-node@v4.0.3",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-frontend-tests.yml",
+      "source_repo": "GreptimeTeam/greptimedb-grafana-datasource"
+    }
+  ]
+}

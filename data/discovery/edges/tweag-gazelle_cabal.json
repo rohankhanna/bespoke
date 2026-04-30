@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "tweag/rules_haskell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "tweag/configure-bazel-remote-cache-auth@144b0b915f13a418f5eafe2f68d19564ec136c62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "tweag/run-nix-shell@5d825ec7e0038b6c613f14d523203a2ea49abddb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "cgrindel/gha_join_jobs@605424defceef3181c9fde3df903ea8ec35e267a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "tweag/gazelle_cabal"
+}

@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "andreasveit/densenet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "bamos/densenet.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "baldassarrefe/pytorch-densenet-tiramisu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "barrykui/3ddensenet.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuzhuang13/DenseNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:36.645789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Densely Connected Convolutional Networks, In CVPR 2017 (Best Paper Award).",
+    "fork": false,
+    "full_name": "liuzhuang13/DenseNet",
+    "html_url": "https://github.com/liuzhuang13/DenseNet",
+    "language": "Lua",
+    "pushed_at": "2024-01-09T13:15:40Z",
+    "stargazers_count": 4862,
+    "topics": [
+      "deep-learning"
+    ],
+    "updated_at": "2026-04-28T06:53:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreasveit/densenet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baldassarrefe/pytorch-densenet-tiramisu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bamos/densenet.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barrykui/3ddensenet.torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code for DenseNet introduced in the following paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_to_gh-pages.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_to_gh-pages.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_to_gh-pages.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_to_gh-pages.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "aliyun/acr-login@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "Publish to Docker - Development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "aliyun/acr-login@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "docker/build-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend",
+      "target": "Publish to Docker - Development",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "singularity-s0/MOSS_frontend"
+}

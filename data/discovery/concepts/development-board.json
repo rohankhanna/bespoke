@@ -19,6 +19,18 @@
       "source_repo": "shumatech/BOSSA",
       "status": "candidate-context",
       "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate-context",
+      "text": "Board definitions for Amaranth HDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate-context",
+      "text": "TODO"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "shumatech/BOSSA",
       "status": "candidate",
       "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate",
+      "text": "TODO"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "shumatech/BOSSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-boards"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

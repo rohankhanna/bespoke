@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/backend-test.yml",
       "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ],
   "term": "Backend Tests"

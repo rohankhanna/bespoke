@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "jonasrothfuss/ProMP",
+      "target": "dennisl88/rand_param_envs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "jonasrothfuss/ProMP",
+      "target": "dennisl88/multiworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonasrothfuss/ProMP",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonasrothfuss/ProMP",
+      "target": "meta-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonasrothfuss/ProMP",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:21.028694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5388
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of Proximal Meta-Policy Search (ProMP) as well as related Meta-RL algorithm. Includes a useful experiment framework for Meta-RL.",
+    "fork": false,
+    "full_name": "jonasrothfuss/ProMP",
+    "html_url": "https://github.com/jonasrothfuss/ProMP",
+    "language": "Python",
+    "pushed_at": "2022-09-30T18:34:06Z",
+    "stargazers_count": 248,
+    "topics": [
+      "machine-learning",
+      "meta-learning",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-02-18T09:10:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dennisl88/multiworld",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dennisl88/rand_param_envs",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.com/jonasrothfuss/ProMP.svg?branch=master)](https://travis-ci.com/jonasrothfuss/ProMP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.com/jonasrothfuss/ProMP.svg?branch=master)](https://travis-ci.com/jonasrothfuss/ProMP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.com/jonasrothfuss/ProMP.svg?branch=master)](https://travis-ci.com/jonasrothfuss/ProMP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

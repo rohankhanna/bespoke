@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mocks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msz/hammox",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012240,
+      "status": "candidate",
+      "text": "bemock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999068,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19961348,
+      "status": "candidate",
+      "text": "mimic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19955947,
+      "status": "candidate",
+      "text": "imitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013196,
+      "status": "candidate",
+      "text": "derides"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mocks",
+  "concept_id": "mocks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "msz/hammox"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mocks",
+      "sense_id": "mocks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

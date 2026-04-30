@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "airaria/visual-chinese-llama-alpaca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "airaria/grain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "mixtral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:21.844526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17359
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e2d\u6587Mixtral\u6df7\u5408\u4e13\u5bb6\u5927\u6a21\u578b\uff08Chinese Mixtral MoE LLMs\uff09",
+    "fork": false,
+    "full_name": "ymcui/Chinese-Mixtral",
+    "html_url": "https://github.com/ymcui/Chinese-Mixtral",
+    "language": "Python",
+    "pushed_at": "2026-04-19T00:59:54Z",
+    "stargazers_count": 609,
+    "topics": [
+      "32k",
+      "64k",
+      "large-language-models",
+      "llm",
+      "mixtral",
+      "mixture-of-experts",
+      "moe",
+      "nlp"
+    ],
+    "updated_at": "2026-04-24T07:01:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airaria/grain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airaria/visual-chinese-llama-alpaca",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixtral"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    }
+  ]
+}

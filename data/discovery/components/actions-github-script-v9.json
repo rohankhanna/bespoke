@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -392,6 +392,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cherrypick.yml",
       "source_repo": "NVIDIA/gpu-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-features.yml",
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-swagger-ui-dist.yml",
+      "source_repo": "swagger-api/swagger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-deep-tests-reusable.yml",
+      "source_repo": "dafny-lang/dafny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-awp-metadata.yml",
+      "source_repo": "MicrosoftDocs/visualstudio-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rstackjs/storybook-rsbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributor-pr.yml",
+      "source_repo": "gradle/gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubeflow/trainer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-gh-pages.yml",
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "swagger-api/swagger-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yaml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "maltsev/htmlnano"
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "philoskim/debux",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "philoskim/debux",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "philoskim/debux",
+      "target": "DeLaGuardo/setup-clojure@10.1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:27.871539+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A trace-based debugging library for Clojure and ClojureScript.",
+    "fork": false,
+    "full_name": "philoskim/debux",
+    "html_url": "https://github.com/philoskim/debux",
+    "language": "Clojure",
+    "pushed_at": "2024-03-16T15:24:14Z",
+    "stargazers_count": 478,
+    "topics": [],
+    "updated_at": "2026-03-25T12:16:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

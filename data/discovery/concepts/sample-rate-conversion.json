@@ -19,6 +19,18 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate-context",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "A library for audio oversampling, which tries to offer a simple api while wrapping HIIR, by Laurent De Soras, for minimum phase antialiasing, and r8brain-free-src, by Aleksey Vaneev, for linear phase antialiasing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "avaneev/r8brain-free-src",
       "status": "candidate",
       "text": "Open source (under the MIT license) high-quality professional audio sample"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "avaneev/r8brain-free-src"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/oversimple"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

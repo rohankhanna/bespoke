@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clean GCloud Profiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clean GCloud Profiles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13956,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13956,
+      "status": "candidate",
+      "text": "profiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13715,
+      "status": "candidate",
+      "text": "characteristics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13715,
+      "status": "candidate",
+      "text": "features"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13715,
+      "status": "candidate",
+      "text": "patterns"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean GCloud Profiles",
+      "sense_id": "clean-gcloud-profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-gcloud-profiles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-gcloud-profiles",
+  "observation_id": "b559b6106e9943b5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Clean GCloud Profiles",
+  "source_context_snippet": "Clean GCloud Profiles",
+  "source_file": ".github/workflows/clean-gcloud-profiles.yml",
+  "source_repo": "isl-org/Open3D",
+  "source_repo_description": "Open3D: A Modern Library for 3D Data Processing"
+}

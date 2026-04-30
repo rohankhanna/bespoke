@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "li-xirong/coco-cn",
+      "target": "evanmiltenburg/coco-cn-results-viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-xirong/coco-cn",
+      "target": "chinese-image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-xirong/coco-cn",
+      "target": "cross-lingual-image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-xirong/coco-cn",
+      "target": "cross-lingual-image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-xirong/coco-cn",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "li-xirong/coco-cn",
+      "target": "image-tagging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:07:51.744020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Enriching MS-COCO with Chinese sentences and tags for cross-lingual multimedia tasks",
+    "fork": false,
+    "full_name": "li-xirong/coco-cn",
+    "html_url": "https://github.com/li-xirong/coco-cn",
+    "language": "OpenEdge ABL",
+    "pushed_at": "2025-02-12T15:17:02Z",
+    "stargazers_count": 214,
+    "topics": [
+      "chinese-image-captioning",
+      "cross-lingual-image-captioning",
+      "cross-lingual-image-retrieval",
+      "image-captioning",
+      "image-tagging"
+    ],
+    "updated_at": "2026-04-21T07:16:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evanmiltenburg/coco-cn-results-viewer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-image-captioning"
+    },
+    {
+      "context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual-image-captioning"
+    },
+    {
+      "context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual-image-retrieval"
+    },
+    {
+      "context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "COCO-CN is a bilingual image description dataset enriching MS-COCO with manually written Chinese sentences and tags. The new dataset can be used for multiple tasks including image tagging, captioning and retrieval, all in a cross-lingual setting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-tagging"
+    }
+  ]
+}

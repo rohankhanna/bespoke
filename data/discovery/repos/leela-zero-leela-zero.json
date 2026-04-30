@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leela-zero/leela-zero",
+      "target": "khronosgroup/opencl-icd-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leela-zero/leela-zero",
+      "target": "barrybecker4/leelawatcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leela-zero/leela-zero",
+      "target": "leelachesszero/lczero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leela-zero/leela-zero",
+      "target": "leelachesszero/lc0",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:16.064588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "next",
+    "description": "Go engine with no human-provided knowledge, modeled after the AlphaGo Zero paper.",
+    "fork": false,
+    "full_name": "leela-zero/leela-zero",
+    "html_url": "https://github.com/leela-zero/leela-zero",
+    "language": "C++",
+    "pushed_at": "2024-05-02T18:00:51Z",
+    "stargazers_count": 5571,
+    "topics": [],
+    "updated_at": "2026-04-29T05:51:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barrybecker4/leelawatcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/opencl-icd-loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leelachesszero/lc0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leelachesszero/lczero",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pase"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "s3prl/s3prl",
+      "status": "candidate-context",
+      "text": "Self-Supervised Speech Pre-training and Representation Learning Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3prl/s3prl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3prl/s3prl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014044,
+      "status": "candidate",
+      "text": "quite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014043,
+      "status": "candidate",
+      "text": "capeador"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014042,
+      "status": "candidate",
+      "text": "pase\u00edllo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014041,
+      "status": "candidate",
+      "text": "manoletina"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014040,
+      "status": "candidate",
+      "text": "capea"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pase",
+  "concept_id": "pase",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "s3prl/s3prl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pase",
+      "sense_id": "pase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

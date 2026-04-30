@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blurgyy/jaxngp",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "hashgrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "instant-ngp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "neural-radiance-field",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "tcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blurgyy/jaxngp",
+      "target": "tiny-cuda-nn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:50.536627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19192
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 61
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JAX implementation of Instant-NGP (NeRF part)",
+    "fork": false,
+    "full_name": "blurgyy/jaxngp",
+    "html_url": "https://github.com/blurgyy/jaxngp",
+    "language": "Python",
+    "pushed_at": "2024-05-25T09:49:10Z",
+    "stargazers_count": 37,
+    "topics": [
+      "cuda",
+      "hashgrid",
+      "instant-ngp",
+      "jax",
+      "nerf",
+      "neural-radiance-field",
+      "nix",
+      "python",
+      "tcnn",
+      "tiny-cuda-nn",
+      "wsl"
+    ],
+    "updated_at": "2026-02-24T10:28:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashgrid"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instant-ngp"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-field"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tcnn"
+    },
+    {
+      "context_snippet": "jaxngp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny-cuda-nn"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/cache-cargo-install-action@b8c5be6c3fb064f797977463ac00b01844751632",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "IgnisDa/ryot"
+    }
+  ]
+}

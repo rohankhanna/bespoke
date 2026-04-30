@@ -31,6 +31,18 @@
       "source_repo": "microsoft/semantic-kernel-java",
       "status": "candidate-context",
       "text": "Label issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
+      "status": "candidate-context",
+      "text": "Label issues"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/semantic-kernel-java",
+      "status": "candidate",
+      "text": "Label issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/agent-framework",
       "status": "candidate",
       "text": "Label issues"
     }
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/label-issue.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/label-issues.yml",
+      "source_repo": "microsoft/agent-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

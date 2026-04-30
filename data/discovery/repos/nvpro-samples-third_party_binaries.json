@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:21:43.177017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pre-built libraries for the nvpro-samples framework",
+    "fork": false,
+    "full_name": "nvpro-samples/third_party_binaries",
+    "html_url": "https://github.com/nvpro-samples/third_party_binaries",
+    "language": "C",
+    "pushed_at": "2021-05-18T15:11:39Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-03-09T00:51:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

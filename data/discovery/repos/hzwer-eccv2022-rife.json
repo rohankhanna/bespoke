@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "holywu/vs-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "amusementclub/vs-mlrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "baowenbo/memc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "coldog2333/pytoflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "slomo-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "video-interpolation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:33.886861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10947
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+    "fork": false,
+    "full_name": "hzwer/ECCV2022-RIFE",
+    "html_url": "https://github.com/hzwer/ECCV2022-RIFE",
+    "language": "Python",
+    "pushed_at": "2025-09-10T06:32:03Z",
+    "stargazers_count": 5408,
+    "topics": [
+      "aigc",
+      "computer-vision",
+      "deep-learning",
+      "slomo-filter",
+      "video-interpolation"
+    ],
+    "updated_at": "2026-04-30T05:13:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amusementclub/vs-mlrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baowenbo/memc-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coldog2333/pytoflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "holywu/vs-rife",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slomo-filter"
+    },
+    {
+      "context_snippet": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-interpolation"
+    }
+  ]
+}

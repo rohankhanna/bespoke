@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/EMA-VFI",
+      "target": "jhogsett/ema-vfi-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/EMA-VFI",
+      "target": "baowenbo/memc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/EMA-VFI",
+      "target": "hzwer/arxiv2020-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/EMA-VFI",
+      "target": "hrnet/hrformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:20.805541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolatio",
+    "fork": false,
+    "full_name": "MCG-NJU/EMA-VFI",
+    "html_url": "https://github.com/MCG-NJU/EMA-VFI",
+    "language": "Python",
+    "pushed_at": "2023-05-29T08:21:56Z",
+    "stargazers_count": 492,
+    "topics": [],
+    "updated_at": "2026-04-03T06:31:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baowenbo/memc-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/hrformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzwer/arxiv2020-rife",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhogsett/ema-vfi-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

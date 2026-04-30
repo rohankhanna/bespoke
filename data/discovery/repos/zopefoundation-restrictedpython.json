@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "zopefoundation/meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "plone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "restrictions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "untrusted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython",
+      "target": "zope",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:13.459105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2997
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2256
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A restricted execution environment for Python to run untrusted code.",
+    "fork": false,
+    "full_name": "zopefoundation/RestrictedPython",
+    "html_url": "https://github.com/zopefoundation/RestrictedPython",
+    "language": "Python",
+    "pushed_at": "2026-04-27T12:41:22Z",
+    "stargazers_count": 726,
+    "topics": [
+      "code",
+      "hacktoberfest",
+      "plone",
+      "python",
+      "restrictions",
+      "untrusted",
+      "zope"
+    ],
+    "updated_at": "2026-04-30T04:32:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zopefoundation/meta",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plone"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restrictions"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "untrusted"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zope"
+    }
+  ]
+}

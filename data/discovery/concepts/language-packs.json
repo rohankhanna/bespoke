@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "language-packs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "A solid language pack for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate",
+      "text": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "language-packs",
+  "concept_id": "language-packs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sheerun/vim-polyglot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-packs",
+      "sense_id": "language-packs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300a\u7cfb\u7edf\u91cd\u6784\u4e0e\u8fc1\u79fb\u6307\u5357\u300b\u624b\u628a\u624b\u6559\u4f60\u5206\u6790\u3001\u8bc4\u4f30\u73b0\u6709\u7cfb\u7edf\u3001\u5236\u5b9a\u91cd\u6784\u7b56\u7565\u3001\u63a2\u7d22\u53ef\u884c\u91cd\u6784\u65b9\u6848\u3001\u642d\u5efa\u6d4b\u8bd5\u9632\u62a4\u7f51\u3001\u8fdb\u884c\u7cfb\u7edf\u67b6\u6784\u91cd\u6784\u3001\u670d\u52a1\u67b6\u6784\u91cd\u6784\u3001\u6a21\u5757\u91cd\u6784\u3001\u4ee3\u7801\u91cd\u6784\u3001\u6570\u636e\u5e93\u91cd\u6784\u3001\u91cd\u6784\u540e\u7684\u67b6\u6784\u5b88\u62a4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "// \u7248\u672c\uff1av0.1.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "// \u7248\u672c\uff1av0.1.0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027318,
+      "status": "candidate",
+      "text": "nimble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025272,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012672,
+      "status": "candidate",
+      "text": "spry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986528,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956630,
+      "status": "candidate",
+      "text": "active"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agile",
+      "sense_id": "agile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "intelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "nimble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23067,
+      "status": "candidate",
+      "text": "active"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7051,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "spry"
+    }
+  ],
+  "concept_id": "agile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agile",
+  "observation_id": "6fa2befa8a3fa8a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "agile",
+  "source_context_snippet": "// \u7248\u672c\uff1av0.1.0",
+  "source_file": null,
+  "source_repo": "phodal/migration",
+  "source_repo_description": "\u300a\u7cfb\u7edf\u91cd\u6784\u4e0e\u8fc1\u79fb\u6307\u5357\u300b\u624b\u628a\u624b\u6559\u4f60\u5206\u6790\u3001\u8bc4\u4f30\u73b0\u6709\u7cfb\u7edf\u3001\u5236\u5b9a\u91cd\u6784\u7b56\u7565\u3001\u63a2\u7d22\u53ef\u884c\u91cd\u6784\u65b9\u6848\u3001\u642d\u5efa\u6d4b\u8bd5\u9632\u62a4\u7f51\u3001\u8fdb\u884c\u7cfb\u7edf\u67b6\u6784\u91cd\u6784\u3001\u670d\u52a1\u67b6\u6784\u91cd\u6784\u3001\u6a21\u5757\u91cd\u6784\u3001\u4ee3\u7801\u91cd\u6784\u3001\u6570\u636e\u5e93\u91cd\u6784\u3001\u91cd\u6784\u540e\u7684\u67b6\u6784\u5b88\u62a4"
+}

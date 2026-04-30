@@ -127,6 +127,54 @@
       "source_repo": "redis-developer/redis-product-search",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate-context",
+      "text": "An official lightweight library for the RaBitQ algorithm and its applications in vector search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate-context",
+      "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "Build your own perplexity for your applications using research4j and integrate them for any domain specific usecases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "redis-developer/redis-product-search",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate",
+      "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +358,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/VectorChord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

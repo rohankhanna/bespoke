@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Moddable-OpenSource/moddable-xst",
+      "target": "googlechromelabs/jsvu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Moddable-OpenSource/moddable-xst",
+      "target": "bterlson/eshost-cli",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:24:24.209680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Moddable XS Test Engine",
+    "fork": false,
+    "full_name": "Moddable-OpenSource/moddable-xst",
+    "html_url": "https://github.com/Moddable-OpenSource/moddable-xst",
+    "language": null,
+    "pushed_at": "2022-06-16T09:35:20Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-03-15T07:20:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bterlson/eshost-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechromelabs/jsvu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

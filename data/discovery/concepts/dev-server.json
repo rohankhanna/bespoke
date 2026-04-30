@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "dev-server"
+    "dev-server",
+    "Dev Server"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "vitejs/vite",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "Dev Server"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "vitejs/vite",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "Dev Server"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "observant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14471,
+      "status": "candidate",
+      "text": "cryptozoite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14471,
+      "status": "candidate",
+      "text": "direct labor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14471,
+      "status": "candidate",
+      "text": "germ"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14471,
+      "status": "candidate",
+      "text": "herm"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "dev-server",
   "concept_id": "dev-server",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/devserver.yml",
+      "source_repo": "jhipster/generator-jhipster"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

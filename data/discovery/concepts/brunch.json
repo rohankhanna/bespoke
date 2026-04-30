@@ -19,6 +19,18 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate-context",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunch/brunch",
+      "status": "candidate-context",
+      "text": "\ud83c\udf74 Web applications made easy. Since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/brunch",
+      "status": "candidate-context",
+      "text": "> Web applications made easy. Since 2011."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunch/brunch",
+      "status": "candidate",
+      "text": "> Web applications made easy. Since 2011."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "brunch/sass-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "brunch/brunch"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

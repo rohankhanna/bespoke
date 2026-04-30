@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "enjoy-digital/linux-on-litex-vexriscv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "dolu1990/freertos-riscv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "gnu-mcu-eclipse/org.eclipse.epp.packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "com-lihaoyi/mill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "Scala CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "riscv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "softcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "spinalhdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "verilog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpinalHDL/VexRiscv",
+      "target": "vhdl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "SpinalHDL/VexRiscv"
+}

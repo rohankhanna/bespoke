@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/oversimple",
+      "target": "unevens/avec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "oversampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "sample-rate-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/oversimple",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:36.684485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library for audio oversampling, which tries to offer a simple api while wrapping HIIR, by Laurent De Soras, for minimum phase antialiasing, and r8brain-free-src, by Aleksey Vaneev, for linear phase antialiasing.",
+    "fork": false,
+    "full_name": "unevens/oversimple",
+    "html_url": "https://github.com/unevens/oversimple",
+    "language": "C++",
+    "pushed_at": "2021-12-10T12:25:36Z",
+    "stargazers_count": 58,
+    "topics": [
+      "audio",
+      "audio-processing",
+      "avx",
+      "neon",
+      "oversampling",
+      "sample-rate-conversion",
+      "simd",
+      "sse"
+    ],
+    "updated_at": "2026-02-10T00:07:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/avec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oversampling"
+    },
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-rate-conversion"
+    },
+    {
+      "context_snippet": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

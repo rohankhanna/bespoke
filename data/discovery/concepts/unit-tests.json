@@ -4,7 +4,8 @@
     "Unit tests",
     "unit-tests",
     "\ud83e\uddea Unit Tests",
-    "unit tests"
+    "unit tests",
+    "Unit Tests \ud83e\uddea"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -533,6 +534,174 @@
       "source_repo": "charlottia/niar",
       "status": "candidate-context",
       "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalab-to/pdftext",
+      "status": "candidate-context",
+      "text": "Extract structured text from pdfs quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/pdftext",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Minimalist framework for running and monitoring an agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0e\ud83d\udcaa BrowserGym, a Gym environment for web task automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "Unit Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creachadair/imath",
+      "status": "candidate-context",
+      "text": "Arbitrary precision integer and rational arithmetic library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creachadair/imath",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/hertz",
+      "status": "candidate-context",
+      "text": "Go HTTP framework with high-performance and strong-extensibility for building micro-services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "A vLLM plugin built on the FlagOS unified multi-chip backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "Non-blocking, event-driven Swift client for Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate-context",
+      "text": "Wrapper around adb used by appium + helper libs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate-context",
+      "text": "A WebDriver server for iOS and tvOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/WorkArena",
+      "status": "candidate-context",
+      "text": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/WorkArena",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -803,6 +972,90 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "charlottia/niar",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalab-to/pdftext",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChillFish8/tantivy",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/BrowserGym",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "Unit Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creachadair/imath",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/hertz",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/RediStack",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium-adb",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/WebDriverAgent",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/WorkArena",
       "status": "candidate",
       "text": "Unit tests"
     }
@@ -1273,11 +1526,143 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/unit-tests.yml",
       "source_repo": "charlottia/niar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/pdftext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests-unit.yaml",
+      "source_repo": "mozilla-ai/tinyagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChillFish8/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ServiceNow/AgentLab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ServiceNow/BrowserGym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "creachadair/imath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "cloudwego/hertz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "swift-server/RediStack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "appium/appium-adb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "appium/WebDriverAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "ServiceNow/WorkArena"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

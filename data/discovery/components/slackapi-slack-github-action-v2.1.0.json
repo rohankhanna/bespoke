@@ -1,0 +1,17 @@
+{
+  "component": "slackapi/slack-github-action@v2.1.0",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify.yaml",
+      "source_repo": "glassflow/clickhouse-etl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-pebble-dep.yml",
+      "source_repo": "cockroachdb/cockroach"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visual display for ClojureScript tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "testing-tools",
+      "sense_id": "testing-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "testing-tools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "testing-tools",
+  "observation_id": "fc3157673216f525",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "testing-tools",
+  "source_context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/cljs-test-display.svg)](https://clojars.org/com.bhauman/cljs-test-display)",
+  "source_file": null,
+  "source_repo": "bhauman/cljs-test-display",
+  "source_repo_description": "Visual display for ClojureScript tests."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\"npm init\" script to create a new Octokit JS module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922007,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921957,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911025,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909964,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872681,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tooling",
+      "sense_id": "tooling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tooling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tooling",
+  "observation_id": "70816da0e5b7e3da",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "tooling",
+  "source_context_snippet": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)",
+  "source_file": null,
+  "source_repo": "octokit/create-octokit-project.js",
+  "source_repo_description": "\"npm init\" script to create a new Octokit JS module"
+}

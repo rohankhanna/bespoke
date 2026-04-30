@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiauZhang/Text2Video-Zero",
+      "target": "patrickvonplaten/controlnet_aux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:01.587315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators",
+    "fork": false,
+    "full_name": "JiauZhang/Text2Video-Zero",
+    "html_url": "https://github.com/JiauZhang/Text2Video-Zero",
+    "language": "Python",
+    "pushed_at": "2023-04-05T10:59:22Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2025-11-22T17:20:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrickvonplaten/controlnet_aux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

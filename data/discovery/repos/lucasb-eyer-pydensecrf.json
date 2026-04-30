@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "pypa/python-manylinux-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "eigen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "pairwise-potentials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "target": "unary-potentials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:19.258500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12325
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python wrapper to Philipp Kr\u00e4henb\u00fchl's dense (fully connected) CRFs with gaussian edge potentials.",
+    "fork": false,
+    "full_name": "lucasb-eyer/pydensecrf",
+    "html_url": "https://github.com/lucasb-eyer/pydensecrf",
+    "language": "C++",
+    "pushed_at": "2024-03-05T08:38:53Z",
+    "stargazers_count": 2017,
+    "topics": [
+      "computer-vision",
+      "crf",
+      "cython",
+      "eigen",
+      "machine-learning",
+      "pairwise-potentials",
+      "unary-potentials"
+    ],
+    "updated_at": "2026-04-29T20:32:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/python-manylinux-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cython"
+    },
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigen"
+    },
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pairwise-potentials"
+    },
+    {
+      "context_snippet": "PyDenseCRF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unary-potentials"
+    }
+  ]
+}

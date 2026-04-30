@@ -199,6 +199,18 @@
       "source_repo": "2KAbhishek/termim.nvim",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +307,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate",
       "text": "<div align = \"center\">"
     }
@@ -478,11 +496,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/termim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/pickme.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Build and publish a release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate-context",
+      "text": "Load a GHCi session for a Haskell project and reload it when source files change"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate-context",
+      "text": "Build and publish a release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MercuryTechnologies/ghciwatch",
+      "status": "candidate",
+      "text": "Build and publish a release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34197,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19394,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19394,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18228,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "announce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and publish a release",
+  "concept_id": "build-and-publish-a-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "MercuryTechnologies/ghciwatch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish a release",
+      "sense_id": "build-and-publish-a-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

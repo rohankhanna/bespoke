@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:12:34.657561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CodeBERT",
+    "fork": false,
+    "full_name": "microsoft/CodeBERT",
+    "html_url": "https://github.com/microsoft/CodeBERT",
+    "language": "Python",
+    "pushed_at": "2023-07-09T12:26:30Z",
+    "stargazers_count": 2763,
+    "topics": [],
+    "updated_at": "2026-04-30T06:22:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

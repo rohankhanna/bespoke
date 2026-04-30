@@ -43,6 +43,18 @@
       "source_repo": "adeweb-be/volto-leaflet-block",
       "status": "candidate-context",
       "text": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "A restricted execution environment for Python to run untrusted code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "adeweb-be/volto-leaflet-block",
       "status": "candidate",
       "text": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "adeweb-be/volto-leaflet-block"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

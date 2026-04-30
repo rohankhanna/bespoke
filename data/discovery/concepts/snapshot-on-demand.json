@@ -79,6 +79,30 @@
       "source_repo": "clojure/java.jdbc",
       "status": "candidate-context",
       "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.analyzer",
+      "status": "candidate-context",
+      "text": "An analyzer for Clojure code, written in Clojure and producing AST in EDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.deps",
+      "status": "candidate-context",
+      "text": "Deps as data and classpath generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "clojure/java.jdbc",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.analyzer",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps",
       "status": "candidate",
       "text": "Snapshot on demand"
     }
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/snapshot.yml",
       "source_repo": "clojure/java.jdbc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.deps"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

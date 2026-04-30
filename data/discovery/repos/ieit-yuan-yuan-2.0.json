@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IEIT-Yuan/Yuan-2.0",
+      "target": "iei-mjx/yuan-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IEIT-Yuan/Yuan-2.0",
+      "target": "ieit-yuan/yuanchat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:52.958985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yuan 2.0 Large Language Model",
+    "fork": false,
+    "full_name": "IEIT-Yuan/Yuan-2.0",
+    "html_url": "https://github.com/IEIT-Yuan/Yuan-2.0",
+    "language": "Python",
+    "pushed_at": "2024-07-11T12:25:40Z",
+    "stargazers_count": 690,
+    "topics": [],
+    "updated_at": "2026-04-02T10:28:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iei-mjx/yuan-2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ieit-yuan/yuanchat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

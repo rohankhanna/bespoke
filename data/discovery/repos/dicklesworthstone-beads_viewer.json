@@ -1,0 +1,443 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@e50d5f73bfe71c2dd0aa4218de8f4ade1f4f92d0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@87e8236f46702ab0ce5a058b605a173ec88d618e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-acfs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "dicklesworthstone/mcp_agent_mail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "dicklesworthstone/coding_agent_session_search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "charmbracelet/huh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "atotto/clipboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Notify ACFS checksum monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "DeterminateSystems/nix-installer-action@e50d5f73bfe71c2dd0aa4218de8f4ade1f4f92d0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "DeterminateSystems/magic-nix-cache-action@87e8236f46702ab0ce5a058b605a173ec88d618e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake-update.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Flake Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Nightly Fuzz Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-acfs.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-acfs.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Notify ACFS of Installer Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notes.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notes.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Auto Release Notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "graph-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dicklesworthstone/beads_viewer",
+      "target": "issue-tracker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:54.359425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 173872
+    },
+    {
+      "path": "go.mod",
+      "size": 3286
+    },
+    {
+      "path": ".github/workflows/acfs-checksums-dispatch.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4009
+    },
+    {
+      "path": ".github/workflows/flake-update.yml",
+      "size": 2372
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 5879
+    },
+    {
+      "path": ".github/workflows/notify-acfs.yml",
+      "size": 1525
+    },
+    {
+      "path": ".github/workflows/release-notes.yml",
+      "size": 2338
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API",
+    "fork": false,
+    "full_name": "Dicklesworthstone/beads_viewer",
+    "html_url": "https://github.com/Dicklesworthstone/beads_viewer",
+    "language": "Go",
+    "pushed_at": "2026-04-29T01:16:43Z",
+    "stargazers_count": 1485,
+    "topics": [
+      "developer-tools",
+      "go",
+      "graph-analysis",
+      "issue-tracker",
+      "tui"
+    ],
+    "updated_at": "2026-04-29T18:12:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atotto/clipboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charmbracelet/huh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dicklesworthstone/coding_agent_session_search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dicklesworthstone/mcp_agent_mail",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Notify ACFS checksum monitor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acfs-checksums-dispatch.yml",
+      "term": "Notify ACFS checksum monitor"
+    },
+    {
+      "context_snippet": "Flake Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flake-update.yml",
+      "term": "Flake Update"
+    },
+    {
+      "context_snippet": "Nightly Fuzz Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "Nightly Fuzz Testing"
+    },
+    {
+      "context_snippet": "Notify ACFS of Installer Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-acfs.yml",
+      "term": "Notify ACFS of Installer Changes"
+    },
+    {
+      "context_snippet": "Auto Release Notes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notes.yml",
+      "term": "Auto Release Notes"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![Release](https://img.shields.io/github/v/release/Dicklesworthstone/beads_viewer?style=for-the-badge&color=bd93f9)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "![Release](https://img.shields.io/github/v/release/Dicklesworthstone/beads_viewer?style=for-the-badge&color=bd93f9)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-analysis"
+    },
+    {
+      "context_snippet": "![Release](https://img.shields.io/github/v/release/Dicklesworthstone/beads_viewer?style=for-the-badge&color=bd93f9)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "issue-tracker"
+    }
+  ]
+}

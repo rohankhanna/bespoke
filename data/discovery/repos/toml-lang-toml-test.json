@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:20:01.958907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9576
+    },
+    {
+      "path": "go.mod",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language agnostic test suite for TOML parsers",
+    "fork": false,
+    "full_name": "toml-lang/toml-test",
+    "html_url": "https://github.com/toml-lang/toml-test",
+    "language": "Go",
+    "pushed_at": "2026-04-14T15:58:08Z",
+    "stargazers_count": 257,
+    "topics": [],
+    "updated_at": "2026-04-14T15:58:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

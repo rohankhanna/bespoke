@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/go-isatty",
+      "target": "k-takata/go-iscygpty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mattn/go-isatty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mattn/go-isatty",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mattn/go-isatty",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mattn/go-isatty",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty",
+      "target": "cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty",
+      "target": "isatty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty",
+      "target": "msys2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:26.875607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1088
+    },
+    {
+      "path": "go.mod",
+      "size": 77
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mattn/go-isatty",
+    "html_url": "https://github.com/mattn/go-isatty",
+    "language": "Go",
+    "pushed_at": "2026-04-27T03:32:43Z",
+    "stargazers_count": 903,
+    "topics": [
+      "cygwin",
+      "go",
+      "golang",
+      "isatty",
+      "msys2",
+      "website"
+    ],
+    "updated_at": "2026-04-29T08:54:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k-takata/go-iscygpty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cygwin"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isatty"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msys2"
+    },
+    {
+      "context_snippet": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

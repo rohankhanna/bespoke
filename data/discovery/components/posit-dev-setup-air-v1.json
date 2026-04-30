@@ -1,12 +1,22 @@
 {
   "component": "posit-dev/setup-air@v1",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-r.yml",
       "source_repo": "posit-dev/ark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format-suggest.yaml",
+      "source_repo": "r-lib/devtools"
     }
   ]
 }

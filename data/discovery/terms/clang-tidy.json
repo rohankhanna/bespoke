@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sycl-clang-tidy.yml",
+      "source_repo": "intel/llvm"
     }
   ],
   "term": "clang-tidy"

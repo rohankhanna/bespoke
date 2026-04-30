@@ -38,6 +38,18 @@
       "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
       "status": "candidate-context",
       "text": "Build and Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Build and run tests"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
       "status": "candidate",
       "text": "Build and Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate",
+      "text": "Build and run tests"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "YosysHQ/yosys"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

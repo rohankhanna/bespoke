@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wilkerlucio/spec-coerce",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wilkerlucio/spec-coerce",
+      "target": "DeLaGuardo/setup-clojure@2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wilkerlucio/spec-coerce",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wilkerlucio/spec-coerce",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:57.286720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7085
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Coerce by leveraging your specs",
+    "fork": false,
+    "full_name": "wilkerlucio/spec-coerce",
+    "html_url": "https://github.com/wilkerlucio/spec-coerce",
+    "language": "Clojure",
+    "pushed_at": "2022-01-09T13:40:08Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-04-06T12:46:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

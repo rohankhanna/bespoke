@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automate-stale-issues.yml"
+    },
+    {
+      "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automate-stale-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "amondnet/vercel-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "amondnet/vercel-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "amondnet/vercel-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dagster-ui-yarn-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automate-stale-issues.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automate-stale-issues.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automate-stale-issues.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "Automate stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "amondnet/vercel-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "Check Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copybara-sync-gate.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "Copybara Sync Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dagster-ui-yarn-lock.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dagster-ui-yarn-lock.yml",
+      "source_repo": "dagster-io/dagster",
+      "target": "Update dagster-ui yarn.lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "dagster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "data-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "data-orchestrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "data-pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dagster-io/dagster",
+      "target": "workflow-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:21.561485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6781
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5382
+    },
+    {
+      "path": ".github/workflows/automate-stale-issues.yml",
+      "size": 2113
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 5634
+    },
+    {
+      "path": ".github/workflows/check-docs.yml",
+      "size": 366
+    },
+    {
+      "path": ".github/workflows/copybara-sync-gate.yml",
+      "size": 4062
+    },
+    {
+      "path": ".github/workflows/update-dagster-ui-yarn-lock.yml",
+      "size": 1586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An orchestration platform for the development, production, and observation of data assets.",
+    "fork": false,
+    "full_name": "dagster-io/dagster",
+    "html_url": "https://github.com/dagster-io/dagster",
+    "language": "Python",
+    "pushed_at": "2026-04-29T23:05:25Z",
+    "stargazers_count": 15416,
+    "topics": [
+      "analytics",
+      "dagster",
+      "data-engineering",
+      "data-integration",
+      "data-orchestrator",
+      "data-pipelines",
+      "data-science",
+      "etl",
+      "metadata",
+      "mlops",
+      "orchestration",
+      "python",
+      "scheduler",
+      "workflow",
+      "workflow-automation"
+    ],
+    "updated_at": "2026-04-30T07:15:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automate stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automate-stale-issues.yml",
+      "term": "Automate stale issues"
+    },
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Check Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "term": "Check Docs"
+    },
+    {
+      "context_snippet": "Copybara Sync Gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copybara-sync-gate.yml",
+      "term": "Copybara Sync Gate"
+    },
+    {
+      "context_snippet": "Update dagster-ui yarn.lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dagster-ui-yarn-lock.yml",
+      "term": "Update dagster-ui yarn.lock"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dagster"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-engineering"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-integration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-orchestrator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-pipelines"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduler"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-automation"
+    }
+  ]
+}

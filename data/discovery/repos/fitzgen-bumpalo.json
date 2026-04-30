@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "fitzgen/bumpalo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "fitzgen/bumpalo",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:48.206840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8205
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1936
+    },
+    {
+      "path": ".github/workflows/rust.yaml",
+      "size": 3079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast bump allocation arena for Rust",
+    "fork": false,
+    "full_name": "fitzgen/bumpalo",
+    "html_url": "https://github.com/fitzgen/bumpalo",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T19:27:50Z",
+    "stargazers_count": 2178,
+    "topics": [],
+    "updated_at": "2026-04-28T07:47:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "term": "Rust"
+    }
+  ]
+}

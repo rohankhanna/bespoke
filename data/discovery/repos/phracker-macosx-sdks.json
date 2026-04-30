@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:06:47.596161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of those pesky SDK folders: MacOSX10.1.5.sdk thru MacOSX11.3.sdk",
+    "fork": false,
+    "full_name": "phracker/MacOSX-SDKs",
+    "html_url": "https://github.com/phracker/MacOSX-SDKs",
+    "language": null,
+    "pushed_at": "2022-11-11T04:07:29Z",
+    "stargazers_count": 2665,
+    "topics": [],
+    "updated_at": "2026-04-29T01:19:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

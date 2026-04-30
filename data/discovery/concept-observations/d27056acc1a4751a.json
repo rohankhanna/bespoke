@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evaluation code for various unsupervised automated metrics for Natural Language Generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51367,
+      "status": "candidate",
+      "text": "blue cheese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "barbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "bruise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "cherry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bleu",
+      "sense_id": "bleu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "blue cheese"
+    }
+  ],
+  "concept_id": "bleu",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bleu",
+  "observation_id": "d27056acc1a4751a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "bleu",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/Maluuba/nlg-eval.svg?branch=master)](https://travis-ci.org/Maluuba/nlg-eval)",
+  "source_file": null,
+  "source_repo": "Maluuba/nlg-eval",
+  "source_repo_description": "Evaluation code for various unsupervised automated metrics for Natural Language Generation."
+}

@@ -55,6 +55,18 @@
       "source_repo": "alexedwards/scs",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "alexedwards/scs",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_related_terms": [
@@ -176,11 +194,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexedwards/scs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

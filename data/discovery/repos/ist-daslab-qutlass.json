@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "ist-daslab/nanochat-qat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "ist-daslab/fp-quant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "blackwell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "post-training-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IST-DASLab/qutlass",
+      "target": "quantization-aware-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:02.384506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9514
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 333
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "QuTLASS: CUTLASS-Powered Quantized BLAS for Deep Learning ",
+    "fork": false,
+    "full_name": "IST-DASLab/qutlass",
+    "html_url": "https://github.com/IST-DASLab/qutlass",
+    "language": "C++",
+    "pushed_at": "2025-11-11T13:41:32Z",
+    "stargazers_count": 179,
+    "topics": [
+      "blackwell",
+      "cuda",
+      "post-training-quantization",
+      "quantization-aware-training"
+    ],
+    "updated_at": "2026-04-28T19:56:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/fp-quant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/nanochat-qat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackwell"
+    },
+    {
+      "context_snippet": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-quantization"
+    },
+    {
+      "context_snippet": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization-aware-training"
+    }
+  ]
+}

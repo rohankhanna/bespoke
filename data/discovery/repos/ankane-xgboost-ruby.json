@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "ankane/lightgbm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "ankane/eps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "paironair/xgboost-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "rubyml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/xgboost-ruby",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:43.889490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3378
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High performance gradient boosting for Ruby",
+    "fork": false,
+    "full_name": "ankane/xgboost-ruby",
+    "html_url": "https://github.com/ankane/xgboost-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-04T20:17:09Z",
+    "stargazers_count": 120,
+    "topics": [
+      "machine-learning",
+      "rubyml",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-12T18:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/eps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/lightgbm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paironair/xgboost-ruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    },
+    {
+      "context_snippet": "[XGBoost](https://github.com/dmlc/xgboost) - high performance gradient boosting - for Ruby",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

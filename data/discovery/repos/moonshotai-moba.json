@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA",
+      "target": "flash-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonshotAI/MoBA",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:56.819703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5019
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 329
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MoBA: Mixture of Block Attention for Long-Context LLMs",
+    "fork": false,
+    "full_name": "MoonshotAI/MoBA",
+    "html_url": "https://github.com/MoonshotAI/MoBA",
+    "language": "Python",
+    "pushed_at": "2025-04-03T07:28:06Z",
+    "stargazers_count": 2108,
+    "topics": [
+      "flash-attention",
+      "llm",
+      "llm-serving",
+      "llm-training",
+      "moe",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-29T07:46:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash-attention"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

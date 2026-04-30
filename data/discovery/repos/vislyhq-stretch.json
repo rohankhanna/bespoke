@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch",
+      "target": "flexbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vislyhq/stretch",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:54.696621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7700
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High performance flexbox implementation written in rust",
+    "fork": false,
+    "full_name": "vislyhq/stretch",
+    "html_url": "https://github.com/vislyhq/stretch",
+    "language": "Rust",
+    "pushed_at": "2023-01-26T16:14:25Z",
+    "stargazers_count": 2031,
+    "topics": [
+      "android",
+      "cross-platform",
+      "flexbox",
+      "ios",
+      "rust"
+    ],
+    "updated_at": "2026-04-14T14:56:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexbox"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

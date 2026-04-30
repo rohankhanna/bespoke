@@ -84,7 +84,7 @@
   "normalized_form": "workflow-security-analysis",
   "observation_id": "273fe673d0cde540",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Workflow security analysis",
   "source_context_snippet": "Workflow security analysis",
   "source_file": ".github/workflows/zizmor.yml",

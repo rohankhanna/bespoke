@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "hazyresearch/state-spaces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "philsyn/diffwave-vocoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "time-series-forecasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD",
+      "target": "time-series-imputation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:39.358347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for the paper: 'Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models'",
+    "fork": false,
+    "full_name": "AI4HealthUOL/SSSD",
+    "html_url": "https://github.com/AI4HealthUOL/SSSD",
+    "language": "Python",
+    "pushed_at": "2025-05-24T18:13:48Z",
+    "stargazers_count": 334,
+    "topics": [
+      "deep-learning",
+      "diffusion-models",
+      "time-series-forecasting",
+      "time-series-imputation"
+    ],
+    "updated_at": "2026-04-24T16:12:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/state-spaces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philsyn/diffwave-vocoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-forecasting"
+    },
+    {
+      "context_snippet": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-imputation"
+    }
+  ]
+}

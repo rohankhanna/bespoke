@@ -178,6 +178,42 @@
       "source_repo": "arnaud-lb/php-rdkafka",
       "status": "candidate-context",
       "text": "'Package'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate-context",
+      "text": "Set up commonly used \ud83d\udce6 components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/personal-pacman-packages",
+      "status": "candidate-context",
+      "text": "My personal collection of PKGBUILDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-pacman-packages",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/personal-pacman-packages/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/personal-pacman-packages/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": "LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": "Package"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +300,24 @@
       "source_repo": "arnaud-lb/php-rdkafka",
       "status": "candidate",
       "text": "'Package'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/usethis",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/personal-pacman-packages",
+      "status": "candidate",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/personal-pacman-packages/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/personal-pacman-packages/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate",
+      "text": "Package"
     }
   ],
   "candidate_related_terms": [
@@ -504,11 +558,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "r-lib/usethis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/personal-pacman-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

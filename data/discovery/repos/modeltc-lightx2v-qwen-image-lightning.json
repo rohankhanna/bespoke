@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "modeltc/qwen-image-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V-Qwen-Image-Lightning",
+      "target": "nunchaku-tech/nunchaku",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:15.329867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qwen-Image-Lightning: Speed up Qwen-Image model with distillation",
+    "fork": false,
+    "full_name": "ModelTC/LightX2V-Qwen-Image-Lightning",
+    "html_url": "https://github.com/ModelTC/LightX2V-Qwen-Image-Lightning",
+    "language": "Python",
+    "pushed_at": "2026-01-01T06:24:42Z",
+    "stargazers_count": 1301,
+    "topics": [],
+    "updated_at": "2026-04-28T03:51:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/qwen-image-lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nunchaku-tech/nunchaku",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

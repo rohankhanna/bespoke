@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-update spec repo links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-update spec repo links"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22903,
+      "status": "candidate",
+      "text": "sit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22859,
+      "status": "candidate",
+      "text": "debt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22859,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22859,
+      "status": "candidate",
+      "text": "redeem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22859,
+      "status": "candidate",
+      "text": "redeemed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-update spec repo links",
+      "sense_id": "auto-update-spec-repo-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-update-spec-repo-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-update-spec-repo-links",
+  "observation_id": "39b404215b5f8dbb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Auto-update spec repo links",
+  "source_context_snippet": "Auto-update spec repo links",
+  "source_file": ".github/workflows/auto-update-spec-repo-links.yml",
+  "source_repo": "open-telemetry/semantic-conventions",
+  "source_repo_description": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+}

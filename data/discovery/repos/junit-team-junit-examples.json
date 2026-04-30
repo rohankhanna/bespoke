@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@508b753e53cb6095967669e0911487d2b9bc9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@508b753e53cb6095967669e0911487d2b9bc9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nohttp.yml"
+    },
+    {
+      "component": "jbangdev/jbang-action@ff16f52fffad177d85a395fe8265e0882eaa5d6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nohttp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "sbt/setup-sbt@508b753e53cb6095967669e0911487d2b9bc9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "Build all examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "sbt/setup-sbt@508b753e53cb6095967669e0911487d2b9bc9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "gradle/actions/wrapper-validation@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nohttp.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nohttp.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "jbangdev/jbang-action@ff16f52fffad177d85a395fe8265e0882eaa5d6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nohttp.yml",
+      "source_repo": "junit-team/junit-examples",
+      "target": "Verify HTTPS URLs are used",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:13:06.819313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6286
+    },
+    {
+      "path": ".github/workflows/build-all-examples.yml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1447
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/nohttp.yml",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of JUnit example projects",
+    "fork": false,
+    "full_name": "junit-team/junit-examples",
+    "html_url": "https://github.com/junit-team/junit-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-28T20:09:57Z",
+    "stargazers_count": 1619,
+    "topics": [],
+    "updated_at": "2026-04-30T03:05:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build all examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all-examples.yml",
+      "term": "Build all examples"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Verify HTTPS URLs are used",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nohttp.yml",
+      "term": "Verify HTTPS URLs are used"
+    }
+  ]
+}

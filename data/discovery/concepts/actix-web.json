@@ -79,6 +79,18 @@
       "source_repo": "canduma/canduma",
       "status": "candidate-context",
       "text": "[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate-context",
+      "text": "OpenTelemetry integration for Actix Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "canduma/canduma",
       "status": "candidate",
       "text": "[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OutThereLabs/actix-web-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

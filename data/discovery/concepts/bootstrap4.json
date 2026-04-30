@@ -31,6 +31,18 @@
       "source_repo": "songquanpeng/blog-theme-bootstrap",
       "status": "candidate-context",
       "text": "1. Powered by the Bootstrap CSS framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "A flat design, one page, MIT licensed Bootstrap portfolio theme created by Start Bootstrap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate-context",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "songquanpeng/blog-theme-bootstrap",
       "status": "candidate",
       "text": "1. Powered by the Bootstrap CSS framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StartBootstrap/startbootstrap-freelancer",
+      "status": "candidate",
+      "text": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/blog-theme-bootstrap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "StartBootstrap/startbootstrap-freelancer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

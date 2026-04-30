@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Knio/dominate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Knio/dominate",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Knio/dominate",
+      "target": "Dominate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Knio/dominate",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Knio/dominate",
+      "target": "html-document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Knio/dominate",
+      "target": "html-element",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Knio/dominate",
+      "target": "python-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:36.134204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12463
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/.coveragerc",
+      "size": 28
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.  It allows you to write HTML pages in pure Python very concisely, which eliminate the need to learn another template language, and to take advantage of the more powerful features of Python.",
+    "fork": false,
+    "full_name": "Knio/dominate",
+    "html_url": "https://github.com/Knio/dominate",
+    "language": "Python",
+    "pushed_at": "2026-04-09T02:36:18Z",
+    "stargazers_count": 1817,
+    "topics": [
+      "html",
+      "html-document",
+      "html-element",
+      "python",
+      "python-library"
+    ],
+    "updated_at": "2026-04-28T01:13:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dominate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Dominate"
+    },
+    {
+      "context_snippet": "Dominate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Dominate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-document"
+    },
+    {
+      "context_snippet": "Dominate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-element"
+    },
+    {
+      "context_snippet": "Dominate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    }
+  ]
+}

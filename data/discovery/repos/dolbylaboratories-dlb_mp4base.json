@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:19:33.142963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Dolby MP4 streaming muxer (dlb_mp4base) is a software implementation of a muxer of fragmented or unfragmented ISO base media file format (mp4). It supports muxing of Dolby Digital (AC-3), Dolby Digital Plus (E-AC-3), and Dolby AC-4 audio formats as well as Dolby Vision.",
+    "fork": false,
+    "full_name": "DolbyLaboratories/dlb_mp4base",
+    "html_url": "https://github.com/DolbyLaboratories/dlb_mp4base",
+    "language": "C",
+    "pushed_at": "2026-04-17T08:18:55Z",
+    "stargazers_count": 280,
+    "topics": [],
+    "updated_at": "2026-04-17T08:19:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

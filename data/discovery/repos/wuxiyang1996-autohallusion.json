@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:47.090154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10593
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AutoHallusion Codebase (EMNLP 2024)",
+    "fork": false,
+    "full_name": "wuxiyang1996/AutoHallusion",
+    "html_url": "https://github.com/wuxiyang1996/AutoHallusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-06T17:35:49Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-02-06T08:20:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

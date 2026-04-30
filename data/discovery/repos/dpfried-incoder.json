@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:09:10.452603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative model for code infilling and synthesis",
+    "fork": false,
+    "full_name": "dpfried/incoder",
+    "html_url": "https://github.com/dpfried/incoder",
+    "language": "Python",
+    "pushed_at": "2023-09-09T19:21:51Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-04-09T07:52:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

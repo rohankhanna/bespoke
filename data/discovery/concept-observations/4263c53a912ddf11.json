@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes Scheduler for Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933229,
+      "status": "candidate",
+      "text": "programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957046,
+      "status": "candidate",
+      "text": "timetable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955237,
+      "status": "candidate",
+      "text": "agenda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955011,
+      "status": "candidate",
+      "text": "listing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954533,
+      "status": "candidate",
+      "text": "program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scheduling",
+      "sense_id": "scheduling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36,
+      "status": "candidate",
+      "text": "programming"
+    }
+  ],
+  "concept_id": "scheduling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scheduling",
+  "observation_id": "4263c53a912ddf11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "scheduling",
+  "source_context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+  "source_file": null,
+  "source_repo": "microsoft/hivedscheduler",
+  "source_repo_description": "Kubernetes Scheduler for Deep Learning"
+}

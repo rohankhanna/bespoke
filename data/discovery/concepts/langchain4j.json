@@ -31,6 +31,30 @@
       "source_repo": "quarkiverse/quarkus-langchain4j",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/maven-central/v/io.quarkiverse.langchain4j/quarkus-langchain4j-parent?logo=apache-maven&style=flat-square)](https://search.maven.org/artifact/io.quarkiverse.langchain4j/quarkus-langchain4j)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 LangGraph for Java. A library for develop AI Agentic Architectures in the Java ecosystem. Designed to work seamlessly with both Langchain4j and Spring AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "Build your own perplexity for your applications using research4j and integrate them for any domain specific usecases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate-context",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "quarkiverse/quarkus-langchain4j",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/maven-central/v/io.quarkiverse.langchain4j/quarkus-langchain4j-parent?logo=apache-maven&style=flat-square)](https://search.maven.org/artifact/io.quarkiverse.langchain4j/quarkus-langchain4j)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgraph4j/langgraph4j",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [![docs](https://img.shields.io/badge/Site-Documentation-blue)][documentation] [![DeepWiki](https://img.shields.io/badge/DeepWiki-docs-0b6?style=flat)](https://deepwiki.com/langgraph4j/langgraph4j) [![Static Ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhavuklabs/research4j",
+      "status": "candidate",
+      "text": "**Intelligent Research Automation Library with Dynamic Reasoning and Citation Management**"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "quarkiverse/quarkus-langchain4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhavuklabs/research4j"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

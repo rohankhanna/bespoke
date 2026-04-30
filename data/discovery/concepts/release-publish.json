@@ -82,6 +82,18 @@
       "source_repo": "Kong/insomnia",
       "status": "candidate-context",
       "text": "Release Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "Release Publish"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/insomnia",
+      "status": "candidate",
+      "text": "Release Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
       "status": "candidate",
       "text": "Release Publish"
     }
@@ -205,11 +223,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-publish.yml",
       "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/psnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "ServiceNow/webarena-verified"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

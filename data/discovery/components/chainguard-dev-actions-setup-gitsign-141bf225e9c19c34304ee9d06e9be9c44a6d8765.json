@@ -1,0 +1,17 @@
+{
+  "component": "chainguard-dev/actions/setup-gitsign@141bf225e9c19c34304ee9d06e9be9c44a6d8765",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    }
+  ]
+}

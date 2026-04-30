@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude AI Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Build AI agents for your PC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate-context",
+      "text": "Claude AI Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amd/gaia",
+      "status": "candidate",
+      "text": "Claude AI Assistant"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18898,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11096,
+      "status": "candidate",
+      "text": "ais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10821,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10821,
+      "status": "candidate",
+      "text": "person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10798,
+      "status": "candidate",
+      "text": "complex"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude AI Assistant",
+  "concept_id": "claude-ai-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "amd/gaia"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude AI Assistant",
+      "sense_id": "claude-ai-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

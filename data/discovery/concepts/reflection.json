@@ -31,6 +31,18 @@
       "source_repo": "aantron/better-enums",
       "status": "candidate-context",
       "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "A runtime developer console and IRB alternative with powerful introspection capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate-context",
+      "text": "Pry"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aantron/better-enums",
       "status": "candidate",
       "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pry/pry",
+      "status": "candidate",
+      "text": "Pry"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aantron/better-enums"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pry/pry"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

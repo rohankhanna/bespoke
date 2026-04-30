@@ -19,6 +19,18 @@
       "source_repo": "spacemeshos/product",
       "status": "candidate-context",
       "text": "This repo contains the Spacemesh product specifications and designs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Netgear/wsdd2",
+      "status": "candidate-context",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Netgear/wsdd2",
+      "status": "candidate-context",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spacemeshos/product",
       "status": "candidate",
       "text": "This repo contains the Spacemesh product specifications and designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Netgear/wsdd2",
+      "status": "candidate",
+      "text": "WSD/LLMNR Discovery/Name Service Daemon"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/product"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Netgear/wsdd2"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

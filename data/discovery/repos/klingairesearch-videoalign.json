@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KlingAIResearch/VideoAlign",
+      "target": "kwaivgi/videoalign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KlingAIResearch/VideoAlign",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:13.390343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] Improving Video Generation with Human Feedback",
+    "fork": false,
+    "full_name": "KlingAIResearch/VideoAlign",
+    "html_url": "https://github.com/KlingAIResearch/VideoAlign",
+    "language": "Python",
+    "pushed_at": "2025-09-24T02:46:21Z",
+    "stargazers_count": 457,
+    "topics": [],
+    "updated_at": "2026-04-29T12:14:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen2-vl-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwaivgi/videoalign",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia",
+      "target": "insomnia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlabouardy/swaggymnia",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:29.835981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2501
+    },
+    {
+      "path": "Dockerfile",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate Swagger \ud83c\udf00 documentation for your existing API in Insomnia",
+    "fork": false,
+    "full_name": "mlabouardy/swaggymnia",
+    "html_url": "https://github.com/mlabouardy/swaggymnia",
+    "language": "Go",
+    "pushed_at": "2021-10-26T02:54:59Z",
+    "stargazers_count": 429,
+    "topics": [
+      "api",
+      "docs",
+      "insomnia",
+      "rest-api",
+      "swagger"
+    ],
+    "updated_at": "2026-03-19T12:51:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "insomnia"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

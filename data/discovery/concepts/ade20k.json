@@ -55,6 +55,18 @@
       "source_repo": "CoinCheung/BiSeNet",
       "status": "candidate-context",
       "text": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\" on Semantic Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate-context",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "CoinCheung/BiSeNet",
       "status": "candidate",
       "text": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
+      "status": "candidate",
+      "text": "This repo contains the supported code and configuration files to reproduce semantic segmentaion results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.11.0)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CoinCheung/BiSeNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "SwinTransformer/Swin-Transformer-Semantic-Segmentation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

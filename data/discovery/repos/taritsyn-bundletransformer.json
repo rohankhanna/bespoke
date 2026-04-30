@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/BundleTransformer",
+      "target": "aspnet/aspnetweboptimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/BundleTransformer",
+      "target": "douglascrockford/jsmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/BundleTransformer",
+      "target": "css/csso",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/BundleTransformer",
+      "target": "benembery/dotnet-mvc-web-optimisation-helpers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:31:53.128364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bundle Transformer - a modular extension for System.Web.Optimization (also known as the Microsoft ASP.NET Web Optimization Framework).",
+    "fork": false,
+    "full_name": "Taritsyn/BundleTransformer",
+    "html_url": "https://github.com/Taritsyn/BundleTransformer",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T09:26:36Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-04-21T09:57:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/aspnetweboptimization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benembery/dotnet-mvc-web-optimisation-helpers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "css/csso",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "douglascrockford/jsmin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

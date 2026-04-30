@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frankfralick/openai-func-enums",
+      "target": "frankfralick/dripgrep",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:47.261831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21624
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of Rust macros for working with OpenAI function/tool calls.",
+    "fork": false,
+    "full_name": "frankfralick/openai-func-enums",
+    "html_url": "https://github.com/frankfralick/openai-func-enums",
+    "language": "Rust",
+    "pushed_at": "2024-03-29T18:33:47Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-03-05T11:51:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frankfralick/dripgrep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

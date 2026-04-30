@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO",
+      "target": "jimmy646/violin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO",
+      "target": "jayleicn/tvretrieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO",
+      "target": "jayleicn/tvcaption",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linjieli222/HERO",
+      "target": "linjieli222/hero_video_feature_extractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO",
+      "target": "pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linjieli222/HERO",
+      "target": "vision-and-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:57.964380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10158
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Research code for EMNLP 2020 paper \"HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training\"",
+    "fork": false,
+    "full_name": "linjieli222/HERO",
+    "html_url": "https://github.com/linjieli222/HERO",
+    "language": "Python",
+    "pushed_at": "2021-09-16T20:50:12Z",
+    "stargazers_count": 235,
+    "topics": [
+      "pretraining",
+      "pytorch",
+      "transformers",
+      "tvr",
+      "vision-and-language"
+    ],
+    "updated_at": "2026-04-21T09:41:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvcaption",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/tvretrieval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimmy646/violin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linjieli222/hero_video_feature_extractor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official repository of [HERO](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretraining"
+    },
+    {
+      "context_snippet": "This is the official repository of [HERO](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the official repository of [HERO](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "This is the official repository of [HERO](https://arxiv.org/abs/2005.00200) (EMNLP 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    }
+  ]
+}

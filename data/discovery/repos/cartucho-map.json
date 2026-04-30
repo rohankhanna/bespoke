@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "average-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "darkflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "ground-truth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "pascal-voc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:20.149855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "mean Average Precision - This code evaluates the performance of your neural net for object recognition.",
+    "fork": false,
+    "full_name": "Cartucho/mAP",
+    "html_url": "https://github.com/Cartucho/mAP",
+    "language": "Python",
+    "pushed_at": "2024-08-15T13:09:32Z",
+    "stargazers_count": 2973,
+    "topics": [
+      "average-precision",
+      "computer-vision",
+      "darkflow",
+      "darknet",
+      "detection",
+      "ground-truth",
+      "machine-learning",
+      "metrics",
+      "neural-network",
+      "object-detection",
+      "pascal-voc",
+      "yolo"
+    ],
+    "updated_at": "2026-04-30T00:25:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "average-precision"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darkflow"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darknet"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ground-truth"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal-voc"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

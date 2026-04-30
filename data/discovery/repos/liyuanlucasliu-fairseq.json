@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "LiyuanLucasLiu/fairseq",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:29.413944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16837
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1840
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "admin-torch",
+    "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+    "fork": true,
+    "full_name": "LiyuanLucasLiu/fairseq",
+    "html_url": "https://github.com/LiyuanLucasLiu/fairseq",
+    "language": "Python",
+    "pushed_at": "2022-04-29T17:21:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-04-29T17:21:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

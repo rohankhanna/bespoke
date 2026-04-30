@@ -67,6 +67,18 @@
       "source_repo": "sogaiu/tree-sitter-clojure",
       "status": "candidate-context",
       "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argdown/argdown",
+      "status": "candidate-context",
+      "text": "a simple syntax for complex argumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argdown/argdown",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "sogaiu/tree-sitter-clojure",
       "status": "candidate",
       "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argdown/argdown",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sogaiu/tree-sitter-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "argdown/argdown"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

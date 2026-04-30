@@ -403,6 +403,42 @@
       "source_repo": "i18next/react-i18next",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate-context",
+      "text": "Get launch arguments for testing with Detox, Appium, and Maestro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate-context",
+      "text": "React Native module to get launch arguments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Sample for testing AWS SDK for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate-context",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "i18next/react-i18next",
       "status": "candidate",
       "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file { \"first-line-heading\": 0 } -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamolegga/react-native-launch-arguments",
+      "status": "candidate",
+      "text": "React Native module to get launch arguments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-sdk-js-tests",
+      "status": "candidate",
+      "text": "Code Samples for testing AWS SDK for JavaScript."
     }
   ],
   "candidate_related_terms": [],
@@ -850,11 +904,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "i18next/react-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wix/Detox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "iamolegga/react-native-launch-arguments"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-sdk-js-tests"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,30 @@
       "source_repo": "redis-developer/redis-starter-java",
       "status": "candidate-context",
       "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate-context",
+      "text": "Dynamo Multi AI Agent POC: Unlock the Power of Spring AI and LangGraph4J"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "redis-developer/redis-starter-java",
       "status": "candidate",
       "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "[![Logo][jhipster-image]][jhipster-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> <a href=\"https://github.com/Breezeware-OS/\"><img src=\"https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6\" alt=\"Dynamo\" width=\"400\" align=\"center\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

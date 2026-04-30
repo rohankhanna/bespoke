@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PySODMetrics: A Simple and Efficient Implementation of Grayscale/Binary Segmentation Metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965596,
+      "status": "candidate",
+      "text": "salience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891025,
+      "status": "candidate",
+      "text": "strikingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965725,
+      "status": "candidate",
+      "text": "hypersalience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965724,
+      "status": "candidate",
+      "text": "salaciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965723,
+      "status": "candidate",
+      "text": "saltativeness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "saliency",
+      "sense_id": "saliency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21024,
+      "status": "candidate",
+      "text": "salience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "strikingness"
+    }
+  ],
+  "concept_id": "saliency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "saliency",
+  "observation_id": "50f483d9ef574876",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "saliency",
+  "source_context_snippet": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026",
+  "source_file": null,
+  "source_repo": "lartpang/PySODMetrics",
+  "source_repo_description": "PySODMetrics: A Simple and Efficient Implementation of Grayscale/Binary Segmentation Metrics"
+}

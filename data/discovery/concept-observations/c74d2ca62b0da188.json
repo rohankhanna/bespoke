@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rdkafka extension stubs for your IDE. Always compatibile with the latest php-rdkafka version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497171,
+      "status": "candidate",
+      "text": "franz kafka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497169,
+      "status": "candidate",
+      "text": "surreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497168,
+      "status": "candidate",
+      "text": "nightmarish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497167,
+      "status": "candidate",
+      "text": "absurd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497166,
+      "status": "candidate",
+      "text": "bureaucratic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kafka",
+      "sense_id": "kafka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "franz kafka"
+    }
+  ],
+  "concept_id": "kafka",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kafka",
+  "observation_id": "c74d2ca62b0da188",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "kafka",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/kwn/php-rdkafka-stubs.svg?branch=master)](https://travis-ci.org/kwn/php-rdkafka-stubs)",
+  "source_file": null,
+  "source_repo": "kwn/php-rdkafka-stubs",
+  "source_repo_description": "Rdkafka extension stubs for your IDE. Always compatibile with the latest php-rdkafka version."
+}

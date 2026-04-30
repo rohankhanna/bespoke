@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTC2021",
+      "target": "destwang/ctcresources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "destwang/CTC2021",
+      "target": "grammarly/gector",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:23.274897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "destwang/CTC2021",
+    "html_url": "https://github.com/destwang/CTC2021",
+    "language": "Python",
+    "pushed_at": "2022-11-03T11:44:12Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-02-13T07:04:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "destwang/ctcresources",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grammarly/gector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

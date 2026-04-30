@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-patch-version.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-patch-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-patch-version.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-patch-version.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-patch-version.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "Bump Patch Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "Multiple linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "greptimedb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/demo-scene",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:29.339161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2559
+    },
+    {
+      "path": ".github/workflows/bump-patch-version.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc7eScripts and samples to support Greptime Demos and Talks. ",
+    "fork": false,
+    "full_name": "GreptimeTeam/demo-scene",
+    "html_url": "https://github.com/GreptimeTeam/demo-scene",
+    "language": "Python",
+    "pushed_at": "2026-04-24T15:57:46Z",
+    "stargazers_count": 42,
+    "topics": [
+      "cloud",
+      "demo",
+      "greptimedb",
+      "mysql",
+      "time-series"
+    ],
+    "updated_at": "2026-04-24T15:57:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bump Patch Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-patch-version.yml",
+      "term": "Bump Patch Version"
+    },
+    {
+      "context_snippet": "Multiple linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Multiple linters"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "greptimedb"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

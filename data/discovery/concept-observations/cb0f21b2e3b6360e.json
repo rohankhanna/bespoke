@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero -- A neural machine translation system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A neural machine translation system implemented by python2 + tensorflow."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A neural machine translation system implemented by python2 + tensorflow."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-machine-translation",
+      "sense_id": "neural-machine-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-machine-translation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-machine-translation",
+  "observation_id": "cb0f21b2e3b6360e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "neural-machine-translation",
+  "source_context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+  "source_file": null,
+  "source_repo": "bzhangGo/zero",
+  "source_repo_description": "Zero -- A neural machine translation system"
+}

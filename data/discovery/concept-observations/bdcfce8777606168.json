@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Grafana DataSource of GreptimeDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Frontend unit tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Frontend unit tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19813,
+      "status": "candidate",
+      "text": "simulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11467,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11467,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11457,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11446,
+      "status": "candidate",
+      "text": "examination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Frontend unit tests",
+      "sense_id": "frontend-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "frontend-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "frontend-unit-tests",
+  "observation_id": "bdcfce8777606168",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Frontend unit tests",
+  "source_context_snippet": "Frontend unit tests",
+  "source_file": ".github/workflows/run-frontend-tests.yml",
+  "source_repo": "GreptimeTeam/greptimedb-grafana-datasource",
+  "source_repo_description": "Grafana DataSource of GreptimeDB"
+}

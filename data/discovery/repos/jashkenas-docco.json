@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "underscore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jashkenas/docco",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jashkenas/docco",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jashkenas/docco",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jashkenas/docco",
+      "target": "underscore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jashkenas/docco",
+      "target": "highlight.js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:16:03.441665+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Literate Programming can be Quick and Dirty.",
+    "fork": false,
+    "full_name": "jashkenas/docco",
+    "html_url": "https://github.com/jashkenas/docco",
+    "language": "HTML",
+    "pushed_at": "2025-11-17T10:31:55Z",
+    "stargazers_count": 3571,
+    "topics": [],
+    "updated_at": "2026-04-08T12:01:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

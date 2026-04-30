@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-gh-pages@ba0b7df03e25ff29c924be8149041119e9421ea6",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "handsontable/hyperformula"
+    }
+  ]
+}

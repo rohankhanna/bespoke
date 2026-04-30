@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "jlleitschuh/ktlint-gradle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "arturbosch/detekt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "Pre Merge Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "Publish Plugin to Portal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "github-actions-gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "github-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "github-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-composite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-compositebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-plugin-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-plugin-kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "gradle-portal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "kotlin-dsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "kotlin-gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:25:13.831478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5995
+    },
+    {
+      "path": ".github/workflows/pre-merge.yaml",
+      "size": 1023
+    },
+    {
+      "path": ".github/workflows/publish-plugin.yaml",
+      "size": 743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc18 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds",
+    "fork": false,
+    "full_name": "cortinico/kotlin-gradle-plugin-template",
+    "html_url": "https://github.com/cortinico/kotlin-gradle-plugin-template",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T16:15:55Z",
+    "stargazers_count": 515,
+    "topics": [
+      "github-actions",
+      "github-actions-gradle",
+      "github-template",
+      "github-templates",
+      "gradle",
+      "gradle-composite",
+      "gradle-compositebuild",
+      "gradle-plugin",
+      "gradle-plugin-development",
+      "gradle-plugin-kotlin",
+      "gradle-plugins",
+      "gradle-portal",
+      "hacktoberfest",
+      "kotlin",
+      "kotlin-dsl",
+      "kotlin-gradle",
+      "template",
+      "templates"
+    ],
+    "updated_at": "2026-04-23T10:41:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arturbosch/detekt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlleitschuh/ktlint-gradle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pre Merge Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "term": "Pre Merge Checks"
+    },
+    {
+      "context_snippet": "Publish Plugin to Portal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-plugin.yaml",
+      "term": "Publish Plugin to Portal"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions-gradle"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-templates"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-composite"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-compositebuild"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin-development"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin-kotlin"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugins"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-portal"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-dsl"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-gradle"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

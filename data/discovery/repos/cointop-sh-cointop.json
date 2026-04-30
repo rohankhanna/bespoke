@@ -13,20 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cointop-sh/cointop",
-      "target": "k4m4/terminals-are-sexy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "cointop-sh/cointop",
-      "target": "cointop-sh/colors",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "cointop-sh/cointop",
@@ -167,7 +153,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:55:45.417713+00:00",
+  "fetched_at": "2026-04-30T07:14:19.287250+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -221,18 +207,7 @@
     ],
     "updated_at": "2026-04-26T10:39:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "k4m4/terminals-are-sexy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cointop-sh/colors",
-      "source_file": "Dockerfile"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<h3 align=\"center\">",

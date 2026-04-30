@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akkadotnet/HOCON",
+      "target": "hocon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akkadotnet/HOCON",
+      "target": "hocon-configuration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:34.100280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "C# implementation of Lightbend's HOCON (Human-Optimized Object Configuration Notation)",
+    "fork": false,
+    "full_name": "akkadotnet/HOCON",
+    "html_url": "https://github.com/akkadotnet/HOCON",
+    "language": "C#",
+    "pushed_at": "2025-06-19T12:58:39Z",
+    "stargazers_count": 142,
+    "topics": [
+      "hocon",
+      "hocon-configuration"
+    ],
+    "updated_at": "2026-01-12T08:22:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hocon"
+    },
+    {
+      "context_snippet": "C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hocon-configuration"
+    }
+  ]
+}

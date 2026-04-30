@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LinusU/RasterizeXCAssets",
+      "target": "jkmathew/assetizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LinusU/RasterizeXCAssets",
+      "target": "num42/icon-resizer-swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:23:11.164963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rasterize svg files into your XCAssets",
+    "fork": false,
+    "full_name": "LinusU/RasterizeXCAssets",
+    "html_url": "https://github.com/LinusU/RasterizeXCAssets",
+    "language": "Swift",
+    "pushed_at": "2022-02-18T11:21:23Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2024-09-11T08:20:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkmathew/assetizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "num42/icon-resizer-swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

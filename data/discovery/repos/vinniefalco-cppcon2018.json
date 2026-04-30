@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:18:59.189053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1426
+    },
+    {
+      "path": "Dockerfile",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CppCon 2018 Presentation materials",
+    "fork": false,
+    "full_name": "vinniefalco/CppCon2018",
+    "html_url": "https://github.com/vinniefalco/CppCon2018",
+    "language": "C++",
+    "pushed_at": "2021-10-12T02:50:13Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-04-22T03:50:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

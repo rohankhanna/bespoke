@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort-check.yml"
+    },
+    {
+      "component": "isort/isort-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort-check.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "pmeier/pytest-results-action@v0.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yapf-check.yml"
+    },
+    {
+      "component": "AlexanderMelde/yapf-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yapf-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isort-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "isort/isort-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "Run isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "szenius/set-timezone@v2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "pmeier/pytest-results-action@v0.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "Run pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yapf-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yapf-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "AlexanderMelde/yapf-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yapf-check.yml",
+      "source_repo": "RUCAIBox/LLMBox",
+      "target": "Run yapf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:39.116009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15486
+    },
+    {
+      "path": "requirements.txt",
+      "size": 451
+    },
+    {
+      "path": ".github/workflows/isort-check.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/pytest-check.yml",
+      "size": 3084
+    },
+    {
+      "path": ".github/workflows/yapf-check.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A comprehensive library for implementing LLMs, including a unified training pipeline and comprehensive model evaluation.",
+    "fork": false,
+    "full_name": "RUCAIBox/LLMBox",
+    "html_url": "https://github.com/RUCAIBox/LLMBox",
+    "language": "Python",
+    "pushed_at": "2025-06-16T09:22:27Z",
+    "stargazers_count": 852,
+    "topics": [],
+    "updated_at": "2026-04-29T09:13:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run isort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isort-check.yml",
+      "term": "Run isort"
+    },
+    {
+      "context_snippet": "Run pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-check.yml",
+      "term": "Run pytest"
+    },
+    {
+      "context_snippet": "Run yapf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yapf-check.yml",
+      "term": "Run yapf"
+    }
+  ]
+}

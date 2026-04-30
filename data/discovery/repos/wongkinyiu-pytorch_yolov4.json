@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/PyTorch_YOLOv4",
+      "target": "wongkinyiu/partialresidualnetworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/PyTorch_YOLOv4",
+      "target": "wongkinyiu/crossstagepartialnetworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/PyTorch_YOLOv4",
+      "target": "thomasbrandon/mish-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/PyTorch_YOLOv4",
+      "target": "junnyu/mish-cuda",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:19.792433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18235
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of YOLOv4",
+    "fork": false,
+    "full_name": "WongKinYiu/PyTorch_YOLOv4",
+    "html_url": "https://github.com/WongKinYiu/PyTorch_YOLOv4",
+    "language": "Python",
+    "pushed_at": "2024-11-03T00:53:06Z",
+    "stargazers_count": 1910,
+    "topics": [],
+    "updated_at": "2026-04-24T00:00:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junnyu/mish-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomasbrandon/mish-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/crossstagepartialnetworks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/partialresidualnetworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

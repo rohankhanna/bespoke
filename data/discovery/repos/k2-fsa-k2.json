@@ -1,0 +1,543 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml"
+    },
+    {
+      "component": "nick-fields/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "nick-fields/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "szenius/set-timezone@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "build-cpu-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "szenius/set-timezone@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "build-cpu-ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "build-cpu-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "szenius/set-timezone@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "build-cuda-ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "Generate doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "nick-fields/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "build-wheels-cpu-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-cpu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests-cpu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-cpu.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "run-tests-cpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "nick-fields/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "k2-fsa/k2",
+      "target": "run-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:17:09.085951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5356
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/build-cpu-macos.yml",
+      "size": 4055
+    },
+    {
+      "path": ".github/workflows/build-cpu-ubuntu.yml",
+      "size": 4060
+    },
+    {
+      "path": ".github/workflows/build-cpu-windows.yml",
+      "size": 4328
+    },
+    {
+      "path": ".github/workflows/build-cuda-ubuntu.yml",
+      "size": 4735
+    },
+    {
+      "path": ".github/workflows/build-doc.yml",
+      "size": 4152
+    },
+    {
+      "path": ".github/workflows/macos-cpu-wheels.yml",
+      "size": 3777
+    },
+    {
+      "path": ".github/workflows/run-tests-cpu.yml",
+      "size": 4684
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 4013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FSA/FST algorithms, differentiable, with PyTorch compatibility.",
+    "fork": false,
+    "full_name": "k2-fsa/k2",
+    "html_url": "https://github.com/k2-fsa/k2",
+    "language": "Cuda",
+    "pushed_at": "2026-04-23T07:31:11Z",
+    "stargazers_count": 1332,
+    "topics": [],
+    "updated_at": "2026-04-23T07:31:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-cpu-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-macos.yml",
+      "term": "build-cpu-macos"
+    },
+    {
+      "context_snippet": "build-cpu-ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-ubuntu.yml",
+      "term": "build-cpu-ubuntu"
+    },
+    {
+      "context_snippet": "build-cpu-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-windows.yml",
+      "term": "build-cpu-windows"
+    },
+    {
+      "context_snippet": "build-cuda-ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "term": "build-cuda-ubuntu"
+    },
+    {
+      "context_snippet": "Generate doc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-doc.yml",
+      "term": "Generate doc"
+    },
+    {
+      "context_snippet": "build-wheels-cpu-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "term": "build-wheels-cpu-macos"
+    },
+    {
+      "context_snippet": "run-tests-cpu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests-cpu.yml",
+      "term": "run-tests-cpu"
+    },
+    {
+      "context_snippet": "run-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "run-tests"
+    }
+  ]
+}

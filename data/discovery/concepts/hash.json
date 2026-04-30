@@ -187,6 +187,18 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate-context",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate-context",
+      "text": "SHA3 for JavaScript - The Keccak family of hash algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate-context",
+      "text": "[![Travis CI][3]][4]"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +285,12 @@
       "source_repo": "avaneev/prvhash",
       "status": "candidate",
       "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phusion/node-sha3",
+      "status": "candidate",
+      "text": "[![Travis CI][3]][4]"
     }
   ],
   "candidate_related_terms": [
@@ -414,11 +432,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "avaneev/prvhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "phusion/node-sha3"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

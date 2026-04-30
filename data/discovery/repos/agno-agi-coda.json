@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agno-agi/coda",
+      "target": "your-org/your-repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/coda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/coda",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/coda",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "agno-agi/coda",
+      "target": "Validate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:47.773568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15796
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2905
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1064
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1867
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A code companion that lives in Slack",
+    "fork": false,
+    "full_name": "agno-agi/coda",
+    "html_url": "https://github.com/agno-agi/coda",
+    "language": "Python",
+    "pushed_at": "2026-04-27T21:52:02Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-29T19:49:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your-org/your-repo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    }
+  ]
+}

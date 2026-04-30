@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:16:46.023045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An up-to-date jinja2 syntax file.",
+    "fork": false,
+    "full_name": "Glench/Vim-Jinja2-Syntax",
+    "html_url": "https://github.com/Glench/Vim-Jinja2-Syntax",
+    "language": "Vim script",
+    "pushed_at": "2021-06-22T14:26:45Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-01-08T09:17:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

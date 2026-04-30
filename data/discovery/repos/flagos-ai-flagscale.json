@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    },
+    {
+      "component": "flagos-ai/FlagOps/actions/post-benchmark-report@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "flagos-ai/transformerengine-fl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "flagos-ai/flagos-robo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "flagos-ai/megatron-lm-fl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "flagos-ai/verl-fl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common All Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image_cuda.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_image_cuda.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Build Docker Images - CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "flagos-ai/FlagOps/actions/post-benchmark-report@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common Functional Tests - Benchmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:24.067274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7998
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2533
+    },
+    {
+      "path": ".github/workflows/all_tests_ascend.yml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/all_tests_common.yml",
+      "size": 15816
+    },
+    {
+      "path": ".github/workflows/all_tests_cuda.yml",
+      "size": 2988
+    },
+    {
+      "path": ".github/workflows/all_tests_metax.yml",
+      "size": 1322
+    },
+    {
+      "path": ".github/workflows/build_image_cuda.yml",
+      "size": 13875
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2150
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/functional_tests_benchmark.yml",
+      "size": 11744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FlagScale is a large model toolkit based on open-sourced projects.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagScale",
+    "html_url": "https://github.com/flagos-ai/FlagScale",
+    "language": "Python",
+    "pushed_at": "2026-04-24T02:52:24Z",
+    "stargazers_count": 505,
+    "topics": [],
+    "updated_at": "2026-04-24T09:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/flagos-robo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/megatron-lm-fl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/transformerengine-fl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/verl-fl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Common All Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all_tests_common.yml",
+      "term": "Common All Tests"
+    },
+    {
+      "context_snippet": "Build Docker Images - CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_image_cuda.yml",
+      "term": "Build Docker Images - CUDA"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Common Functional Tests - Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "term": "Common Functional Tests - Benchmark"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/gadget-inspector",
+      "target": "clojure/clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/gadget-inspector",
+      "target": "magnars/java-time-literals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/gadget-inspector",
+      "target": "weavejester/hiccup",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:13.042682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClojureScript data browser - use from a Chrome extension or over a server in any browser",
+    "fork": false,
+    "full_name": "cjohansen/gadget-inspector",
+    "html_url": "https://github.com/cjohansen/gadget-inspector",
+    "language": "Clojure",
+    "pushed_at": "2025-03-19T21:55:28Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-02-13T09:20:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magnars/java-time-literals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weavejester/hiccup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

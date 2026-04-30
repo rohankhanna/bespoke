@@ -1,0 +1,320 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/Adan",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/Adan",
+      "target": "facebookresearch/dadaptation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/Adan",
+      "target": "denisvorotyntsev/adan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/Adan",
+      "target": "deepmind/optax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "adan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "bert-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "convnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "cuda-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "dreamfusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "fairseq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "gpt2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "optimizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "timm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan",
+      "target": "transformer-xl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:37.787879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models",
+    "fork": false,
+    "full_name": "sail-sg/Adan",
+    "html_url": "https://github.com/sail-sg/Adan",
+    "language": "Python",
+    "pushed_at": "2025-06-08T14:35:41Z",
+    "stargazers_count": 816,
+    "topics": [
+      "adan",
+      "artificial-intelligence",
+      "bert-model",
+      "convnext",
+      "cuda-programming",
+      "deep-learning",
+      "diffusion",
+      "dreamfusion",
+      "fairseq",
+      "gpt2",
+      "llm-training",
+      "llms",
+      "mae",
+      "moe",
+      "optimizer",
+      "pytorch",
+      "resnet",
+      "timm",
+      "transformer-xl",
+      "vit"
+    ],
+    "updated_at": "2026-04-23T14:35:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/optax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "denisvorotyntsev/adan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dadaptation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adan"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-model"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convnext"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-programming"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dreamfusion"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fairseq"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt2"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizer"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timm"
+    },
+    {
+      "context_snippet": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-xl"
+    }
+  ]
+}

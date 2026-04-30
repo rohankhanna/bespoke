@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build distributions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "build distributions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate",
+      "text": "build distributions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "apportionment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12070,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12070,
+      "status": "candidate",
+      "text": "allocations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12070,
+      "status": "candidate",
+      "text": "breakdown"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build distributions",
+  "concept_id": "build-distributions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-distributions.yml",
+      "source_repo": "pypa/hatch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build distributions",
+      "sense_id": "build-distributions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

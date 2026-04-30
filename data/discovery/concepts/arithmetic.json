@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "arithmetic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "creachadair/imath",
+      "status": "candidate-context",
+      "text": "Arbitrary precision integer and rational arithmetic library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creachadair/imath",
+      "status": "candidate-context",
+      "text": "IMath"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "creachadair/imath",
+      "status": "candidate",
+      "text": "IMath"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951023,
+      "status": "candidate",
+      "text": "calculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950705,
+      "status": "candidate",
+      "text": "mathematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950394,
+      "status": "candidate",
+      "text": "math"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949226,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949116,
+      "status": "candidate",
+      "text": "calculus"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "arithmetical"
+    }
+  ],
+  "canonical_name": "arithmetic",
+  "concept_id": "arithmetic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "creachadair/imath"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arithmetic",
+      "sense_id": "arithmetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

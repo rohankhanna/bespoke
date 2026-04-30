@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rosinality/denoising-diffusion-pytorch",
+      "target": "denoising-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:26.138400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of Denoising Diffusion Probabilistic Models in PyTorch",
+    "fork": false,
+    "full_name": "rosinality/denoising-diffusion-pytorch",
+    "html_url": "https://github.com/rosinality/denoising-diffusion-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-06-14T10:02:07Z",
+    "stargazers_count": 403,
+    "topics": [
+      "denoising-diffusion"
+    ],
+    "updated_at": "2026-04-27T10:02:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Implementation of Denoising Diffusion Probabilistic Models in PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising-diffusion"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/controlnet_aux",
+      "target": "reallyigor/easy_dwpose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:55.469054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "huggingface/controlnet_aux",
+    "html_url": "https://github.com/huggingface/controlnet_aux",
+    "language": "Python",
+    "pushed_at": "2025-05-08T10:38:02Z",
+    "stargazers_count": 490,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reallyigor/easy_dwpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

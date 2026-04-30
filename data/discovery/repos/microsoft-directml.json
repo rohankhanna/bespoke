@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectML",
+      "target": "microsoft/windows-machine-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectML",
+      "target": "microsoft/tensorflow-directml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectML",
+      "target": "microsoft/tensorflow-directml-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectML",
+      "target": "microsoft/directml-samples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:36.362387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a0\ufe0fDirectML is in maintenance mode \u26a0\ufe0f DirectML is a high-performance, hardware-accelerated DirectX 12 library for machine learning. DirectML provides GPU acceleration for common machine learning tasks across a broad range of supported hardware and drivers, including all DirectX 12-capable GPUs from vendors such as AMD, Intel, NVIDIA, and Qualcomm.",
+    "fork": false,
+    "full_name": "microsoft/DirectML",
+    "html_url": "https://github.com/microsoft/DirectML",
+    "language": "C++",
+    "pushed_at": "2026-04-27T23:43:38Z",
+    "stargazers_count": 2551,
+    "topics": [],
+    "updated_at": "2026-04-27T23:43:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directml-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/tensorflow-directml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/tensorflow-directml-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/windows-machine-learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

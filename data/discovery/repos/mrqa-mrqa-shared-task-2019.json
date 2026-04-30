@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:16:26.817677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14635
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Resources for the MRQA 2019 Shared Task",
+    "fork": false,
+    "full_name": "mrqa/MRQA-Shared-Task-2019",
+    "html_url": "https://github.com/mrqa/MRQA-Shared-Task-2019",
+    "language": "Python",
+    "pushed_at": "2021-08-05T19:36:35Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-03-31T10:51:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

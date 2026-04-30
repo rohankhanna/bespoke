@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov8-face-landmarks-opencv-dnn",
+      "target": "face-landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov8-face-landmarks-opencv-dnn",
+      "target": "opencv-dnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov8-face-landmarks-opencv-dnn",
+      "target": "yolov8-face",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:43.823727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\u4ee5\u53ca\u4eba\u8138\u8d28\u91cf\u8bc4\u4ef7\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\uff0c\u5f7b\u5e95\u6446\u8131\u5bf9\u4efb\u4f55\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\u7684\u4f9d\u8d56\u3002",
+    "fork": false,
+    "full_name": "hpc203/yolov8-face-landmarks-opencv-dnn",
+    "html_url": "https://github.com/hpc203/yolov8-face-landmarks-opencv-dnn",
+    "language": "Python",
+    "pushed_at": "2024-01-08T07:22:57Z",
+    "stargazers_count": 296,
+    "topics": [
+      "cpp",
+      "face-landmark-detection",
+      "opencv-dnn",
+      "python",
+      "yolov8-face"
+    ],
+    "updated_at": "2026-04-29T08:48:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-landmark-detection"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv-dnn"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528OpenCV\u90e8\u7f72yolov8\u68c0\u6d4b\u4eba\u8138\u548c\u5173\u952e\u70b9\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f\uff0c\u53ea\u4f9d\u8d56opencv\u5e93\u5c31\u53ef\u4ee5\u8fd0\u884c\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8-face"
+    }
+  ]
+}

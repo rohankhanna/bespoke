@@ -25,6 +25,18 @@
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
       "status": "candidate-context",
       "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate-context",
+      "text": "High Accuracy and efficiency multi-task fine-tuning framework for Code LLMs. This work has been accepted by KDD 2024."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
       "status": "candidate",
       "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/MFTCoder",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "codefuse-ai/MFTCoder"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

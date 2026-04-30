@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ponty/EasyProcess",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ponty/EasyProcess",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:29.891758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5209
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy to use python subprocess interface",
+    "fork": false,
+    "full_name": "ponty/EasyProcess",
+    "html_url": "https://github.com/ponty/EasyProcess",
+    "language": "Python",
+    "pushed_at": "2023-11-04T19:20:47Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2025-10-23T21:00:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

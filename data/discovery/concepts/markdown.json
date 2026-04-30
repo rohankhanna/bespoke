@@ -823,6 +823,54 @@
       "source_repo": "abhinav/goldmark-hashtag",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Marksman extension for VSCode. Note taking with cross-references and diagnostics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate-context",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "Convert HTML to Markdown-formatted text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/Alir3z4/html2text/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Alir3z4/html2text/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1281,30 @@
       "source_repo": "abhinav/goldmark-hashtag",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman-vscode",
+      "status": "candidate",
+      "text": "Integrates [Marksman][mn] language server into VSCode for delightful Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Alir3z4/html2text/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Alir3z4/html2text/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/scivision/linkchecker-markdown/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1768,11 +1840,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "abhinav/goldmark-hashtag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Alir3z4/html2text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scivision/linkchecker-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

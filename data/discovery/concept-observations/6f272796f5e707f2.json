@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010006,
+      "status": "candidate",
+      "text": "fraudulence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009106,
+      "status": "candidate",
+      "text": "imposter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008694,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008289,
+      "status": "candidate",
+      "text": "faker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008154,
+      "status": "candidate",
+      "text": "hoax"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fraud",
+      "sense_id": "fraud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "sham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22032,
+      "status": "candidate",
+      "text": "pretender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16037,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16029,
+      "status": "candidate",
+      "text": "pseud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "fake"
+    }
+  ],
+  "concept_id": "fraud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fraud",
+  "observation_id": "6f272796f5e707f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "fraud",
+  "source_context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+  "source_file": null,
+  "source_repo": "fingerprintjs/fingerprintjs",
+  "source_repo_description": "The most advanced free and open-source browser fingerprinting library"
+}

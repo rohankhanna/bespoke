@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compiler testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Yosys Open SYnthesis Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate-context",
+      "text": "Compiler testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YosysHQ/yosys",
+      "status": "candidate",
+      "text": "Compiler testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10916,
+      "status": "candidate",
+      "text": "collator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10916,
+      "status": "candidate",
+      "text": "diderot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10916,
+      "status": "candidate",
+      "text": "statistician"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10916,
+      "status": "candidate",
+      "text": "talmudist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10833,
+      "status": "candidate",
+      "text": "system program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compiler testing",
+  "concept_id": "compiler-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-compile.yml",
+      "source_repo": "YosysHQ/yosys"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compiler testing",
+      "sense_id": "compiler-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

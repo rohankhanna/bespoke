@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/proxy",
+      "target": "discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/proxy",
+      "target": "lyft-envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/proxy",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/proxy",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/proxy",
+      "target": "sidecar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:49.107657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 488
+    },
+    {
+      "path": "go.mod",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Istio proxy components.",
+    "fork": false,
+    "full_name": "istio/proxy",
+    "html_url": "https://github.com/istio/proxy",
+    "language": "C++",
+    "pushed_at": "2026-04-29T23:29:11Z",
+    "stargazers_count": 891,
+    "topics": [
+      "discovery",
+      "lyft-envoy",
+      "monitoring",
+      "proxy",
+      "sidecar"
+    ],
+    "updated_at": "2026-04-29T15:13:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discovery"
+    },
+    {
+      "context_snippet": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyft-envoy"
+    },
+    {
+      "context_snippet": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "The Istio Proxy is a microservice proxy that can be used on the client and server side, and forms a microservice mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sidecar"
+    }
+  ]
+}

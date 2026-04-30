@@ -295,6 +295,42 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate-context",
       "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "OneFlow is a deep learning framework designed to be user-friendly, scalable and efficient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate-context",
+      "text": "OneFlow is a deep learning framework designed to be **user-friendly, scalable and efficient**. With OneFlow, it is easy to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate-context",
+      "text": "Differentiable controlled differential equation solvers for PyTorch with GPU support and memory-efficient adjoint backpropagation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>torchcde</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate-context",
+      "text": "Always sparse. Never dense. But never say never. A Sparse Training repository for the Adaptive Sparse Connectivity concept and its algorithmic instantiation, i.e. Sparse Evolutionary Training, to boost Deep Learning scalability on various aspects (e.g. memory and computational time efficiency, representation and generalization power)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate-context",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "microsoft/nn-Meter",
       "status": "candidate",
       "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oneflow-Inc/oneflow",
+      "status": "candidate",
+      "text": "OneFlow is a deep learning framework designed to be **user-friendly, scalable and efficient**. With OneFlow, it is easy to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate",
+      "text": "<h1 align='center'>torchcde</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "status": "candidate",
+      "text": "* Proof of concept implementations of various sparse artificial neural network models with adaptive sparse connectivity trained with the Sparse Evolutionary Training (SET) algorithm - https://arxiv.org/abs/1707.04780, 15 July 2017"
     }
   ],
   "candidate_related_terms": [],
@@ -634,11 +688,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Oneflow-Inc/oneflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/torchcde"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dcmocanu/sparse-evolutionary-artificial-neural-networks"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

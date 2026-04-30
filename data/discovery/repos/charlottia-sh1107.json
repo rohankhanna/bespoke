@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/sh1107",
+      "target": "yosyshq/sby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/sh1107",
+      "target": "yosyshq/nextpnr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/sh1107",
+      "target": "yosyshq/icestorm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/sh1107",
+      "target": "yosyshq/prjtrellis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "amaranth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "amaranth-hdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "cxxrtl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "icebreaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "oled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107",
+      "target": "sh1107",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:50.636606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6732
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "SH1107 OLED (I\u00b2C) driver, plus virtual hardware testbench.",
+    "fork": false,
+    "full_name": "charlottia/sh1107",
+    "html_url": "https://github.com/charlottia/sh1107",
+    "language": "Python",
+    "pushed_at": "2024-10-23T02:17:24Z",
+    "stargazers_count": 5,
+    "topics": [
+      "amaranth",
+      "amaranth-hdl",
+      "cxxrtl",
+      "fpga",
+      "i2c",
+      "icebreaker",
+      "oled",
+      "sh1107",
+      "zig"
+    ],
+    "updated_at": "2025-03-30T00:50:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/icestorm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/nextpnr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/prjtrellis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/sby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth-hdl"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxxrtl"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icebreaker"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oled"
+    },
+    {
+      "context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sh1107"
+    }
+  ]
+}

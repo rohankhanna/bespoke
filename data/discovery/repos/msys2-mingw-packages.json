@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml"
+    },
+    {
+      "component": "al-cheb/configure-pagefile-action@9b6da52fb72a3c6147c1aad2df22d8d905681adc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "msys2/package-grokker/grok-artifacts@a976a49de6f306122b7b603d1212782a900fa8fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "generate-srcinfo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "al-cheb/configure-pagefile-action@9b6da52fb72a3c6147c1aad2df22d8d905681adc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "msys2/package-grokker/grok-artifacts@a976a49de6f306122b7b603d1212782a900fa8fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "msys2/MINGW-packages",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:04:29.447690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3858
+    },
+    {
+      "path": ".github/workflows/generate-srcinfo.yml",
+      "size": 4596
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 5382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package scripts for MinGW-w64 targets to build under MSYS2. ",
+    "fork": false,
+    "full_name": "msys2/MINGW-packages",
+    "html_url": "https://github.com/msys2/MINGW-packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T19:08:33Z",
+    "stargazers_count": 2669,
+    "topics": [],
+    "updated_at": "2026-04-30T04:19:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "generate-srcinfo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-srcinfo.yml",
+      "term": "generate-srcinfo"
+    },
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

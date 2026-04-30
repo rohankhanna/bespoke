@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-gl/glfw",
+      "target": "vulkan-go/vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "go-gl/glfw",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw",
+      "target": "glfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw",
+      "target": "glfw-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gl/glfw",
+      "target": "opengl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:08:31.723594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11701
+    },
+    {
+      "path": "go.mod",
+      "size": 38
+    },
+    {
+      "path": ".github/workflows/analysis.yml",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go bindings for GLFW 3",
+    "fork": false,
+    "full_name": "go-gl/glfw",
+    "html_url": "https://github.com/go-gl/glfw",
+    "language": "C",
+    "pushed_at": "2026-04-06T07:22:36Z",
+    "stargazers_count": 1674,
+    "topics": [
+      "gamedev",
+      "glfw",
+      "glfw-bindings",
+      "go",
+      "golang",
+      "opengl"
+    ],
+    "updated_at": "2026-04-29T04:59:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vulkan-go/vulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Static Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "term": "Static Analysis"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw-bindings"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/go-gl/glfw/actions/workflows/tests.yml/badge.svg)](https://github.com/go-gl/glfw/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fancy completion all over Emacs, not just for buffers and files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952572,
+      "status": "candidate",
+      "text": "text editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952571,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952570,
+      "status": "candidate",
+      "text": "script editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952569,
+      "status": "candidate",
+      "text": "wysiwyg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952568,
+      "status": "candidate",
+      "text": "input method editor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs",
+      "sense_id": "emacs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs",
+  "observation_id": "ee992892353b9f43",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "emacs",
+  "source_context_snippet": "[![MELPA Stable](https://stable.melpa.org/packages/ido-completing-read+-badge.svg)](https://stable.melpa.org/#/ido-completing-read%2B)",
+  "source_file": null,
+  "source_repo": "DarwinAwardWinner/ido-completing-read-plus",
+  "source_repo_description": "Fancy completion all over Emacs, not just for buffers and files."
+}

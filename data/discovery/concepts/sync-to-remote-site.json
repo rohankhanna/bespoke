@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync to remote site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "FlagGems is an operator library for large language models implemented in the Triton Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate-context",
+      "text": "Sync to remote site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagGems",
+      "status": "candidate",
+      "text": "Sync to remote site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25969,
+      "status": "candidate",
+      "text": "allochthonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25900,
+      "status": "candidate",
+      "text": "backhaul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25900,
+      "status": "candidate",
+      "text": "den"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24458,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23522,
+      "status": "candidate",
+      "text": "off"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync to remote site",
+  "concept_id": "sync-to-remote-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagGems"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync to remote site",
+      "sense_id": "sync-to-remote-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

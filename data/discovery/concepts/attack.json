@@ -19,6 +19,18 @@
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Trusted-AI/adversarial-robustness-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

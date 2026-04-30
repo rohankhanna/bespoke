@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:21:12.632105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8747
+    },
+    {
+      "path": "requirements.txt",
+      "size": 810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"EchoTracker: Advancing Myocardial Point Tracking in Echocardiography\". (MICCAI 2024)",
+    "fork": false,
+    "full_name": "riponazad/echotracker",
+    "html_url": "https://github.com/riponazad/echotracker",
+    "language": "Python",
+    "pushed_at": "2026-04-13T14:11:33Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-13T14:11:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

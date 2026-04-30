@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danger/danger",
+      "target": "orta/danger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danger/danger",
+      "target": "moya/contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "danger/danger",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "danger/danger",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger",
+      "target": "Release Danger package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "circle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "code-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danger/danger",
+      "target": "travis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:29.590813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4805
+    },
+    {
+      "path": "Dockerfile",
+      "size": 785
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/publish_package.yml",
+      "size": 1050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)",
+    "fork": false,
+    "full_name": "danger/danger",
+    "html_url": "https://github.com/danger/danger",
+    "language": "Ruby",
+    "pushed_at": "2026-04-26T09:22:46Z",
+    "stargazers_count": 5661,
+    "topics": [
+      "automation",
+      "bitbucket",
+      "ci",
+      "circle",
+      "code-review",
+      "danger",
+      "github",
+      "gitlab",
+      "travis"
+    ],
+    "updated_at": "2026-04-29T14:30:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moya/contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orta/danger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Danger package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_package.yml",
+      "term": "Release Danger package"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circle"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-review"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "danger"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis"
+    }
+  ]
+}

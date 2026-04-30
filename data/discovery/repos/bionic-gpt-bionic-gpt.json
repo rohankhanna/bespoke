@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml"
+    },
+    {
+      "component": "calibreapp/image-actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "purton-tech/bionic-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "calibreapp/image-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "Compress Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "marocchino/sticky-pull-request-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "webfactory/ssh-agent@v0.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-candidate.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-candidate.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "Release Candidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "full-stack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:07:40.290858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9061
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1282
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/calibreapp-image-actions.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1831
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/release-candidate.yml",
+      "size": 3085
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bionic is an on-premise replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality",
+    "fork": false,
+    "full_name": "bionic-gpt/bionic-gpt",
+    "html_url": "https://github.com/bionic-gpt/bionic-gpt",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T07:50:25Z",
+    "stargazers_count": 2325,
+    "topics": [
+      "architecture",
+      "full-stack",
+      "llmops",
+      "llms",
+      "rust"
+    ],
+    "updated_at": "2026-04-30T01:51:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purton-tech/bionic-gpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compress Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "term": "Compress Images"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "Release Candidate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-candidate.yml",
+      "term": "Release Candidate"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bionic</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bionic</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-stack"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bionic</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bionic</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bionic</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

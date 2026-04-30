@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LaTeX for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899730,
+      "status": "candidate",
+      "text": "latex paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984368,
+      "status": "candidate",
+      "text": "rubber-base paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984367,
+      "status": "candidate",
+      "text": "rubber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041755,
+      "status": "candidate",
+      "text": "condoms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041754,
+      "status": "candidate",
+      "text": "caoutchouc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "latex",
+      "sense_id": "latex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "latex paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "rubber-base paint"
+    }
+  ],
+  "concept_id": "latex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "latex",
+  "observation_id": "4c722fe1c8f5b229",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "latex",
+  "source_context_snippet": "A [Visual Studio Code](https://code.visualstudio.com) extension that provides rich editing support for the",
+  "source_file": null,
+  "source_repo": "latex-lsp/texlab-vscode",
+  "source_repo_description": "LaTeX for Visual Studio Code"
+}

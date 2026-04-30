@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "zkcrypto/pairing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "zkcrypto/jubjub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "zcash/pasta_curves",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "actions/upload-pages-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "actions/deploy-pages@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "zkcrypto/rfcs",
+      "target": "Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:19:21.779173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14467
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for changes to zkcrypto crates",
+    "fork": false,
+    "full_name": "zkcrypto/rfcs",
+    "html_url": "https://github.com/zkcrypto/rfcs",
+    "language": "Python",
+    "pushed_at": "2026-03-11T10:03:08Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-11T10:03:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zcash/pasta_curves",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zkcrypto/jubjub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zkcrypto/pairing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standard library for using Fall, a Vim/Neovim Fuzzy Finder plugin powered by Denops."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "jsr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "jsr"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020104,
+      "status": "candidate",
+      "text": "portlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020103,
+      "status": "candidate",
+      "text": "servlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020102,
+      "status": "candidate",
+      "text": "markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020101,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020100,
+      "status": "candidate",
+      "text": "apis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "jsr",
+      "sense_id": "jsr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jsr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jsr",
+  "observation_id": "41e6728268b17b16",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "jsr",
+  "source_context_snippet": "jsr",
+  "source_file": ".github/workflows/jsr.yml",
+  "source_repo": "vim-fall/deno-fall-std",
+  "source_repo_description": "Standard library for using Fall, a Vim/Neovim Fuzzy Finder plugin powered by Denops."
+}

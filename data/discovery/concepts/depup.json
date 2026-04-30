@@ -103,6 +103,66 @@
       "source_repo": "brunohaf/action-bandit",
       "status": "candidate-context",
       "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate-context",
+      "text": "run actionlint with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate-context",
+      "text": ":dog: Runs alex with reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Template to create your composite action based reviewdog actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate-context",
+      "text": "Run eslint with reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
+      "status": "candidate-context",
+      "text": "depup"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +211,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "brunohaf/action-bandit",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-actionlint",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-alex",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-composite-template",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-eslint",
       "status": "candidate",
       "text": "depup"
     }
@@ -208,11 +298,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/depup.yml",
       "source_repo": "brunohaf/action-bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-actionlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-alex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-eslint"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

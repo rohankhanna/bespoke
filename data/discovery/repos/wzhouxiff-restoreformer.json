@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "target": "wzhouxiff/restoreformerplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "target": "dictionary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "target": "face-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzhouxiff/RestoreFormer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:13.084223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2022] RestoreFormer: High-Quality Blind Face Restoration from Undegraded Key-Value Pairs",
+    "fork": false,
+    "full_name": "wzhouxiff/RestoreFormer",
+    "html_url": "https://github.com/wzhouxiff/RestoreFormer",
+    "language": "Python",
+    "pushed_at": "2024-06-10T02:03:41Z",
+    "stargazers_count": 366,
+    "topics": [
+      "dictionary",
+      "face-restoration",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-09T08:12:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzhouxiff/restoreformerplusplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dictionary"
+    },
+    {
+      "context_snippet": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-restoration"
+    },
+    {
+      "context_snippet": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "- **20230915** Update an online demo [![Huggingface Gradio](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/wzhouxiff/RestoreFormerPlusPlus)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-nodejs-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-csharp-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-cpp-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/hazelcast-go-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-close-referenced-prs.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Close Referenced PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-assignees.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR assignees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-labels.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast/docker-actions/slack-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-synchronize-pr-milestone.yaml",
+      "source_repo": "hazelcast/hazelcast",
+      "target": "Synchronize PR Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "data-in-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "data-insights",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "hazelcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "in-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "low-latency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "scalability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hazelcast/hazelcast",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "hazelcast/hazelcast"
+}

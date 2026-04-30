@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "glossary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/technical-glossary",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd A collaborative technical glossary for key words and terms to help anyone learn and understand concepts and prepare for a career as a creative technologist!  \ud83d\ude15 > \ud83e\udd14 > \ud83d\udca1 > \ud83d\ude0a \ud83c\udf89 \ud83d\ude80 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/technical-glossary",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/technical-glossary",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889268,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979645,
+      "status": "candidate",
+      "text": "vocabulary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978726,
+      "status": "candidate",
+      "text": "lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978113,
+      "status": "candidate",
+      "text": "dictionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977927,
+      "status": "candidate",
+      "text": "terminology"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    }
+  ],
+  "canonical_name": "glossary",
+  "concept_id": "glossary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/technical-glossary"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glossary",
+      "sense_id": "glossary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

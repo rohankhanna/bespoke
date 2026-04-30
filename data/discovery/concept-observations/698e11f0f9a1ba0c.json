@@ -84,7 +84,7 @@
   "normalized_form": "docs-release",
   "observation_id": "698e11f0f9a1ba0c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Docs Release",
   "source_context_snippet": "Docs Release",
   "source_file": ".github/workflows/docs-release.yml",

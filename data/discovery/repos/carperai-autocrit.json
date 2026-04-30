@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:15:59.995654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository for transformer critique learning and generation",
+    "fork": false,
+    "full_name": "CarperAI/autocrit",
+    "html_url": "https://github.com/CarperAI/autocrit",
+    "language": "Python",
+    "pushed_at": "2023-12-07T17:58:14Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-02-13T18:46:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,825 @@
+{
+  "components": [
+    {
+      "component": "@fpjs-incubator/broyster",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/ua-parser-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-dts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-license",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ua-parser-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@fpjs-incubator/broyster",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@rollup/plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@types/jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@types/ua-parser-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "html-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "rollup-plugin-dts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "rollup-plugin-license",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "terser-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "ua-parser-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "slackapi/slack-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "Check upcoming browser versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "Publish the demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "Lint and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "audio-fingerprinting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "browser-fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "browser-fingerprinting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "fingerprinting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "fingerprintjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "fraud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "fraud-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "target": "visitor-identifier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:08.884420+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 2853
+    },
+    {
+      "path": ".github/workflows/check_upcoming_browser_versions.yml",
+      "size": 2007
+    },
+    {
+      "path": ".github/workflows/codeql_analysis.yml",
+      "size": 2440
+    },
+    {
+      "path": ".github/workflows/demo.yml",
+      "size": 1206
+    },
+    {
+      "path": ".github/workflows/npm_publish.yml",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The most advanced free and open-source browser fingerprinting library",
+    "fork": false,
+    "full_name": "fingerprintjs/fingerprintjs",
+    "html_url": "https://github.com/fingerprintjs/fingerprintjs",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-14T08:12:18Z",
+    "stargazers_count": 27018,
+    "topics": [
+      "audio-fingerprinting",
+      "browser",
+      "browser-fingerprint",
+      "browser-fingerprinting",
+      "detection",
+      "fingerprint",
+      "fingerprinting",
+      "fingerprintjs",
+      "fraud",
+      "fraud-detection",
+      "identification",
+      "javascript",
+      "visitor-identifier"
+    ],
+    "updated_at": "2026-04-30T07:30:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check upcoming browser versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_upcoming_browser_versions.yml",
+      "term": "Check upcoming browser versions"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Publish the demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demo.yml",
+      "term": "Publish the demo"
+    },
+    {
+      "context_snippet": "Publish to NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "term": "Publish to NPM"
+    },
+    {
+      "context_snippet": "Lint and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Lint and test"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-fingerprinting"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-fingerprint"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-fingerprinting"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprint"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprinting"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprintjs"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fraud"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fraud-detection"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identification"
+    },
+    {
+      "context_snippet": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visitor-identifier"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependency Scanning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Dependency Scanning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "Dependency Scanning"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adopt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adopting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "adoption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10454,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependency Scanning",
+  "concept_id": "dependency-scanning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Scanning",
+      "sense_id": "dependency-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

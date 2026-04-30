@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
+      "target": "jiaweizzhao/galore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
       "target": "dvlab-research/longlora",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
       "target": "facebookresearch/llama",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
-      "target": "ieit-yuan/yuan-2.0",
       "target_type": "repository"
     },
     {
@@ -295,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "hiyouga/LlamaFactory"
 }

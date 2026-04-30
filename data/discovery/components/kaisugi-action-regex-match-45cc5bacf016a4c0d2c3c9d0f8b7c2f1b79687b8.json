@@ -1,0 +1,17 @@
+{
+  "component": "kaisugi/action-regex-match@45cc5bacf016a4c0d2c3c9d0f8b7c2f1b79687b8",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-cli-release.yml",
+      "source_repo": "salesforcecli/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "salesforcecli/cli"
+    }
+  ]
+}

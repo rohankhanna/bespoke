@@ -319,6 +319,30 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate-context",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate-context",
+      "text": "An official lightweight library for the RaBitQ algorithm and its applications in vector search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate-context",
+      "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
     }
   ],
   "candidate_glosses": [
@@ -477,6 +501,18 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VectorDB-NTU/RaBitQ-Library",
+      "status": "candidate",
+      "text": "> **New:** We have recently open-sourced the GPU implementation of RaBitQ for high-dimensional vector search. See [cuvs_rabitq](https://github.com/Stardust-SJF/cuvs_rabitq/tree/cuvs_ivf_rabitq)."
     }
   ],
   "candidate_related_terms": [
@@ -804,11 +840,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SpargeAttn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "VectorDB-NTU/RaBitQ-Library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -166,6 +166,30 @@
       "source_repo": "apache/hudi-rs",
       "status": "candidate-context",
       "text": "Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "A lightweight text editor written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate-context",
+      "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "A restricted execution environment for Python to run untrusted code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +270,18 @@
       "source_repo": "apache/hudi-rs",
       "status": "candidate",
       "text": "Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lite-xl/lite-xl",
+      "status": "candidate",
+      "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/zopefoundation/RestrictedPython/actions/workflows/tests.yml/badge.svg"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +523,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zopefoundation/RestrictedPython"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

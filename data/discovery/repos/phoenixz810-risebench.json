@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoenixZ810/RISEBench",
+      "target": "visionxlab/rise-video",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:33.592607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NIPS 2025 DB Oral] Official Repository of paper: Envisioning Beyond the Pixels: Benchmarking Reasoning-Informed Visual Editing",
+    "fork": false,
+    "full_name": "PhoenixZ810/RISEBench",
+    "html_url": "https://github.com/PhoenixZ810/RISEBench",
+    "language": "Python",
+    "pushed_at": "2026-04-23T06:45:54Z",
+    "stargazers_count": 147,
+    "topics": [],
+    "updated_at": "2026-04-23T06:45:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "visionxlab/rise-video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

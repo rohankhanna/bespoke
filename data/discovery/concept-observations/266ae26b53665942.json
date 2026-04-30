@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "entity-extraction",
+      "sense_id": "entity-extraction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "entity-extraction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "entity-extraction",
+  "observation_id": "266ae26b53665942",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "entity-extraction",
+  "source_context_snippet": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end.",
+  "source_file": null,
+  "source_repo": "lunayach/visNER",
+  "source_repo_description": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+}

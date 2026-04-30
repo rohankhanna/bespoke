@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inkle/ink",
+      "target": "inkle/inky",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inkle/ink",
+      "target": "inkle/ink-unity-integration",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:08.921496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "inkle's open source scripting language for writing interactive narrative.",
+    "fork": false,
+    "full_name": "inkle/ink",
+    "html_url": "https://github.com/inkle/ink",
+    "language": "C#",
+    "pushed_at": "2025-01-01T15:20:00Z",
+    "stargazers_count": 4738,
+    "topics": [],
+    "updated_at": "2026-04-29T17:03:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inkle/ink-unity-integration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inkle/inky",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -31,6 +31,54 @@
       "source_repo": "baegwangbin/surface_normal_uncertainty",
       "status": "candidate-context",
       "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman",
+      "status": "candidate-context",
+      "text": "[cvpr19] Hands+Objects synthetic dataset, instructions to download and code to load the dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "[cvpr19] Demo, training and evaluation code for generating dense hand+object reconstructions from single rgb images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate-context",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "Muggled DPT: Depth estimation without the magic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate-context",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "A Unified Framework for Surface Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "baegwangbin/surface_normal_uncertainty",
       "status": "candidate",
       "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/obman_train",
+      "status": "candidate",
+      "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heyoeyo/muggled_dpt",
+      "status": "candidate",
+      "text": "This repo contains a simplified implementation of the very cool 'dense prediction transformer' (DPT) depth estimation model from [isl-org/MiDaS](https://github.com/isl-org/MiDaS), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/sdfstudio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "baegwangbin/surface_normal_uncertainty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/obman_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heyoeyo/muggled_dpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/sdfstudio"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

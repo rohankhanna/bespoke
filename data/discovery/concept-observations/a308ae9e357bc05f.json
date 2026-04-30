@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AeroSpace is an i3-like tiling window manager for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i3wm",
+      "sense_id": "i3wm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "i3wm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "i3wm",
+  "observation_id": "a308ae9e357bc05f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "i3wm",
+  "source_context_snippet": "<img src=\"./resources/Assets.xcassets/AppIcon.appiconset/icon.png\" width=\"40%\" align=\"right\">",
+  "source_file": null,
+  "source_repo": "nikitabobko/AeroSpace",
+  "source_repo_description": "AeroSpace is an i3-like tiling window manager for macOS"
+}

@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "tesla/m2eclipse-tycho",
+      "target": "Build P2 Update Site",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:35.687528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 283
+    },
+    {
+      "path": ".github/workflows/CI.yaml",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tesla/m2eclipse-tycho",
+    "html_url": "https://github.com/tesla/m2eclipse-tycho",
+    "language": "Java",
+    "pushed_at": "2023-03-02T18:49:17Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-02-26T21:45:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build P2 Update Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yaml",
+      "term": "Build P2 Update Site"
+    }
+  ]
+}

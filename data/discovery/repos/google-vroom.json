@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "Ilshidur/action-discord@0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vroom",
+      "target": "google/vim-ft-vroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vroom",
+      "target": "neovim/python-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vroom",
+      "target": "Ilshidur/action-discord@0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vroom",
+      "target": "notify-discord",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:07.618841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7908
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Launch vim tests",
+    "fork": false,
+    "full_name": "google/vroom",
+    "html_url": "https://github.com/google/vroom",
+    "language": "Python",
+    "pushed_at": "2025-06-12T15:30:34Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2025-08-15T21:03:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/vim-ft-vroom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/python-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "notify-discord",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "notify-discord"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "tesslio/skill-review@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-review.yml",
+      "source_repo": "hsliuustc0106/vllm-omni-skills",
+      "target": "Tessl Skill Review",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "hsliuustc0106/vllm-omni-skills"
+}

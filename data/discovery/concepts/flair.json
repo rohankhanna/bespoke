@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "flair"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate-context",
+      "text": "In the wild extraction of entities that are found using Flair and displayed using a very elegant front-end. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate-context",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robinvanschaik/interpret-flair",
+      "status": "candidate-context",
+      "text": "A small repository to test Captum Explainable AI with a trained Flair transformers-based text classifier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robinvanschaik/interpret-flair",
+      "status": "candidate-context",
+      "text": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunayach/visNER",
+      "status": "candidate",
+      "text": "In the wild extraction of entities that are found using **Flair** and displayed using a very elegant front-end."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robinvanschaik/interpret-flair",
+      "status": "candidate",
+      "text": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981456,
+      "status": "candidate",
+      "text": "genius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929810,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901136,
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39879814,
+      "status": "candidate",
+      "text": "elan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39796882,
+      "status": "candidate",
+      "text": "panache"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29039,
+      "status": "candidate",
+      "text": "panache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21043,
+      "status": "candidate",
+      "text": "genius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "elan"
+    }
+  ],
+  "canonical_name": "flair",
+  "concept_id": "flair",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lunayach/visNER"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flair",
+      "sense_id": "flair#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

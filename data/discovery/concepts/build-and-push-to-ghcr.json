@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Push to GHCR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate-context",
+      "text": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate-context",
+      "text": "Build and Push to GHCR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metatool-ai/metamcp",
+      "status": "candidate",
+      "text": "Build and Push to GHCR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "boost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "grow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Push to GHCR",
+  "concept_id": "build-and-push-to-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "metatool-ai/metamcp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Push to GHCR",
+      "sense_id": "build-and-push-to-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

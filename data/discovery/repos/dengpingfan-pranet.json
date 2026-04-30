@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/PraNet",
+      "target": "ai4colonoscopy/pranet-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/PraNet",
+      "target": "ai4colonoscopy/intelliscope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/PraNet",
+      "target": "dengpingfan/polyp-pvt.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/PraNet",
+      "target": "dengpingfan/sinet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/PraNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/PraNet",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/PraNet",
+      "target": "polyp-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DengPingFan/PraNet",
+      "target": "reverse-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:35.987642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation, MICCAI 2020 (Oral). Code using Jittor Framework is available.",
+    "fork": false,
+    "full_name": "DengPingFan/PraNet",
+    "html_url": "https://github.com/DengPingFan/PraNet",
+    "language": "Python",
+    "pushed_at": "2025-12-11T02:11:43Z",
+    "stargazers_count": 539,
+    "topics": [
+      "deep-learning",
+      "medical-image-segmentation",
+      "polyp-segmentation",
+      "reverse-attention"
+    ],
+    "updated_at": "2026-04-21T03:20:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4colonoscopy/intelliscope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4colonoscopy/pranet-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/polyp-pvt.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/sinet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp-segmentation"
+    },
+    {
+      "context_snippet": "> **Authors:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-attention"
+    }
+  ]
+}

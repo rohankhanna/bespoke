@@ -1,0 +1,489 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "ai-bot-pro/achatbot-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "analyticsinmotion/wake-word",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "analyticsinmotion/decibri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "anjok07/ultimatevocalremovergui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-shared.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-shared.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-shared.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-shared.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64-linux-gnu-shared.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "aarch64-linux-gnu-shared",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64-linux-gnu-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "aarch64-linux-gnu-static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-new-asr-models.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-new-asr-models.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-new-asr-models.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "add-new-asr-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-rknn.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "android-rknn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-static.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "android-static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "r0adkll/sign-android-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apk-asr-2pass.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "apk-asr-2pass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "r0adkll/sign-android-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apk-asr.yaml",
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "apk-asr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "arm32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "lazarus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "object-pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "risc-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-onnx",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "k2-fsa/sherpa-onnx"
+}

@@ -43,6 +43,18 @@
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate-context",
+      "text": "Human Image Gender Classifier for Expressive Body Capture"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate-context",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/homogenus",
+      "status": "candidate",
+      "text": "![alt text](samples/github-demo.png \"Homogenus applied on in-the-wild images of the LSP dataset\")"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/homogenus"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

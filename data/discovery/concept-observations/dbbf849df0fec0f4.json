@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python bindings to PDFium, reasonably cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CIBW build one"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CIBW build one"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "bridge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CIBW build one",
+      "sense_id": "cibw-build-one#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cibw-build-one",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cibw-build-one",
+  "observation_id": "dbbf849df0fec0f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "CIBW build one",
+  "source_context_snippet": "CIBW build one",
+  "source_file": ".github/workflows/cibw_one.yaml",
+  "source_repo": "pypdfium2-team/pypdfium2",
+  "source_repo_description": "Python bindings to PDFium, reasonably cross-platform."
+}

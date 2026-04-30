@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "unique"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID Generator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate",
+      "text": "Flake ID Generator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032492,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025382,
+      "status": "candidate",
+      "text": "unusual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025260,
+      "status": "candidate",
+      "text": "specific"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025091,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024930,
+      "status": "candidate",
+      "text": "alone"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33037,
+      "status": "candidate",
+      "text": "unusual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22041,
+      "status": "candidate",
+      "text": "singular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "unparalleled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "alone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "incomparable"
+    }
+  ],
+  "canonical_name": "unique",
+  "concept_id": "unique",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unique",
+      "sense_id": "unique#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

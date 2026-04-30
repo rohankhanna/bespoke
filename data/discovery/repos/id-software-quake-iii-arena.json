@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:25:21.667168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 9000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quake III Arena GPL Source Release",
+    "fork": false,
+    "full_name": "id-Software/Quake-III-Arena",
+    "html_url": "https://github.com/id-Software/Quake-III-Arena",
+    "language": "C",
+    "pushed_at": "2024-08-02T00:20:36Z",
+    "stargazers_count": 7991,
+    "topics": [],
+    "updated_at": "2026-04-29T16:53:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

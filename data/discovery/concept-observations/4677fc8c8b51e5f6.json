@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fuzzy matching utilities for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856207,
+      "status": "candidate",
+      "text": "hairy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39855697,
+      "status": "candidate",
+      "text": "hirsute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816375,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815891,
+      "status": "candidate",
+      "text": "hazy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39811467,
+      "status": "candidate",
+      "text": "muzzy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fuzzy",
+      "sense_id": "fuzzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48032,
+      "status": "candidate",
+      "text": "bleary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38031,
+      "status": "candidate",
+      "text": "indistinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "muzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "hirsute"
+    }
+  ],
+  "concept_id": "fuzzy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzzy",
+  "observation_id": "4677fc8c8b51e5f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "fuzzy",
+  "source_context_snippet": "> [!Important]",
+  "source_file": null,
+  "source_repo": "auto-complete/fuzzy-el",
+  "source_repo_description": "Fuzzy matching utilities for GNU Emacs"
+}

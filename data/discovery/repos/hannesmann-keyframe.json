@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:24:47.892086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2789
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple library for animation in Rust",
+    "fork": false,
+    "full_name": "hannesmann/keyframe",
+    "html_url": "https://github.com/hannesmann/keyframe",
+    "language": "Rust",
+    "pushed_at": "2022-07-11T00:50:47Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-21T08:37:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kute File Monitor, an inotify-based Launcher for Kobo devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39540250,
+      "status": "candidate",
+      "text": "priced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880054,
+      "status": "candidate",
+      "text": "atomic number 28"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880053,
+      "status": "candidate",
+      "text": "cadmium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880043,
+      "status": "candidate",
+      "text": "zinc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nickel",
+      "sense_id": "nickel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "priced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "atomic number 28"
+    }
+  ],
+  "concept_id": "nickel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nickel",
+  "observation_id": "351c01ea1990cbe3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "nickel",
+  "source_context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+  "source_file": null,
+  "source_repo": "NiLuJe/kfmon",
+  "source_repo_description": "Kute File Monitor, an inotify-based Launcher for Kobo devices"
+}

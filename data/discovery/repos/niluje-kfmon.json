@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NiLuJe/kfmon",
+      "target": "baskerville/fmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "fbink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "inotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "kobo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "koreader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "launcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/kfmon",
+      "target": "nickel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:16:40.363032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kute File Monitor, an inotify-based Launcher for Kobo devices",
+    "fork": false,
+    "full_name": "NiLuJe/kfmon",
+    "html_url": "https://github.com/NiLuJe/kfmon",
+    "language": "C",
+    "pushed_at": "2026-03-17T14:49:52Z",
+    "stargazers_count": 403,
+    "topics": [
+      "fbink",
+      "inotify",
+      "kobo",
+      "koreader",
+      "launcher",
+      "nickel"
+    ],
+    "updated_at": "2026-04-29T05:45:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baskerville/fmon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fbink"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inotify"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kobo"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "koreader"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "launcher"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/kfmon.svg)](/LICENSE) (https://www.codacy.com/app/NiLuJe/kfmon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiLuJe/kfmon&amp;utm_campaign=Badge_Grade) [![Latest tag](https://img.shields.io/github/tag-date/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nickel"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Links in Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "Check Links in Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "Check Links in Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18585,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "consult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "endgame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18494,
+      "status": "candidate",
+      "text": "guard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Links in Documentation",
+  "concept_id": "check-links-in-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs-linkcheck.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Links in Documentation",
+      "sense_id": "check-links-in-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

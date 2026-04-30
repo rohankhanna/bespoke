@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "buffer-xor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sodium-native",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "buffer-reverse",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "buffer-xor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "sodium-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "buffer-reverse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chm-diederichs/minisign",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:34.143401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6315
+    },
+    {
+      "path": "package.json",
+      "size": 993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript implementation of Frank Denis' (@jedisct1) minisign tool.",
+    "fork": false,
+    "full_name": "chm-diederichs/minisign",
+    "html_url": "https://github.com/chm-diederichs/minisign",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-12T13:15:49Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2025-08-07T13:17:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

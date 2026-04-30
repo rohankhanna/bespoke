@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/GroupViT",
+      "target": "xvjiarui/groupvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/GroupViT",
+      "target": "tmbdev-archive/webdataset-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT",
+      "target": "image-text-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/GroupViT",
+      "target": "zero-shot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:05.235253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of GroupViT: Semantic Segmentation Emerges from Text Supervision, CVPR 2022.",
+    "fork": false,
+    "full_name": "NVlabs/GroupViT",
+    "html_url": "https://github.com/NVlabs/GroupViT",
+    "language": "Python",
+    "pushed_at": "2022-05-10T15:39:52Z",
+    "stargazers_count": 787,
+    "topics": [
+      "image-text-matching",
+      "semantic-segmentation",
+      "transformers",
+      "zero-shot-learning"
+    ],
+    "updated_at": "2026-04-20T03:29:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmbdev-archive/webdataset-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xvjiarui/groupvit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GroupViT is a framework for learning semantic segmentation purely from text captions without",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-text-matching"
+    },
+    {
+      "context_snippet": "GroupViT is a framework for learning semantic segmentation purely from text captions without",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "GroupViT is a framework for learning semantic segmentation purely from text captions without",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "GroupViT is a framework for learning semantic segmentation purely from text captions without",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-learning"
+    }
+  ]
+}

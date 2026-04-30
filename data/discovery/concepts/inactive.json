@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "inactive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049920,
+      "status": "candidate",
+      "text": "inert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049698,
+      "status": "candidate",
+      "text": "underactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049468,
+      "status": "candidate",
+      "text": "hypoactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049238,
+      "status": "candidate",
+      "text": "nonmoving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048983,
+      "status": "candidate",
+      "text": "passive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72045,
+      "status": "candidate",
+      "text": "indolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56050,
+      "status": "candidate",
+      "text": "dull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47052,
+      "status": "candidate",
+      "text": "inert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44044,
+      "status": "candidate",
+      "text": "quiescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42046,
+      "status": "candidate",
+      "text": "supine"
+    }
+  ],
+  "canonical_name": "inactive",
+  "concept_id": "inactive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/hawk"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inactive",
+      "sense_id": "inactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

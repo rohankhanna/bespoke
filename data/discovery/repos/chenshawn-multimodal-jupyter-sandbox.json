@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChenShawn/MultiModal-Jupyter-Sandbox",
+      "target": "openai/gpt-oss",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:05:40.743447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2374
+    },
+    {
+      "path": "Dockerfile",
+      "size": 965
+    },
+    {
+      "path": "requirements.txt",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple code sandbox supporting jupyter notebook style code execution. Used for agent training",
+    "fork": false,
+    "full_name": "ChenShawn/MultiModal-Jupyter-Sandbox",
+    "html_url": "https://github.com/ChenShawn/MultiModal-Jupyter-Sandbox",
+    "language": "Python",
+    "pushed_at": "2025-12-05T04:31:05Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-03-18T08:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-oss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

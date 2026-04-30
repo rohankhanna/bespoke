@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tutorial explaining how to create a reverse image search using the Python imagehash library and PostgreSQL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reverse-image-search",
+      "sense_id": "reverse-image-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reverse-image-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reverse-image-search",
+  "observation_id": "7b026d3df0c5bf8c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "reverse-image-search",
+  "source_context_snippet": "Image hashing is essentially a sort of ultra-high compression for images, where images are transformed into hashes (or digests), typically of a fixed length of around 64 bits, where similar images should yield similar hashes. There are many practical applications of image hashin\u2026",
+  "source_file": null,
+  "source_repo": "KDJDEV/imagehash-reverse-image-search-tutorial",
+  "source_repo_description": "A tutorial explaining how to create a reverse image search using the Python imagehash library and PostgreSQL."
+}

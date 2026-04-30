@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/flownet2-pytorch",
+      "target": "nvlabs/pwc-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/flownet2-pytorch",
+      "target": "clementpinard/flownetpytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:09:21.215203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5538
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+    "fork": false,
+    "full_name": "NVIDIA/flownet2-pytorch",
+    "html_url": "https://github.com/NVIDIA/flownet2-pytorch",
+    "language": "Python",
+    "pushed_at": "2026-03-30T19:34:57Z",
+    "stargazers_count": 3284,
+    "topics": [],
+    "updated_at": "2026-04-29T15:45:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementpinard/flownetpytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/pwc-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

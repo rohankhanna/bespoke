@@ -115,6 +115,30 @@
       "source_repo": "auto-complete/auto-complete",
       "status": "candidate-context",
       "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xble/dotagent.nvim",
+      "status": "candidate-context",
+      "text": "Neovim completion for local agent commands and skills, with env-gated Claude/Codex editor integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xble/dotagent.nvim",
+      "status": "candidate-context",
+      "text": "`dotagent.nvim` adds Claude Code and Codex-style `/command`, `/skill`, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "auto-complete/auto-complete",
       "status": "candidate",
       "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xble/dotagent.nvim",
+      "status": "candidate",
+      "text": "`dotagent.nvim` adds Claude Code and Codex-style `/command`, `/skill`, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +340,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "auto-complete/auto-complete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "0xble/dotagent.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "remkop/picocli"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

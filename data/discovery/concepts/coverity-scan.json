@@ -116,6 +116,42 @@
       "source_repo": "uxlfoundation/oneDAL",
       "status": "candidate-context",
       "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/pyxis",
+      "status": "candidate-context",
+      "text": "Container plugin for Slurm Workload Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pyxis",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "oneAPI Collective Communications Library (oneCCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "oneAPI Threading Building Blocks (oneTBB)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +206,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pyxis",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneCCL",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneTBB",
       "status": "candidate",
       "text": "Coverity Scan"
     }
@@ -299,11 +353,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/coverity-scan.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "NVIDIA/pyxis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneCCL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

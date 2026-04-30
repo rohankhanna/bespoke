@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG",
+      "target": "dgl-ke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG",
+      "target": "drug-repurposing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gnn4dr/DRKG",
+      "target": "knowledge-graph-embeddings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:09.293959+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A knowledge graph and a set of tools for drug repurposing",
+    "fork": false,
+    "full_name": "gnn4dr/DRKG",
+    "html_url": "https://github.com/gnn4dr/DRKG",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-19T16:44:16Z",
+    "stargazers_count": 681,
+    "topics": [
+      "dgl",
+      "dgl-ke",
+      "drug-repurposing",
+      "graph-neural-networks",
+      "knowledge-graph",
+      "knowledge-graph-embeddings"
+    ],
+    "updated_at": "2026-04-27T20:31:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A knowledge graph and a set of tools for drug repurposing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dgl-ke"
+    },
+    {
+      "context_snippet": "A knowledge graph and a set of tools for drug repurposing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drug-repurposing"
+    },
+    {
+      "context_snippet": "A knowledge graph and a set of tools for drug repurposing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "A knowledge graph and a set of tools for drug repurposing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "A knowledge graph and a set of tools for drug repurposing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph-embeddings"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "CMBAgents/cmbagent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "CMBAgents/cmbagent",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "CMBAgents/cmbagent",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:37.951351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7531
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3070
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-agent system for research, powered by ag2",
+    "fork": false,
+    "full_name": "CMBAgents/cmbagent",
+    "html_url": "https://github.com/CMBAgents/cmbagent",
+    "language": "Python",
+    "pushed_at": "2026-02-12T18:05:46Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-30T02:22:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

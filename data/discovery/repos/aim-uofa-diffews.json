@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/DiffewS",
+      "target": "aim-uofa/genpercept",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/DiffewS",
+      "target": "baaivision/painter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/DiffewS",
+      "target": "prs-eth/marigold",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:11:14.701193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3682
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'24] Unleashing the Potential of the Diffusion Model in Few-shot Semantic Segmentation (Diffews)",
+    "fork": false,
+    "full_name": "aim-uofa/DiffewS",
+    "html_url": "https://github.com/aim-uofa/DiffewS",
+    "language": "Python",
+    "pushed_at": "2025-04-14T08:29:50Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-04-29T03:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-uofa/genpercept",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/painter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prs-eth/marigold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

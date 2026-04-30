@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/quickstart_ee-security_ci.yml",
+      "source_repo": "wildfly/quickstart"
+    }
+  ],
+  "term": "WildFly ee-security Quickstart CI"
+}

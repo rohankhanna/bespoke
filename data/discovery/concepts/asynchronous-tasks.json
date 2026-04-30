@@ -19,6 +19,18 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate-context",
+      "text": "The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate-context",
+      "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/cpprestsdk",
+      "status": "candidate",
+      "text": "**The C++ REST SDK is in maintenance-only mode and we do not recommend its use in new projects."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/cpprestsdk"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

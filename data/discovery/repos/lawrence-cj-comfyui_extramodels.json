@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lawrence-cj/ComfyUI_ExtraModels",
+      "target": "tencent/hunyuandit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lawrence-cj/ComfyUI_ExtraModels",
+      "target": "shinechen1024/miaobi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lawrence-cj/ComfyUI_ExtraModels",
+      "target": "openai/consistencydecoder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:30.720441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14357
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Support for miscellaneous image models. Currently supports: DiT, PixArt, HunYuanDiT, MiaoBi, and a few VAEs.",
+    "fork": true,
+    "full_name": "lawrence-cj/ComfyUI_ExtraModels",
+    "html_url": "https://github.com/lawrence-cj/ComfyUI_ExtraModels",
+    "language": "Python",
+    "pushed_at": "2025-06-06T05:26:07Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-20T17:14:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/consistencydecoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shinechen1024/miaobi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

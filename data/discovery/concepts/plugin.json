@@ -724,6 +724,138 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate-context",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "A solid language pack for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate-context",
+      "text": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "Kakoune Language Server Protocol Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate-context",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "Deforum extension for AUTOMATIC1111's Stable Diffusion webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "improbable-eng/ts-protoc-gen",
+      "status": "candidate-context",
+      "text": "Protocol Buffers Compiler (protoc) plugin for TypeScript and gRPC-Web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "improbable-eng/ts-protoc-gen",
+      "status": "candidate-context",
+      "text": "[![Master Build](https://travis-ci.org/improbable-eng/ts-protoc-gen.svg?branch=master)](https://travis-ci.org/improbable-eng/ts-protoc-gen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "What I'm learning/practicing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate-context",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate-context",
+      "text": "Directory viewer for Vim :zap: netrW => netrL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate-context",
+      "text": "dirvish.vim :zap:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "go-flutter implementations for popular Flutter plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate-context",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate-context",
+      "text": "Collection of DOs and DON'Ts for modern Neovim Lua plugin development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to preview typst document."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to preview typst document."
     }
   ],
   "candidate_glosses": [
@@ -1086,6 +1218,72 @@
       "source_repo": "octokit/oauth-authorization-url.js",
       "status": "candidate",
       "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheerun/vim-polyglot",
+      "status": "candidate",
+      "text": "![vim-polyglot](https://i.imgur.com/9RxQK6k.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakoune-lsp/kakoune-lsp",
+      "status": "candidate",
+      "text": "[package] name = \"kak-lsp\" description = \"Kakoune Language Server Protocol Client\" version = \"20.0.0-snapshot\" authors = [\"Ruslan Prokopchuk <fer.obbee@gmail.com>\", \"Johannes Altmanninger <aclopte@gmail.com>\"] edition = \"2018\" license = \"Unlicense/MIT\" repository = \"https://gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deforum/sd-webui-deforum",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "improbable-eng/ts-protoc-gen",
+      "status": "candidate",
+      "text": "[![Master Build](https://travis-ci.org/improbable-eng/ts-protoc-gen.svg?branch=master)](https://travis-ci.org/improbable-eng/ts-protoc-gen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning",
+      "status": "candidate",
+      "text": "Links to what [I'm](https://hchiam.com) learning. Languages. Libraries. Frameworks. Etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-dirvish",
+      "status": "candidate",
+      "text": "dirvish.vim :zap:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/plugins",
+      "status": "candidate",
+      "text": "This repo contains [go-flutter](https://github.com/go-flutter-desktop/go-flutter) implementations for popular flutter plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/nvim-best-practices",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate",
+      "text": "> strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niuiic/typst-preview.nvim",
+      "status": "candidate",
+      "text": "Neovim plugin to preview typst document."
     }
   ],
   "candidate_related_terms": [
@@ -1543,11 +1741,95 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "octokit/oauth-authorization-url.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sheerun/vim-polyglot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kakoune-lsp/kakoune-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "improbable-eng/ts-protoc-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-dirvish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nvim-best-practices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/authentication-strategies.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-unauthenticated.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pypa/hatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "niuiic/typst-preview.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

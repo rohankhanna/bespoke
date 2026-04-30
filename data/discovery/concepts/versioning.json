@@ -118,6 +118,30 @@
       "source_repo": "JS-DevTools/version-bump-prompt",
       "status": "candidate-context",
       "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": ":cake: Version Cake is an unobtrusive way to version APIs in your Rails or Rack apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "Modern, extensible Python project management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "JS-DevTools/version-bump-prompt",
       "status": "candidate",
       "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/hatch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +361,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "JS-DevTools/version-bump-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pypa/hatch"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -729,6 +729,102 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "Validate your Swagger JSON/YAML today!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate-context",
+      "text": "Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner. From version 6.0.1, Polly targets .NET Standard 1.1 and 2.0+."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate-context",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "Sigstore OIDC PKI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "A Sigstore client written in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "Cloud-native search engine for observability. An open-source alternative to Datadog, Elasticsearch, Loki, and Tempo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger Spec to Java POJOs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -1091,6 +1187,54 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/validator-badge",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhipster/generator-jhipster",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "App-vNext/Polly",
+      "status": "candidate",
+      "text": "dependency-review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/fulcio",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/quickwit",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-parser",
+      "status": "candidate",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_related_terms": [
@@ -1554,11 +1698,65 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/deps.yml",
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/validator-badge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "jhipster/generator-jhipster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "App-vNext/Polly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "sigstore/fulcio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependency.yml",
+      "source_repo": "quickwit-oss/quickwit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "swagger-api/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

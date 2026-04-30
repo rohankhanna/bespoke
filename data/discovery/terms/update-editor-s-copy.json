@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "sigstore/architecture-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "DNSCrypt/dnscrypt-protocol"
+    }
+  ],
+  "term": "Update Editor's Copy"
+}

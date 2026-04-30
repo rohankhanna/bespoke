@@ -5,22 +5,15 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LoRexxar/Kunlun-M",
-      "target": "lorexxar/cobra-w",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LoRexxar/Kunlun-M",
       "target": "wufeifei/cobra",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T02:03:16.686606+00:00",
+  "fetched_at": "2026-04-30T10:17:15.908522+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7605
+      "size": 8242
     },
     {
       "path": "requirements.txt",
@@ -36,17 +29,12 @@
     "full_name": "LoRexxar/Kunlun-M",
     "html_url": "https://github.com/LoRexxar/Kunlun-M",
     "language": "Python",
-    "pushed_at": "2026-04-29T07:24:31Z",
+    "pushed_at": "2026-04-30T10:09:38Z",
     "stargazers_count": 2381,
     "topics": [],
-    "updated_at": "2026-04-29T23:53:12Z"
+    "updated_at": "2026-04-30T10:09:07Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lorexxar/cobra-w",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "wufeifei/cobra",

@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googlecloudplatform/gcloud-golang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googleapis/nodejs-bigtable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googlecloudplatform/dotnet-docs-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "googleapis/google-cloud-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:16.375109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of how to use Cloud Bigtable both with GCE map/reduce as well as stand alone applications.",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/cloud-bigtable-examples",
+    "html_url": "https://github.com/GoogleCloudPlatform/cloud-bigtable-examples",
+    "language": "Java",
+    "pushed_at": "2026-03-25T18:02:10Z",
+    "stargazers_count": 235,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-04-13T05:44:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/nodejs-bigtable",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/dotnet-docs-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/gcloud-golang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Travis CI status][travis-shield]][travis-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

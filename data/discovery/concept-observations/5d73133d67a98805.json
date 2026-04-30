@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Nix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16253,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15132,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14408,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14408,
+      "status": "candidate",
+      "text": "nic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14408,
+      "status": "candidate",
+      "text": "scrap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Nix",
+      "sense_id": "release-nix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-nix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-nix",
+  "observation_id": "5d73133d67a98805",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Release Nix",
+  "source_context_snippet": "Release Nix",
+  "source_file": ".github/workflows/release-nix.yml",
+  "source_repo": "stoplightio/spectral",
+  "source_repo_description": "A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well as AsyncAPI v2.x."
+}

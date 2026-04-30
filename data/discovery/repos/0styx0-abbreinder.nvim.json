@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "tpope/vim-abolish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "panvimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "StyLua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0styx0/abbreinder.nvim",
+      "target": "vim-abbreviations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:51.732030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3112
+    },
+    {
+      "path": ".github/workflows/panvimdoc.yml",
+      "size": 637
+    },
+    {
+      "path": ".github/workflows/stylua.yml",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Abbreviation reminder plugin for Neovim 0.5+",
+    "fork": false,
+    "full_name": "0styx0/abbreinder.nvim",
+    "html_url": "https://github.com/0styx0/abbreinder.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-06-30T21:38:44Z",
+    "stargazers_count": 91,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "vim",
+      "vim-abbreviations"
+    ],
+    "updated_at": "2026-01-13T14:08:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-abolish",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "panvimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "term": "panvimdoc"
+    },
+    {
+      "context_snippet": "StyLua",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "term": "StyLua"
+    },
+    {
+      "context_snippet": "+ [Usecase](#usecase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "+ [Usecase](#usecase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "+ [Usecase](#usecase)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-abbreviations"
+    }
+  ]
+}

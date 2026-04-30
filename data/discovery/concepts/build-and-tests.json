@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "build-and-tests"
+    "build-and-tests",
+    "Build and tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "anordal/shellharden",
       "status": "candidate-context",
       "text": "build-and-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Build and tests"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "anordal/shellharden",
       "status": "candidate",
       "text": "build-and-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "Build and tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "bodybuilder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10649,
+      "status": "candidate",
+      "text": "collect"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "build-and-tests",
   "concept_id": "build-and-tests",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build-and-tests.yml",
       "source_repo": "anordal/shellharden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "lagom/lagom"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

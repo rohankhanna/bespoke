@@ -592,6 +592,114 @@
       "source_repo": "py-cov-action/python-coverage-comment-action",
       "status": "candidate-context",
       "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/partner-runner-images",
+      "status": "candidate-context",
+      "text": "About GitHub Actions runner images provided by 3rd parties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/partner-runner-images",
+      "status": "candidate-context",
+      "text": "**Table of Contents**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/actions",
+      "status": "candidate-context",
+      "text": "GitHub Actions for the R community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/actions",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to run Bandit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate-context",
+      "text": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "status": "candidate-context",
+      "text": "Example repo for v3 of python-coverage-comment-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "status": "candidate-context",
+      "text": "> **Note**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udc18 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate-context",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": ":book: :octocat:GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": "> A GitHub Action to build JSDoc documentation"
     }
   ],
   "candidate_glosses": [
@@ -888,6 +996,60 @@
       "source_repo": "py-cov-action/python-coverage-comment-action",
       "status": "candidate",
       "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesIves/github-pages-deploy-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/partner-runner-images",
+      "status": "candidate",
+      "text": "**Table of Contents**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/actions",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8907/badge)](https://www.bestpractices.dev/projects/8907)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/bandit-action",
+      "status": "candidate",
+      "text": "The official [Bandit](https://github.com/PyCQA/bandit) Action developed by the [PyCQA](https://github.com/PyCQA)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example",
+      "status": "candidate",
+      "text": "> **Note**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-android-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/bad\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortinico/kotlin-gradle-plugin-template",
+      "status": "candidate",
+      "text": "[![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-gradle-plugin-template/generate) [![Pre Merge Checks](https://github.com/cortinico/kotlin-gradle-plugin-template/workflows/Pre%20Merge%20Checks/badge.svg)]\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate",
+      "text": "> A GitHub Action to build JSDoc documentation"
     }
   ],
   "candidate_related_terms": [
@@ -1267,11 +1429,89 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "py-cov-action/python-coverage-comment-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamesIves/github-pages-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "actions/partner-runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/accuracy_checker.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cpp_gapi-demos.yml",
+      "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "r-lib/actions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jordemort/action-pyright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/bandit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action-v3-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-android-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cortinico/kotlin-gradle-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

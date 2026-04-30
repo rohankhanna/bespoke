@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open neural machine translation models and web services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-machine-translation",
+      "sense_id": "neural-machine-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neural-machine-translation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neural-machine-translation",
+  "observation_id": "57721929b4fc4b48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "neural-machine-translation",
+  "source_context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+  "source_file": null,
+  "source_repo": "Helsinki-NLP/Opus-MT",
+  "source_repo_description": "Open neural machine translation models and web services"
+}

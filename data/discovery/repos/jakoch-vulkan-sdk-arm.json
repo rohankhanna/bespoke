@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "\u2702 Clean Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "ubuntu-2204-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "ubuntu-2404-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakoch/vulkan-sdk-arm",
+      "target": "vulkan-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:46.161847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1608
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8246
+    },
+    {
+      "path": ".github/workflows/cleanup-workflows.yml",
+      "size": 7231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. Builds are used by https://github.com/jakoch/install-vulkan-sdk-action",
+    "fork": false,
+    "full_name": "jakoch/vulkan-sdk-arm",
+    "html_url": "https://github.com/jakoch/vulkan-sdk-arm",
+    "language": null,
+    "pushed_at": "2026-04-13T12:09:44Z",
+    "stargazers_count": 18,
+    "topics": [
+      "arm64",
+      "ubuntu",
+      "ubuntu-2204-arm",
+      "ubuntu-2404-arm",
+      "vulkan-sdk"
+    ],
+    "updated_at": "2026-04-13T12:09:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM"
+    },
+    {
+      "context_snippet": "\"\u2702 Clean Workflow Runs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "term": "\u2702 Clean Workflow Runs"
+    },
+    {
+      "context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu-2204-arm"
+    },
+    {
+      "context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu-2404-arm"
+    },
+    {
+      "context_snippet": "[![GitHub Releases](https://img.shields.io/github/release/jakoch/vulkan-sdk-arm.svg?style=flat-square)](https://github.com/jakoch/vulkan-sdk-arm/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-sdk"
+    }
+  ]
+}

@@ -196,6 +196,18 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate-context",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Lighter web automation with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
     }
   ],
   "candidate_glosses": [
@@ -294,6 +306,12 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
     }
   ],
   "candidate_related_terms": [
@@ -483,11 +501,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mherrmann/helium"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msz/hammox",
+      "target": "plataformatec/mox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "msz/hammox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "msz/hammox",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "behaviour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "behaviour-typespec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "behaviours",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "contract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "contract-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "dialyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "explicit-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "mock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "mocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "type-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "type-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "typechecker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "typechecking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "typespec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "typespecs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msz/hammox",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:18:51.578946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8690
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfdd automated contract testing via type checking for Elixir functions and mocks",
+    "fork": false,
+    "full_name": "msz/hammox",
+    "html_url": "https://github.com/msz/hammox",
+    "language": "Elixir",
+    "pushed_at": "2025-07-26T23:00:58Z",
+    "stargazers_count": 589,
+    "topics": [
+      "behaviour",
+      "behaviour-typespec",
+      "behaviours",
+      "contract",
+      "contract-testing",
+      "contracts",
+      "dialyzer",
+      "elixir",
+      "explicit-contracts",
+      "mock",
+      "mocks",
+      "mox",
+      "testing",
+      "type-checker",
+      "type-checking",
+      "typechecker",
+      "typechecking",
+      "typespec",
+      "typespecs",
+      "unit-testing"
+    ],
+    "updated_at": "2026-04-24T02:00:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plataformatec/mox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behaviour"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behaviour-typespec"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behaviours"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contract"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contract-testing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contracts"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dialyzer"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explicit-contracts"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocks"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-checker"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-checking"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typechecker"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typechecking"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typespec"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typespecs"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/msz/hammox/actions/workflows/ci.yml/badge.svg)](https://github.com/msz/hammox/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

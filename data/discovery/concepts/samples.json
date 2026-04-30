@@ -99,6 +99,42 @@
       "source_repo": "googleapis/java-bigtable",
       "status": "candidate-context",
       "text": "samples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/getting-started-dotnet",
+      "status": "candidate-context",
+      "text": "A tutorial for creating a complete application using .NET on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/getting-started-dotnet",
+      "status": "candidate-context",
+      "text": "This repository contains sample applications written in C# and ASP.NET Core that run on Google Cloud."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "A tutorial for creating a complete application using Node.js on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate-context",
+      "text": "This repository contains the complete sample code for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "status": "candidate-context",
+      "text": "Examples of how to use Cloud Bigtable both with GCE map/reduce as well as stand alone applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "status": "candidate-context",
+      "text": "[![Travis CI status][travis-shield]][travis-link]"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +191,24 @@
       "source_repo": "googleapis/java-bigtable",
       "status": "candidate",
       "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/getting-started-dotnet",
+      "status": "candidate",
+      "text": "This repository contains sample applications written in C# and ASP.NET Core that run on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started",
+      "status": "candidate",
+      "text": "This repository contains the complete sample code for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples",
+      "status": "candidate",
+      "text": "[![Travis CI status][travis-shield]][travis-link]"
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +306,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/samples.yaml",
       "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/getting-started-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/nodejs-getting-started"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-bigtable-examples"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

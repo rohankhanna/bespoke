@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CodeGeeX/codegeex-fastertransformer",
+      "target": "thudm/codegeex",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:09.142287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fastertransformer for codegeex model",
+    "fork": false,
+    "full_name": "CodeGeeX/codegeex-fastertransformer",
+    "html_url": "https://github.com/CodeGeeX/codegeex-fastertransformer",
+    "language": "C++",
+    "pushed_at": "2023-06-06T09:51:30Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/codegeex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -67,6 +67,18 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate-context",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +205,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dimforge/nalgebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/Imath"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

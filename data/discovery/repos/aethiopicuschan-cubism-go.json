@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dominikh/staticcheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aethiopicuschan/cubism-go",
+      "target": "evilmartians/lefthook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aethiopicuschan/cubism-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aethiopicuschan/cubism-go",
+      "target": "dominikh/staticcheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aethiopicuschan/cubism-go",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aethiopicuschan/cubism-go",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:40.824672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2248
+    },
+    {
+      "path": "go.mod",
+      "size": 939
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial Live2D Cubism SDK for Golang",
+    "fork": false,
+    "full_name": "aethiopicuschan/cubism-go",
+    "html_url": "https://github.com/aethiopicuschan/cubism-go",
+    "language": "Go",
+    "pushed_at": "2025-02-04T15:22:16Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-14T15:57:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evilmartians/lefthook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

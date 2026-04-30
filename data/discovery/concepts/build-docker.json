@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Docker"
+    "Build Docker",
+    "build-docker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "abetlen/llama-cpp-python",
       "status": "candidate-context",
       "text": "Build Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 implementation for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate-context",
+      "text": "build-docker"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "abetlen/llama-cpp-python",
       "status": "candidate",
       "text": "Build Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-swagger/go-swagger",
+      "status": "candidate",
+      "text": "build-docker"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/build-docker.yaml",
       "source_repo": "abetlen/llama-cpp-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

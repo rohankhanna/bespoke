@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SH1107 OLED (I\u00b2C) driver, plus virtual hardware testbench."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sh1107",
+      "sense_id": "sh1107#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sh1107",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sh1107",
+  "observation_id": "afae5e9f1f9fdc35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "sh1107",
+  "source_context_snippet": "This repository is a testbed for exploring [Amaranth] while learning digital",
+  "source_file": null,
+  "source_repo": "charlottia/sh1107",
+  "source_repo_description": "SH1107 OLED (I\u00b2C) driver, plus virtual hardware testbench."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ok To Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rlworkgroup/garage",
+      "status": "candidate-context",
+      "text": "A toolkit for reproducible reinforcement learning research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rlworkgroup/garage",
+      "status": "candidate-context",
+      "text": "Ok To Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rlworkgroup/garage",
+      "status": "candidate",
+      "text": "Ok To Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11920,
+      "status": "candidate",
+      "text": "approve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11873,
+      "status": "candidate",
+      "text": "guess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11873,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11742,
+      "status": "candidate",
+      "text": "acceptance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10897,
+      "status": "candidate",
+      "text": "assent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ok To Test",
+  "concept_id": "ok-to-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ok-to-test.yml",
+      "source_repo": "rlworkgroup/garage"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ok To Test",
+      "sense_id": "ok-to-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

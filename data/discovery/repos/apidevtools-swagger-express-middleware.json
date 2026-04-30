@@ -1,0 +1,519 @@
+{
+  "components": [
+    {
+      "component": "@apidevtools/swagger-methods",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@apidevtools/swagger-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsdevtools/ono",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "body-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cookie-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tv4",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "type-is",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsdevtools/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsdevtools/version-bump-prompt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "basic-auth",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai-datetime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "supertest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "@apidevtools/swagger-methods",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "@apidevtools/swagger-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "@jsdevtools/ono",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "body-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "cookie-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "multer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "tv4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "type-is",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "@jsdevtools/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "@jsdevtools/version-bump-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "basic-auth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "chai-datetime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "npm-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "supertest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "coverallsapp/github-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "JS-DevTools/npm-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "CI-CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "expressjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:03.786665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6776
+    },
+    {
+      "path": "package.json",
+      "size": 1892
+    },
+    {
+      "path": ".github/workflows/CI-CD.yaml",
+      "size": 2579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Swagger 2.0 middlware and mocks for Express.js",
+    "fork": false,
+    "full_name": "APIDevTools/swagger-express-middleware",
+    "html_url": "https://github.com/APIDevTools/swagger-express-middleware",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-06T17:39:14Z",
+    "stargazers_count": 577,
+    "topics": [
+      "expressjs",
+      "javascript",
+      "middleware",
+      "nodejs",
+      "openapi",
+      "rest-api",
+      "server",
+      "swagger"
+    ],
+    "updated_at": "2025-11-07T08:14:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI-CD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "term": "CI-CD"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expressjs"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "Swagger Express Middleware",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

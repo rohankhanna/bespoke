@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "jszip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "jszip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yml",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yml",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yml",
+      "source_repo": "7th-Cyborg/vite-plugin-zip-pack",
+      "target": "try to build project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:11:56.305316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    },
+    {
+      "path": "package.json",
+      "size": 1570
+    },
+    {
+      "path": ".github/workflows/build-project.yml",
+      "size": 448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vite plugin for turning your distribution folder into a zip file.",
+    "fork": false,
+    "full_name": "7th-Cyborg/vite-plugin-zip-pack",
+    "html_url": "https://github.com/7th-Cyborg/vite-plugin-zip-pack",
+    "language": "TypeScript",
+    "pushed_at": "2024-08-13T08:37:09Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-15T09:06:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "try to build project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yml",
+      "term": "try to build project"
+    }
+  ]
+}

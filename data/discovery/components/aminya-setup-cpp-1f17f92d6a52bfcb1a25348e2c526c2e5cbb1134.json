@@ -1,0 +1,12 @@
+{
+  "component": "aminya/setup-cpp@1f17f92d6a52bfcb1a25348e2c526c2e5cbb1134",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-format.yml",
+      "source_repo": "intel/llvm"
+    }
+  ]
+}

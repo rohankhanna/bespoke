@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yandex Clickhouse native rust driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rust"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765110,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39736344,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731681,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730257,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728489,
+      "status": "candidate",
+      "text": "chromatic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "rust fungus"
+    }
+  ],
+  "concept_id": "rust",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust",
+  "observation_id": "88c99a56eb7bd9ea",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Rust",
+  "source_context_snippet": "Rust",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "ddulesov/clickhouse_driver",
+  "source_repo_description": "yandex Clickhouse native rust driver"
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "scans"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate-context",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bridgecrewio/checkov",
+      "status": "candidate",
+      "text": "[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044231,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006178,
+      "status": "candidate",
+      "text": "run down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998367,
+      "status": "candidate",
+      "text": "glance over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970355,
+      "status": "candidate",
+      "text": "skim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9857355,
+      "status": "candidate",
+      "text": "rake"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scans",
+  "concept_id": "scans",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tenable/terrascan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bridgecrewio/checkov"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scans",
+      "sense_id": "scans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

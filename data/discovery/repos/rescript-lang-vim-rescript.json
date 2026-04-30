@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rescript-lang/vim-rescript",
+      "target": "williamboman/mason.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rescript-lang/vim-rescript",
+      "target": "rescript-lang/tree-sitter-rescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/vim-rescript",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/vim-rescript",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "rescript-lang/vim-rescript",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:15:16.629535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5220
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "rescript-lang/vim-rescript",
+    "html_url": "https://github.com/rescript-lang/vim-rescript",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-26T15:21:46Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2026-04-26T15:21:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rescript-lang/tree-sitter-rescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "williamboman/mason.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "Test"
+    }
+  ]
+}

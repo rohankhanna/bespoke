@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pry/pry",
+      "target": "pry/pry-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pry/pry",
+      "target": "kyrylo/pry-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "pry/pry",
+      "target": "postmodern/ruby-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pry/pry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pry/pry",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pry/pry",
+      "target": "pry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "introspection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "reflection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pry/pry",
+      "target": "runtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:13:36.924673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14783
+    },
+    {
+      "path": "Dockerfile",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A runtime developer console and IRB alternative with powerful introspection capabilities.",
+    "fork": false,
+    "full_name": "pry/pry",
+    "html_url": "https://github.com/pry/pry",
+    "language": "Ruby",
+    "pushed_at": "2026-03-02T03:40:39Z",
+    "stargazers_count": 6819,
+    "topics": [
+      "console",
+      "debugger",
+      "introspection",
+      "irb",
+      "pry",
+      "reflection",
+      "ruby",
+      "runtime"
+    ],
+    "updated_at": "2026-04-25T23:39:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyrylo/pry-theme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pry/pry-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postmodern/ruby-install",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "pry"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "introspection"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Pry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    }
+  ]
+}

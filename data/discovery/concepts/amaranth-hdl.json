@@ -19,6 +19,54 @@
       "source_repo": "charlottia/hdx",
       "status": "candidate-context",
       "text": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaranth-lang/amaranth",
+      "status": "candidate-context",
+      "text": "A modern hardware definition language and toolchain based on Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth",
+      "status": "candidate-context",
+      "text": "The Amaranth project provides an open-source toolchain for developing hardware based on synchronous digital logic using the Python programming language, as well as [evaluation board definitions][amaranth-boards], a [System on Chip toolkit][amaranth-soc], and more. It aims to be \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate-context",
+      "text": "Board definitions for Amaranth HDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate-context",
+      "text": "TODO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "status": "candidate-context",
+      "text": "Industry standard I/O for Amaranth HDL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "status": "candidate-context",
+      "text": "TODO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate-context",
+      "text": "SH1107 OLED (I\u00b2C) driver, plus virtual hardware testbench."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate-context",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "charlottia/hdx",
       "status": "candidate",
       "text": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth",
+      "status": "candidate",
+      "text": "The Amaranth project provides an open-source toolchain for developing hardware based on synchronous digital logic using the Python programming language, as well as [evaluation board definitions][amaranth-boards], a [System on Chip toolkit][amaranth-soc], and more. It aims to be \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-boards",
+      "status": "candidate",
+      "text": "TODO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaranth-lang/amaranth-stdio",
+      "status": "candidate",
+      "text": "TODO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/sh1107",
+      "status": "candidate",
+      "text": "This repository is a testbed for exploring [Amaranth] while learning digital"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "charlottia/hdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-boards"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amaranth-lang/amaranth-stdio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "charlottia/sh1107"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

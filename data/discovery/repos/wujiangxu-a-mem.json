@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WujiangXu/A-mem",
+      "target": "wujiangxu/agenticmemory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:44.671213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5634
+    },
+    {
+      "path": "requirements.txt",
+      "size": 246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The code for NeurIPS 2025 paper \"A-Mem: Agentic Memory for LLM Agents\"",
+    "fork": false,
+    "full_name": "WujiangXu/A-mem",
+    "html_url": "https://github.com/WujiangXu/A-mem",
+    "language": "Python",
+    "pushed_at": "2026-03-05T11:44:03Z",
+    "stargazers_count": 867,
+    "topics": [],
+    "updated_at": "2026-04-29T13:04:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wujiangxu/agenticmemory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

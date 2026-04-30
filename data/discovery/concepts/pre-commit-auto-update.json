@@ -80,6 +80,18 @@
       "source_repo": "mozilla-ai/any-agent",
       "status": "candidate-context",
       "text": "pre-commit auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "Minimalist framework for running and monitoring an agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate-context",
+      "text": "pre-commit auto-update"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +128,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-ai/any-agent",
+      "status": "candidate",
+      "text": "pre-commit auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/tinyagent",
       "status": "candidate",
       "text": "pre-commit auto-update"
     }
@@ -191,11 +209,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pre-commit-update.yaml",
       "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/tinyagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/precommit-autoupdate.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

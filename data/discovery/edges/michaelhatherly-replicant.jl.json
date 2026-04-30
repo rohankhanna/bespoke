@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/cache@2b1bf4d8a138668ac719ea7ca149b53ed8d8401e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/julia-buildpkg@e3eb439fad4f9aba7da2667e7510e4a46ebc46e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/julia-runtest@678da69444cd5f13d7e674a90cb4f534639a14f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/julia-processcoverage@03114f09f119417c3242a9fb6e0b722676aedf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "codecov/codecov-action@5a1091511ad55cbe89839c7260b706298ca349f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "dangoslen/changelog-enforcer@204e7d3ef26579f4cd0fd759c57032656fdf23c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/EnforceChangelog.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "Enforce changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Register.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "julia-actions/RegisterAction@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Register.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "Register Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "MichaelHatherly/REPLicant.jl"
+}

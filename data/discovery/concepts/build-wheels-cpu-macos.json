@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "build-wheels-cpu-macos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "FSA/FST algorithms, differentiable, with PyTorch compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "build-wheels-cpu-macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "Speech-to-text server framework with next-gen Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate-context",
+      "text": "build-wheels-cpu-macos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate",
+      "text": "build-wheels-cpu-macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/sherpa",
+      "status": "candidate",
+      "text": "build-wheels-cpu-macos"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-wheels-cpu-macos",
+  "concept_id": "build-wheels-cpu-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/k2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/macos-cpu-wheels.yml",
+      "source_repo": "k2-fsa/sherpa"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-wheels-cpu-macos",
+      "sense_id": "build-wheels-cpu-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

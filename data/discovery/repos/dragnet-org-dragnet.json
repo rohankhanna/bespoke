@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dragnet-org/dragnet",
+      "target": "seomoz/dragnet_data",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:36.074667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8737
+    },
+    {
+      "path": "Dockerfile",
+      "size": 244
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Just the facts -- web page content extraction",
+    "fork": false,
+    "full_name": "dragnet-org/dragnet",
+    "html_url": "https://github.com/dragnet-org/dragnet",
+    "language": "Python",
+    "pushed_at": "2025-07-08T00:53:21Z",
+    "stargazers_count": 1276,
+    "topics": [],
+    "updated_at": "2026-04-18T03:08:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seomoz/dragnet_data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

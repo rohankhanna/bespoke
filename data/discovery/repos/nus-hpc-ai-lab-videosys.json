@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUS-HPC-AI-Lab/VideoSys",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUS-HPC-AI-Lab/VideoSys",
+      "target": "vchitect/vchitect-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUS-HPC-AI-Lab/VideoSys",
+      "target": "vchitect/latte",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:22.690968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10021
+    },
+    {
+      "path": "requirements.txt",
+      "size": 268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VideoSys: An easy and efficient system for video generation",
+    "fork": false,
+    "full_name": "NUS-HPC-AI-Lab/VideoSys",
+    "html_url": "https://github.com/NUS-HPC-AI-Lab/VideoSys",
+    "language": "Python",
+    "pushed_at": "2025-08-27T07:47:32Z",
+    "stargazers_count": 2022,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/latte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/vchitect-2.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

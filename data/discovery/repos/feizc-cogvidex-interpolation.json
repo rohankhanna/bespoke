@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/CogvideX-Interpolation",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:21.742694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Keyframe Interpolation with CogvideoX",
+    "fork": false,
+    "full_name": "feizc/CogvideX-Interpolation",
+    "html_url": "https://github.com/feizc/CogvideX-Interpolation",
+    "language": "Python",
+    "pushed_at": "2024-10-31T03:14:39Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-05T06:55:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update demo website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Update demo website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Update demo website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18232,
+      "status": "candidate",
+      "text": "latest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "ammon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "armageddon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "bethany"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18175,
+      "status": "candidate",
+      "text": "byzantium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update demo website",
+  "concept_id": "update-demo-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "bonukai/MediaTracker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update demo website",
+      "sense_id": "update-demo-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

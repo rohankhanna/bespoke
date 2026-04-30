@@ -1139,6 +1139,126 @@
       "source_repo": "dmlc/treelite",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate-context",
+      "text": "LLMOps educational project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "A fast Python in-process signal/event dispatching system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "Python composable command line interface toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "The comprehensive WSGI web application library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/torchsparse",
+      "status": "candidate-context",
+      "text": "[MICRO'23, MLSys'22] TorchSparse: Efficient Training and Inference Framework for Sparse Convolution on GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/torchsparse",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "A restricted execution environment for Python to run untrusted code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "Manipulation and analysis of geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -1709,6 +1829,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dmlc/treelite",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wandb/wandb",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vllm-project/vllm-omni",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/torchsparse",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zopefoundation/RestrictedPython",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shapely/shapely",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -2480,11 +2660,107 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "wandb/wandb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vllm-project/vllm-omni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets-eco/blinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/click"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/itsdangerous"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/werkzeug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/torchsparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "zopefoundation/RestrictedPython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "shapely/shapely"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

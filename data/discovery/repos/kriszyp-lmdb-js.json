@@ -1,0 +1,759 @@
+{
+  "components": [
+    {
+      "component": "@harperfast/extended-iterable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "msgpackr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build-optional-packages",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ordered-binary",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "weak-lru-cache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@midwayjs/deno-mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cpy-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify-ci",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify-platform-packages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml"
+    },
+    {
+      "component": "actions/checkout@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "kriszyp/db-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "kriszyp/cbor-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "erthink/libmdbx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "doctorevidence/cobase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "@harperfast/extended-iterable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "msgpackr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "node-gyp-build-optional-packages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "ordered-binary",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "weak-lru-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "@midwayjs/deno-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "cpy-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "prebuildify-ci",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "prebuildify-platform-packages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "denoland/setup-deno@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Test and Prebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm64.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-arm64.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Test ARM64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-arm7.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-arm7.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Test ARM7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Test Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integration.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-integration.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Test Parcel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "key-value-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "lmdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kriszyp/lmdb-js",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:44.264454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 64898
+    },
+    {
+      "path": "package.json",
+      "size": 4376
+    },
+    {
+      "path": ".github/workflows/prebuild.yml",
+      "size": 7074
+    },
+    {
+      "path": ".github/workflows/test-arm64.yml",
+      "size": 1488
+    },
+    {
+      "path": ".github/workflows/test-arm7.yml",
+      "size": 1514
+    },
+    {
+      "path": ".github/workflows/test-install.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/test-integration.yml",
+      "size": 468
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, efficient, ultra-fast, scalable data store wrapper for LMDB",
+    "fork": false,
+    "full_name": "kriszyp/lmdb-js",
+    "html_url": "https://github.com/kriszyp/lmdb-js",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-16T17:41:10Z",
+    "stargazers_count": 653,
+    "topics": [
+      "database",
+      "deno",
+      "key-value-store",
+      "lmdb",
+      "nodejs",
+      "nosql",
+      "storage"
+    ],
+    "updated_at": "2026-04-26T05:21:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doctorevidence/cobase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erthink/libmdbx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kriszyp/cbor-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kriszyp/db-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and Prebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prebuild.yml",
+      "term": "Test and Prebuild"
+    },
+    {
+      "context_snippet": "Test ARM64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-arm64.yml",
+      "term": "Test ARM64"
+    },
+    {
+      "context_snippet": "Test ARM7",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-arm7.yml",
+      "term": "Test ARM7"
+    },
+    {
+      "context_snippet": "Test Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install.yml",
+      "term": "Test Install"
+    },
+    {
+      "context_snippet": "Test Parcel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-integration.yml",
+      "term": "Test Parcel"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lmdb"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

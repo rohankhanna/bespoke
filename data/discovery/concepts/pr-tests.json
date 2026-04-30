@@ -1,7 +1,8 @@
 {
   "aliases": [
     "PR Tests",
-    "PR tests"
+    "PR tests",
+    "pr-tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,42 @@
       "source_repo": "cockroachdb/pebble",
       "status": "candidate-context",
       "text": "PR tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "PR Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "Convert Machine Learning Code Between Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate-context",
+      "text": "pr-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "oneAPI Specification source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate-context",
+      "text": "\"PR Tests\""
     }
   ],
   "candidate_glosses": [
@@ -82,6 +119,24 @@
       "source_repo": "cockroachdb/pebble",
       "status": "candidate",
       "text": "PR tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "PR Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifyai/ivy",
+      "status": "candidate",
+      "text": "pr-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneAPI-spec",
+      "status": "candidate",
+      "text": "\"PR Tests\""
     }
   ],
   "candidate_related_terms": [
@@ -179,11 +234,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "cockroachdb/pebble"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/commit-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "uxlfoundation/oneAPI-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests-pr.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "loyd/fixnum",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:28:11.678204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 676
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fixed-point numbers",
+    "fork": false,
+    "full_name": "loyd/fixnum",
+    "html_url": "https://github.com/loyd/fixnum",
+    "language": "Rust",
+    "pushed_at": "2026-02-03T12:49:56Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-02-04T02:50:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

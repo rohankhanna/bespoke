@@ -19,6 +19,18 @@
       "source_repo": "flosse/sloc",
       "status": "candidate-context",
       "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate-context",
+      "text": "> [!Important]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "flosse/sloc",
       "status": "candidate",
       "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/hawk",
+      "status": "candidate",
+      "text": "> [!Important]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "flosse/sloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/hawk"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

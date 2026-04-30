@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPU Benchmarks on AWS EC2 (Reusable)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate-context",
+      "text": "GPU Benchmarks on AWS EC2 (Reusable)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newton-physics/newton",
+      "status": "candidate",
+      "text": "GPU Benchmarks on AWS EC2 (Reusable)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10104,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "ancient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "calibre"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPU Benchmarks on AWS EC2 (Reusable)",
+  "concept_id": "gpu-benchmarks-on-aws-ec2-reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPU Benchmarks on AWS EC2 (Reusable)",
+      "sense_id": "gpu-benchmarks-on-aws-ec2-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -331,6 +331,30 @@
       "source_repo": "boostorg/beast",
       "status": "candidate-context",
       "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "status": "candidate-context",
+      "text": "Container Networking for CloudFoundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "status": "candidate-context",
+      "text": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "ZeroMQ core engine in C++, implements ZMTP/3.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +519,18 @@
       "source_repo": "boostorg/beast",
       "status": "candidate",
       "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "status": "candidate",
+      "text": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -700,11 +736,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/libzmq"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

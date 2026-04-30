@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assets.yml",
+      "source_repo": "phoenixframework/phoenix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chango.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/trigger-release.yaml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
     }
   ]
 }

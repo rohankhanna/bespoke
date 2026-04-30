@@ -367,6 +367,66 @@
       "source_repo": "intel/llm-scaler",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "YamlDotNet is a .NET library for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/template-analyzer",
+      "status": "candidate-context",
+      "text": "Template scanner for security misconfiguration and best practices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/template-analyzer",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/wassima",
+      "status": "candidate-context",
+      "text": "No more certifi! System trust store at hand. In Pure Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/wassima",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "A ktlint gradle plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -547,6 +607,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intel/llm-scaler",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/template-analyzer",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/wassima",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JLLeitschuh/ktlint-gradle",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -832,11 +922,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "intel/llm-scaler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-advanced.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aaubry/YamlDotNet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/template-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/wassima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "JLLeitschuh/ktlint-gradle"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

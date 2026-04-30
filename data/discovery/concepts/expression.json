@@ -19,6 +19,18 @@
       "source_repo": "expr-lang/expr",
       "status": "candidate-context",
       "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "expr-lang/expr",
       "status": "candidate",
       "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

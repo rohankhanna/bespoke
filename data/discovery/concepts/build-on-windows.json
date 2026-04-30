@@ -19,12 +19,30 @@
       "source_repo": "likle/cwalk",
       "status": "candidate-context",
       "text": "Build on Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "status": "candidate-context",
+      "text": "memcached extension based on libmemcached library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-memcached-dev/php-memcached",
+      "status": "candidate-context",
+      "text": "Build on Windows"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "likle/cwalk",
+      "status": "candidate",
+      "text": "Build on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-memcached-dev/php-memcached",
       "status": "candidate",
       "text": "Build on Windows"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/build-win.yml",
       "source_repo": "likle/cwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "php-memcached-dev/php-memcached"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

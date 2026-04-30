@@ -286,6 +286,48 @@
       "source_repo": "mosn/mosn.io",
       "status": "candidate-context",
       "text": "Source for mosn.io site <https://mosn.io>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate-context",
+      "text": "Roll your own tracker!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate-context",
+      "text": "Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Gray box end-to-end testing and automation framework for mobile apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate-context",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate-context",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate-context",
+      "text": "Website"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +468,30 @@
       "source_repo": "mosn/mosn.io",
       "status": "candidate",
       "text": "Source for mosn.io site <https://mosn.io>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgnisDa/ryot",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wix/Detox",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/Imath",
+      "status": "candidate",
+      "text": "Website"
     }
   ],
   "candidate_related_terms": [
@@ -697,11 +763,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "IgnisDa/ryot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "wix/Detox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/website_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/Imath"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

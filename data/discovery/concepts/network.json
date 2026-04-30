@@ -91,6 +91,18 @@
       "source_repo": "cavalleria/cavaface",
       "status": "candidate-context",
       "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "ZeroMQ core engine in C++, implements ZMTP/3.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "cavalleria/cavaface",
       "status": "candidate",
       "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/libzmq",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml/badge.svg)](https://github.com/zeromq/libzmq/actions/workflows/CI.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +328,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/libzmq"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

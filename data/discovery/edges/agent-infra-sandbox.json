@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-infra/sandbox",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "docker/setup-buildx-action@1583c0f09d26c58c59d25b0eef29792b7ce99d9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-to-ghcr.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "Push Docker Image to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-ci.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "SDK CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-publish.yml",
+      "source_repo": "agent-infra/sandbox",
+      "target": "SDK Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "all-in-one",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "sandbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-infra/sandbox",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "agent-infra/sandbox"
+}

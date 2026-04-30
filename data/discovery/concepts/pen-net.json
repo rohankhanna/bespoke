@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pen-net"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate-context",
+      "text": "[CVPR'2019] PEN-Net: Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate-context",
+      "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/PEN-Net-for-Inpainting",
+      "status": "candidate",
+      "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pen-net",
+  "concept_id": "pen-net",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "researchmm/PEN-Net-for-Inpainting"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pen-net",
+      "sense_id": "pen-net#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

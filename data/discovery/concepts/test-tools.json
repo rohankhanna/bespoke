@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Test tools"
+    "Test tools",
+    "test-tools"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "tc39/test262",
       "status": "candidate-context",
       "text": "Test tools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rstest",
+      "status": "candidate-context",
+      "text": "The testing framework powered by Rspack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rstest",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "tc39/test262",
       "status": "candidate",
       "text": "Test tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rstest",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/test-tools.yml",
       "source_repo": "tc39/test262"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rstest"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

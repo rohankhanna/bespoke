@@ -84,7 +84,7 @@
   "normalized_form": "scoop-core-ci-tests",
   "observation_id": "3b29260f863ca285",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Scoop Core CI Tests",
   "source_context_snippet": "Scoop Core CI Tests",
   "source_file": ".github/workflows/ci.yml",

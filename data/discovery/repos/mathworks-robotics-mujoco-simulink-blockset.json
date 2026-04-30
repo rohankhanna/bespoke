@@ -1,0 +1,207 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "vmanoj1996/mujoco-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "deepmind/mujoco_menagerie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "biomimetics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "control-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "robotics-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "target": "simulink",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:16.887809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Blocks for accessing MuJoCo physics engine within Simulink",
+    "fork": false,
+    "full_name": "mathworks-robotics/mujoco-simulink-blockset",
+    "html_url": "https://github.com/mathworks-robotics/mujoco-simulink-blockset",
+    "language": "C++",
+    "pushed_at": "2025-10-05T04:16:28Z",
+    "stargazers_count": 77,
+    "topics": [
+      "biomimetics",
+      "computer-vision",
+      "control-systems",
+      "matlab",
+      "mujoco",
+      "physics-simulation",
+      "robotics",
+      "robotics-control",
+      "robotics-simulation",
+      "simulink"
+    ],
+    "updated_at": "2026-04-26T20:11:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco_menagerie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmanoj1996/mujoco-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biomimetics"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control-systems"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-control"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulink"
+    }
+  ]
+}

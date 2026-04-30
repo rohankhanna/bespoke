@@ -282,7 +282,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T01:09:51.417820+00:00",
+  "fetched_at": "2026-04-30T08:10:01.937417+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -305,7 +305,6 @@
       "size": 1095
     }
   ],
-  "metadata_refreshed_at": "2026-04-21T05:18:14.891643+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -316,7 +315,7 @@
     "html_url": "https://github.com/chelsea0x3b/dfdx",
     "language": "Rust",
     "pushed_at": "2024-07-23T02:05:58Z",
-    "stargazers_count": 1905,
+    "stargazers_count": 1909,
     "topics": [
       "autodiff",
       "autodifferentiation",
@@ -338,7 +337,7 @@
       "rust-lang",
       "tensor"
     ],
-    "updated_at": "2026-04-13T20:45:43Z"
+    "updated_at": "2026-04-30T06:16:24Z"
   },
   "repo_links": [],
   "terms": [

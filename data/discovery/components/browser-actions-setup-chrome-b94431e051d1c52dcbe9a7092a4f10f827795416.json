@@ -1,0 +1,12 @@
+{
+  "component": "browser-actions/setup-chrome@b94431e051d1c52dcbe9a7092a4f10f827795416",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jawah/niquests"
+    }
+  ]
+}

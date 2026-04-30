@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Coveralls"
+    "Coveralls",
+    "coveralls"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate-context",
       "text": "Coveralls"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sql-formatter-org/sql-formatter",
+      "status": "candidate-context",
+      "text": "A whitespace formatter for different query languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-formatter-org/sql-formatter",
+      "status": "candidate-context",
+      "text": "coveralls"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "Coveralls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-formatter-org/sql-formatter",
+      "status": "candidate",
+      "text": "coveralls"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/coveralls.yaml",
       "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "sql-formatter-org/sql-formatter"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

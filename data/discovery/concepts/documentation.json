@@ -1156,6 +1156,186 @@
       "source_repo": "huggingface/lerobot",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate-context",
+      "text": "An API documentation generator for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate-context",
+      "text": "![Build status](https://github.com/jsdoc/jsdoc/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "Tool to create minimalist and beautiful API documentation pages using your Insomnia workspace export file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "![Insomnia Documenter](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "What if you never had to write CSS again?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "The Sphinx documentation generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate-context",
+      "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Auto QUality Assurance for Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "A Sigstore client written in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Open3D: A Modern Library for 3D Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate-context",
+      "text": "Swift Binding for MuJoCo: https://mujoco.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate-context",
+      "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "User documentation for KServe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate-context",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": ":book: :octocat:GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate-context",
+      "text": "> A GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate-context",
+      "text": "A model set of guidelines for RESTful APIs and Events, created by Zalando"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Export Insomnia workspace HTML documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate-context",
+      "text": "Export Insomnia workspace HTML documentation."
     }
   ],
   "candidate_glosses": [
@@ -1740,6 +1920,96 @@
       "source_repo": "huggingface/lerobot",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdoc/jsdoc",
+      "status": "candidate",
+      "text": "![Build status](https://github.com/jsdoc/jsdoc/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate",
+      "text": "![Insomnia Documenter](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdgriffith/elm-ui",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-doc/sphinx",
+      "status": "candidate",
+      "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/Open3D",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuliu/swift-mujoco",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mermade/oas-kit",
+      "status": "candidate",
+      "text": "This is the mono-repo for the following related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/website",
+      "status": "candidate",
+      "text": "Welcome to the source file repository for our documentation on [KServe website](https://kserve.github.io/website/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andstor/jsdoc-action",
+      "status": "candidate",
+      "text": "> A GitHub Action to build JSDoc documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalando/restful-api-guidelines",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devhammed/insomnia-plugin-documenter",
+      "status": "candidate",
+      "text": "Export Insomnia workspace HTML documentation."
     }
   ],
   "candidate_related_terms": [
@@ -2526,11 +2796,137 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "huggingface/lerobot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jsdoc/jsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs-preview.yml",
+      "source_repo": "mdgriffith/elm-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-doc/sphinx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaTesting/Aqua.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "socketry/async"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "liuliu/swift-mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Mermade/oas-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kserve/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andstor/jsdoc-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zalando/restful-api-guidelines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devhammed/insomnia-plugin-documenter"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

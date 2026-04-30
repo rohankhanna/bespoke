@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/AIM",
+      "target": "jizhizili/gfm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/AIM",
+      "target": "jizhizili/rim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/AIM",
+      "target": "vitae-transformer/p3m-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/AIM",
+      "target": "jizhizili/matting-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/AIM",
+      "target": "automatic-image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/AIM",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/AIM",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/AIM",
+      "target": "matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:29.246636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10584
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IJCAI'21] Deep Automatic Natural Image Matting",
+    "fork": false,
+    "full_name": "JizhiziLi/AIM",
+    "html_url": "https://github.com/JizhiziLi/AIM",
+    "language": "Python",
+    "pushed_at": "2023-04-13T03:55:00Z",
+    "stargazers_count": 405,
+    "topics": [
+      "automatic-image-matting",
+      "datasets",
+      "image-matting",
+      "matting"
+    ],
+    "updated_at": "2026-04-20T13:23:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/gfm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/matting-survey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/rim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitae-transformer/p3m-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Automatic Natural Image Matting [IJCAI-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Automatic Natural Image Matting [IJCAI-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Automatic Natural Image Matting [IJCAI-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Automatic Natural Image Matting [IJCAI-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    }
+  ]
+}

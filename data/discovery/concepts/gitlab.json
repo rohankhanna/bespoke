@@ -79,6 +79,18 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate-context",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "conventional-changelog/releaser-tools",
       "status": "candidate",
       "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate",
+      "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/releaser-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "danger/danger"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

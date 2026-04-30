@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "@msgpack/msgpack",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ccapture.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dat.gui",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "three",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "three-wtm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wwobjloader2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-license-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "rdeits/meshcat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "@msgpack/msgpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "ccapture.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "dat.gui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "three",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "three-wtm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "wwobjloader2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "yarn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
+      "target": "webpack-license-plugin",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:35.513155+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Remotely-controllable 3D viewer, built on top of three.js",
+    "fork": false,
+    "full_name": "meshcat-dev/meshcat",
+    "html_url": "https://github.com/meshcat-dev/meshcat",
+    "language": "HTML",
+    "pushed_at": "2025-11-10T15:29:09Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-28T06:34:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdeits/meshcat",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "prcheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate-context",
+      "text": "prcheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers",
+      "status": "candidate",
+      "text": "prcheck"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "prcheck",
+  "concept_id": "prcheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "DNSCrypt/dnscrypt-resolvers"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "prcheck",
+      "sense_id": "prcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

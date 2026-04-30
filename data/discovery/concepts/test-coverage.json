@@ -1,7 +1,8 @@
 {
   "aliases": [
     "test-coverage",
-    "Test coverage"
+    "Test coverage",
+    "Test Coverage"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -130,6 +131,30 @@
       "source_repo": "r-lib/remotes",
       "status": "candidate-context",
       "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rstudio/DT",
+      "status": "candidate-context",
+      "text": "R Interface to the jQuery Plug-in DataTables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstudio/DT",
+      "status": "candidate-context",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "An awesome asynchronous event-driven reactor for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate-context",
+      "text": "Test Coverage"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +217,18 @@
       "source_repo": "r-lib/remotes",
       "status": "candidate",
       "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rstudio/DT",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "socketry/async",
+      "status": "candidate",
+      "text": "Test Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +332,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/test-coverage.yaml",
       "source_repo": "r-lib/remotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "rstudio/DT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "socketry/async"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

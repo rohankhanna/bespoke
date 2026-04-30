@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LTH14/mar",
+      "target": "lth14/mage",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:18:08.044852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of MAR+DiffLoss https://arxiv.org/abs/2406.11838",
+    "fork": false,
+    "full_name": "LTH14/mar",
+    "html_url": "https://github.com/LTH14/mar",
+    "language": "Python",
+    "pushed_at": "2026-02-20T16:07:51Z",
+    "stargazers_count": 1905,
+    "topics": [],
+    "updated_at": "2026-04-28T10:06:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/mage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

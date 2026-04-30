@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_manual.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_manual.yml",
+      "source_repo": "kendryte/canmv_k230",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_manual.yml",
+      "source_repo": "kendryte/canmv_k230",
+      "target": "CanMV K230 Build for PreRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kendryte/canmv_k230",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kendryte/canmv_k230",
+      "target": "CanMV K230 Build for Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:57.313128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/build_manual.yml",
+      "size": 3641
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "canmv_k230",
+    "description": "canmv k230 micropython openmv rtsmart mpp opensbi uboot",
+    "fork": false,
+    "full_name": "kendryte/canmv_k230",
+    "html_url": "https://github.com/kendryte/canmv_k230",
+    "language": "C",
+    "pushed_at": "2026-04-28T08:05:10Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-28T08:05:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CanMV K230 Build for PreRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_manual.yml",
+      "term": "CanMV K230 Build for PreRelease"
+    },
+    {
+      "context_snippet": "CanMV K230 Build for Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "CanMV K230 Build for Release"
+    }
+  ]
+}

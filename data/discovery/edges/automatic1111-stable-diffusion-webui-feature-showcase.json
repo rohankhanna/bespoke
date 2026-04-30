@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+      "target": "jquesnelle/txt2imghd.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+      "target": "lstein/stable-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase"
+}

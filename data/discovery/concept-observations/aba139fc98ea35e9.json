@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Label Pull Requests \ud83c\udff7\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Label Pull Requests \ud83c\udff7\ufe0f"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26240,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26240,
+      "status": "candidate",
+      "text": "peeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "branded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "branding"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label Pull Requests \ud83c\udff7\ufe0f",
+      "sense_id": "label-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "label-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "label-pull-requests",
+  "observation_id": "aba139fc98ea35e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Label Pull Requests \ud83c\udff7\ufe0f",
+  "source_context_snippet": "Label Pull Requests \ud83c\udff7\ufe0f",
+  "source_file": ".github/workflows/label.yml",
+  "source_repo": "JamesIves/github-pages-deploy-action",
+  "source_repo_description": "\ud83d\ude80 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like."
+}

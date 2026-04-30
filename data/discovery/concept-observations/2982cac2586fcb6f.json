@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate Documentation Metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate Documentation Metadata"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19259,
+      "status": "candidate",
+      "text": "tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18945,
+      "status": "candidate",
+      "text": "manifest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18899,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18899,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18110,
+      "status": "candidate",
+      "text": "database"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Documentation Metadata",
+      "sense_id": "validate-documentation-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-documentation-metadata",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-documentation-metadata",
+  "observation_id": "2982cac2586fcb6f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Validate Documentation Metadata",
+  "source_context_snippet": "Validate Documentation Metadata",
+  "source_file": ".github/workflows/validate-doc-metadata.yml",
+  "source_repo": "aws/aws-tools-for-powershell",
+  "source_repo_description": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment."
+}

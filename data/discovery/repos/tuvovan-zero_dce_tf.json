@@ -1,0 +1,66 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuvovan/Zero_DCE_TF",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuvovan/Zero_DCE_TF",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:26.874534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5173
+    },
+    {
+      "path": "Dockerfile",
+      "size": 401
+    },
+    {
+      "path": "requirements.txt",
+      "size": 150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensorflow Implementation of Zero_DCE - CVPR 2020",
+    "fork": false,
+    "full_name": "tuvovan/Zero_DCE_TF",
+    "html_url": "https://github.com/tuvovan/Zero_DCE_TF",
+    "language": "Shell",
+    "pushed_at": "2024-06-13T07:08:27Z",
+    "stargazers_count": 52,
+    "topics": [
+      "low-light-image-enhancement",
+      "tensorflow"
+    ],
+    "updated_at": "2026-03-28T08:57:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Tensorflow Implementation of the [Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) - CVPR 2020",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    },
+    {
+      "context_snippet": "The Tensorflow Implementation of the [Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) - CVPR 2020",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

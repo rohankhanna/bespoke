@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vehicle-control"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "Computational framework for reinforcement learning in traffic control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flow-project/flow",
+      "status": "candidate",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vehicle-control",
+  "concept_id": "vehicle-control",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "flow-project/flow"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vehicle-control",
+      "sense_id": "vehicle-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

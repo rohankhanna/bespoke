@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "tencentarc/masactrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "classifier-free-guidance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "flowalign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "flowedit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "inversion-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "rectified-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "training-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+      "target": "wanalign",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:01.573990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Training-Free (Inversion-Free) methods meet WAN2.1-T2V\ud83e\udd17",
+    "fork": false,
+    "full_name": "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "html_url": "https://github.com/KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "language": "Python",
+    "pushed_at": "2026-04-06T03:09:22Z",
+    "stargazers_count": 78,
+    "topics": [
+      "classifier-free-guidance",
+      "flowalign",
+      "flowedit",
+      "inversion-free",
+      "open-source",
+      "rectified-flow",
+      "t2v",
+      "training-free",
+      "video-editing",
+      "wan",
+      "wanalign"
+    ],
+    "updated_at": "2026-04-16T03:09:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentarc/masactrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classifier-free-guidance"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flowalign"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flowedit"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inversion-free"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectified-flow"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "**Star\ud83c\udf1f is a great help in open source development!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wanalign"
+    }
+  ]
+}

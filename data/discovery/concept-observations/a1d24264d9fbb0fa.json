@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build client for selenium tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build client for selenium tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16940,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16940,
+      "status": "candidate",
+      "text": "medical examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16940,
+      "status": "candidate",
+      "text": "pregnancy test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16940,
+      "status": "candidate",
+      "text": "rorschach test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16887,
+      "status": "candidate",
+      "text": "intelligence test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build client for selenium tests",
+      "sense_id": "build-client-for-selenium-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-client-for-selenium-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-client-for-selenium-tests",
+  "observation_id": "a1d24264d9fbb0fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build client for selenium tests",
+  "source_context_snippet": "Build client for selenium tests",
+  "source_file": ".github/workflows/build_client.yaml",
+  "source_repo": "galaxyproject/galaxy",
+  "source_repo_description": "Data intensive science for everyone."
+}

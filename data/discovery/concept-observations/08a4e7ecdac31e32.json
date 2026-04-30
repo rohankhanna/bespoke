@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Assign Reviewers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Assign Reviewers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "checkout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "ravel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22421,
+      "status": "candidate",
+      "text": "award"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22421,
+      "status": "candidate",
+      "text": "refer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Assign Reviewers",
+      "sense_id": "auto-assign-reviewers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-assign-reviewers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-assign-reviewers",
+  "observation_id": "08a4e7ecdac31e32",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Auto Assign Reviewers",
+  "source_context_snippet": "Auto Assign Reviewers",
+  "source_file": ".github/workflows/auto-assign-reviewers.yml",
+  "source_repo": "cachix/devenv",
+  "source_repo_description": "Fast, Declarative, Reproducible, and Composable Developer Environments using Nix"
+}

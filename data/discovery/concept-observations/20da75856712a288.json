@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and accurate AI powered file content types detection "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "JS - check import scenarios"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "JS - check import scenarios"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21415,
+      "status": "candidate",
+      "text": "deliberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21415,
+      "status": "candidate",
+      "text": "pointlessness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21406,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21383,
+      "status": "candidate",
+      "text": "venture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21336,
+      "status": "candidate",
+      "text": "carpet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JS - check import scenarios",
+      "sense_id": "js---check-import-scenarios#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "js---check-import-scenarios",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "js---check-import-scenarios",
+  "observation_id": "20da75856712a288",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "JS - check import scenarios",
+  "source_context_snippet": "JS - check import scenarios",
+  "source_file": ".github/workflows/js-check-import-scenarios.yml",
+  "source_repo": "google/magika",
+  "source_repo_description": "Fast and accurate AI powered file content types detection "
+}

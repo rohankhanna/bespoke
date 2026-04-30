@@ -253,6 +253,54 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "Auto QUality Assurance for Julia packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for yyjson for reading and parsing JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -385,6 +433,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaTesting/Aqua.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MichaelHatherly/REPLicant.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -532,11 +610,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaTesting/Aqua.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSMLM/ModelContextProtocol.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "MichaelHatherly/REPLicant.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JamieMair/MuJoCo.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

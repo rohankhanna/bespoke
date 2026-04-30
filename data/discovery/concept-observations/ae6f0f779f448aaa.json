@@ -48,7 +48,7 @@
   "normalized_form": "docker-nightlies",
   "observation_id": "ae6f0f779f448aaa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "docker-nightlies",
   "source_context_snippet": "docker-nightlies",
   "source_file": ".github/workflows/nightlies.yml",

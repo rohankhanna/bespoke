@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-sensible",
+      "target": "tmux-plugins/tmux-pain-control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-sensible",
+      "target": "tmux-plugins/tmux-resurrect",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:11.800255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "basic tmux settings everyone can agree on",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-sensible",
+    "html_url": "https://github.com/tmux-plugins/tmux-sensible",
+    "language": "Shell",
+    "pushed_at": "2024-04-16T16:49:22Z",
+    "stargazers_count": 2174,
+    "topics": [],
+    "updated_at": "2026-04-30T09:15:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-pain-control",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-resurrect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

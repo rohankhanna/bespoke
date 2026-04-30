@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Add to FVM project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate-context",
+      "text": "Add to FVM project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/fvm-specs",
+      "status": "candidate-context",
+      "text": "home of the FVM (Filecoin Virtual Machine) project \u2699\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/fvm-specs",
+      "status": "candidate-context",
+      "text": "Add to FVM project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/ref-fvm",
+      "status": "candidate",
+      "text": "Add to FVM project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/fvm-specs",
+      "status": "candidate",
+      "text": "Add to FVM project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "friends"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add to FVM project",
+  "concept_id": "add-to-fvm-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/ref-fvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "filecoin-project/fvm-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to FVM project",
+      "sense_id": "add-to-fvm-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "computer-aided-translation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "status": "candidate-context",
+      "text": "OPUS-CAT is a collection of software which make it possible to OPUS-MT neural machine translation models in professional translation. OPUS-CAT includes a local offline MT engine and a collection of CAT tool plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "status": "candidate-context",
+      "text": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helsinki-NLP/OPUS-CAT",
+      "status": "candidate",
+      "text": "Full documentation is available here: https://helsinki-nlp.github.io/OPUS-CAT/"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "computer-aided-translation",
+  "concept_id": "computer-aided-translation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-CAT"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computer-aided-translation",
+      "sense_id": "computer-aided-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

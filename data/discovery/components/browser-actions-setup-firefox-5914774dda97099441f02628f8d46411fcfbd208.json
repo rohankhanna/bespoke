@@ -1,0 +1,12 @@
+{
+  "component": "browser-actions/setup-firefox@5914774dda97099441f02628f8d46411fcfbd208",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jawah/niquests"
+    }
+  ]
+}

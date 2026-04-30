@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic-checks.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "basic checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chart.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "Cherry-Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "Golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "target": "Issue Triage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:49.159519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5575
+    },
+    {
+      "path": "go.mod",
+      "size": 4380
+    },
+    {
+      "path": ".github/workflows/basic-checks.yaml",
+      "size": 1305
+    },
+    {
+      "path": ".github/workflows/chart.yaml",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/cherrypick.yml",
+      "size": 3334
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/code_scanning.yaml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/golang.yaml",
+      "size": 2162
+    },
+    {
+      "path": ".github/workflows/image.yaml",
+      "size": 1862
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 4381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DRA Driver for NVIDIA GPUs",
+    "fork": false,
+    "full_name": "kubernetes-sigs/dra-driver-nvidia-gpu",
+    "html_url": "https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu",
+    "language": "Go",
+    "pushed_at": "2026-04-29T15:45:35Z",
+    "stargazers_count": 633,
+    "topics": [],
+    "updated_at": "2026-04-29T15:50:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"basic checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic-checks.yaml",
+      "term": "basic checks"
+    },
+    {
+      "context_snippet": "Cherry-Pick",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "term": "Cherry-Pick"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_scanning.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Golang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yaml",
+      "term": "Golang"
+    },
+    {
+      "context_snippet": "image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "term": "image"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    }
+  ]
+}

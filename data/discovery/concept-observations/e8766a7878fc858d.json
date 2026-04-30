@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository has been deprecated. Suggest to use edgeai-mmdetection in https://github.com/TexasInstruments/edgeai-tensorlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Recommend the following alternatives instead of this:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Recommend the following alternatives instead of this:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ti-processors",
+      "sense_id": "ti-processors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ti-processors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ti-processors",
+  "observation_id": "e8766a7878fc858d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "ti-processors",
+  "source_context_snippet": "Recommend the following alternatives instead of this:",
+  "source_file": null,
+  "source_repo": "TexasInstruments/edgeai-yolov5",
+  "source_repo_description": "This repository has been deprecated. Suggest to use edgeai-mmdetection in https://github.com/TexasInstruments/edgeai-tensorlab"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pmml-python"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodeployai/pypmml",
+      "status": "candidate-context",
+      "text": "Python PMML scoring library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pypmml",
+      "status": "candidate-context",
+      "text": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pypmml",
+      "status": "candidate",
+      "text": "_PyPMML_ is a Python PMML scoring library, it really is the Python API for [PMML4S](https://github.com/autodeployai/pmml4s)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pmml-python",
+  "concept_id": "pmml-python",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pmml-python",
+      "sense_id": "pmml-python#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -305,7 +305,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:45:56.691361+00:00",
+  "fetched_at": "2026-04-30T10:15:58.166762+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -357,10 +357,10 @@
     "full_name": "huggingface/trl",
     "html_url": "https://github.com/huggingface/trl",
     "language": "Python",
-    "pushed_at": "2026-04-29T19:02:42Z",
-    "stargazers_count": 18203,
+    "pushed_at": "2026-04-30T09:11:13Z",
+    "stargazers_count": 18212,
     "topics": [],
-    "updated_at": "2026-04-29T15:52:20Z"
+    "updated_at": "2026-04-30T09:11:19Z"
   },
   "repo_links": [],
   "terms": [

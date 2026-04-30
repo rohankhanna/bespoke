@@ -1,0 +1,213 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "unum-cloud/uform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "coreml-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "mobile-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "ondeviceai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "swiftui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/SwiftSemanticSearch",
+      "target": "video-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:06.334200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time on-device text-to-image and image-to-image Semantic Search with video stream camera capture using USearch & UForm AI Swift SDKs for Apple devices \ud83c\udf4f",
+    "fork": false,
+    "full_name": "ashvardanian/SwiftSemanticSearch",
+    "html_url": "https://github.com/ashvardanian/SwiftSemanticSearch",
+    "language": "Swift",
+    "pushed_at": "2024-12-20T13:32:05Z",
+    "stargazers_count": 152,
+    "topics": [
+      "coreml",
+      "coreml-models",
+      "image-search",
+      "ios",
+      "mobile-app",
+      "ondeviceai",
+      "onnx",
+      "rag",
+      "semantic-search",
+      "swift",
+      "swiftui",
+      "vector-search",
+      "vector-search-engine",
+      "video-search"
+    ],
+    "updated_at": "2026-04-22T05:25:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/uform",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml-models"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-app"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ondeviceai"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftui"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    },
+    {
+      "context_snippet": "![Preview](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/SwiftSemanticSearch.jpg?raw=true#center)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-search"
+    }
+  ]
+}

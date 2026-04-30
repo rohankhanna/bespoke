@@ -1,0 +1,405 @@
+{
+  "components": [
+    {
+      "component": "@octokit/auth-oauth-device",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "camelcase",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clipboardy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spdx-license-list",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_octokit_project.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/immediate-response.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml"
+    },
+    {
+      "component": "gr2m/create-or-update-pull-request-action@v1.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "@octokit/auth-oauth-device",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "@octokit/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "camelcase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "clipboardy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "spdx-license-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_octokit_project.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/immediate-response.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "gr2m/create-or-update-pull-request-action@v1.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "Update Prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "octokit-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/create-octokit-project.js",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:43.786853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 999
+    },
+    {
+      "path": "package.json",
+      "size": 1192
+    },
+    {
+      "path": ".github/workflows/add_to_octokit_project.yml",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2768
+    },
+    {
+      "path": ".github/workflows/immediate-response.yml",
+      "size": 1359
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 865
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/update-prettier.yml",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"npm init\" script to create a new Octokit JS module",
+    "fork": false,
+    "full_name": "octokit/create-octokit-project.js",
+    "html_url": "https://github.com/octokit/create-octokit-project.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T10:03:27Z",
+    "stargazers_count": 18,
+    "topics": [
+      "hacktoberfest",
+      "octokit-js",
+      "tooling"
+    ],
+    "updated_at": "2026-03-19T11:30:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Update Prettier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "term": "Update Prettier"
+    },
+    {
+      "context_snippet": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octokit-js"
+    },
+    {
+      "context_snippet": "> \"[npm init](https://docs.npmjs.com/cli/v7/commands/npm-init)\" script to create a new folder and repository for an Octokit JavaScript module (plugin, authentication strategy, or otherwise)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

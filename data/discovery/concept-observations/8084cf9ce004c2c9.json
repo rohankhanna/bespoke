@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!Important]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049920,
+      "status": "candidate",
+      "text": "inert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049698,
+      "status": "candidate",
+      "text": "underactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049468,
+      "status": "candidate",
+      "text": "hypoactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049238,
+      "status": "candidate",
+      "text": "nonmoving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048983,
+      "status": "candidate",
+      "text": "passive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inactive",
+      "sense_id": "inactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72045,
+      "status": "candidate",
+      "text": "indolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56050,
+      "status": "candidate",
+      "text": "dull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47052,
+      "status": "candidate",
+      "text": "inert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44044,
+      "status": "candidate",
+      "text": "quiescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42046,
+      "status": "candidate",
+      "text": "supine"
+    }
+  ],
+  "concept_id": "inactive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inactive",
+  "observation_id": "8084cf9ce004c2c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "inactive",
+  "source_context_snippet": "> [!Important]",
+  "source_file": null,
+  "source_repo": "mozilla/hawk",
+  "source_repo_description": "INACTIVE - HTTP Holder-Of-Key Authentication Scheme"
+}

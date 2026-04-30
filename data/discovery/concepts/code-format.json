@@ -56,6 +56,18 @@
       "source_repo": "kendryte/nncase",
       "status": "candidate-context",
       "text": "code-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate-context",
+      "text": "Code Format"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "kendryte/nncase",
       "status": "candidate",
       "text": "code-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/AgentLab",
+      "status": "candidate",
+      "text": "Code Format"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/code-format.yml",
       "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code_format.yml",
+      "source_repo": "ServiceNow/AgentLab"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

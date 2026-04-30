@@ -211,28 +211,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "detekt/detekt",
-      "target": "arturbosch/kutils",
+      "target": "kotlinby/awesome-kotlin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "detekt/detekt",
-      "target": "buildfoundation/bazel_rules_detekt",
+      "target": "detekt/sonar-kotlin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "detekt/detekt",
-      "target": "btkelly/gnag",
+      "target": "matheusflauzino/smells-experiment-kotlin-and-java",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "detekt/detekt",
-      "target": "checkstyle/checkstyle",
+      "target": "detekt/detekt-intellij-plugin",
       "target_type": "repository"
     },
     {
@@ -537,7 +537,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T01:46:39.825922+00:00",
+  "fetched_at": "2026-04-30T10:25:04.328215+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,7 +589,7 @@
     "full_name": "detekt/detekt",
     "html_url": "https://github.com/detekt/detekt",
     "language": "Kotlin",
-    "pushed_at": "2026-04-29T21:28:23Z",
+    "pushed_at": "2026-04-30T06:41:33Z",
     "stargazers_count": 6927,
     "topics": [
       "analysis",
@@ -603,27 +603,27 @@
       "static",
       "static-analysis"
     ],
-    "updated_at": "2026-04-29T23:13:56Z"
+    "updated_at": "2026-04-30T06:41:41Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arturbosch/kutils",
+      "full_name": "detekt/detekt-intellij-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "btkelly/gnag",
+      "full_name": "detekt/sonar-kotlin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "buildfoundation/bazel_rules_detekt",
+      "full_name": "kotlinby/awesome-kotlin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "checkstyle/checkstyle",
+      "full_name": "matheusflauzino/smells-experiment-kotlin-and-java",
       "source_file": "README.md"
     }
   ],

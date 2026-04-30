@@ -283,6 +283,18 @@
       "source_repo": "LukeMathWalker/cargo-chef",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate-context",
+      "text": "Periodically build some cargo binary packages and publish them to my personal pacman repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "LukeMathWalker/cargo-chef",
       "status": "candidate",
       "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "status": "candidate",
+      "text": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +676,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

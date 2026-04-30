@@ -1,0 +1,94 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792891,
+      "status": "candidate",
+      "text": "atomic number 10"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29792890,
+      "status": "candidate",
+      "text": "helium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29463688,
+      "status": "candidate",
+      "text": "conflict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19792929,
+      "status": "candidate",
+      "text": "glowing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neon",
+      "sense_id": "neon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "atomic number 10"
+    }
+  ],
+  "concept_id": "neon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neon",
+  "observation_id": "19990ea64ff78eaf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "neon",
+  "source_context_snippet": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026",
+  "source_file": null,
+  "source_repo": "unevens/hiir",
+  "source_repo_description": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+}

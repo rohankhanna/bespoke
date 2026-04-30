@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:26:40.106788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the paper: \"AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?\"",
+    "fork": false,
+    "full_name": "oriyor/assistantbench",
+    "html_url": "https://github.com/oriyor/assistantbench",
+    "language": "Python",
+    "pushed_at": "2024-12-09T08:35:26Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-02-17T06:36:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

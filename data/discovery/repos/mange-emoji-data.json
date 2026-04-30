@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:26:25.682410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine-readable emoji data built from official Unicode reference files",
+    "fork": false,
+    "full_name": "Mange/emoji-data",
+    "html_url": "https://github.com/Mange/emoji-data",
+    "language": "Ruby",
+    "pushed_at": "2025-04-04T21:04:59Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-12-26T18:31:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

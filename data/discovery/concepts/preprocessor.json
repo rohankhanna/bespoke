@@ -19,6 +19,18 @@
       "source_repo": "bagder/fcpp",
       "status": "candidate-context",
       "text": "Frexx C preprocessor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate-context",
+      "text": " The Toolkit for Vim Color Scheme Designers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate-context",
+      "text": "The Toolkit for Vim Color Scheme Designers!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bagder/fcpp",
       "status": "candidate",
       "text": "Frexx C preprocessor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifepillar/vim-colortemplate",
+      "status": "candidate",
+      "text": "The Toolkit for Vim Color Scheme Designers!"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bagder/fcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

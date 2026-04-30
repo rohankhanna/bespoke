@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logtd/ComfyUI-Fluxtapoz",
+      "target": "wangjiangshan0725/rf-solver-edit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logtd/ComfyUI-Fluxtapoz",
+      "target": "holmesshuan/fireflow-fast-inversion-of-rectified-flow-for-image-semantic-editing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logtd/ComfyUI-Fluxtapoz",
+      "target": "instantx-research/regional-prompting-flux",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "logtd/ComfyUI-Fluxtapoz"
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,30 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate-context",
+      "text": "'translator'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "status": "candidate-context",
+      "text": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "status": "candidate-context",
+      "text": "'translator'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/oceanbase",
+      "status": "candidate",
+      "text": "'translator'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen3-TTS",
+      "status": "candidate",
+      "text": "'translator'"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +129,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "oceanbase/oceanbase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/translate.yaml",
+      "source_repo": "QwenLM/Qwen3-TTS"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

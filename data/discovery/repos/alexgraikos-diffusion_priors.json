@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "yandex-research/ddpm-segmentation.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "hawaii0821/faceattr-analysis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "chaitjo/learning-tsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexGraikos/diffusion_priors",
+      "target": "openai/guided-diffusion.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:42.042920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using pre-trained Diffusion models as priors for inference tasks",
+    "fork": false,
+    "full_name": "AlexGraikos/diffusion_priors",
+    "html_url": "https://github.com/AlexGraikos/diffusion_priors",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-09T17:44:23Z",
+    "stargazers_count": 211,
+    "topics": [],
+    "updated_at": "2026-04-17T02:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaitjo/learning-tsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hawaii0821/faceattr-analysis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/guided-diffusion.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yandex-research/ddpm-segmentation.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

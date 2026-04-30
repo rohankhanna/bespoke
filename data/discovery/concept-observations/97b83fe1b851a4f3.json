@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037384,
+      "status": "candidate",
+      "text": "levitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021287,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983961,
+      "status": "candidate",
+      "text": "bulk large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971563,
+      "status": "candidate",
+      "text": "linger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951290,
+      "status": "candidate",
+      "text": "vacillate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hover",
+      "sense_id": "hover#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41043,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19034,
+      "status": "candidate",
+      "text": "vacillate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "levitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "bulk large"
+    }
+  ],
+  "concept_id": "hover",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hover",
+  "observation_id": "97b83fe1b851a4f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "hover",
+  "source_context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+  "source_file": null,
+  "source_repo": "go-flutter-desktop/go-flutter",
+  "source_repo_description": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW."
+}

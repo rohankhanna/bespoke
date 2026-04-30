@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kharchenkolab/conos",
+      "target": "igraph/rigraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/conos",
+      "target": "batch-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/conos",
+      "target": "scrna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kharchenkolab/conos",
+      "target": "single-cell-rna-seq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:43.992668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R package for the joint analysis of multiple single-cell RNA-seq datasets",
+    "fork": false,
+    "full_name": "kharchenkolab/conos",
+    "html_url": "https://github.com/kharchenkolab/conos",
+    "language": "R",
+    "pushed_at": "2026-04-26T01:14:34Z",
+    "stargazers_count": 225,
+    "topics": [
+      "batch-correction",
+      "scrna-seq",
+      "single-cell-rna-seq"
+    ],
+    "updated_at": "2026-04-29T21:32:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igraph/rigraph",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/conos.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/conos)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batch-correction"
+    },
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/conos.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/conos)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrna-seq"
+    },
+    {
+      "context_snippet": "[![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/conos.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/conos)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-cell-rna-seq"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_linters.yaml",
       "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ingonyama-zk/icicle"
     }
   ]
 }

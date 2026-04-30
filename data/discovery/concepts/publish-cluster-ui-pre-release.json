@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Cluster UI Pre-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "CockroachDB \u2014 the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate-context",
+      "text": "Publish Cluster UI Pre-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/cockroach",
+      "status": "candidate",
+      "text": "Publish Cluster UI Pre-release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17500,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17500,
+      "status": "candidate",
+      "text": "layout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15089,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15089,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15089,
+      "status": "candidate",
+      "text": "unemployment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Cluster UI Pre-release",
+  "concept_id": "publish-cluster-ui-pre-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/cluster-ui-release-next.yml",
+      "source_repo": "cockroachdb/cockroach"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Cluster UI Pre-release",
+      "sense_id": "publish-cluster-ui-pre-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

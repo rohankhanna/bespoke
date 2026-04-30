@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package gorilla/securecookie encodes and decodes authenticated and optionally encrypted cookie values for Go web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039047,
+      "status": "candidate",
+      "text": "gorilla gorilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039046,
+      "status": "candidate",
+      "text": "silverback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039017,
+      "status": "candidate",
+      "text": "monkey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038858,
+      "status": "candidate",
+      "text": "ape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29974765,
+      "status": "candidate",
+      "text": "muscle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gorilla",
+      "sense_id": "gorilla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "gorilla gorilla"
+    }
+  ],
+  "concept_id": "gorilla",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gorilla",
+  "observation_id": "9a146046bdb9ee88",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "gorilla",
+  "source_context_snippet": "![testing](https://github.com/gorilla/securecookie/actions/workflows/test.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "gorilla/securecookie",
+  "source_repo_description": "Package gorilla/securecookie encodes and decodes authenticated and optionally encrypted cookie values for Go web applications."
+}

@@ -127,6 +127,42 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate-context",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unit-mesh/choco-builder",
+      "status": "candidate-context",
+      "text": "ChocoBuilder (Chocolate Factory) is a cutting-edge LLM toolkit designed to empower you in creating your very own AI assistant.Chocolate Factory \u662f\u4e00\u6b3e\u5f00\u6e90\u7684 LLM \u5e94\u7528\u5f00\u53d1\u6846\u67b6\uff0c\u65e8\u5728\u5e2e\u52a9\u60a8\u8f7b\u677e\u6253\u9020\u5f3a\u5927\u7684\u8f6f\u4ef6\u5f00\u53d1 SDLC + LLM \u751f\u6210\u52a9\u624b\u3002\u65e0\u8bba\u60a8\u662f\u9700\u8981\u751f\u6210\u524d\u7aef\u9875\u9762\u3001\u540e\u7aef API\u3001SQL \u56fe\u8868\uff0c\u8fd8\u662f\u6d4b\u8bd5\u7528\u4f8b\u6570\u636e\uff0cChocolate Factory \u90fd\u80fd\u6ee1\u8db3\u60a8\u7684\u9700\u6c42\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/choco-builder",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B Spotlight\ud83d\udd25] ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "PRIS-CV/DemoFusion",
       "status": "candidate",
       "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/choco-builder",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "PRIS-CV/DemoFusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unit-mesh/choco-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/ChronoMagic-Bench"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

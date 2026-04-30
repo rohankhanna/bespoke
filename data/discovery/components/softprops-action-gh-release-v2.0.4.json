@@ -1,12 +1,17 @@
 {
   "component": "softprops/action-gh-release@v2.0.4",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docc.yml",
       "source_repo": "MasterJ93/ATProtoKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DarthAffe/StableDiffusion.NET"
     }
   ]
 }

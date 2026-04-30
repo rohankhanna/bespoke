@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/rpmpack",
+      "target": "bazelbuild/rules_go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/rpmpack",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:36.924549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4974
+    },
+    {
+      "path": "go.mod",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "rpmpack (tar2rpm) - package rpms in pure golang or cli",
+    "fork": false,
+    "full_name": "google/rpmpack",
+    "html_url": "https://github.com/google/rpmpack",
+    "language": "Go",
+    "pushed_at": "2025-11-18T15:43:44Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-04-30T09:03:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

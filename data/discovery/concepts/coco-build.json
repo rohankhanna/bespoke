@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Coco Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "An effective DevOps analysis and auto-suggest tool\u3002Coco \u662f\u4e00\u4e2a\u7814\u53d1\u6548\u80fd\u5206\u6790\u5de5\u5177\uff0c\u5982\u56e2\u961f\u53d1\u5c55\u73b0\u72b6\uff08\u6839\u636e\u67b6\u6784\u590d\u6742\u5ea6\u53ca\u884c\u6570\u53d8\u66f4\uff09\u3001\u56e2\u961f\u6f14\u8fdb\u3001\u5386\u53f2\u5206\u6790\u7b49\u3002\u751f\u6210\u53ef\u89c6\u5316\u62a5\u544a\u53ca\u5bf9\u5e94\u7684\u6539\u8fdb\u5efa\u8bae\u3002 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "Coco Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate",
+      "text": "Coco Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13399,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "chanel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12773,
+      "status": "candidate",
+      "text": "guava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12379,
+      "status": "candidate",
+      "text": "remember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "ante"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Coco Build",
+  "concept_id": "coco-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "inherd/coco"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coco Build",
+      "sense_id": "coco-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

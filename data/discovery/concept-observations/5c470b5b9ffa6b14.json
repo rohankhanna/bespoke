@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extremely fast and smart HTML + JS + CSS minifier, available for Rust, Deno, Java, Node.js, Python, Ruby, and WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and publish Java artifact"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and publish Java artifact"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17234,
+      "status": "candidate",
+      "text": "shipway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17128,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103,
+      "status": "candidate",
+      "text": "convene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103,
+      "status": "candidate",
+      "text": "convening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17103,
+      "status": "candidate",
+      "text": "deliberative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and publish Java artifact",
+      "sense_id": "build-and-publish-java-artifact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-publish-java-artifact",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-publish-java-artifact",
+  "observation_id": "5c470b5b9ffa6b14",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Build and publish Java artifact",
+  "source_context_snippet": "Build and publish Java artifact",
+  "source_file": ".github/workflows/java.yml",
+  "source_repo": "wilsonzlin/minify-html",
+  "source_repo_description": "Extremely fast and smart HTML + JS + CSS minifier, available for Rust, Deno, Java, Node.js, Python, Ruby, and WASM"
+}

@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "broadway"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "Concurrent and multi-stage data ingestion and data processing with Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate-context",
+      "text": "A Broadway producer for Amazon SQS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate-context",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/dashbitco/broadway/actions/workflows/ci.yml/badge.svg)](https://github.com/dashbitco/broadway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771788,
+      "status": "candidate",
+      "text": "great white way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865746,
+      "status": "candidate",
+      "text": "theatre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863137,
+      "status": "candidate",
+      "text": "theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861681,
+      "status": "candidate",
+      "text": "tryout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807950,
+      "status": "candidate",
+      "text": "hale"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "great white way"
+    }
+  ],
+  "canonical_name": "broadway",
+  "concept_id": "broadway",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway_sqs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "broadway",
+      "sense_id": "broadway#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

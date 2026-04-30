@@ -175,6 +175,66 @@
       "source_repo": "Lightricks/ComfyUI-LTXVideo",
       "status": "candidate-context",
       "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "ComfyUI Plugin of Nunchaku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate-context",
+      "text": "[ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for performing the image-to-image diffusion process on large images in tiles. This approach improves the details that is commonly found on upscaled images while reducing hardware requirements and maintaining an image siz\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "status": "candidate-context",
+      "text": "ComfyUI Custom Node for AnimateLCM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "status": "candidate-context",
+      "text": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate-context",
+      "text": "Support for miscellaneous image models. Currently supports: DiT, PixArt, HunYuanDiT, MiaoBi, and a few VAEs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate-context",
+      "text": "This repository aims to add support for various different image diffusion models to ComfyUI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "status": "candidate-context",
+      "text": "A ComfyUI extention for BAGEL(Unified Model for Multimodal Understanding and Generation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "status": "candidate-context",
+      "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "Lightricks/ComfyUI-LTXVideo",
       "status": "candidate",
       "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale",
+      "status": "candidate",
+      "text": "[ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for performing the image-to-image diffusion process on large images in tiles. This approach improves the details that is commonly found on upscaled images while reducing hardware requirements and maintaining an image siz\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM",
+      "status": "candidate",
+      "text": "[Comfyui](https://github.com/comfyanonymous/ComfyUI) implementation for [AnimateLCM](https://animatelcm.github.io/) [[paper](https://arxiv.org/abs/2402.00769)]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "city96/ComfyUI_ExtraModels",
+      "status": "candidate",
+      "text": "This repository aims to add support for various different image diffusion models to ComfyUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverbiasu/ComfyUI-BAGEL",
+      "status": "candidate",
+      "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +502,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Lightricks/ComfyUI-LTXVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/ComfyUI-nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ssitu/ComfyUI_UltimateSDUpscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dezi-ai/ComfyUI-AnimateLCM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "city96/ComfyUI_ExtraModels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "neverbiasu/ComfyUI-BAGEL"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

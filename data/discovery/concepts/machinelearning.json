@@ -91,6 +91,30 @@
       "source_repo": "clearml/clearml",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/CodeRL",
+      "status": "candidate-context",
+      "text": "This is the official code for the paper CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning (NeurIPS22)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeRL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "low-light\ud83d\udca1 image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "clearml/clearml",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeRL",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/CodeRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

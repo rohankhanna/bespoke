@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":bulb: A Quick-start Guide for People who want to dwyl :heart: :white_check_mark:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Start Here"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Start Here"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988258,
+      "status": "candidate",
+      "text": "instruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987506,
+      "status": "candidate",
+      "text": "teach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987088,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985818,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985454,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "learn",
+      "sense_id": "learn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 108039,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25080,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25040,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22064,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "concept_id": "learn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "learn",
+  "observation_id": "0f70e504b1fcefbd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "learn",
+  "source_context_snippet": "Start Here",
+  "source_file": null,
+  "source_repo": "dwyl/start-here",
+  "source_repo_description": ":bulb: A Quick-start Guide for People who want to dwyl :heart: :white_check_mark:"
+}

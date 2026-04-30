@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate",
+      "target": "preprocessor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifepillar/vim-colortemplate",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:16:46.834098+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": " The Toolkit for Vim Color Scheme Designers!",
+    "fork": false,
+    "full_name": "lifepillar/vim-colortemplate",
+    "html_url": "https://github.com/lifepillar/vim-colortemplate",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-11T13:48:00Z",
+    "stargazers_count": 951,
+    "topics": [
+      "colorscheme",
+      "generator",
+      "preprocessor",
+      "templates",
+      "vim"
+    ],
+    "updated_at": "2026-04-25T22:18:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Toolkit for Vim Color Scheme Designers!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "The Toolkit for Vim Color Scheme Designers!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "The Toolkit for Vim Color Scheme Designers!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preprocessor"
+    },
+    {
+      "context_snippet": "The Toolkit for Vim Color Scheme Designers!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

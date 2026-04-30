@@ -1,0 +1,12 @@
+{
+  "component": "mikepenz/release-changelog-builder-action@5f3409748e2230350e149a7f7b5b8e9bcd785d44",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "bridgecrewio/checkov"
+    }
+  ]
+}

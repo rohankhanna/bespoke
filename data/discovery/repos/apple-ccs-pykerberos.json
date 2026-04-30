@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:28:59.861145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python Kerberos library used by CalendarServer",
+    "fork": false,
+    "full_name": "apple/ccs-pykerberos",
+    "html_url": "https://github.com/apple/ccs-pykerberos",
+    "language": "C",
+    "pushed_at": "2024-02-24T17:22:56Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-04-05T15:53:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

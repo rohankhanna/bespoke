@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-actionlint@50b75b9513baa71e6a1899a1ebaa9ac9851cf16c",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-composite-template"
+    }
+  ]
+}

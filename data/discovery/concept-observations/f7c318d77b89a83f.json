@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A vLLM plugin built on the FlagOS unified multi-chip backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Functional Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Functional Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36901,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36900,
+      "status": "candidate",
+      "text": "functionalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36899,
+      "status": "candidate",
+      "text": "field test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36898,
+      "status": "candidate",
+      "text": "functional unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36897,
+      "status": "candidate",
+      "text": "diagnostic test"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Functional Test",
+      "sense_id": "functional-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "functional-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "functional-test",
+  "observation_id": "f7c318d77b89a83f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Functional Test",
+  "source_context_snippet": "Functional Test",
+  "source_file": ".github/workflows/_functional_test.yml",
+  "source_repo": "flagos-ai/vllm-plugin-FL",
+  "source_repo_description": "A vLLM plugin built on the FlagOS unified multi-chip backend."
+}

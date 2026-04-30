@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Profanity filter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate-context",
+      "text": "Profanity filter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "status": "candidate",
+      "text": "Profanity filter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10804,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10673,
+      "status": "candidate",
+      "text": "umbrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10192,
+      "status": "candidate",
+      "text": "ribaldry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4924,
+      "status": "candidate",
+      "text": "blasphemous"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Profanity filter",
+  "concept_id": "profanity-filter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Profanity filter",
+      "sense_id": "profanity-filter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

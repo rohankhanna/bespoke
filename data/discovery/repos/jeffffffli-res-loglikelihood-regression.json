@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jeffffffli/res-loglikelihood-regression",
-      "target": "mks0601/3dmppe_posenet_release",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jeffffffli/res-loglikelihood-regression",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:49:30.060121+00:00",
+  "fetched_at": "2026-04-30T08:15:56.572423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -87,13 +80,7 @@
     ],
     "updated_at": "2026-03-23T23:03:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mks0601/3dmppe_posenet_release",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",

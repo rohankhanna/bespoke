@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,30 @@
       "source_repo": "thinking-machines-lab/tinker-cookbook",
       "status": "candidate-context",
       "text": "pyright"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "CLI interfaces & config objects, from types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate-context",
+      "text": "pyright"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "A GitHub Action to run pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +71,18 @@
       "source_repo": "thinking-machines-lab/tinker-cookbook",
       "status": "candidate",
       "text": "pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/tyro",
+      "status": "candidate",
+      "text": "pyright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordemort/action-pyright",
+      "status": "candidate",
+      "text": "[![test](https://github.com/jordemort/action-pyright/actions/workflows/test.yml/badge.svg)](https://github.com/jordemort/action-pyright/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +102,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pyright.yaml",
       "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pyright.yml",
+      "source_repo": "brentyi/tyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jordemort/action-pyright"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

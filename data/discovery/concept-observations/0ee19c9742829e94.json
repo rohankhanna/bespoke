@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RunwayML for Photoshop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880180,
+      "status": "candidate",
+      "text": "digital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941777,
+      "status": "candidate",
+      "text": "fake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941776,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941775,
+      "status": "candidate",
+      "text": "retouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19941774,
+      "status": "candidate",
+      "text": "manipulate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "photoshop",
+      "sense_id": "photoshop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "photoshop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "photoshop",
+  "observation_id": "0ee19c9742829e94",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "photoshop",
+  "source_context_snippet": "[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge-app.svg)](https://open-app.runwayml.com/)",
+  "source_file": null,
+  "source_repo": "runwayml/RunwayML-for-Photoshop",
+  "source_repo_description": "RunwayML for Photoshop"
+}

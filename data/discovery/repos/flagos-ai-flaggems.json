@@ -1,0 +1,471 @@
+{
+  "components": [
+    {
+      "component": "flagos-ai/build-infra/.github/workflows/sync-to-remote.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-op-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml"
+    },
+    {
+      "component": "flagos-ai/build-infra/.github/workflows/imagebuild.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-builder.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "flagos-ai/build-infra/.github/workflows/sync-to-remote.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "Sync to remote site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-test.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "Backend Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-op-test.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp-op-test.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "cpp-ops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/configure-pages@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "Build and deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-builder.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "flagos-ai/build-infra/.github/workflows/imagebuild.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-builder.yaml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "image-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "triton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagGems",
+      "target": "triton-kernels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:07.356885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4806
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9257
+    },
+    {
+      "path": ".github/workflows/auto-sync.yaml",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/backend-test.yaml",
+      "size": 2779
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 3873
+    },
+    {
+      "path": ".github/workflows/cpp-op-test.yaml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/daily.yaml",
+      "size": 2876
+    },
+    {
+      "path": ".github/workflows/hugo-site.yaml",
+      "size": 3588
+    },
+    {
+      "path": ".github/workflows/image-builder.yaml",
+      "size": 2664
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FlagGems is an operator library for large language models implemented in the Triton Language.",
+    "fork": false,
+    "full_name": "flagos-ai/FlagGems",
+    "html_url": "https://github.com/flagos-ai/FlagGems",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:53:30Z",
+    "stargazers_count": 979,
+    "topics": [
+      "pytorch",
+      "triton",
+      "triton-kernels"
+    ],
+    "updated_at": "2026-04-30T02:48:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync to remote site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "term": "Sync to remote site"
+    },
+    {
+      "context_snippet": "Backend Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-test.yaml",
+      "term": "Backend Test"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "cpp-ops",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp-op-test.yaml",
+      "term": "cpp-ops"
+    },
+    {
+      "context_snippet": "daily",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily.yaml",
+      "term": "daily"
+    },
+    {
+      "context_snippet": "Build and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo-site.yaml",
+      "term": "Build and deploy"
+    },
+    {
+      "context_snippet": "image-builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-builder.yaml",
+      "term": "image-builder"
+    },
+    {
+      "context_snippet": "linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton"
+    },
+    {
+      "context_snippet": "[<img width=\"2182\" height=\"602\" alt=\"github+banner-20260130\" src=\"https://github.com/flagos-ai/FlagGems/blob/master/.github/assets/banner-20260130.png\" />](https://flagos.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton-kernels"
+    }
+  ]
+}

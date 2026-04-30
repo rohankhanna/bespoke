@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GreptimeDB dashboard web application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dispatch sync to private repo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dispatch sync to private repo"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32951,
+      "status": "candidate",
+      "text": "stage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22264,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22193,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21951,
+      "status": "candidate",
+      "text": "comfort station"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21951,
+      "status": "candidate",
+      "text": "death squad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dispatch sync to private repo",
+      "sense_id": "dispatch-sync-to-private-repo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dispatch-sync-to-private-repo",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dispatch-sync-to-private-repo",
+  "observation_id": "e5feed42a4ee67b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Dispatch sync to private repo",
+  "source_context_snippet": "Dispatch sync to private repo",
+  "source_file": ".github/workflows/dispatch-sync.yml",
+  "source_repo": "GreptimeTeam/dashboard",
+  "source_repo_description": "GreptimeDB dashboard web application."
+}

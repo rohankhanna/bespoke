@@ -1,0 +1,72 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![CI](https://github.com/nihui/rife-ncnn-vulkan/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/rife-ncnn-vulkan/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "built"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4999,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulkan",
+      "sense_id": "vulkan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulkan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulkan",
+  "observation_id": "ad0e818557c3b5b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "vulkan",
+  "source_context_snippet": "![CI](https://github.com/nihui/rife-ncnn-vulkan/workflows/CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "nihui/rife-ncnn-vulkan",
+  "source_repo_description": "RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library"
+}

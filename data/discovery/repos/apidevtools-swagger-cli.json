@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "component": "@apidevtools/swagger-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsdevtools/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jsdevtools/version-bump-prompt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mockery",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spawn-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "apidevtools/swagger-express-middleware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "@apidevtools/swagger-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "@jsdevtools/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "@jsdevtools/version-bump-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "mockery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "npm-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "spawn-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "coverallsapp/github-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "JS-DevTools/npm-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "CI-CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "open-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli",
+      "target": "validator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:17:01.638446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7025
+    },
+    {
+      "path": "package.json",
+      "size": 1794
+    },
+    {
+      "path": ".github/workflows/CI-CD.yaml",
+      "size": 2579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Swagger 2.0 and OpenAPI 3.0 command-line tool",
+    "fork": false,
+    "full_name": "APIDevTools/swagger-cli",
+    "html_url": "https://github.com/APIDevTools/swagger-cli",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-15T11:23:27Z",
+    "stargazers_count": 517,
+    "topics": [
+      "cli",
+      "javascript",
+      "json-schema",
+      "nodejs",
+      "open-api",
+      "parser",
+      "swagger",
+      "validation",
+      "validator"
+    ],
+    "updated_at": "2026-04-24T17:53:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apidevtools/swagger-express-middleware",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-CD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "term": "CI-CD"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-api"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    },
+    {
+      "context_snippet": "Swagger/OpenAPI CLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validator"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "go-flutter-desktop/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "go-flutter-desktop/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "glfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "hover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/go-flutter",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:09:52.786174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5170
+    },
+    {
+      "path": "go.mod",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flutter on Windows, MacOS and Linux - based on Flutter Embedding, Go and GLFW.",
+    "fork": false,
+    "full_name": "go-flutter-desktop/go-flutter",
+    "html_url": "https://github.com/go-flutter-desktop/go-flutter",
+    "language": "Go",
+    "pushed_at": "2026-04-17T12:02:47Z",
+    "stargazers_count": 5935,
+    "topics": [
+      "cross-platform",
+      "desktop",
+      "flutter",
+      "glfw",
+      "go",
+      "golang",
+      "hover",
+      "linux",
+      "macos",
+      "ui",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T22:53:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-flutter-desktop/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-flutter-desktop/plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glfw"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hover"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"./mascot.png\" width=\"170\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

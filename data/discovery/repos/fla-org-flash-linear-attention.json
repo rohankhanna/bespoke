@@ -81,28 +81,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "fla-org/flame",
+      "target": "mit-han-lab/flash-moba",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "fla-org/flash-bidirectional-linear-attention",
+      "target": "nvlabs/gateddeltanet",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "hazyresearch/based",
+      "target": "moonshotai/moba",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "hanguo97/log-linear-attention",
+      "target": "mgmalek/efficient_cross_entropy",
       "target_type": "repository"
     },
     {
@@ -281,7 +281,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:02:15.893794+00:00",
+  "fetched_at": "2026-04-30T08:20:45.883663+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -333,35 +333,35 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-04-29T15:02:25Z",
-    "stargazers_count": 5012,
+    "pushed_at": "2026-04-30T07:52:55Z",
+    "stargazers_count": 5015,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-04-29T16:20:01Z"
+    "updated_at": "2026-04-30T07:53:00Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fla-org/flame",
+      "full_name": "mgmalek/efficient_cross_entropy",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fla-org/flash-bidirectional-linear-attention",
+      "full_name": "mit-han-lab/flash-moba",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hanguo97/log-linear-attention",
+      "full_name": "moonshotai/moba",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hazyresearch/based",
+      "full_name": "nvlabs/gateddeltanet",
       "source_file": "README.md"
     }
   ],

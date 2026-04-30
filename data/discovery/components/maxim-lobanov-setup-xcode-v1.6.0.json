@@ -1,12 +1,22 @@
 {
   "component": "maxim-lobanov/setup-xcode@v1.6.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-jobs.yml",
       "source_repo": "facebook/rocksdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-examples.yml",
+      "source_repo": "facebook/buck2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/buck2"
     }
   ]
 }

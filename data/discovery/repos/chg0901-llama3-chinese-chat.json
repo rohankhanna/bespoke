@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chg0901/llama3-Chinese-chat",
+      "target": "smartflowai/llama3-xtuner-cn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:13:15.557974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Llama3 \u4e2d\u6587\u7248",
+    "fork": true,
+    "full_name": "chg0901/llama3-Chinese-chat",
+    "html_url": "https://github.com/chg0901/llama3-Chinese-chat",
+    "language": null,
+    "pushed_at": "2024-05-08T04:19:07Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-04-19T19:27:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smartflowai/llama3-xtuner-cn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

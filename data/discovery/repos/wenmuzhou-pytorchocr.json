@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:17:54.456181+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\u57fa\u4e8ePytorch\u7684OCR\u5de5\u5177\u5e93\uff0c\u652f\u6301\u5e38\u7528\u7684\u6587\u5b57\u68c0\u6d4b\u548c\u8bc6\u522b\u7b97\u6cd5",
+    "fork": false,
+    "full_name": "WenmuZhou/PytorchOCR",
+    "html_url": "https://github.com/WenmuZhou/PytorchOCR",
+    "language": "Python",
+    "pushed_at": "2026-01-04T02:40:44Z",
+    "stargazers_count": 1517,
+    "topics": [],
+    "updated_at": "2026-04-17T11:12:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

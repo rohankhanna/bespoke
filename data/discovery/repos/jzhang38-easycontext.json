@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jzhang38/EasyContext",
+      "target": "jquesnelle/yarn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jzhang38/EasyContext",
+      "target": "franxyao/long-context-data-engineering",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:25.947659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9514
+    },
+    {
+      "path": "requirements.txt",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Memory optimization and training recipes to extrapolate language models' context length to 1 million tokens, with minimal hardware.",
+    "fork": false,
+    "full_name": "jzhang38/EasyContext",
+    "html_url": "https://github.com/jzhang38/EasyContext",
+    "language": "Python",
+    "pushed_at": "2024-09-27T05:13:09Z",
+    "stargazers_count": 757,
+    "topics": [],
+    "updated_at": "2026-04-27T18:01:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "franxyao/long-context-data-engineering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jquesnelle/yarn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

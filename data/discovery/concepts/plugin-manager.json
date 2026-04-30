@@ -187,6 +187,18 @@
       "source_repo": "psmux/Tmux-Plugin-Panel",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate-context",
+      "text": "Plugpac is a plugin manger written in Vim9 based on minpac, provides vim-plug-like experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate-context",
+      "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "psmux/Tmux-Plugin-Panel",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bennyyip/plugpac.vim",
+      "status": "candidate",
+      "text": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2]."
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +400,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

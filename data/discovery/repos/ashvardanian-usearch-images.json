@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "unum-cloud/uform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "unum-cloud/ucall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "clip-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "clip-retrival",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "demo-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "multi-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "streamlit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:08.979094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1823
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Semantic Search demo featuring UForm, USearch, UCall, and StreamLit, to visual and retrieve from image datasets, similar to \"CLIP Retrieval\"",
+    "fork": false,
+    "full_name": "ashvardanian/usearch-images",
+    "html_url": "https://github.com/ashvardanian/usearch-images",
+    "language": "Python",
+    "pushed_at": "2023-12-29T19:38:04Z",
+    "stargazers_count": 53,
+    "topics": [
+      "ai",
+      "clip",
+      "clip-model",
+      "clip-retrival",
+      "demo",
+      "demo-app",
+      "multi-lingual",
+      "multi-modal",
+      "semantic-search",
+      "streamlit",
+      "transformer",
+      "vector-search"
+    ],
+    "updated_at": "2026-03-15T13:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ucall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/uform",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip-model"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip-retrival"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo-app"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-lingual"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streamlit"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

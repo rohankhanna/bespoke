@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Computational framework for reinforcement learning in traffic control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015603,
+      "status": "candidate",
+      "text": "self-reliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015269,
+      "status": "candidate",
+      "text": "self-directed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013263,
+      "status": "candidate",
+      "text": "self-governing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001808,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992756,
+      "status": "candidate",
+      "text": "sovereign"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonomous",
+      "sense_id": "autonomous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22049,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8024,
+      "status": "candidate",
+      "text": "self-reliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4015,
+      "status": "candidate",
+      "text": "self-directed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "self-governing"
+    }
+  ],
+  "concept_id": "autonomous",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autonomous",
+  "observation_id": "e0c49e64fb96ef0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "autonomous",
+  "source_context_snippet": "<img src=\"docs/img/square_logo.png\" align=\"right\" width=\"25%\"/>",
+  "source_file": null,
+  "source_repo": "flow-project/flow",
+  "source_repo_description": "Computational framework for reinforcement learning in traffic control"
+}

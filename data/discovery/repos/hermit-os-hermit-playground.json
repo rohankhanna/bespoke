@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x86_64.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x86_64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "hermit-os/libhermit-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "hermit-os/libhermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "hermit-os/hermit-toolchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x86_64.yml",
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x86_64.yml",
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "dsaltares/fetch-gh-release-asset@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "cloud-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "unikernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-playground",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:42.760384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8266
+    },
+    {
+      "path": "Dockerfile",
+      "size": 235
+    },
+    {
+      "path": ".github/workflows/x86_64.yml",
+      "size": 1908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A playground to build C/C++/Go/Fortran applications on top of RustyHermit",
+    "fork": false,
+    "full_name": "hermit-os/hermit-playground",
+    "html_url": "https://github.com/hermit-os/hermit-playground",
+    "language": "C",
+    "pushed_at": "2024-07-03T15:49:42Z",
+    "stargazers_count": 43,
+    "topics": [
+      "cloud-computing",
+      "high-performance-computing",
+      "kernel",
+      "operating-system",
+      "unikernels",
+      "virtualization"
+    ],
+    "updated_at": "2026-04-29T07:25:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermit-os/hermit-toolchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermit-os/libhermit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hermit-os/libhermit-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-computing"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unikernels"
+    },
+    {
+      "context_snippet": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hagan/claudia-statusline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/install_check.yml",
+      "source_repo": "resemble-ai/chatterbox"
     }
   ],
   "term": "Test Installation"

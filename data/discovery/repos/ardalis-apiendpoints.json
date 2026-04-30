@@ -1,0 +1,538 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml"
+    },
+    {
+      "component": "brandedoutcast/publish-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml"
+    },
+    {
+      "component": "brandedoutcast/publish-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml"
+    },
+    {
+      "component": "brandedoutcast/publish-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-template.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-template.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "brandedoutcast/publish-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "dasiths/simpleendpoints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "jamesrandall/functionmonkey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "ardalis/cleanarchitecture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "dotnet-architecture/eshoponweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "dotnet core - build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-analyzer.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "brandedoutcast/publish-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-analyzer.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "publish analyzer to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nswag.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "brandedoutcast/publish-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nswag.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "publish NSwag package to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-swashbuckle.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "brandedoutcast/publish-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-swashbuckle.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "publish Swashbuckle package to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-template.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-template.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-template.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "publish template package to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "brandedoutcast/publish-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "publish ApiEndpoints to nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "endpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ardalis/ApiEndpoints",
+      "target": "web-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:06:30.545718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23483
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 695
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/publish-analyzer.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/publish-nswag.yml",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/publish-swashbuckle.yml",
+      "size": 783
+    },
+    {
+      "path": ".github/workflows/publish-template.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A project for supporting API Endpoints in ASP.NET Core web applications.",
+    "fork": false,
+    "full_name": "ardalis/ApiEndpoints",
+    "html_url": "https://github.com/ardalis/ApiEndpoints",
+    "language": "C#",
+    "pushed_at": "2026-03-09T12:31:50Z",
+    "stargazers_count": 3201,
+    "topics": [
+      "api",
+      "asp-net-core",
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "endpoints",
+      "hacktoberfest",
+      "web-api"
+    ],
+    "updated_at": "2026-04-23T16:00:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardalis/cleanarchitecture",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dasiths/simpleendpoints",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet-architecture/eshoponweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamesrandall/functionmonkey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CodeQL Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL Analysis"
+    },
+    {
+      "context_snippet": "dotnet core - build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "term": "dotnet core - build"
+    },
+    {
+      "context_snippet": "publish analyzer to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-analyzer.yml",
+      "term": "publish analyzer to nuget"
+    },
+    {
+      "context_snippet": "publish NSwag package to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nswag.yml",
+      "term": "publish NSwag package to nuget"
+    },
+    {
+      "context_snippet": "publish Swashbuckle package to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-swashbuckle.yml",
+      "term": "publish Swashbuckle package to nuget"
+    },
+    {
+      "context_snippet": "publish template package to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-template.yml",
+      "term": "publish template package to nuget"
+    },
+    {
+      "context_snippet": "publish ApiEndpoints to nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish ApiEndpoints to nuget"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "endpoints"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![dotnet core - build](https://github.com/ardalis/ApiEndpoints/workflows/dotnet%20core%20-%20build/badge.svg)](https://github.com/ardalis/ApiEndpoints/actions?query=workflow%3A%22dotnet+core+-+build%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-api"
+    }
+  ]
+}

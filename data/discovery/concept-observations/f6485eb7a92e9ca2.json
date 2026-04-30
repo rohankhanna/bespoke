@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IPython Kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test downstream projects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test downstream projects"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22524,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22507,
+      "status": "candidate",
+      "text": "driver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22507,
+      "status": "candidate",
+      "text": "flow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22507,
+      "status": "candidate",
+      "text": "introduced"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test downstream projects",
+      "sense_id": "test-downstream-projects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-downstream-projects",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-downstream-projects",
+  "observation_id": "f6485eb7a92e9ca2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Test downstream projects",
+  "source_context_snippet": "Test downstream projects",
+  "source_file": ".github/workflows/downstream.yml",
+  "source_repo": "ipython/ipykernel",
+  "source_repo_description": "IPython Kernel for Jupyter"
+}

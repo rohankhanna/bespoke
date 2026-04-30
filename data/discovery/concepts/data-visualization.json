@@ -223,6 +223,18 @@
       "source_repo": "plotly/plotly.R",
       "status": "candidate-context",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": ":lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "plotly/plotly.R",
       "status": "candidate",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrbrmstr/hrbrthemes",
+      "status": "candidate",
+      "text": "[![Project Status: Active \u2013 The project has reached a stable, usable"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +496,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hrbrmstr/hrbrthemes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

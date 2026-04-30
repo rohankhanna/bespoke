@@ -19,12 +19,30 @@
       "source_repo": "super-linter/super-linter",
       "status": "candidate-context",
       "text": "Lint commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Easy to use Gatsby Theme to create documentation websites \u26a1\ufe0f\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
+      "status": "candidate-context",
+      "text": "Lint commit"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Lint commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/rocketdocs",
       "status": "candidate",
       "text": "Lint commit"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/lint-commit.yaml",
       "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "jpedroschmitz/rocketdocs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

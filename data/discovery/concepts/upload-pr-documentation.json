@@ -67,6 +67,30 @@
       "source_repo": "huggingface/transformers.js",
       "status": "candidate-context",
       "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate-context",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/smolagents",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 smolagents: a barebones library for agents that think in code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/smolagents",
+      "status": "candidate-context",
+      "text": "Upload PR Documentation"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/transformers.js",
+      "status": "candidate",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lighteval",
+      "status": "candidate",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/smolagents",
       "status": "candidate",
       "text": "Upload PR Documentation"
     }
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/upload_pr_documentation.yml",
       "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/doc-pr-upload.yml",
+      "source_repo": "huggingface/lighteval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/smolagents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_locks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_locks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "Pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "source_repo": "Nebius-Academy/LLMOps-Essentials",
+      "target": "Check and Update Poetry Lock Files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:09.334375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7716
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 2471
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/update_locks.yaml",
+      "size": 2187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLMOps educational project",
+    "fork": false,
+    "full_name": "Nebius-Academy/LLMOps-Essentials",
+    "html_url": "https://github.com/Nebius-Academy/LLMOps-Essentials",
+    "language": "Python",
+    "pushed_at": "2025-05-09T09:26:51Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-04-27T10:25:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "Pre-commit"
+    },
+    {
+      "context_snippet": "Check and Update Poetry Lock Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_locks.yaml",
+      "term": "Check and Update Poetry Lock Files"
+    }
+  ]
+}

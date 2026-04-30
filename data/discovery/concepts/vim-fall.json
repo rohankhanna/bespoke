@@ -55,6 +55,18 @@
       "source_repo": "vim-fall/deno-fall-extra",
       "status": "candidate-context",
       "text": "[![JSR](https://jsr.io/badges/@vim-fall/extra)](https://jsr.io/@vim-fall/extra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/deno-fall-std",
+      "status": "candidate-context",
+      "text": "Standard library for using Fall, a Vim/Neovim Fuzzy Finder plugin powered by Denops."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-std",
+      "status": "candidate-context",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/std)](https://jsr.io/@vim-fall/std)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "vim-fall/deno-fall-extra",
       "status": "candidate",
       "text": "[![JSR](https://jsr.io/badges/@vim-fall/extra)](https://jsr.io/@vim-fall/extra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-std",
+      "status": "candidate",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/std)](https://jsr.io/@vim-fall/std)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-std"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

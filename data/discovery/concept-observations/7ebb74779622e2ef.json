@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A FPGA friendly 32 bit RISC-V CPU implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- [Index](#index)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- [Index](#index)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19759760,
+      "status": "candidate",
+      "text": "ams"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022712,
+      "status": "candidate",
+      "text": "hhvm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022711,
+      "status": "candidate",
+      "text": "hwil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022710,
+      "status": "candidate",
+      "text": "hsync"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022709,
+      "status": "candidate",
+      "text": "vhost"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vhdl",
+      "sense_id": "vhdl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vhdl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vhdl",
+  "observation_id": "7ebb74779622e2ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "vhdl",
+  "source_context_snippet": "- [Index](#index)",
+  "source_file": null,
+  "source_repo": "SpinalHDL/VexRiscv",
+  "source_repo_description": "A FPGA friendly 32 bit RISC-V CPU implementation"
+}

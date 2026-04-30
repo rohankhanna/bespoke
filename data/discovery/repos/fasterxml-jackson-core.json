@@ -1,0 +1,484 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@95357244dd046184828bfaec7f80b0881a284d80",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@95357244dd046184828bfaec7f80b0881a284d80",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@575996ea1a010004ee30aaa78ab293b4bfb47e8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@575996ea1a010004ee30aaa78ab293b4bfb47e8b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_dep_builds_v3.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "fasterxml/jackson-dataformats-binary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "fasterxml/jackson-dataformat-xml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "fasterxml/jackson-dataformats-text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "fasterxml/jackson-1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@95357244dd046184828bfaec7f80b0881a284d80",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@95357244dd046184828bfaec7f80b0881a284d80",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Post Coverage Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "dawidd6/action-download-artifact@8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Build and Deploy Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Publish new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "peter-evans/repository-dispatch@575996ea1a010004ee30aaa78ab293b4bfb47e8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Trigger downstream Jackson 2.x builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger_dep_builds_v3.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "peter-evans/repository-dispatch@575996ea1a010004ee30aaa78ab293b4bfb47e8b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_dep_builds_v3.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Trigger downstream Jackson 3.x builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-readme-version.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme-version.yml",
+      "source_repo": "FasterXML/jackson-core",
+      "target": "Update README version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-core",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-core",
+      "target": "jackson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-core",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:22:51.326992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10960
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1069
+    },
+    {
+      "path": ".github/workflows/coverage-comment.yml",
+      "size": 1958
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 9380
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3308
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2613
+    },
+    {
+      "path": ".github/workflows/trigger_dep_builds_v2.yml",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/trigger_dep_builds_v3.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/update-readme-version.yml",
+      "size": 1884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3.x",
+    "description": "Core part of Jackson that defines Streaming API as well as basic shared abstractions",
+    "fork": false,
+    "full_name": "FasterXML/jackson-core",
+    "html_url": "https://github.com/FasterXML/jackson-core",
+    "language": "Java",
+    "pushed_at": "2026-04-28T20:49:53Z",
+    "stargazers_count": 2361,
+    "topics": [
+      "hacktoberfest",
+      "jackson",
+      "json"
+    ],
+    "updated_at": "2026-04-28T20:49:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterxml/jackson-1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterxml/jackson-dataformat-xml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterxml/jackson-dataformats-binary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasterxml/jackson-dataformats-text",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Post Coverage Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "term": "Post Coverage Comment"
+    },
+    {
+      "context_snippet": "Build and Deploy Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Deploy Snapshot"
+    },
+    {
+      "context_snippet": "Publish new release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish new release"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Trigger downstream Jackson 2.x builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
+      "term": "Trigger downstream Jackson 2.x builds"
+    },
+    {
+      "context_snippet": "Trigger downstream Jackson 3.x builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_dep_builds_v3.yml",
+      "term": "Trigger downstream Jackson 3.x builds"
+    },
+    {
+      "context_snippet": "Update README version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-readme-version.yml",
+      "term": "Update README version"
+    },
+    {
+      "context_snippet": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson"
+    },
+    {
+      "context_snippet": "This project contains core low-level incremental (\"streaming\") parser and generator abstractions used by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "code-check",
-    "Code check"
+    "Code check",
+    "Code Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "vladimir-kotikov/clink-completions",
       "status": "candidate-context",
       "text": "Code check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate-context",
+      "text": "A flexible playground for live editing React components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate-context",
+      "text": "Code Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "DLRover: An Automatic Distributed Deep Learning System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate-context",
+      "text": "code-check"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +71,18 @@
       "source_repo": "vladimir-kotikov/clink-completions",
       "status": "candidate",
       "text": "Code check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FormidableLabs/react-live",
+      "status": "candidate",
+      "text": "Code Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intelligent-machine-learning/dlrover",
+      "status": "candidate",
+      "text": "code-check"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +138,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/code-check.yml",
       "source_repo": "vladimir-kotikov/clink-completions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "FormidableLabs/react-live"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -11,21 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-business-idea-eval-plugin",
+      "target": "danielrosehill/claude-code-linux-notes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-buttondown-mgmt-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-browser-data-capture-plugin",
+      "target": "danielrosehill/claude-code-feedback",
       "target_type": "repository"
     },
     {
@@ -33,6 +26,13 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-code-context-feature-requests",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:58:27.879853+00:00",
+  "fetched_at": "2026-04-30T09:24:57.438850+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 73090
+      "size": 74745
     },
     {
       "path": "package.json",
@@ -84,14 +84,14 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-29T13:40:42Z",
-    "stargazers_count": 425,
+    "pushed_at": "2026-04-30T08:59:52Z",
+    "stargazers_count": 428,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-30T04:10:11Z"
+    "updated_at": "2026-04-30T08:59:56Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-browser-data-capture-plugin",
+      "full_name": "danielrosehill/claude-code-context-feature-requests",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-business-idea-eval-plugin",
+      "full_name": "danielrosehill/claude-code-feedback",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-buttondown-mgmt-plugin",
+      "full_name": "danielrosehill/claude-code-linux-notes",
       "source_file": "README.md"
     }
   ],

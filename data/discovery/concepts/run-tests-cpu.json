@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "run-tests-cpu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "FSA/FST algorithms, differentiable, with PyTorch compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "run-tests-cpu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate",
+      "text": "run-tests-cpu"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "run-tests-cpu",
+  "concept_id": "run-tests-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/run-tests-cpu.yml",
+      "source_repo": "k2-fsa/k2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "run-tests-cpu",
+      "sense_id": "run-tests-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

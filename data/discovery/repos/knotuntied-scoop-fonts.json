@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_commented.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_commented.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyexcavator.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyexcavator.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_commented.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_commented.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_commented.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyexcavator.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyexcavator.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "ad-m/github-push-action@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyexcavator.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "PyExcavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KnotUntied/scoop-fonts",
+      "target": "scoop-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:51.160428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/issue_commented.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 451
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/pyexcavator.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scoop bucket for installing fonts",
+    "fork": false,
+    "full_name": "KnotUntied/scoop-fonts",
+    "html_url": "https://github.com/KnotUntied/scoop-fonts",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-19T11:29:38Z",
+    "stargazers_count": 6,
+    "topics": [
+      "scoop",
+      "scoop-bucket",
+      "scoop-fonts"
+    ],
+    "updated_at": "2026-04-19T11:29:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_commented.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issue"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "PyExcavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyexcavator.yml",
+      "term": "PyExcavator"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    },
+    {
+      "context_snippet": "`scoop bucket add fonts 'https://github.com/KnotUntied/scoop-fonts.git'`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-fonts"
+    }
+  ]
+}

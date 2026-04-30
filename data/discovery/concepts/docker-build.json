@@ -2,7 +2,8 @@
   "aliases": [
     "Docker Build",
     "docker-build",
-    "docker build"
+    "docker build",
+    "Docker build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -117,6 +118,18 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate-context",
       "text": "docker-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Self hosted media tracker for movies, tv shows, video games, books and audiobooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate-context",
+      "text": "Docker build"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +186,12 @@
       "source_repo": "skypilot-org/skypilot",
       "status": "candidate",
       "text": "docker-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonukai/MediaTracker",
+      "status": "candidate",
+      "text": "Docker build"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +307,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/docker-build.yaml",
       "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "bonukai/MediaTracker"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

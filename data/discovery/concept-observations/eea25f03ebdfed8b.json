@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run Typst in JavaScriptWorld."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "reflexo::crates::publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "reflexo::crates::publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9999103,
+      "status": "candidate",
+      "text": "record book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998890,
+      "status": "candidate",
+      "text": "jot down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998660,
+      "status": "candidate",
+      "text": "headlines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998605,
+      "status": "candidate",
+      "text": "and finally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998471,
+      "status": "candidate",
+      "text": "fourth estate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "reflexo::crates::publish",
+      "sense_id": "reflexo-crates-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reflexo-crates-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reflexo-crates-publish",
+  "observation_id": "eea25f03ebdfed8b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "reflexo::crates::publish",
+  "source_context_snippet": "reflexo::crates::publish",
+  "source_file": ".github/workflows/reelase-crates.yaml",
+  "source_repo": "Myriad-Dreamin/typst.ts",
+  "source_repo_description": "Run Typst in JavaScriptWorld."
+}

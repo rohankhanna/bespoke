@@ -259,6 +259,42 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "The most advanced free and open-source browser fingerprinting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate-context",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "mean Average Precision - This code evaluates the performance of your neural net for object recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": "LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": ".. image:: /readme/images/labelimg.png"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "BR-IDL/PaddleViT",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fingerprintjs/fingerprintjs",
+      "status": "candidate",
+      "text": "@fingerprintjs/fingerprintjs \u2014 Browser fingerprinting library with the highest accuracy and stability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate",
+      "text": ".. image:: /readme/images/labelimg.png"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +652,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "BR-IDL/PaddleViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fingerprintjs/fingerprintjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "human",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "target": "recommender-system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:30:01.003367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20701
+    },
+    {
+      "path": ".github/workflows/cmake-multi-platform.yml",
+      "size": 4473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The recommendation engine with particular focus on uniqueness of the person receiving the rec.",
+    "fork": false,
+    "full_name": "BeMoreHumanOrg/bemorehuman",
+    "html_url": "https://github.com/BeMoreHumanOrg/bemorehuman",
+    "language": "C",
+    "pushed_at": "2025-04-27T20:09:00Z",
+    "stargazers_count": 50,
+    "topics": [
+      "ai",
+      "human",
+      "machine-learning",
+      "recommender-system"
+    ],
+    "updated_at": "2026-02-24T19:39:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake on multiple platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "term": "CMake on multiple platforms"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-system"
+    }
+  ]
+}

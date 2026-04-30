@@ -1,12 +1,22 @@
 {
   "component": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_cabal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "tweag/gazelle_haskell_modules"
     }
   ]
 }

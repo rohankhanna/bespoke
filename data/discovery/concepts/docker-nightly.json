@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Docker Nightly"
+    "Docker Nightly",
+    "docker-nightly"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate-context",
       "text": "Docker Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "A high performance implementation of the Ruby programming language, built on GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate-context",
+      "text": "docker-nightly"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "nats-io/nats-server",
       "status": "candidate",
       "text": "Docker Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truffleruby/truffleruby",
+      "status": "candidate",
+      "text": "docker-nightly"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/nightly.yaml",
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "truffleruby/truffleruby"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

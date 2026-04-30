@@ -55,6 +55,18 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate-context",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate-context",
+      "text": "A Broadway producer for Amazon SQS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate-context",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate",
       "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dashbitco/broadway_sqs",
+      "status": "candidate",
+      "text": "A AWS SQS connector for [Broadway](https://github.com/dashbitco/broadway)."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aws/aws-sdk-java-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dashbitco/broadway_sqs"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

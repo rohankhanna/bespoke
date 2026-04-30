@@ -67,6 +67,30 @@
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "A fast, high-quality neural vocoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate-context",
+      "text": "Deep-learning system proposed by HFL for SemEval-2022 Task 8: Multilingual News Similarity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate-context",
+      "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/wavegrad",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/wavegrad?label=release) [![License](https://img.shields.io/github/license/lmnt-com/wavegrad)](https://github.com/lmnt-com/wavegrad/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "status": "candidate",
+      "text": "Here, we provide the implementation of our winning system in Semeval-2022 Task8 \u2014\u2014 Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs."
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/wavegrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

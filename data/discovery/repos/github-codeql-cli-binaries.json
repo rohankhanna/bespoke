@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "github/codeql-cli-binaries",
+      "target": "Label issue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:14:08.094418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1481
+    },
+    {
+      "path": ".github/workflows/label-issue.yml",
+      "size": 426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Binaries for the CodeQL CLI",
+    "fork": false,
+    "full_name": "github/codeql-cli-binaries",
+    "html_url": "https://github.com/github/codeql-cli-binaries",
+    "language": null,
+    "pushed_at": "2026-04-15T10:45:32Z",
+    "stargazers_count": 972,
+    "topics": [],
+    "updated_at": "2026-04-29T14:02:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Label issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "term": "Label issue"
+    }
+  ]
+}

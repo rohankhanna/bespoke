@@ -1,0 +1,124 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "continuous"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "continuous"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044399,
+      "status": "candidate",
+      "text": "nonstop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044399,
+      "status": "candidate",
+      "text": "uninterrupted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044394,
+      "status": "candidate",
+      "text": "unceasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044393,
+      "status": "candidate",
+      "text": "never-ending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044366,
+      "status": "candidate",
+      "text": "ceaseless"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "continuous",
+      "sense_id": "continuous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 62038,
+      "status": "candidate",
+      "text": "perpetual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38034,
+      "status": "candidate",
+      "text": "incessant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22054,
+      "status": "candidate",
+      "text": "constant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17025,
+      "status": "candidate",
+      "text": "unceasing"
+    }
+  ],
+  "concept_id": "continuous",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous",
+  "observation_id": "c7cf53df3390de66",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "continuous",
+  "source_context_snippet": "continuous",
+  "source_file": ".github/workflows/continuous.yaml",
+  "source_repo": "googleapis/google-cloud-node-core",
+  "source_repo_description": null
+}

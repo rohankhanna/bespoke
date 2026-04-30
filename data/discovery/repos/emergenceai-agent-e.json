@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmergenceAI/Agent-E",
+      "target": "web-arena-x/webarena",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:24:38.967816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32263
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1445
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Agent driven automation starting with the web. Try it: https://www.emergence.ai/web-automation-api",
+    "fork": false,
+    "full_name": "EmergenceAI/Agent-E",
+    "html_url": "https://github.com/EmergenceAI/Agent-E",
+    "language": "Python",
+    "pushed_at": "2026-04-17T08:14:23Z",
+    "stargazers_count": 1235,
+    "topics": [],
+    "updated_at": "2026-04-26T18:44:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "web-arena-x/webarena",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "time-series-imputation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate-context",
+      "text": "Repository for the paper: 'Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate-context",
+      "text": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AI4HealthUOL/SSSD",
+      "status": "candidate",
+      "text": "This is the official repository for the paper [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://openreview.net/forum?id=hHiIbk7ApW&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)) <ins>accepted by TMLR</ins> . In combination with (cond\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "time-series-imputation",
+  "concept_id": "time-series-imputation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AI4HealthUOL/SSSD"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "time-series-imputation",
+      "sense_id": "time-series-imputation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

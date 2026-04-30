@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T09:20:33.663544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The AMP Advisory Committee",
+    "fork": false,
+    "full_name": "ampproject/meta-ac",
+    "html_url": "https://github.com/ampproject/meta-ac",
+    "language": null,
+    "pushed_at": "2023-04-28T10:54:53Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2025-08-02T21:13:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

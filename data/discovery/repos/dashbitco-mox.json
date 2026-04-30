@@ -23,13 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dashbitco/mox",
-      "target": "msz/hammox",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "dashbitco/mox",
@@ -58,7 +51,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-30T02:55:00.126319+00:00",
+  "fetched_at": "2026-04-30T10:29:52.125684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,12 +76,6 @@
     "topics": [],
     "updated_at": "2026-04-26T08:54:12Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "msz/hammox",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

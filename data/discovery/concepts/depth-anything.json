@@ -19,6 +19,18 @@
       "source_repo": "fabio-sim/Depth-Anything-ONNX",
       "status": "candidate-context",
       "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "TouchDesigner implementation for Depth Anything and TensorRT monocular depth estimation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate-context",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fabio-sim/Depth-Anything-ONNX",
       "status": "candidate",
       "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olegchomp/TDDepthAnything",
+      "status": "candidate",
+      "text": "<a href=\"https://discord.com/invite/wNW8xkEjrf\"><img src=\"https://discord.com/api/guilds/838923088997122100/widget.png?style=shield\" alt=\"Discord Shield\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fabio-sim/Depth-Anything-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "olegchomp/TDDepthAnything"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

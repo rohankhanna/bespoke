@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arbitrary precision integer and rational arithmetic library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "IMath"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "IMath"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arbitrary-precision",
+      "sense_id": "arbitrary-precision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arbitrary-precision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arbitrary-precision",
+  "observation_id": "c8584b99ea6c1f7b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "arbitrary-precision",
+  "source_context_snippet": "IMath",
+  "source_file": null,
+  "source_repo": "creachadair/imath",
+  "source_repo_description": "Arbitrary precision integer and rational arithmetic library"
+}

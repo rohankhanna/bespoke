@@ -271,6 +271,78 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate-context",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "Rust audio playback library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "[![Crates.io Version](https://img.shields.io/crates/v/rodio.svg)](https://crates.io/crates/rodio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate-context",
+      "text": "A collection of template classes for audio dsp using SIMD instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate-context",
+      "text": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "A header only ready to include mirror of the HIIR library by Laurent De Soras, an oversampling and Hilbert transform library in C++, with additional support for double precision on ARM AArch64 using Neon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate-context",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "A library for audio oversampling, which tries to offer a simple api while wrapping HIIR, by Laurent De Soras, for minimum phase antialiasing, and r8brain-free-src, by Aleksey Vaneev, for linear phase antialiasing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate-context",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "TDME2 - ThreeDeeMiniEngine2 is a lightweight, multi-platform 3D engine including tools suited for 3D game/application development using C++, Mini(t)Script, GLSL, ..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +477,42 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate",
+      "text": "[![Crates.io Version](https://img.shields.io/crates/v/rodio.svg)](https://crates.io/crates/rodio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/audio-dsp",
+      "status": "candidate",
+      "text": "*adsp* is a collection of template classes for audio dsp using SIMD instructions for x86 processors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/hiir",
+      "status": "candidate",
+      "text": "This used to be a fork of the [HIIR library by Laurent De Soras](http://ldesoras.free.fr/prod.html), *\"an oversampling and Hilbert transform library in C++\"*, with some new files that add support for double precision floating point numbers and AVX instructions, making the librar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/oversimple",
+      "status": "candidate",
+      "text": "Oversimple is a C++17 library for audio oversampling, which tries to offer a simple api."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreasdr/tdme2",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -625,11 +733,53 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "unevens/Curvessor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "RustAudio/rodio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/audio-dsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/hiir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unevens/oversimple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "andreasdr/tdme2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

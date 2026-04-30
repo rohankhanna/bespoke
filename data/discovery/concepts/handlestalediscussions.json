@@ -115,6 +115,42 @@
       "source_repo": "aws/jsii",
       "status": "candidate-context",
       "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "Modularized AWS SDK for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate-context",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate-context",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "status": "candidate-context",
+      "text": "The AWS Tools for PowerShell lets developers and administrators manage their AWS services from the PowerShell scripting environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-tools-for-powershell",
+      "status": "candidate-context",
+      "text": "HandleStaleDiscussions"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +205,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/jsii",
+      "status": "candidate",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-js-v3",
+      "status": "candidate",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-ruby",
+      "status": "candidate",
+      "text": "HandleStaleDiscussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-tools-for-powershell",
       "status": "candidate",
       "text": "HandleStaleDiscussions"
     }
@@ -232,11 +286,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/handle-stale-discussions.yml",
       "source_repo": "aws/jsii"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-js-v3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-sdk-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws/aws-tools-for-powershell"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

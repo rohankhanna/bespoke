@@ -42,7 +42,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "requirements.txt",
       "source_repo": "intel-staging/text-generation-webui",
-      "target": "jllllll/autogptq",
+      "target": "jllllll/ctransformers-cublas-wheels",
       "target_type": "repository"
     },
     {
@@ -81,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T03:52:20.551053+00:00",
+  "fetched_at": "2026-04-30T08:18:21.656986+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,7 +132,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jllllll/autogptq",
+      "full_name": "jllllll/ctransformers-cublas-wheels",
       "source_file": "requirements.txt"
     }
   ],

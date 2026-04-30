@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028436,
+      "status": "candidate",
+      "text": "workshop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026957,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012478,
+      "status": "candidate",
+      "text": "browse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011804,
+      "status": "candidate",
+      "text": "sponsor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003911,
+      "status": "candidate",
+      "text": "give away"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shop",
+      "sense_id": "shop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "peach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21034,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18054,
+      "status": "candidate",
+      "text": "stag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "patronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "frequent"
+    }
+  ],
+  "concept_id": "shop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shop",
+  "observation_id": "0101a6c684ec0561",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "shop",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "smartstore/Smartstore",
+  "source_repo_description": "A modular, scalable and ultra-fast open-source all-in-one eCommerce platform built on ASP.NET Core 10"
+}

@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tdnf.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tdnf.yml",
+      "source_repo": "vmware/pmd-next-gen",
+      "target": "tdnf CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:09:34.685556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5388
+    },
+    {
+      "path": "go.mod",
+      "size": 2873
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/tdnf.yml",
+      "size": 3941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Photon OS configuration management daemon.",
+    "fork": false,
+    "full_name": "vmware/pmd-next-gen",
+    "html_url": "https://github.com/vmware/pmd-next-gen",
+    "language": "Go",
+    "pushed_at": "2025-11-24T17:21:10Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-11-24T18:54:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tdnf CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tdnf.yml",
+      "term": "tdnf CI"
+    }
+  ]
+}

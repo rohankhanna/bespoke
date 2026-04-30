@@ -303,21 +303,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googleapis/google-api-nodejs-client",
-      "target": "googleapis/google-cloud-node",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-nodejs-client",
-      "target": "googleapis/google-auth-library-nodejs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/google-api-nodejs-client",
-      "target": "googleapis/gaxios",
+      "target": "justinbeckwith/gaxios",
       "target_type": "repository"
     },
     {
@@ -706,7 +692,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:43:09.359056+00:00",
+  "fetched_at": "2026-04-30T08:11:00.833788+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -756,22 +742,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googleapis/gaxios",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-auth-library-nodejs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/google-cloud-node",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "googlecloudplatform/google-cloud-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinbeckwith/gaxios",
       "source_file": "README.md"
     }
   ],

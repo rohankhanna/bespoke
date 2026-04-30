@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:18:00.960775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the ICML 2023 paper \"SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot\".",
+    "fork": false,
+    "full_name": "IST-DASLab/sparsegpt",
+    "html_url": "https://github.com/IST-DASLab/sparsegpt",
+    "language": "Python",
+    "pushed_at": "2024-08-20T10:10:09Z",
+    "stargazers_count": 880,
+    "topics": [],
+    "updated_at": "2026-04-28T09:27:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

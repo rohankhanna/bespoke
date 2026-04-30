@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-fix-pr.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-fix-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_nnunet.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_nnunet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "nnU-Net Bug Fix PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "nnU-Net Issue Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-agent.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "nnU-Net PR Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_nnunet.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests_nnunet.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_nnunet.yml",
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "Run nnunet tests on all OS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/nnUNet",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:35.343930+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 4422
+    },
+    {
+      "path": ".github/workflows/bug-fix-pr.yml",
+      "size": 9074
+    },
+    {
+      "path": ".github/workflows/issue-agent.yml",
+      "size": 13553
+    },
+    {
+      "path": ".github/workflows/pr-agent.yml",
+      "size": 15902
+    },
+    {
+      "path": ".github/workflows/run_tests_nnunet.yml",
+      "size": 1904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "MIC-DKFZ/nnUNet",
+    "html_url": "https://github.com/MIC-DKFZ/nnUNet",
+    "language": "Python",
+    "pushed_at": "2026-04-27T14:54:46Z",
+    "stargazers_count": 8366,
+    "topics": [
+      "segmentation"
+    ],
+    "updated_at": "2026-04-30T08:23:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "nnU-Net Bug Fix PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bug-fix-pr.yml",
+      "term": "nnU-Net Bug Fix PR"
+    },
+    {
+      "context_snippet": "nnU-Net Issue Agent",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-agent.yml",
+      "term": "nnU-Net Issue Agent"
+    },
+    {
+      "context_snippet": "nnU-Net PR Agent",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-agent.yml",
+      "term": "nnU-Net PR Agent"
+    },
+    {
+      "context_snippet": "Run nnunet tests on all OS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests_nnunet.yml",
+      "term": "Run nnunet tests on all OS"
+    },
+    {
+      "context_snippet": "[project] name = \"nnunetv2\" version = \"2.7.0\" requires-python = \">=3.10\" description = \"nnU-Net is a framework for out-of-the box image segmentation.\" readme = \"readme.md\" license = { file = \"LICENSE\" } authors = [ { name = \"Fabian Isensee\", email = \"f.isensee@dkfz-heidelberg.de\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

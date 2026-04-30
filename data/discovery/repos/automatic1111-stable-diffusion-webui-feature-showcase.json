@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+      "target": "jquesnelle/txt2imghd.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+      "target": "lstein/stable-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:44.693576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Feature showcase for stable-diffusion-webui",
+    "fork": false,
+    "full_name": "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+    "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
+    "language": null,
+    "pushed_at": "2023-10-17T15:25:55Z",
+    "stargazers_count": 1026,
+    "topics": [],
+    "updated_at": "2026-04-27T11:27:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jquesnelle/txt2imghd.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lstein/stable-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

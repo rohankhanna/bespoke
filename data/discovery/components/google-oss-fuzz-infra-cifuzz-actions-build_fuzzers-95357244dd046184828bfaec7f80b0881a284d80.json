@@ -1,0 +1,12 @@
+{
+  "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@95357244dd046184828bfaec7f80b0881a284d80",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-core"
+    }
+  ]
+}

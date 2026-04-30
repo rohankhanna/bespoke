@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "htqin/awesome-model-quantization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "hyperspectral-image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "hyperspectral-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "snapshot-compressive-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "target": "spectral-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:19.827756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12186
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Toolbox for Binarized Spectral Compressive Imaging (NeurIPS 2023)",
+    "fork": false,
+    "full_name": "caiyuanhao1998/BiSCI",
+    "html_url": "https://github.com/caiyuanhao1998/BiSCI",
+    "language": "Python",
+    "pushed_at": "2023-11-28T02:34:30Z",
+    "stargazers_count": 61,
+    "topics": [
+      "bnn",
+      "hyperspectral-image-reconstruction",
+      "hyperspectral-imaging",
+      "image-restoration",
+      "qnn",
+      "snapshot-compressive-imaging",
+      "spectral-reconstruction"
+    ],
+    "updated_at": "2025-12-29T06:08:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "htqin/awesome-model-quantization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperspectral-image-reconstruction"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperspectral-imaging"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-compressive-imaging"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectral-reconstruction"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonmedv/golang-expression-evaluation-comparison",
+      "target": "antonmedv/expr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:22:11.075306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1525
+    },
+    {
+      "path": "go.mod",
+      "size": 1446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go expression evaluation comparison",
+    "fork": false,
+    "full_name": "antonmedv/golang-expression-evaluation-comparison",
+    "html_url": "https://github.com/antonmedv/golang-expression-evaluation-comparison",
+    "language": "Go",
+    "pushed_at": "2024-03-13T22:59:17Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-03-14T14:04:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonmedv/expr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

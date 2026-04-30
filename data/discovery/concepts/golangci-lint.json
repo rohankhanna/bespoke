@@ -772,6 +772,48 @@
       "source_repo": "vmihailenco/taskq",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "status": "candidate-context",
+      "text": "An Argo CD extension to enable visualization of metrics in Argo CD UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gl/example",
+      "status": "candidate-context",
+      "text": "Example programs for the various go-gl packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/example",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes operator for OceanBase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -1144,6 +1186,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vmihailenco/taskq",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/armored-witness",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-extension-metrics",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gl/example",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oceanbase/ob-operator",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -1639,11 +1705,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "vmihailenco/taskq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/armored-witness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "argoproj-labs/argocd-extension-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "go-gl/example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "oceanbase/ob-operator"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

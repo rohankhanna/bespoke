@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "dev0x13/pywuffs",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dev0x13/pywuffs",
+      "target": "image-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dev0x13/pywuffs",
+      "target": "wuffs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:11:58.247810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3315
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 53
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python bindings for Wuffs the Library",
+    "fork": false,
+    "full_name": "dev0x13/pywuffs",
+    "html_url": "https://github.com/dev0x13/pywuffs",
+    "language": "C++",
+    "pushed_at": "2025-04-05T15:09:46Z",
+    "stargazers_count": 18,
+    "topics": [
+      "image-decoding",
+      "python",
+      "wuffs"
+    ],
+    "updated_at": "2026-02-14T18:44:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/dev0x13/pywuffs/actions/workflows/linux.yml/badge.svg)](https://github.com/dev0x13/pywuffs/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-decoding"
+    },
+    {
+      "context_snippet": "[![Linux CI](https://github.com/dev0x13/pywuffs/actions/workflows/linux.yml/badge.svg)](https://github.com/dev0x13/pywuffs/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wuffs"
+    }
+  ]
+}

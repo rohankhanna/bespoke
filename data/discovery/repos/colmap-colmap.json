@@ -1,0 +1,549 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colmap/colmap",
+      "target": "colmap/colmap.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "colmap/colmap",
+      "target": "sarlinpe/pybind11-stubgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "colmap/colmap",
+      "target": "COLMAP (Docker)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "colmap/colmap",
+      "target": "COLMAP (Mac)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "pypa/cibuildwheel@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "source_repo": "colmap/colmap",
+      "target": "PyCOLMAP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "colmap/colmap",
+      "target": "COLMAP (Ubuntu)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "colmap/colmap",
+      "target": "COLMAP (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colmap/colmap",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colmap/colmap",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colmap/colmap",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colmap/colmap",
+      "target": "reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colmap/colmap",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:17.346752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6569
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2899
+    },
+    {
+      "path": ".github/workflows/build-docker.yml",
+      "size": 3445
+    },
+    {
+      "path": ".github/workflows/build-mac.yml",
+      "size": 3343
+    },
+    {
+      "path": ".github/workflows/build-pycolmap.yml",
+      "size": 14179
+    },
+    {
+      "path": ".github/workflows/build-ubuntu.yml",
+      "size": 12376
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 8682
+    },
+    {
+      "path": ".github/workflows/install-ccache.ps1",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "COLMAP - Structure-from-Motion and Multi-View Stereo",
+    "fork": false,
+    "full_name": "colmap/colmap",
+    "html_url": "https://github.com/colmap/colmap",
+    "language": "C++",
+    "pushed_at": "2026-04-29T17:54:12Z",
+    "stargazers_count": 11567,
+    "topics": [
+      "computer-vision",
+      "geometry",
+      "multi-view-stereo",
+      "reconstruction",
+      "structure-from-motion"
+    ],
+    "updated_at": "2026-04-30T07:48:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colmap/colmap.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sarlinpe/pybind11-stubgen",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "COLMAP (Docker)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "term": "COLMAP (Docker)"
+    },
+    {
+      "context_snippet": "COLMAP (Mac)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "term": "COLMAP (Mac)"
+    },
+    {
+      "context_snippet": "PyCOLMAP",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pycolmap.yml",
+      "term": "PyCOLMAP"
+    },
+    {
+      "context_snippet": "COLMAP (Ubuntu)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "term": "COLMAP (Ubuntu)"
+    },
+    {
+      "context_snippet": "COLMAP (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "COLMAP (Windows)"
+    },
+    {
+      "context_snippet": "COLMAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "COLMAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "COLMAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "COLMAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    },
+    {
+      "context_snippet": "COLMAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    }
+  ]
+}

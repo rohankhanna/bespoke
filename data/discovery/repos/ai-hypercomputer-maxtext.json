@@ -73,13 +73,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AI-Hypercomputer/maxtext",
-      "target": "ai-hypercomputer/maxdiffusion",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/AddLabel.yml",
       "source_repo": "AI-Hypercomputer/maxtext",
@@ -297,11 +290,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:28:39.839097+00:00",
+  "fetched_at": "2026-04-30T07:01:46.136770+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13347
+      "size": 13618
     },
     {
       "path": "pyproject.toml",
@@ -309,7 +302,7 @@
     },
     {
       "path": ".github/workflows/AddLabel.yml",
-      "size": 4433
+      "size": 4794
     },
     {
       "path": ".github/workflows/CodeQuality.yml",
@@ -317,15 +310,15 @@
     },
     {
       "path": ".github/workflows/UploadDockerImages.yml",
-      "size": 3833
+      "size": 4662
     },
     {
       "path": ".github/workflows/build_and_push_docker_image.yml",
-      "size": 5600
+      "size": 5757
     },
     {
       "path": ".github/workflows/build_and_test_maxtext.yml",
-      "size": 12684
+      "size": 12834
     },
     {
       "path": ".github/workflows/build_and_upload_images.sh",
@@ -349,8 +342,8 @@
     "full_name": "AI-Hypercomputer/maxtext",
     "html_url": "https://github.com/AI-Hypercomputer/maxtext",
     "language": "Python",
-    "pushed_at": "2026-04-21T10:34:34Z",
-    "stargazers_count": 2247,
+    "pushed_at": "2026-04-30T06:20:29Z",
+    "stargazers_count": 2263,
     "topics": [
       "deepseek",
       "fine-tuning",
@@ -367,15 +360,9 @@
       "mixtral",
       "sft"
     ],
-    "updated_at": "2026-04-21T02:23:45Z"
+    "updated_at": "2026-04-29T23:30:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ai-hypercomputer/maxdiffusion",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Add Label",

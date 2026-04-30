@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huage001/LinFusion",
+      "target": "huage001/clear",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huage001/LinFusion",
+      "target": "hp-l33/flash-bidirectional-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huage001/LinFusion",
+      "target": "mingukkang/gigagan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huage001/LinFusion",
+      "target": "mingyuanzhou/sid-lsg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:42.251869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11594
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch and Diffusers Implementation of \"LinFusion: 1 GPU, 1 Minute, 16K Image\"",
+    "fork": false,
+    "full_name": "Huage001/LinFusion",
+    "html_url": "https://github.com/Huage001/LinFusion",
+    "language": "Python",
+    "pushed_at": "2024-12-23T02:20:57Z",
+    "stargazers_count": 315,
+    "topics": [],
+    "updated_at": "2026-04-10T17:18:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hp-l33/flash-bidirectional-linear-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huage001/clear",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingukkang/gigagan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingyuanzhou/sid-lsg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

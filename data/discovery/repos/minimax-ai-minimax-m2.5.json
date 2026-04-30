@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "minimax-ai/minimax-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "minimax-ai/minimax-m2.1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiniMax-AI/MiniMax-M2.5",
+      "target": "kvcache-ai/ktransformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:52.393572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MiniMax-AI/MiniMax-M2.5",
+    "html_url": "https://github.com/MiniMax-AI/MiniMax-M2.5",
+    "language": null,
+    "pushed_at": "2026-03-09T02:44:20Z",
+    "stargazers_count": 571,
+    "topics": [],
+    "updated_at": "2026-04-29T04:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvcache-ai/ktransformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/minimax-m2.1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/minimax-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

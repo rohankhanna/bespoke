@@ -19,12 +19,30 @@
       "source_repo": "thoughtbot/climate_control",
       "status": "candidate-context",
       "text": "update-security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "A library for setting up Ruby objects as test data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "update-security"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "thoughtbot/climate_control",
+      "status": "candidate",
+      "text": "update-security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
       "status": "candidate",
       "text": "update-security"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dynamic-security.yml",
       "source_repo": "thoughtbot/climate_control"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/factory_bot"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

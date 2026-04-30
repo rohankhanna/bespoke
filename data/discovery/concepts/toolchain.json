@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "toolchain"
+    "toolchain",
+    "Toolchain"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "onnx/turnkeyml",
       "status": "candidate-context",
       "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koreader/koxtoolchain",
+      "status": "candidate-context",
+      "text": "Build script for various toolchains used by KOReader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koxtoolchain",
+      "status": "candidate-context",
+      "text": "Toolchain"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "onnx/turnkeyml",
       "status": "candidate",
       "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koreader/koxtoolchain",
+      "status": "candidate",
+      "text": "Toolchain"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +181,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/toolchain.yml",
+      "source_repo": "koreader/koxtoolchain"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

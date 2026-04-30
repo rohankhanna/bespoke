@@ -326,6 +326,18 @@
       "source_repo": "iterate-ch/docs",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -482,6 +494,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "iterate-ch/docs",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scivision/linkchecker-markdown",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -659,11 +677,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "iterate-ch/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scivision/linkchecker-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "codespell-project/codespell"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

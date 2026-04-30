@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "mavrosxristoforos/get-xml-info@1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "pmeier/pytest-results-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "deforum-art/sd-webui-deforum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "Issue Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "mavrosxristoforos/get-xml-info@1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "pmeier/pytest-results-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "animations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "automatic1111",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "deforum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum",
+      "target": "webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:20.200417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4752
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    },
+    {
+      "path": ".github/workflows/issue_checker.yaml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 3718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "automatic1111-webui",
+    "description": "Deforum extension for AUTOMATIC1111's Stable Diffusion webui",
+    "fork": false,
+    "full_name": "deforum/sd-webui-deforum",
+    "html_url": "https://github.com/deforum/sd-webui-deforum",
+    "language": "Python",
+    "pushed_at": "2024-08-16T22:25:33Z",
+    "stargazers_count": 2853,
+    "topics": [
+      "animations",
+      "automatic1111",
+      "deforum",
+      "extension",
+      "plugin",
+      "stable-diffusion",
+      "webui"
+    ],
+    "updated_at": "2026-04-29T13:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-deforum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_checker.yaml",
+      "term": "Issue Checker"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animations"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic1111"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deforum"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webui"
+    }
+  ]
+}

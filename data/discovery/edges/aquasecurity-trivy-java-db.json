@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "Skitionek/notify-microsoft-teams@e7a2493ac87dad8aa7a62f079f295e54ff511d88",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "Trivy Java DB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aquasecurity/trivy-java-db",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "aquasecurity/trivy-java-db"
+}

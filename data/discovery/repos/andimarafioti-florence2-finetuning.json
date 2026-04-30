@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:19:25.433504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4100
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quick exploration into fine tuning florence 2",
+    "fork": false,
+    "full_name": "andimarafioti/florence2-finetuning",
+    "html_url": "https://github.com/andimarafioti/florence2-finetuning",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-19T16:42:47Z",
+    "stargazers_count": 340,
+    "topics": [],
+    "updated_at": "2026-04-24T11:06:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smithy code generators for TypeScript. (in development)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Get latest smithy gradle plugin version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Get latest smithy gradle plugin version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35739,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23050,
+      "status": "candidate",
+      "text": "reconnect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22523,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21768,
+      "status": "candidate",
+      "text": "hitching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21646,
+      "status": "candidate",
+      "text": "beats"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Get latest smithy gradle plugin version",
+      "sense_id": "get-latest-smithy-gradle-plugin-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "get-latest-smithy-gradle-plugin-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "get-latest-smithy-gradle-plugin-version",
+  "observation_id": "4374ccdf9c193e3d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Get latest smithy gradle plugin version",
+  "source_context_snippet": "Get latest smithy gradle plugin version",
+  "source_file": ".github/workflows/update-smithy-gradle-plugin.yml",
+  "source_repo": "smithy-lang/smithy-typescript",
+  "source_repo_description": "Smithy code generators for TypeScript. (in development)"
+}

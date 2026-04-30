@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "3dgs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/spz",
+      "status": "candidate-context",
+      "text": "File format for 3D Gaussian splats. About 10x smaller than the PLY equivalent with virtually no perceptible loss in visual quality. Offered as open source by Niantic Labs. More details at https://scaniverse.com/spz #3dgaussiansplats #gaussiansplatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/spz",
+      "status": "candidate-context",
+      "text": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/spz",
+      "status": "candidate",
+      "text": "`.spz` is a file format for compressed 3D gaussian splats. This directory contains a C++ library"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3dgs",
+  "concept_id": "3dgs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/spz"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3dgs",
+      "sense_id": "3dgs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

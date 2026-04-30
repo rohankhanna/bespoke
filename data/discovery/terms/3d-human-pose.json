@@ -1,26 +1,11 @@
 {
-  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
       "source_repo": "jeffffffli/res-loglikelihood-regression"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE"
     }
   ],
   "term": "3d-human-pose"

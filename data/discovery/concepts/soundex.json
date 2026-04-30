@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "soundex"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "Thai natural language processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate-context",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyThaiNLP/pythainlp",
+      "status": "candidate",
+      "text": "![Project Logo](./docs/images/logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023442,
+      "status": "candidate",
+      "text": "phonetic name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023441,
+      "status": "candidate",
+      "text": "sound symbolism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023440,
+      "status": "candidate",
+      "text": "pronunciation respelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023439,
+      "status": "candidate",
+      "text": "semolexeme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023438,
+      "status": "candidate",
+      "text": "alphabetics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "soundex",
+  "concept_id": "soundex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyThaiNLP/pythainlp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "soundex",
+      "sense_id": "soundex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

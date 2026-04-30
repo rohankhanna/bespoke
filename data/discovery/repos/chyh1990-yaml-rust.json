@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyh1990/yaml-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chyh1990/yaml-rust",
+      "target": "yaml-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:56.477897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3569
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure rust YAML implementation.",
+    "fork": false,
+    "full_name": "chyh1990/yaml-rust",
+    "html_url": "https://github.com/chyh1990/yaml-rust",
+    "language": "Rust",
+    "pushed_at": "2024-03-25T12:42:02Z",
+    "stargazers_count": 645,
+    "topics": [
+      "rust",
+      "yaml-parser"
+    ],
+    "updated_at": "2026-04-19T13:03:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The missing YAML 1.2 implementation for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "The missing YAML 1.2 implementation for Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-parser"
+    }
+  ]
+}

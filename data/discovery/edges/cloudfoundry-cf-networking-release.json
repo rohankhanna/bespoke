@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "unit-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "bosh-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "cff-wg-app-runtime-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "container-networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-networking-release",
+      "target": "networking",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "cloudfoundry/cf-networking-release"
+}

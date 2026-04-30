@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "k2-fsa/sherpa-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aarch64-linux-gnu.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aarch64-linux-gnu.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "aarch64-linux-gnu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apk.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apk.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-linux-gnueabihf.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-linux-gnueabihf.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-linux-gnueabihf.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "arm-linux-gnueabihf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm-simd.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm-simd.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm-simd.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm-simd.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wasm-simd.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "wasm-simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "build-wheels-aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-armv7l.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "build-wheels-armv7l",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-core.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "build-wheels-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yaml",
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "build-wheels-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2-fsa/sherpa-ncnn",
+      "target": "voice-activity-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "k2-fsa/sherpa-ncnn"
+}

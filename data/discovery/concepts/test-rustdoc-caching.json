@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test rustdoc caching"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action for running cargo-semver-checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate-context",
+      "text": "Test rustdoc caching"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action",
+      "status": "candidate",
+      "text": "Test rustdoc caching"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "anon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "assassinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "assassinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "blockage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "concealment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test rustdoc caching",
+  "concept_id": "test-rustdoc-caching",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-cache.yml",
+      "source_repo": "obi1kenobi/cargo-semver-checks-action"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test rustdoc caching",
+      "sense_id": "test-rustdoc-caching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

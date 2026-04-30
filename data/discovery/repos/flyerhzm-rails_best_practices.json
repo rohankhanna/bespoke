@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flyerhzm/rails_best_practices",
+      "target": "asuth/subl-handler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flyerhzm/rails_best_practices",
+      "target": "jjuliano/railsbestpractices.tmbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "flyerhzm/rails_best_practices",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "flyerhzm/rails_best_practices",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:23:03.335171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9625
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a code metric tool for rails projects",
+    "fork": false,
+    "full_name": "flyerhzm/rails_best_practices",
+    "html_url": "https://github.com/flyerhzm/rails_best_practices",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T03:15:35Z",
+    "stargazers_count": 4169,
+    "topics": [],
+    "updated_at": "2026-04-27T17:11:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asuth/subl-handler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jjuliano/railsbestpractices.tmbundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Controller",
+      "target": "minedojo/mineclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Controller",
+      "target": "craftjarvis/mc-simulator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:17.386181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2951
+    },
+    {
+      "path": "requirements.txt",
+      "size": 296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of \"Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction\"",
+    "fork": false,
+    "full_name": "CraftJarvis/MC-Controller",
+    "html_url": "https://github.com/CraftJarvis/MC-Controller",
+    "language": "Python",
+    "pushed_at": "2023-08-15T02:44:05Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2025-03-15T09:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "craftjarvis/mc-simulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/mineclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

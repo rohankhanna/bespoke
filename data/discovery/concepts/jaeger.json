@@ -67,6 +67,30 @@
       "source_repo": "jaegertracing/jaeger-ui",
       "status": "candidate-context",
       "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate-context",
+      "text": "OpenTelemetry integration for Actix Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "jaegertracing/jaeger-ui",
       "status": "candidate",
       "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openobserve/openobserve",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +214,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "openobserve/openobserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OutThereLabs/actix-web-opentelemetry"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "timheuer/base64-to-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "actions/github-script@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "negz/create-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "timheuer/base64-to-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "negz/create-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "source_repo": "inkle/inky",
+      "target": "Build the executables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:09.365058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9428
+    },
+    {
+      "path": ".github/workflows/build-executables.yaml",
+      "size": 6493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An editor for ink: inkle's narrative scripting language",
+    "fork": false,
+    "full_name": "inkle/inky",
+    "html_url": "https://github.com/inkle/inky",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-15T11:42:20Z",
+    "stargazers_count": 2656,
+    "topics": [],
+    "updated_at": "2026-04-27T17:43:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build the executables",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-executables.yaml",
+      "term": "Build the executables"
+    }
+  ]
+}

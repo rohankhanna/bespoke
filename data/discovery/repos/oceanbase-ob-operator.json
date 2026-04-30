@@ -1,0 +1,539 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addlicense.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addlicense.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docsite.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docsite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml"
+    },
+    {
+      "component": "powerfooI/chart-releaser-action@v1.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "rancher/local-path-provisioner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addlicense.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addlicense.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/addlicense.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "addlicense",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "build docsite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "build binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "powerfooI/chart-releaser-action@v1.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yml",
+      "source_repo": "oceanbase/ob-operator",
+      "target": "release helm charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "kubernetes-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oceanbase/ob-operator",
+      "target": "oceanbase",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:59.370427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12029
+    },
+    {
+      "path": "go.mod",
+      "size": 11984
+    },
+    {
+      "path": ".github/workflows/addlicense.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/build-docsite.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4533
+    },
+    {
+      "path": ".github/workflows/deploy-docsite.yml",
+      "size": 1009
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/release-charts.yml",
+      "size": 925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes operator for OceanBase",
+    "fork": false,
+    "full_name": "oceanbase/ob-operator",
+    "html_url": "https://github.com/oceanbase/ob-operator",
+    "language": "Go",
+    "pushed_at": "2026-02-05T06:20:55Z",
+    "stargazers_count": 168,
+    "topics": [
+      "cloud",
+      "cloudnative",
+      "container",
+      "distributed-database",
+      "docker",
+      "kubernetes",
+      "kubernetes-operator",
+      "mysql",
+      "oceanbase",
+      "sql"
+    ],
+    "updated_at": "2026-03-25T11:20:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rancher/local-path-provisioner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "addlicense",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/addlicense.yml",
+      "term": "addlicense"
+    },
+    {
+      "context_snippet": "build docsite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docsite.yml",
+      "term": "build docsite"
+    },
+    {
+      "context_snippet": "build binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build binaries"
+    },
+    {
+      "context_snippet": "run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "term": "run tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docsite.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "release helm charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yml",
+      "term": "release helm charts"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operator"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "`ob-operator` is a Kubernetes operator that simplifies the deployment and management of OceanBase cluster and related resources on Kubernetes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oceanbase"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Encoding and decoding images in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decoding-images",
+      "sense_id": "decoding-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "decoding-images",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decoding-images",
+  "observation_id": "c4e7472cf6cd942b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "decoding-images",
+  "source_context_snippet": "[![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image)",
+  "source_file": null,
+  "source_repo": "image-rs/image",
+  "source_repo_description": "Encoding and decoding images in Rust"
+}

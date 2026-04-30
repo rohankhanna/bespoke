@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Display and control your Android device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916804,
+      "status": "candidate",
+      "text": "phonograph record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39914590,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892783,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891968,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883466,
+      "status": "candidate",
+      "text": "disk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recording",
+      "sense_id": "recording#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "recording",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recording",
+  "observation_id": "72e52df0825696ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "recording",
+  "source_context_snippet": "**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official",
+  "source_file": null,
+  "source_repo": "Genymobile/scrcpy",
+  "source_repo_description": "Display and control your Android device"
+}

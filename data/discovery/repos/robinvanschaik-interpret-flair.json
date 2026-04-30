@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "pytorch/captum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "captum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "explainable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "flair",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "integrated-gradients",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robinvanschaik/interpret-flair",
+      "target": "text-classification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:16:09.936619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A small repository to test Captum Explainable AI with a trained Flair transformers-based text classifier.",
+    "fork": false,
+    "full_name": "robinvanschaik/interpret-flair",
+    "html_url": "https://github.com/robinvanschaik/interpret-flair",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-05-13T10:27:40Z",
+    "stargazers_count": 26,
+    "topics": [
+      "captum",
+      "explainable-ai",
+      "flair",
+      "integrated-gradients",
+      "natural-language-processing",
+      "text-classification"
+    ],
+    "updated_at": "2026-03-16T13:03:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/captum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captum"
+    },
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-ai"
+    },
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flair"
+    },
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integrated-gradients"
+    },
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "This notebook shows an attempt at integrating [Captum](https://github.com/pytorch/captum) with a custom trained [Flair text-classifier](https://github.com/flairNLP/flair).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    }
+  ]
+}

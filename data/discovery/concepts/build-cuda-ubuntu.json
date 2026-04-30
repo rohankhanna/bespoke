@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-cuda-ubuntu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "FSA/FST algorithms, differentiable, with PyTorch compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate-context",
+      "text": "build-cuda-ubuntu"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/k2",
+      "status": "candidate",
+      "text": "build-cuda-ubuntu"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-cuda-ubuntu",
+  "concept_id": "build-cuda-ubuntu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/build-cuda-ubuntu.yml",
+      "source_repo": "k2-fsa/k2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-cuda-ubuntu",
+      "sense_id": "build-cuda-ubuntu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

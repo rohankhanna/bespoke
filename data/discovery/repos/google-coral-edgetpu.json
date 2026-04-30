@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-coral/edgetpu",
+      "target": "google-coral/libedgetpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-coral/edgetpu",
+      "target": "google-coral/libcoral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-coral/edgetpu",
+      "target": "google-coral/pycoral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-coral/edgetpu",
+      "target": "google-coral/test_data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-coral/edgetpu",
+      "target": "coral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-coral/edgetpu",
+      "target": "edgetpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:12:59.933373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Coral issue tracker (and legacy Edge TPU API source)",
+    "fork": false,
+    "full_name": "google-coral/edgetpu",
+    "html_url": "https://github.com/google-coral/edgetpu",
+    "language": "C++",
+    "pushed_at": "2021-10-27T17:11:22Z",
+    "stargazers_count": 475,
+    "topics": [
+      "coral",
+      "edgetpu"
+    ],
+    "updated_at": "2026-04-19T15:54:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-coral/libcoral",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-coral/libedgetpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-coral/pycoral",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-coral/test_data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This `edgetpu` repo is primarily our issue tracker for all types of bugs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coral"
+    },
+    {
+      "context_snippet": "This `edgetpu` repo is primarily our issue tracker for all types of bugs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edgetpu"
+    }
+  ]
+}

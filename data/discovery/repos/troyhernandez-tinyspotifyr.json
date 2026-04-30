@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TroyHernandez/tinyspotifyr",
+      "target": "charlie86/spotifyr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:54.308480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R wrapper for Spotify's Web API",
+    "fork": true,
+    "full_name": "TroyHernandez/tinyspotifyr",
+    "html_url": "https://github.com/TroyHernandez/tinyspotifyr",
+    "language": "R",
+    "pushed_at": "2024-08-11T17:11:38Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-09-12T08:28:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlie86/spotifyr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

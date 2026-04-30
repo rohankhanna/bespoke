@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belluzj/fantasque-sans",
+      "target": "belluzj/cosmic-sans-neue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans",
+      "target": "monospace-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:38.943286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5229
+    },
+    {
+      "path": "Dockerfile",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A font family with a great monospaced variant for programmers.",
+    "fork": false,
+    "full_name": "belluzj/fantasque-sans",
+    "html_url": "https://github.com/belluzj/fantasque-sans",
+    "language": "Python",
+    "pushed_at": "2026-03-15T16:37:54Z",
+    "stargazers_count": 7370,
+    "topics": [
+      "font",
+      "monospace-font"
+    ],
+    "updated_at": "2026-04-26T15:28:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belluzj/cosmic-sans-neue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fantasque Sans Mono",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Fantasque Sans Mono",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospace-font"
+    }
+  ]
+}

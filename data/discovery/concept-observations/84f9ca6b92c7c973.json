@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefox for iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Firefox: import translations\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Firefox: import translations\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "anglo-"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "anglo-saxonism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "animalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "apprehension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "ard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Firefox: import translations",
+      "sense_id": "firefox-import-translations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firefox-import-translations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firefox-import-translations",
+  "observation_id": "84f9ca6b92c7c973",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Firefox: import translations",
+  "source_context_snippet": "\"Firefox: import translations\"",
+  "source_file": ".github/workflows/firefox-ios-import-strings.yml",
+  "source_repo": "mozilla-mobile/firefox-ios",
+  "source_repo_description": "Firefox for iOS"
+}

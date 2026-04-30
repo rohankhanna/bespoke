@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "bazelbuild/java_tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "bazelbuild/rules_go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "presubmit-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-agent.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "release-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rules.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rules.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-rules.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-rules.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "release-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/terraform.yml",
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "Terraform: CI Pipelines Infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "buildkite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/continuous-integration",
+      "target": "continuous-integration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "bazelbuild/continuous-integration"
+}

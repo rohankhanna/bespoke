@@ -67,6 +67,30 @@
       "source_repo": "Skyvern-AI/skyvern",
       "status": "candidate-context",
       "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Lighter web automation with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "Skyvern-AI/skyvern",
       "status": "candidate",
       "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate",
+      "text": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +209,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mherrmann/helium"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

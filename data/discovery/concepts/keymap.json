@@ -19,6 +19,18 @@
       "source_repo": "jwiegley/use-package",
       "status": "candidate-context",
       "text": "Since `use-package` is now a part of Emacs core, all development has"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddfa\ufe0f A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jwiegley/use-package",
       "status": "candidate",
       "text": "Since `use-package` is now a part of Emacs core, all development has"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/legendary.nvim",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "jwiegley/use-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mrjones2014/legendary.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

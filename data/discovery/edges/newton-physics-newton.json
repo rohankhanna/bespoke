@@ -1,0 +1,384 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newton-physics/newton",
+      "target": "nvidia/warp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newton-physics/newton",
+      "target": "newton-physics/newton-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "machulav/ec2-github-runner@343a1b2ae682e681c3cec9a235d882da17ff04ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws_gpu_benchmarks.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "GPU Benchmarks on AWS EC2 (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "machulav/ec2-github-runner@343a1b2ae682e681c3cec9a235d882da17ff04ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "test-summary/action@31493c76ec9e7aa675f1585d3ed6f1da69269a86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_gpu_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "test-summary/action@31493c76ec9e7aa675f1585d3ed6f1da69269a86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "pandoc/actions/setup@86321b6dd4675f5014c611e05088e10d4939e09e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-dev.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "Deploy dev documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "pandoc/actions/setup@86321b6dd4675f5014c611e05088e10d4939e09e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "Deploy release documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_queue_aws_gpu.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "Merge Queue - AWS GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "machulav/ec2-github-runner@343a1b2ae682e681c3cec9a235d882da17ff04ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "test-summary/action@31493c76ec9e7aa675f1585d3ed6f1da69269a86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum_deps_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "step-security/harden-runner@fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "machulav/ec2-github-runner@343a1b2ae682e681c3cec9a235d882da17ff04ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "test-summary/action@31493c76ec9e7aa675f1585d3ed6f1da69269a86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mujoco_warp_tests.yml",
+      "source_repo": "newton-physics/newton",
+      "target": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "newton-physics/newton",
+      "target": "newton-physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "newton-physics/newton",
+      "target": "nvidia-warp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "newton-physics/newton",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "newton-physics/newton",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "newton-physics/newton"
+}

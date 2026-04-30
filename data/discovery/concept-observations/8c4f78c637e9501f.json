@@ -84,7 +84,7 @@
   "normalized_form": "documentation-tests",
   "observation_id": "8c4f78c637e9501f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Documentation Tests",
   "source_context_snippet": "Documentation Tests",
   "source_file": ".github/workflows/doctests.yaml",

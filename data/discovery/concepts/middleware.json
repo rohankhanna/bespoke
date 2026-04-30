@@ -223,6 +223,30 @@
       "source_repo": "eaze/tide-sqlx",
       "status": "candidate-context",
       "text": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "The flexible HTTP client library for Elixir, with support for middleware and multiple adapters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 middlware and mocks for Express.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate-context",
+      "text": "Swagger Express Middleware"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "eaze/tide-sqlx",
       "status": "candidate",
       "text": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-tesla/tesla",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml/badge.svg)](https://github.com/elixir-tesla/tesla/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-express-middleware",
+      "status": "candidate",
+      "text": "Swagger Express Middleware"
     }
   ],
   "candidate_related_terms": [
@@ -532,11 +568,41 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "eaze/tide-sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "elixir-tesla/tesla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-express-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -553,6 +553,114 @@
       "source_repo": "happyleavesaoc/python-snapcast",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "A Web Service Discovery host daemon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate-context",
+      "text": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "Testcontainers is a Python library that providing a friendly API to run Docker container. It is designed to create runtime environment to use during your automatic tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate-context",
+      "text": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lartpang/PySODMetrics",
+      "status": "candidate-context",
+      "text": "PySODMetrics: A Simple and Efficient Implementation of Grayscale/Binary Segmentation Metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lartpang/PySODMetrics",
+      "status": "candidate-context",
+      "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate-context",
+      "text": "Finally, a base24 builder that doesn't require me to install anything new."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate-context",
+      "text": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "GraalPy \u2013 A high-performance embeddable Python 3 runtime for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": "LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate-context",
+      "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Lighter web automation with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate-context",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "This is a set of simple programs that can be used to explore the features of a parallel platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate-context",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -825,6 +933,60 @@
       "source_repo": "happyleavesaoc/python-snapcast",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/tango",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christgau/wsdd",
+      "status": "candidate",
+      "text": "wsdd implements a Web Service Discovery host daemon. This enables (Samba)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testcontainers/testcontainers-python",
+      "status": "candidate",
+      "text": "[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lartpang/PySODMetrics",
+      "status": "candidate",
+      "text": "[build-system] requires = [\"setuptools >= 61.0\"] build-backend = \"setuptools.build_meta\" [tool.setuptools] packages = [\"py_sod_metrics\"] # \u76f4\u63a5\u6307\u5b9a\u5305\u540d [project] name = \"pysodmetrics\" version = \"1.6.2\" dependencies = [ \"numpy>=1.18,<2.3.5\", \"scipy>=1.5,<2.0\", \"scikit-image>=0.19,<0.26\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-builder-python",
+      "status": "candidate",
+      "text": "[![Github top language](https://img.shields.io/github/languages/top/Base24/base24-builder-python.svg?style=for-the-badge&cacheSeconds=28800)](../../)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oracle/graalpython",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/maven-org.graalvm.polyglot/python-orange)](https://central.sonatype.com/artifact/org.graalvm.polyglot/python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanSignal/labelImg",
+      "status": "candidate",
+      "text": ".. image:: /readme/images/labelimg.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mherrmann/helium",
+      "status": "candidate",
+      "text": "Helium is a Python library for automating browsers such as Chrome and Firefox."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "![PRK logo.](https://github.com/ParRes/Kernels/blob/default/logo/PRK%20logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1192,11 +1354,89 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "allenai/tango"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "christgau/wsdd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "testcontainers/testcontainers-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lartpang/PySODMetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oracle/graalpython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mherrmann/helium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ParRes/Kernels"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

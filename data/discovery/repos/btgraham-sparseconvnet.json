@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "btgraham/SparseConvNet",
+      "target": "btgraham/sparseconvnet-archived",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "btgraham/SparseConvNet",
+      "target": "stanfordvl/minkowskiengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "btgraham/SparseConvNet",
+      "target": "pointscoder/votr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "btgraham/SparseConvNet",
+      "target": "kumuji/mix3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:14:25.377276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Submanifold sparse convolutional networks",
+    "fork": true,
+    "full_name": "btgraham/SparseConvNet",
+    "html_url": "https://github.com/btgraham/SparseConvNet",
+    "language": "C++",
+    "pushed_at": "2025-01-30T22:11:01Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-07-03T19:18:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "btgraham/sparseconvnet-archived",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kumuji/mix3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pointscoder/votr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanfordvl/minkowskiengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

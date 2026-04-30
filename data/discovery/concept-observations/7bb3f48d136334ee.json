@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue and PR comment commands"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue and PR comment commands"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34145,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28699,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27499,
+      "status": "candidate",
+      "text": "dictate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27435,
+      "status": "candidate",
+      "text": "dictated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27435,
+      "status": "candidate",
+      "text": "prescribe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue and PR comment commands",
+      "sense_id": "issue-and-pr-comment-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-and-pr-comment-commands",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-and-pr-comment-commands",
+  "observation_id": "7bb3f48d136334ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Issue and PR comment commands",
+  "source_context_snippet": "Issue and PR comment commands",
+  "source_file": ".github/workflows/issue-comment.yaml",
+  "source_repo": "envoyproxy/gateway",
+  "source_repo_description": "Manages Envoy Proxy as a Standalone or Kubernetes-based Application Gateway"
+}

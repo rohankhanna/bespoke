@@ -308,6 +308,54 @@
       "source_repo": "octokit/graphql.js",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "Adaptable, fast automation for all"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "strategy for explicitly unauthenticated Octokit instances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery-ui",
+      "status": "candidate-context",
+      "text": "The official jQuery user interface library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery-ui",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -464,6 +512,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "octokit/graphql.js",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradle/gradle",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmelab/react-admin",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-unauthenticated.js",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery-ui",
       "status": "candidate",
       "text": "\"Code scanning - action\""
     }
@@ -737,11 +809,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "octokit/graphql.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "gradle/gradle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "marmelab/react-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "octokit/auth-unauthenticated.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jquery/jquery-ui"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

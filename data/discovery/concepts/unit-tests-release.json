@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unit tests & Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Jest "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate-context",
+      "text": "Unit tests & Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/eslint-plugin-jest",
+      "status": "candidate",
+      "text": "Unit tests & Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20800,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20460,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20258,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20253,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20191,
+      "status": "candidate",
+      "text": "runs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unit tests & Release",
+  "concept_id": "unit-tests-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jest-community/eslint-plugin-jest"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit tests & Release",
+      "sense_id": "unit-tests-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

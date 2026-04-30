@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:13:58.512604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "QuadTree Attention for Vision Transformers (ICLR2022)",
+    "fork": false,
+    "full_name": "Tangshitao/QuadTreeAttention",
+    "html_url": "https://github.com/Tangshitao/QuadTreeAttention",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-04-23T06:29:09Z",
+    "stargazers_count": 368,
+    "topics": [],
+    "updated_at": "2026-04-23T11:39:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

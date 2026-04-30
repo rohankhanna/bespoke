@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "nvidia-ai-iot/jetbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "jetson-nano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "jetson-tx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "jetson-xavier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-AI-IOT/torch2trt",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:15:45.304853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An easy to use PyTorch to TensorRT converter",
+    "fork": false,
+    "full_name": "NVIDIA-AI-IOT/torch2trt",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/torch2trt",
+    "language": "Python",
+    "pushed_at": "2024-08-17T08:59:30Z",
+    "stargazers_count": 4865,
+    "topics": [
+      "classification",
+      "inference",
+      "jetson-nano",
+      "jetson-tx2",
+      "jetson-xavier",
+      "pytorch",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-20T04:43:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-ai-iot/jetbot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-nano"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-tx2"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson-xavier"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> What models are you using, or hoping to use, with TensorRT? Feel free to join the discussion [here](https://github.com/NVIDIA-AI-IOT/torch2trt/discussions/531).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "component": "jsmrcaga/action-netlify-deploy@ae36ac1b3d1ad3646eecb5631977e7314d3a6a2f",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-netlify.yml",
+      "source_repo": "electron-userland/electron-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-netlify.yml",
+      "source_repo": "electron-userland/electron-builder"
+    }
+  ]
+}

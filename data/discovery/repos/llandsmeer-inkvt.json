@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llandsmeer/inkvt",
+      "target": "niluje/kfmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llandsmeer/inkvt",
+      "target": "pkovac/x86term",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llandsmeer/inkvt",
+      "target": "kisonecat/fbpad-eink",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:16:39.916366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Experimental VT100 terminal emulator for Kobo e-readers",
+    "fork": false,
+    "full_name": "llandsmeer/inkvt",
+    "html_url": "https://github.com/llandsmeer/inkvt",
+    "language": "C++",
+    "pushed_at": "2022-03-01T12:23:38Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-08T21:24:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kisonecat/fbpad-eink",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niluje/kfmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkovac/x86term",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

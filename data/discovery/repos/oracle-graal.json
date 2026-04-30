@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml"
+    },
+    {
+      "component": "oracle/macaron@b31acfe389133a5587d9639063ec70cb84e7bc47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut-template.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut-template.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graal",
+      "target": "graalvm/graal-languages-demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graal",
+      "target": "graalvm/graalvm-demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graal",
+      "target": "graalvm/native-build-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oracle/graal",
+      "target": "graalvm/setup-graalvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-graalvm.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-graalvm.yml",
+      "source_repo": "oracle/graal",
+      "target": "Build GraalVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cdt-inspect.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cdt-inspect.yml",
+      "source_repo": "oracle/graal",
+      "target": "Weekly CDT Inspector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml",
+      "source_repo": "oracle/graal",
+      "target": "oracle/macaron@b31acfe389133a5587d9639063ec70cb84e7bc47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml",
+      "source_repo": "oracle/graal",
+      "target": "Check GitHub Actions with Macaron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "oracle/graal",
+      "target": "GraalVM Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut-future-defaults.yml",
+      "source_repo": "oracle/graal",
+      "target": "Weekly Micronaut Tests (--future-defaults=all)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut-template.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/micronaut-template.yml",
+      "source_repo": "oracle/graal",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut-template.yml",
+      "source_repo": "oracle/graal",
+      "target": "Weekly Micronaut Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut.yml",
+      "source_repo": "oracle/graal",
+      "target": "Weekly Micronaut Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graal",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graal",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oracle/graal",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:45.503728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8729
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/build-graalvm.yml",
+      "size": 6657
+    },
+    {
+      "path": ".github/workflows/cdt-inspect.yml",
+      "size": 3677
+    },
+    {
+      "path": ".github/workflows/macaron-check-github-actions.yml",
+      "size": 2581
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 12681
+    },
+    {
+      "path": ".github/workflows/micronaut-compatibility-preserve-crema.yml",
+      "size": 2574
+    },
+    {
+      "path": ".github/workflows/micronaut-future-defaults.yml",
+      "size": 2392
+    },
+    {
+      "path": ".github/workflows/micronaut-template.yml",
+      "size": 4409
+    },
+    {
+      "path": ".github/workflows/micronaut.yml",
+      "size": 2290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources \ud83d\ude80",
+    "fork": false,
+    "full_name": "oracle/graal",
+    "html_url": "https://github.com/oracle/graal",
+    "language": "Java",
+    "pushed_at": "2026-04-30T06:39:01Z",
+    "stargazers_count": 21570,
+    "topics": [
+      "aot",
+      "compiler",
+      "graalvm",
+      "java"
+    ],
+    "updated_at": "2026-04-30T05:38:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graalvm/graal-languages-demos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graalvm/graalvm-demos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graalvm/native-build-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graalvm/setup-graalvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build GraalVM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-graalvm.yml",
+      "term": "Build GraalVM"
+    },
+    {
+      "context_snippet": "Weekly CDT Inspector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cdt-inspect.yml",
+      "term": "Weekly CDT Inspector"
+    },
+    {
+      "context_snippet": "Check GitHub Actions with Macaron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macaron-check-github-actions.yml",
+      "term": "Check GitHub Actions with Macaron"
+    },
+    {
+      "context_snippet": "GraalVM Gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "GraalVM Gate"
+    },
+    {
+      "context_snippet": "Weekly Micronaut Tests (--future-defaults=all)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut-future-defaults.yml",
+      "term": "Weekly Micronaut Tests (--future-defaults=all)"
+    },
+    {
+      "context_snippet": "Weekly Micronaut Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut-template.yml",
+      "term": "Weekly Micronaut Tests"
+    },
+    {
+      "context_snippet": "Weekly Micronaut Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/micronaut.yml",
+      "term": "Weekly Micronaut Tests"
+    },
+    {
+      "context_snippet": "[![GraalVM](.github/assets/logo_320x64.svg)][website]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "[![GraalVM](.github/assets/logo_320x64.svg)][website]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "[![GraalVM](.github/assets/logo_320x64.svg)][website]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

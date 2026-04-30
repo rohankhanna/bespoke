@@ -1,12 +1,17 @@
 {
   "component": "docker/setup-buildx-action@d70bba72b1f3fd22344832f00baa16ece964efeb",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-artifacts.yml",
       "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-slim.yml",
+      "source_repo": "salesforcecli/cli"
     }
   ]
 }

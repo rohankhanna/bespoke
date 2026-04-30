@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Greetings.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec-checks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "comcast/kuberhealthy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Greetings.yaml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Greetings.yaml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gosec-checks.yaml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosec-checks.yaml",
+      "source_repo": "ChrisHirsch/kuberhealthy-storage-check",
+      "target": "Run Gosec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:31:35.299345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11365
+    },
+    {
+      "path": "Dockerfile",
+      "size": 646
+    },
+    {
+      "path": "go.mod",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/Greetings.yaml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2717
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/gosec-checks.yaml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A storage check for the kuberhealthy project",
+    "fork": false,
+    "full_name": "ChrisHirsch/kuberhealthy-storage-check",
+    "html_url": "https://github.com/ChrisHirsch/kuberhealthy-storage-check",
+    "language": "Go",
+    "pushed_at": "2024-07-31T08:50:28Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-01-22T23:35:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comcast/kuberhealthy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Greetings.yaml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run Gosec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosec-checks.yaml",
+      "term": "Run Gosec"
+    }
+  ]
+}

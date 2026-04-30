@@ -1,0 +1,208 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "corna/me_cleaner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "drduh/config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "drduh/purse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "dhess/nixos-yubikey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "gnupg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "gpg-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "gpg-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "hardening",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "remote-access",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "rsa-cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "smartcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide",
+      "target": "yubikey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:22:54.397969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 84653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto.",
+    "fork": false,
+    "full_name": "drduh/YubiKey-Guide",
+    "html_url": "https://github.com/drduh/YubiKey-Guide",
+    "language": "HTML",
+    "pushed_at": "2026-04-26T01:03:17Z",
+    "stargazers_count": 12298,
+    "topics": [
+      "gnupg",
+      "gpg",
+      "gpg-agent",
+      "gpg-configuration",
+      "hardening",
+      "pgp",
+      "remote-access",
+      "rsa-cryptography",
+      "security",
+      "smartcard",
+      "ssh",
+      "yubikey"
+    ],
+    "updated_at": "2026-04-30T08:58:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corna/me_cleaner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhess/nixos-yubikey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/config",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drduh/purse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnupg"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpg-agent"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpg-configuration"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardening"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-access"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsa-cryptography"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartcard"
+    },
+    {
+      "context_snippet": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yubikey"
+    }
+  ]
+}

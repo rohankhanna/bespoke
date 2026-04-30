@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml"
+    },
+    {
+      "component": "hecomi/create-upm-branch-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "hecomi/create-upm-branch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "source_repo": "inkle/ink-unity-integration",
+      "target": "Update-UPM-Branch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:19:08.334876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8553
+    },
+    {
+      "path": ".github/workflows/Update-UPM-Branch.yml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unity integration for the open source ink narrative scripting language.",
+    "fork": false,
+    "full_name": "inkle/ink-unity-integration",
+    "html_url": "https://github.com/inkle/ink-unity-integration",
+    "language": "C#",
+    "pushed_at": "2025-12-02T10:57:38Z",
+    "stargazers_count": 690,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update-UPM-Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Update-UPM-Branch.yml",
+      "term": "Update-UPM-Branch"
+    }
+  ]
+}

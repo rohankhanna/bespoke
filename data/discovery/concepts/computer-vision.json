@@ -1195,6 +1195,282 @@
       "source_repo": "invictus717/MetaTransformer",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "status": "candidate-context",
+      "text": "Official implementation for the paper \"Deep ViT Features as Dense Visual Descriptors\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "status": "candidate-context",
+      "text": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "status": "candidate-context",
+      "text": "Triton implement of bi-directional (non-causal) linear attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate-context",
+      "text": "Official pytorch repository for \"QD-DETR : Query-Dependent Video Representation for Moment Retrieval and Highlight Detection\" (CVPR 2023 Paper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate-context",
+      "text": "by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "mean Average Precision - This code evaluates the performance of your neural net for object recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "A Simple, Lightweight, and Extensible Serving Framework for X-AnyLabeling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[CVPR 2020] CascadePSP: Toward Class-Agnostic and Very High-Resolution Segmentation via Global and Local Refinement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate-context",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Multi-Stage Progressive Image Restoration. SOTA results for Image deblurring, deraining, and denoising."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "low-light\ud83d\udca1 image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "Tensorflow implementation of MIRNet for Low-light image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "ECCV2022 - Real-Time Intermediate Flow Estimation for Video Frame Interpolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate-context",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colmap/colmap",
+      "status": "candidate-context",
+      "text": "COLMAP - Structure-from-Motion and Multi-View Stereo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/colmap",
+      "status": "candidate-context",
+      "text": "COLMAP"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "Software that can generate photos from paintings,  turn horses into zebras,  perform style transfer, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate-context",
+      "text": "Image Background Removal Toolkit - Open Source and API Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate-context",
+      "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/rigl",
+      "status": "candidate-context",
+      "text": "End-to-end training of sparse deep neural networks with little-to-no performance loss. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/rigl",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate-context",
+      "text": "Python API for LVIS Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate-context",
+      "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate-context",
+      "text": "Python wrapper to Philipp Kr\u00e4henb\u00fchl's dense (fully connected) CRFs with gaussian edge potentials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate-context",
+      "text": "PyDenseCRF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "Blocks for accessing MuJoCo physics engine within Simulink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume, CVPR 2018 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate-context",
+      "text": "SenseTime Research platform for single object tracking, implementing algorithms like SiamRPN and SiamMask."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate-context",
+      "text": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "McGill-NLP/weblinx",
+      "status": "candidate-context",
+      "text": "WebLINX is a benchmark for building web navigation agents with conversational capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "McGill-NLP/weblinx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1791,6 +2067,144 @@
       "source_repo": "invictus717/MetaTransformer",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShirAmir/dino-vit-features",
+      "status": "candidate",
+      "text": "[[paper](https://arxiv.org/abs/2112.05814)] [[project page](https://dino-vit-features.github.io)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-bidirectional-linear-attention",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate",
+      "text": "by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cartucho/mAP",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling-Server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvat-ai/cvat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hkchengrex/CascadePSP",
+      "status": "candidate",
+      "text": "[Ho Kei Cheng*](https://hkchengrex.github.io/), Jihoon Chung*, Yu-Wing Tai, Chi-Keung Tang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "status": "candidate",
+      "text": "This project is the implement of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colmap/colmap",
+      "status": "candidate",
+      "text": "COLMAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/CycleGAN",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withoutbg/withoutbg",
+      "status": "candidate",
+      "text": "**Background removal that runs locally or through the API. Pick whichever fits your constraints.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/rigl",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/google-research/rigl/blob/master/imgs/flops8.jpg\" alt=\"80% Sparse Resnet-50\" width=\"45%\" align=\"middle\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lvis-dataset/lvis-api",
+      "status": "candidate",
+      "text": "LVIS (pronounced \u2018el-vis\u2019): is a new dataset for Large Vocabulary Instance Segmentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasb-eyer/pydensecrf",
+      "status": "candidate",
+      "text": "PyDenseCRF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/PWC-Net",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "STVIR/pysot",
+      "status": "candidate",
+      "text": "**PySOT** is a software system designed by SenseTime Video Intelligence Research team. It implements state-of-the-art single object tracking algorithms, including [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html) and [\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "McGill-NLP/weblinx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2488,11 +2902,209 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "invictus717/MetaTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ShirAmir/dino-vit-features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Cartucho/mAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cvat-ai/cvat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hkchengrex/CascadePSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MPRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "colmap/colmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/CycleGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "withoutbg/withoutbg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-research/rigl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lvis-dataset/lvis-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lucasb-eyer/pydensecrf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/PWC-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "STVIR/pysot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "McGill-NLP/weblinx"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

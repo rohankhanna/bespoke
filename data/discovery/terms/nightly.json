@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "d12frosted/homebrew-emacs-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nighty.yml",
+      "source_repo": "sinclairzx81/typebox"
     }
   ],
   "term": "nightly"

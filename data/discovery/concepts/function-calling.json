@@ -19,6 +19,30 @@
       "source_repo": "Agent-RL/ReCall",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MeetKai/functionary",
+      "status": "candidate-context",
+      "text": "Chat language model that can use tools and interpret the results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeetKai/functionary",
+      "status": "candidate-context",
+      "text": "<a href=\"https://meetkai.com/\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Agent-RL/ReCall",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeetKai/functionary",
+      "status": "candidate",
+      "text": "<a href=\"https://meetkai.com/\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MeetKai/functionary"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

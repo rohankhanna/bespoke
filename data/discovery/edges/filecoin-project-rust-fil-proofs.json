@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/rust-filecoin-proofs-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/filecoin-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "daschl/hwloc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "filecoin-project/go-sectorbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "dtolnay/rust-toolchain@21dc36fb71dd22e3317045c0c31a3f4249868b17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proof-params-generate.yml",
+      "source_repo": "filecoin-project/rust-fil-proofs",
+      "target": "Proof params generate",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "filecoin-project/rust-fil-proofs"
+}

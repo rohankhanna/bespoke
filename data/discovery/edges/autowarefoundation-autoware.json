@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-github-actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware_ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "tibdex/backport@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-autoware.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-autoware.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-autoware.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-github-actions/create-prs-to-update-vcs-repositories@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-repo-versions-autoware.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "bump-repo-versions-autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-simulator.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-simulator.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-simulator.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-github-actions/create-prs-to-update-vcs-repositories@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-repo-versions-simulator.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "bump-repo-versions-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-tools.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-tools.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-repo-versions-tools.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autowarefoundation/autoware-github-actions/create-prs-to-update-vcs-repositories@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-repo-versions-tools.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "bump-repo-versions-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-actions-caches.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "cleanup-actions-caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-autoware-buildcache.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "cleanup-autoware-buildcache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-pr.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "comment-on-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "DCO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "step-security/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "autowarefoundation/autoware",
+      "target": "docker-build-and-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware",
+      "target": "autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autowarefoundation/autoware",
+      "target": "ros2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "autowarefoundation/autoware"
+}

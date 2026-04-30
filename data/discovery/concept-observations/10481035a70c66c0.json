@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MSYS2 based RubyInstaller for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "msys2",
+      "sense_id": "msys2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "msys2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "msys2",
+  "observation_id": "10481035a70c66c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "msys2",
+  "source_context_snippet": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "oneclick/rubyinstaller2",
+  "source_repo_description": "MSYS2 based RubyInstaller for Windows"
+}

@@ -1,0 +1,646 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "cross-platform-actions/action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml"
+    },
+    {
+      "component": "ChristopheLav/windows-sdk-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml"
+    },
+    {
+      "component": "loong64/cibuildwheel@dc83b14a5e1c7b76e56a3826b22432c87e1fe5cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "apache/pdfbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "ctypesgen/ctypesgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "ds4sd/docling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "facebookresearch/nougat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "cross-platform-actions/action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "BSD testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibw.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "CIBW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "ChristopheLav/windows-sdk-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "loong64/cibuildwheel@dc83b14a5e1c7b76e56a3826b22432c87e1fe5cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "CIBW build one",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "Conda packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "Update Docs (GH Pages)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "extractions/setup-just@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "benc-uk/workflow-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "Main packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbuild.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "Sourcebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbuild_native.yaml",
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "Sourcebuild Native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "pdf-documents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "pdf-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "pdfium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypdfium2-team/pypdfium2",
+      "target": "rasterization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:17:50.252224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66184
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4182
+    },
+    {
+      "path": ".github/workflows/bsd.yaml",
+      "size": 1794
+    },
+    {
+      "path": ".github/workflows/cibw.yaml",
+      "size": 7788
+    },
+    {
+      "path": ".github/workflows/cibw_one.yaml",
+      "size": 4957
+    },
+    {
+      "path": ".github/workflows/conda.yaml",
+      "size": 5634
+    },
+    {
+      "path": ".github/workflows/gh_pages.yaml",
+      "size": 1820
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 13023
+    },
+    {
+      "path": ".github/workflows/sbuild.yaml",
+      "size": 4468
+    },
+    {
+      "path": ".github/workflows/sbuild_native.yaml",
+      "size": 1305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python bindings to PDFium, reasonably cross-platform.",
+    "fork": false,
+    "full_name": "pypdfium2-team/pypdfium2",
+    "html_url": "https://github.com/pypdfium2-team/pypdfium2",
+    "language": "Python",
+    "pushed_at": "2026-04-30T01:29:30Z",
+    "stargazers_count": 758,
+    "topics": [
+      "pdf",
+      "pdf-documents",
+      "pdf-to-image",
+      "pdfium",
+      "python",
+      "rasterization"
+    ],
+    "updated_at": "2026-04-28T16:20:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/pdfbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ctypesgen/ctypesgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ds4sd/docling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/nougat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BSD testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "term": "BSD testing"
+    },
+    {
+      "context_snippet": "CIBW",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibw.yaml",
+      "term": "CIBW"
+    },
+    {
+      "context_snippet": "CIBW build one",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibw_one.yaml",
+      "term": "CIBW build one"
+    },
+    {
+      "context_snippet": "Conda packaging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yaml",
+      "term": "Conda packaging"
+    },
+    {
+      "context_snippet": "Update Docs (GH Pages)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh_pages.yaml",
+      "term": "Update Docs (GH Pages)"
+    },
+    {
+      "context_snippet": "Main packaging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Main packaging"
+    },
+    {
+      "context_snippet": "Sourcebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbuild.yaml",
+      "term": "Sourcebuild"
+    },
+    {
+      "context_snippet": "Sourcebuild Native",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sbuild_native.yaml",
+      "term": "Sourcebuild Native"
+    },
+    {
+      "context_snippet": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-documents"
+    },
+    {
+      "context_snippet": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-to-image"
+    },
+    {
+      "context_snippet": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfium"
+    },
+    {
+      "context_snippet": "<!-- SPDX-FileCopyrightText: 2026 geisserml <geisserml@gmail.com> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rasterization"
+    }
+  ]
+}

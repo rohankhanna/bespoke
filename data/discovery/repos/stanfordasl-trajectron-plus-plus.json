@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "nvlabs/adaptive-prediction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "agrimgupta92/sgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "human-robot-interaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "human-trajectory-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StanfordASL/Trajectron-plus-plus",
+      "target": "spatio-temporal-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:49.413218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16927
+    },
+    {
+      "path": "requirements.txt",
+      "size": 339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code accompanying the ECCV 2020 paper \"Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data\" by Tim Salzmann*, Boris Ivanovic*, Punarjay Chakravarty, and Marco Pavone (* denotes equal contribution).",
+    "fork": false,
+    "full_name": "StanfordASL/Trajectron-plus-plus",
+    "html_url": "https://github.com/StanfordASL/Trajectron-plus-plus",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-08-17T06:09:35Z",
+    "stargazers_count": 809,
+    "topics": [
+      "autonomous-vehicles",
+      "deep-learning",
+      "human-robot-interaction",
+      "human-trajectory-prediction",
+      "nuscenes",
+      "spatio-temporal-prediction"
+    ],
+    "updated_at": "2026-04-26T08:42:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agrimgupta92/sgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/adaptive-prediction",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-robot-interaction"
+    },
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-trajectory-prediction"
+    },
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "**NOTE**: A new version of the Trajectron++ codebase has been released! Check it out [here](https://github.com/NVlabs/adaptive-prediction)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatio-temporal-prediction"
+    }
+  ]
+}

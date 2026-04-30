@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "alphabet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "annois",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "annozip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "handlebars",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object-merge",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "localeval",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "phantom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "alphabet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "annois",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "annozip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "handlebars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "object-merge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "localeval",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "phantom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/libumd",
+      "target": "tmp",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:20:38.755560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2168
+    },
+    {
+      "path": "package.json",
+      "size": 718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wraps given JavaScript code with UMD (MIT)",
+    "fork": false,
+    "full_name": "bebraw/libumd",
+    "html_url": "https://github.com/bebraw/libumd",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-07T06:05:13Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-11-21T17:53:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

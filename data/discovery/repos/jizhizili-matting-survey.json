@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "cdotad/alphagan-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "dongdong93/a2u_matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "charch-630/fgi-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "acechq/transmatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/matting-survey",
+      "target": "video-matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:31.924767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep Image Matting: A Comprehensive Survey",
+    "fork": false,
+    "full_name": "JizhiziLi/matting-survey",
+    "html_url": "https://github.com/JizhiziLi/matting-survey",
+    "language": null,
+    "pushed_at": "2023-05-16T06:08:35Z",
+    "stargazers_count": 201,
+    "topics": [
+      "deep-learning",
+      "image-matting",
+      "survey",
+      "video-matting"
+    ],
+    "updated_at": "2026-04-14T09:35:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acechq/transmatting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdotad/alphagan-matting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charch-630/fgi-matting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dongdong93/a2u_matting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Image Matting: A Comprehensive Survey</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Image Matting: A Comprehensive Survey</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Image Matting: A Comprehensive Survey</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Deep Image Matting: A Comprehensive Survey</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-matting"
+    }
+  ]
+}

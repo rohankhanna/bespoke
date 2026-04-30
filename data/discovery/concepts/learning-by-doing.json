@@ -43,6 +43,18 @@
       "source_repo": "dwyl/learn-heroku",
       "status": "candidate-context",
       "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd6  A tutorial showing how to return different content for the same route based on accepts header. Build a Web App and JSON API!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dwyl/learn-heroku",
       "status": "candidate",
       "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-heroku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-content-negotiation-tutorial"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

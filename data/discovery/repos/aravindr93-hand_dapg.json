@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "vikashplus/mj_envs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "mujoco-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aravindr93/hand_dapg",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:20:53.788039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository to accompany RSS 2018 paper on dexterous hand manipulation",
+    "fork": false,
+    "full_name": "aravindr93/hand_dapg",
+    "html_url": "https://github.com/aravindr93/hand_dapg",
+    "language": "Python",
+    "pushed_at": "2023-04-09T16:37:48Z",
+    "stargazers_count": 314,
+    "topics": [
+      "imitation-learning",
+      "mujoco-environments",
+      "reinforcement-learning",
+      "robotics",
+      "simulation"
+    ],
+    "updated_at": "2026-04-26T08:39:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vikashplus/mj_envs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco-environments"
+    },
+    {
+      "context_snippet": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "This accompanies the [DAPG project](https://sites.google.com/view/deeprl-dexterous-manipulation), presented at RSS 2018. Please see the project page for the paper and video demonstration of results.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

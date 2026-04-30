@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Karafka and WaterDrop example applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Verify Action Pins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Verify Action Pins"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27793,
+      "status": "candidate",
+      "text": "dead ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23840,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify Action Pins",
+      "sense_id": "verify-action-pins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verify-action-pins",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify-action-pins",
+  "observation_id": "0e8dc2d169401499",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Verify Action Pins",
+  "source_context_snippet": "Verify Action Pins",
+  "source_file": ".github/workflows/verify-action-pins.yml",
+  "source_repo": "karafka/example-apps",
+  "source_repo_description": "Karafka and WaterDrop example applications"
+}

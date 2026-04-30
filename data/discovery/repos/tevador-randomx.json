@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "eine/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@v0.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tevador/RandomX",
+      "target": "schernykh/randomx_cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tevador/RandomX",
+      "target": "schernykh/randomx_opencl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tevador/RandomX",
+      "target": "tevador/randomx-sniffer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tevador/RandomX",
+      "target": "p-h-c/phc-winner-argon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "tevador/RandomX",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "tevador/RandomX",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "tevador/RandomX",
+      "target": "eine/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "tevador/RandomX",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "tevador/RandomX",
+      "target": "cross-platform-actions/action@v0.24.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:07:45.754988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9597
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 5217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proof of work algorithm based on random code execution",
+    "fork": false,
+    "full_name": "tevador/RandomX",
+    "html_url": "https://github.com/tevador/RandomX",
+    "language": "C++",
+    "pushed_at": "2026-04-25T08:48:19Z",
+    "stargazers_count": 1598,
+    "topics": [],
+    "updated_at": "2026-04-28T04:15:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p-h-c/phc-winner-argon2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schernykh/randomx_cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schernykh/randomx_opencl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tevador/randomx-sniffer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

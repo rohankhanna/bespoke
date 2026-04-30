@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml",
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml",
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-apk.yml",
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-apk.yml",
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "release-apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-scrfd",
+      "target": "realtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:45.582801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1289
+    },
+    {
+      "path": ".github/workflows/release-apk.yml",
+      "size": 2708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ncnn android scrfd face detection",
+    "fork": false,
+    "full_name": "nihui/ncnn-android-scrfd",
+    "html_url": "https://github.com/nihui/ncnn-android-scrfd",
+    "language": "C++",
+    "pushed_at": "2026-01-14T07:12:59Z",
+    "stargazers_count": 253,
+    "topics": [
+      "android",
+      "face-alignment",
+      "face-detection",
+      "ncnn",
+      "realtime"
+    ],
+    "updated_at": "2026-04-14T06:11:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release-apk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-apk.yml",
+      "term": "release-apk"
+    },
+    {
+      "context_snippet": "The SCRFD face detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "The SCRFD face detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "The SCRFD face detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "The SCRFD face detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "The SCRFD face detection",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    }
+  ]
+}

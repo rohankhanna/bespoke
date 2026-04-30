@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd Neovim plugin to manage scratch files !"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967574,
+      "status": "candidate",
+      "text": "scope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045654,
+      "status": "candidate",
+      "text": "cassegrain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045595,
+      "status": "candidate",
+      "text": "binoculars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045112,
+      "status": "candidate",
+      "text": "periscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012320,
+      "status": "candidate",
+      "text": "gemini"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telescope",
+      "sense_id": "telescope#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "scope"
+    }
+  ],
+  "concept_id": "telescope",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "telescope",
+  "observation_id": "05b7b6b4a0c5e429",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "telescope",
+  "source_context_snippet": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42.",
+  "source_file": null,
+  "source_repo": "0xJohnnyboy/scretch.nvim",
+  "source_repo_description": "\ud83d\udcdd Neovim plugin to manage scratch files !"
+}

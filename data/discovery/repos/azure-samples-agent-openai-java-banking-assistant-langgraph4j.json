@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/agent-openai-java-banking-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/azure-search-openai-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+      "target": "azure-samples/azureai-samples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:48.582127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+    "html_url": "https://github.com/Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+    "language": "Java",
+    "pushed_at": "2026-04-07T09:54:53Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-27T23:42:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/agent-openai-java-banking-assistant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-search-openai-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azureai-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/langgraph4j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

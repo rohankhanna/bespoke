@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pmml-pyspark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodeployai/pypmml-spark",
+      "status": "candidate-context",
+      "text": "Python PMML scoring library for PySpark as SparkML Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pypmml-spark",
+      "status": "candidate-context",
+      "text": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pypmml-spark",
+      "status": "candidate",
+      "text": "_PyPMML-Spark_ is a Python PMML scoring library for PySpark as SparkML Transformer, it really is the Python API for [PMML4S-Spark](https://github.com/autodeployai/pmml4s-spark)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pmml-pyspark",
+  "concept_id": "pmml-pyspark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "autodeployai/pypmml-spark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pmml-pyspark",
+      "sense_id": "pmml-pyspark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

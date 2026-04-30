@@ -52,6 +52,18 @@
       "source_repo": "KSXGitHub/parallel-disk-usage",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e A simple, tiny and lightweight benchmarking library!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate-context",
+      "text": "'size'"
     }
   ],
   "candidate_glosses": [
@@ -78,6 +90,12 @@
       "source_repo": "KSXGitHub/parallel-disk-usage",
       "status": "candidate",
       "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinybench",
+      "status": "candidate",
+      "text": "'size'"
     }
   ],
   "candidate_related_terms": [
@@ -191,11 +209,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "tinylibs/tinybench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

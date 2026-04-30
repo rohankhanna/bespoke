@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-macos.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nsf/termbox-go",
+      "target": "evanmiller/hecate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nsf/termbox-go",
+      "target": "dyegocosta/snake-game",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nsf/termbox-go",
+      "target": "ericfreese/rat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nsf/termbox-go",
+      "target": "1984weed/2048-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-macos.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-macos.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-macos.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "Test on mac os",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "Test on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "nsf/termbox-go",
+      "target": "Test on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:14.390626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4600
+    },
+    {
+      "path": "go.mod",
+      "size": 183
+    },
+    {
+      "path": ".github/workflows/test-macos.yml",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/test-ubuntu.yml",
+      "size": 604
+    },
+    {
+      "path": ".github/workflows/test-windows.yml",
+      "size": 707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure Go termbox implementation",
+    "fork": false,
+    "full_name": "nsf/termbox-go",
+    "html_url": "https://github.com/nsf/termbox-go",
+    "language": "Go",
+    "pushed_at": "2025-10-20T05:58:12Z",
+    "stargazers_count": 4776,
+    "topics": [],
+    "updated_at": "2026-04-28T11:59:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1984weed/2048-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dyegocosta/snake-game",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericfreese/rat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evanmiller/hecate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test on mac os",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-macos.yml",
+      "term": "Test on mac os"
+    },
+    {
+      "context_snippet": "Test on Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "term": "Test on Ubuntu"
+    },
+    {
+      "context_snippet": "Test on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows.yml",
+      "term": "Test on Windows"
+    }
+  ]
+}

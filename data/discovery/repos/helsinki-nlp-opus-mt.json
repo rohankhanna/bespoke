@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "helsinki-nlp/opus-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "helsinki-nlp/opus-cat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "bzhanggo/zero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "edinburghnlp/opus-100-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "language-technology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "language-translation-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "neural-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "translation-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/Opus-MT",
+      "target": "translation-service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:03:51.510405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10020
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2818
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open neural machine translation models and web services",
+    "fork": false,
+    "full_name": "Helsinki-NLP/Opus-MT",
+    "html_url": "https://github.com/Helsinki-NLP/Opus-MT",
+    "language": "Python",
+    "pushed_at": "2026-02-23T19:03:09Z",
+    "stargazers_count": 807,
+    "topics": [
+      "language-technology",
+      "language-translation-service",
+      "machine-learning",
+      "machine-translation",
+      "natural-language-processing",
+      "neural-machine-translation",
+      "translation-interface",
+      "translation-service"
+    ],
+    "updated_at": "2026-04-30T02:40:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzhanggo/zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edinburghnlp/opus-100-corpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helsinki-nlp/opus-cat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helsinki-nlp/opus-translator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-technology"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-translation-service"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-machine-translation"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation-interface"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Helsinki-NLP/Opus-MT/blob/master/img/opus_mt.png\" width=\"250\" alt=\"OPUS-MT\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation-service"
+    }
+  ]
+}

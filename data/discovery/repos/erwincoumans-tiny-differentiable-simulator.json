@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator",
+      "target": "google-research/tiny-differentiable-simulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator",
+      "target": "rdeits/meshcat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:21:34.724514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4024
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 1417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiny Differentiable Simulator is a header-only C++ and CUDA physics library for reinforcement learning and robotics with zero dependencies.",
+    "fork": false,
+    "full_name": "erwincoumans/tiny-differentiable-simulator",
+    "html_url": "https://github.com/erwincoumans/tiny-differentiable-simulator",
+    "language": "C++",
+    "pushed_at": "2024-10-18T23:14:47Z",
+    "stargazers_count": 1358,
+    "topics": [],
+    "updated_at": "2026-04-23T08:29:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/tiny-differentiable-simulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rdeits/meshcat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    }
+  ]
+}

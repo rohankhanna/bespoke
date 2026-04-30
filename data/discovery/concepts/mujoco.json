@@ -67,6 +67,90 @@
       "source_repo": "google-deepmind/dm_control",
       "status": "candidate-context",
       "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "MuJoCo bindings and high-level wrappers for the Rust programming language. Includes the viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate-context",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "Reinforcement learning algorithms for MuJoCo tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate-context",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate-context",
+      "text": "A collection of high-quality models for the MuJoCo physics engine, curated by Google DeepMind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "Julia bindings and visualiser for the MuJoCo physics engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate-context",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "A CLI for processing composite Wavefront OBJ files for use in MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate-context",
+      "text": "[![PyPI Python Version][pypi-versions-badge]][pypi]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "Blocks for accessing MuJoCo physics engine within Simulink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate-context",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "![Project banner](https://raw.githubusercontent.com/mujocolab/mjlab/main/docs/source/_static/mjlab-banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +183,48 @@
       "source_repo": "google-deepmind/dm_control",
       "status": "candidate",
       "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhozic/mujoco-rs",
+      "status": "candidate",
+      "text": "[![Guide](https://img.shields.io/badge/Guide-book-white)](https://mujoco-rs.readthedocs.io/en/v4.0.x/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aravindr93/mjrl",
+      "status": "candidate",
+      "text": "This package contains implementations of various RL algorithms for continuous control tasks simulated with [MuJoCo.](http://www.mujoco.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco_menagerie",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamieMair/MuJoCo.jl",
+      "status": "candidate",
+      "text": "[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JamieMair.github.io/MuJoCo.jl/dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/obj2mjcf",
+      "status": "candidate",
+      "text": "[![PyPI Python Version][pypi-versions-badge]][pypi]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset",
+      "status": "candidate",
+      "text": "This repository provides a Simulink&reg; C-MEX S-Function block interface to the [MuJoCo&trade; physics engine](https://mujoco.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate",
+      "text": "![Project banner](https://raw.githubusercontent.com/mujocolab/mjlab/main/docs/source/_static/mjlab-banner.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +262,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "davidhozic/mujoco-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aravindr93/mjrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco_menagerie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JamieMair/MuJoCo.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/obj2mjcf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mathworks-robotics/mujoco-simulink-blockset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mujocolab/mjlab"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

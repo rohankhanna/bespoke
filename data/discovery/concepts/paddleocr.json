@@ -55,6 +55,18 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "status": "candidate-context",
+      "text": "PaddleOCR inference in PyTorch. Converted from [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frotms/PaddleOCR2Pytorch",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "frotms/PaddleOCR2Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

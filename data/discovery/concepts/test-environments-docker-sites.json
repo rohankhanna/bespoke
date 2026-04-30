@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Environments Docker Sites"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "A verified version of the WebArena Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate-context",
+      "text": "Test Environments Docker Sites"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/webarena-verified",
+      "status": "candidate",
+      "text": "Test Environments Docker Sites"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18656,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18448,
+      "status": "candidate",
+      "text": "step"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18448,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18324,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18324,
+      "status": "candidate",
+      "text": "baths"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Environments Docker Sites",
+  "concept_id": "test-environments-docker-sites",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/test-envs-docker.yml",
+      "source_repo": "ServiceNow/webarena-verified"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Environments Docker Sites",
+      "sense_id": "test-environments-docker-sites#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

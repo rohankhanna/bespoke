@@ -91,6 +91,18 @@
       "source_repo": "TropComplique/mtcnn-pytorch",
       "status": "candidate-context",
       "text": "`pytorch` implementation of **inference stage** of face detection algorithm described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "A High-Quality Real Time Upscaler for Anime Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate-context",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "TropComplique/mtcnn-pytorch",
       "status": "candidate",
       "text": "`pytorch` implementation of **inference stage** of face detection algorithm described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bloc97/Anime4K",
+      "status": "candidate",
+      "text": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language."
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

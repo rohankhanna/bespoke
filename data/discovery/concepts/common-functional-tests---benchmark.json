@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Common Functional Tests - Benchmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "FlagScale is a large model toolkit based on open-sourced projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "Common Functional Tests - Benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate",
+      "text": "Common Functional Tests - Benchmark"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41190,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35210,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34463,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33453,
+      "status": "candidate",
+      "text": "ordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33332,
+      "status": "candidate",
+      "text": "hand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Common Functional Tests - Benchmark",
+  "concept_id": "common-functional-tests---benchmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/functional_tests_benchmark.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common Functional Tests - Benchmark",
+      "sense_id": "common-functional-tests---benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -115,6 +115,78 @@
       "source_repo": "blooper05/action-rails_best_practices",
       "status": "candidate-context",
       "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "OpenAI API + Ruby! \ud83e\udd16\u2764\ufe0f GPT-5 & Realtime WebRTC compatible!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate-context",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "A library for setting up Ruby objects as test data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": ":cake: Version Cake is an unobtrusive way to version APIs in your Rails or Rack apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate-context",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "Rails 4.2+ templating system with JSON, XML and Plist support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate-context",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "Flexible authentication solution for Rails with Warden."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate-context",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "blooper05/action-rails_best_practices",
       "status": "candidate",
       "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexrudall/ruby-openai",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/ruby-openai.svg)](https://rubygems.org/gems/ruby-openai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/ahoy_email",
+      "status": "candidate",
+      "text": "First-party email analytics for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/factory_bot",
+      "status": "candidate",
+      "text": "[![Build Status][ci-image]][ci] [![Gem Version][version-image]][version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwillis/versioncake",
+      "status": "candidate",
+      "text": "![Version Cake](https://raw.github.com/alicial/versioncake/master/images/versioncake-logo450x100.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccocchi/rabl-rails",
+      "status": "candidate",
+      "text": "`rabl-rails` is a ruby templating system for rendering your objects in different format (JSON, XML, PLIST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heartcombo/devise",
+      "status": "candidate",
+      "text": "![Devise Logo](https://raw.github.com/heartcombo/devise/main/devise.png)"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +391,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "alexrudall/ruby-openai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ankane/ahoy_email"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/factory_bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bwillis/versioncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ccocchi/rabl-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

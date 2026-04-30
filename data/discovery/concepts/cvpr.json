@@ -79,6 +79,30 @@
       "source_repo": "khanrc/tcl",
       "status": "candidate-context",
       "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [CVPR 2025] Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate-context",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "khanrc/tcl",
       "status": "candidate",
       "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Luminance-GS",
+      "status": "candidate",
+      "text": "[(Paper Link)](https://arxiv.org/pdf/2504.01503), [(Extended Journal Link)](https://arxiv.org/abs/2602.18322), [(Website Link)](https://cuiziteng.github.io/Luminance_GS_web/)."
     }
   ],
   "candidate_related_terms": [
@@ -174,11 +210,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Luminance-GS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

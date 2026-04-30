@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Pylint",
-    "PyLint"
+    "PyLint",
+    "pylint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -164,6 +167,18 @@
       "source_repo": "lainq/img",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omegacen/pylint-sonarjson",
+      "status": "candidate-context",
+      "text": "A PyLint plugin that outputs to SonarQube-importable JSON with configurable severity, effort, and type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omegacen/pylint-sonarjson",
+      "status": "candidate-context",
+      "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
     }
   ],
   "candidate_glosses": [
@@ -244,6 +259,12 @@
       "source_repo": "lainq/img",
       "status": "candidate",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omegacen/pylint-sonarjson",
+      "status": "candidate",
+      "text": "This project is no longer maintained. For an newer fork and the source of the PyPI package, see https://github.com/cnescatlab/pylint-sonarjson-catlab."
     }
   ],
   "candidate_related_terms": [
@@ -413,11 +434,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "omegacen/pylint-sonarjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

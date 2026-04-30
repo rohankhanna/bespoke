@@ -115,6 +115,18 @@
       "source_repo": "raphamorim/rio",
       "status": "candidate-context",
       "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentbernat/vbeterm",
+      "status": "candidate-context",
+      "text": "Custom terminal based on VTE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentbernat/vbeterm",
+      "status": "candidate-context",
+      "text": "vbeterm"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "raphamorim/rio",
       "status": "candidate",
       "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentbernat/vbeterm",
+      "status": "candidate",
+      "text": "vbeterm"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vincentbernat/vbeterm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

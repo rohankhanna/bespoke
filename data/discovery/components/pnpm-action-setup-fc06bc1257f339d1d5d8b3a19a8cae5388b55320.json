@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -442,6 +442,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/beta_js_api.yml",
       "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-diff.yml",
+      "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ai/nanoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ai/nanoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cluster-ui-release-next.yml",
+      "source_repo": "cockroachdb/cockroach"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cluster-ui-release.yml",
+      "source_repo": "cockroachdb/cockroach"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/autoprefixer"
     }
   ]
 }

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "pack"
+    "pack",
+    "Pack"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "birdofpreyru/react-utils",
       "status": "candidate-context",
       "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate-context",
+      "text": "Pack"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "birdofpreyru/react-utils",
       "status": "candidate",
       "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpustack/gpustack",
+      "status": "candidate",
+      "text": "Pack"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "birdofpreyru/react-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

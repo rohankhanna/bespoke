@@ -235,6 +235,66 @@
       "source_repo": "OpenBMB/MiniCPM-o",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "Source code for \"Taming Visually Guided Sound Generation\" (Oral at the BMVC 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate-context",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning SmolVLM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate-context",
+      "text": "Official pytorch repository for \"QD-DETR : Query-Dependent Video Representation for Moment Retrieval and Highlight Detection\" (CVPR 2023 Paper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate-context",
+      "text": "by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "Semantic Search demo featuring UForm, USearch, UCall, and StreamLit, to visual and retrieve from image datasets, similar to \"CLIP Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate-context",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVL",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4o.  \u63a5\u8fd1GPT-4o\u8868\u73b0\u7684\u5f00\u6e90\u591a\u6a21\u6001\u5bf9\u8bdd\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -349,6 +409,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenBMB/MiniCPM-o",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v-iashin/SpecVQGAN",
+      "status": "candidate",
+      "text": "BMVC 2021 \u2013 Oral Presentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/SmolVLM-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [SmolVLM](https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct) with only using HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/QD-DETR",
+      "status": "candidate",
+      "text": "by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/usearch-images",
+      "status": "candidate",
+      "text": "![USearch Images animated text to image multi-modal AI search](assets/usearch-images-slow.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVL",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -549,11 +639,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "OpenBMB/MiniCPM-o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "v-iashin/SpecVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/SmolVLM-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wjun0830/QD-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/usearch-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

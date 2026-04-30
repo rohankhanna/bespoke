@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJohnnyboy/scretch.nvim",
+      "target": "fzf-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJohnnyboy/scretch.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJohnnyboy/scretch.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xJohnnyboy/scretch.nvim",
+      "target": "telescope",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:56.284693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcdd Neovim plugin to manage scratch files !",
+    "fork": false,
+    "full_name": "0xJohnnyboy/scretch.nvim",
+    "html_url": "https://github.com/0xJohnnyboy/scretch.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-09-11T14:23:35Z",
+    "stargazers_count": 34,
+    "topics": [
+      "fzf-lua",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "telescope"
+    ],
+    "updated_at": "2025-09-14T05:33:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fzf-lua"
+    },
+    {
+      "context_snippet": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Scretch.nvim is a plugin to easily create and manage scratch files \ud83d\ude42.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope"
+    }
+  ]
+}

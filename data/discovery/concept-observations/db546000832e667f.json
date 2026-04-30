@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reverse Instructions to generate instruction tuning data with corpus examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instruction-tuning",
+      "sense_id": "instruction-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "instruction-tuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instruction-tuning",
+  "observation_id": "db546000832e667f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "instruction-tuning",
+  "source_context_snippet": "The LongForm dataset is created by leveraging English corpus examples with the **reverse instructions** method. We select a diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. Then, we \u2026",
+  "source_file": null,
+  "source_repo": "akoksal/LongForm",
+  "source_repo_description": "Reverse Instructions to generate instruction tuning data with corpus examples"
+}

@@ -187,6 +187,66 @@
       "source_repo": "Martinsos/opal",
       "status": "candidate-context",
       "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate-context",
+      "text": "ruby-edlib is a wrapper for edlib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/edlib.svg)](https://badge.fury.io/rb/edlib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate-context",
+      "text": "Searching for structural similarities across billions of molecules in milliseconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate-context",
+      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 R interface for SSW, a fast implementation of the Smith-Waterman algorithm using SIMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": "Data intensive science for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate-context",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "insitro/redun",
+      "status": "candidate-context",
+      "text": "Yet another redundant workflow engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insitro/redun",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/source/_static/redun.svg\" width=\"200\"/>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +339,36 @@
       "source_repo": "Martinsos/opal",
       "status": "candidate",
       "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kojix2/ruby-edlib",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/edlib.svg)](https://badge.fury.io/rb/edlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate",
+      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxstats/ssw-r",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/galaxy",
+      "status": "candidate",
+      "text": ".. figure:: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insitro/redun",
+      "status": "candidate",
+      "text": "<img src=\"docs/source/_static/redun.svg\" width=\"200\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +514,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "kojix2/ruby-edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "nanxstats/ssw-r"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/galaxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "insitro/redun"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

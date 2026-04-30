@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools to make an R developer's life easier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Commands"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Commands"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048963,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048878,
+      "status": "candidate",
+      "text": "bidding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048335,
+      "status": "candidate",
+      "text": "mastery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047800,
+      "status": "candidate",
+      "text": "dominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046136,
+      "status": "candidate",
+      "text": "instruction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commands",
+      "sense_id": "commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commands",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commands",
+  "observation_id": "989b8efbf6011504",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Commands",
+  "source_context_snippet": "Commands",
+  "source_file": ".github/workflows/pr-commands.yaml",
+  "source_repo": "r-lib/devtools",
+  "source_repo_description": "Tools to make an R developer's life easier"
+}

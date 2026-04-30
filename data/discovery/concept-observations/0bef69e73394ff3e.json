@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and accurate AI powered file content types detection "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mime-types",
+      "sense_id": "mime-types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mime-types",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mime-types",
+  "observation_id": "0bef69e73394ff3e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "mime-types",
+  "source_context_snippet": "[![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)",
+  "source_file": null,
+  "source_repo": "google/magika",
+  "source_repo_description": "Fast and accurate AI powered file content types detection "
+}

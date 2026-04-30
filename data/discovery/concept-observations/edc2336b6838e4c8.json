@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MySQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gather Pull Request Metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gather Pull Request Metadata"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33758,
+      "status": "candidate",
+      "text": "tuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33358,
+      "status": "candidate",
+      "text": "tucked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33358,
+      "status": "candidate",
+      "text": "tucking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33254,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32252,
+      "status": "candidate",
+      "text": "manifest"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gather Pull Request Metadata",
+      "sense_id": "gather-pull-request-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gather-pull-request-metadata",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gather-pull-request-metadata",
+  "observation_id": "edc2336b6838e4c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "Gather Pull Request Metadata",
+  "source_context_snippet": "Gather Pull Request Metadata",
+  "source_file": ".github/workflows/pr-metadata.yml",
+  "source_repo": "sclorg/mysql-container",
+  "source_repo_description": "MySQL container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+}

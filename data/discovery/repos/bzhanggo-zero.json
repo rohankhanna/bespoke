@@ -1,0 +1,234 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bzhangGo/zero",
+      "target": "bzhanggo/st_from_scratch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bzhangGo/zero",
+      "target": "bzhanggo/atr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bzhangGo/zero",
+      "target": "bzhanggo/lrn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bzhangGo/zero",
+      "target": "bzhanggo/transformer-aan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "adaptive-feature-selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "average-attention-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "deep-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "depth-scaled-initialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "fast-bidirectional-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "l0drop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "massively-multilingual-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "neural-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "opus-100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bzhangGo/zero",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:18:14.073651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zero -- A neural machine translation system",
+    "fork": false,
+    "full_name": "bzhangGo/zero",
+    "html_url": "https://github.com/bzhangGo/zero",
+    "language": "Python",
+    "pushed_at": "2023-05-08T11:04:53Z",
+    "stargazers_count": 152,
+    "topics": [
+      "aan",
+      "adaptive-feature-selection",
+      "average-attention-network",
+      "deep-transformer",
+      "depth-scaled-initialization",
+      "fast-bidirectional-decoder",
+      "l0drop",
+      "massively-multilingual-translation",
+      "neural-machine-translation",
+      "opus-100",
+      "speech-translation",
+      "transformer"
+    ],
+    "updated_at": "2026-03-17T07:54:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzhanggo/atr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzhanggo/lrn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzhanggo/st_from_scratch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzhanggo/transformer-aan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adaptive-feature-selection"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "average-attention-network"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-transformer"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-scaled-initialization"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-bidirectional-decoder"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "l0drop"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "massively-multilingual-translation"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-machine-translation"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opus-100"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    },
+    {
+      "context_snippet": "A neural machine translation system implemented by python2 + tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

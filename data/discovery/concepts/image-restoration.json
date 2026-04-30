@@ -187,6 +187,78 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate-context",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "AI Image Signal Processing and Computational Photography. Official library for NTIRE (CVPR) and AIM (ICCV/ECCV) Challenges. You will find Learned ISPs, RAW Restoration-Upsampling-Reconstruction, Image Enhancement, Bokeh rendering and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate-context",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "The state-of-the-art image restoration model without nonlinear activation functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate-context",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Multi-Stage Progressive Image Restoration. SOTA results for Image deblurring, deraining, and denoising."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "low-light\ud83d\udca1 image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate-context",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "Tensorflow implementation of MIRNet for Low-light image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate-context",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate-context",
+      "text": "A Toolbox for Binarized Spectral Compressive Imaging (NeurIPS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate-context",
+      "text": "&nbsp;"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +351,42 @@
       "source_repo": "caiyuanhao1998/MST",
       "status": "candidate",
       "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/AISP",
+      "status": "candidate",
+      "text": "[![isp](https://img.shields.io/badge/ISP-paper-lightgreen)](https://arxiv.org/abs/2201.03210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/NAFNet",
+      "status": "candidate",
+      "text": "addict future lmdb numpy opencv-python Pillow pyyaml requests scikit-image scipy tb-nightly tqdm yapf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MPRNet",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rishit-dagli/MIRNet-TFJS",
+      "status": "candidate",
+      "text": "[![Deploy Node.js app](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml/badge.svg)](https://github.com/Rishit-dagli/MIRNet-TFJS/actions/workflows/main_mirnet-tfjs-demo.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "soumik12345/MIRNet",
+      "status": "candidate",
+      "text": "[![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/soumik12345/mirnet/app.py)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/BiSCI",
+      "status": "candidate",
+      "text": "&nbsp;"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +484,47 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "caiyuanhao1998/MST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/AISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/NAFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MPRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Rishit-dagli/MIRNet-TFJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "soumik12345/MIRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/BiSCI"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

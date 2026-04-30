@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/min-max",
+      "target": "5scontrol/5s-user-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/min-max",
+      "target": "5scontrol/manufacturing-automatization-enterprise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/min-max",
+      "target": "5scontrol/operation-control-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "Push Algo Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/min-max",
+      "target": "Push Server Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/min-max",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/min-max",
+      "target": "inventory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/min-max",
+      "target": "inventory-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/min-max",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:19.732766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5553
+    },
+    {
+      "path": "Dockerfile",
+      "size": 266
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157
+    },
+    {
+      "path": ".github/workflows/dev.yml",
+      "size": 407
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/server-docker-image.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically detect number of items left in stock using power of computer vision",
+    "fork": false,
+    "full_name": "5sControl/min-max",
+    "html_url": "https://github.com/5sControl/min-max",
+    "language": "Python",
+    "pushed_at": "2024-04-03T07:00:18Z",
+    "stargazers_count": 3,
+    "topics": [
+      "algorithm",
+      "inventory",
+      "inventory-management",
+      "machine-learning",
+      "python"
+    ],
+    "updated_at": "2025-01-08T14:12:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/manufacturing-automatization-enterprise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/operation-control-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "term": "dev"
+    },
+    {
+      "context_snippet": "Push Algo Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Push Algo Docker image"
+    },
+    {
+      "context_snippet": "Push Server Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "term": "Push Server Docker image"
+    },
+    {
+      "context_snippet": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inventory"
+    },
+    {
+      "context_snippet": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inventory-management"
+    },
+    {
+      "context_snippet": "Min-Max is one of the Official [5sControl](https://5scontrol.com/) algorithms. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to facilitate supply chain management and keep up the optimal stock levels.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

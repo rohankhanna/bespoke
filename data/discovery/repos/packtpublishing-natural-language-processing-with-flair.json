@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:16:08.322074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Natural Language Processing with Flair, published by Packt",
+    "fork": false,
+    "full_name": "PacktPublishing/Natural-Language-Processing-with-Flair",
+    "html_url": "https://github.com/PacktPublishing/Natural-Language-Processing-with-Flair",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-02T12:10:35Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-03-02T12:10:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

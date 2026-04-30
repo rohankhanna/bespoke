@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibm-granite/granite-3.0-language-models",
+      "target": "ibm-granite/dolomite-engine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:26:07.589749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ibm-granite/granite-3.0-language-models",
+    "html_url": "https://github.com/ibm-granite/granite-3.0-language-models",
+    "language": null,
+    "pushed_at": "2025-06-25T20:35:53Z",
+    "stargazers_count": 272,
+    "topics": [],
+    "updated_at": "2026-04-13T09:09:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm-granite/dolomite-engine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

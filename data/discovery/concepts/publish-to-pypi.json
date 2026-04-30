@@ -616,6 +616,66 @@
       "source_repo": "OpenBMB/BMInf",
       "status": "candidate-context",
       "text": "\"Publish to PyPI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Inspect: A framework for large language model evaluations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "We have made you a wrapper you can't refuse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate-context",
+      "text": "A distributed captioning thingy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "Convert HTML to Markdown-formatted text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Drop-in replacement for Requests. Automatic HTTP/1.1, HTTP/2, and HTTP/3. WebSocket, and SSE included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -924,6 +984,36 @@
       "source_repo": "OpenBMB/BMInf",
       "status": "candidate",
       "text": "\"Publish to PyPI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UKGovernmentBEIS/inspect_ai",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-telegram-bot/python-telegram-bot",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/CaptionFlow",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alir3z4/html2text",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/niquests",
+      "status": "candidate",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -1417,11 +1507,77 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "OpenBMB/BMInf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "python-telegram-bot/python-telegram-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "bghira/CaptionFlow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "Alir3z4/html2text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

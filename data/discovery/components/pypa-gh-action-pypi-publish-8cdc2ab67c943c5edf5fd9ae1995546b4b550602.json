@@ -1,0 +1,12 @@
+{
+  "component": "pypa/gh-action-pypi-publish@8cdc2ab67c943c5edf5fd9ae1995546b4b550602",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/language_bindings.yml",
+      "source_repo": "HapticX/happyx"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-lang/gen_stage",
+      "target": "plataformatec/flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-lang/gen_stage",
+      "target": "plataformatec/broadway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/gen_stage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-lang/gen_stage",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:05:20.952769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2412
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Producer and consumer actors with back-pressure for Elixir",
+    "fork": false,
+    "full_name": "elixir-lang/gen_stage",
+    "html_url": "https://github.com/elixir-lang/gen_stage",
+    "language": "Elixir",
+    "pushed_at": "2026-01-09T07:44:33Z",
+    "stargazers_count": 1582,
+    "topics": [],
+    "updated_at": "2026-04-19T00:13:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plataformatec/broadway",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plataformatec/flow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set up commonly used \ud83d\udce6 components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lint-undesirable-functions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lint-undesirable-functions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint-undesirable-functions",
+      "sense_id": "lint-undesirable-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-undesirable-functions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-undesirable-functions",
+  "observation_id": "0071f123d3d1d68c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "lint-undesirable-functions",
+  "source_context_snippet": "lint-undesirable-functions",
+  "source_file": ".github/workflows/lint-undesirable-functions.yaml",
+  "source_repo": "r-lib/usethis",
+  "source_repo_description": "Set up commonly used \ud83d\udce6 components"
+}

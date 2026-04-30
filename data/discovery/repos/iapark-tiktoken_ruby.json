@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml"
+    },
+    {
+      "component": "gjtorikian/actions/.github/workflows/ruby_rust_test_build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "iapark/tiktoken_ruby.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "gjtorikian/actions/.github/workflows/ruby_gem_release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "Tag and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "gjtorikian/actions/.github/workflows/ruby_rust_test_build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "source_repo": "IAPark/tiktoken_ruby",
+      "target": "Test Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:23:52.688812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2967
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 248
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/tag_and_release.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/test_build.yml",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial ruby binding for tiktoken by way of rust",
+    "fork": false,
+    "full_name": "IAPark/tiktoken_ruby",
+    "html_url": "https://github.com/IAPark/tiktoken_ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-01T10:11:04Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-03T18:22:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iapark/tiktoken_ruby.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Tag and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_and_release.yml",
+      "term": "Tag and Release"
+    },
+    {
+      "context_snippet": "Test Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_build.yml",
+      "term": "Test Build"
+    }
+  ]
+}

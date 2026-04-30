@@ -5,28 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
-      "target": "thu-mig/yolov10",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
-      "target": "meituan/yolov6",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
-      "target": "ultralytics/yolov5",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
-      "target": "ultralytics/yolov3",
+      "target": "wongkinyiu/yolov9",
       "target_type": "repository"
     },
     {
@@ -114,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:40:14.285318+00:00",
+  "fetched_at": "2026-04-30T08:14:20.444022+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -151,22 +130,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "meituan/yolov6",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thu-mig/yolov10",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ultralytics/yolov3",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ultralytics/yolov5",
+      "full_name": "wongkinyiu/yolov9",
       "source_file": "README.md"
     }
   ],

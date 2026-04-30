@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AI-Hypercomputer/maxtext",
-      "target": "ai-hypercomputer/maxdiffusion",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/AddLabel.yml",
       "source_repo": "AI-Hypercomputer/maxtext",
@@ -225,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
   "source_repo": "AI-Hypercomputer/maxtext"
 }

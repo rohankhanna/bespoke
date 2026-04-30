@@ -43,6 +43,18 @@
       "source_repo": "mholt/archives",
       "status": "candidate-context",
       "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "Process execution for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate-context",
+      "text": "execa \u2014 Process execution for humans"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mholt/archives",
       "status": "candidate",
       "text": "Introducing **mholt/archives** - a cross-platform, multi-format Go library for working with archives and compression formats with a unified API and as virtual file systems compatible with [`io/fs`](https://pkg.go.dev/io/fs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/execa",
+      "status": "candidate",
+      "text": "execa \u2014 Process execution for humans"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mholt/archives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/execa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

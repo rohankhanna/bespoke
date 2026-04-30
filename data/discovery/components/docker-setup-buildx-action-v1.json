@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -287,6 +287,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "argoproj-labs/argocd-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_docker.yml",
+      "source_repo": "singularity-s0/MOSS_frontend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_yocsef.yaml",
+      "source_repo": "singularity-s0/MOSS_frontend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blender.yml",
+      "source_repo": "google-research/kubric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kubruntu.yml",
+      "source_repo": "google-research/kubric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kubruntudev.yml",
+      "source_repo": "google-research/kubric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
     }
   ]
 }

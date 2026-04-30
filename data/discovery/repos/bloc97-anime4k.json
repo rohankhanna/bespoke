@@ -1,0 +1,248 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bloc97/Anime4K",
+      "target": "igv/fsrcnn-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bloc97/Anime4K",
+      "target": "blinue/magpie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bloc97/Anime4K",
+      "target": "andraantariksa/anime4k-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bloc97/Anime4K",
+      "target": "anime4kwebboost/anime4k-webgpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "anime-upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "anime4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "denoising-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "upsampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bloc97/Anime4K",
+      "target": "video-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:19:28.847896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A High-Quality Real Time Upscaler for Anime Video",
+    "fork": false,
+    "full_name": "bloc97/Anime4K",
+    "html_url": "https://github.com/bloc97/Anime4K",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-17T12:09:12Z",
+    "stargazers_count": 20908,
+    "topics": [
+      "anime",
+      "anime-upscaling",
+      "anime4k",
+      "cnn",
+      "computer-graphics",
+      "convolutional-neural-networks",
+      "denoising-algorithms",
+      "neural-networks",
+      "super-resolution",
+      "upsampling",
+      "upscaling",
+      "video",
+      "video-processing"
+    ],
+    "updated_at": "2026-04-30T04:49:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andraantariksa/anime4k-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anime4kwebboost/anime4k-webgpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinue/magpie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igv/fsrcnn-tensorflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime-upscaling"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime4k"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising-algorithms"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upsampling"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "Anime4K is a set of open-source, high-quality real-time anime upscaling/denoising algorithms that can be implemented in any programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    }
+  ]
+}

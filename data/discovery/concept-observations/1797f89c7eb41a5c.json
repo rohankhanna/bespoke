@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29644468,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29343921,
+      "status": "candidate",
+      "text": "rhine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29341072,
+      "status": "candidate",
+      "text": "meuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903272,
+      "status": "candidate",
+      "text": "mosa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903271,
+      "status": "candidate",
+      "text": "amasi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maas",
+      "sense_id": "maas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maas",
+  "observation_id": "1797f89c7eb41a5c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "maas",
+  "source_context_snippet": "<br>",
+  "source_file": null,
+  "source_repo": "gpustack/gpustack",
+  "source_repo_description": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment."
+}

@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "gang-scheduling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "multi-tenancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler",
+      "target": "scheduling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:13:40.926840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7719
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Kubernetes Scheduler for Deep Learning",
+    "fork": false,
+    "full_name": "microsoft/hivedscheduler",
+    "html_url": "https://github.com/microsoft/hivedscheduler",
+    "language": "Go",
+    "pushed_at": "2022-05-22T08:55:20Z",
+    "stargazers_count": 263,
+    "topics": [
+      "artificial-intelligence",
+      "containers",
+      "deep-learning",
+      "gang-scheduling",
+      "kubernetes",
+      "multi-tenancy",
+      "scheduling"
+    ],
+    "updated_at": "2026-04-03T04:22:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gang-scheduling"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-tenancy"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduling"
+    }
+  ]
+}

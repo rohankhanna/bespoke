@@ -1195,6 +1195,126 @@
       "source_repo": "sunnweiwei/RankGPT",
       "status": "candidate-context",
       "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A minimal training framework for scaling FLA models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/qwen.cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of Qwen-LM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/qwen.cpp",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/MGM",
+      "status": "candidate-context",
+      "text": "Official repo for \"Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/MGM",
+      "status": "candidate-context",
+      "text": "<a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate-context",
+      "text": "Official implementation for \"Automatic Chain of Thought Prompting in Large Language Models\" (stay tuned & more will be updated)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate-context",
+      "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 Best Paper Award][GPT beats diffusion\ud83d\udd25] [scaling laws in visual generation\ud83d\udcc8] Official impl. of \"Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction\". An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "Large-scale, Informative, and Diverse Multi-round Chat Data (and Models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "Eagle: Frontier Vision-Language Models with Data-Centric Strategies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "[ICLR'25] BigCodeBench: Benchmarking Code Generation Towards AGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate-context",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate-context",
+      "text": "The official repo of MiniMax-Text-01 and MiniMax-VL-01, large-language-model & vision-language-model based on Linear Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587Mixtral\u6df7\u5408\u4e13\u5bb6\u5927\u6a21\u578b\uff08Chinese Mixtral MoE LLMs\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1791,6 +1911,66 @@
       "source_repo": "sunnweiwei/RankGPT",
       "status": "candidate",
       "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flame",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/qwen.cpp",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/MGM",
+      "status": "candidate",
+      "text": "<a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/auto-cot",
+      "status": "candidate",
+      "text": "[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/VAR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/UltraChat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Eagle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigcode-project/bigcodebench",
+      "status": "candidate",
+      "text": "<center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiniMax-AI/MiniMax-01",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-Mixtral",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-Mixtral/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-Mixtral/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-Mixtral/discussions) | [**\u2694\ufe0f\u7ade\u6280\u573a/A\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2770,11 +2950,179 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "sunnweiwei/RankGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flame"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/qwen.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amazon-science/auto-cot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/VAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/UltraChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Eagle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bigcode-project/bigcodebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "MiniMax-AI/MiniMax-01"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-Mixtral"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

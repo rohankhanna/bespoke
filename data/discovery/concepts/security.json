@@ -1072,6 +1072,126 @@
       "source_repo": "humbug/php-scoper",
       "status": "candidate-context",
       "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "Light LDAP implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "Package gorilla/securecookie encodes and decodes authenticated and optionally encrypted cookie values for Go web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate-context",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "Sandboxes for every agent. Embeddable, stateful, snapshots, and hardware isolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/boxlite-ai/boxlite?style=social)](https://github.com/boxlite-ai/boxlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "A Sigstore client written in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate-context",
+      "text": "sigstore-python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate-context",
+      "text": "Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate-context",
+      "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\ude80 Fast, zero config application bundler with PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "DoomArena is a Framework for Testing AI Agents Against Evolving Security Threats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate-context",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
     }
   ],
   "candidate_glosses": [
@@ -1596,6 +1716,66 @@
       "source_repo": "humbug/php-scoper",
       "status": "candidate",
       "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lldap/lldap",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">lldap - Light LDAP implementation for authentication</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/securecookie",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tenable/terrascan",
+      "status": "candidate",
+      "text": "> - This project is no longer maintained. The repository is archived and no further updates, issues, or pull requests will be accepted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/boxlite-ai/boxlite?style=social)](https://github.com/boxlite-ai/boxlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-python",
+      "status": "candidate",
+      "text": "sigstore-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drduh/YubiKey-Guide",
+      "status": "candidate",
+      "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "box-project/box",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ServiceNow/DoomArena",
+      "status": "candidate",
+      "text": "<a href='https://arxiv.org/abs/2504.14064'><img src=\"https://img.shields.io/badge/Arxiv-2504.14064-A42C25?style=flat&logo=arXiv&logoColor=A42C25\"></img></a>"
     }
   ],
   "candidate_related_terms": [
@@ -2281,11 +2461,101 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/security.yaml",
       "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lldap/lldap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pallets/itsdangerous"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "gorilla/securecookie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tenable/terrascan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/sigstore-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "drduh/YubiKey-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ServiceNow/DoomArena"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

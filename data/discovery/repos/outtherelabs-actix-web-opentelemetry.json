@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "actix-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "jaeger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OutThereLabs/actix-web-opentelemetry",
+      "target": "opentelemetry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:16:57.342081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2140
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenTelemetry integration for Actix Web",
+    "fork": false,
+    "full_name": "OutThereLabs/actix-web-opentelemetry",
+    "html_url": "https://github.com/OutThereLabs/actix-web-opentelemetry",
+    "language": "Rust",
+    "pushed_at": "2025-03-27T20:55:33Z",
+    "stargazers_count": 81,
+    "topics": [
+      "actix-web",
+      "jaeger",
+      "opentelemetry"
+    ],
+    "updated_at": "2026-04-07T14:03:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actix-web"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jaeger"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/OutThereLabs/actix-web-opentelemetry/workflows/CI/badge.svg)](https://github.com/OutThereLabs/actix-web-opentelemetry/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "gpustack/.github/.github/actions/maximize-docker-build-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    },
+    {
+      "component": "lizheming/github-translate-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "korthout/backport-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "gpustack/.github/.github/actions/maximize-docker-build-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "reproducible-containers/buildkit-cache-dance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pack.yaml",
+      "source_repo": "gpustack/gpustack",
+      "target": "Pack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "PR Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "lizheming/github-translate-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "source_repo": "gpustack/gpustack",
+      "target": "Translate GitHub content into English",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "ascend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "distributed-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "high-performance-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "maas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "mindie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "sglang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpustack/gpustack",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:10:35.593976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10412
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3243
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1927
+    },
+    {
+      "path": ".github/workflows/pack.yaml",
+      "size": 8253
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 997
+    },
+    {
+      "path": ".github/workflows/translate.yml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment.",
+    "fork": false,
+    "full_name": "gpustack/gpustack",
+    "html_url": "https://github.com/gpustack/gpustack",
+    "language": "Python",
+    "pushed_at": "2026-04-30T07:31:36Z",
+    "stargazers_count": 4946,
+    "topics": [
+      "ascend",
+      "cuda",
+      "deepseek",
+      "distributed-inference",
+      "genai",
+      "high-performance-inference",
+      "inference",
+      "llama",
+      "llm",
+      "llm-inference",
+      "llm-serving",
+      "maas",
+      "mindie",
+      "openai",
+      "qwen",
+      "rocm",
+      "sglang",
+      "vllm"
+    ],
+    "updated_at": "2026-04-30T08:03:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "Pack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pack.yaml",
+      "term": "Pack"
+    },
+    {
+      "context_snippet": "PR Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Checking"
+    },
+    {
+      "context_snippet": "'Translate GitHub content into English'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translate.yml",
+      "term": "Translate GitHub content into English"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascend"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-inference"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-inference"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maas"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mindie"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sglang"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

@@ -107,6 +107,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "all-contributors/app",
+      "target": "apps/allcontributors",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/app",
@@ -317,7 +324,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:56:02.687591+00:00",
+  "fetched_at": "2026-04-30T09:22:37.733228+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,7 +357,7 @@
     "html_url": "https://github.com/all-contributors/app",
     "language": "JavaScript",
     "pushed_at": "2026-04-10T03:29:33Z",
-    "stargazers_count": 622,
+    "stargazers_count": 623,
     "topics": [
       "acknowledgements",
       "all-contributors",
@@ -362,7 +369,7 @@
       "probot-app",
       "recognition"
     ],
-    "updated_at": "2026-04-14T07:37:57Z"
+    "updated_at": "2026-04-30T07:07:37Z"
   },
   "repo_links": [
     {
@@ -373,6 +380,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors-bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apps/allcontributors",
       "source_file": "README.md"
     }
   ],

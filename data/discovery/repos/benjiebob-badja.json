@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:21:09.614849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark Animal Dataset of Joint Annotations (BADJA) with example code, as introduced in \"Creatures Great and SMAL: Recovering the shape and motion of animals from video\" (ACCV 2018).",
+    "fork": false,
+    "full_name": "benjiebob/BADJA",
+    "html_url": "https://github.com/benjiebob/BADJA",
+    "language": "Python",
+    "pushed_at": "2024-11-02T19:38:29Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-12-09T00:00:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

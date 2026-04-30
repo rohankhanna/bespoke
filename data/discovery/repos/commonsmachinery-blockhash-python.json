@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:07:48.737349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of perceptual image hash calculation in Python",
+    "fork": false,
+    "full_name": "commonsmachinery/blockhash-python",
+    "html_url": "https://github.com/commonsmachinery/blockhash-python",
+    "language": "Python",
+    "pushed_at": "2023-10-31T02:21:34Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-02-16T20:44:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

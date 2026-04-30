@@ -958,6 +958,78 @@
       "source_repo": "microsoft/frameworkcontroller",
       "status": "candidate-context",
       "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate-context",
+      "text": "Testing building mulled containers for multi-requirement tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate-context",
+      "text": "[![Build image](https://github.com/BioContainers/multi-package-containers/workflows/Build%20image/badge.svg)](https://github.com/BioContainers/multi-package-containers/actions?query=workflow%3A%22Build+image%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate-context",
+      "text": "The use of this Docker image simplifies the process of running an Android emulator within a Docker container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate-context",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "Sandboxes for every agent. Embeddable, stateful, snapshots, and hardware isolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/boxlite-ai/boxlite?style=social)](https://github.com/boxlite-ai/boxlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate-context",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "Kubernetes Scheduler for Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -1434,6 +1506,42 @@
       "source_repo": "microsoft/frameworkcontroller",
       "status": "candidate",
       "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BioContainers/multi-package-containers",
+      "status": "candidate",
+      "text": "[![Build image](https://github.com/BioContainers/multi-package-containers/workflows/Build%20image/badge.svg)](https://github.com/BioContainers/multi-package-containers/actions?query=workflow%3A%22Build+image%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amrsa1/Android-Emulator-image",
+      "status": "candidate",
+      "text": "This repository provides two different Docker workflows depending on the target architecture. On `linux/amd64`, it can build and run an Android emulator inside Docker. On `linux/arm64`, including Apple Silicon, it provides Appium plus `adb` tooling for real-device automation, bu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boxlite-ai/boxlite",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/boxlite-ai/boxlite?style=social)](https://github.com/boxlite-ai/boxlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dagger/dagger",
+      "status": "candidate",
+      "text": "Dagger is a platform for automating software delivery. It can build, test and ship any codebase, reliably and at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate",
+      "text": "containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_related_terms": [
@@ -2149,11 +2257,95 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "microsoft/frameworkcontroller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "BioContainers/multi-package-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "amrsa1/Android-Emulator-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dagger/dagger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "distribution/distribution"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

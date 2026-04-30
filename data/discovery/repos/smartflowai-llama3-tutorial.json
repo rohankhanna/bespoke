@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:26:20.944840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Llama3-Tutorial\uff08XTuner\u3001LMDeploy\u3001OpenCompass\uff09",
+    "fork": false,
+    "full_name": "SmartFlowAI/Llama3-Tutorial",
+    "html_url": "https://github.com/SmartFlowAI/Llama3-Tutorial",
+    "language": "Python",
+    "pushed_at": "2024-05-10T04:50:03Z",
+    "stargazers_count": 509,
+    "topics": [],
+    "updated_at": "2026-04-23T04:59:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

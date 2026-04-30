@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-oops",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-oops",
+      "target": "externs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-oops",
+      "target": "interop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:05.509526+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClojureScript macros for convenient native Javascript object access.",
+    "fork": false,
+    "full_name": "binaryage/cljs-oops",
+    "html_url": "https://github.com/binaryage/cljs-oops",
+    "language": "Clojure",
+    "pushed_at": "2022-03-05T20:00:18Z",
+    "stargazers_count": 351,
+    "topics": [
+      "clojurescript",
+      "externs",
+      "interop"
+    ],
+    "updated_at": "2026-01-22T11:43:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ClojureScript macros for convenient native Javascript object access.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "ClojureScript macros for convenient native Javascript object access.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "externs"
+    },
+    {
+      "context_snippet": "ClojureScript macros for convenient native Javascript object access.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interop"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image-on-demand-ec2.yml",
+      "source_repo": "risingwavelabs/risingwave"
+    }
+  ],
+  "term": "Build Docker Image on On-Demand EC2"
+}

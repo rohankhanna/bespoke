@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T07:04:14.115042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image Diffusion block merging technique applied to transformers based Language Models.",
+    "fork": false,
+    "full_name": "TehVenomm/LM_Transformers_BlockMerge",
+    "html_url": "https://github.com/TehVenomm/LM_Transformers_BlockMerge",
+    "language": "Python",
+    "pushed_at": "2023-05-08T07:46:52Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2025-11-19T11:32:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

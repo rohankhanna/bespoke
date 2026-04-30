@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "jbergstroem/hadolint-gh-action@d2f58da7f4f242dc0b6c5ef882ad4f8e871ba96b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml"
+    },
+    {
+      "component": "go-openapi/gh-actions/ci-jobs/bot-credentials@1ade8c4f9415b844bec4a7545967157c5bace961",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-examples-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "go-openapi/strfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "go-openapi/swag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "jbergstroem/hadolint-gh-action@d2f58da7f4f242dc0b6c5ef882ad4f8e871ba96b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "build-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-examples-pr.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "go-openapi/gh-actions/ci-jobs/bot-credentials@1ade8c4f9415b844bec4a7545967157c5bace961",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-examples-pr.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "Close examples PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-latest.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "Update latest documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yaml",
+      "source_repo": "go-swagger/go-swagger",
+      "target": "docker-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger",
+      "target": "swagger-codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger",
+      "target": "swagger-spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-swagger/go-swagger",
+      "target": "swagger-specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:12:02.140899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9315
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1045
+    },
+    {
+      "path": "go.mod",
+      "size": 3238
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 6415
+    },
+    {
+      "path": ".github/workflows/auto-merge.yaml",
+      "size": 1759
+    },
+    {
+      "path": ".github/workflows/build-docker.yaml",
+      "size": 9439
+    },
+    {
+      "path": ".github/workflows/close-examples-pr.yaml",
+      "size": 1575
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/doc-latest.yaml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/master.yaml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swagger 2.0 implementation for go",
+    "fork": false,
+    "full_name": "go-swagger/go-swagger",
+    "html_url": "https://github.com/go-swagger/go-swagger",
+    "language": "Go",
+    "pushed_at": "2026-04-24T16:34:32Z",
+    "stargazers_count": 9973,
+    "topics": [
+      "api",
+      "code-generator",
+      "go",
+      "golang",
+      "swagger-codegen",
+      "swagger-spec",
+      "swagger-specification"
+    ],
+    "updated_at": "2026-04-27T16:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-openapi/strfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-openapi/swag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "build-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "term": "build-docker"
+    },
+    {
+      "context_snippet": "Close examples PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-examples-pr.yaml",
+      "term": "Close examples PR"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Update latest documentation\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-latest.yaml",
+      "term": "Update latest documentation"
+    },
+    {
+      "context_snippet": "docker-dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yaml",
+      "term": "docker-dev"
+    },
+    {
+      "context_snippet": "<!-- Badges: status -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "<!-- Badges: status -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<!-- Badges: status -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-codegen"
+    },
+    {
+      "context_snippet": "<!-- Badges: status -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-spec"
+    },
+    {
+      "context_snippet": "<!-- Badges: status -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-specification"
+    }
+  ]
+}

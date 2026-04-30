@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-gl/glow",
+      "target": "khronosgroup/egl-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-gl/glow",
+      "target": "chsc/gogl2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:22:38.189597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3444
+    },
+    {
+      "path": "go.mod",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go binding generator for OpenGL",
+    "fork": false,
+    "full_name": "go-gl/glow",
+    "html_url": "https://github.com/go-gl/glow",
+    "language": "Go",
+    "pushed_at": "2026-03-31T23:27:45Z",
+    "stargazers_count": 266,
+    "topics": [],
+    "updated_at": "2026-03-31T23:28:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chsc/gogl2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/egl-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

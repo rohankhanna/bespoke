@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml"
+    },
+    {
+      "component": "azure/CLI@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml"
+    },
+    {
+      "component": "microsoft/security-devops-action@preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "Azure/setup-azd@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "IEvangelist/profanity-filter@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity-filter.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "codespaces/new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "ievangelist/blazor-azure-openai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "azure/CLI@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "microsoft/security-devops-action@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Validate AZD template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Azure/setup-azd@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Main Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Build & Test .NET Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "IEvangelist/profanity-filter@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Profanity filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "ai-azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "azd-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure-Samples/azure-search-openai-demo-csharp",
+      "target": "dotnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:30:39.986311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27076
+    },
+    {
+      "path": ".github/workflows/azure-dev-validation.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/azure-dev.yml",
+      "size": 3713
+    },
+    {
+      "path": ".github/workflows/dotnet-build.yml",
+      "size": 527
+    },
+    {
+      "path": ".github/workflows/profanity-filter.yml",
+      "size": 624
+    },
+    {
+      "path": ".github/workflows/stale-bot.yml",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. ",
+    "fork": false,
+    "full_name": "Azure-Samples/azure-search-openai-demo-csharp",
+    "html_url": "https://github.com/Azure-Samples/azure-search-openai-demo-csharp",
+    "language": "C#",
+    "pushed_at": "2025-07-29T20:22:37Z",
+    "stargazers_count": 833,
+    "topics": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "chatgpt",
+      "csharp",
+      "dotnet",
+      "openai"
+    ],
+    "updated_at": "2026-04-29T09:27:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/new",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ievangelist/blazor-azure-openai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate AZD template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev-validation.yml",
+      "term": "Validate AZD template"
+    },
+    {
+      "context_snippet": "Main Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "term": "Main Deployment"
+    },
+    {
+      "context_snippet": "Build & Test .NET Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "term": "Build & Test .NET Deployment"
+    },
+    {
+      "context_snippet": "Profanity filter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profanity-filter.yml",
+      "term": "Profanity filter"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-azd-templates"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azd-templates"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    }
+  ]
+}

@@ -57,6 +57,12 @@
       "source_repo": "BinomialLLC/basis_universal",
       "status": "candidate-context",
       "text": "\ud83d\udcca Static Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-far/holosoma",
+      "status": "candidate-context",
+      "text": "Static Checks"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +89,12 @@
       "source_repo": "BinomialLLC/basis_universal",
       "status": "candidate",
       "text": "\ud83d\udcca Static Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-far/holosoma",
+      "status": "candidate",
+      "text": "Static Checks"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +168,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/static_checks.yml",
       "source_repo": "BinomialLLC/basis_universal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/static-checks.yaml",
+      "source_repo": "amazon-far/holosoma"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

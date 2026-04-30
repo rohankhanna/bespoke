@@ -5,18 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jt-zhang/Sparse_Attention_API",
-      "target": "thu-ml/spargeattn",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jt-zhang/Sparse_Attention_API",
       "target": "jt-zhang/sparse_sageattention_api",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T03:56:08.493343+00:00",
+  "fetched_at": "2026-04-30T08:20:54.189905+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jt-zhang/sparse_sageattention_api",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thu-ml/spargeattn",
       "source_file": "README.md"
     }
   ],

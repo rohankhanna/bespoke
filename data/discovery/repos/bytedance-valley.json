@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Valley",
+      "target": "nvlabs/eagle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Valley",
+      "target": "pku-yuangroup/llava-cot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Valley",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/Valley",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:02:09.374902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14975
+    },
+    {
+      "path": "requirements.txt",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Valley is a cutting-edge multimodal large model designed to handle a variety of tasks involving text, images, and video data.",
+    "fork": false,
+    "full_name": "bytedance/Valley",
+    "html_url": "https://github.com/bytedance/Valley",
+    "language": "Python",
+    "pushed_at": "2026-04-28T15:59:52Z",
+    "stargazers_count": 280,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-04-28T15:59:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/eagle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/llava-cot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

@@ -23,20 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/php",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/versions",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ScoopInstaller/Scoop",
@@ -86,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:56:08.368914+00:00",
+  "fetched_at": "2026-04-30T08:24:22.953774+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,27 +93,16 @@
     "html_url": "https://github.com/ScoopInstaller/Scoop",
     "language": "PowerShell",
     "pushed_at": "2026-04-27T14:01:34Z",
-    "stargazers_count": 24030,
+    "stargazers_count": 24033,
     "topics": [
       "installer",
       "powershell",
       "scoop",
       "windows"
     ],
-    "updated_at": "2026-04-29T19:38:49Z"
+    "updated_at": "2026-04-30T05:11:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/php",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/versions",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Scoop Core CI Tests",

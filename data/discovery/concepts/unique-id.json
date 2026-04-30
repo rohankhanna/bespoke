@@ -19,6 +19,54 @@
       "source_repo": "segmentio/ksuid",
       "status": "candidate-context",
       "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID generator yields k-ordered, conflict-free ids in a distributed environment in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate-context",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "A Java implementation of K-Sortable Unique Identifiers (KSUID)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate-context",
+      "text": "KSUID Creator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs for .Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "status": "candidate-context",
+      "text": "This library implements the [K-Sortable Globally Unique IDs](https://github.com/segmentio/ksuid) from Segment. See also the article called [A Brief History of the UUID](https://segment.com/blog/a-brief-history-of-the-uuid/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "segmentio/ksuid",
       "status": "candidate",
       "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipermind/flake-idgen",
+      "status": "candidate",
+      "text": "Flake ID Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f4b6a3/ksuid-creator",
+      "status": "candidate",
+      "text": "KSUID Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoyMoe/Ksuid.Net",
+      "status": "candidate",
+      "text": "This library implements the [K-Sortable Globally Unique IDs](https://github.com/segmentio/ksuid) from Segment. See also the article called [A Brief History of the UUID](https://segment.com/blog/a-brief-history-of-the-uuid/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksuid/ksuid",
+      "status": "candidate",
+      "text": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ksuid/ksuid)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "segmentio/ksuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "f4b6a3/ksuid-creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "JoyMoe/Ksuid.Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ksuid/ksuid"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

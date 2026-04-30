@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jy0205/Pyramid-Flow",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jy0205/Pyramid-Flow",
+      "target": "nju-pcalab/openvid-1m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jy0205/Pyramid-Flow",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jy0205/Pyramid-Flow",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jy0205/Pyramid-Flow",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:08.299069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16163
+    },
+    {
+      "path": "requirements.txt",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] Pyramidal Flow Matching for Efficient Video Generative Modeling",
+    "fork": false,
+    "full_name": "jy0205/Pyramid-Flow",
+    "html_url": "https://github.com/jy0205/Pyramid-Flow",
+    "language": "Python",
+    "pushed_at": "2024-12-21T19:11:41Z",
+    "stargazers_count": 3184,
+    "topics": [
+      "diffusion-models",
+      "flow-matching",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T21:58:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nju-pcalab/openvid-1m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cypress-io/github-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "wrkout/exercises.json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "cypress-io/github-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "exercise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "exercises",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "fitness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "fitness-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "fitnessapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "open-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "public-domain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuhonas/free-exercise-db",
+      "target": "workout-apps",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:24:47.158143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5826
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Public Domain Exercise Dataset in JSON format, over 800 exercises with a browsable public searchable frontend",
+    "fork": false,
+    "full_name": "yuhonas/free-exercise-db",
+    "html_url": "https://github.com/yuhonas/free-exercise-db",
+    "language": "Vue",
+    "pushed_at": "2026-04-05T02:43:19Z",
+    "stargazers_count": 1325,
+    "topics": [
+      "data",
+      "database",
+      "exercise",
+      "exercises",
+      "fitness",
+      "fitness-app",
+      "fitnessapp",
+      "free",
+      "open-data",
+      "public-domain",
+      "workout-apps"
+    ],
+    "updated_at": "2026-04-30T07:00:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wrkout/exercises.json",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exercise"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exercises"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fitness"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fitness-app"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fitnessapp"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-data"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "public-domain"
+    },
+    {
+      "context_snippet": "Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workout-apps"
+    }
+  ]
+}

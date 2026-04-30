@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-resizablearraybuffer",
+      "target": "syg/proposal-arraybuffer-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-resizablearraybuffer",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-resizablearraybuffer",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:26:48.990801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13695
+    },
+    {
+      "path": "package.json",
+      "size": 590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Proposal for resizable array buffers",
+    "fork": false,
+    "full_name": "tc39/proposal-resizablearraybuffer",
+    "html_url": "https://github.com/tc39/proposal-resizablearraybuffer",
+    "language": "HTML",
+    "pushed_at": "2023-10-24T20:09:08Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-10T19:11:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syg/proposal-arraybuffer-transfer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

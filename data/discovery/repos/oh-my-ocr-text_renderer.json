@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "lcy0604/erasenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "Sphinx Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "oh-my-ocr/text_renderer",
+      "target": "pytest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:14:12.891950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15752
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate text line images for training deep learning OCR models",
+    "fork": false,
+    "full_name": "oh-my-ocr/text_renderer",
+    "html_url": "https://github.com/oh-my-ocr/text_renderer",
+    "language": "Python",
+    "pushed_at": "2026-04-20T07:44:53Z",
+    "stargazers_count": 910,
+    "topics": [],
+    "updated_at": "2026-04-29T16:22:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/crnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lcy0604/erasenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sphinx Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Sphinx Pages"
+    },
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "enselic/cargo-public-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "rust-analyzer/rust-analyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "rust-lang/rust-semverver",
+      "target": "Style check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:15:39.192385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10367
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2795
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 1003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Automatic checking for semantic versioning in library crates",
+    "fork": false,
+    "full_name": "rust-lang/rust-semverver",
+    "html_url": "https://github.com/rust-lang/rust-semverver",
+    "language": "Rust",
+    "pushed_at": "2023-07-17T03:21:55Z",
+    "stargazers_count": 631,
+    "topics": [],
+    "updated_at": "2026-04-29T13:06:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enselic/cargo-public-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-analyzer/rust-analyzer",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to crates.io"
+    },
+    {
+      "context_snippet": "Style check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "Style check"
+    }
+  ]
+}

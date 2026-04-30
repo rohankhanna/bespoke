@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/PoseDiffusion",
+      "target": "amyxlase/relpose-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/PoseDiffusion",
+      "target": "cvg/hierarchical-localization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/PoseDiffusion",
+      "target": "jasonyzhang/relpose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:21:21.197666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] PoseDiffusion: Solving Pose Estimation via Diffusion-aided Bundle Adjustment",
+    "fork": false,
+    "full_name": "facebookresearch/PoseDiffusion",
+    "html_url": "https://github.com/facebookresearch/PoseDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-11-11T01:44:57Z",
+    "stargazers_count": 765,
+    "topics": [],
+    "updated_at": "2026-04-28T14:06:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amyxlase/relpose-plus-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvg/hierarchical-localization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasonyzhang/relpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

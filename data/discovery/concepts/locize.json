@@ -43,6 +43,18 @@
       "source_repo": "locize/locize-lastused",
       "status": "candidate-context",
       "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locizify",
+      "status": "candidate-context",
+      "text": "script for using locize service in frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locizify",
+      "status": "candidate-context",
+      "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "locize/locize-lastused",
       "status": "candidate",
       "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locizify",
+      "status": "candidate",
+      "text": "[![Coveralls](https://img.shields.io/coveralls/locize/locizify/master.svg?style=flat-square)](https://coveralls.io/github/locize/locizify)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "locize/locize-lastused"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "locize/locizify"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

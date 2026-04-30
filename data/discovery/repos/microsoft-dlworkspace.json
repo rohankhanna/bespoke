@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:13:35.842950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep Learning Workspace",
+    "fork": false,
+    "full_name": "microsoft/DLWorkspace",
+    "html_url": "https://github.com/microsoft/DLWorkspace",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-18T22:18:44Z",
+    "stargazers_count": 204,
+    "topics": [],
+    "updated_at": "2025-11-25T19:28:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -764,7 +764,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:42:01.915204+00:00",
+  "fetched_at": "2026-04-30T09:14:05.883321+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -796,8 +796,8 @@
     "full_name": "wasm-bindgen/wasm-bindgen",
     "html_url": "https://github.com/wasm-bindgen/wasm-bindgen",
     "language": "Rust",
-    "pushed_at": "2026-04-29T06:20:29Z",
-    "stargazers_count": 8976,
+    "pushed_at": "2026-04-30T02:24:03Z",
+    "stargazers_count": 8975,
     "topics": [
       "binding-generator",
       "javascript",
@@ -805,7 +805,7 @@
       "rust-wasm",
       "wasm"
     ],
-    "updated_at": "2026-04-29T22:26:43Z"
+    "updated_at": "2026-04-30T07:17:04Z"
   },
   "repo_links": [],
   "terms": [

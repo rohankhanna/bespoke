@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/copilot-language-server-release",
+      "target": "features/copilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/copilot-language-server-release",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:07:45.796283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Feedback for the GitHub Copilot Language Server",
+    "fork": false,
+    "full_name": "github/copilot-language-server-release",
+    "html_url": "https://github.com/github/copilot-language-server-release",
+    "language": null,
+    "pushed_at": "2026-04-29T23:42:04Z",
+    "stargazers_count": 269,
+    "topics": [
+      "ai",
+      "copilot",
+      "language-server-protocol"
+    ],
+    "updated_at": "2026-04-29T23:41:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "features/copilot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Copilot Language Server enables any editor or IDE to integrate with GitHub",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    }
+  ]
+}

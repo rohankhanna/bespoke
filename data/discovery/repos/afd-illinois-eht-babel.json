@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T08:09:37.972089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tools for converting GRMHD data to iharm HDF5 format",
+    "fork": false,
+    "full_name": "AFD-Illinois/EHT-babel",
+    "html_url": "https://github.com/AFD-Illinois/EHT-babel",
+    "language": "C",
+    "pushed_at": "2024-03-06T17:02:07Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-08-05T15:50:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

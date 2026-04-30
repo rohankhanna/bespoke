@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -57,6 +59,24 @@
       "source_repo": "postgis/postgis",
       "status": "candidate-context",
       "text": "MSYS2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate-context",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate-context",
+      "text": "MSYS2 based RubyInstaller for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate-context",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +103,18 @@
       "source_repo": "postgis/postgis",
       "status": "candidate",
       "text": "MSYS2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-isatty",
+      "status": "candidate",
+      "text": "[![Godoc Reference](https://godoc.org/github.com/mattn/go-isatty?status.svg)](http://godoc.org/github.com/mattn/go-isatty)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oneclick/rubyinstaller2",
+      "status": "candidate",
+      "text": "[![CI build status](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml/badge.svg)](https://github.com/oneclick/rubyinstaller2/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -114,11 +146,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/msys.yml",
       "source_repo": "postgis/postgis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-isatty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "oneclick/rubyinstaller2"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

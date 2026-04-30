@@ -84,7 +84,7 @@
   "normalized_form": "nightly-push",
   "observation_id": "3a95a99701aff1b4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
   "observed_text": "Nightly Push",
   "source_context_snippet": "Nightly Push",
   "source_file": ".github/workflows/nightly.yaml",

@@ -1,0 +1,12 @@
+{
+  "component": "caltechlibrary/codemeta2cff@99ce10831c3037a067c3d9551d455638e0b438ac",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "PyThaiNLP/pythainlp"
+    }
+  ]
+}

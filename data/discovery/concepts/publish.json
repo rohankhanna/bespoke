@@ -1840,6 +1840,318 @@
       "source_repo": "prometheus/alertmanager",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "An effective DevOps analysis and auto-suggest tool\u3002Coco \u662f\u4e00\u4e2a\u7814\u53d1\u6548\u80fd\u5206\u6790\u5de5\u5177\uff0c\u5982\u56e2\u961f\u53d1\u5c55\u73b0\u72b6\uff08\u6839\u636e\u67b6\u6784\u590d\u6742\u5ea6\u53ca\u884c\u6570\u53d8\u66f4\uff09\u3001\u56e2\u961f\u6f14\u8fdb\u3001\u5386\u53f2\u5206\u6790\u7b49\u3002\u751f\u6210\u53ef\u89c6\u5316\u62a5\u544a\u53ca\u5bf9\u5e94\u7684\u6539\u8fdb\u5efa\u8bae\u3002 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for LaTeX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Reactive Microservices for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/typstyle-tampermonkey",
+      "status": "candidate-context",
+      "text": "Format code using typstyle in typst.app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle-tampermonkey",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "HyperFormula is an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "Rust audio playback library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Rust-based static site generator for Markdown documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "A fast Python in-process signal/event dispatching system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "Python composable command line interface toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "The comprehensive WSGI web application library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate-context",
+      "text": "Differentiable controlled differential equation solvers for PyTorch with GPU support and memory-efficient adjoint backpropagation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "test helpers for oclif components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "UniSim is a package for efficient similarity computation, fuzzy matching, and clustering of data.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda-app",
+      "status": "candidate-context",
+      "text": "Anda AI agents client app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-app",
+      "status": "candidate-context",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-gcc",
+      "status": "candidate-context",
+      "text": "GCC cross-compiler for Hermit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-gcc",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sinclairzx81/typebox",
+      "status": "candidate-context",
+      "text": "JSON Schema Type Builder with Static Type Resolution for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sinclairzx81/typebox",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medikoo/type",
+      "status": "candidate-context",
+      "text": "Runtime validation and processing of JavaScript types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medikoo/type",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "Official JS client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate-context",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate-context",
+      "text": "\"Publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate-context",
+      "text": "Chrome Devtools Protocol rust API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "Forming, is a lightweight architecture as code language. \u8f7b\u91cf\u7ea7\u67b6\u6784\u5373\u4ee3\u7801\u8bed\u8a00"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate-context",
+      "text": "cuVS - a library for vector search and clustering on the GPU. The IVF RaBitQ is under the cuvs_ivf_rabitq branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "latex-lsp/texlab-vscode",
+      "status": "candidate-context",
+      "text": "LaTeX for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab-vscode",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -2758,6 +3070,162 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prometheus/alertmanager",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/coco",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle-tampermonkey",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handsontable/hyperformula",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustAudio/rodio",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/docs-gen",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets-eco/blinker",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/click",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/werkzeug",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/torchcde",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/test",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/unisim",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-app",
+      "status": "candidate",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-gcc",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "square/okhttp",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sinclairzx81/typebox",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medikoo/type",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-js",
+      "status": "candidate",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mujocolab/mjlab",
+      "status": "candidate",
+      "text": "\"Publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattsse/chromiumoxide",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inherd/forming",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stardust-SJF/cuvs_rabitq",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "latex-lsp/texlab-vscode",
       "status": "candidate",
       "text": "Publish"
     }
@@ -4171,11 +4639,269 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/coco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "latex-lsp/texlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lagom/lagom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "typstyle-rs/typstyle-tampermonkey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "RustAudio/rodio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yhirose/docs-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets-eco/blinker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/click"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/itsdangerous"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/werkzeug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "patrick-kidger/torchcde"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/unisim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldclabs/anda-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "square/okhttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sinclairzx81/typebox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "medikoo/type"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ClickHouse/clickhouse-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mujocolab/mjlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattsse/chromiumoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "inherd/forming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish-rust.yaml",
+      "source_repo": "Stardust-SJF/cuvs_rabitq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/VectorChord"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "latex-lsp/texlab-vscode"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "euagendas/semeval_8_2022_ia_downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "computational-linguistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "cross-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "crosslingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "multi-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "semantic-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "semeval-2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX",
+      "target": "xlm-roberta",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T07:00:14.271058+00:00",
+  "source_repo": "GeekDream-x/SemEval2022-Task8-TonyX"
+}

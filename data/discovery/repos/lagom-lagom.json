@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml"
+    },
+    {
+      "component": "coursier/cache-action@566e01fea33492e5a89706b43fb0d3fc884154f9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml"
+    },
+    {
+      "component": "coursier/setup-action@6a582d7f7292a865e72c497ca64c3ef447cdb6c7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "coursier/setup-action@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "lagom/lagom",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "lagom/lagom",
+      "target": "coursier/setup-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "lagom/lagom",
+      "target": "coursier/cache-action@v6.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "lagom/lagom",
+      "target": "Build and tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom",
+      "target": "actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom",
+      "target": "coursier/cache-action@566e01fea33492e5a89706b43fb0d3fc884154f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom",
+      "target": "coursier/setup-action@6a582d7f7292a865e72c497ca64c3ef447cdb6c7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "source_repo": "lagom/lagom",
+      "target": "Dependency Scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lagom/lagom",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lagom/lagom",
+      "target": "coursier/setup-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lagom/lagom",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "akka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "lagom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "play",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "playframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "reactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lagom/lagom",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:19:16.121831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3019
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 8276
+    },
+    {
+      "path": ".github/workflows/dependency-scanning.yml",
+      "size": 4329
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reactive Microservices for the JVM",
+    "fork": false,
+    "full_name": "lagom/lagom",
+    "html_url": "https://github.com/lagom/lagom",
+    "language": "Scala",
+    "pushed_at": "2023-08-14T13:43:48Z",
+    "stargazers_count": 2634,
+    "topics": [
+      "akka",
+      "distributed-systems",
+      "hacktoberfest",
+      "java",
+      "lagom",
+      "microservices",
+      "play",
+      "playframework",
+      "reactive",
+      "scala"
+    ],
+    "updated_at": "2026-04-20T08:49:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and tests"
+    },
+    {
+      "context_snippet": "Dependency Scanning",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-scanning.yml",
+      "term": "Dependency Scanning"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akka"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lagom"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "play"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playframework"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactive"
+    },
+    {
+      "context_snippet": "[![Gitter](https://img.shields.io/badge/chat-on%20gitter-purple.svg)](https://gitter.im/lagom/lagom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

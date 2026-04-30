@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu/braft",
+      "target": "brpc/brpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "baidu/braft",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "distributed-consensus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "distributed-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "raft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "raft-consensus-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "raft-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "raft-cxx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "raft-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/braft",
+      "target": "state-machine-replication",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T07:06:14.378437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2380
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An industrial-grade C++ implementation of RAFT consensus algorithm based on brpc,  widely used inside Baidu to build highly-available distributed systems.",
+    "fork": false,
+    "full_name": "baidu/braft",
+    "html_url": "https://github.com/baidu/braft",
+    "language": "C++",
+    "pushed_at": "2024-10-25T07:22:09Z",
+    "stargazers_count": 4215,
+    "topics": [
+      "distributed-consensus",
+      "distributed-storage",
+      "raft",
+      "raft-consensus-algorithm",
+      "raft-cpp",
+      "raft-cxx",
+      "raft-protocol",
+      "state-machine-replication"
+    ],
+    "updated_at": "2026-04-29T06:16:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brpc/brpc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-consensus"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-storage"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft-consensus-algorithm"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft-cpp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft-cxx"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft-protocol"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/baidu/braft.svg?branch=master)](https://travis-ci.org/baidu/braft)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-machine-replication"
+    }
+  ]
+}

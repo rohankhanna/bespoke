@@ -1,0 +1,12 @@
+{
+  "component": "toshimaru/auto-author-assign@5cd66f093de6691e0812ef186b7492589b0b7866",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-author.yml",
+      "source_repo": "LavaMoat/LavaMoat"
+    }
+  ]
+}

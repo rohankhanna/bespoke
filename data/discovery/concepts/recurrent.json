@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "recurrent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate-context",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lcswillems/torch-ac",
+      "status": "candidate",
+      "text": "The `torch_ac` package contains the PyTorch implementation of two Actor-Critic deep reinforcement learning algorithms:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938585,
+      "status": "candidate",
+      "text": "repeated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926048,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915811,
+      "status": "candidate",
+      "text": "perennial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939668,
+      "status": "candidate",
+      "text": "repeatedly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939081,
+      "status": "candidate",
+      "text": "recurring"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52051,
+      "status": "candidate",
+      "text": "perennial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "repeated"
+    }
+  ],
+  "canonical_name": "recurrent",
+  "concept_id": "recurrent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/torch-ac"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recurrent",
+      "sense_id": "recurrent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

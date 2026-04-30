@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightsnack/Allegro-VideoSys",
+      "target": "nus-hpc-ai-lab/videosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightsnack/Allegro-VideoSys",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightsnack/Allegro-VideoSys",
+      "target": "vchitect/vchitect-2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nightsnack/Allegro-VideoSys",
+      "target": "vchitect/latte",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:15:21.899505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10426
+    },
+    {
+      "path": "requirements.txt",
+      "size": 255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Allegro-VideoSys: multi-card inference demo for Allegro.",
+    "fork": true,
+    "full_name": "nightsnack/Allegro-VideoSys",
+    "html_url": "https://github.com/nightsnack/Allegro-VideoSys",
+    "language": "Python",
+    "pushed_at": "2024-11-08T11:53:25Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-03-12T11:44:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nus-hpc-ai-lab/videosys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/latte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/vchitect-2.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

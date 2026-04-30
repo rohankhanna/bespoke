@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ClickHouse/ch2rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:28:10.494154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2522
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate Rust structs from ClickHouse rows",
+    "fork": false,
+    "full_name": "ClickHouse/ch2rs",
+    "html_url": "https://github.com/ClickHouse/ch2rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-05T15:53:08Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-03-26T14:32:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

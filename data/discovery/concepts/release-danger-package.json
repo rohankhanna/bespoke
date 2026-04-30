@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Danger package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "\ud83d\udeab Stop saying \"you forgot to \u2026\" in code review (in Ruby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate-context",
+      "text": "Release Danger package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danger/danger",
+      "status": "candidate",
+      "text": "Release Danger package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19230,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18087,
+      "status": "candidate",
+      "text": "rescue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18064,
+      "status": "candidate",
+      "text": "flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18064,
+      "status": "candidate",
+      "text": "rescued"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18064,
+      "status": "candidate",
+      "text": "rescuing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Danger package",
+  "concept_id": "release-danger-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "danger/danger"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Danger package",
+      "sense_id": "release-danger-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

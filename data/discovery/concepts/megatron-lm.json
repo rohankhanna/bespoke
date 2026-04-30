@@ -19,6 +19,18 @@
       "source_repo": "yanring/Megatron-MoE-ModelZoo",
       "status": "candidate-context",
       "text": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "status": "candidate-context",
+      "text": "Odysseus: Playground of LLM Sequence Parallelism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "status": "candidate-context",
+      "text": "The repository serves as a playground for variant sequence parallelism implementations."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "yanring/Megatron-MoE-ModelZoo",
       "status": "candidate",
       "text": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/Odysseus-Transformer",
+      "status": "candidate",
+      "text": "The repository serves as a playground for variant sequence parallelism implementations."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "yanring/Megatron-MoE-ModelZoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "feifeibear/Odysseus-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate-context",
       "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "Safely pass trusted data to untrusted environments and back."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate",
       "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/itsdangerous",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/itsdangerous/refs/heads/stable/docs/_static/itsdangerous-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "pallets/itsdangerous"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

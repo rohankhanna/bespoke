@@ -1,0 +1,12 @@
+{
+  "component": "gradle/actions/wrapper-validation@ac638b010cf58a27ee6c972d7336334ccaf61c96",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "elastic/elasticsearch"
+    }
+  ]
+}

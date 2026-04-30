@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "bennyyip/dot-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bennyyip/plugpac.vim",
+      "target": "vim9-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:08:55.389989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugpac is a plugin manger written in Vim9 based on minpac, provides vim-plug-like experience",
+    "fork": false,
+    "full_name": "bennyyip/plugpac.vim",
+    "html_url": "https://github.com/bennyyip/plugpac.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-09-07T04:45:35Z",
+    "stargazers_count": 63,
+    "topics": [
+      "plugin-manager",
+      "vim",
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin",
+      "vim9-script"
+    ],
+    "updated_at": "2026-04-03T08:12:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bennyyip/dot-vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "Plugpac is a plugin manger written in Vim9 based on [minpac][1], leveraging the power of Vim8(and Neovim) native package manager and jobs feature. It's even faster than [vim-plug][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-script"
+    }
+  ]
+}

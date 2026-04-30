@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Holds all versioned WildFly quickstarts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WildFly cmt Quickstart CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WildFly cmt Quickstart CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "pole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "WildFly cmt Quickstart CI",
+      "sense_id": "wildfly-cmt-quickstart-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wildfly-cmt-quickstart-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wildfly-cmt-quickstart-ci",
+  "observation_id": "f7326af34895831a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "WildFly cmt Quickstart CI",
+  "source_context_snippet": "WildFly cmt Quickstart CI",
+  "source_file": ".github/workflows/quickstart_cmt_ci.yml",
+  "source_repo": "wildfly/quickstart",
+  "source_repo_description": "Holds all versioned WildFly quickstarts"
+}

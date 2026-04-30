@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "denolib/setup-deno@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "pacman-repo-builder/action@0.0.0-rc.65",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "pacman-repo-builder/action@0.0.0-rc.65",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "denolib/setup-deno@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "pacman-repo-builder/action@0.0.0-rc.65",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/cargo-scripts-builder",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:10:32.758953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 3062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Periodically build some cargo binary packages and publish them to my personal pacman repo",
+    "fork": false,
+    "full_name": "KSXGitHub/cargo-scripts-builder",
+    "html_url": "https://github.com/KSXGitHub/cargo-scripts-builder",
+    "language": "TypeScript",
+    "pushed_at": "2025-12-15T11:03:10Z",
+    "stargazers_count": 1,
+    "topics": [
+      "archlinux",
+      "cargo",
+      "pacman",
+      "rust"
+    ],
+    "updated_at": "2025-12-15T11:03:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacman"
+    },
+    {
+      "context_snippet": "[![.github/workflows/build.yaml](https://github.com/KSXGitHub/cargo-scripts-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/cargo-scripts-builder/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

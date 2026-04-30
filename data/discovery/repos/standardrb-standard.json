@@ -36,28 +36,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "ashfurrow/danger-rubocop",
+      "target": "rubocop/rubocop-performance",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "jodyvanden/guard-standardrb",
+      "target": "julianrubisch/pronto-standardrb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "betterment/betterlint",
+      "target": "lakim/spring-commands-standard",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "brave-intl/publishers",
+      "target": "lobsters/lobsters",
       "target_type": "repository"
     },
     {
@@ -145,7 +145,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:53:47.151917+00:00",
+  "fetched_at": "2026-04-30T09:19:32.565307+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,22 +182,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ashfurrow/danger-rubocop",
+      "full_name": "julianrubisch/pronto-standardrb",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "betterment/betterlint",
+      "full_name": "lakim/spring-commands-standard",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "brave-intl/publishers",
+      "full_name": "lobsters/lobsters",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jodyvanden/guard-standardrb",
+      "full_name": "rubocop/rubocop-performance",
       "source_file": "README.md"
     }
   ],

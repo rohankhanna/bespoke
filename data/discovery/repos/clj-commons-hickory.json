@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-cljs-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/hickory",
+      "target": "ryanmcg/lein-npm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clj-commons/hickory",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clj-commons/hickory",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clj-commons/hickory",
+      "target": "karma-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "clj-commons/hickory",
+      "target": "karma-cljs-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-commons/hickory",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-commons/hickory",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-commons/hickory",
+      "target": "DeLaGuardo/setup-clojure@10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-commons/hickory",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/hickory",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/hickory",
+      "target": "html-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:27:20.817040+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22645
+    },
+    {
+      "path": "package.json",
+      "size": 152
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTML as data",
+    "fork": false,
+    "full_name": "clj-commons/hickory",
+    "html_url": "https://github.com/clj-commons/hickory",
+    "language": "Clojure",
+    "pushed_at": "2026-04-20T09:05:28Z",
+    "stargazers_count": 679,
+    "topics": [
+      "clojure",
+      "html-parser"
+    ],
+    "updated_at": "2026-04-20T09:05:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ryanmcg/lein-npm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/hickory.svg)](https://clojars.org/org.clj-commons/hickory)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/hickory.svg)](https://clojars.org/org.clj-commons/hickory)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-parser"
+    }
+  ]
+}

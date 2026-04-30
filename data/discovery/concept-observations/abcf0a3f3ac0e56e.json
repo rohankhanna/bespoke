@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Explore the charm of Vue composition API! Vite?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046966,
+      "status": "candidate",
+      "text": "cypress tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046965,
+      "status": "candidate",
+      "text": "cedar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971686,
+      "status": "candidate",
+      "text": "pecky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19561037,
+      "status": "candidate",
+      "text": "cyprus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047078,
+      "status": "candidate",
+      "text": "golden cypress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cypress",
+      "sense_id": "cypress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "cypress tree"
+    }
+  ],
+  "concept_id": "cypress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cypress",
+  "observation_id": "abcf0a3f3ac0e56e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "cypress",
+  "source_context_snippet": "[![Codecov branch](https://img.shields.io/codecov/c/github/mutoe/vue3-realworld-example-app?logo=codecov&style=for-the-badge)](https://app.codecov.io/gh/mutoe/vue3-realworld-example-app)",
+  "source_file": null,
+  "source_repo": "mutoe/vue3-realworld-example-app",
+  "source_repo_description": "Explore the charm of Vue composition API! Vite?"
+}

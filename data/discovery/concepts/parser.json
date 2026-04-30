@@ -499,6 +499,90 @@
       "source_repo": "status-im/nim-toml-serialization",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "YamlDotNet is a .NET library for YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate-context",
+      "text": "| Appveyor | NuGet |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": ":angel: The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate-context",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate-context",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate-context",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NimParsers/parsetoml",
+      "status": "candidate-context",
+      "text": "A Nim library to parse TOML files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimParsers/parsetoml",
+      "status": "candidate-context",
+      "text": "Parsetoml is a Nim library to parse TOML files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for yyjson for reading and parsing JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +831,48 @@
       "source_repo": "status-im/nim-toml-serialization",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaubry/YamlDotNet",
+      "status": "candidate",
+      "text": "| Appveyor | NuGet |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngleSharp/AngleSharp",
+      "status": "candidate",
+      "text": "![logo](https://raw.githubusercontent.com/AngleSharp/AngleSharp/master/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-cli",
+      "status": "candidate",
+      "text": "Swagger/OpenAPI CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/eval-estree-expression",
+      "status": "candidate",
+      "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NimParsers/parsetoml",
+      "status": "candidate",
+      "text": "Parsetoml is a Nim library to parse TOML files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhftbootcamp/YYJSON.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhftbootcamp.github.io/YYJSON.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remkop/picocli",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/images/logo/horizontal-400x150.png\" alt=\"picocli\" height=\"150px\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -1048,11 +1174,59 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "status-im/nim-toml-serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "aaubry/YamlDotNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "AngleSharp/AngleSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/eval-estree-expression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "NimParsers/parsetoml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "bhftbootcamp/YYJSON.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "remkop/picocli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

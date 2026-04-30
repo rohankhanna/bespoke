@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_notify_feishu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_platform_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_platform_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_platform_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml"
+    },
+    {
+      "component": "flagos-ai/FlagOps/actions/post-pytest-report@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "flagos-ai/flagcx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "flagos-ai/vllm-fl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Build Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_e2e_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_e2e_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_functional_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_functional_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Functional Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "crate-ci/typos@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_notify_feishu.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_notify_feishu.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Feishu Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_platform_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_platform_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Platform Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "flagos-ai/FlagOps/actions/post-pytest-report@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flagos-ai/vllm-plugin-FL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:25:14.696397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5978
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5256
+    },
+    {
+      "path": ".github/workflows/_build_wheel.yml",
+      "size": 1943
+    },
+    {
+      "path": ".github/workflows/_e2e_test.yml",
+      "size": 3225
+    },
+    {
+      "path": ".github/workflows/_functional_test.yml",
+      "size": 2531
+    },
+    {
+      "path": ".github/workflows/_lint.yml",
+      "size": 915
+    },
+    {
+      "path": ".github/workflows/_notify_feishu.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/_platform_test.yml",
+      "size": 6071
+    },
+    {
+      "path": ".github/workflows/_unit_test.yml",
+      "size": 2871
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A vLLM plugin built on the FlagOS unified multi-chip backend.",
+    "fork": false,
+    "full_name": "flagos-ai/vllm-plugin-FL",
+    "html_url": "https://github.com/flagos-ai/vllm-plugin-FL",
+    "language": "Python",
+    "pushed_at": "2026-04-30T03:23:42Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-30T01:58:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/flagcx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/vllm-fl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_wheel.yml",
+      "term": "Build Wheel"
+    },
+    {
+      "context_snippet": "E2E Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_e2e_test.yml",
+      "term": "E2E Test"
+    },
+    {
+      "context_snippet": "Functional Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_functional_test.yml",
+      "term": "Functional Test"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Feishu Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_notify_feishu.yml",
+      "term": "Feishu Notification"
+    },
+    {
+      "context_snippet": "Platform Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_platform_test.yml",
+      "term": "Platform Test"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_unit_test.yml",
+      "term": "Unit Tests"
+    }
+  ]
+}

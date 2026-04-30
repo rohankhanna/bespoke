@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazingly fast JSON serializing & deserializing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_ZH_CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023786,
+      "status": "candidate",
+      "text": "top-class"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023724,
+      "status": "candidate",
+      "text": "premium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022201,
+      "status": "candidate",
+      "text": "high-end"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013067,
+      "status": "candidate",
+      "text": "successful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010168,
+      "status": "candidate",
+      "text": "performance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "high-performance",
+      "sense_id": "high-performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "high-performance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "high-performance",
+  "observation_id": "6986effe2fd91556",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "high-performance",
+  "source_context_snippet": "English | [\u4e2d\u6587](README_ZH_CN.md)",
+  "source_file": null,
+  "source_repo": "bytedance/sonic",
+  "source_repo_description": "A blazingly fast JSON serializing & deserializing library"
+}

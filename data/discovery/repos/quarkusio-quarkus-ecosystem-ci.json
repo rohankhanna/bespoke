@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-member-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-maven-repo.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-maven-repo.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "Quarkus Deploy Maven Repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-member-action.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-member-action.yml",
+      "source_repo": "quarkusio/quarkus-ecosystem-ci",
+      "target": "Quarkus Ecosystem CI Member Manual Trigger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:10:23.026748+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/deploy-maven-repo.yml",
+      "size": 5184
+    },
+    {
+      "path": ".github/workflows/ecosystem-member-action.yml",
+      "size": 979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository used for orchestrating cross-CI builds of extensions part of Quarkiverse - Quarkus ecosystem of extensions. ",
+    "fork": false,
+    "full_name": "quarkusio/quarkus-ecosystem-ci",
+    "html_url": "https://github.com/quarkusio/quarkus-ecosystem-ci",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T01:52:37Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-30T01:52:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Quarkus Deploy Maven Repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-maven-repo.yml",
+      "term": "Quarkus Deploy Maven Repo"
+    },
+    {
+      "context_snippet": "\"Quarkus Ecosystem CI Member Manual Trigger\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-member-action.yml",
+      "term": "Quarkus Ecosystem CI Member Manual Trigger"
+    }
+  ]
+}

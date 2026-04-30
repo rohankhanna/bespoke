@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T10:12:40.639273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14042
+    },
+    {
+      "path": "requirements.txt",
+      "size": 470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS2023] This is the official code of the paper \"GlyphControl: Glyph Conditional Control for Visual Text Generation\"",
+    "fork": false,
+    "full_name": "AIGText/GlyphControl-release",
+    "html_url": "https://github.com/AIGText/GlyphControl-release",
+    "language": "Python",
+    "pushed_at": "2024-07-11T13:59:34Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-03-30T07:01:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

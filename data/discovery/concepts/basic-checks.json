@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Basic checks"
+    "Basic checks",
+    "basic checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "open-quantum-safe/liboqs",
       "status": "candidate-context",
       "text": "Basic checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "DRA Driver for NVIDIA GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate-context",
+      "text": "\"basic checks\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "open-quantum-safe/liboqs",
       "status": "candidate",
       "text": "Basic checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu",
+      "status": "candidate",
+      "text": "\"basic checks\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/basic.yml",
       "source_repo": "open-quantum-safe/liboqs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/basic-checks.yaml",
+      "source_repo": "kubernetes-sigs/dra-driver-nvidia-gpu"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

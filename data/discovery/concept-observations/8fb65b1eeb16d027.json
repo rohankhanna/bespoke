@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A ComfyUI extention for BAGEL(Unified Model for Multimodal Understanding and Generation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comfyui-custom-node",
+      "sense_id": "comfyui-custom-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comfyui-custom-node",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comfyui-custom-node",
+  "observation_id": "8fb65b1eeb16d027",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_text": "comfyui-custom-node",
+  "source_context_snippet": "A ComfyUI custom node package based on the BAGEL-7B-MoT multimodal model.",
+  "source_file": null,
+  "source_repo": "neverbiasu/ComfyUI-BAGEL",
+  "source_repo_description": "A ComfyUI extention for BAGEL(Unified Model for Multimodal Understanding and Generation)"
+}

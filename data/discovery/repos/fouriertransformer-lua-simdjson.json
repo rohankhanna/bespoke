@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FourierTransformer/lua-simdjson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T09:29:56.467530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6154
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "simdjson bindings for lua",
+    "fork": false,
+    "full_name": "FourierTransformer/lua-simdjson",
+    "html_url": "https://github.com/FourierTransformer/lua-simdjson",
+    "language": "C++",
+    "pushed_at": "2026-02-10T23:28:53Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-21T07:57:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "jbergstroem/hadolint-gh-action@d2f58da7f4f242dc0b6c5ef882ad4f8e871ba96b",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yaml",
+      "source_repo": "go-swagger/go-swagger"
+    }
+  ]
+}

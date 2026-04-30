@@ -1,0 +1,12 @@
+{
+  "component": "open-telemetry/opentelemetry-python-contrib/.github/workflows/core_contrib_test.yml@main",
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-python"
+    }
+  ]
+}

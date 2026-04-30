@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check changes ownership"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate-context",
+      "text": "'Check changes ownership'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/semantic-conventions",
+      "status": "candidate",
+      "text": "'Check changes ownership'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34852,
+      "status": "candidate",
+      "text": "endorser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34383,
+      "status": "candidate",
+      "text": "indorser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25997,
+      "status": "candidate",
+      "text": "transferred possession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25997,
+      "status": "candidate",
+      "text": "transferred property"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18052,
+      "status": "candidate",
+      "text": "holder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check changes ownership",
+  "concept_id": "check-changes-ownership",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/check-changes-ownership.yml",
+      "source_repo": "open-telemetry/semantic-conventions"
+    }
+  ],
+  "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check changes ownership",
+      "sense_id": "check-changes-ownership#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

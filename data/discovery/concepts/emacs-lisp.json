@@ -163,6 +163,30 @@
       "source_repo": "emacs-eldev/eldev",
       "status": "candidate-context",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "Fuzzy matching utilities for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "Clojure nREPL client for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "emacs-eldev/eldev",
       "status": "candidate",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/fuzzy-el",
+      "status": "candidate",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanel/monroe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "auto-complete/fuzzy-el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sanel/monroe"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

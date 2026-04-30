@@ -127,6 +127,30 @@
       "source_repo": "octokit/openapi-types.ts",
       "status": "candidate-context",
       "text": "> Generated TypeScript definitions based on GitHub's OpenAPI spec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10 A detailed example for how to encrypt data in an Elixir (Phoenix v1.7) App before inserting into a database using Ecto Types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate-context",
+      "text": "Asserting type with help of TypeScript compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate-context",
+      "text": "Asserting type with help of TypeScript compiler"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "octokit/openapi-types.ts",
       "status": "candidate",
       "text": "> Generated TypeScript definitions based on GitHub's OpenAPI spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-ecto-encryption-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ksxnodemodules/static-type-assert",
+      "status": "candidate",
+      "text": "Asserting type with help of TypeScript compiler"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +334,29 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "octokit/openapi-types.ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ksxnodemodules/static-type-assert"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "shadow2496/viton-hd.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "image-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "virtual-try-on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "virtual-tryon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sangyun884/HR-VITON",
+      "target": "virtual-tryon-ecommerce",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T08:20:25.728772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation for the paper High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions (ECCV 2022).",
+    "fork": false,
+    "full_name": "sangyun884/HR-VITON",
+    "html_url": "https://github.com/sangyun884/HR-VITON",
+    "language": "Python",
+    "pushed_at": "2024-12-31T02:19:18Z",
+    "stargazers_count": 915,
+    "topics": [
+      "image-generation",
+      "image-synthesis",
+      "virtual-try-on",
+      "virtual-tryon",
+      "virtual-tryon-ecommerce"
+    ],
+    "updated_at": "2026-04-29T20:20:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadow2496/viton-hd.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-synthesis"
+    },
+    {
+      "context_snippet": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-try-on"
+    },
+    {
+      "context_snippet": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-tryon"
+    },
+    {
+      "context_snippet": "<!-- This repository contains a PyTorch implementation for our paper \"High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions\". -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-tryon-ecommerce"
+    }
+  ]
+}

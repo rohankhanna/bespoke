@@ -799,6 +799,138 @@
       "source_repo": "xorbitsai/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/sonnet",
+      "status": "candidate-context",
+      "text": "TensorFlow-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/sonnet",
+      "status": "candidate-context",
+      "text": "![Sonnet](https://sonnet.dev/images/sonnet_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Scalable and memory-optimized training of diffusion models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate-context",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate-context",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab2d",
+      "status": "candidate-context",
+      "text": "A customisable 2D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab2d",
+      "status": "candidate-context",
+      "text": "*A learning environment written in C++ and Lua for the creation of grid worlds.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "NLP DNN Toolkit - Building Your NLP DNN Models Like Playing Lego"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate-context",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "Kubernetes Scheduler for Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "Open-source simulator for autonomous driving research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate-context",
+      "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate-context",
+      "text": "OCaml bindings for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate-context",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "An Application Framework for AI Engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate-context",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1195,6 +1327,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xorbitsai/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RETRO-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./RETRO.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/sonnet",
+      "status": "candidate",
+      "text": "![Sonnet](https://sonnet.dev/images/sonnet_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/finetrainers",
+      "status": "candidate",
+      "text": "Finetrainers is a work-in-progress library to support (accessible) training of diffusion models and various commonly used training algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/Adan",
+      "status": "candidate",
+      "text": "This is an official PyTorch implementation of **Adan**. See the paper [here](https://arxiv.org/abs/2208.06677). If you find our adan helpful or heuristic to your projects, please cite this paper and also star this repository. Thanks!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab2d",
+      "status": "candidate",
+      "text": "*A learning environment written in C++ and Lua for the creation of grid worlds.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/NeuronBlocks",
+      "status": "candidate",
+      "text": "<img src=\"https://i.imgur.com/IanH6xI.png\" width=\"450\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/hivedscheduler",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/microsoft/hivedscheduler/workflows/build/badge.svg?branch=master&event=push)](https://github.com/microsoft/hivedscheduler/actions?query=workflow%3Abuild+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carla-simulator/carla",
+      "status": "candidate",
+      "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ocaml-torch",
+      "status": "candidate",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-ai",
+      "status": "candidate",
+      "text": "> **Spring AI 2.x.x** ([main](https://github.com/spring-projects/spring-ai/tree/main) branch) - Spring Boot `4.x`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/VectorChord",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -1852,11 +2050,131 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "xorbitsai/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RETRO-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/Adan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab2d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/NeuronBlocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/hivedscheduler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "carla-simulator/carla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "LaurentMazare/ocaml-torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/VectorChord"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

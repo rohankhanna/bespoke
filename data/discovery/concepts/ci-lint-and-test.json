@@ -55,6 +55,18 @@
       "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate-context",
       "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "One Picker to rule them all \ud83d\udc8d\ud83d\udc51"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/pickme.nvim",
       "status": "candidate",
       "text": "CI Lint and Test"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "2KAbhishek/tdo.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T07:00:14.271058+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/pickme.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "lexical_providers": [
     "datamuse"
   ],

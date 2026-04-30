@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/notary-governance",
+      "target": "filecoin-project/allocator-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/notary-governance",
+      "target": "filecoin-project/allocator-registry",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:27:38.497234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "filecoin-project/notary-governance",
+    "html_url": "https://github.com/filecoin-project/notary-governance",
+    "language": null,
+    "pushed_at": "2024-07-18T16:01:22Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2025-12-24T05:37:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/allocator-governance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/allocator-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/aws-sdk-js-v3-workshop",
+      "target": "aws-samples/amazon-transcribe-websocket-static",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-v3-workshop",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-v3-workshop",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-v3-workshop",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/aws-sdk-js-v3-workshop",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T10:28:53.607110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9049
+    },
+    {
+      "path": "package.json",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Sample application with instructions and examples for \"Hands-on workshop with AWS JavaScript SDK v3\"",
+    "fork": false,
+    "full_name": "aws-samples/aws-sdk-js-v3-workshop",
+    "html_url": "https://github.com/aws-samples/aws-sdk-js-v3-workshop",
+    "language": "TypeScript",
+    "pushed_at": "2022-11-16T16:01:24Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2025-02-09T14:27:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/amazon-transcribe-websocket-static",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
