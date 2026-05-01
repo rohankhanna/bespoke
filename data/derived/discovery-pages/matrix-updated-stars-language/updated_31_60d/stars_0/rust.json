@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 29,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 6,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
     "EspressoSystems/commit",
     "firstbatchxyz/dkn-protocol",
+    "hermit-os/async-executor",
     "vaporif/rvx"
   ]
 }

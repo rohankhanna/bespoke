@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 5,
-    "terms": 14
+    "components": 34,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 9,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "5c077m4n/pikud-haoref-api-go",
     "abraxas-365/claudio-codex",
+    "aldernero/gaul",
     "apache/dubbo-go-extensions",
     "cpu/wycheproof",
     "DataDog/trivy",
-    "ethpandaops/cbt"
+    "ethpandaops/cbt",
+    "kitknox/tsshd",
+    "ksylvan/fabric"
   ]
 }

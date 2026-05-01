@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 314,
-    "observations": 314,
-    "repos": 23,
-    "terms": 313
+    "components": 254,
+    "concepts": 251,
+    "observations": 251,
+    "repos": 20,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,27 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "99designs/gqlgen",
-    "AdguardTeam/AdGuardHome",
     "apache/casbin",
-    "argoproj/argo-cd",
-    "centrifugal/centrifugo",
+    "apernet/hysteria",
+    "argoproj/argo-workflows",
+    "bufbuild/buf",
+    "cloudwego/eino",
+    "containers/podman",
+    "dgraph-io/dgraph",
+    "DNSCrypt/dnscrypt-proxy",
     "etcd-io/etcd",
-    "ethereum/EIPs",
-    "gastownhall/gastown",
-    "git-lfs/git-lfs",
-    "gofiber/fiber",
+    "gastownhall/beads",
+    "go-sql-driver/mysql",
     "goharbor/harbor",
-    "GoogleContainerTools/skaffold",
-    "grafana/pyroscope",
-    "grpc/grpc-go",
+    "grpc-ecosystem/grpc-gateway",
     "hajimehoshi/ebiten",
-    "hashicorp/consul",
-    "hashicorp/vault",
+    "hashicorp/nomad",
+    "helm/helm",
     "ipfs/kubo",
     "jaegertracing/jaeger",
-    "milvus-io/milvus",
-    "open-policy-agent/opa",
     "php/frankenphp",
-    "shirou/gopsutil"
+    "quic-go/quic-go"
   ]
 }

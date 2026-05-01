@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 248,
-    "concepts": 222,
-    "observations": 222,
-    "repos": 33,
-    "terms": 222
+    "components": 122,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 16,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,40 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "aws/aws-tools-for-powershell",
-    "bazel-contrib/rules_kotlin",
-    "BetterThanTomorrow/joyride",
-    "bgruening/galaxytools",
-    "bitwarden/ios",
-    "cloudfoundry/cloud_controller_ng",
-    "cortinico/kotlin-gradle-plugin-template",
+    "90-008/nix-cargo-integration",
+    "actions/python-versions",
     "danielrosehill/Claude-Code-Projects-Index",
-    "day8/re-com",
     "day8/re-frame-10x",
     "day8/re-frame-template",
-    "esp-rs/rust-build",
-    "espressif/llvm-project",
-    "galaxyproject/tools-iuc",
-    "google/docsy-example",
-    "GoogleCloudPlatform/cloud-sdk-docker",
-    "JuliaCI/BenchmarkTools.jl",
+    "hazelcast/hazelcast-csharp-client",
+    "igraph/rigraph",
+    "JuliaPackaging/BinaryBuilder.jl",
+    "JuliaPackaging/Yggdrasil",
     "JuliaRegistries/General",
-    "k8s-operatorhub/community-operators",
-    "KhronosGroup/SPIRV-LLVM-Translator",
-    "mapbox/mapbox-maps-ios",
+    "LogtalkDotOrg/logtalk3",
     "microsoft/binskim",
-    "MobileNativeFoundation/rules_xcodeproj",
-    "mozilla-mobile/reference-browser",
+    "nim-lang/langserver",
     "open-telemetry/opentelemetry-erlang-contrib",
-    "r-lib/usethis",
-    "redhat-openshift-ecosystem/community-operators-prod",
-    "ScoopInstaller/Java",
-    "ScoopInstaller/Nonportable",
-    "ScoopInstaller/Versions",
-    "sigstore/root-signing",
-    "simplex-chat/simplexmq",
-    "status-im/status-app"
+    "php/doc-en",
+    "SonarSource/sonarlint-intellij"
   ]
 }

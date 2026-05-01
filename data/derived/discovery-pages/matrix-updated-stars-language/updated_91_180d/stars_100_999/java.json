@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 6,
-    "terms": 43
+    "components": 48,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 9,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "bazelbuild/stardoc",
+    "burningwave/core",
+    "clojurephant/clojurephant",
     "eclipse-corrosion/corrosion",
     "ipfs-shipyard/gomobile-ipfs",
     "librespot-org/librespot-java",
-    "nacos-group/nacos-spring-project"
+    "nacos-group/nacos-spring-project",
+    "takari/polyglot-maven"
   ]
 }

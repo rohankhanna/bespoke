@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 155,
-    "observations": 157,
-    "repos": 25,
-    "terms": 163
+    "components": 117,
+    "concepts": 164,
+    "observations": 167,
+    "repos": 28,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
+    "alpinelinux/aports",
     "codelibs/docker-fess",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
@@ -23,13 +25,14 @@
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
+    "git-friendly/git-friendly",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
     "lemire/docker_programming_station",
-    "nodenv/node-build",
     "opea-project/GenAIExamples",
     "openshift/release",
+    "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
     "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",

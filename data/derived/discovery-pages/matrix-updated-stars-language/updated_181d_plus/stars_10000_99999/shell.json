@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 55,
     "observations": 55,
-    "repos": 12,
+    "repos": 13,
     "terms": 51
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alex000kim/nsfw_data_scraper",
     "aristocratos/bashtop",
@@ -24,6 +24,7 @@
     "mathiasbynens/dotfiles",
     "powerline/fonts",
     "source-foundry/Hack",
+    "tmux-plugins/tmux-resurrect",
     "tmux-plugins/tpm",
     "zsh-users/zsh-autosuggestions"
   ]

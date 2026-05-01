@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-04-30T10:38:47.528645+00:00`
+Generated at: `2026-05-01T05:46:25.326955+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) | 14332 | 2026-01-25T10:11:13Z | Rust | CLI | 15 | 12 | 15 | 15 |
+| [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) | 14339 | 2026-01-25T10:11:13Z | Rust | CLI | 15 | 12 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) | 14332 | 2026-01-25T10:11:13Z | Rust | CLI | 15 | 12 | 15 | 15 |
+| [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei) | 14339 | 2026-01-25T10:11:13Z | Rust | CLI | 15 | 12 | 15 | 15 |

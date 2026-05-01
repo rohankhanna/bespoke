@@ -96,13 +96,14 @@
       "size": 934
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:28.596168+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "admin-torch",
     "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
     "fork": true,
-    "full_name": "LiyuanLucasLiu/fairseq",
+    "full_name": "liyuanlucasliu/fairseq",
     "html_url": "https://github.com/LiyuanLucasLiu/fairseq",
     "language": "Python",
     "pushed_at": "2022-04-29T17:21:06Z",

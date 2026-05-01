@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 32,
-    "terms": 134
+    "components": 253,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 38,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,39 +12,45 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
+    "ai-dynamo/modelexpress",
     "amazon-ion/ion-cli",
     "andelf/axcli",
     "andelf/picc",
+    "ankane/safetensors-ruby",
+    "apache/opendal-oli",
     "arkworks-rs/spongefish",
     "bitcoindevkit/bdk_wallet",
+    "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
     "celo-org/celo-threshold-bls-rs",
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
-    "crate-ci/imperative",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
-    "hagan/claudia-statusline",
+    "GreptimeTeam/greptimedb-ingester-rust",
+    "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
     "janrueth/boring-rustls-provider",
     "major7apps/pensyve",
     "multiformats/rust-cid",
     "nico-abram/blondie",
+    "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
-    "tracel-ai/cubek"
+    "tracel-ai/cubek",
+    "zcash/pasta_curves"
   ]
 }

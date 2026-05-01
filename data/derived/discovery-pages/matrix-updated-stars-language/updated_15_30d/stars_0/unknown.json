@@ -3,7 +3,7 @@
     "components": 3,
     "concepts": 13,
     "observations": 13,
-    "repos": 13,
+    "repos": 14,
     "terms": 13
   },
   "facet_version": 1,
@@ -12,16 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
+    "cachix/nix-bindings-rust",
+    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Deployments-Index",
-    "danielrosehill/handy-wayland-autostart-fix",
     "piebald-ai/piebald",
     "psmux/scoop-omp-manager",
     "semgrep/cursor-plugin",

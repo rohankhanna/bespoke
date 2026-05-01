@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 224,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 20,
-    "terms": 132
+    "components": 68,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 8,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "0xPolygonHermez/zisk",
-    "a16z/jolt",
     "A2-ai/rv",
-    "apache/hudi-rs",
-    "apollographql/router",
-    "apollographql/rover",
-    "base/base",
+    "alloy-rs/svm-rs",
     "cargo-bins/cargo-quickinstall",
-    "Dicklesworthstone/beads_rust",
-    "esp-rs/espflash",
-    "esp-rs/std-training",
-    "evaera/moonwave",
+    "Dicklesworthstone/frankensqlite",
+    "EmmyLuaLs/emmylua-analyzer-rust",
+    "EricLBuehler/candle-vllm",
     "hermit-os/uhyve",
-    "hyper-mcp-rs/hyper-mcp",
-    "ldclabs/anda",
-    "lindera/lindera",
-    "matter-labs/zksync-airbender",
-    "openvm-org/openvm",
-    "posit-dev/ark",
-    "servo/stylo"
+    "RustCrypto/elliptic-curves"
   ]
 }

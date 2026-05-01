@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 176,
-    "observations": 176,
-    "repos": 72,
-    "terms": 173
+    "components": 19,
+    "concepts": 182,
+    "observations": 182,
+    "repos": 75,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -21,6 +21,7 @@
     "AdrienTorris/awesome-blazor",
     "airbnb/css",
     "ali-vilab/composer",
+    "ali-vilab/In-Context-LoRA",
     "alrra/browser-logos",
     "anthropics/hh-rlhf",
     "apiaryio/api-blueprint",
@@ -50,6 +51,7 @@
     "lauridskern/open-runde",
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "llamastack/llama-stack-apps",
+    "microsoft/live-share",
     "microsoft/nodejs-guidelines",
     "MoonshotAI/Moonlight",
     "mozilla/geckodriver",
@@ -67,6 +69,7 @@
     "openlm-research/open_llama",
     "opentracing/specification",
     "phracker/MacOSX-SDKs",
+    "promises-aplus/promises-spec",
     "ray-project/ray-llm",
     "react-native-community/discussions-and-proposals",
     "reactjs/rfcs",

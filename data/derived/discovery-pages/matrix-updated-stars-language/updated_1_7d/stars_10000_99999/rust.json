@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 17,
-    "terms": 163
+    "components": 336,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 19,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
     "Automattic/harper",
-    "FuelLabs/fuel-core",
-    "FuelLabs/sway",
-    "gleam-lang/gleam",
+    "biomejs/biome",
+    "clap-rs/clap",
+    "GitoxideLabs/gitoxide",
     "helix-editor/helix",
     "huggingface/tokenizers",
     "iced-rs/iced",
-    "launchbadge/sqlx",
-    "microsoft/windows-rs",
-    "nearai/ironclaw",
-    "rayon-rs/rayon",
-    "rust-lang/mdBook",
+    "jj-vcs/jj",
+    "PyO3/pyo3",
+    "quickwit-oss/tantivy",
+    "ratatui/ratatui",
     "rust-lang/rust-clippy",
+    "RustPython/RustPython",
+    "surrealdb/surrealdb",
     "swc-project/swc",
-    "web-infra-dev/rspack"
+    "tracel-ai/burn",
+    "zed-industries/zed"
   ]
 }

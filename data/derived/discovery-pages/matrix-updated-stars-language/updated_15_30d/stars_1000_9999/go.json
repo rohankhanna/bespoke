@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 420,
-    "observations": 420,
-    "repos": 60,
-    "terms": 416
+    "components": 519,
+    "concepts": 505,
+    "observations": 506,
+    "repos": 72,
+    "terms": 501
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
@@ -33,13 +33,16 @@
     "cloudwego/netpoll",
     "ContentSquare/chproxy",
     "davidbyttow/govips",
+    "digitalocean/doctl",
     "dkron-io/dkron",
     "expr-lang/expr",
     "fatih/color",
     "fnproject/fn",
     "gin-gonic/examples",
     "gobackup/gobackup",
+    "golang-jwt/jwt",
     "golang/mobile",
+    "google/gnostic",
     "google/pprof",
     "GoogleContainerTools/container-structure-test",
     "gopasspw/gopass",
@@ -53,8 +56,12 @@
     "helm-unittest/helm-unittest",
     "itchyny/gojq",
     "klauspost/compress",
+    "korotovsky/slack-mcp-server",
+    "kubernetes-sigs/metrics-server",
     "kubernetes-sigs/prometheus-adapter",
     "lesismal/nbio",
+    "libp2p/go-libp2p",
+    "madneal/gshark",
     "mattn/goreman",
     "maypok86/otter",
     "mvdan/sh",
@@ -63,16 +70,21 @@
     "olric-data/olric",
     "opencontainers/distribution-spec",
     "prometheus/blackbox_exporter",
+    "rancher/local-path-provisioner",
     "rootless-containers/rootlesskit",
+    "router-for-me/CLIProxyAPIPlus",
+    "runfinch/finch",
     "schachmat/wego",
     "smallnest/rpcx",
     "StackExchange/dnscontrol",
+    "tdewolff/canvas",
     "tensorchord/envd",
     "throttled/throttled",
     "trzsz/trzsz-go",
     "uptrace/bun",
     "uptrace/uptrace",
     "vishvananda/netlink",
-    "wa-lang/wa"
+    "wa-lang/wa",
+    "walles/moor"
   ]
 }

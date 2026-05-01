@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 8,
-    "terms": 22
+    "components": 95,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 7,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aquasecurity/tfsec-azure-pipelines-task",
     "Bartheleway/inquirer-table-multiple",
     "dylibso/xtp-cpp-bindgen",
-    "ipfs/helia-delegated-routing-v1-http-api",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "neuroverseos/neuroverseos-openclaw-governance",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 27,
-    "terms": 95
+    "components": 24,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 32,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "adoptium/adoptium",
     "agamm/claude-code-owasp",
@@ -24,17 +24,22 @@
     "antonbabenko/terraform-aws-devops",
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
+    "bloomberg/clang-p2996",
+    "cloudflare/skills",
     "cncf/artwork",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
+    "gautamkrishnar/gautamkrishnar",
     "github/codeql-cli-binaries",
     "grpc/proposal",
     "integrations/microsoft-teams",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "MicrosoftDocs/terminal",
+    "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "pyOpenSci/software-submission",
     "ranpox/awesome-computer-use",
+    "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",
     "sedyh/awesome-ebitengine",
     "servo/project",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 25,
-    "terms": 136
+    "components": 190,
+    "concepts": 153,
+    "observations": 153,
+    "repos": 29,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ec2-spot-interrupter",
@@ -23,8 +23,10 @@
     "cedar-policy/cedar-go",
     "ChristopherHX/github-act-runner",
     "cloudwego/kitex-examples",
+    "docker-library/bashbrew",
     "erigontech/interfaces",
     "go-chi/docgen",
+    "go-gl/glow",
     "gpustack/gguf-parser-go",
     "hashicorp/raft-boltdb",
     "kubernetes-sigs/cluster-proportional-autoscaler",
@@ -37,7 +39,9 @@
     "nikepan/clickhouse-bulk",
     "notaryproject/notation",
     "opencontainers/runtime-tools",
+    "secretflow/scql",
     "slsa-framework/slsa-github-generator",
+    "stretchr/objx",
     "withastro/compiler"
   ]
 }

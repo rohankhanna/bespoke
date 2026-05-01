@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 743,
-    "concepts": 192,
-    "observations": 194,
-    "repos": 46,
-    "terms": 226
+    "components": 859,
+    "concepts": 244,
+    "observations": 246,
+    "repos": 51,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
@@ -20,16 +20,20 @@
     "all-contributors/app",
     "Atheos/Atheos",
     "badgen/badgen",
+    "beve-org/beve",
     "bmad-code-org/bmad-module-game-dev-studio",
-    "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
     "conventional-changelog/conventional-changelog-config-spec",
     "d3/d3-format",
+    "devsnek/esvu",
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/sendemail",
+    "ehmicky/nve",
+    "eladnava/pikud-haoref-api",
     "electron/node-abi",
+    "eslint-community/eslint-plugin-n",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
@@ -38,11 +42,13 @@
     "gatsbyjs/gatsby-starter-hello-world",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "gopasspw/gopassbridge",
+    "graphql/graphql-wg",
+    "hyparam/hyparquet",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "karma-runner/karma-coverage",
     "kharchenkolab/pagoda2",
-    "Level/abstract-level",
+    "kriszyp/lmdb-js",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
@@ -54,11 +60,10 @@
     "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",
-    "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
-    "toon-format/spec",
     "w3c/trusted-types",
+    "webpack/css-minimizer-webpack-plugin",
     "zone-eu/zone-mta"
   ]
 }

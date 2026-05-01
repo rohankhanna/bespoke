@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 239,
-    "observations": 239,
-    "repos": 17,
-    "terms": 237
+    "components": 72,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 6,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "apache/beam",
-    "apache/flink-kubernetes-operator",
-    "apache/hudi",
-    "apache/parquet-java",
-    "aws/aws-sdk-java-v2",
-    "checkstyle/checkstyle",
-    "confluentinc/schema-registry",
-    "eclipse-openvsx/openvsx",
-    "firebase/firebase-android-sdk",
-    "googleapis/google-cloud-java",
+    "apache/ignite",
+    "dropwizard/dropwizard",
     "hazelcast/hazelcast",
-    "iterate-ch/cyberduck",
-    "junit-team/junit-framework",
-    "langgraph4j/langgraph4j",
+    "helidon-io/helidon",
     "micronaut-projects/micronaut-core",
-    "SonarSource/sonar-java",
-    "spring-projects/spring-ai"
+    "smithy-lang/smithy"
   ]
 }

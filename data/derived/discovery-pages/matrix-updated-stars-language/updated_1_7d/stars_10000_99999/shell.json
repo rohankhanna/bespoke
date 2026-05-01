@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 44,
-    "observations": 44,
+    "components": 33,
+    "concepts": 42,
+    "observations": 42,
     "repos": 3,
-    "terms": 44
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "a2aproject/A2A",
     "nvm-sh/nvm",
+    "rockerBOO/awesome-neovim",
     "spaceship-prompt/spaceship-prompt"
   ]
 }

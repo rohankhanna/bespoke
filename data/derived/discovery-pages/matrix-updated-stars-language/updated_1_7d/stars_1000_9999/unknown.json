@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 12
+    "components": 11,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 5,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "CocoaPods/Specs",
-    "CVEProject/cvelistV5",
+    "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
-    "meituan-longcat/LongCat-Flash-Chat"
+    "meituan-longcat/LongCat-Flash-Chat",
+    "MicrosoftDocs/cpp-docs"
   ]
 }

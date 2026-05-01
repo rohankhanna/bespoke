@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 10,
-    "terms": 10
+    "components": 15,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 12,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "asm89/prettytable-rs",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
@@ -21,6 +22,7 @@
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
+    "Enselic/cargo-public-api",
     "kivikakk/cmark-gfm",
     "praw-dev/.github",
     "wintercg/fetch"

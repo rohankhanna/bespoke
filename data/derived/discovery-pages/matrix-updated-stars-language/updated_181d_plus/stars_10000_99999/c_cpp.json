@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 17,
-    "terms": 87
+    "components": 47,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 20,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "antimatter15/alpaca.cpp",
     "apache/mxnet",
     "ariya/phantomjs",
+    "BradLarson/GPUImage",
     "bulletphysics/bullet3",
     "BVLC/caffe",
     "CMU-Perceptual-Computing-Lab/openpose",
+    "cocos2d/cocos2d-x",
     "DayBreak-u/chineseocr_lite",
     "ggreer/the_silver_searcher",
     "karpathy/llama2.c",
     "krallin/tini",
     "microsoft/CNTK",
     "mozilla/DeepSpeech",
+    "nomic-ai/gpt4all",
     "pjreddie/darknet",
     "rhasspy/piper",
     "spotify/annoy",

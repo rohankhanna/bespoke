@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 101,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 47,
-    "terms": 77
+    "concepts": 79,
+    "observations": 79,
+    "repos": 52,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "akamming/domoticz-snapcast",
@@ -32,16 +32,19 @@
     "danielrosehill/better-hashnode-backups",
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
+    "danielrosehill/Feature-Ideas-And-Requests",
+    "doc-doc/hcrn-bert",
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
     "f-amerehi/eidolon",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
+    "IEI-mjx/Yuan-2.0",
     "ikostrikov/d4rl",
     "kasztp/url_shortener",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
-    "LiyuanLucasLiu/fairseq",
+    "liyuanlucasliu/fairseq",
     "luolin101/Visual-SWE-bench",
     "m4rc1e/test-ufr-family",
     "MattFisher/hangman-bench",
@@ -52,6 +55,7 @@
     "Natyren/alfworld",
     "Natyren/WebShop",
     "nim65s/git-archive-all",
+    "niveditarufus/suadd",
     "nur-zaman/sd-webui-tunnels",
     "plone/cookiecutter-plone",
     "py-cov-action/python-coverage-comment-action-v3-example",
@@ -60,6 +64,7 @@
     "spencer-tb/ethereum-spec-evm-resolver",
     "thanku-all/parse_answer",
     "XuhuiZhou/OpenHands",
+    "yinbow/CamoFormer-Jittor",
     "zzowenzz/coco_tiny"
   ]
 }

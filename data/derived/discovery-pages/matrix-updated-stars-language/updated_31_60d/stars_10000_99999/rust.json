@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 27,
-    "observations": 29,
-    "repos": 3,
-    "terms": 27
+    "components": 58,
+    "concepts": 32,
+    "observations": 34,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "dandavison/delta",
+    "hyperium/hyper",
     "serde-rs/serde",
     "TabbyML/tabby"
   ]

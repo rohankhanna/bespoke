@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 12,
-    "terms": 23
+    "components": 111,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 14,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
     "5sControl/inference-server-js",
     "5scontrol/machine-control-js",
+    "5sControl/operation-control-js",
     "abap2UI5/web-abap2ui5-samples",
     "broccolijs/broccoli-output-wrapper",
     "cccs-jc/sql-formatter",
     "coderaiser/c8-reproduce",
     "curiousnoob/lerna-release-workflow",
+    "ethanzrd/whisper-playground",
     "garrettalbright/luacheck.novaextension",
     "ipld/js-blockcodec-to-ipld-format",
     "ipld/js-ipld-format-to-blockcodec"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 6,
-    "terms": 6
+    "components": 27,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 5,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "DavidKinder/inform",
     "gbrobro119-star/darksword-kexploit",
     "lonewolf-jp/convopeq",
-    "openssh/openssh-portable-selfhosted",
-    "rapidsai/rapids-logger"
+    "openssh/openssh-portable-selfhosted"
   ]
 }

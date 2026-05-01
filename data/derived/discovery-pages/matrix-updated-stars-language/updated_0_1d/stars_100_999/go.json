@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 12,
-    "terms": 90
+    "components": 3,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "argoproj-labs/argocd-agent",
-    "Azure/azure-dev",
-    "buildpacks/lifecycle",
-    "cloudfoundry/cf-deployment",
-    "cloudfoundry/diego-release",
-    "cloudwego/eino-ext",
-    "fnproject/cli",
-    "hybridgroup/yzma",
-    "kubernetes-sigs/dra-driver-nvidia-gpu",
-    "operator-framework/operator-registry",
-    "SpecterOps/AzureHound",
-    "web-infra-dev/rslint"
+    "hybridgroup/yzma"
   ]
 }

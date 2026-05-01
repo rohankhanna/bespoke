@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 4,
-    "terms": 4
+    "components": 63,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 5,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
     "kong/proxy-wasm-assemblyscript-rate-limiting",
+    "mgr0dzicki/cargo-semver-checks-action",
     "vim-fall/deno-fall-core"
   ]
 }

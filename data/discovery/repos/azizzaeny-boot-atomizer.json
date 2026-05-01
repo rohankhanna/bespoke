@@ -32,10 +32,10 @@
   ],
   "fetched_at": "2026-04-23T21:57:08.230715+00:00",
   "fetched_files": [],
-  "metadata_refreshed_at": "2026-04-30T05:51:54.515731+00:00",
+  "metadata_refreshed_at": "2026-05-01T05:46:20.462256+00:00",
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "master",
     "description": "Compile atomic css for boot",
     "fork": false,
@@ -50,7 +50,7 @@
       "boot-tasks",
       "clojure"
     ],
-    "updated_at": "2023-08-10T02:14:08Z"
+    "updated_at": "2026-04-30T07:01:42Z"
   },
   "repo_links": [],
   "terms": [

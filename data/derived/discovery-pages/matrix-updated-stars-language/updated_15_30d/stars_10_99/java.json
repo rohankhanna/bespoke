@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 39,
-    "observations": 40,
-    "repos": 8,
-    "terms": 39
+    "components": 26,
+    "concepts": 46,
+    "observations": 47,
+    "repos": 9,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "apache/camel-quarkus-examples",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
@@ -21,6 +21,7 @@
     "google/guava-beta-checker",
     "iterate-ch/rococoa",
     "kurrent-io/KurrentDB-Client-Java",
+    "m2e-code-quality/m2e-code-quality",
     "zai-org/z-ai-sdk-java"
   ]
 }

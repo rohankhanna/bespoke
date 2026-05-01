@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 15,
-    "terms": 166
+    "components": 146,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 13,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "bufbuild/buf",
-    "cloudwego/eino",
+    "cloudflare/cloudflared",
     "cockroachdb/cockroach",
-    "containers/podman",
     "dagger/dagger",
-    "dgraph-io/dgraph",
-    "DNSCrypt/dnscrypt-proxy",
-    "gastownhall/beads",
-    "grpc-ecosystem/grpc-gateway",
-    "hashicorp/nomad",
-    "helm/helm",
+    "gastownhall/gastown",
+    "git-lfs/git-lfs",
     "moby/moby",
     "mudler/LocalAI",
+    "navidrome/navidrome",
+    "pingcap/tidb",
     "QuantumNous/new-api",
-    "redis/go-redis"
+    "rclone/rclone",
+    "redis/go-redis",
+    "weaviate/weaviate"
   ]
 }

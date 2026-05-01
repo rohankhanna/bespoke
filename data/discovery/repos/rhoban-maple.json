@@ -8,13 +8,14 @@
       "size": 1700
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:46:07.528711+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "STM32 dev environment based on leaflabs libmaple",
     "fork": false,
-    "full_name": "Rhoban/Maple",
+    "full_name": "rhoban/maple",
     "html_url": "https://github.com/Rhoban/Maple",
     "language": "C++",
     "pushed_at": "2023-05-05T13:41:18Z",

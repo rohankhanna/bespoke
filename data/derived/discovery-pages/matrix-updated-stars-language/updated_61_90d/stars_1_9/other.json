@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 6,
-    "terms": 23
+    "components": 58,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 10,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "adobe/spectrum-tokens",
+    "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
     "haya14busa/github-used-by",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "stephanj/sonarlint-devoxxgenie-intellij",
+    "SWE-bench/SWE-smith-envs",
+    "tensorchord/VectorChord-images",
     "zen-eth/multiformats-zig"
   ]
 }

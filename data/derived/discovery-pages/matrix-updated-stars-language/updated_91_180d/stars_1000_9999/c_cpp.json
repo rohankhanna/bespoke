@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 171,
-    "observations": 171,
-    "repos": 28,
-    "terms": 171
+    "components": 100,
+    "concepts": 191,
+    "observations": 191,
+    "repos": 33,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
+    "asmvik/skhd",
     "attractivechaos/klib",
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
+    "colmap/glomap",
     "cpputest/cpputest",
     "flame/blis",
     "github/cmark-gfm",
     "google/re2",
+    "guinmoon/LLMFarm",
     "gulrak/filesystem",
     "hanslub42/rlwrap",
     "hapostgres/pg_auto_failover",
@@ -29,6 +32,7 @@
     "jedisct1/minisign",
     "jlblancoc/nanoflann",
     "julienxx/terminal-notifier",
+    "libimobiledevice/libimobiledevice",
     "libsndfile/libsndfile",
     "MaskRay/ccls",
     "naelstrof/maim",
@@ -39,6 +43,7 @@
     "Oneflow-Inc/oneflow",
     "pothosware/SoapySDR",
     "rurban/smhasher",
+    "ScanNet/ScanNet",
     "sysstat/sysstat",
     "Tessil/robin-map",
     "tpoechtrager/osxcross"

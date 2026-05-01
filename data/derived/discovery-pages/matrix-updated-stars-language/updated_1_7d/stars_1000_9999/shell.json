@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 9,
-    "terms": 49
+    "components": 63,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 11,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "aurutils/aurutils",
-    "bioconda/bioconda-recipes",
+    "Botspot/pi-apps",
     "confluentinc/demo-scene",
     "dtcooper/raspotify",
+    "home-assistant/addons",
+    "mlocati/docker-php-extension-installer",
+    "msys2/MINGW-packages",
     "pypa/manylinux",
+    "rbenv/ruby-build",
     "rocker-org/rocker",
-    "ROCm/ROCm",
     "sublimehq/Packages",
-    "zsh-users/zsh-completions"
+    "YosysHQ/oss-cad-suite-build"
   ]
 }

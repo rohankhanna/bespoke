@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 604,
-    "concepts": 141,
-    "observations": 145,
-    "repos": 24,
-    "terms": 141
+    "components": 598,
+    "concepts": 137,
+    "observations": 139,
+    "repos": 28,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,35 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aadsm/jschardet",
-    "apache/incubator-seata-website",
+    "auth0/node-jwks-rsa",
     "auth0/node-jws",
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "Brooooooklyn/snappy",
     "chrisgoringe/cg-image-filter",
+    "commitizen/cz-conventional-changelog",
+    "conventional-changelog/releaser-tools",
     "csstools/cssdb",
-    "CVEProject/cve-services",
     "electerm/electerm-web",
-    "i18next/i18next-fs-backend",
-    "i18next/i18next-http-backend",
+    "i18next/i18next-http-middleware",
     "j9t/html-minifier-next",
-    "marwin1991/profile-technology-icons",
+    "kriszyp/msgpackr",
+    "Mathpix/mathpix-markdown-it",
+    "mdn/data",
     "mdn/mdn-http-observatory",
-    "OffchainLabs/arbitrum-docs",
-    "plone/volto",
+    "mozilla/addons-linter",
+    "octokit/graphql-schema",
     "postcss/postcss-cli",
+    "postcss/postcss-load-config",
     "reviewdog/action-eslint",
     "rooklift/ogatak",
     "rubyjs/mini_racer",
     "rvagg/github-webhook",
-    "speced/respec",
+    "rvagg/github-webhook-handler",
+    "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 35,
-    "terms": 118
+    "components": 49,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 40,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
@@ -23,11 +23,13 @@
     "cowboy/dotfiles",
     "deluan/zsh-in-docker",
     "docker/docker-bench-security",
+    "drduh/pwd.sh",
     "ekalinin/github-markdown-toc",
     "eth-p/bat-extras",
     "facebookarchive/caffe2",
     "FiloSottile/passage",
     "google/cityhash",
+    "guochengqian/PointNeXt",
     "hackerb9/lsix",
     "japaric/rust-cross",
     "japaric/trust",
@@ -38,14 +40,17 @@
     "lukechilds/zsh-nvm",
     "marlonrichert/zsh-snap",
     "microsoft/vscode-dev-containers",
+    "mislav/dotfiles",
     "multiarch/qemu-user-static",
     "postmodern/chruby",
     "pyenv/pyenv-installer",
     "pystardust/ytfzf",
+    "redis/redis-doc",
     "shawwn/llama-dl",
     "tarjoilija/zgen",
     "tmux-plugins/tmux-continuum",
     "tmux-plugins/tmux-copycat",
+    "tmux-plugins/tmux-logging",
     "tmux-plugins/tmux-sensible",
     "tmux-plugins/tmux-yank",
     "zsh-users/antigen"

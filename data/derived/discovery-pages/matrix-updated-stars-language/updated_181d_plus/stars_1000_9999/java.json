@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 21,
-    "terms": 123
+    "components": 62,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 27,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,34 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alibaba/compileflow",
     "apache/rocketmq-externals",
     "aragozin/jvm-tools",
     "awslabs/multi-model-server",
     "cglib/cglib",
+    "classgraph/classgraph",
+    "crossbario/autobahn-java",
     "facebook/buck",
     "featurecat/lizzie",
     "gchq/Gaffer",
     "hazelcast/hazelcast-jet",
     "knowm/XChart",
     "LaurieWired/GhidraMCP",
+    "MineDojo/MineDojo",
     "MSPaintIDE/MSPaintIDE",
+    "mstrobel/procyon",
     "novicezk/midjourney-proxy",
     "phodal/migration",
     "pytorch/serve",
     "remkop/picocli",
     "SpencerPark/IJava",
+    "tabulapdf/tabula-java",
     "Teradata/kylo",
     "WangDaYeeeeee/GeometricWeather",
     "wasabeef/android-gpuimage",
-    "wasabeef/glide-transformations"
+    "wasabeef/glide-transformations",
+    "youtube/api-samples"
   ]
 }

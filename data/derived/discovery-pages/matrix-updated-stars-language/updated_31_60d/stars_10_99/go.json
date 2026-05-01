@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 61,
-    "observations": 61,
+    "components": 84,
+    "concepts": 67,
+    "observations": 67,
     "repos": 15,
-    "terms": 64
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
-    "alexellis/fstail",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
     "aws/amazon-network-policy-controller-k8s",
@@ -27,7 +26,8 @@
     "ctoth/claudio",
     "depado/bfchroma",
     "estesp/mquery",
-    "filecoin-project/go-data-transfer",
-    "kurrent-io/KurrentDB-Client-Go"
+    "hashicorp/vault-plugin-auth-kerberos",
+    "kurrent-io/KurrentDB-Client-Go",
+    "matelang/jwt-go-aws-kms"
   ]
 }

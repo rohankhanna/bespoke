@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 17,
-    "terms": 84
+    "components": 79,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 15,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
     "AIWintermuteAI/whispercpp",
+    "ankane/stl-cpp",
     "barak/minidjvu",
     "fcambus/bdf2sfd",
-    "flashlight/text",
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
-    "heal-research/pyoperon",
-    "Level/classic-level",
     "mxmlnkn/indexed_bzip2",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",

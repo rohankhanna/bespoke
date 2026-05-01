@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 123,
-    "observations": 125,
-    "repos": 20,
-    "terms": 120
+    "components": 100,
+    "concepts": 157,
+    "observations": 160,
+    "repos": 24,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "alexandresanlim/Badges4-README.md-Profile",
     "AppFlowy-IO/AppFlowy",
+    "AudioKit/AudioKit",
     "cmderdev/cmder",
     "dense-analysis/ale",
     "devicons/devicon",
@@ -25,6 +27,8 @@
     "google/styleguide",
     "guidance-ai/guidance",
     "heartcombo/devise",
+    "ianyh/Amethyst",
+    "isocpp/CppCoreGuidelines",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "LazyVim/LazyVim",

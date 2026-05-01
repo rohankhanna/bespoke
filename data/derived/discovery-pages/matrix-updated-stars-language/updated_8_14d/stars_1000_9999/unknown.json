@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 14,
-    "terms": 65
+    "components": 35,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 16,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
     "android/skills",
     "aws-controllers-k8s/community",
+    "CVEProject/cvelistV5",
     "dotnet/docs",
     "FasterXML/jackson",
     "flathub/flathub",
-    "MicrosoftDocs/WSL",
+    "mapbox/awesome-vector-tiles",
+    "pditommaso/awesome-pipeline",
     "QwenLM/Qwen3.6",
     "ratatui/awesome-ratatui",
     "rust-embedded/awesome-embedded-rust",

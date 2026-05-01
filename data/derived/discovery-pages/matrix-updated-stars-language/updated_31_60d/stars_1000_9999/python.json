@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 296,
-    "observations": 296,
-    "repos": 58,
-    "terms": 296
+    "components": 260,
+    "concepts": 381,
+    "observations": 381,
+    "repos": 67,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "anapnoe/stable-diffusion-webui-ux",
+    "ApeWorX/ape",
     "arcee-ai/mergekit",
     "astanin/python-tabulate",
     "bambinos/bambi",
     "belluzj/fantasque-sans",
+    "black-forest-labs/flux2",
     "bpython/bpython",
+    "cheshire-cat-ai/core",
+    "chungmin99/pyroki",
     "databricks/megablocks",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
@@ -35,13 +39,14 @@
     "google/ml_collections",
     "gururise/AlpacaDataCleaned",
     "HKUDS/VideoRAG",
+    "hyperopt/hyperopt",
     "intel/intel-extension-for-pytorch",
+    "Intellindust-AI-Lab/DEIM",
     "ionelmc/pytest-benchmark",
     "jeffallan/claude-skills",
     "keleshev/schema",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
-    "lyuwenyu/RT-DETR",
     "michaelfeil/infinity",
     "microsoft/TaskWeaver",
     "miiton/Cica",
@@ -51,9 +56,10 @@
     "nunchaku-ai/nunchaku",
     "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",
+    "om-ai-lab/VLM-R1",
     "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
-    "pfnet/pfrl",
+    "pdfminer/pdfminer.six",
     "PyCQA/flake8-bugbear",
     "pytest-dev/pytest-cov",
     "python-semantic-release/python-semantic-release",
@@ -65,12 +71,15 @@
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
     "snakers4/silero-vad",
+    "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
+    "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",
     "themix-project/themix-gui",
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
-    "zubair-trabzada/ai-marketing-claude"
+    "ufoym/deepo",
+    "wenet-e2e/wenet"
   ]
 }

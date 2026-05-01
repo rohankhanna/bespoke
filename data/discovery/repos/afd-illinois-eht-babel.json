@@ -8,13 +8,14 @@
       "size": 1128
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:38.445670+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "tools for converting GRMHD data to iharm HDF5 format",
     "fork": false,
-    "full_name": "AFD-Illinois/EHT-babel",
+    "full_name": "afd-illinois/eht-babel",
     "html_url": "https://github.com/AFD-Illinois/EHT-babel",
     "language": "C",
     "pushed_at": "2024-03-06T17:02:07Z",

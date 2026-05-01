@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 300,
-    "observations": 300,
-    "repos": 72,
-    "terms": 299
+    "components": 247,
+    "concepts": 339,
+    "observations": 339,
+    "repos": 82,
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
     "allenai/OLMo",
     "andialbrecht/sqlparse",
+    "apple/ml-hypersim",
     "aqlaboratory/openfold",
     "astral-sh/ruff-lsp",
     "baaivision/Emu",
@@ -30,6 +31,7 @@
     "ClownsharkBatwing/RES4LYF",
     "crossbario/autobahn-python",
     "crossbario/autobahn-testsuite",
+    "cvg/Hierarchical-Localization",
     "deepseek-ai/DeepSeek-V3.2-Exp",
     "docker/docker-py",
     "facebookincubator/submitit",
@@ -38,6 +40,7 @@
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
     "fixie-ai/ultravox",
+    "genmoai/mochi",
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
@@ -45,6 +48,7 @@
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
+    "HybridRobotics/whole_body_tracking",
     "IBM/Project_CodeNet",
     "Instagram/LibCST",
     "intel/ipex-llm",
@@ -61,6 +65,7 @@
     "notofonts/noto-cjk",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
+    "NVIDIA/RULER",
     "offu/WeRoBot",
     "ollama/ollama-python",
     "open-mmlab/mmcv",
@@ -70,8 +75,10 @@
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
     "PeterGriffinJin/Search-R1",
+    "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
     "protectai/llm-guard",
+    "prs-eth/Marigold",
     "PyCQA/pycodestyle",
     "python-lsp/python-lsp-server",
     "pytorch/extension-cpp",
@@ -84,7 +91,10 @@
     "Trusted-AI/adversarial-robustness-toolbox",
     "uber/petastorm",
     "Visual-Agent/DeepEyes",
+    "web-arena-x/webarena",
     "WenmuZhou/PytorchOCR",
-    "yifan123/flow_grpo"
+    "yeyupiaoling/VoiceprintRecognition-Pytorch",
+    "yifan123/flow_grpo",
+    "Yuliang-Liu/Monkey"
   ]
 }

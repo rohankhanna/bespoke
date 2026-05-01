@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 4,
-    "terms": 8
+    "components": 40,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 7,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Amtrend/ssh-manager",
     "DataDog/vault",
     "foundry-rs/optimism",
-    "jonislutheran87/weclaw"
+    "hyper-mcp-rs/crypto-price-plugin",
+    "jonislutheran87/weclaw",
+    "kdubbo/xds-api",
+    "transparency-dev/armored-witness-common"
   ]
 }

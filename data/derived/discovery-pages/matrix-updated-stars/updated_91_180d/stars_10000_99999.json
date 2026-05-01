@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 439,
-    "concepts": 330,
-    "observations": 331,
-    "repos": 48,
-    "terms": 329
+    "components": 494,
+    "concepts": 356,
+    "observations": 357,
+    "repos": 53,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -19,6 +19,7 @@
     "anthropics/courses",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
+    "blitz-js/blitz",
     "bytedance/UI-TARS",
     "camenduru/stable-diffusion-webui-colab",
     "chalk/chalk",
@@ -26,6 +27,7 @@
     "ChatGPTNextWeb/NextChat",
     "cleanlab/cleanlab",
     "deepseek-ai/DeepSeek-Coder",
+    "drduh/macOS-Security-and-Privacy-Guide",
     "emotion-js/emotion",
     "existentialaudio/blackhole",
     "folke/lazy.nvim",
@@ -56,9 +58,12 @@
     "songquanpeng/one-api",
     "spf13/viper",
     "tachyons-css/tachyons",
+    "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",
     "wechaty/wechaty",
+    "winstonjs/winston",
     "XAMPPRocky/tokei",
+    "yoheinakajima/babyagi",
     "zai-org/CogVideo",
     "ziglang/zig"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 387,
-    "observations": 389,
-    "repos": 114,
-    "terms": 384
+    "components": 556,
+    "concepts": 432,
+    "observations": 435,
+    "repos": 127,
+    "terms": 427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "acheronfail/repgrep",
@@ -39,6 +39,7 @@
     "aweinstock314/rust-clipboard",
     "awestlake87/pyo3-asyncio",
     "bitshifter/mathbench-rs",
+    "blitz-js/next-superjson-plugin",
     "BurntSushi/cargo-benchcmp",
     "BurntSushi/critcmp",
     "BurntSushi/rust-snappy",
@@ -50,7 +51,9 @@
     "clog-tool/clog-cli",
     "comit-network/xmr-btc-swap",
     "cowprotocol/ethcontract-rs",
+    "danburkert/memmap-rs",
     "ddimaria/rust-actix-example",
+    "debris/tiny-keccak",
     "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "dotenv-rs/dotenv",
@@ -63,6 +66,7 @@
     "facebook/winterfell",
     "feakin/fklang",
     "francesca64/hotwatch",
+    "frankfralick/dripgrep",
     "frewsxcv/alert-after",
     "fu5ha/rayn",
     "fu5ha/sdfu",
@@ -75,6 +79,7 @@
     "harfbuzz/rustybuzz",
     "heim-rs/heim",
     "hoodie/toastify",
+    "ihrwein/backoff",
     "infinyon/node-bindgen",
     "inherd/coco",
     "iomentum/cargo-breaking",
@@ -94,6 +99,7 @@
     "Michael-F-Bryan/include_dir",
     "microsoft/Spartan",
     "microsoft/vscode-remote-try-rust",
+    "Misterio77/flavours",
     "mitsuhiko/listenfd",
     "mitsuhiko/systemfd",
     "monero-rs/monero-rs",
@@ -105,6 +111,9 @@
     "ralexstokes/ethereum-consensus",
     "ralexstokes/mev-rs",
     "ralexstokes/ssz-rs",
+    "randspace0/Anime4K-rs",
+    "RazrFalcon/fontdb",
+    "RazrFalcon/pico-args",
     "reujab/silver",
     "Riey/cargo-feature",
     "rojo-rbx/remodel",
@@ -114,6 +123,7 @@
     "rust-lang/rust-semverver",
     "rust-lang/style-team",
     "rust3ds/ctru-rs-old",
+    "RustAudio/lewton",
     "RustPython/Parser",
     "rustwasm/console_error_panic_hook",
     "rustwasm/wasm-pack-template",
@@ -125,8 +135,11 @@
     "target/lorri",
     "tazz4843/whisper-rs",
     "valida-xyz/valida",
+    "vmchale/tin-summer",
     "vmware-labs/mod_wasm",
     "vmware-labs/wasm-workers-server",
-    "wooorm/mdxjs-rs"
+    "wooorm/mdxjs-rs",
+    "xzfc/cached-nix-shell",
+    "zkcrypto/pairing"
   ]
 }

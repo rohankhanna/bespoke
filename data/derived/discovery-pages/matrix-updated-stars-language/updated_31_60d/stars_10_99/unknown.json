@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 23,
     "observations": 23,
-    "repos": 13,
+    "repos": 14,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
     "clearml/clearml-fractional-gpu",
     "cncf/project-template",
     "cncf/wg-networking",
+    "CommunitySpecification/Community_Specification",
     "cta-wave/WMAS",
     "dragonflyoss/community",
     "getsentry/.github",

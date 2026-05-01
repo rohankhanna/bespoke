@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 29,
-    "terms": 147
+    "components": 184,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 33,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
+    "atotto/clipboard",
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -26,6 +27,7 @@
     "darccio/mergo",
     "ddworken/hishtory",
     "dghubble/sling",
+    "dop251/goja",
     "go-redis/redis_rate",
     "golang/oauth2",
     "google/go-cmp",
@@ -33,8 +35,9 @@
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
-    "isaacphi/mcp-language-server",
     "kubernetes-sigs/krew",
+    "mailru/easyjson",
+    "mattn/efm-langserver",
     "minio/operator",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/runtime-spec",
@@ -42,6 +45,7 @@
     "rest-sh/restish",
     "smtg-ai/claude-squad",
     "stripe/stripe-mock",
+    "xtaci/kcp-go",
     "yuin/goldmark"
   ]
 }

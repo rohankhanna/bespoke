@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 140,
-    "observations": 142,
-    "repos": 31,
-    "terms": 139
+    "components": 219,
+    "concepts": 152,
+    "observations": 154,
+    "repos": 33,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "bet4it/udbserver",
     "cedar-policy/cedar-examples",
+    "cryscan/web-rwkv",
     "dfrg/swash",
     "DoumanAsh/xxhash-rust",
     "dtolnay/readonly",
@@ -33,9 +34,10 @@
     "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
+    "matsadler/magnus",
     "mozilla/dump_syms",
     "Nugine/simd",
-    "pdf-rs/pdf_render",
+    "posit-dev/air",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",

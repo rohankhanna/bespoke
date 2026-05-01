@@ -97,13 +97,14 @@
       "size": 492
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:46:25.139545+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "LambdaTest - Lambda-enabled functional testing API on top of JUnit and TestNG",
     "fork": false,
-    "full_name": "lefou/LambdaTest",
+    "full_name": "lefou/lambdatest",
     "html_url": "https://github.com/lefou/LambdaTest",
     "language": "Java",
     "pushed_at": "2023-11-23T17:16:50Z",

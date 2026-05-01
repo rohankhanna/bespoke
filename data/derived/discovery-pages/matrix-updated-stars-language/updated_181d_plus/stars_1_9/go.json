@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 33,
-    "terms": 67
+    "components": 120,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 42,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -28,24 +28,33 @@
     "canidam/echo-scs-session",
     "chawyehsu/nvm-windows",
     "cloudfoundry/auctioneer",
+    "cloudfoundry/bbl-state-resource",
     "DeprecatedGoModules/redigo",
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
     "dubbo-go-pixiu/pixiu-api",
     "EpicStep/clickhouse-go-rows-utils",
+    "filecoin-project/go-sectorbuilder",
     "go-bun/go-http-routing-benchmark",
     "go-woo/protoc-gen-ent",
+    "hertz-contrib/autotls",
+    "hertz-contrib/cache",
+    "hertz-contrib/etag",
     "high-moctane/mocword-data",
     "hungran/hyper-mcp-hackernews-tool",
     "kitex-contrib/config-apollo",
     "kitex-contrib/config-etcd",
     "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
+    "lesismal/arpcex",
     "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",
     "oras-project/distribution",
     "phamngocquy/hyper-mcp-yfinance",
     "ppc64le-cloud/kubetest2-plugins",
-    "sourcegraph/godockerize"
+    "qri-io/qfs",
+    "rpcxio/rpcx-consul",
+    "sourcegraph/godockerize",
+    "tidwall/gjson-benchmarks"
   ]
 }

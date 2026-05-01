@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 231,
-    "concepts": 187,
-    "observations": 188,
-    "repos": 18,
-    "terms": 187
+    "components": 115,
+    "concepts": 110,
+    "observations": 111,
+    "repos": 10,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "askama-rs/askama",
     "boxlite-ai/boxlite",
-    "cachix/devenv",
+    "delta-io/delta-rs",
     "dmtrKovalenko/fff",
     "facebook/buck2",
-    "floneum/floneum",
-    "GreptimeTeam/greptimedb",
-    "hermit-os/kernel",
-    "huggingface/text-embeddings-inference",
-    "image-rs/image",
-    "notify-rs/notify",
-    "raphamorim/rio",
+    "facebook/pyrefly",
+    "holochain/holochain",
+    "mozilla/uniffi-rs",
     "risingwavelabs/risingwave",
-    "rust-lang/rustfmt",
-    "squidowl/halloy",
-    "tensorchord/VectorChord",
-    "wasm-bindgen/wasm-bindgen"
+    "tensorchord/VectorChord"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 287,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 13,
-    "terms": 72
+    "components": 326,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 17,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "Adobe-CEP/Samples",
+    "amqp-node/amqplib",
+    "anvaka/panzoom",
     "babel/babel-loader",
     "crossbario/autobahn-js",
     "danmactough/node-feedparser",
@@ -25,6 +28,7 @@
     "kangax/html-minifier",
     "microsoft/vscode-recipes",
     "node-fetch/node-fetch",
+    "paralleldrive/cuid2",
     "rollup/plugins",
     "treosh/lighthouse-ci-action"
   ]

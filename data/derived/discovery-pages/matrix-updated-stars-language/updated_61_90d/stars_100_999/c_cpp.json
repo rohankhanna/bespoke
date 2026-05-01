@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 21,
-    "terms": 97
+    "components": 117,
+    "concepts": 132,
+    "observations": 134,
+    "repos": 26,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
     "apache/casbin-cpp",
+    "arminbiere/aiger",
+    "beached/daw_json_link",
     "chfast/intx",
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
@@ -26,6 +28,8 @@
     "Kong/ngx_wasm_module",
     "martinmoene/lest",
     "mlc-ai/tokenizers-cpp",
+    "mongodb-js/kerberos",
+    "naelstrof/slop",
     "numactl/numactl",
     "nvpro-samples/nvpro_core",
     "proxy-wasm/proxy-wasm-cpp-sdk",
@@ -33,6 +37,7 @@
     "sasha0552/nvidia-pstated",
     "stardot/b-em",
     "starwing/luautf8",
+    "swaywm/swaybg",
     "tree-sitter-grammars/tree-sitter-markdown",
     "ZDisket/TensorVox"
   ]

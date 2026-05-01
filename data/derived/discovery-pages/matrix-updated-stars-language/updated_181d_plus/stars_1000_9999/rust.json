@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 145,
+    "components": 147,
     "concepts": 175,
     "observations": 178,
-    "repos": 39,
+    "repos": 40,
     "terms": 173
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "asciinema/agg",
     "askama-rs/askama-old",
@@ -21,6 +21,7 @@
     "BrainiumLLC/cargo-mobile",
     "BurntSushi/fst",
     "BurntSushi/rust-csv",
+    "BurntSushi/walkdir",
     "cgag/loc",
     "chelsea0x3b/dfdx",
     "dgrunwald/rust-cpython",

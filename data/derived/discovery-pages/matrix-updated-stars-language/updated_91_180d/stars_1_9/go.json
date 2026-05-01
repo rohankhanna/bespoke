@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 19,
     "observations": 19,
-    "repos": 7,
+    "repos": 8,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
+    "ai-bot-pro/achatbot-go",
     "codeGROOVE-dev/retry",
     "dbubel/intake",
     "karpeleslab/tpl",

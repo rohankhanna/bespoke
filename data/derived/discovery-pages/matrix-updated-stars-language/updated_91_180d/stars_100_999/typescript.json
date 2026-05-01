@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 395,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 13,
-    "terms": 67
+    "components": 524,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 18,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
+    "Anush008/fastembed-js",
+    "axel-op/googlejavaformat-action",
     "celo-org/celo-composer",
     "enisdenjo/graphql-sse",
     "gajus/eslint-plugin-sql",
+    "hyperbrew/bolt-cep",
     "jezweb/roo-commander",
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
@@ -26,6 +29,8 @@
     "nanbingxyz/mcpsvr",
     "posthtml/posthtml-parser",
     "scopecraft/command",
-    "tevonsb/homeassistant-mcp"
+    "snapcast/snapweb",
+    "tevonsb/homeassistant-mcp",
+    "uni-helper/uni-network"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 7,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 3,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "fffaraz/awesome-cpp",
-    "matiassingers/awesome-readme"
+    "firstcontributions/first-contributions",
+    "matiassingers/awesome-readme",
+    "veggiemonk/awesome-docker"
   ]
 }

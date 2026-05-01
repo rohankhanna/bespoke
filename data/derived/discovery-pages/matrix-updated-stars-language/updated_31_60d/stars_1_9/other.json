@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 21,
-    "terms": 68
+    "components": 119,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 24,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
-    "adobe/spectrum-tokens",
     "apache/casbin-casbin.io",
+    "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
     "aspect-build/tools_telemetry",
     "ATProtoKit/MultiformatsKit",
@@ -26,13 +26,16 @@
     "dylibso/xtp-csharp-bindgen",
     "dylibso/xtp-go-bindgen",
     "dylibso/xtp-python-bindgen",
+    "ethpandaops/checkpoint-sync-health-checks",
+    "flagos-ai/llvm-project",
     "hermit-os/hermit-gcc",
     "MarcCote/TextWorld",
+    "mpizenberg/elm-test-runner",
+    "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-spm",
     "PyThaiNLP/pythainlp-corpus",
     "redis-developer/redis-starter-csharp",
     "shakacode/package_json",
-    "SWE-bench/SWE-smith-envs",
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "WebAssembly/compact-import-section"
   ]

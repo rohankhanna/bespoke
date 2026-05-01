@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1037,
-    "concepts": 234,
-    "observations": 235,
-    "repos": 23,
-    "terms": 234
+    "components": 355,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 11,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "AdguardTeam/AdguardBrowserExtension",
-    "apollographql/apollo-tooling",
     "argdown/argdown",
-    "aws-powertools/powertools-lambda-typescript",
-    "aws/aws-sdk-js-v3",
-    "aws/jsii",
     "conventional-changelog/conventional-changelog",
-    "dbeaver/cloudbeaver",
-    "ecyrbe/zodios",
-    "ggml-org/llama.vscode",
-    "handsontable/hyperformula",
-    "huggingface/huggingface.js",
-    "JamesIves/github-pages-deploy-action",
-    "jest-community/eslint-plugin-jest",
-    "julia-vscode/julia-vscode",
+    "electron/rebuild",
+    "graphql-hive/graphql-inspector",
+    "hey-api/openapi-ts",
+    "jest-community/jest-extended",
+    "openlit/openlit",
     "podman-desktop/podman-desktop",
-    "posit-dev/positron",
     "r-lib/actions",
-    "Redocly/redocly-cli",
-    "sparkjsdev/spark",
-    "unjs/changelogen",
-    "web-infra-dev/rsbuild",
-    "web-infra-dev/rsdoctor"
+    "Uniswap/v3-core",
+    "wundergraph/cosmo"
   ]
 }

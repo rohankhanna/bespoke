@@ -20,13 +20,14 @@
       "size": 85
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:20.393861+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "doc-doc/HCRN-BERT",
+    "full_name": "doc-doc/hcrn-bert",
     "html_url": "https://github.com/doc-doc/HCRN-BERT",
     "language": "Python",
     "pushed_at": "2021-11-16T14:20:33Z",

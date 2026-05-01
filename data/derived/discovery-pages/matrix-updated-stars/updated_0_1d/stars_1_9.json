@@ -1,38 +1,22 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 83,
-    "observations": 86,
-    "repos": 21,
-    "terms": 82
+    "components": 35,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 5,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "abhinav/goldmark-hashtag",
-    "cloudfoundry/wg-app-platform-runtime-ci",
-    "dcampbell24/djot-implementations",
-    "dwyl/phoenix-papertrail-demo",
-    "ecyrbe/zodios-plugins",
-    "eddelbuettel/r2u-builder",
-    "eea/eea-website-backend",
-    "flathub-infra/flat-manager-hooks",
-    "hecrj/llama-server",
-    "jku/tuf-demo",
-    "kkomelin/isomorphic-dompurify-playgrounds",
-    "ldclabs/ic-cose",
-    "meridianlabs-ai/inspect_harbor",
-    "micronaut-projects/micronaut-langchain4j",
-    "mozilla-ai/tinyagent",
-    "octokit/auth-callback.js",
-    "reviewdog/action-alex",
-    "rvagg/js-bitcoin-block",
-    "sapphiredev/.github",
-    "snowflakedb/universal-driver",
-    "travi/octokit-auth-netrc"
+    "decibri/decibri",
+    "demonatic/flash-attention",
+    "hybridgroup/llama-cpp-builder",
+    "OpenSC/Nightly",
+    "zopefoundation/meta"
   ]
 }

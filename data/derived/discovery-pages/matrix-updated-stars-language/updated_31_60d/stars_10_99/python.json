@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 31,
-    "terms": 87
+    "components": 163,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 37,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
+    "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
@@ -29,12 +30,15 @@
     "clearml/clearml-session",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "corl-team/VL-DAC",
+    "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
     "explosion/weasel",
+    "FindDefinition/cumm",
     "gazebosim/gz-mujoco",
     "googlefonts/nam-files",
     "inducer/codepy",
+    "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
@@ -44,6 +48,8 @@
     "richardodliu/OpenCodeEval",
     "rstudio/pins-python",
     "ServiceNow/webarena-verified",
-    "talieisin/britfix"
+    "talieisin/britfix",
+    "TexasInstruments/edgeai-tensorlab",
+    "VisionXLab/Rise-Video"
   ]
 }

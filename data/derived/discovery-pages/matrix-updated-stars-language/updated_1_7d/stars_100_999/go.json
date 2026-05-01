@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 190,
-    "observations": 190,
-    "repos": 29,
-    "terms": 190
+    "components": 251,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 30,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,36 +12,37 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "a2aproject/a2a-go",
-    "AdguardTeam/urlfilter",
-    "ai-dynamo/grove",
     "aliyun/aliyun-cli",
+    "apache/dubbo-go-hessian2",
     "aquasecurity/trivy-db",
-    "bazel-contrib/rules_img",
+    "argoproj-labs/argocd-agent",
+    "Azure/azure-dev",
     "bitrise-io/bitrise",
     "boj/redistore",
-    "bufbuild/protovalidate-go",
-    "chainguard-dev/melange",
+    "buildpacks/lifecycle",
     "ClickHouse/ch-go",
     "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
+    "cloudfoundry/cf-deployment",
+    "cloudfoundry/diego-release",
     "cloudwego/eino-examples",
+    "cloudwego/eino-ext",
     "Consensys/gnark-crypto",
+    "fnproject/cli",
+    "go-logr/zapr",
+    "go-openapi/strfmt",
     "ipfs/boxo",
     "ipfs/rainbow",
-    "Kong/deck",
-    "kubernetes-sigs/prow",
-    "kubernetes/apiextensions-apiserver",
-    "kubernetes/sample-apiserver",
+    "kubernetes-sigs/dra-driver-nvidia-gpu",
     "mattn/go-isatty",
-    "microsoft/dcp",
-    "moul/gotty-client",
     "OffchainLabs/nitro",
+    "operator-framework/operator-registry",
     "sigstore/fulcio",
-    "snowflakedb/gosnowflake",
+    "SpecterOps/AzureHound",
+    "theupdateframework/go-tuf",
     "trzsz/tsshd",
-    "web-platform-tests/wpt.fyi"
+    "web-infra-dev/rslint"
   ]
 }

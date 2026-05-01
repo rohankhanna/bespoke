@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 126,
-    "observations": 127,
-    "repos": 24,
-    "terms": 131
+    "components": 149,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 29,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "artempyanykh/marksman",
+    "bakpakin/Fennel",
     "breezedeus/Pix2Text",
     "cognitect/transit-format",
     "dashbitco/mox",
@@ -30,13 +31,17 @@
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "mfussenegger/nvim-jdtls",
-    "microsoft/TextWorld",
+    "mono/CppSharp",
     "omniauth/omniauth",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
+    "pry/pry",
+    "rails/spring",
     "rails/tailwindcss-rails",
     "SpinalHDL/VexRiscv",
+    "steipete/imsg",
     "stevearc/aerial.nvim",
-    "touchlab/droidconkotlin"
+    "touchlab/droidconkotlin",
+    "woct0rdho/triton-windows"
   ]
 }

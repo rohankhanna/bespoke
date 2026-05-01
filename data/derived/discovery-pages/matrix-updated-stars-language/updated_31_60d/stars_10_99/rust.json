@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 15,
-    "terms": 86
+    "components": 97,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 19,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
+    "celestiaorg/hana",
     "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
+    "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
+    "jiegec/tantivy-jieba",
     "kurrent-io/KurrentDB-Client-Rust",
+    "lambdaclass/libssz",
     "libp2p/if-watch",
     "microsoft/tracing-etw",
     "psmux/psnet",

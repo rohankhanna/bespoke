@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1426,
-    "concepts": 278,
-    "observations": 280,
-    "repos": 30,
-    "terms": 274
+    "components": 1784,
+    "concepts": 325,
+    "observations": 328,
+    "repos": 37,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,44 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ajaxorg/ace",
-    "avajs/ava",
     "badges/shields",
     "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
     "brianc/node-postgres",
     "commitizen/cz-cli",
+    "cure53/DOMPurify",
     "decaporg/decap-cms",
+    "electron/minimal-repro",
+    "eslint/eslint",
+    "expressjs/express",
     "fastify/fastify",
     "google/zx",
     "graphql/graphql-spec",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
+    "jashkenas/backbone",
     "jquery/jquery",
     "Leaflet/Leaflet",
     "lodash/lodash",
+    "lovell/sharp",
     "markedjs/marked",
+    "motdotla/dotenv",
     "nock/nock",
     "openai/codex-plugin-cc",
     "prettier/prettier",
+    "PrismJS/prism",
     "remy/nodemon",
+    "rollup/rollup",
     "semantic-release/semantic-release",
     "serverless/serverless",
     "simple-icons/simple-icons",
     "svg/svgo",
-    "vega/vega",
-    "vercel-labs/agent-skills",
     "webpack/webpack",
     "webtorrent/webtorrent",
-    "yarnpkg/yarn"
+    "yarnpkg/yarn",
+    "zloirock/core-js"
   ]
 }

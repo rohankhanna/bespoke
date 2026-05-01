@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 29,
+    "components": 43,
     "concepts": 22,
     "observations": 22,
-    "repos": 3,
+    "repos": 4,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "adipalko/hatraot",
     "neuroverseos/negotiator",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation"

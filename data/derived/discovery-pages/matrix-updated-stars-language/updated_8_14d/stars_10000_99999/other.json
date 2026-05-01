@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 920,
-    "concepts": 497,
-    "observations": 500,
-    "repos": 53,
-    "terms": 502
+    "components": 1017,
+    "concepts": 555,
+    "observations": 558,
+    "repos": 59,
+    "terms": 561
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,27 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abpframework/abp",
     "Alamofire/Alamofire",
-    "alexandresanlim/Badges4-README.md-Profile",
+    "AlDanial/cloc",
     "antlr/grammars-v4",
     "apache/spark",
     "apple/container",
     "AssemblyScript/assemblyscript",
-    "AudioKit/AudioKit",
     "Azure/azure-quickstart-templates",
     "composer/composer",
     "dart-lang/sdk",
     "deepset-ai/haystack",
+    "dotnet/aspnetcore",
+    "dotnet/AspNetCore.Docs",
     "dotnet/core",
     "dotnet/csharplang",
+    "dotnet/efcore",
     "dotnet/eShop",
+    "dotnet/orleans",
+    "dotnet/roslyn",
     "dotnet/runtime",
     "elixir-lang/elixir",
     "fastlane/fastlane",
@@ -38,13 +42,14 @@
     "google/fonts",
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",
+    "Heapy/awesome-kotlin",
     "Homebrew/brew",
     "Homebrew/homebrew-core",
-    "isocpp/CppCoreGuidelines",
     "jekyll/jekyll",
     "JetBrains/kotlin",
     "jordansissel/fpm",
     "JuliaLang/julia",
+    "jupyter/notebook",
     "kubernetes/community",
     "llvm/llvm-project",
     "meta-llama/llama-cookbook",
@@ -66,6 +71,7 @@
     "shap/shap",
     "Solido/awesome-flutter",
     "swiftlang/swift-evolution",
+    "vim/vim",
     "winsw/winsw"
   ]
 }

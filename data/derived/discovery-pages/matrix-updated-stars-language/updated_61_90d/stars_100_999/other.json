@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 129,
-    "observations": 130,
-    "repos": 41,
-    "terms": 129
+    "components": 148,
+    "concepts": 156,
+    "observations": 157,
+    "repos": 48,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ahyatt/emacs-websocket",
     "AndrewRadev/switch.vim",
+    "ankane/kms_encrypted",
     "archguard/archguard",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
     "autodeployai/ai-serving",
+    "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "Azure/arm-ttk",
     "babashka/scittle",
+    "clj-easy/graalvm-clojure",
     "clojure-emacs/inf-clojure",
     "clojure/core.memoize",
     "clojure/tools.analyzer",
     "cloojure/tupelo",
     "CSU-Radarmet/CSU_RadarTools",
-    "CVEProject/cve-schema",
     "domluna/JuliaFormatter.jl",
     "elm-explorations/test",
     "emacs-lsp/lsp-dart",
@@ -40,20 +42,25 @@
     "JacksonBurns/chemeleon",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
+    "lite-xl/lite-xl-plugin-manager",
     "loqusion/typix",
+    "nim-lang/vscode-nim",
     "pug-php/pug",
     "rahul-goel/fused-ssim",
     "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",
+    "rubocop/rubocop-performance",
     "scribd/Weaver",
     "swansonk14/admet_ai",
     "tensorflow/mlir-hlo",
     "thinca/vim-themis",
     "thu-ml/SpargeAttn",
+    "tomas-abrahamsson/gpb",
     "tpapp/julia-repl",
     "trptcolin/reply",
-    "wjakob/nanobind_example"
+    "wjakob/nanobind_example",
+    "xoofx/CppAst.NET"
   ]
 }

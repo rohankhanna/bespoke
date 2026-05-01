@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 228,
-    "observations": 230,
-    "repos": 39,
-    "terms": 227
+    "components": 226,
+    "concepts": 265,
+    "observations": 268,
+    "repos": 45,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ada-url/ada",
+    "AFLplusplus/AFLplusplus",
     "alibaba/havenask",
     "asg017/sqlite-vec",
     "boazsegev/facil.io",
     "CNugteren/CLBlast",
-    "CVCUDA/CV-CUDA",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
     "ericniebler/range-v3",
     "espeak-ng/espeak-ng",
-    "go-gl/gl",
     "go-gl/glfw",
     "google/draco",
     "google/honggfuzz",
     "google/woff2",
+    "h2o/picohttpparser",
+    "intel/isa-l",
     "KhronosGroup/MoltenVK",
     "lh3/minimap2",
     "libbpf/libbpf",
@@ -46,12 +47,17 @@
     "oneapi-src/oneAPI-samples",
     "posva/catimg",
     "risc0/risc0",
+    "riscv-software-src/opensbi",
+    "SarahWeiii/CoACD",
     "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",
     "uNetworking/uSockets",
+    "vectorclass/version2",
     "vstakhov/libucl",
     "WebAssembly/wabt",
+    "webmproject/libwebp",
     "wjakob/nanobind",
-    "ycm-core/ycmd"
+    "ycm-core/ycmd",
+    "zlib-ng/zlib-ng"
   ]
 }

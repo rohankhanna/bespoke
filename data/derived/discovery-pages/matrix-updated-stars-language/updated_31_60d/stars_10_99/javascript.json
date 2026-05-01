@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 14,
-    "terms": 41
+    "components": 107,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 13,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
@@ -21,12 +21,11 @@
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
     "haskell-actions/run-fourmolu",
-    "ipld/js-dag-pb",
+    "hipster-labs/jhipster-daily-builds",
     "Jack-Works/react-refresh-transformer",
-    "kibertoad/toad-cache",
-    "mongodb-js/zstd",
     "nodejs/email",
     "OpenHands/openhands-chrome-extension",
+    "Rob--W/proxy-from-env",
     "tc39/proposal-immutable-arraybuffer"
   ]
 }

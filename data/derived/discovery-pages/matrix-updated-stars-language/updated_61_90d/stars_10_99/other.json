@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 27,
-    "terms": 68
+    "components": 165,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 35,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
+    "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
     "andys8/git-brunch",
+    "ankane/ml-stack",
     "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
+    "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
     "dwyl/elixir-auth-github",
     "eddelbuettel/tinythemes",
@@ -30,16 +33,21 @@
     "FoundationDB/fdb-build-support",
     "GoogleCloudPlatform/getting-started-dotnet",
     "hedronvision/bazel-make-cc-https-easy",
+    "hspec/sensei",
+    "jmespath/jmespath.site",
+    "jruby/maven-tools",
     "JunoLab/Atom.jl",
     "kahliburke/MCPRepl.jl",
+    "lumen-oss/rocks-git.nvim",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "newtheatre/history-project",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "padreati/rapaio-jupyter-kernel",
-    "status-im/nim-json-serialization",
     "status-im/nim-serialization",
-    "WICG/crash-reporting"
+    "tarsius/llama",
+    "WICG/crash-reporting",
+    "xie-lab-ml/piecewise-sparse-attention"
   ]
 }

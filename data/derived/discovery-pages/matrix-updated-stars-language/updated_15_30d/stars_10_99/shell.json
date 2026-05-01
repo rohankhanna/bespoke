@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 11,
-    "terms": 85
+    "components": 51,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 13,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "2KAbhishek/mac2k",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
+    "alvistack/ansible-role-crun",
     "aporthq/aport-agent-guardrails",
     "beehive-lab/docker-tornadovm",
     "ChainSafe/forest-iac",
-    "coin-or-tools/ThirdParty-Mumps",
+    "clojure/brew-install",
     "conda-forge/poppler-feedstock",
     "containers/automation",
     "Digidai/product-manager-skills",
+    "GoogleCloudPlatform/blueprints",
     "oceanbase/docker-images"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 29,
-    "terms": 162
+    "components": 229,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 30,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
@@ -22,24 +22,25 @@
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "blinklabs-io/bluefin",
-    "celo-org/op-geth",
-    "cloudfoundry/bbs",
     "cloudfoundry/bosh-google-cpi-release",
     "coder/coder-logstream-kube",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "containers/container-libs",
+    "danielgtaylor/mexpr",
+    "danielgtaylor/shorthand",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
-    "depado/smallblog",
+    "ebitengine/debugui",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "ipshipyard/p2p-forge",
-    "joshsymonds/cc-tools",
     "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
     "muhlba91/external-dns-provider-adguard",
+    "openshift/ci-tools",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
     "transparency-dev/armored-witness"

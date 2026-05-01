@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 0,
+    "components": 6,
     "concepts": 0,
     "observations": 0,
-    "repos": 4,
+    "repos": 5,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "biocypher/biocypher-cookiecutter-template",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/BTRFS-Snapper-MCP",
-    "maeste/a2a-tck"
+    "maeste/a2a-tck",
+    "sarlinpe/pybind11-stubgen"
   ]
 }

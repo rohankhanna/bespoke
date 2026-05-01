@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 25,
-    "terms": 68
+    "components": 37,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 30,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,35 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
     "alibaba/spring-context-support",
     "apache/incubator-tuweni",
+    "arekinath/PivApplet",
+    "atteo/classindex",
     "btkelly/gnag",
     "Byte-Lab/JCoz",
     "carrot2/elasticsearch-carrot2",
     "cyberphone/json-canonicalization",
     "dirs-dev/directories-jvm",
     "dropbox/mypy-PyCharm-plugin",
+    "f4b6a3/uuid-creator",
     "findbugsproject/findbugs",
     "fnproject/docs",
     "GiviMAD/whisper-jni",
     "google/graphicsfuzz",
     "google/osdetector-gradle-plugin",
     "googleapis/gapic-generator",
+    "howiehu/ddd-architecture-samples",
     "iTXTech/mirai-console-loader",
     "julienledem/redelm",
     "krasa/EclipseCodeFormatter",
     "ksuid/ksuid",
     "MetaGLM/zhipuai-sdk-java-v4",
     "mukel/llama2.java",
+    "rpcx-ecosystem/rpcx-benchmark",
     "snapcast/snapdroid",
     "timgifford/maven-buildtime-extension",
     "trustin/os-maven-plugin"

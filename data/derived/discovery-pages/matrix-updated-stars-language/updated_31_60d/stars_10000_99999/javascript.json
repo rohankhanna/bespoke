@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 7,
-    "terms": 44
+    "components": 332,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 9,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "eyaltoledano/claude-task-master",
     "markdown-it/markdown-it",
     "pugjs/pug",
     "sql-js/sql.js",
     "typicode/husky",
-    "videojs/video.js"
+    "videojs/video.js",
+    "websockets/ws"
   ]
 }

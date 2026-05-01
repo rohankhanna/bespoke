@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 9,
-    "terms": 43
+    "components": 53,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 13,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "alexellis/fstail",
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
     "bored-engineer/github-conditional-http-transport",
+    "cloudfoundry/buildpackapplifecycle",
+    "concourse/pool-resource",
+    "filecoin-project/go-data-transfer",
     "ipfs/go-ipfs-example-plugin",
     "ipfs/go-log",
     "jm33-m0/arc",

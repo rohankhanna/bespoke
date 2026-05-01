@@ -1,39 +1,40 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 22,
-    "terms": 46
+    "components": 61,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 23,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
-    "conda-forge/equinox-feedstock",
-    "conda-forge/tianshou-feedstock",
-    "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
-    "danielrosehill/Claude-Israel",
+    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Responsible-Agent-Skill-Development",
+    "flagos-ai/verl-FL",
     "hermit-os/.github",
+    "hyper-mcp-rs/context7-plugin",
+    "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
-    "kdubbo/xds-api",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",
     "nodenv/node-build-prerelease",
     "regro/cf-graph-countyfair",
+    "sp1-patches/elliptic-curves",
     "squidowl/iced",
+    "Strivin0311/strivin0311.github.io",
     "TransferQueue/community_doc"
   ]
 }

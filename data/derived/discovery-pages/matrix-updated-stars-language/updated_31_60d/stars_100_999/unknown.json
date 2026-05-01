@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 29,
-    "observations": 30,
+    "components": 22,
+    "concepts": 34,
+    "observations": 35,
     "repos": 15,
-    "terms": 29
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "Calcium-Ion/new-api-horizon",
@@ -21,10 +21,10 @@
     "eza-community/eza-themes",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
-    "hashicorp/vault-examples",
     "helm/community",
     "lumen-oss/nvim-best-practices",
     "MiniMax-AI/MiniMax-M2.5",
+    "neon-bindings/examples",
     "oobabooga/textgen-extensions",
     "peter-evans/enable-pull-request-automerge",
     "reactwg/react-native-releases",

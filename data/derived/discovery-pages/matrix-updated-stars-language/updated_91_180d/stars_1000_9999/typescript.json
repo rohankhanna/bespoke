@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 539,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 18,
-    "terms": 99
+    "components": 570,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 19,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "EventSource/eventsource",
     "glimmerjs/glimmer-vm",
@@ -28,6 +28,7 @@
     "omnara-ai/omnara",
     "PaulLeCam/react-leaflet",
     "piotrostr/listen",
+    "ricky0123/vad",
     "shareAI-lab/Kode-Agent",
     "tancredi/fantasticon",
     "vercel/ms",

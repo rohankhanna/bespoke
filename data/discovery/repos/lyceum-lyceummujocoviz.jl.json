@@ -98,13 +98,14 @@
       "size": 251
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:14.450990+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "Lyceum/LyceumMuJoCoViz.jl",
+    "full_name": "lyceum/lyceummujocoviz.jl",
     "html_url": "https://github.com/Lyceum/LyceumMuJoCoViz.jl",
     "language": "Julia",
     "pushed_at": "2021-09-25T04:29:45Z",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 45,
-    "concepts": 41,
-    "observations": 42,
+    "concepts": 50,
+    "observations": 51,
     "repos": 11,
-    "terms": 40
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "Antibrumm/jackson-antpathfilter",
     "apache/netbeans-nbpackage",
-    "caprica/vlcj-examples",
+    "clearml/clearml-pycharm-plugin",
     "enola-dev/enola",
+    "EXIficient/exificient-for-json",
     "filip26/iridium-cbor-ld",
     "glaforge/adk-java-maven-template",
     "guyboertje/jrjackson",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 18,
-    "terms": 197
+    "components": 160,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 12,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "actions/runner-images",
-    "apache/apisix",
+    "anthropics/claude-cookbooks",
     "autowarefoundation/autoware",
-    "bitwarden/server",
+    "getlantern/lantern",
     "gradle/gradle",
-    "Homebrew/homebrew-cask",
+    "hadolint/hadolint",
     "koreader/koreader",
     "mozilla-mobile/firefox-ios",
-    "neovim/nvim-lspconfig",
-    "nim-lang/Nim",
-    "phoenixframework/phoenix",
-    "rubocop/rubocop",
-    "ruby/ruby",
-    "sebastianbergmann/phpunit",
+    "rapid7/metasploit-framework",
     "swiftlang/swift",
-    "swiftlang/swift-package-manager",
+    "symfony/symfony",
     "triton-lang/triton",
-    "upptime/upptime"
+    "vbenjs/vue-vben-admin"
   ]
 }

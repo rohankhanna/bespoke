@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 29,
-    "observations": 31,
-    "repos": 7,
-    "terms": 29
+    "components": 28,
+    "concepts": 13,
+    "observations": 14,
+    "repos": 1,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
-    "aws-samples/aws-sdk-js-tests",
-    "coasys/ad4m",
-    "kitconcept/volto-light-theme",
-    "lm-sys/lm-sys.github.io",
-    "nodejs/nodejs-dist-indexer",
-    "rstackjs/agent-skills"
+    "coasys/ad4m"
   ]
 }

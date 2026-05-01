@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 41,
-    "terms": 160
+    "components": 100,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 46,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "altercation/solarized",
@@ -28,6 +28,9 @@
     "CompVis/latent-diffusion",
     "CompVis/stable-diffusion",
     "diff-usion/Awesome-Diffusion-Models",
+    "dotnet-architecture/eShopOnContainers",
+    "dotnet-architecture/eShopOnWeb",
+    "dropbox/zxcvbn",
     "facebookresearch/fastText",
     "facebookresearch/segment-anything",
     "fivethirtyeight/data",
@@ -36,6 +39,7 @@
     "junyanz/CycleGAN",
     "karpathy/llm.c",
     "karpathy/micrograd",
+    "lucasg/Dependencies",
     "mahmoud/awesome-python-applications",
     "mamoe/mirai",
     "mhinz/vim-galore",
@@ -45,6 +49,7 @@
     "nagadomi/waifu2x",
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
+    "phillipi/pix2pix",
     "preservim/nerdtree",
     "salesforce/LAVIS",
     "srush/GPU-Puzzles",

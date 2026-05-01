@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 19,
-    "terms": 115
+    "components": 116,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 23,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-instance-selector",
     "aws/amazon-ec2-metadata-mock",
     "bshuster-repo/logrus-logstash-hook",
+    "cloudwego/hertz-examples",
     "connectrpc/grpcreflect-go",
     "containers/storage",
     "cpuguy83/go-md2man",
+    "DyegoCosta/snake-game",
     "ethereum-optimism/asterisc",
     "fastschema/fastschema",
     "github/smimesign",
     "google/rpmpack",
     "IBM/FfDL",
+    "InftyAI/llmaz",
     "ipfs/go-ds-s3",
+    "Masterminds/vcs",
     "mholt/archives",
     "multiformats/multiaddr",
     "phodal/coca",

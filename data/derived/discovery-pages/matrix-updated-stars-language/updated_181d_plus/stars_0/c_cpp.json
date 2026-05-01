@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 8,
-    "terms": 7
+    "components": 42,
+    "concepts": 16,
+    "observations": 17,
+    "repos": 10,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
-    "AFD-Illinois/EHT-babel",
+    "afd-illinois/eht-babel",
     "boingoing/node-sass",
     "burntsushi/linux",
     "comit-network/hash_edwards_to_edwards",
+    "eaplatanios/triton",
     "fonwin/libfon9",
     "meinac/oj-introspect",
-    "mikesteglich/coliop"
+    "mikesteglich/coliop",
+    "spacemeshos/app-spacemesh"
   ]
 }

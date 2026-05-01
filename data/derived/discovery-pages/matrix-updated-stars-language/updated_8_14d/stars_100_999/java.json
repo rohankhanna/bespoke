@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 12,
-    "terms": 77
+    "components": 103,
+    "concepts": 147,
+    "observations": 147,
+    "repos": 17,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
-    "bazel-contrib/rules_jvm_external",
     "beehive-lab/GPULlama3.java",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
+    "FasterXML/woodstox",
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
+    "graalvm/graal-languages-demos",
+    "graalvm/native-build-tools",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
-    "spotbugs/sonar-findbugs"
+    "spotbugs/sonar-findbugs",
+    "swagger-api/swagger-inflector",
+    "Waffle/waffle",
+    "zilliztech/vts"
   ]
 }

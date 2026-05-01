@@ -287,13 +287,14 @@
       "size": 6845
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:36.354633+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
     "fork": true,
-    "full_name": "Ningsir/pytorch",
+    "full_name": "ningsir/pytorch",
     "html_url": "https://github.com/Ningsir/pytorch",
     "language": null,
     "pushed_at": "2022-07-26T01:48:27Z",

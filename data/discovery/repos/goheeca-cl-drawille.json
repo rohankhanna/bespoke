@@ -8,13 +8,14 @@
       "size": 7636
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:51.848120+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "cl-drawille: Drawing in terminal with Unicode Braille characters.",
     "fork": false,
-    "full_name": "Goheeca/cl-drawille",
+    "full_name": "goheeca/cl-drawille",
     "html_url": "https://github.com/Goheeca/cl-drawille",
     "language": "Common Lisp",
     "pushed_at": "2021-07-28T17:00:06Z",

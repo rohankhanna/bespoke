@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 650,
-    "concepts": 84,
-    "observations": 85,
-    "repos": 22,
-    "terms": 104
+    "components": 752,
+    "concepts": 100,
+    "observations": 101,
+    "repos": 26,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
     "agents-squads/squads-cli",
     "aws-samples/aws-sdk-js-notes-app",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
+    "buttondown/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
@@ -33,8 +34,11 @@
     "microsoft/vscode-js-debug-companion",
     "obi1kenobi/cargo-semver-checks-action",
     "pinecone-io/pinecone-mcp",
+    "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
+    "Shougo/dpp-ext-installer",
+    "solidjs-community/storybook",
     "zhayujie/cow-skill-hub"
   ]
 }

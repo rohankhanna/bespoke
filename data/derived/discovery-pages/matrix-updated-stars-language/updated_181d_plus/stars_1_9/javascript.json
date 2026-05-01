@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 886,
-    "concepts": 110,
-    "observations": 111,
-    "repos": 56,
-    "terms": 110
+    "components": 1017,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 65,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "14nrv/serverless-lambda-stripe",
     "5sControl/5s-webserver",
@@ -37,6 +37,7 @@
     "coderaiser/speca",
     "codesyntax/volto-cookiebot",
     "codesyntax/volto-countup-block",
+    "CyanAsterisk/FreeCar-MP",
     "denar90/lightouse-ci-netlify-preact",
     "dmi3y/expo-release-please-example",
     "docpad/docpad-plugin-nodesass",
@@ -47,6 +48,9 @@
     "gabrielschulhof/iotivity-node",
     "gajus/conventional-changelog-lint-config-canonical",
     "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
+    "hchiam/anonymous-input",
+    "hchiam/generator-hchiam-learning",
+    "hchiam/learning-tauri",
     "ianopolous/jpack",
     "iodide-project/iodide-transpiler",
     "ipdxco/awesome-github-as-code-users",
@@ -64,10 +68,15 @@
     "libp2p/js-libp2p-example-chat",
     "libp2p/js-libp2p-example-circuit-relay",
     "libp2p/js-libp2p-example-connection-encryption",
+    "locize/locize-gatsby-example",
+    "locize/locize-remix-i18next-example",
     "micromatch/expand-braces",
+    "minihack-editor/minihack-editor.github.io",
     "PSteinhaus/PSteinhaus.github.io",
     "pulsar-cooperative/linter-shellcheck-pulsar",
     "putoutjs/putout-processor-typos",
+    "shanewholloway/js-cbor-codec",
+    "storybookjs/addon-design-assets",
     "therealharpaljadeja/socialconnect_rn_demo",
     "wa-lang/webgpu"
   ]

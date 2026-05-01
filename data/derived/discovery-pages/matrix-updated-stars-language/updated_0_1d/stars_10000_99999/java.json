@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 95,
-    "observations": 96,
-    "repos": 9,
-    "terms": 95
+    "components": 27,
+    "concepts": 52,
+    "observations": 54,
+    "repos": 5,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "apache/kafka",
-    "awsdocs/aws-doc-sdk-examples",
-    "bumptech/glide",
-    "dbeaver/dbeaver",
+    "debezium/debezium",
     "elastic/elasticsearch",
-    "google/gson",
     "grpc/grpc-java",
-    "langchain4j/langchain4j",
+    "languagetool-org/languagetool",
     "oracle/graal"
   ]
 }

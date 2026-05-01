@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 7,
-    "terms": 30
+    "components": 40,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 11,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Azure/aaz",
-    "bitnami/vulndb",
-    "dependabot/smoke-tests",
+    "bufbuild/homebrew-buf",
+    "cloudfoundry/cf-deployment-concourse-tasks",
     "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "helidon-io/helidon-examples",
-    "tinted-theming/tinted-shell"
+    "postmodern/ruby-versions",
+    "quarkusio/quarkus-ecosystem-ci",
+    "reviewdog/action-depup",
+    "tinted-theming/tinted-shell",
+    "tinted-theming/tinted-terminal"
   ]
 }

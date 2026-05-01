@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 24,
-    "observations": 25,
-    "repos": 12,
-    "terms": 24
+    "components": 114,
+    "concepts": 25,
+    "observations": 26,
+    "repos": 13,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "coderaiser/estrace",
     "d3x0r/JSOX",
@@ -24,6 +24,7 @@
     "minikube-ci/examples",
     "Redocly/redocly-cli-cookbook",
     "rose-pine/build",
+    "salesforcecli/status",
     "tc39/proposal-native-promise-predicate",
     "ykdojo/cc-safe"
   ]

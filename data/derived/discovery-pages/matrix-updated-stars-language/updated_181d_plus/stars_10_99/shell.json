@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 75,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 54,
-    "terms": 117
+    "concepts": 143,
+    "observations": 143,
+    "repos": 58,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -31,6 +31,7 @@
     "Berrysoft/fish-msys2",
     "berty/community",
     "bitrise-steplib/step-template",
+    "bjartnes/hikke",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
     "chemprop/chemprop_benchmark",
@@ -39,6 +40,7 @@
     "danielrosehill/claude-code-linux-desktop-slash-commands",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
     "dependabot/example-cli-usage",
+    "dpb587/openvpn-bosh-release",
     "FabioAntunes/base16-fish-shell",
     "funtoo/dev-kit",
     "gchq/gaffer-docker",
@@ -58,7 +60,9 @@
     "luizm/asdf-shfmt",
     "manim-kindergarten/manim_action_renderer",
     "nmattia/sorri",
+    "Oneflow-Inc/conda-env",
     "scaleway/initrd",
+    "sclorg/mongodb-container",
     "sharkdp/fd-benchmarks",
     "Shavian-info/interalia",
     "Shougo/dein-installer.vim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 11,
-    "terms": 120
+    "components": 154,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 7,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "astral-sh/ruff",
-    "biomejs/biome",
-    "GitoxideLabs/gitoxide",
-    "jj-vcs/jj",
-    "PyO3/pyo3",
+    "DioxusLabs/dioxus",
+    "oxc-project/oxc",
     "quickwit-oss/quickwit",
-    "quickwit-oss/tantivy",
+    "rolldown/rolldown",
     "rust-lang/rust-analyzer",
-    "RustPython/RustPython",
-    "tracel-ai/burn",
-    "zed-industries/zed"
+    "vectordotdev/vector"
   ]
 }

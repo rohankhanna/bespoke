@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 180,
+    "components": 193,
     "concepts": 52,
     "observations": 52,
-    "repos": 19,
+    "repos": 20,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "attractivechaos/k8",
     "ayoubben18/ab-method",
@@ -30,6 +30,7 @@
     "RReverser/wasm-bindgen-rayon",
     "rust-lang/lang-team",
     "scripting/reallysimple",
+    "tonyganch/gonzales-pe",
     "tree-sitter/tree-sitter-javascript",
     "tree-sitter/tree-sitter-julia",
     "ValYouW/njsTrace"

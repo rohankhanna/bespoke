@@ -8,13 +8,14 @@
       "size": 2258
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:45:21.496101+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A repo containing the default community files for a project",
     "fork": true,
-    "full_name": "Base24/.github",
+    "full_name": "base24/.github",
     "html_url": "https://github.com/Base24/.github",
     "language": null,
     "pushed_at": "2023-08-29T00:08:56Z",

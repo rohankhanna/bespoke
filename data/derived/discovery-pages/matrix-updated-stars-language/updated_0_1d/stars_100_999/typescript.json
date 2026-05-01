@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 904,
-    "concepts": 224,
-    "observations": 224,
-    "repos": 24,
-    "terms": 223
+    "components": 281,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 7,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
-    "apollographql/federation",
-    "astahmer/typed-openapi",
-    "bitwarden/directory-connector",
-    "chainguard-dev/actions",
-    "ClickHouse/clickhouse-js",
-    "decentralized-identity/did-resolver",
-    "glassflow/clickhouse-etl",
-    "heroku/cli",
-    "kkomelin/isomorphic-dompurify",
-    "octokit/app.js",
-    "octokit/auth-app.js",
-    "octokit/graphql.js",
-    "redhat-developer/vscode-yaml",
-    "relative-ci/bundle-stats",
+    "appium/appium-xcuitest-driver",
+    "engine262/engine262",
+    "mightyiam/eslint-config-love",
     "rstackjs/storybook-rsbuild",
-    "salesforcecli/cli",
-    "sapphiredev/utilities",
-    "smithy-lang/smithy-typescript",
     "stx-labs/stacks.js",
-    "unjs/c12",
-    "web-infra-dev/rslib",
-    "web-infra-dev/rstest",
-    "wevm/abitype"
+    "web-infra-dev/rstest"
   ]
 }

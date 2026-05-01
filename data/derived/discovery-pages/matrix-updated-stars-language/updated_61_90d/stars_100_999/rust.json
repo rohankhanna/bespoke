@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 19,
-    "terms": 99
+    "components": 116,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 24,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "cowboy8625/rusty-rain",
@@ -22,9 +22,13 @@
     "gwihlidal/vk-mem-rs",
     "hecrj/icebreaker",
     "ImageOptim/libimagequant",
+    "ItsEthra/typst-live",
+    "jimblandy/perf-event",
     "kata-containers/cgroups-rs",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
+    "MSxDOS/ntapi",
+    "pdf-rs/pdf_render",
     "ratatui/templates",
     "sagiegurari/duckscript",
     "smol-rs/async-executor",
@@ -32,6 +36,7 @@
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
     "walles/riff",
-    "zkcrypto/bls12_381"
+    "zkcrypto/bls12_381",
+    "zkcrypto/jubjub"
   ]
 }

@@ -68,13 +68,14 @@
       "size": 614
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:46:17.508322+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "Gordon-F/miniquad_ios_example",
+    "full_name": "gordon-f/miniquad_ios_example",
     "html_url": "https://github.com/Gordon-F/miniquad_ios_example",
     "language": "Rust",
     "pushed_at": "2022-01-06T15:18:18Z",

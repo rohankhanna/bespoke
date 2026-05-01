@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 32,
-    "terms": 140
+    "components": 126,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 38,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "andreasdr/tdme2",
     "antonypro/QGoodWindow",
@@ -30,20 +30,26 @@
     "eddelbuettel/rinside",
     "ejoy/lua",
     "erkyrath/glulxe",
+    "gpustack/llama-box",
     "Imagick/imagick",
     "ingonyama-zk/icicle",
     "intel/isa-l_crypto",
+    "intel/torch-ccl",
     "IST-DASLab/qutlass",
     "jimporter/mettle",
     "KhronosGroup/OpenCL-SDK",
+    "MajicDesigns/MD_Parola",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "mit-han-lab/Block-Sparse-Attention",
+    "mit-han-lab/flash-moba",
     "nagisa/rust_tracy_client",
     "neovim/libvterm",
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",
     "osvenskan/posix_ipc",
     "ParRes/Kernels",
+    "pmwkaa/ioarena",
+    "powervr-graphics/Native_SDK",
     "swigger/wechat-ocr",
     "TkTech/can_ada"
   ]

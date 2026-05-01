@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 373,
-    "concepts": 374,
-    "observations": 375,
-    "repos": 28,
-    "terms": 374
+    "components": 295,
+    "concepts": 280,
+    "observations": 281,
+    "repos": 21,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,35 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "agno-agi/agno",
     "axolotl-ai-cloud/axolotl",
-    "Comfy-Org/ComfyUI-Manager",
-    "crewAIInc/crewAI",
     "cvat-ai/cvat",
-    "dagster-io/dagster",
-    "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
+    "docling-project/docling",
     "fastapi/fastapi",
     "hiyouga/LlamaFactory",
-    "huggingface/lerobot",
-    "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
     "huggingface/trl",
     "jax-ml/jax",
+    "keras-team/keras",
+    "Kludex/starlette",
+    "kvcache-ai/ktransformers",
+    "Lightning-AI/pytorch-lightning",
     "modelscope/DiffSynth-Studio",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
-    "opendatalab/MinerU",
     "OpenHands/OpenHands",
-    "pallets/click",
     "pydantic/pydantic",
-    "pyg-team/pytorch_geometric",
-    "scikit-learn/scikit-learn",
-    "Skyvern-AI/skyvern",
-    "verl-project/verl",
-    "wandb/wandb",
-    "wkentaro/labelme"
+    "roboflow/supervision",
+    "verl-project/verl"
   ]
 }

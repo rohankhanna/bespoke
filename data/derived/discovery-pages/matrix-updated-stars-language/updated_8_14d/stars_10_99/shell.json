@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 18,
-    "terms": 70
+    "components": 110,
+    "concepts": 90,
+    "observations": 93,
+    "repos": 22,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,29 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "AFLplusplus/cov-analysis",
-    "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
+    "bitnami/vulndb",
+    "cloudfoundry/jumpbox-deployment",
     "confluentinc/cp-demo",
     "containers/automation_images",
     "cri-o/packaging",
+    "dependabot/smoke-tests",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
-    "GoogleCloudPlatform/blueprints",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",
+    "oneclick/rubyinstaller2-packages",
     "reviewdog/action-black",
+    "reviewdog/action-hadolint",
+    "reviewdog/action-shfmt",
     "sclorg/mariadb-container"
   ]
 }

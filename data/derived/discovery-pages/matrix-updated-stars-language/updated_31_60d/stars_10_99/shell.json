@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 17,
     "observations": 17,
-    "repos": 10,
+    "repos": 11,
     "terms": 18
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "Aedelon/claude-code-blueprint",
+    "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
     "conda-forge/spacy-feedstock",
     "containers/image_build",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 32,
-    "terms": 141
+    "components": 257,
+    "concepts": 210,
+    "observations": 213,
+    "repos": 39,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,39 +12,46 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "adrg/xdg",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
+    "argoproj-labs/argo-rollouts-manager",
     "aws/credentials-fetcher",
     "bernardo-bruning/ollama-copilot",
+    "bitrise-io/envman",
     "bluesky-social/goat",
     "broderick-westrope/tetrigo",
     "charmbracelet/colorprofile",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "connectrpc/validate-go",
+    "darkweak/souin",
     "devgianlu/go-librespot",
-    "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
     "ethereum-optimism/op-geth",
     "ethereum-optimism/superchain-registry",
-    "go-gl/glow",
+    "foxj77/claudectx",
     "go-viper/mapstructure",
     "google/triage-party",
     "google/trillian-examples",
     "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
+    "hazelcast/hazelcast-go-client",
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "jaegertracing/jaeger-idl",
+    "kubeflow/mpi-operator",
     "kubernetes/cri-api",
+    "Layr-Labs/eigenda",
     "lightninglabs/neutrino",
     "mailru/go-clickhouse",
     "prometheus/exporter-toolkit",
-    "toml-lang/toml-test"
+    "stefanlogue/meteor",
+    "toml-lang/toml-test",
+    "usbarmory/GoTEE"
   ]
 }

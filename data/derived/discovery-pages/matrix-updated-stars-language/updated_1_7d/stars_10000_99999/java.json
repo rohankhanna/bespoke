@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 7,
-    "terms": 105
+    "components": 80,
+    "concepts": 91,
+    "observations": 91,
+    "repos": 8,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "apache/doris",
+    "apache/kafka",
     "apache/rocketmq",
-    "apple/pkl",
-    "ben-manes/caffeine",
-    "JetBrains/intellij-community",
-    "prestodb/presto",
-    "SeleniumHQ/selenium"
+    "awsdocs/aws-doc-sdk-examples",
+    "bumptech/glide",
+    "dbeaver/dbeaver",
+    "google/gson",
+    "langchain4j/langchain4j",
+    "netty/netty"
   ]
 }

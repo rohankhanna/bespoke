@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 26,
-    "terms": 87
+    "components": 93,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 31,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "autokitteh/kittehub",
     "az1326/advisor-models",
+    "bazelbuild/java_tools",
     "bigai-nlco/RuleReasoner",
     "camel-ai/seta",
     "ChenMnZ/INT_vs_FP",
@@ -31,13 +32,17 @@
     "googlefonts/lang",
     "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
+    "IQTLabs/snowglobe",
     "JarnoRFB/incense",
+    "jhogsett/VFIformer-WebUI",
     "Lizw14/Super-CLEVR",
     "mohammadtavakoli78/beam",
     "shawn0728/ARES",
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
+    "wamp-proto/wamp-xbr",
     "xplpc/xplpc",
+    "yulewang97/ERDiff",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]

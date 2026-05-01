@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 14,
-    "terms": 51
+    "components": 86,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 18,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
@@ -23,7 +23,11 @@
     "Cykooz/libheif-sys",
     "dsxmachina/rfm",
     "ethereum/eipw",
+    "extism/rust-pdk",
+    "germangb/minimp3-rs",
     "googlefonts/shaperglot",
+    "hermit-os/rftrace",
+    "jakudlaty/tsid",
     "joseluisq/paket",
     "loyd/fixnum",
     "nebelgrau77/airsniffer-esp32c6",

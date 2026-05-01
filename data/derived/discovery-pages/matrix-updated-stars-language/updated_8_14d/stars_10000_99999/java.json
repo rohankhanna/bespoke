@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 9,
-    "terms": 120
+    "components": 167,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 16,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alibaba/nacos",
     "alibaba/spring-cloud-alibaba",
+    "apache/doris",
     "apache/dubbo",
     "apache/incubator-seata",
+    "apple/pkl",
     "bazelbuild/bazel",
+    "ben-manes/caffeine",
+    "clojure/clojure",
     "google/guava",
+    "JetBrains/intellij-community",
     "NationalSecurityAgency/ghidra",
     "OpenAPITools/openapi-generator",
-    "resilience4j/resilience4j"
+    "prestodb/presto",
+    "resilience4j/resilience4j",
+    "SeleniumHQ/selenium"
   ]
 }

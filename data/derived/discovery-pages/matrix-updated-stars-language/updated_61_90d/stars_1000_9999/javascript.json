@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 10,
-    "terms": 49
+    "components": 263,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 13,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "Adobe-CEP/CEP-Resources",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
     "chakra-core/ChakraCore",
     "commonmark/commonmark.js",
+    "cristianbote/goober",
     "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",
     "grpc/grpc-web",
     "huggingface/transformers.js-examples",
     "istanbuljs/nyc",
-    "remarkjs/remark"
+    "remarkjs/remark",
+    "svg-sprite/svg-sprite"
   ]
 }

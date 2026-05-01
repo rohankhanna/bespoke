@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 24
+    "components": 5,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "fffaraz/awesome-cpp",
     "microsoft/winget-pkgs",
     "multica-ai/andrej-karpathy-skills",
+    "othneildrew/Best-README-Template",
     "tc39/proposals"
   ]
 }

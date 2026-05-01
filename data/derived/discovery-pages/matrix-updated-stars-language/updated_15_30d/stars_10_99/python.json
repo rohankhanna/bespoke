@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 42,
-    "terms": 145
+    "components": 224,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 48,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Accio-Lab/SwimBird",
+    "activeviam/jdk4py",
     "AFLplusplus/afl-cov",
     "AgriciDaniel/claude-email",
     "aiagenta2z/mcp-marketplace",
+    "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
     "amyreese/fissix",
     "archlizheng/frontend-slides-editable",
+    "autowarefoundation/autoware-github-actions",
     "beeware/briefcase-template",
     "browser-use/benchmark",
     "cloudartisan/cloudartisan.github.io",
@@ -45,11 +48,14 @@
     "libp2p/test-plans",
     "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
+    "MeteoSwiss/pyart",
+    "MeteoSwiss/pyrad",
     "microsoft/vscode-azurecli",
     "nix-community/nur-update",
     "NixOS/branding",
     "optuna/optunahub",
     "riponazad/echotracker",
+    "RWKV-Vibe/rwkv_lightning",
     "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
     "sphinx-contrib/sphinxcontrib-towncrier",

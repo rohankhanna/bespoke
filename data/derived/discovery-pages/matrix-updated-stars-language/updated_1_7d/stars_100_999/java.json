@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 13,
-    "terms": 125
+    "components": 210,
+    "concepts": 220,
+    "observations": 220,
+    "repos": 27,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "apache/commons-jexl",
+    "apache/ignite-3",
+    "apache/rocketmq-clients",
+    "apache/spark-kubernetes-operator",
+    "aws-powertools/powertools-lambda-java",
+    "bndtools/bnd",
+    "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "FasterXML/jackson-dataformat-xml",
+    "FasterXML/jackson-dataformats-binary",
+    "FasterXML/jackson-dataformats-text",
+    "FasterXML/jackson-modules-base",
+    "googleapis/java-bigtable-hbase",
+    "graalvm/graalvm-demos",
+    "jpmml/jpmml-lightgbm",
+    "jpmml/jpmml-sklearn",
+    "michel-kraemer/bson4jackson",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
+    "quarkiverse/quarkus-operator-sdk",
     "revelc/formatter-maven-plugin",
     "sevntu-checkstyle/sevntu.checkstyle",
     "swagger-api/swagger-parser",
-    "Waffle/waffle",
-    "wildfly/quickstart",
-    "zilliztech/vts"
+    "wildfly/quickstart"
   ]
 }

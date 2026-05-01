@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 151,
-    "observations": 151,
-    "repos": 18,
-    "terms": 151
+    "components": 44,
+    "concepts": 51,
+    "observations": 52,
+    "repos": 7,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "confluentinc/librdkafka",
     "flagos-ai/FlagTree",
-    "HazyResearch/HipKittens",
-    "intel/intel-graphics-compiler",
-    "intel/ScalableVectorSearch",
+    "googleapis/google-cloud-cpp",
     "ipsilon/evmone",
-    "istio/proxy",
-    "k2-fsa/sherpa",
-    "kokkos/kokkos-kernels",
-    "nianticlabs/spz",
-    "ofiwg/libfabric",
-    "OpenVisualCloud/Media-Transport-Library",
-    "RcppCore/Rcpp",
-    "ROCm/AMDMIGraphX",
-    "ROCm/rocm-systems",
-    "shader-slang/slang-rhi",
-    "trealla-prolog/trealla",
-    "uxlfoundation/oneDAL"
+    "KhronosGroup/Vulkan-ValidationLayers",
+    "LunarG/gfxreconstruct",
+    "uxlfoundation/oneDPL"
   ]
 }

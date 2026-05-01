@@ -3,7 +3,7 @@
     "components": 38,
     "concepts": 35,
     "observations": 35,
-    "repos": 11,
+    "repos": 12,
     "terms": 44
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "bluesky-social/pds",
     "containers/toolbox",
     "crosstool-ng/crosstool-ng",
     "devcontainers/templates",
+    "diet103/claude-code-infrastructure-showcase",
     "frankbria/ralph-claude-code",
     "jonmosco/kube-ps1",
     "matryer/xbar-plugins",

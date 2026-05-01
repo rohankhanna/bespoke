@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 12,
-    "terms": 15
+    "components": 5,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 15,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alebcay/awesome-shell",
     "css-modules/css-modules",
     "deepseek-ai/DeepSeek-R1",
     "google-research/tuning_playbook",
     "Homebrew/legacy-homebrew",
+    "jamiebuilds/babel-handbook",
     "lukehoban/es6features",
+    "microsoft/api-guidelines",
     "nodejs/node-v0.x-archive",
     "NVIDIA/nvidia-docker",
     "PlexPt/awesome-chatgpt-prompts-zh",
+    "sdras/awesome-actions",
     "ulid/spec",
     "WebAssembly/design",
     "wsargent/docker-cheat-sheet"

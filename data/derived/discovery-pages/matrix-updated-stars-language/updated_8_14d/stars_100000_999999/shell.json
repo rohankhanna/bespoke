@@ -3,7 +3,7 @@
     "components": 5,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "anthropics/claude-code",
-    "obra/superpowers"
+    "anthropics/claude-code"
   ]
 }

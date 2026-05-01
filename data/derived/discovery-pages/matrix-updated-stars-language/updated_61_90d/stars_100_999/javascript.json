@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 8,
-    "terms": 19
+    "components": 155,
+    "concepts": 43,
+    "observations": 44,
+    "repos": 11,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "appbaseio/searchbox",
+    "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
     "codota/tabnine-nvim",
     "Mario4272/ag_bridge",
@@ -21,6 +23,7 @@
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
-    "sindresorhus/multimatch"
+    "sindresorhus/multimatch",
+    "svg-sprite/gulp-svg-sprite"
   ]
 }

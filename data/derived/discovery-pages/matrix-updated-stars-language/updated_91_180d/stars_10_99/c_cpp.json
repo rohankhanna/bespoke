@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 41,
-    "observations": 42,
-    "repos": 10,
-    "terms": 39
+    "components": 54,
+    "concepts": 52,
+    "observations": 53,
+    "repos": 16,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
+    "adamharrison/lite-xl-terminal",
+    "cassioneri/teju_jagua",
     "coin-or/CHiPPS-ALPS",
+    "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
+    "graalvm/polyglot-embedding-demo",
+    "ibireme/c_numconv_benchmark",
     "lemire/fast_float",
     "nativium/nativium",
+    "OpenTimelineIO/toucan",
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
     "r-spatial/lwgeom"

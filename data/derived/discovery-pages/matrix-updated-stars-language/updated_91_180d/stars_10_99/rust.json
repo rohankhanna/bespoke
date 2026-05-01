@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 17,
-    "terms": 45
+    "components": 93,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 21,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "01mf02/hifijson",
+    "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
     "apache/opendal-ofs",
     "ashvardanian/StringTape",
@@ -23,10 +24,13 @@
     "catch-twenty-two/rust-ssd",
     "chrisguida/smaug",
     "datafusion-contrib/hdfs-native-object-store",
+    "EricLBuehler/candle",
     "fengkx/jieba-wasm",
     "georust/wkt",
     "ifsheldon/async-openai-wasm",
+    "jean-pierreBoth/probminhash",
     "lindera/lindera-tantivy",
+    "linebender/simplecss",
     "microsoft/LinuxTracepoints-Rust",
     "spacemeshos/post-rs",
     "suo/lintrunner",

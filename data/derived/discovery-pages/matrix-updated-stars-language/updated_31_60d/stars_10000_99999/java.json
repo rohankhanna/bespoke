@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "concepts": 27,
+    "observations": 27,
+    "repos": 2,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "alibaba/Sentinel"
+    "alibaba/Sentinel",
+    "macrozheng/mall"
   ]
 }

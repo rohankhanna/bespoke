@@ -3,7 +3,7 @@
     "components": 104,
     "concepts": 33,
     "observations": 34,
-    "repos": 20,
+    "repos": 21,
     "terms": 33
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "boundless-xyz/reth",
     "byron/cargo-release",
@@ -21,6 +21,7 @@
     "ComunidadAylas/glsl-lang",
     "delta1/rust-jsonrpc-client",
     "dustinblackman/rust-hello-world",
+    "ealmloff/llm-samplers",
     "eigenwallet/bdk-old",
     "eigenwallet/dfx-swiss-rs",
     "hermit-os/socket2",

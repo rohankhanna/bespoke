@@ -130,13 +130,14 @@
       "size": 2602
     }
   ],
+  "metadata_refreshed_at": "2026-05-01T05:46:06.565550+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "main",
     "description": "Phoenix sql parser for .NET Core",
     "fork": false,
-    "full_name": "chequer-io/PhoenixSql",
+    "full_name": "chequer-io/phoenixsql",
     "html_url": "https://github.com/chequer-io/PhoenixSql",
     "language": "Java",
     "pushed_at": "2023-03-10T06:40:54Z",

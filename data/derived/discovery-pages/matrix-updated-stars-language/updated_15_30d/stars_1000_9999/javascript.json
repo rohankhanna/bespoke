@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 458,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 22,
-    "terms": 98
+    "components": 655,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 29,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,34 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
-    "amqp-node/amqplib",
+    "ai/size-limit",
     "archiverjs/node-archiver",
+    "asciinema/asciinema-player",
+    "bcoe/c8",
     "codemirror/dev",
     "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
+    "gatsbyjs/gatsby-starter-blog",
+    "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
+    "google/closure-compiler",
+    "GoogleChromeLabs/ProjectVisBug",
     "igorshubovych/markdownlint-cli",
     "istanbuljs/istanbuljs",
     "kpdecker/jsdiff",
     "Level/level",
-    "nodejs/Release",
+    "npm/node-semver",
     "pillarjs/iconv-lite",
     "pinojs/pino-pretty",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
     "sindresorhus/hyper-snazzy",
     "tc39/agendas",
+    "webpack/postcss-loader",
     "webtorrent/webtorrent-cli",
     "yeoman/yo",
     "ykdojo/claude-code-tips"

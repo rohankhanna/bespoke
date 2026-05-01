@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 5,
-    "terms": 3
+    "components": 9,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 7,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "5sControl/5s-onvif-finder",
     "abiondevelopment/external-dns-webhook-abion",
+    "ai-bot-pro/pipeline-go",
     "depado/bfadmonition",
     "fnoopv/rueidisstore",
+    "kitex-contrib/codec-dubbo-tests",
     "nlamirault/markdownfmt"
   ]
 }

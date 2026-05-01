@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 14,
-    "terms": 100
+    "components": 808,
+    "concepts": 198,
+    "observations": 199,
+    "repos": 29,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,36 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
-    "celo-org/social-connect",
-    "grafana/profiles-drilldown",
-    "gridatek/semantic-icons",
+    "addfox/addfox",
+    "ecyrbe/zodios-express",
+    "fabon-f/temporal-polyfill-lite",
+    "favware/esbuild-plugin-version-injector",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
+    "jakebailey/pyright-action",
     "jakoch/install-vulkan-sdk-action",
-    "mcous/vitest-when",
+    "ldclabs/KIP",
+    "oclif/plugin-autocomplete",
     "oclif/plugin-help",
     "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
-    "octokit/webhooks-methods.js",
-    "rstackjs/rsbuild-plugin-template"
+    "octokit/auth-action.js",
+    "octokit/auth-oauth-app.js",
+    "octokit/auth-oauth-device.js",
+    "octokit/auth-oauth-user.js",
+    "octokit/oauth-app.js",
+    "octokit/oauth-authorization-url.js",
+    "OffchainLabs/arbitrum-chain-sdk",
+    "OffchainLabs/nitro-testnode",
+    "prisma-labs/bema",
+    "quickwit-oss/quickwit-datasource",
+    "rstackjs/rsbuild-plugin-template",
+    "sapphiredev/shapeshift",
+    "SemiAnalysisAI/InferenceX-app",
+    "swagger-api/apidom"
   ]
 }

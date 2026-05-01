@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 153,
-    "concepts": 172,
-    "observations": 175,
-    "repos": 37,
-    "terms": 170
+    "components": 190,
+    "concepts": 190,
+    "observations": 193,
+    "repos": 39,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
     "ankane/faiss-ruby",
+    "appium/appium-mac2-driver",
     "artemsen/swayimg",
     "ashvardanian/ForkUnion",
     "bnprks/BPCells",
@@ -25,6 +26,7 @@
     "containers/conmon",
     "DavidKinder/Windows-Frotz",
     "eddelbuettel/rcppsimdjson",
+    "flavorjones/ruby-c-extensions-explained",
     "fribidi/fribidi",
     "ghostty-org/ghostling",
     "google-deepmind/reverb",
@@ -38,11 +40,11 @@
     "ml-explore/mlx-c",
     "mybigday/whisper.rn",
     "nfrechette/rtm",
-    "ng-log/ng-log",
     "NiklasRosenstein/pbzx",
     "NiLuJe/FBInk",
     "nx10/httpgd",
     "pauldmccarthy/indexed_gzip",
+    "powturbo/Turbo-Base64",
     "RoaringBitmap/croaring-rs",
     "SHI-Labs/NATTEN",
     "Solo5/solo5",

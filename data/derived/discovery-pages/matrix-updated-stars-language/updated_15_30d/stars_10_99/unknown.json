@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 22,
-    "terms": 34
+    "components": 18,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 24,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -28,8 +28,10 @@
     "ganelson/inform-evolution",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
+    "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "kubernetes/steering",
+    "ocaml/platform-blog",
     "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
     "operator-framework/community",

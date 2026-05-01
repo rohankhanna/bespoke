@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 4,
-    "terms": 9
+    "components": 47,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 7,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
+    "decibri/decibri.cpp",
     "ikonopistsev/mdbxmou",
     "mybigday/whisper.node",
-    "mypyc/librt"
+    "mypyc/librt",
+    "rapidsai/rapids-logger"
   ]
 }

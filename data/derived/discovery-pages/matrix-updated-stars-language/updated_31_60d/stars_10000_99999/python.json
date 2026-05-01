@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 23,
-    "terms": 114
+    "components": 99,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 27,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "3b1b/videos",
     "chriskiehl/Gooey",
     "cool-RR/PySnooper",
+    "CorentinJ/Real-Time-Voice-Cloning",
     "deepinsight/insightface",
     "encode/httpx",
     "explosion/spaCy",
+    "FunAudioLLM/CosyVoice",
     "huggingface/text-generation-inference",
     "karpathy/autoresearch",
+    "KlingAIResearch/LivePortrait",
     "localstack/localstack",
     "microsoft/playwright-python",
+    "modelscope/FunASR",
     "openai/gpt-oss",
     "openai/gym",
     "openai/tiktoken",

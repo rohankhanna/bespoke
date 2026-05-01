@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 19,
-    "terms": 105
+    "components": 146,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 5,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "coasys/flux",
-    "ecyrbe/zodios-express",
-    "fabon-f/temporal-polyfill-lite",
-    "favware/esbuild-plugin-version-injector",
-    "ldclabs/KIP",
-    "octokit/auth-action.js",
-    "octokit/auth-oauth-app.js",
-    "octokit/auth-oauth-device.js",
-    "octokit/auth-oauth-user.js",
-    "octokit/oauth-app.js",
-    "octokit/oauth-authorization-url.js",
-    "OffchainLabs/arbitrum-chain-sdk",
-    "OffchainLabs/nitro-testnode",
+    "jest-community/eslint-plugin-jest-extended",
     "ogx-ai/ogx-client-typescript",
-    "prisma-labs/bema",
-    "sapphiredev/shapeshift",
-    "SemiAnalysisAI/InferenceX-app",
     "TrigenSoftware/simple-release"
   ]
 }

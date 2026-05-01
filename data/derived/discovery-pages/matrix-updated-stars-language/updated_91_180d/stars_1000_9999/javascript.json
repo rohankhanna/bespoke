@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 22,
-    "terms": 111
+    "components": 515,
+    "concepts": 124,
+    "observations": 125,
+    "repos": 24,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "afc163/fanyi",
+    "aksakalli/gtop",
     "alexmojaki/birdseye",
     "antimatter15/splat",
     "APIDevTools/swagger-parser",
@@ -25,6 +26,7 @@
     "fengari-lua/fengari",
     "form-data/form-data",
     "gautamkrishnar/nothing-private",
+    "GoogleChromeLabs/jsvu",
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 41,
-    "concepts": 57,
-    "observations": 58,
-    "repos": 35,
-    "terms": 52
+    "concepts": 69,
+    "observations": 70,
+    "repos": 37,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -20,6 +20,8 @@
     "0ghny/shellx-plugins-arch",
     "2KAbhishek/cmtr",
     "2KAbhishek/dexe",
+    "2KAbhishek/entry",
+    "2KAbhishek/git-sync",
     "2KAbhishek/shelly",
     "aws-samples/sample-vllm-on-eks-with-dlc",
     "beehive-lab/docker-gpullama3.java",
@@ -46,7 +48,7 @@
     "rigellute/scoop-bucket",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "unixorn/autoupdate-zgenom",
     "videojs/admin"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 20,
-    "terms": 104
+    "components": 139,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 23,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
@@ -26,13 +26,16 @@
     "ImageOptim/gifski",
     "librespot-org/librespot",
     "linebender/tiny-skia",
+    "rojo-rbx/rojo",
     "rust-fuzz/cargo-fuzz",
+    "rust-lang/regex",
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom",
+    "tokio-rs/prost",
     "tower-rs/tower"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 32,
-    "terms": 139
+    "components": 121,
+    "concepts": 202,
+    "observations": 202,
+    "repos": 40,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
     "ARM-software/EndpointAI",
     "avaneev/r8brain-free-src",
+    "btzy/nativefiledialog-extended",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "dloebl/cgif",
+    "douglascrockford/JSMin",
     "eliemichel/LearnWebGPU",
     "eyalz800/zpp_bits",
     "freebsd/atf",
@@ -30,12 +33,15 @@
     "google/kmsan",
     "intel/gmmlib",
     "KhronosGroup/OpenCL-Headers",
+    "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lualanes/lanes",
+    "LuisaGroup/LuisaRender",
+    "luvit/luvi",
     "microsoft/jericho",
     "microsoft/xlang",
-    "mongodb-js/kerberos",
     "NetEase-FuXi/EETQ",
+    "ng-log/ng-log",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
@@ -44,7 +50,9 @@
     "rusty1s/pytorch_cluster",
     "stardot/beebasm",
     "Tomas-M/iotop",
+    "uxlfoundation/oneMath",
     "VeriSilicon/TIM-VX",
-    "webgpu-native/webgpu-headers"
+    "webgpu-native/webgpu-headers",
+    "websockets/bufferutil"
   ]
 }

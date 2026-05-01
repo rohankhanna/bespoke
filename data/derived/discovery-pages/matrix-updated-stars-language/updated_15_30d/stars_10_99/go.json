@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 103,
-    "observations": 105,
-    "repos": 25,
-    "terms": 102
+    "components": 167,
+    "concepts": 108,
+    "observations": 110,
+    "repos": 29,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -22,22 +22,26 @@
     "apptainer/sif",
     "astro-han/diffpane",
     "benchsci/rules_nodejs_gazelle",
+    "celo-org/op-geth",
+    "cloudfoundry/bbs",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
     "compozy/kb",
     "darkweak/storages",
+    "depado/smallblog",
     "ethpandaops/xatu",
     "fgrehm/clotilde",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
-    "hashicorp/vault-plugin-auth-kerberos",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
+    "joshsymonds/cc-tools",
     "magodo/tfadd",
     "MShekow/directory-checksum",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
-    "tilt-dev/tilt-apiserver"
+    "tilt-dev/tilt-apiserver",
+    "usbarmory/tamago-go"
   ]
 }

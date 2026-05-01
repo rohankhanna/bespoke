@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 428,
-    "concepts": 217,
-    "observations": 219,
+    "components": 430,
+    "concepts": 222,
+    "observations": 224,
     "repos": 38,
-    "terms": 216
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
@@ -31,6 +31,7 @@
     "git-up/GitUp",
     "go-chi/chi",
     "gulpjs/gulp",
+    "i3/i3",
     "Jiayi-Pan/TinyZero",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
@@ -49,7 +50,6 @@
     "transitive-bullshit/agentic",
     "unifyai/ivy",
     "vitejs/awesome-vite",
-    "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting"
   ]
 }

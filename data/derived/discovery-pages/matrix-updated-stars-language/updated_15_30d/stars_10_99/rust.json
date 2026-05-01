@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 18,
-    "terms": 72
+    "components": 152,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 19,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
     "ashvardanian/NumWars",
+    "bencevans/camtrap-detector",
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
-    "celestiaorg/hana",
+    "crate-ci/imperative",
+    "hagan/claudia-statusline",
     "idanarye/nu_plugin_skim",
-    "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
-    "lambdaclass/libssz",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
+    "messense/py-promql-parser",
     "neysofu/reltester",
     "open-telemetry/opentelemetry-rust-contrib",
     "psmux/omp-manager",

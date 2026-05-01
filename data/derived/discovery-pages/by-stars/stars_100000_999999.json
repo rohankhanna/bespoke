@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1789,
-    "concepts": 478,
-    "observations": 480,
-    "repos": 53,
-    "terms": 513
+    "components": 1810,
+    "concepts": 501,
+    "observations": 504,
+    "repos": 55,
+    "terms": 535
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "996icu/996.ICU",
     "affaan-m/everything-claude-code",
@@ -31,6 +31,7 @@
     "facebook/create-react-app",
     "facebook/react",
     "facebook/react-native",
+    "fatedier/frp",
     "flutter/flutter",
     "Genymobile/scrcpy",
     "ggml-org/llama.cpp",
@@ -43,6 +44,7 @@
     "langchain-ai/langchain",
     "langflow-ai/langflow",
     "langgenius/dify",
+    "microsoft/generative-ai-for-beginners",
     "microsoft/terminal",
     "microsoft/typescript",
     "microsoft/vscode",

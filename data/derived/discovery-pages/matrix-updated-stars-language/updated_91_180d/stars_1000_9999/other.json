@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 47,
-    "terms": 198
+    "components": 95,
+    "concepts": 213,
+    "observations": 214,
+    "repos": 52,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "auto-complete/auto-complete",
@@ -21,6 +21,7 @@
     "brianmario/charlock_holmes",
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
+    "chrisbra/csv.vim",
     "cncf/tag-security",
     "cpm-cmake/CPM.cmake",
     "EleutherAI/pythia",
@@ -35,8 +36,10 @@
     "gf3/dotfiles",
     "gradle/kotlin-dsl-samples",
     "grpc/grpc-kotlin",
+    "guard/listen",
     "haskell/stylish-haskell",
     "huggingface/swift-coreml-diffusers",
+    "IDEA-Research/Grounded-SAM-2",
     "jashkenas/docco",
     "joaotavora/eglot",
     "justinmk/vim-sneak",
@@ -44,6 +47,7 @@
     "kikito/inspect.lua",
     "kikito/middleclass",
     "lmbelo/python4delphi",
+    "microsoft/TextWorld",
     "monaqa/dial.nvim",
     "mrash/fwknop",
     "myclabs/DeepCopy",
@@ -54,6 +58,7 @@
     "richfelker/musl-cross-make",
     "Samsung/netcoredbg",
     "sindresorhus/Gifski",
+    "symfony/cache-contracts",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",
     "tpope/vim-dadbod",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 24,
-    "terms": 80
+    "components": 397,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 30,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
+    "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
     "dart-lang/site-shared",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
     "dwyl/phoenix-liveview-stopwatch",
+    "ehmicky/all-node-versions",
+    "ehmicky/get-node",
     "electerm/electerm-locales",
     "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
+    "gatsbyjs/gatsby-starter-minimal",
     "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
@@ -37,6 +42,7 @@
     "Level/memory-level",
     "neverendingqs/serverless-dotenv-example",
     "tc39/proposal-iterator-includes",
-    "TrigenSoftware/simple-release-action"
+    "TrigenSoftware/simple-release-action",
+    "webtorrent/bittorrent-peerid"
   ]
 }

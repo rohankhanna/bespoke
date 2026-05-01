@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 9,
-    "terms": 26
+    "components": 39,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 14,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "bombsimon/logrusr",
+    "cloudfoundry/bosh-deployment-resource",
     "cloudwego/netpoll-benchmark",
     "doraemonkeys/paddleocr",
+    "extism/go-pdk",
     "google/gnostic-models",
     "lesismal/nbio-examples",
     "mikespook/possum",
     "objectbox/objectbox-generator",
+    "rpcxio/rpcx-etcd",
     "spacemeshos/poet",
+    "spacemeshos/smcli",
     "urfave/cli-altsrc",
     "vmware/pmd-next-gen"
   ]

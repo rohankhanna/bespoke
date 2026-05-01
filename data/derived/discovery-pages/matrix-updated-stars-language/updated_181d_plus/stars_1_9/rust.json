@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 45,
-    "terms": 58
+    "components": 174,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 52,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "akavel/rumbac",
     "anza-xyz/curve25519-dalek",
@@ -21,9 +21,11 @@
     "apache/casbin-rust-actix-postgresql-simple",
     "apache/casbin-rust-axum-middleware-example",
     "artempyanykh/zeta-note",
+    "boquila/.bq",
     "bwt-dev/libbwt",
     "ChillFish8/tantivy",
     "clbarnes/djot_ast",
+    "coasys/perspective-diff-sync",
     "comit-network/monero-rs",
     "cryscan/web-rwkv-converter",
     "dabevlohn/rand16",
@@ -33,6 +35,7 @@
     "EspressoSystems/atomicstore",
     "EspressoSystems/surf-disco",
     "franziskuskiefer/cose-rust",
+    "gordon-f/miniquad_ios_example",
     "hasharchives/blockprotocol-incubator",
     "huggingface/tei-gaudi",
     "hyperledger-solang/solang-aqd",
@@ -46,9 +49,13 @@
     "madsim-rs/rust-postgres",
     "marwes/gluon",
     "mozilla/nss-gk-api",
+    "mpizenberg/elm-solve-deps",
     "mrsmkl/keep-awake-rs",
+    "mtrbpr/lua-promql-parser",
+    "my-liminal-space/read-parquet-browser",
     "Narsil/cudarc",
     "ncitron/ethereum_hashing",
+    "not-fl3/sapp-jsutils",
     "Piebald-AI/muda",
     "rust3ds/shim-3ds",
     "s3bk/pathfinder_view",

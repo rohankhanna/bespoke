@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 16,
     "observations": 16,
-    "repos": 8,
+    "repos": 9,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "chaiNNer-org/chaiNNer-nightly",
     "cloudrepo-io/founder-os",
     "conda-forge/cfep",
     "ethereum/beacon-metrics",
     "hchiam/learning",
+    "HZAI-ZJNU/happy-llm-ppt",
     "panaversity/claude-code-agent-teams-exercises",
     "tony/claude-code-riper-5",
     "withastro/.github"

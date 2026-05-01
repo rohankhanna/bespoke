@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 142,
-    "observations": 144,
-    "repos": 22,
-    "terms": 137
+    "components": 121,
+    "concepts": 164,
+    "observations": 166,
+    "repos": 25,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
+    "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
+    "bioconda/bioconda-recipes",
     "clangd/clangd",
     "conda-forge/miniforge",
     "devcontainers/features",
     "devcontainers/images",
-    "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
     "docker-library/docs",
     "docker-library/golang",
@@ -35,6 +36,8 @@
     "nodenv/nodenv",
     "pacstall/pacstall",
     "pyenv/pyenv-virtualenv",
-    "void-linux/void-packages"
+    "ROCm/ROCm",
+    "void-linux/void-packages",
+    "zsh-users/zsh-completions"
   ]
 }

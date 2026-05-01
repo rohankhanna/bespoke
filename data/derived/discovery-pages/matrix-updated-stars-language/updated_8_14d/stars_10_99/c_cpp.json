@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 23,
-    "terms": 88
+    "components": 158,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 27,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
@@ -34,8 +34,12 @@
     "nx10/unigd",
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
+    "rapidsai/ucxx",
+    "ROCm/rocAL",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
-    "yquake2/ref_vk"
+    "yoshoku/numo-narray-alt",
+    "yquake2/ref_vk",
+    "yquake2/yquake2remaster"
   ]
 }

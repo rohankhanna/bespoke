@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 34,
-    "terms": 40
+    "components": 128,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 45,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "2KAbhishek/exercism-fetcher",
     "abap2ui5/abap2ui5-build",
     "adre5577/contour-tinted",
     "alekcz/pcp-template",
     "altgr/opam-publish",
+    "artichoke/spec",
     "ashwincc/yolov6-sagemaker",
     "avsm/ocaml-uri",
     "benwmills/core-sass-compiler",
@@ -35,11 +37,19 @@
     "exograd/erl-ksuid",
     "fky2015/navigator.nvim-bug-report",
     "girishji/ngramview-complete.vim",
+    "JuliaBinaryWrappers/LightGBM_jll.jl",
+    "JuliaBinaryWrappers/yyjson_jll.jl",
+    "juliardi/lite-xl-ayu-theme",
+    "klowrey/MuJoCo.jl",
     "larshp/uccp",
+    "locize/locize-i18next-vue-example",
     "madhephaestus/MuJoCoTest",
-    "MolotovCherry/tree-sitter-wasm",
+    "molotovcherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
+    "oneflow-inc/docker-images",
     "pgvector/pgvector-ada",
+    "rlancemartin/LLMTest_NeedleInAHaystack",
+    "RohanVashisht1234/justperfect",
     "rudionrails/yell",
     "songquanpeng/blog-theme-bootstrap",
     "songquanpeng/blog-theme-bootstrap5",
@@ -47,6 +57,7 @@
     "team-acaisia/php-varint",
     "userbait/phishing_sites_detector",
     "ve-forbryderne/mkultra",
-    "XcodesOrg/homebrew-cask"
+    "XcodesOrg/homebrew-cask",
+    "yousty/event_store_subscriptions"
   ]
 }

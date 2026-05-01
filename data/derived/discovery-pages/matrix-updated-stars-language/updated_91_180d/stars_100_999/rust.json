@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 109,
-    "observations": 111,
-    "repos": 24,
-    "terms": 110
+    "components": 130,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 25,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
-    "atomaai/atoma-infer",
+    "AtomaAI/atoma-infer",
     "bluss/matrixmultiply",
     "Builditluc/wiki-tui",
     "dtolnay/cargo-llvm-lines",
@@ -36,6 +36,7 @@
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
     "rusticstuff/simdutf8",
+    "stanislav-tkach/os_info",
     "typst/pdf-writer",
     "zippoxer/recall"
   ]

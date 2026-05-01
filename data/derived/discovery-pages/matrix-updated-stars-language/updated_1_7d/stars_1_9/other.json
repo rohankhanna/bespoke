@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 14,
-    "terms": 57
+    "components": 28,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 13,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
-    "b-data/jupyterlab-julia-docker-stack",
-    "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
-    "curiousdannii/emglken",
-    "enbop/fungi-app",
+    "bennyyip/dot-vim",
     "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
-    "KhronosGroup/KTX-Software-CTS",
     "localstack/homebrew-tap",
+    "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
+    "php-rdkafka/php-rdkafka-doc",
+    "tinted-theming/base16-waybar",
     "v-iashin/v-iashin.github.io"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 10,
-    "terms": 28
+    "components": 17,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 9,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "bbatsov/clojure-style-guide",
-    "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
     "esbatmop/MNBVC",
     "FuelLabs/fuel-specs",
-    "FunnyWolf/Viper",
     "libp2p/libp2p",
     "libp2p/specs",
+    "MicrosoftDocs/WSL",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills"
   ]

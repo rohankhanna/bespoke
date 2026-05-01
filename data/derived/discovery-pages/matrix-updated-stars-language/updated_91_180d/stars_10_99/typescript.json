@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 248,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 7,
-    "terms": 23
+    "components": 305,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 9,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "connectrpc/connect-playwright-es",
     "CyanSalt/commas",
     "dylibso/xtp-bindgen",
+    "iccicci/next-json",
     "ipfs/helia-http-gateway",
     "redhat-developer/vscode-redhat-telemetry",
     "rose-pine/rose-pine-palette",
-    "sculptdotfun/viberank"
+    "sculptdotfun/viberank",
+    "storybookjs/addon-cssresources"
   ]
 }

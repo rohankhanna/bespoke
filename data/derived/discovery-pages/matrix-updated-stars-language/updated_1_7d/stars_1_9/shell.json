@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 16,
+    "concepts": 6,
+    "observations": 7,
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "conda-forge/fenics-dolfinx-feedstock",
-    "lint-staged/lint-staged.sh"
+    "cloudfoundry/wg-app-platform-runtime-ci",
+    "lint-staged/lint-staged.sh",
+    "reviewdog/action-alex"
   ]
 }

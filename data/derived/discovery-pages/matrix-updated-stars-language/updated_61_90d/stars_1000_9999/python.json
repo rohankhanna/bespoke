@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 212,
-    "observations": 213,
-    "repos": 42,
-    "terms": 206
+    "components": 122,
+    "concepts": 258,
+    "observations": 259,
+    "repos": 50,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -32,21 +32,27 @@
     "CLUEbenchmark/CLUE",
     "CrazyBoyM/llama3-Chinese-chat",
     "crowsonkb/k-diffusion",
+    "cvg/LightGlue",
     "davidhalter/jedi-vim",
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
     "google-deepmind/sonnet",
     "google/vizier",
     "graphql-python/graphene-django",
+    "isl-org/Open3D-ML",
     "jaredks/rumps",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "LTH14/mar",
+    "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
     "mosaicml/streaming",
+    "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "open-webui/mcpo",
     "opencv/opencv-python",
     "PaddlePaddle/PaddleSeg",
+    "pfnet/pfrl",
     "Python-Markdown/markdown",
     "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
@@ -55,6 +61,8 @@
     "simonw/claude-code-transcripts",
     "toshas/torch-fidelity",
     "webdataset/webdataset",
-    "ZhengPeng7/BiRefNet"
+    "YosysHQ/icestorm",
+    "ZhengPeng7/BiRefNet",
+    "zubair-trabzada/ai-marketing-claude"
   ]
 }

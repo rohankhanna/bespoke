@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 17,
-    "terms": 100
+    "components": 97,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 23,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
+    "adafruit/Adafruit_NeoPixel",
+    "akheron/jansson",
+    "brandur/redis-cell",
+    "emersion/slurp",
     "flashlight/flashlight",
-    "guinmoon/LLMFarm",
     "hpjansson/chafa",
     "jkuhlmann/cgltf",
     "JoeDog/siege",
@@ -26,9 +29,12 @@
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "OpenNMT/CTranslate2",
+    "pganalyze/libpg_query",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
+    "sammycage/lunasvg",
     "svenstaro/rofi-calc",
+    "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
     "VirusTotal/yara"
   ]

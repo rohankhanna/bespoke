@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 11,
-    "terms": 40
+    "components": 356,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 13,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
+    "eea/bise-frontend",
+    "eea/eea-website-frontend",
+    "eea/fise-frontend",
     "gauravrathod674/custom-chatbot",
     "j9t/htaccess-punk",
     "locize/locize-lastused",
     "newrelic/csec-node-agent",
-    "poolifier/tatami-ng",
     "seunghunbae-3svs/solo-cto-agent",
     "stealabra5019/grok-enhancer"
   ]

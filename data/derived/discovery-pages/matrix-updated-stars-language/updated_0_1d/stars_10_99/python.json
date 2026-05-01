@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 7,
-    "terms": 40
+    "components": 11,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 2,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T05:46:25.326955+00:00",
   "repo_ids": [
-    "All-Hands-AI/OpenHands-Cloud",
-    "carstencodes/pdm-bump",
-    "conda-forge/conda-forge-pinning-feedstock",
-    "flagos-ai/vllm-plugin-FL",
-    "microsoft/olive-recipes",
-    "open-edge-platform/physical-ai-studio",
-    "regro/cf-scripts"
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "py-pdf/sample-files"
   ]
 }
