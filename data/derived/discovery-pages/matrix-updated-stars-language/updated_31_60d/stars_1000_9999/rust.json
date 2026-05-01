@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 123,
-    "observations": 124,
-    "repos": 24,
-    "terms": 122
+    "components": 187,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 25,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "allan2/dotenvy",
-    "cross-rs/cross",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
@@ -31,11 +30,13 @@
     "mitsuhiko/insta",
     "mozilla/cbindgen",
     "not-fl3/macroquad",
+    "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",
     "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",
+    "snapview/tokio-tungstenite",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 159,
-    "observations": 161,
-    "repos": 59,
-    "terms": 151
+    "components": 49,
+    "concepts": 166,
+    "observations": 168,
+    "repos": 62,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
     "AppImageCommunity/pkg2appimage",
     "asdf-vm/asdf-plugin-template",
+    "Azure-Samples/container-apps-store-api-microservice",
     "belak/prezto-contrib",
     "belak/zsh-utils",
     "chinanf-boy/ripgrep-zh",
@@ -43,6 +44,7 @@
     "hashicorp/docker-vault",
     "HashNuke/heroku-buildpack-elixir",
     "heroku/heroku-buildpack-multi",
+    "infusion/udf_infusion",
     "ipfs/community",
     "ipfs/infra",
     "janmoesen/tilde",
@@ -52,6 +54,7 @@
     "koalaman/shellcheck-precommit",
     "koreader/koxtoolchain",
     "lavabit/robox",
+    "LedgerHQ/udev-rules",
     "lukechilds/gifgen",
     "lukechilds/zsh-better-npm-completion",
     "matchai/spacefish",

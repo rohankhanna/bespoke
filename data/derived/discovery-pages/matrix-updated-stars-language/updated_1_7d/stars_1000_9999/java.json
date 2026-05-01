@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 380,
-    "observations": 380,
-    "repos": 36,
-    "terms": 376
+    "components": 350,
+    "concepts": 422,
+    "observations": 422,
+    "repos": 37,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "agents-flex/agents-flex",
+    "alibaba/spring-ai-alibaba",
     "apache/beam",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
     "apache/parquet-java",
-    "apache/pdfbox",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
     "castorini/anserini",
@@ -28,7 +27,6 @@
     "confluentinc/examples",
     "confluentinc/schema-registry",
     "dylibso/chicory",
-    "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
     "FasterXML/jackson-annotations",
     "FasterXML/jackson-core",
@@ -37,9 +35,11 @@
     "google/conscrypt",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
+    "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "jhipster/prettier-java",
     "jline/jline3",
+    "JodaOrg/joda-time",
     "junit-team/junit-examples",
     "junit-team/junit-framework",
     "junit-team/junit4",
@@ -47,6 +47,7 @@
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "micronaut-projects/micronaut-core",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",
     "swagger-api/swagger-core"

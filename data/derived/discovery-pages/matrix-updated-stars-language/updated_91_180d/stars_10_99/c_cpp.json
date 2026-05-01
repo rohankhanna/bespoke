@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 52,
-    "observations": 53,
-    "repos": 16,
-    "terms": 50
+    "components": 60,
+    "concepts": 54,
+    "observations": 55,
+    "repos": 18,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -25,10 +25,12 @@
     "graalvm/polyglot-embedding-demo",
     "ibireme/c_numconv_benchmark",
     "lemire/fast_float",
+    "llnl/Adiak",
     "nativium/nativium",
     "OpenTimelineIO/toucan",
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
-    "r-spatial/lwgeom"
+    "r-spatial/lwgeom",
+    "XR-Robotics/XRoboToolkit-PC-Service-Pybind"
   ]
 }

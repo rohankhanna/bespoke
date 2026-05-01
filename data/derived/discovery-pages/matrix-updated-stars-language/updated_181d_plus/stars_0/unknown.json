@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 59,
-    "terms": 49
+    "components": 79,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 65,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -33,13 +33,16 @@
     "chriskiehl/gooeyimages",
     "cockroachdb/client_golang",
     "ConfettiFX/The-Forge-Media",
+    "cpettitt/dagre-d3",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/Career-Data-AI-Context-Repo",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Context-Chunker-Assistant",
+    "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "devongovett/html5ever",
+    "DiffEqML/diffeqml-media",
     "dstein64/media",
     "filecoin-project/fvm-test-vectors",
     "flashinfer-ai/web-data",
@@ -58,10 +61,12 @@
     "madsim-rs/rust-tokio-retry",
     "madsim-rs/sqlx",
     "marwes/hubcaps",
+    "Mountchicken/MMOCR_tutorials",
     "newrelic/open-source-office",
     "ningsir/pytorch",
     "pengzhendong/files",
     "Peterande/storage",
+    "pola-rs/jemallocator",
     "redis-om/redis-om-dotnet",
     "robin1001/qr",
     "shesek/rust-jsonrpc",
@@ -71,6 +76,7 @@
     "vizzuhq/.github",
     "wesfloyd/avs-context-prompt",
     "wez/finl_unicode",
+    "zhiqi-li/storage",
     "zwhus/pictures",
     "zyedidia/blobs"
   ]

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 1,
+    "terms": 20
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "repo_ids": [
+    "CISOfy/lynis"
+  ]
+}

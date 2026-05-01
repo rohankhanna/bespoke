@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 4,
-    "terms": 4
+    "components": 11,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 5,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "conda-forge/blis-feedstock",
     "conda-forge/diffutils-feedstock",
     "DeepWok/mase-docker",
-    "gerardtschanz/revenue-os"
+    "gerardtschanz/revenue-os",
+    "nodenv/node-build-prerelease"
   ]
 }

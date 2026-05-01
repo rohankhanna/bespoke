@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 24,
-    "terms": 104
+    "components": 127,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 26,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
+    "arkworks-rs/r1cs-std",
     "cowboy8625/rusty-rain",
     "cuviper/autocfg",
     "dtolnay/prettyplease",
@@ -32,6 +33,7 @@
     "ratatui/templates",
     "sagiegurari/duckscript",
     "smol-rs/async-executor",
+    "SunDoge/simdjson-rust",
     "tsonglew/dutis",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",

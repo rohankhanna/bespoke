@@ -3,7 +3,7 @@
     "components": 84,
     "concepts": 67,
     "observations": 67,
-    "repos": 15,
+    "repos": 16,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "aquasecurity/k8s-node-collector",
@@ -21,6 +21,7 @@
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
     "bartventer/httpcache",
+    "chromedp/pdlgen",
     "cjkreklow/t38c",
     "containerd/release-tool",
     "ctoth/claudio",

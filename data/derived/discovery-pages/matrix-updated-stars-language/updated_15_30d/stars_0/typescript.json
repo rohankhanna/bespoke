@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 44,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 2,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "grubersjoe/react-activity-calendar-tests"
+    "grubersjoe/react-activity-calendar-tests",
+    "VOICEVOX/preview-pages"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 736,
-    "concepts": 429,
-    "observations": 430,
-    "repos": 44,
-    "terms": 425
+    "components": 718,
+    "concepts": 415,
+    "observations": 416,
+    "repos": 42,
+    "terms": 411
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
@@ -23,7 +23,6 @@
     "cjpais/Handy",
     "dani-garcia/vaultwarden",
     "diem/diem",
-    "diesel-rs/diesel",
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
@@ -43,7 +42,6 @@
     "orhun/git-cliff",
     "rayon-rs/rayon",
     "rust-lang/cargo",
-    "rust-lang/mdBook",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "servo/servo",

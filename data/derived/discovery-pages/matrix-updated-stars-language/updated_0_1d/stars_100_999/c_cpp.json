@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 7,
-    "terms": 51
+    "components": 60,
+    "concepts": 67,
+    "observations": 68,
+    "repos": 11,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "arminbiere/cadical",
+    "aui-framework/aui",
+    "boostorg/multiprecision",
     "confluentinc/librdkafka",
-    "flagos-ai/FlagTree",
     "googleapis/google-cloud-cpp",
+    "HybridRobotics/motion_tracking_controller",
     "ipsilon/evmone",
     "KhronosGroup/Vulkan-ValidationLayers",
     "LunarG/gfxreconstruct",
+    "msoos/cryptominisat",
     "uxlfoundation/oneDPL"
   ]
 }

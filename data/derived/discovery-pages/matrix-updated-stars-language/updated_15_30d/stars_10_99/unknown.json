@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 24,
-    "terms": 46
+    "components": 28,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 25,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -26,6 +26,7 @@
     "eigenfoundation/elips",
     "flinedev/plankit",
     "ganelson/inform-evolution",
+    "Homebrew/.github",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
     "jakoch/rasterizers",

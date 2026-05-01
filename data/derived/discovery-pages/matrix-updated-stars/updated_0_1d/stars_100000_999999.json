@@ -1,28 +1,26 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 12,
-    "terms": 168
+    "components": 472,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 10,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "anomalyco/opencode",
     "Comfy-Org/ComfyUI",
     "electron/electron",
-    "Genymobile/scrcpy",
+    "excalidraw/excalidraw",
+    "f/prompts.chat",
     "ggml-org/llama.cpp",
     "huggingface/transformers",
     "langchain-ai/langchain",
     "langflow-ai/langflow",
-    "microsoft/generative-ai-for-beginners",
-    "ohmyzsh/ohmyzsh",
     "ollama/ollama",
     "vercel/next.js"
   ]

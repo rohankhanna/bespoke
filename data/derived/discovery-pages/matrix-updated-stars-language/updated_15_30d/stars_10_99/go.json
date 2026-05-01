@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 108,
-    "observations": 110,
-    "repos": 29,
-    "terms": 106
+    "components": 170,
+    "concepts": 113,
+    "observations": 115,
+    "repos": 34,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
     "aldernero/sketchy",
+    "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
     "apache/dubbo-go-pixiu-samples",
     "apptainer/sif",
@@ -31,6 +32,7 @@
     "depado/smallblog",
     "ethpandaops/xatu",
     "fgrehm/clotilde",
+    "getlantern/.github",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
     "ionos-cloud/external-dns-ionos-webhook",
@@ -42,6 +44,9 @@
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
     "tilt-dev/tilt-apiserver",
+    "usbarmory/armory-boot",
+    "usbarmory/armory-drive",
+    "usbarmory/GoTEE-example",
     "usbarmory/tamago-go"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1018,
-    "concepts": 198,
-    "observations": 198,
-    "repos": 42,
-    "terms": 202
+    "components": 1146,
+    "concepts": 212,
+    "observations": 212,
+    "repos": 46,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "anse-app/anse",
@@ -45,6 +45,7 @@
     "inkline/inkline",
     "jquery/esprima",
     "kentcdodds/babel-plugin-preval",
+    "microsoft/BotFramework-Emulator",
     "microsoft/dts-gen",
     "nsfw-filter/nsfw-filter",
     "plantain-00/type-coverage",
@@ -55,6 +56,9 @@
     "tsdjs/tsd",
     "Uniswap/v3-periphery",
     "Uniswap/web3-react",
-    "vercel/modelfusion"
+    "vercel/modelfusion",
+    "vuejs/composition-api",
+    "vuejs/vue-class-component",
+    "vuejs/vue-loader"
   ]
 }

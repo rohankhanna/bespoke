@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 208,
-    "observations": 209,
-    "repos": 44,
-    "terms": 206
+    "components": 177,
+    "concepts": 231,
+    "observations": 232,
+    "repos": 47,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
@@ -41,10 +42,12 @@
     "microsoft/GSL",
     "microsoft/snmalloc",
     "nalgeon/sqlean",
+    "nmoehrle/mvs-texturing",
     "nmslib/hnswlib",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
+    "PoseLib/PoseLib",
     "redis/hiredis",
     "romkatv/gitstatus",
     "snapcast/snapcast",

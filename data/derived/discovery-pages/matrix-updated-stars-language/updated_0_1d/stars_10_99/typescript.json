@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 5,
-    "terms": 19
+    "components": 179,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 6,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abaplint/transpiler",
-    "coasys/flux",
+    "forcedotcom/agents",
     "jest-community/eslint-plugin-jest-extended",
     "ogx-ai/ogx-client-typescript",
+    "rstackjs/rsbuild-plugin-tailwindcss",
     "TrigenSoftware/simple-release"
   ]
 }

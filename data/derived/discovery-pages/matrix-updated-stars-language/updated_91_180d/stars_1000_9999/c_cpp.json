@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 33,
-    "terms": 190
+    "components": 122,
+    "concepts": 218,
+    "observations": 218,
+    "repos": 39,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
     "attractivechaos/klib",
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
+    "cjlin1/liblinear",
     "colmap/glomap",
     "cpputest/cpputest",
+    "EKA2L1/EKA2L1",
     "flame/blis",
+    "gflags/gflags",
     "github/cmark-gfm",
+    "golang-ui/nuklear",
     "google/re2",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
     "hanslub42/rlwrap",
     "hapostgres/pg_auto_failover",
     "ianlancetaylor/libbacktrace",
+    "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
     "jlblancoc/nanoflann",
     "julienxx/terminal-notifier",
@@ -37,6 +42,7 @@
     "MaskRay/ccls",
     "naelstrof/maim",
     "nfrechette/acl",
+    "niessner/Matterport",
     "NixOS/patchelf",
     "nvim-telescope/telescope-fzf-native.nvim",
     "NVlabs/nvdiffrast",

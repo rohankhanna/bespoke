@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 112,
-    "observations": 114,
-    "repos": 25,
-    "terms": 113
+    "components": 146,
+    "concepts": 120,
+    "observations": 122,
+    "repos": 29,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
     "AtomaAI/atoma-infer",
+    "bbqsrc/cargo-ndk",
     "bluss/matrixmultiply",
     "Builditluc/wiki-tui",
+    "DioxusLabs/sdk",
     "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",
     "faradayio/cage",
@@ -35,9 +37,11 @@
     "Roblox/foreman",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
+    "rust-lang/backtrace-rs",
     "rusticstuff/simdutf8",
     "stanislav-tkach/os_info",
     "typst/pdf-writer",
+    "yaahc/displaydoc",
     "zippoxer/recall"
   ]
 }

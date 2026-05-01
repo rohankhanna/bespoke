@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 30,
-    "terms": 163
+    "components": 234,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 32,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "allenreder/cliproxyapi-quota-inspector",
     "appleboy/drone-lambda",
+    "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
@@ -31,6 +31,7 @@
     "danielgtaylor/shorthand",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
+    "dlclark/regexp2cg",
     "ebitengine/debugui",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
@@ -39,6 +40,7 @@
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
+    "MicahParks/jwkset",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
     "sigstore/rekor-tiles",

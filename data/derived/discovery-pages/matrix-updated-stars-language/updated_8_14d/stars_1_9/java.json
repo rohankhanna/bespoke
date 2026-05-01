@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 6,
     "observations": 6,
-    "repos": 3,
+    "repos": 5,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "bndtools/workspace-templates",
     "codelibs/fess-ds-atlassian",
     "codelibs/fess-ds-box",
+    "konsoletyper/teavm-site",
     "vegardit/vegardit-maven-parent"
   ]
 }

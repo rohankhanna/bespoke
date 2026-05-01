@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 79,
-    "observations": 79,
+    "components": 61,
+    "concepts": 73,
+    "observations": 73,
     "repos": 11,
-    "terms": 79
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
-    "dtcooper/raspotify",
     "home-assistant/addons",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
     "pypa/manylinux",
     "rbenv/ruby-build",
     "rocker-org/rocker",
+    "ROCm/ROCm",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 497,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 101,
-    "terms": 149
+    "components": 522,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 106,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -68,6 +68,7 @@
     "danielrosehill/Geopol-Forecast-Council",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Github-Ideas-And-FRs",
+    "danielrosehill/Hypothesis-Council",
     "DataDog/vault",
     "DeepWok/mase-docker",
     "fabon-f/temporal-polyfill-comparison",
@@ -80,6 +81,7 @@
     "genuslovoacalixtusiii510/ytp-2026",
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
+    "guoqingbao/candle",
     "gyf0311/lorekit",
     "hauntsaninja/mypy",
     "hmellor/vllm",
@@ -96,9 +98,11 @@
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "mupozg823/codelens-mcp-plugin",
     "narutoxdd6/nyro",
+    "nodenv/node-build-prerelease",
     "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",
     "redductive/securepixel",
+    "regro/cf-graph-countyfair",
     "rltakashige/mlx-jaccl-fix-small-recv",
     "roampal-ai/roampal-labs",
     "robertabao/grok-nvim",
@@ -109,6 +113,7 @@
     "similar-colpoxerosis201/codex-wechat",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "tornikepe/ai-chatbot",
+    "TransferQueue/community_doc",
     "transparency-dev/armored-witness-common",
     "ueno/podman-sequoia",
     "vivianalaced749/vk-calls-tunnel",

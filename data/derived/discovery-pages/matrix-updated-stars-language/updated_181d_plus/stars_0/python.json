@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 52,
-    "terms": 79
+    "components": 123,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 56,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
+    "af-74413592/agentscope",
     "akamming/domoticz-snapcast",
     "akira-l/warc_extractor_mnbvc",
     "albertogeniola/elmax-api",
@@ -33,6 +34,7 @@
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",
+    "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "doc-doc/hcrn-bert",
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
@@ -41,6 +43,7 @@
     "hashberg-io/multiformats-config",
     "IEI-mjx/Yuan-2.0",
     "ikostrikov/d4rl",
+    "jbilcke-hf/finetrainers",
     "kasztp/url_shortener",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
@@ -52,6 +55,7 @@
     "mickaelrigault/pymage",
     "mignonjia/lmgame_train_reorg",
     "mjvolk3/biocypher",
+    "mongodb-forks/PyKMIP",
     "Natyren/alfworld",
     "Natyren/WebShop",
     "nim65s/git-archive-all",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 673,
-    "concepts": 411,
-    "observations": 414,
-    "repos": 74,
-    "terms": 420
+    "components": 663,
+    "concepts": 396,
+    "observations": 398,
+    "repos": 72,
+    "terms": 405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "aannoo/hcom",
@@ -20,7 +20,6 @@
     "ada-url/rust",
     "agent-sh/agnix",
     "ajrcarey/pdfium-render",
-    "alexheretic/glyph-brush",
     "apache/arrow-rs-object-store",
     "apollographql/apollo-rs",
     "arkworks-rs/algebra",
@@ -43,7 +42,6 @@
     "eigenwallet/core",
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
-    "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-sys",
     "EspressoSystems/espresso-network",
     "EspressoSystems/jellyfish",
@@ -61,6 +59,7 @@
     "LaurenzV/krilla",
     "lu-zero/cargo-c",
     "messense/jieba-rs",
+    "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
     "nix-community/harmonia",
     "NixOS/nix-installer",
@@ -71,7 +70,6 @@
     "recmo/uint",
     "rust-bitcoin/rust-miniscript",
     "rust-lang/bors",
-    "rust-lang/compiler-builtins",
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",
     "rust-lang/socket2",

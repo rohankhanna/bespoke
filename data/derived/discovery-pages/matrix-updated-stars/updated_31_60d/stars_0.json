@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 45,
-    "terms": 95
+    "components": 167,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 48,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "adammes/voyanode",
@@ -37,6 +37,8 @@
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
+    "DiligentGraphics/args",
+    "DiligentGraphics/json",
     "EspressoSystems/commit",
     "firstbatchxyz/dkn-protocol",
     "hermit-os/async-executor",
@@ -57,6 +59,7 @@
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation",
     "Systemcluster/tokenizer-bench",
-    "vaporif/rvx"
+    "vaporif/rvx",
+    "yoshoku/numo-liblinear"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 35,
-    "terms": 86
+    "components": 176,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 38,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -36,6 +36,7 @@
     "hspec/sensei",
     "jmespath/jmespath.site",
     "jruby/maven-tools",
+    "JuliaGraphics/Cairo.jl",
     "JunoLab/Atom.jl",
     "kahliburke/MCPRepl.jl",
     "lumen-oss/rocks-git.nvim",
@@ -45,6 +46,8 @@
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "padreati/rapaio-jupyter-kernel",
+    "Rhoban/onshape-to-robot-examples",
+    "standardrb/lint_roller",
     "status-im/nim-serialization",
     "tarsius/llama",
     "WICG/crash-reporting",

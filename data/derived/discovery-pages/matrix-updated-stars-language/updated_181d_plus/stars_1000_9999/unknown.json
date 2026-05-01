@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 75,
-    "terms": 179
+    "components": 21,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 79,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -29,15 +29,18 @@
     "aws-cloudformation/cloudformation-coverage-roadmap",
     "aws-samples/aws-serverless-airline-booking",
     "bincode-org/bincode",
+    "callbag/callbag",
     "carlosperate/awesome-pyproject",
     "chenking2020/FindTheChatGPTer",
     "cmhungsteve/Awesome-Transformer-Attention",
     "Computer-Vision-in-the-Wild/CVinW_Readings",
     "deepseek-ai/DeepSeek-V2",
     "dk-liang/Awesome-Visual-Transformer",
+    "dotnet/announcements",
     "dotnet/standard",
     "dwyl/Javascript-the-Good-Parts-notes",
     "dwyl/start-here",
+    "ecomfe/awesome-echarts",
     "edn-format/edn",
     "ElricLiu/Awesome-One-Click-Deployment",
     "github/renaming",
@@ -79,6 +82,7 @@
     "sindresorhus/guides",
     "sporto/awesome-elm",
     "styfle/awesome-online-ide",
+    "styled-components/awesome-styled-components",
     "tc39/proposal-decorators",
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 384,
-    "observations": 384,
-    "repos": 73,
-    "terms": 379
+    "components": 215,
+    "concepts": 415,
+    "observations": 415,
+    "repos": 76,
+    "terms": 410
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "albumentations-team/albumentations",
@@ -26,6 +26,7 @@
     "coqui-ai/TTS",
     "cumulo-autumn/StreamDiffusion",
     "databrickslabs/dolly",
+    "deezer/spleeter",
     "dmlc/dgl",
     "dwyl/english-words",
     "facebookresearch/demucs",
@@ -54,6 +55,7 @@
     "lllyasviel/FramePack",
     "lllyasviel/stable-diffusion-webui-forge",
     "lm-sys/FastChat",
+    "lukas-blecher/LaTeX-OCR",
     "magic-research/magic-animate",
     "Megvii-BaseDetection/YOLOX",
     "meta-llama/llama",
@@ -84,6 +86,7 @@
     "THU-MIG/yolov10",
     "Vision-CAIR/MiniGPT-4",
     "waditu/tushare",
+    "XingangPan/DragGAN",
     "xinntao/Real-ESRGAN",
     "zai-org/ChatGLM-6B",
     "zai-org/ChatGLM2-6B"

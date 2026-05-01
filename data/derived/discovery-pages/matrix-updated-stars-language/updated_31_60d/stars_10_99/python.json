@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 37,
-    "terms": 104
+    "components": 175,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 40,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -22,6 +22,7 @@
     "andyluo7/autoresearch",
     "apache/parquet-testing",
     "bentoml/openllm-models",
+    "BoosterRobotics/booster_assets",
     "c4ffein/realworld-django-ninja",
     "chaoss/grimoirelab-graal",
     "ckan/ckanext-xloader",
@@ -42,7 +43,9 @@
     "iterate-ch/docs",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
+    "networkx/nx-parallel",
     "nousresearch/tinker-atropos",
+    "philippemerle/AWS-CloudFormation-Diagrams",
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",
     "richardodliu/OpenCodeEval",

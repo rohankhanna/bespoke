@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4372,
-    "concepts": 714,
-    "observations": 718,
-    "repos": 94,
-    "terms": 813
+    "components": 4379,
+    "concepts": 703,
+    "observations": 707,
+    "repos": 93,
+    "terms": 798
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -44,7 +44,6 @@
     "coder/mux",
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
-    "connectrpc/connect-es",
     "denoland/std",
     "devcontainers/cli",
     "ding113/claude-code-hub",
@@ -76,7 +75,6 @@
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "matt1398/claude-devtools",
-    "maxritter/pilot-shell",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-js-debug",
@@ -105,6 +103,7 @@
     "vega/vega-lite",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
+    "vuejs/router",
     "wighawag/hardhat-deploy",
     "withastro/starlight",
     "yarnpkg/berry"

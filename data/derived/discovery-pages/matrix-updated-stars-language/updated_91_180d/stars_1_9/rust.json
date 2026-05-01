@@ -3,7 +3,7 @@
     "components": 40,
     "concepts": 18,
     "observations": 18,
-    "repos": 12,
+    "repos": 13,
     "terms": 18
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "ashvardanian/StringZilla-CLI",
     "axiom-crypto/halo2curves",
+    "guoqingbao/rustchatui",
     "IWANABETHATGUY/l-lang",
     "LaurenzV/sitro",
     "lita-xyz/Plonky3",

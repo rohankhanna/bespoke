@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 152,
-    "observations": 154,
-    "repos": 33,
-    "terms": 151
+    "components": 208,
+    "concepts": 142,
+    "observations": 144,
+    "repos": 32,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "bet4it/udbserver",
     "cedar-policy/cedar-examples",
@@ -38,13 +37,13 @@
     "mozilla/dump_syms",
     "Nugine/simd",
     "posit-dev/air",
+    "quickwit-oss/tantivy-cli",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",
     "rust3ds/ctru-rs",
     "servo/rust-cssparser",
     "sparsemat/sprs",
-    "SunDoge/simdjson-rust",
     "typst/comemo",
     "YaLTeR/wl-clipboard-rs"
   ]

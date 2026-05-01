@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 688,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 38,
-    "terms": 65
+    "components": 733,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 41,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
+    "1000ch/vscode-csso",
     "2heal1/rspress-plugin-annotation-words",
     "5sControl/5s-frontend",
     "alexlafroscia/testdouble-qunit",
@@ -43,6 +44,7 @@
     "litter-coder/midjourney-proxy-admin",
     "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
     "LuaLS/LLS-Addons-Action",
+    "Matts966/efm-langserver-vscode",
     "mcous/testdouble-vitest",
     "plrthink/RNZATestApp",
     "prasek/supergraph-demo-opentelemetry",
@@ -50,6 +52,7 @@
     "robb-j/nova-yaml",
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
+    "startupdevhouse/typescript-functional-extensions-nestjs",
     "vim-fall/deno-fall-custom",
     "winily/zhipuai-sdk-nodejs-v4"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 859,
-    "concepts": 244,
-    "observations": 246,
-    "repos": 51,
-    "terms": 276
+    "components": 861,
+    "concepts": 234,
+    "observations": 236,
+    "repos": 52,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
     "agent-sh/agentsys",
-    "all-contributors/app",
     "Atheos/Atheos",
     "badgen/badgen",
     "beve-org/beve",
@@ -38,6 +37,7 @@
     "fastify/example",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
+    "florajs/sql-parser",
     "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
     "GoogleCloudPlatform/google-cloud-node-todos",
@@ -49,6 +49,7 @@
     "karma-runner/karma-coverage",
     "kharchenkolab/pagoda2",
     "kriszyp/lmdb-js",
+    "mapbox/vector-tile-js",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",

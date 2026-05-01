@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 116,
-    "observations": 116,
+    "components": 137,
+    "concepts": 147,
+    "observations": 147,
     "repos": 15,
-    "terms": 116
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
+    "AgileRL/AgileRL",
     "AI-Hypercomputer/maxdiffusion",
-    "autowarefoundation/autoware-documentation",
+    "aiidateam/aiida-core",
+    "Azure/co-op-translator",
     "clearml/clearml-agent",
     "Comfy-Org/comfy-cli",
-    "Dao-AILab/sonic-moe",
     "databrickslabs/ucx",
-    "flagos-ai/FlagGems",
     "google/orbax",
     "heyoeyo/muggled_sam",
     "HumanSignal/label-studio-sdk",
     "jupyter-server/jupyter_server",
+    "lightly-ai/lightly-studio",
     "ogx-ai/ogx-client-python",
-    "scverse/rapids-singlecell",
-    "svg-project/flash-kmeans"
+    "scverse/rapids-singlecell"
   ]
 }

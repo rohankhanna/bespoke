@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 52,
-    "terms": 164
+    "components": 203,
+    "concepts": 174,
+    "observations": 175,
+    "repos": 59,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -21,14 +21,18 @@
     "2KAbhishek/exercism.nvim",
     "ably-labs/realtime-quiz-framework",
     "adinhodovic/argo-cd-mixin",
+    "am-kantox/md",
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
+    "appsignal/mono",
     "astropy/astropy-project",
     "AvaotaSBC/AvaotaF1",
     "awslabs/aws-lc-verification",
+    "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
+    "beam-telemetry/telemetry_metrics_statsd",
     "blaine/fantastty",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
@@ -47,7 +51,9 @@
     "GaloisInc/cryptol-specs",
     "IQVIA-ML/LightGBM.jl",
     "jakewvincent/texmagic.nvim",
+    "jelly-beam/rebar3_ex_doc",
     "jfmengels/elm-review-unused",
+    "JuliaPackaging/PkgServer.jl",
     "kalbasit/nur-packages",
     "larshp/abapGitServer",
     "liquidev/lintplus",
@@ -59,6 +65,7 @@
     "ocurrent/opam-health-check",
     "opencontainers/.github",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
+    "php/doc-it",
     "revfactory/claude-code-harness",
     "rojo-rbx/rojo.space",
     "rubygems/release-gem",

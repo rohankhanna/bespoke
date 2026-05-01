@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 11,
+    "components": 10,
     "concepts": 17,
     "observations": 17,
-    "repos": 5,
+    "repos": 3,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,12 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "CocoaPods/Specs",
     "Efficient-ML/Awesome-Model-Quantization",
     "github/rest-api-description",
-    "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/cpp-docs"
   ]
 }

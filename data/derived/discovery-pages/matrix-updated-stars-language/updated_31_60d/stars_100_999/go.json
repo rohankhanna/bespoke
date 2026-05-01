@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 153,
-    "observations": 153,
-    "repos": 29,
-    "terms": 153
+    "components": 197,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 32,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ec2-spot-interrupter",
@@ -22,11 +22,14 @@
     "bradleyfalzon/ghinstallation",
     "cedar-policy/cedar-go",
     "ChristopherHX/github-act-runner",
+    "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
     "docker-library/bashbrew",
     "erigontech/interfaces",
     "go-chi/docgen",
     "go-gl/glow",
+    "GoogleCloudPlatform/docker-credential-gcr",
+    "gopacket/gopacket",
     "gpustack/gguf-parser-go",
     "hashicorp/raft-boltdb",
     "kubernetes-sigs/cluster-proportional-autoscaler",

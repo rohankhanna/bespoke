@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 294,
-    "observations": 297,
-    "repos": 39,
-    "terms": 291
+    "components": 368,
+    "concepts": 336,
+    "observations": 339,
+    "repos": 42,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "1panel-dev/maxkb",
     "2noise/ChatTTS",
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
+    "camel-ai/owl",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter",
     "danielgatis/rembg",
@@ -47,6 +49,7 @@
     "PaddlePaddle/PaddleSpeech",
     "pallets/flask",
     "pre-commit/pre-commit",
+    "qubvel-org/segmentation_models.pytorch",
     "ShishirPatil/gorilla",
     "spotify/luigi",
     "squidfunk/mkdocs-material",

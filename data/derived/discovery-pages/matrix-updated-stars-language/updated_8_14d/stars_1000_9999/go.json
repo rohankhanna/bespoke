@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1063,
-    "concepts": 988,
-    "observations": 992,
+    "components": 1076,
+    "concepts": 983,
+    "observations": 987,
     "repos": 115,
-    "terms": 994
+    "terms": 989
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
+    "akuity/kargo",
     "alecthomas/chroma",
     "alibaba/higress",
     "anacrolix/torrent",
     "apache/dubbo-admin",
     "apache/dubbo-go",
     "apache/incubator-seata-go",
-    "apptainer/apptainer",
     "aquasecurity/trivy-operator",
     "ariga/atlas",
     "autokitteh/autokitteh",
@@ -45,6 +45,7 @@
     "charmbracelet/log",
     "ClickHouse/clickhouse-go",
     "cloudfoundry/cli",
+    "cloudwego/kitex",
     "cncf/toc",
     "connectrpc/connect-go",
     "containerd/stargz-snapshotter",
@@ -126,7 +127,6 @@
     "SpecterOps/BloodHound",
     "stripe/stripe-go",
     "terraform-linters/tflint",
-    "tofuutils/tenv",
     "tonistiigi/binfmt",
     "x-motemen/ghq"
   ]

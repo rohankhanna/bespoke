@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1017,
-    "concepts": 555,
-    "observations": 558,
-    "repos": 59,
-    "terms": 561
+    "components": 1048,
+    "concepts": 596,
+    "observations": 600,
+    "repos": 62,
+    "terms": 601
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abpframework/abp",
     "Alamofire/Alamofire",
@@ -23,6 +23,7 @@
     "AssemblyScript/assemblyscript",
     "Azure/azure-quickstart-templates",
     "composer/composer",
+    "cython/cython",
     "dart-lang/sdk",
     "deepset-ai/haystack",
     "dotnet/aspnetcore",
@@ -42,11 +43,11 @@
     "google/fonts",
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",
-    "Heapy/awesome-kotlin",
     "Homebrew/brew",
     "Homebrew/homebrew-core",
     "jekyll/jekyll",
     "JetBrains/kotlin",
+    "jgm/pandoc",
     "jordansissel/fpm",
     "JuliaLang/julia",
     "jupyter/notebook",
@@ -69,8 +70,10 @@
     "SaschaWillems/Vulkan",
     "semgrep/semgrep",
     "shap/shap",
+    "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
     "swiftlang/swift-evolution",
+    "tc39/ecma262",
     "vim/vim",
     "winsw/winsw"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 6,
-    "terms": 89
+    "components": 58,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 8,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "apache/ignite",
+    "apache/phoenix",
     "dropwizard/dropwizard",
-    "hazelcast/hazelcast",
+    "eclipse-jdtls/eclipse.jdt.ls",
     "helidon-io/helidon",
-    "micronaut-projects/micronaut-core",
+    "JetBrains/JetBrainsRuntime",
+    "moyangzhan/langchain4j-aideepin",
     "smithy-lang/smithy"
   ]
 }

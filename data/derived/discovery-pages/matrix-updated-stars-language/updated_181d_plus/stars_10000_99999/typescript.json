@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 67,
-    "observations": 68,
-    "repos": 9,
-    "terms": 65
+    "components": 318,
+    "concepts": 68,
+    "observations": 69,
+    "repos": 10,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "bytebot-ai/bytebot",
     "cyclejs/cyclejs",
@@ -20,6 +20,7 @@
     "fuergaosi233/wechat-chatgpt",
     "mckaywrigley/chatbot-ui",
     "ReactiveX/rxjs",
+    "vuejs/devtools-v6",
     "web3/web3.js",
     "winfunc/opcode",
     "withfig/autocomplete"

@@ -3,7 +3,7 @@
     "components": 17,
     "concepts": 35,
     "observations": 35,
-    "repos": 19,
+    "repos": 21,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "anjeludo/spring-ai-mcp",
     "caprica/vlcj-file-filters",
     "carrotsearch/elasticsearch-lingo3g",
     "cdmikechen/airflow-dag-operator",
@@ -24,6 +25,7 @@
     "finefuture/sentinel-dashboard-X",
     "hallvard/etablesaw",
     "jruby/jruby-examples",
+    "Kugaaa/langchain4j-langfuse",
     "lefou/lambdatest",
     "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
     "nativium/nativium-game",

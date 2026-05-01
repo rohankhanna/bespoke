@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 870,
-    "concepts": 146,
-    "observations": 147,
-    "repos": 29,
-    "terms": 164
+    "components": 976,
+    "concepts": 183,
+    "observations": 184,
+    "repos": 34,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0no-co/wonka",
+    "aelassas/bookcars",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "antfu/changelogithub",
     "aquasecurity/trivy-vscode-extension",
+    "avli/clojureVSCode",
     "aws-samples/dify-self-hosted-on-aws",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
@@ -26,6 +28,8 @@
     "cztomsik/ava",
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
+    "h3js/rou3",
+    "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
@@ -42,6 +46,7 @@
     "sveltejs/prettier-plugin-svelte",
     "thesayyn/protoc-gen-ts",
     "trzsz/trzsz.js",
-    "vim-denops/denops.vim"
+    "vim-denops/denops.vim",
+    "y-lohse/inkjs"
   ]
 }

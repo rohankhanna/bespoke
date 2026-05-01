@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 29,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 9,
-    "terms": 24
+    "concepts": 28,
+    "observations": 28,
+    "repos": 11,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
     "aws-cloudformation/cloudformation-resource-schema",
@@ -22,6 +22,8 @@
     "google/tsunami-security-scanner-callback-server",
     "grpc/grpc-java-api-checker",
     "hashicorp/hello-vault-spring",
+    "JodaOrg/joda-time-hibernate",
+    "langgraph4j/langgraph4j-examples",
     "zilliztech/kafka-connect-milvus"
   ]
 }

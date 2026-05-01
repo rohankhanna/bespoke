@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 64,
-    "terms": 169
+    "components": 208,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 70,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "adams85/acornima",
     "adrigzr/neotest-mocha",
@@ -24,6 +24,7 @@
     "ankane/neighbor-s3",
     "ankane/torchaudio-ruby",
     "ankane/trove",
+    "appsignal/appsignal-elixir-phoenix",
     "Ascend/Ascend-CI",
     "aspect-build/rules_cypress",
     "aspect-build/rules_esbuild",
@@ -31,6 +32,7 @@
     "aws/amazon-sagemaker-examples-community",
     "baskeboler/cljs-karaoke-client",
     "bazel-contrib/rules_distroless",
+    "bencheeorg/statistex",
     "Betterment/betterlint",
     "buildbot/buildbot-website",
     "ClementPinard/FlowNetTorch",
@@ -49,9 +51,11 @@
     "flatpak/flatpak-docs",
     "google-marketing-solutions/web-performance-lab",
     "googleapis/google-cloud-php-datastore",
+    "hadolint/language-docker",
     "hashicorp/hello-vault-dotnet",
     "ibhagwan/ts-vimdoc.nvim",
     "IDAES/idaes-ext",
+    "interstar/Patterning-Core",
     "janestreet/tracing",
     "jeffzi/llscheck",
     "JuliaCI/PkgEval.jl",
@@ -72,8 +76,10 @@
     "opea-project/GenAIEval",
     "php/doc-de",
     "PKU-YuanGroup/Helios-Page",
+    "red-data-tools/red-datasets",
     "ropensci/allcontributors",
     "sbcgua/ajson",
+    "sentientwave/automata",
     "vorburger/blog",
     "w3c/webmediaapi",
     "WebAssembly/custom-descriptors",

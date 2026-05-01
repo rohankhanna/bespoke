@@ -3,7 +3,7 @@
     "components": 17,
     "concepts": 32,
     "observations": 32,
-    "repos": 14,
+    "repos": 15,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "adamyaxley/Unformat",
@@ -21,6 +21,7 @@
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
     "flatpak/flatpak-xdg-utils",
+    "fmtlib/format-benchmark",
     "FourierTransformer/lua-simdjson",
     "HolyBlackCat/box2cpp",
     "jokkebk/JUnzip",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 70,
-    "terms": 166
+    "components": 239,
+    "concepts": 187,
+    "observations": 188,
+    "repos": 74,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -42,7 +42,10 @@
     "dwyl/elixir-auth-microsoft",
     "emacsorphanage/dart-mode",
     "ethpandaops/optimism-package",
+    "falcoframework/Falco.Htmx",
+    "falcoframework/Falco.OpenApi",
     "FFTAI/Wiki-GRx-Gym",
+    "formigarafa/zxcvbn-rb",
     "geocompx/docker",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
@@ -60,6 +63,7 @@
     "MichaelHatherly/REPLicant.jl",
     "MiniMax-AI/MiniMax-AI.github.io",
     "mirage/ocaml-conduit",
+    "mirage/ocaml-uri",
     "mosn/mosn.io",
     "mvz/non-digest-assets",
     "nikitabobko/brew-install-path",
@@ -69,6 +73,7 @@
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
     "redis-stack/helm-redis-stack",
+    "reisub/http_cookie",
     "rejeep/ansi.el",
     "rocker-org/binder",
     "RTBHOUSE/tmux-picker",
@@ -81,7 +86,6 @@
     "travis-ci/travis-logs",
     "travis-ci/travis-scheduler",
     "viafintech/gcra-ruby",
-    "WebAV-Tech/WebAV-Pro",
     "webdataset/WebDataset.jl",
     "XR-Robotics/XRoboToolkit-Unity-Client"
   ]

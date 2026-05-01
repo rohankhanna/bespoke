@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 13,
-    "terms": 90
+    "components": 54,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 14,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 22,
-    "terms": 128
+    "components": 173,
+    "concepts": 155,
+    "observations": 155,
+    "repos": 23,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -27,12 +27,13 @@
     "apache/netbeans-antora",
     "collective/mrs-developer",
     "ehmicky/fetch-node-website",
+    "ehmicky/get-node-cli",
+    "ehmicky/normalize-node-version",
     "gr2m/octokit-oauth-app-begin-example",
     "graphql/community-wg",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
-    "Level/supports",
     "Level/transcoder",
     "poolifier/tatami-ng",
     "Taritsyn/AutoprefixerHost"

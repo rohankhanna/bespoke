@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 13,
-    "terms": 45
+    "components": 42,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 12,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alexellis/fstail",
-    "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
     "bored-engineer/github-conditional-http-transport",
     "cloudfoundry/buildpackapplifecycle",

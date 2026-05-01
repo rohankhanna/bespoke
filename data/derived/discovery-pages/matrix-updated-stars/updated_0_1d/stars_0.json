@@ -1,18 +1,23 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 13,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 6,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin"
+    "danielrosehill/Claude-AI-Model-Research-Plugin",
+    "danielrosehill/Claude-Background-Removal-Plugin",
+    "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
+    "getlantern/guide",
+    "HumanSignal/label-studio-client-generator",
+    "kalavai-net/kalavai-templates"
   ]
 }

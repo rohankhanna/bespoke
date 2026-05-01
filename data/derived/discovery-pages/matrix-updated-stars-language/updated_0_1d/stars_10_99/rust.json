@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 5,
-    "terms": 29
+    "components": 8,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "apollographql/federation-rs",
-    "fonttools/fontspector",
-    "ldclabs/anda-db",
-    "ldclabs/anda-hippocampus",
-    "openvm-org/stark-backend"
+    "alloy-rs/evm"
   ]
 }

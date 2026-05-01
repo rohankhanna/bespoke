@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 24,
-    "terms": 118
+    "components": 184,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 25,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
     "apollographql/federation-rs",
     "arkworks-rs/std",
     "bourumir-wyngs/serde-yaml-bw",
@@ -31,6 +30,8 @@
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "openvm-org/stark-backend",
+    "oxc-project/oxc-sourcemap",
+    "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",

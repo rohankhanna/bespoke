@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 80,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 14,
-    "terms": 45
+    "concepts": 46,
+    "observations": 46,
+    "repos": 15,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "anexia/k8s-external-dns-webhook",
+    "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",

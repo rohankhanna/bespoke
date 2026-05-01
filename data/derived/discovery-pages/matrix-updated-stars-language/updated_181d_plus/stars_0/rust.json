@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 33,
-    "observations": 34,
-    "repos": 21,
-    "terms": 33
+    "components": 110,
+    "concepts": 36,
+    "observations": 37,
+    "repos": 22,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "boundless-xyz/reth",
     "byron/cargo-release",
@@ -33,6 +33,7 @@
     "nugine/simd-benches",
     "OlivierDehaene/candle",
     "passcod/cargo-release-pr-test",
+    "ritchie46/simd-json",
     "s3bk/svg",
     "spacemeshos/randomx-rs"
   ]

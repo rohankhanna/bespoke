@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 0,
     "observations": 0,
-    "repos": 4,
+    "repos": 5,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "babashka/homebrew-brew",
     "KSXGitHub/aur-packages-builder-1",
-    "KSXGitHub/aur-packages-builder-2"
+    "KSXGitHub/aur-packages-builder-2",
+    "ved015/CogVideoX-5b-Physics_iq_benchmarking"
   ]
 }

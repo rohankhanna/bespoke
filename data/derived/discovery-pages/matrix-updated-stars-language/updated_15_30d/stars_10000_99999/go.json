@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 14,
-    "terms": 115
+    "components": 108,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 16,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "1panel-dev/1panel",
     "abiosoft/colima",
     "charmbracelet/bubbletea",
     "charmbracelet/glow",
@@ -23,6 +24,7 @@
     "evanw/esbuild",
     "google/cadvisor",
     "hibiken/asynq",
+    "Jguer/yay",
     "kubernetes/kompose",
     "labstack/echo",
     "shadow1ng/fscan",

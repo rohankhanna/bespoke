@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 37,
-    "terms": 92
+    "components": 70,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 41,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "angelozerr/ec4e",
+    "apache/pulsar-adapters",
+    "asaikali/spring-ai-zero-to-hero",
     "avsej/gson.rb",
     "bhavuklabs/research4j",
     "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
@@ -35,9 +37,11 @@
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
     "iamolegga/react-native-launch-arguments",
+    "imfangs/langgraph4j-deep-researcher",
     "jchambers/id-obfuscator",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
+    "JodaOrg/joda-time-jsptags",
     "marbl/MHAP",
     "mikepapadim/llama2.tornadovm.java",
     "MSPaintIDE/NewOCR",

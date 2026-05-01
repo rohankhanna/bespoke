@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 613,
-    "observations": 613,
-    "repos": 97,
-    "terms": 613
+    "components": 526,
+    "concepts": 660,
+    "observations": 660,
+    "repos": 102,
+    "terms": 660
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -23,9 +23,9 @@
     "agricidaniel/claude-seo",
     "ajenti/ajenti",
     "asottile/pyupgrade",
-    "atlassian-api/atlassian-python-api",
     "bentoml/BentoML",
     "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+    "camel-ai/oasis",
     "camelot-dev/camelot",
     "caronc/apprise-api",
     "chaofengc/IQA-PyTorch",
@@ -40,6 +40,7 @@
     "django/daphne",
     "drivendataorg/cookiecutter-data-science",
     "EleutherAI/gpt-neox",
+    "EmergenceAI/Agent-E",
     "facebookincubator/AITemplate",
     "facebookresearch/mmf",
     "Fannovel16/comfyui_controlnet_aux",
@@ -50,6 +51,7 @@
     "graphql-python/gql",
     "hiyouga/EasyR1",
     "huggingface/finetrainers",
+    "huggingface/lighteval",
     "huggingface/nanotron",
     "huggingface/optimum",
     "huggingface/optimum-quanto",
@@ -105,8 +107,11 @@
     "spyder-ide/qtpy",
     "ssitu/ComfyUI_UltimateSDUpscale",
     "Tencent-Hunyuan/HunyuanVideo-1.5",
+    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "therealxiaomanchu/ex-skill",
     "trailofbits/buttercup",
+    "unitaryai/detoxify",
+    "wenet-e2e/wespeaker",
     "withoutbg/withoutbg",
     "YanjieZe/GMR",
     "Yelp/dumb-init",

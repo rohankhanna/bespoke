@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 20,
-    "terms": 53
+    "components": 210,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 22,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "attractivechaos/k8",
     "ayoubben18/ab-method",
     "bramstein/url-template",
     "charmbracelet/tree-sitter-vhs",
+    "dcoapp/app",
     "dzeiocom/lucide-astro",
     "fengari-lua/fengari-interop",
     "gherghett/Antigravity-Shit-Chat",
@@ -33,6 +34,7 @@
     "tonyganch/gonzales-pe",
     "tree-sitter/tree-sitter-javascript",
     "tree-sitter/tree-sitter-julia",
-    "ValYouW/njsTrace"
+    "ValYouW/njsTrace",
+    "zalo/mujoco_wasm"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1265,
-    "concepts": 284,
-    "observations": 284,
-    "repos": 38,
-    "terms": 282
+    "components": 1309,
+    "concepts": 303,
+    "observations": 303,
+    "repos": 39,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "amperser/proselint",
     "apache/cordova-android",
@@ -43,6 +43,7 @@
     "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
+    "release-it/release-it",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1733,
-    "concepts": 395,
-    "observations": 396,
-    "repos": 55,
-    "terms": 406
+    "components": 1785,
+    "concepts": 422,
+    "observations": 423,
+    "repos": 59,
+    "terms": 437
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "actions/typescript-action",
     "actions/upload-artifact",
@@ -46,14 +46,17 @@
     "grpc/grpc-node",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
+    "jaredwray/cacheable",
     "jaredwray/keyv",
     "jupyter-lsp/jupyterlab-lsp",
     "kirodotdev/Kiro",
     "letta-ai/claude-subconscious",
     "lobehub/lobe-icons",
     "mattpocock/ts-reset",
+    "maxritter/pilot-shell",
     "microsoft/node-pty",
     "microsoft/playwright-cli",
+    "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
     "mutoe/vue3-realworld-example-app",
     "oclif/oclif",
@@ -63,6 +66,7 @@
     "pixiv/three-vrm",
     "redhat-developer/vscode-java",
     "statoscope/statoscope",
+    "streamich/memfs",
     "stripe/ai",
     "the-guild-org/apollo-angular",
     "thx/resvg-js",

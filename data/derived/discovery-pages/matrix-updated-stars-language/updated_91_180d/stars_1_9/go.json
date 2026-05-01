@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 8,
-    "terms": 20
+    "components": 36,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 9,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "ai-bot-pro/achatbot-go",
+    "bizflycloud/karpenter-provider-bizflycloud",
     "codeGROOVE-dev/retry",
     "dbubel/intake",
     "karpeleslab/tpl",

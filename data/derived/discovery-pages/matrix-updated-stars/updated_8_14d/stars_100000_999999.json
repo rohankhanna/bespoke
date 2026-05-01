@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 945,
-    "concepts": 204,
-    "observations": 205,
+    "components": 1092,
+    "concepts": 214,
+    "observations": 215,
     "repos": 26,
-    "terms": 241
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "angular/angular",
@@ -23,7 +23,6 @@
     "flutter/flutter",
     "golang/go",
     "google-gemini/gemini-cli",
-    "kubernetes/kubernetes",
     "langgenius/dify",
     "microsoft/terminal",
     "microsoft/typescript",
@@ -31,6 +30,7 @@
     "mrdoob/three.js",
     "nodejs/node",
     "nousresearch/hermes-agent",
+    "open-webui/open-webui",
     "openclaw/openclaw",
     "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",

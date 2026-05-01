@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 553,
-    "concepts": 425,
-    "observations": 428,
-    "repos": 69,
-    "terms": 433
+    "components": 548,
+    "concepts": 435,
+    "observations": 438,
+    "repos": 70,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
+    "AdguardTeam/AdGuardDNS",
     "AdguardTeam/urlfilter",
     "ai-dynamo/grove",
     "alibaba/loongsuite-go-agent",
@@ -33,6 +34,7 @@
     "celo-org/celo-blockchain",
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
+    "cloudfoundry/bosh-bootloader",
     "coder/envbuilder",
     "crytic/medusa",
     "dependabot/cli",
@@ -72,7 +74,6 @@
     "opentofu/registry",
     "ossf/osv-schema",
     "phiat/claude-esp",
-    "prehisle/relay-pulse",
     "prometheus/common",
     "raystack/meteor",
     "secretflow/kuscia",

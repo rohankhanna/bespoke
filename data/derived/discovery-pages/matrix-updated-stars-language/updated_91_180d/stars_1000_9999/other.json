@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 213,
-    "observations": 214,
-    "repos": 52,
-    "terms": 212
+    "components": 154,
+    "concepts": 271,
+    "observations": 272,
+    "repos": 61,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
+    "ankane/dexter",
+    "ankane/pgslice",
+    "ankane/pgsync",
     "auto-complete/auto-complete",
     "bazelbuild/rules_docker",
     "bkeepers/dotenv",
@@ -22,8 +25,11 @@
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
     "chrisbra/csv.vim",
+    "clojure/core.logic",
     "cncf/tag-security",
+    "collectiveidea/audited",
     "cpm-cmake/CPM.cmake",
+    "dempfi/ayu",
     "EleutherAI/pythia",
     "elixir-lang/gen_stage",
     "emacs-evil/evil",
@@ -51,18 +57,21 @@
     "monaqa/dial.nvim",
     "mrash/fwknop",
     "myclabs/DeepCopy",
+    "nix-community/dream2nix",
     "onsails/lspkind.nvim",
     "phar-io/manifest",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "richfelker/musl-cross-make",
     "Samsung/netcoredbg",
+    "siliconflow/onediff",
     "sindresorhus/Gifski",
     "symfony/cache-contracts",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",
     "tpope/vim-dadbod",
     "VectorSpaceLab/OmniGen",
+    "vitalets/github-trending-repos",
     "weichsel/ZIPFoundation",
     "WICG/webcomponents",
     "yonaskolb/Mint"

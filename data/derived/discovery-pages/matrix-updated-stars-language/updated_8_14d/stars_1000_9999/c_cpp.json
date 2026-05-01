@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 942,
-    "concepts": 947,
-    "observations": 948,
-    "repos": 111,
-    "terms": 939
+    "components": 975,
+    "concepts": 968,
+    "observations": 969,
+    "repos": 116,
+    "terms": 960
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -41,8 +41,10 @@
     "ElementsProject/lightning",
     "erincatto/box2d",
     "eth-brownie/brownie",
+    "facebook/igl",
     "facebookincubator/velox",
     "fastfloat/fast_float",
+    "FEniCS/dolfinx",
     "FFTW/fftw3",
     "flatpak/flatpak",
     "fluent/fluent-bit",
@@ -62,7 +64,7 @@
     "inikep/lzbench",
     "intel/compute-runtime",
     "jarro2783/cxxopts",
-    "jolibrain/deepdetect",
+    "jbeder/yaml-cpp",
     "KhronosGroup/glslang",
     "KhronosGroup/SPIRV-Tools",
     "KhronosGroup/Vulkan-Headers",
@@ -84,9 +86,11 @@
     "microsoft/cppwinrt",
     "microsoft/DirectXMath",
     "microsoft/DirectXShaderCompiler",
+    "microsoft/DirectXTK12",
     "microsoft/microsoft-ui-xaml",
     "microsoft/react-native-macos",
     "microsoft/WindowsAppSDK",
+    "mintty/mintty",
     "mitsuba-renderer/mitsuba3",
     "Moddable-OpenSource/moddable",
     "netblue30/firejail",
@@ -104,6 +108,7 @@
     "openxla/xla",
     "plasma-umass/coz",
     "pnggroup/libpng",
+    "pytorch/FBGEMM",
     "pytorch/gloo",
     "rapidsai/cudf",
     "rapidsai/cuml",

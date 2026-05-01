@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 373,
-    "observations": 375,
+    "components": 413,
+    "concepts": 378,
+    "observations": 379,
     "repos": 36,
-    "terms": 369
+    "terms": 375
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "actions/runner-images",
     "apache/apisix",
@@ -22,15 +22,18 @@
     "bitcoin/bips",
     "bitwarden/server",
     "Blinue/Magpie",
-    "cython/cython",
     "datawhalechina/self-llm",
     "doomemacs/doomemacs",
     "drduh/YubiKey-Guide",
     "golang-standards/project-layout",
+    "gradle/gradle",
     "Homebrew/homebrew-cask",
-    "jgm/pandoc",
+    "jellyfin/jellyfin",
+    "keeweb/keeweb",
+    "koreader/koreader",
     "MagicStack/uvloop",
     "mason-org/mason.nvim",
+    "mozilla-mobile/firefox-ios",
     "neovim/nvim-lspconfig",
     "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
@@ -40,14 +43,11 @@
     "ruby/ruby",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
-    "simplex-chat/simplex-chat",
     "square/moshi",
     "square/okhttp",
     "swagger-api/swagger-codegen",
     "swiftlang/swift-package-manager",
     "syl20bnr/spacemacs",
-    "tc39/ecma262",
-    "upptime/upptime",
     "vim-airline/vim-airline",
     "xmake-io/xmake"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 9,
-    "terms": 56
+    "components": 48,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 11,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "eclipse-aspectj/aspectj",
     "filip26/titanium-json-ld",
+    "fnproject/fdk-java",
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "mebigfatguy/fb-contrib",
     "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",
+    "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",
     "swagger-api/validator-badge"
   ]

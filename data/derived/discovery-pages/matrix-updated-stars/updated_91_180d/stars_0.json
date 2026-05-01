@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 39,
-    "terms": 42
+    "components": 177,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 42,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -31,11 +31,13 @@
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
+    "danielrosehill/git-github-plugin",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "Enselic/cargo-public-api",
     "espressosystems/espresso-systems-common",
     "faradayio/compose_yml",
+    "forcedotcom/change-case-management",
     "hermit-os/newlib",
     "illusionfield/fourseven-scss",
     "Keats/os_info",
@@ -51,6 +53,7 @@
     "sarlinpe/pybind11-stubgen",
     "smallscientist1/tilelang",
     "stainless-api/tsc-multi",
+    "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "wintercg/fetch"
   ]
 }

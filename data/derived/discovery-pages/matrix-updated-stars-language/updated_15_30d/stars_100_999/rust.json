@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 176,
-    "observations": 178,
-    "repos": 45,
-    "terms": 176
+    "components": 253,
+    "concepts": 189,
+    "observations": 192,
+    "repos": 47,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "alex/rust-asn1",
+    "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
     "cargo-lambda/cargo-lambda",
@@ -27,6 +28,7 @@
     "djc/tokio-retry",
     "drahnr/cargo-spellcheck",
     "dtormoen/tsk-tsk",
+    "esp-rs/esp-idf-hal",
     "esp-rs/rust",
     "facebookexperimental/allocative",
     "FedericoPonzi/Horust",

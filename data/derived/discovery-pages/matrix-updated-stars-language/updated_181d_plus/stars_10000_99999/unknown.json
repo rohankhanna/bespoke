@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 5,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 15,
-    "terms": 29
+    "concepts": 38,
+    "observations": 38,
+    "repos": 17,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alebcay/awesome-shell",
     "css-modules/css-modules",
     "deepseek-ai/DeepSeek-R1",
+    "dotnet/corefx",
     "google-research/tuning_playbook",
     "Homebrew/legacy-homebrew",
+    "HumanAIGC/AnimateAnyone",
     "jamiebuilds/babel-handbook",
     "lukehoban/es6features",
     "microsoft/api-guidelines",

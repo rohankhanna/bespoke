@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 216,
-    "observations": 216,
-    "repos": 19,
-    "terms": 213
+    "components": 376,
+    "concepts": 220,
+    "observations": 220,
+    "repos": 20,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,27 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
     "Automattic/harper",
     "biomejs/biome",
     "clap-rs/clap",
+    "ClementTsang/bottom",
     "GitoxideLabs/gitoxide",
     "helix-editor/helix",
     "huggingface/tokenizers",
     "iced-rs/iced",
     "jj-vcs/jj",
     "PyO3/pyo3",
-    "quickwit-oss/tantivy",
+    "quickwit-oss/quickwit",
     "ratatui/ratatui",
+    "rolldown/rolldown",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "surrealdb/surrealdb",
     "swc-project/swc",
-    "tracel-ai/burn",
     "zed-industries/zed"
   ]
 }

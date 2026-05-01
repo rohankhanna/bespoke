@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 58,
-    "terms": 138
+    "components": 82,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 63,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -22,12 +22,15 @@
     "aarowill/base16-gnome-terminal",
     "akohlbecker/aw-watcher-tmux",
     "aleksejkrueger/tmux-spotify-tui",
+    "alexaandrov/stitchocker",
     "alexandredavi/openssl-lambda-layer",
     "amyreese/zsh-titles",
     "antonbabenko/awsp",
     "apache/datafusion-ballista-python",
+    "apollographql/supergraph-demo-k8s-graph-ops",
     "astrofra/demo-marine-melodies",
     "babashka/pod-babashka-filewatcher",
+    "bartowski1182/koboldcpp-docker",
     "Berrysoft/fish-msys2",
     "berty/community",
     "bitrise-steplib/step-template",
@@ -41,6 +44,7 @@
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
     "dependabot/example-cli-usage",
     "dpb587/openvpn-bosh-release",
+    "f4pga/prjxray-db",
     "FabioAntunes/base16-fish-shell",
     "funtoo/dev-kit",
     "gchq/gaffer-docker",
@@ -54,6 +58,7 @@
     "isaacs/npm",
     "jcupitt/vips-benchmarks",
     "jeff-hykin/better-go-syntax",
+    "juanluisbaptiste/apachebench-graphs",
     "karancode/asdf-aws-vault",
     "koenrh/dnscontrol-action",
     "luizm/asdf-shellcheck",

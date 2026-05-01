@@ -3,7 +3,7 @@
     "components": 37,
     "concepts": 32,
     "observations": 32,
-    "repos": 46,
+    "repos": 47,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -58,6 +58,7 @@
     "narutoxdd6/nyro",
     "pragmatical-transshipment598/claude-code-workflows",
     "shouted-numberone752/wechat-agent-connector",
+    "TransferQueue/community_doc",
     "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]

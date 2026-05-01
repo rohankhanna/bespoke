@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 383,
-    "observations": 385,
-    "repos": 69,
-    "terms": 383
+    "components": 318,
+    "concepts": 413,
+    "observations": 415,
+    "repos": 74,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alexreisner/geocoder",
     "apache/casbin-Casbin.NET",
@@ -29,6 +29,7 @@
     "clux/muslrust",
     "container-storage-interface/spec",
     "copilot-emacs/copilot.el",
+    "dakrone/cheshire",
     "DavBfr/dart_pdf",
     "dhall-lang/dhall-lang",
     "dimitri/el-get",
@@ -70,9 +71,12 @@
     "pgpartman/pg_partman",
     "puppetlabs/puppet",
     "r-lib/lintr",
+    "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
+    "roboflow/notebooks",
     "rom1504/clip-retrieval",
     "rrousselGit/provider",
+    "rspec/rspec-rails",
     "salesforce/BLIP",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
@@ -81,6 +85,7 @@
     "tensorflow/tpu",
     "timdorr/tesla-api",
     "vcr/vcr",
+    "vkhorikov/CSharpFunctionalExtensions",
     "z-x-yang/Segment-and-Track-Anything",
     "zarazhangrui/codebase-to-course"
   ]

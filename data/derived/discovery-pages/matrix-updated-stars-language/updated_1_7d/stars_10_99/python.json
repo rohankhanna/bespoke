@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 31,
-    "terms": 144
+    "components": 178,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 33,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -32,11 +32,12 @@
     "flagos-ai/vllm-plugin-FL",
     "graalvm/oracle-graalvm-ea-builds",
     "GreptimeTeam/demo-scene",
-    "HabanaAI/vllm-fork",
     "instadeepai/fastpbrl",
     "intel-staging/text-generation-webui",
+    "MGenAI/GRN",
     "microsoft/olive-recipes",
     "open-edge-platform/physical-ai-studio",
+    "pipecat-ai/pipecat-cli",
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "regro/cf-scripts",
@@ -44,6 +45,7 @@
     "sublimelsp/LSP-ruff",
     "symgraph/BinAssistMCP",
     "theupdateframework/tuf-on-ci",
-    "TigreGotico/phoonnx"
+    "TigreGotico/phoonnx",
+    "xhluca/bm25-benchmarks"
   ]
 }

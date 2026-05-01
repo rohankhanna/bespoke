@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 69,
-    "observations": 70,
-    "repos": 37,
-    "terms": 64
+    "components": 43,
+    "concepts": 86,
+    "observations": 87,
+    "repos": 40,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -33,6 +33,8 @@
     "containerd/project-checks",
     "danielrosehill/AI-Developer-Notebook",
     "danielrosehill/bash-alias-manager-claude",
+    "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+    "dotenvx/heroku-buildpack-dotenvx",
     "electerm/electerm-resource",
     "funtoo/core-kit",
     "GeorgOfenbeck/features",
@@ -45,10 +47,11 @@
     "jinfeihan57/p7zip_test_utils",
     "junkblocker/calibre-zaw-source",
     "Kong/official-images",
+    "llllvvuu/efm-tool-definitions.yaml",
     "rigellute/scoop-bucket",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "unixorn/autoupdate-zgenom",
     "videojs/admin"
   ]

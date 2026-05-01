@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 3,
-    "terms": 7
+    "components": 20,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "DiligentGraphics/NuklearUI",
     "get-gah/gah-db",
     "kitknox/helix",
     "mudler/vulkan-sdk-arm"

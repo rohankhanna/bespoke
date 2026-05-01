@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 210,
-    "observations": 213,
-    "repos": 39,
-    "terms": 211
+    "components": 265,
+    "concepts": 212,
+    "observations": 215,
+    "repos": 40,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "adrg/xdg",
     "andybalholm/brotli",
@@ -49,6 +49,7 @@
     "Layr-Labs/eigenda",
     "lightninglabs/neutrino",
     "mailru/go-clickhouse",
+    "prehisle/relay-pulse",
     "prometheus/exporter-toolkit",
     "stefanlogue/meteor",
     "toml-lang/toml-test",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 186,
-    "observations": 187,
-    "repos": 20,
-    "terms": 187
+    "components": 171,
+    "concepts": 216,
+    "observations": 217,
+    "repos": 25,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "agents-flex/agents-flex",
     "apache/camel",
     "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
+    "apache/pdfbox",
     "apache/poi",
     "besu-eth/besu",
     "codelibs/fess",
@@ -32,7 +34,10 @@
     "oshi/oshi",
     "peergos/peergos",
     "rabbitmq/rabbitmq-tutorials",
+    "raphw/byte-buddy",
     "soot-oss/soot",
-    "spotbugs/spotbugs"
+    "spotbugs/spotbugs",
+    "spring-ai-alibaba/DataAgent",
+    "spring-ai-alibaba/examples"
   ]
 }

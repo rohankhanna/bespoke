@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 10,
-    "terms": 30
+    "components": 69,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 14,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
+    "baskeboler/clj-karaoke-lyrics",
     "haya14busa/github-used-by",
+    "hermit-os/hermit-gcc",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "SWE-bench/SWE-smith-envs",
     "tensorchord/VectorChord-images",
+    "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "zen-eth/multiformats-zig"
   ]
 }

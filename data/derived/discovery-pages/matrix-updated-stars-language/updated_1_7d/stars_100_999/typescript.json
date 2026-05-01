@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1381,
-    "concepts": 338,
-    "observations": 338,
-    "repos": 46,
-    "terms": 334
+    "components": 1479,
+    "concepts": 347,
+    "observations": 347,
+    "repos": 48,
+    "terms": 343
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "apollographql/federation",
     "astahmer/typed-openapi",
-    "aws-samples/swift-chat",
     "bitwarden/directory-connector",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
     "decentralized-identity/did-resolver",
-    "docker/bake-action",
     "electron-vite/vite-plugin-electron-renderer",
     "electron/packager",
     "flathub-infra/website",
+    "forcedotcom/code-analyzer",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
     "haskell/vscode-haskell",
@@ -35,6 +34,7 @@
     "jsonwebtoken/jsonwebtoken.github.io",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
+    "microsoft/ai-chat-protocol",
     "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
@@ -49,6 +49,7 @@
     "oxc-project/eslint-plugin-oxlint",
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
+    "rstackjs/storybook-rsbuild",
     "safe-fndn/safe-singleton-factory",
     "salesforcecli/cli",
     "sapphiredev/utilities",
@@ -56,9 +57,10 @@
     "smithy-lang/smithy-typescript",
     "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
+    "un-ts/prettier",
     "unjs/c12",
-    "unplugin/unplugin-imagemin",
     "web-infra-dev/rslib",
+    "web-infra-dev/rstest",
     "wevm/abitype"
   ]
 }

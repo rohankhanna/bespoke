@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 37,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 30,
-    "terms": 79
+    "concepts": 87,
+    "observations": 87,
+    "repos": 33,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
@@ -20,6 +20,7 @@
     "apache/incubator-tuweni",
     "arekinath/PivApplet",
     "atteo/classindex",
+    "Backblaze/JavaReedSolomon",
     "btkelly/gnag",
     "Byte-Lab/JCoz",
     "carrot2/elasticsearch-carrot2",
@@ -35,6 +36,7 @@
     "googleapis/gapic-generator",
     "howiehu/ddd-architecture-samples",
     "iTXTech/mirai-console-loader",
+    "jmockit/jmockit1",
     "julienledem/redelm",
     "krasa/EclipseCodeFormatter",
     "ksuid/ksuid",
@@ -43,6 +45,7 @@
     "rpcx-ecosystem/rpcx-benchmark",
     "snapcast/snapdroid",
     "timgifford/maven-buildtime-extension",
-    "trustin/os-maven-plugin"
+    "trustin/os-maven-plugin",
+    "ymnk/jzlib"
   ]
 }

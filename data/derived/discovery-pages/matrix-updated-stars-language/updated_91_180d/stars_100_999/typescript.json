@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 524,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 18,
-    "terms": 97
+    "components": 586,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 21,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "adaltas/node-http-status",
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
     "Anush008/fastembed-js",
@@ -28,8 +29,10 @@
     "morrys/react-relay-offline",
     "nanbingxyz/mcpsvr",
     "posthtml/posthtml-parser",
+    "PrismLibrary/Prism-Documentation",
     "scopecraft/command",
     "snapcast/snapweb",
+    "TanStack/ranger",
     "tevonsb/homeassistant-mcp",
     "uni-helper/uni-network"
   ]

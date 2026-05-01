@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 71,
-    "observations": 71,
+    "components": 117,
+    "concepts": 74,
+    "observations": 74,
     "repos": 16,
-    "terms": 71
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
-    "aquasecurity/trivy-java-db",
     "bitrise-io/stepman",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bpm-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
+    "cloudfoundry/credhub-cli",
     "dianlight/gollama.cpp",
     "EngFlow/gazelle_cc",
     "ipfs/ipfs-check",

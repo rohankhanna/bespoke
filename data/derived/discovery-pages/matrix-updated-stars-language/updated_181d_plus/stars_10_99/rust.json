@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 269,
-    "observations": 271,
-    "repos": 115,
-    "terms": 263
+    "components": 339,
+    "concepts": 285,
+    "observations": 287,
+    "repos": 120,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
+    "adamgreig/jtagdap",
     "AdnoC/sixel-rs",
     "AdnoC/sixel-sys",
     "aloucks/spng-rs",
+    "andreivasiliu/cybersub",
     "apache/casbin-rust-actix-casbin",
     "argmin-rs/modcholesky",
     "arkworks-rs/gm17",
@@ -119,15 +121,18 @@
     "rkyv/rancor",
     "rust-bitcoin/rust-bitcoind-json-rpc",
     "rust-embedded/msp430",
+    "rust-embedded/volatile-register",
     "rust3ds/pthread-3ds",
     "SabakiHQ/deadstones",
     "sayanarijit/jf",
     "sonhal/wasm-oauth-filter",
     "stainless-steel/md5",
     "tari-project/randomx-rs",
+    "tensorchord/pg_tokenizer.rs",
     "udoprog/codeviz",
     "UnstoppableSwap/wallet",
     "vladkens/badges",
-    "webassemblylabs/wasm-workers-server"
+    "webassemblylabs/wasm-workers-server",
+    "zakarumych/sierra"
   ]
 }

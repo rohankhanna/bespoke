@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1849,
-    "concepts": 339,
-    "observations": 339,
-    "repos": 58,
-    "terms": 369
+    "components": 1837,
+    "concepts": 378,
+    "observations": 378,
+    "repos": 59,
+    "terms": 408
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
     "anthropics/claude-code-base-action",
     "astral-sh/ruff-action",
+    "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
     "Azure/cli",
     "Azure/login",
@@ -25,10 +26,10 @@
     "blrchen/chatgpt-lite",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
-    "curiousdannii/parchment",
+    "connectrpc/examples-es",
     "decentralized-identity/did-jwt",
     "DeterminateSystems/nix-installer-action",
-    "devcontainers/ci",
+    "docker/bake-action",
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",

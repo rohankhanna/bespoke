@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 23,
-    "terms": 55
+    "components": 50,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 20,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
@@ -30,11 +30,8 @@
     "ipfs-examples/github-mgmt",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",
-    "nodenv/node-build-prerelease",
-    "regro/cf-graph-countyfair",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
-    "Strivin0311/strivin0311.github.io",
-    "TransferQueue/community_doc"
+    "Strivin0311/strivin0311.github.io"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 93,
+    "components": 95,
     "concepts": 112,
     "observations": 113,
-    "repos": 31,
+    "repos": 33,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
@@ -27,6 +27,7 @@
     "Computer-use-agents/dart-gui",
     "cuiziteng/Luminance-GS",
     "Embarcadero/PythonEnvironments",
+    "enjoy-digital/liteiclink",
     "fla-org/flash-bidirectional-linear-attention",
     "galaxyproject/tools-devteam",
     "googlefonts/lang",
@@ -38,6 +39,7 @@
     "Lizw14/Super-CLEVR",
     "mohammadtavakoli78/beam",
     "shawn0728/ARES",
+    "SLDGroup/LoMix",
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
     "wamp-proto/wamp-xbr",

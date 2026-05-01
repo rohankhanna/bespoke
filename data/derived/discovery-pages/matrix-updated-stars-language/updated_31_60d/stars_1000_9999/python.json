@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 381,
-    "observations": 381,
-    "repos": 67,
-    "terms": 381
+    "components": 280,
+    "concepts": 423,
+    "observations": 423,
+    "repos": 71,
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "AgentOps-AI/agentops",
     "anapnoe/stable-diffusion-webui-ux",
     "ApeWorX/ape",
     "arcee-ai/mergekit",
     "astanin/python-tabulate",
+    "atlassian-api/atlassian-python-api",
+    "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
     "belluzj/fantasque-sans",
     "black-forest-labs/flux2",
@@ -61,6 +64,7 @@
     "OpenGVLab/InternVideo",
     "pdfminer/pdfminer.six",
     "PyCQA/flake8-bugbear",
+    "Pylons/pyramid",
     "pytest-dev/pytest-cov",
     "python-semantic-release/python-semantic-release",
     "randy3k/radian",

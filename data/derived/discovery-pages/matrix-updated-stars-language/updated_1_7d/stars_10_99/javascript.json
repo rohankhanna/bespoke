@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 16,
-    "terms": 51
+    "components": 212,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 17,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "apollographql/connectors-community",
@@ -24,6 +24,7 @@
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
+    "npm/package-json",
     "oclif/oclif.github.io",
     "octokit/create-octokit-project.js",
     "r-lyeh/gamebook",

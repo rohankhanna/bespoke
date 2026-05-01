@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 43,
-    "observations": 43,
+    "components": 93,
+    "concepts": 48,
+    "observations": 48,
     "repos": 27,
-    "terms": 60
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -26,6 +26,7 @@
     "conda-forge/threadpoolctl-feedstock",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
+    "flagos-ai/TransformerEngine-FL",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
@@ -34,7 +35,6 @@
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
-    "piqrypt/piqrypt",
     "pyrtlsdr/pyrtlsdrlib",
     "rrsaldanha/burp-mcp-agents",
     "sunthinks/kvmind",

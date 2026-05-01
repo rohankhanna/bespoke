@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 8,
+    "components": 14,
     "concepts": 24,
     "observations": 24,
-    "repos": 1,
+    "repos": 3,
     "terms": 24
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "hazelcast/hazelcast-cpp-client"
+    "facebook/fb303",
+    "jwindgassen/UnrealYAML",
+    "oneapi-src/unified-memory-framework"
   ]
 }

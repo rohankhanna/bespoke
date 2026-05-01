@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 19,
-    "terms": 96
+    "components": 113,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 21,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
+    "Anush008/tokenizers",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "celestiaorg/hana",
     "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
+    "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 38,
-    "terms": 157
+    "components": 130,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 40,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "andreasdr/tdme2",
     "antonypro/QGoodWindow",
@@ -32,6 +32,7 @@
     "erkyrath/glulxe",
     "gpustack/llama-box",
     "Imagick/imagick",
+    "Improbable-AI/VisionProTeleop",
     "ingonyama-zk/icicle",
     "intel/isa-l_crypto",
     "intel/torch-ccl",
@@ -48,6 +49,7 @@
     "nihui/ncnn-android-scrfd",
     "osvenskan/posix_ipc",
     "ParRes/Kernels",
+    "pganalyze/pg_query",
     "pmwkaa/ioarena",
     "powervr-graphics/Native_SDK",
     "swigger/wechat-ocr",

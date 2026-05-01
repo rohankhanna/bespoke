@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 139,
-    "observations": 139,
-    "repos": 38,
-    "terms": 148
+    "components": 285,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 43,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -20,6 +20,8 @@
     "amazon-ion/ion-cli",
     "andelf/axcli",
     "andelf/picc",
+    "ankane/delta-ruby",
+    "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
@@ -39,6 +41,9 @@
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
+    "holochain/holochain-serialization",
+    "holochain/holochain-wasmer",
+    "hpkewg/hpke-pq",
     "janrueth/boring-rustls-provider",
     "major7apps/pensyve",
     "multiformats/rust-cid",

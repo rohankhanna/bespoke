@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 40,
-    "terms": 201
+    "components": 129,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 44,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -28,6 +28,7 @@
     "douglascrockford/JSMin",
     "eliemichel/LearnWebGPU",
     "eyalz800/zpp_bits",
+    "frankmorgner/vsmartcard",
     "freebsd/atf",
     "fujitsu/xbyak_aarch64",
     "google/kmsan",
@@ -35,6 +36,7 @@
     "KhronosGroup/OpenCL-Headers",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
+    "lexxmark/winflexbison",
     "lualanes/lanes",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
@@ -48,9 +50,11 @@
     "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",
     "rusty1s/pytorch_cluster",
+    "sheredom/ubench.h",
     "stardot/beebasm",
     "Tomas-M/iotop",
     "uxlfoundation/oneMath",
+    "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "webgpu-native/webgpu-headers",
     "websockets/bufferutil"

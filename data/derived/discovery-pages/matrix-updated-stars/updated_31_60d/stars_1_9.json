@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 298,
-    "observations": 298,
-    "repos": 109,
-    "terms": 293
+    "components": 495,
+    "concepts": 321,
+    "observations": 321,
+    "repos": 115,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
+    "10up/.github",
     "42-evey/evey-bridge-plugin",
     "a16z/arkworks-algebra",
     "aaronrsun/spec-kit-checkpoint",
@@ -79,7 +80,9 @@
     "flagos-ai/llvm-project",
     "flinedev/customstatusline",
     "flinedev/recall",
-    "hermit-os/hermit-gcc",
+    "forcedotcom/dev-config",
+    "guoqingbao/flashattn.rs",
+    "hchiam/learning-template",
     "intel/iefs-kernel-updates",
     "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
@@ -89,6 +92,7 @@
     "ldayton/parable",
     "ldayton/Tongues",
     "Level/read-stream",
+    "Level/supports",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "llvm/torch-mlir-release",
     "lucabubi/star-history",
@@ -118,9 +122,11 @@
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "sparklabutah/timewarp",
+    "vectordotdev/heim",
     "vega/.github",
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "WebAssembly/compact-import-section",
+    "yoshoku/numo-libsvm",
     "zkcrypto/rfcs"
   ]
 }

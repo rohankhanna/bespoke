@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 19,
-    "terms": 86
+    "components": 154,
+    "concepts": 85,
+    "observations": 86,
+    "repos": 20,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
@@ -21,6 +21,7 @@
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "crate-ci/imperative",
+    "google/safe-mmio",
     "hagan/claudia-statusline",
     "idanarye/nu_plugin_skim",
     "Kimahriman/hdfs-native",

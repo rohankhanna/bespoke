@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 139,
-    "observations": 141,
+    "components": 290,
+    "concepts": 144,
+    "observations": 146,
     "repos": 42,
-    "terms": 155
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AFD-Illinois/pyharm",
     "AI-Hypercomputer/pathways-utils",
@@ -34,6 +34,7 @@
     "DeterminateSystems/determinate-nix-action",
     "ethstaker/ethstaker-deposit-cli",
     "GaloisInc/BLST-Verification",
+    "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "jxpress/lightning-hydra-template-vertex-ai",
     "Looong01/pyg-rocm-build",
@@ -41,7 +42,6 @@
     "meta-pytorch/MSLK",
     "metatensor/metatensor",
     "ModelCloud/Evalution",
-    "mypyc/mypyc-benchmarks",
     "notofonts/notobuilder",
     "OpenHands/benchmarks",
     "optuna/optuna-integration",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 442,
-    "observations": 442,
-    "repos": 99,
-    "terms": 443
+    "components": 216,
+    "concepts": 453,
+    "observations": 453,
+    "repos": 105,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -27,6 +27,8 @@
     "asdine/storm",
     "attic-labs/noms",
     "aws/aws-sdk-go",
+    "bitly/go-simplejson",
+    "blushft/go-diagrams",
     "bmizerany/pat",
     "bosun-monitor/bosun",
     "bsm/redislock",
@@ -67,6 +69,7 @@
     "h2non/gentleman",
     "igrigorik/ga-beacon",
     "jaegertracing/jaeger-client-go",
+    "Jeffail/gabs",
     "jsha/minica",
     "julienschmidt/go-http-routing-benchmark",
     "justinas/alice",
@@ -102,10 +105,13 @@
     "sorintlab/stolon",
     "streadway/amqp",
     "superedge/superedge",
+    "syndtr/goleveldb",
     "tidwall/evio",
     "tidwall/redcon",
+    "ugorji/go",
     "urfave/negroni",
     "uswitch/kiam",
+    "valyala/quicktemplate",
     "vmihailenco/msgpack",
     "vmihailenco/taskq",
     "vulcand/vulcand",

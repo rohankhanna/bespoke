@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 54,
-    "terms": 194
+    "components": 245,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 61,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
+    "0x2a-42/nvim-lelwel",
     "0xPolygonHermez/pil2-compiler",
     "AchimPieters/esp32-udp-logger",
     "actions-oss/act-cli",
@@ -33,6 +35,7 @@
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
+    "baskeboler/clj-karaoke-lyrics",
     "birdofpreyru/js-utils",
     "coderaiser/escover",
     "Coral-Protocol/coral-rs",
@@ -46,7 +49,9 @@
     "filip26/titanium-rdf-n-quads",
     "flagos-ai/vllm-FL",
     "genius-harry/neural-chat",
+    "gost-dom/webref",
     "haya14busa/github-used-by",
+    "hermit-os/hermit-gcc",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jsdom/.github",
     "kornia/data",
@@ -54,6 +59,7 @@
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
+    "orlp/color-backtrace",
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
     "RobertBeckebans/DOOM-3",
@@ -65,6 +71,7 @@
     "tianon/fake-git",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
+    "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

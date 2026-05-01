@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 190,
-    "concepts": 190,
-    "observations": 193,
-    "repos": 39,
-    "terms": 188
+    "concepts": 195,
+    "observations": 198,
+    "repos": 42,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -25,10 +25,12 @@
     "cloudwu/ltask",
     "containers/conmon",
     "DavidKinder/Windows-Frotz",
+    "DolbyLaboratories/dlb_mp4base",
     "eddelbuettel/rcppsimdjson",
     "flavorjones/ruby-c-extensions-explained",
     "fribidi/fribidi",
     "ghostty-org/ghostling",
+    "GNOME/vte",
     "google-deepmind/reverb",
     "google/perf_data_converter",
     "heal-research/operon",
@@ -36,6 +38,7 @@
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
+    "llnl/CHAI",
     "microsoft/Tutel",
     "ml-explore/mlx-c",
     "mybigday/whisper.rn",

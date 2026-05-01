@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 864,
-    "concepts": 807,
-    "observations": 811,
+    "components": 849,
+    "concepts": 800,
+    "observations": 804,
     "repos": 71,
-    "terms": 797
+    "terms": 790
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
-    "1panel-dev/1panel",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
+    "Billionmail/BillionMail",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
     "charmbracelet/crush",
@@ -55,8 +55,8 @@
     "hashicorp/consul",
     "hashicorp/terraform",
     "hashicorp/vault",
+    "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "Jguer/yay",
     "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",

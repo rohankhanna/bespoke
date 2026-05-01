@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 294,
-    "observations": 297,
-    "repos": 49,
-    "terms": 291
+    "components": 422,
+    "concepts": 298,
+    "observations": 301,
+    "repos": 50,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
@@ -44,6 +44,7 @@
     "LukeMathWalker/cargo-chef",
     "mattsse/chromiumoxide",
     "mitsuhiko/similar",
+    "mozilla/sccache",
     "nabijaczleweli/cargo-update",
     "noib3/nvim-oxi",
     "not-fl3/miniquad",

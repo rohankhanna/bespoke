@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 44,
+    "components": 66,
     "concepts": 26,
     "observations": 26,
-    "repos": 17,
+    "repos": 18,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "ada-url/kotlin",
     "alstafeev/midscene-java",
     "azure/homebrew-bicep",
+    "bolasblack/BlogFront",
     "cloudfoundry/cf-smoke-tests-release",
     "diffblue/homebrew-cbmc",
     "dp111/6502timing",

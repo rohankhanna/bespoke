@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 108,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 45,
-    "terms": 112
+    "concepts": 111,
+    "observations": 111,
+    "repos": 51,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "akaihola/graylint",
+    "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
     "amaranth-lang/amaranth-stdio",
@@ -24,6 +25,7 @@
     "Azure/aaz-dev-tools",
     "bentoml/BentoLMDeploy",
     "biocypher/project-template",
+    "BoosterRobotics/booster_deploy",
     "cedricrupb/code_ast",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
     "Coobiw/IE-Critic-R1",
@@ -34,6 +36,7 @@
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",
     "ichard26/diff-shades",
+    "jhakulin/realtime-ai",
     "jhogsett/EMA-VFI-WebUI",
     "jin-s13/xtcocoapi",
     "Justintime50/homebrew-releaser",
@@ -51,11 +54,14 @@
     "robotools/ufo2fdk",
     "RUCAIBox/CIR",
     "SLDGroup/CASCADE",
+    "SLDGroup/EffiDec3D",
+    "SLDGroup/G-CASCADE",
     "SLDGroup/MERIT",
     "ssitu/ComfyUI_restart_sampling",
     "thunlp/BlockFFN",
     "tinted-theming/base24",
     "TransferQueue/TransferQueue",
+    "vis-nlp/ChartQAPro",
     "vllm-project/vllm-openvino",
     "vstinner/misc",
     "wirasm/dylan"

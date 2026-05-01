@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 7,
-    "terms": 92
+    "components": 145,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 9,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "DioxusLabs/dioxus",
     "oxc-project/oxc",
-    "quickwit-oss/quickwit",
-    "rolldown/rolldown",
+    "pola-rs/polars",
+    "quickwit-oss/tantivy",
+    "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
+    "tracel-ai/burn",
     "vectordotdev/vector"
   ]
 }

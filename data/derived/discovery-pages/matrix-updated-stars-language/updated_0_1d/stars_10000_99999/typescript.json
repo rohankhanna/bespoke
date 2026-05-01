@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 898,
-    "concepts": 196,
-    "observations": 199,
-    "repos": 11,
-    "terms": 205
+    "components": 1092,
+    "concepts": 226,
+    "observations": 228,
+    "repos": 15,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "aidenybai/react-scan",
     "ant-design/ant-design",
+    "appwrite/appwrite",
     "HumanSignal/label-studio",
-    "jhipster/generator-jhipster",
+    "jestjs/jest",
+    "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "openobserve/openobserve",
     "puppeteer/puppeteer",
+    "QwikDev/qwik",
     "remix-run/remix",
     "ruvnet/ruflo",
     "storybookjs/storybook",
     "TanStack/query",
-    "web-infra-dev/midscene"
+    "TanStack/router",
+    "webpro-nl/knip"
   ]
 }

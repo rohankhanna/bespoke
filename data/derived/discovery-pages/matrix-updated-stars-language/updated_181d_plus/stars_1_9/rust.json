@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 52,
-    "terms": 61
+    "components": 189,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 58,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "adambiltcliffe/macroquad-jfa",
+    "adamgreig/spi-flash-rs",
     "akavel/rumbac",
     "anza-xyz/curve25519-dalek",
     "apache/casbin-rust-actix-file-adapter-rbac",
@@ -21,6 +23,7 @@
     "apache/casbin-rust-actix-postgresql-simple",
     "apache/casbin-rust-axum-middleware-example",
     "artempyanykh/zeta-note",
+    "baehyunsol/Quoridor-rs",
     "boquila/.bq",
     "bwt-dev/libbwt",
     "ChillFish8/tantivy",
@@ -32,6 +35,7 @@
     "datafuse-extras/clickhouse_driver",
     "dathere/qsv-easy-windows-installer",
     "Dherse/comemo",
+    "EricLBuehler/range-checked",
     "EspressoSystems/atomicstore",
     "EspressoSystems/surf-disco",
     "franziskuskiefer/cose-rust",
@@ -46,6 +50,7 @@
     "Layr-Labs/bn254-bls-keystore-rs",
     "liushuyu/xdelta3-rs",
     "lnx-search/lnx-vfs",
+    "lucagoslar/serde-envfile",
     "madsim-rs/rust-postgres",
     "marwes/gluon",
     "mozilla/nss-gk-api",
@@ -61,6 +66,7 @@
     "s3bk/pathfinder_view",
     "s3bk/tuple",
     "spacemeshos/scrypt-jane-rs",
+    "tensorchord/rust-stemmers",
     "thomaseizinger/rust-jsonrpc-client",
     "tmpfs/tamp-rs",
     "valida-xyz/Plonky3",

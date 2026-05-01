@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 11,
-    "terms": 123
+    "components": 528,
+    "concepts": 170,
+    "observations": 171,
+    "repos": 15,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "argdown/argdown",
-    "conventional-changelog/conventional-changelog",
+    "cloudflare/workers-sdk",
+    "connectrpc/connect-es",
     "electron/rebuild",
+    "fern-api/fern",
     "graphql-hive/graphql-inspector",
     "hey-api/openapi-ts",
     "jest-community/jest-extended",
     "openlit/openlit",
     "podman-desktop/podman-desktop",
-    "r-lib/actions",
+    "remotion-dev/skills",
+    "TanStack/db",
     "Uniswap/v3-core",
+    "valtyr/prisma-kysely",
+    "webdriverio/webdriverio",
     "wundergraph/cosmo"
   ]
 }

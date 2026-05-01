@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 14,
-    "terms": 132
+    "components": 235,
+    "concepts": 313,
+    "observations": 313,
+    "repos": 25,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,32 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "AcademySoftwareFoundation/OpenImageIO",
+    "AdaptiveCpp/AdaptiveCpp",
     "autowarefoundation/autoware_universe",
+    "cdcseacave/openMVS",
+    "ckb-next/ckb-next",
     "eclipse-sumo/sumo",
     "facebook/fbthrift",
+    "facebook/wangle",
+    "facebookincubator/fizz",
     "haproxy/haproxy",
+    "harfbuzz/harfbuzz",
     "intel/pcm",
+    "KhronosGroup/KTX-Software",
     "Mithril-mine/libmdbx",
     "mruby/mruby",
-    "NetHack/NetHack",
-    "qt-creator/qt-creator",
-    "SchedMD/slurm",
+    "opensim-org/opensim-core",
+    "optiscaler/OptiScaler",
+    "realsenseai/librealsense",
     "swiftlang/swift-llbuild",
     "tianocore/edk2",
     "TrenchBroom/TrenchBroom",
-    "YosysHQ/nextpnr"
+    "ultrajson/ultrajson",
+    "uxlfoundation/oneDNN",
+    "uxlfoundation/oneTBB",
+    "xtensor-stack/xsimd"
   ]
 }

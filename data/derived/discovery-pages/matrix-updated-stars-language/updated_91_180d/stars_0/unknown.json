@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 15,
     "observations": 15,
-    "repos": 12,
+    "repos": 13,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
@@ -22,6 +22,7 @@
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
+    "danielrosehill/git-github-plugin",
     "Enselic/cargo-public-api",
     "kivikakk/cmark-gfm",
     "praw-dev/.github",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 12,
-    "terms": 14
+    "components": 35,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 13,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AdaCore/vss-extra",
     "b2agi/exist-is-charter",
@@ -23,6 +23,7 @@
     "firestryk/chatgpt-website.github.io",
     "genuslovoacalixtusiii510/ytp-2026",
     "markoswire/remember-me.ai",
+    "regro/cf-graph-countyfair",
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",
     "wblondel/blog"

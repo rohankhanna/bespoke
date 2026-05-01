@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 16,
-    "terms": 114
+    "components": 124,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 11,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "90-008/nix-cargo-integration",
     "actions/python-versions",
     "danielrosehill/Claude-Code-Projects-Index",
-    "day8/re-frame-10x",
-    "day8/re-frame-template",
+    "erlef/rebar3_hex",
     "hazelcast/hazelcast-csharp-client",
-    "igraph/rigraph",
+    "jackielii/skhd.zig",
     "JuliaPackaging/BinaryBuilder.jl",
     "JuliaPackaging/Yggdrasil",
-    "JuliaRegistries/General",
     "LogtalkDotOrg/logtalk3",
-    "microsoft/binskim",
-    "nim-lang/langserver",
-    "open-telemetry/opentelemetry-erlang-contrib",
-    "php/doc-en",
+    "microsoft/Oryx",
+    "moyangzhan/langchain4j-aideepin-web",
     "SonarSource/sonarlint-intellij"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 27,
-    "terms": 104
+    "components": 175,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 29,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
+    "apache/pulsar-client-cpp",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
     "DavidKinder/Windows-Inform7",
@@ -29,6 +30,7 @@
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
+    "milvus-io/milvus-sdk-cpp",
     "mitsuba-renderer/nanothread",
     "mybigday/llama.node",
     "nx10/unigd",

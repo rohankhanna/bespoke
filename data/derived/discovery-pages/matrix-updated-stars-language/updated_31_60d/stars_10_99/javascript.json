@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 13,
-    "terms": 38
+    "components": 155,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 18,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "10up/action-repo-automator",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
     "angular/domino",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
+    "csstree/stylelint-validator",
+    "eemeli/prettier-plugin-properties",
     "haskell-actions/run-fourmolu",
     "hipster-labs/jhipster-daily-builds",
     "Jack-Works/react-refresh-transformer",
+    "kddnewton/prettier-plugin-ini",
     "nodejs/email",
+    "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",
     "tc39/proposal-immutable-arraybuffer"

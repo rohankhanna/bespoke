@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 23,
-    "terms": 110
+    "components": 150,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 26,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "adafruit/Adafruit_NeoPixel",
     "akheron/jansson",
     "brandur/redis-cell",
+    "cocos/cocos-engine",
     "emersion/slurp",
     "flashlight/flashlight",
     "hpjansson/chafa",
@@ -30,12 +31,14 @@
     "mitsuba-renderer/nanogui",
     "OpenNMT/CTranslate2",
     "pganalyze/libpg_query",
+    "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
     "sammycage/lunasvg",
     "svenstaro/rofi-calc",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
+    "ulfjack/ryu",
     "VirusTotal/yara"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 79,
+    "components": 85,
     "concepts": 69,
     "observations": 69,
-    "repos": 15,
+    "repos": 16,
     "terms": 68
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
+    "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
     "barak/minidjvu",

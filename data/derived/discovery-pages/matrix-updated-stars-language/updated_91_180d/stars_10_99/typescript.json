@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 9,
-    "terms": 26
+    "components": 383,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 12,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "atom-yang/aumi",
     "connectrpc/connect-playwright-es",
     "CyanSalt/commas",
     "dylibso/xtp-bindgen",
+    "holochain/launcher",
     "iccicci/next-json",
     "ipfs/helia-http-gateway",
+    "janwilmake/oapis",
     "redhat-developer/vscode-redhat-telemetry",
     "rose-pine/rose-pine-palette",
     "sculptdotfun/viberank",

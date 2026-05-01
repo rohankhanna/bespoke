@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 90,
-    "observations": 93,
-    "repos": 22,
-    "terms": 90
+    "components": 119,
+    "concepts": 94,
+    "observations": 97,
+    "repos": 24,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "AFLplusplus/cov-analysis",
     "apache/arrow-testing",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
+    "Azure/aaz",
     "bitnami/vulndb",
     "cloudfoundry/jumpbox-deployment",
     "confluentinc/cp-demo",
     "containers/automation_images",
     "cri-o/packaging",
     "dependabot/smoke-tests",
+    "envoyproxy/examples",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "iterate-ch/profiles",

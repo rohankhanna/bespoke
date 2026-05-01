@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 759,
-    "concepts": 178,
-    "observations": 178,
-    "repos": 37,
-    "terms": 201
+    "components": 865,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 42,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "43081j/picoquery",
+    "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
@@ -23,6 +25,8 @@
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "clangd/vscode-clangd",
+    "curiousdannii/parchment",
+    "devcontainers/ci",
     "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",
     "evmts/tevm-monorepo",
@@ -35,6 +39,7 @@
     "hazelcast/hazelcast-nodejs-client",
     "jgm/djot.js",
     "juliangruber/brace-expansion",
+    "jupyterlab/extension-examples",
     "k-dense-ai/k-dense-byok",
     "krassowski/jupyterlab-lsp",
     "lewislulu/llm-wiki-skill",
@@ -42,6 +47,7 @@
     "lucasastorian/llmwiki",
     "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
+    "microsoft/vscode-css-languageservice",
     "nashaofu/screenshots",
     "neolabhq/context-engineering-kit",
     "NVIDIA/OpenShell-Community",
@@ -49,7 +55,6 @@
     "snipeship/ccflare",
     "timkindberg/jest-when",
     "vega/vega-embed",
-    "webextension-toolbox/webextension-toolbox",
-    "y-lohse/inkjs"
+    "webextension-toolbox/webextension-toolbox"
   ]
 }

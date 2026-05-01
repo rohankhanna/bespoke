@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 340,
-    "observations": 342,
-    "repos": 29,
-    "terms": 336
+    "components": 195,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 27,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/brpc",
-    "arangodb/arangodb",
     "asmvik/yabai",
     "baldurk/renderdoc",
     "cameron314/concurrentqueue",
+    "carla-simulator/carla",
     "catchorg/Catch2",
     "citusdata/citus",
     "colmap/colmap",
     "dmlc/xgboost",
     "FFmpeg/FFmpeg",
-    "ggml-org/ggml",
-    "google/filament",
-    "grpc/grpc",
+    "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
     "isl-org/Open3D",
@@ -35,13 +33,13 @@
     "k2-fsa/sherpa-onnx",
     "libuv/libuv",
     "lightgbm-org/LightGBM",
-    "microsoft/STL",
     "mongodb/mongo",
     "oceanbase/oceanbase",
+    "opencv/opencv",
     "openframeworks/openFrameworks",
-    "PaddlePaddle/Paddle",
     "simdjson/simdjson",
     "swaywm/sway",
+    "v8/v8",
     "yhirose/cpp-httplib"
   ]
 }

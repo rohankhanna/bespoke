@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 70,
-    "observations": 71,
+    "components": 77,
+    "concepts": 69,
+    "observations": 70,
     "repos": 20,
-    "terms": 69
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "charmbracelet/scoop-bucket",
@@ -22,7 +22,6 @@
     "docker/github-builder",
     "goharbor/community",
     "google/oss-policies-info",
-    "Homebrew/.github",
     "mypyc/mypyc-benchmark-results",
     "pre-commit/mirrors-eslint",
     "qemus/virtiso-whql",
@@ -30,6 +29,7 @@
     "rstackjs/rstack-design-resources",
     "sigstore/community",
     "simonw/simonwillisonblog-backup",
+    "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "w3c/accname",

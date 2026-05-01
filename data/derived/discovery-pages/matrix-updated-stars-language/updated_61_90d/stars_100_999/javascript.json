@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 11,
-    "terms": 43
+    "components": 174,
+    "concepts": 46,
+    "observations": 47,
+    "repos": 13,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
@@ -23,6 +24,7 @@
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
+    "runegan/jsxbin",
     "sindresorhus/multimatch",
     "svg-sprite/gulp-svg-sprite"
   ]

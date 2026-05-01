@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 20,
     "observations": 20,
-    "repos": 3,
+    "repos": 4,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
     "caprica/vlcj",
     "jtablesaw/tablesaw"

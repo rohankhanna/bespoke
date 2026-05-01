@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 786,
-    "concepts": 526,
-    "observations": 529,
-    "repos": 85,
-    "terms": 534
+    "components": 825,
+    "concepts": 550,
+    "observations": 553,
+    "repos": 93,
+    "terms": 560
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "3b1b/videos",
     "abhisheknaiidu/awesome-github-profile-readme",
     "alibaba/Sentinel",
+    "allenai/olmocr",
     "AndyMik90/Aperant",
     "anuraghazra/github-readme-stats",
     "aria2/aria2",
@@ -23,6 +24,7 @@
     "bellard/quickjs",
     "chriskiehl/Gooey",
     "chromedp/chromedp",
+    "cloudwu/skynet",
     "CocoaPods/CocoaPods",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
@@ -30,11 +32,14 @@
     "datawhalechina/happy-llm",
     "deepinsight/insightface",
     "direnv/direnv",
+    "enaqx/awesome-react",
     "encode/httpx",
+    "esp8266/Arduino",
     "explosion/spaCy",
     "eyaltoledano/claude-task-master",
     "facebookresearch/audiocraft",
     "facebookresearch/dinov3",
+    "facebookresearch/vggt",
     "fatih/vim-go",
     "FunAudioLLM/CosyVoice",
     "github-linguist/linguist",
@@ -44,8 +49,10 @@
     "google/dopamine",
     "google/googletest",
     "google/leveldb",
+    "google/python-fire",
     "GoogleChromeLabs/squoosh",
     "guzzle/guzzle",
+    "hapijs/joi",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "hyperium/hyper",
@@ -97,6 +104,7 @@
     "videojs/video.js",
     "vuejs/awesome-vue",
     "Wan-Video/Wan2.1",
+    "Wan-Video/Wan2.2",
     "websockets/ws"
   ]
 }

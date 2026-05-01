@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 299,
-    "observations": 302,
-    "repos": 119,
-    "terms": 295
+    "components": 310,
+    "concepts": 313,
+    "observations": 316,
+    "repos": 125,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -47,6 +47,7 @@
     "chenghonour/formulago",
     "ChrisHirsch/kuberhealthy-storage-check",
     "chrismellard/docker-credential-acr-env",
+    "cisco/go-hpke",
     "ClickHouse/ch-bench",
     "cloudfoundry/auction",
     "cloudwego/gjson",
@@ -83,7 +84,9 @@
     "google/gnostic-go-generator",
     "hertz-contrib/casbin",
     "high-moctane/nextword",
+    "hinshun/vt10x",
     "imkira/go-loggers-bench",
+    "InftyAI/scheduler-plugins",
     "input-output-hk/cicero",
     "ipfs-shipyard/nopfs",
     "ipfs/fs-repo-migrations",
@@ -116,9 +119,12 @@
     "rpcxio/rpcx-benchmark",
     "rueian/rueidis-benchmark",
     "seasonjs/rwkv",
+    "sh1ma/voicevoxcore.go",
+    "someone1/gcp-jwt-go",
     "spacemeshos/smrepl",
     "spazzymoto/echo-scs-session",
     "srinathgs/mysqlstore",
+    "stripe/goproxy",
     "superedge/edgeadm",
     "tc-hib/winres",
     "thetirefire/badidea",

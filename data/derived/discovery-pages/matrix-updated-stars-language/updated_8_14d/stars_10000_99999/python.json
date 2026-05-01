@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1385,
-    "concepts": 1155,
-    "observations": 1156,
-    "repos": 106,
-    "terms": 1184
+    "concepts": 1134,
+    "observations": 1135,
+    "repos": 105,
+    "terms": 1163
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "1panel-dev/maxkb",
     "3b1b/manim",
     "567-labs/instructor",
     "agentskills/agentskills",
@@ -32,7 +31,6 @@
     "BlinkDL/RWKV-LM",
     "browser-use/browser-use",
     "camel-ai/camel",
-    "camel-ai/owl",
     "caronc/apprise",
     "celery/celery",
     "Chia-Network/chia-blockchain",
@@ -60,6 +58,7 @@
     "google/adk-python",
     "gradio-app/gradio",
     "hesreallyhim/awesome-claude-code",
+    "HKUDS/LightRAG",
     "home-assistant/core",
     "huggingface/datasets",
     "huggingface/diffusers",
@@ -80,6 +79,7 @@
     "nginx-proxy/nginx-proxy",
     "nodejs/node-gyp",
     "numba/numba",
+    "numpy/numpy",
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",
@@ -102,7 +102,6 @@
     "python/mypy",
     "pytorch/pytorch",
     "pytorch/vision",
-    "qubvel-org/segmentation_models.pytorch",
     "ranger/ranger",
     "ray-project/ray",
     "searxng/searxng",

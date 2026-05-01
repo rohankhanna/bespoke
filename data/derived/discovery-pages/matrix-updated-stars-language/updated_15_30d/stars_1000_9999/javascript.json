@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 29,
-    "terms": 146
+    "components": 745,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 32,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -21,6 +21,7 @@
     "asciinema/asciinema-player",
     "bcoe/c8",
     "codemirror/dev",
+    "ecomfe/echarts-gl",
     "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
     "gatsbyjs/gatsby-starter-blog",
@@ -30,6 +31,7 @@
     "GoogleChromeLabs/ProjectVisBug",
     "igorshubovych/markdownlint-cli",
     "istanbuljs/istanbuljs",
+    "jshttp/mime-types",
     "kpdecker/jsdiff",
     "Level/level",
     "npm/node-semver",
@@ -40,6 +42,7 @@
     "sindresorhus/hyper-snazzy",
     "tc39/agendas",
     "webpack/postcss-loader",
+    "webpack/sass-loader",
     "webtorrent/webtorrent-cli",
     "yeoman/yo",
     "ykdojo/claude-code-tips"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 27,
-    "terms": 140
+    "components": 70,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 29,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alibaba/compileflow",
     "apache/rocketmq-externals",
@@ -25,6 +25,7 @@
     "featurecat/lizzie",
     "gchq/Gaffer",
     "hazelcast/hazelcast-jet",
+    "JakeWharton/ThreeTenABP",
     "knowm/XChart",
     "LaurieWired/GhidraMCP",
     "MineDojo/MineDojo",
@@ -34,6 +35,7 @@
     "phodal/migration",
     "pytorch/serve",
     "remkop/picocli",
+    "ronmamo/reflections",
     "SpencerPark/IJava",
     "tabulapdf/tabula-java",
     "Teradata/kylo",

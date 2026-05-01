@@ -3,7 +3,7 @@
     "components": 57,
     "concepts": 33,
     "observations": 33,
-    "repos": 25,
+    "repos": 27,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -24,6 +24,8 @@
     "erwin-kok/multiformat",
     "evoskuil/visual-studio-template",
     "haskell-compat/base-orphans",
+    "hden/cuid",
+    "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
     "infiniflow/resource",
     "julianrubisch/pronto-standardrb",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 173,
-    "observations": 173,
+    "components": 251,
+    "concepts": 177,
+    "observations": 177,
     "repos": 13,
-    "terms": 173
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "cloudflare/cloudflared",
-    "cockroachdb/cockroach",
-    "dagger/dagger",
+    "gastownhall/beads",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
+    "gravitational/teleport",
     "moby/moby",
     "mudler/LocalAI",
     "navidrome/navidrome",
-    "pingcap/tidb",
+    "pulumi/pulumi",
     "QuantumNous/new-api",
     "rclone/rclone",
     "redis/go-redis",

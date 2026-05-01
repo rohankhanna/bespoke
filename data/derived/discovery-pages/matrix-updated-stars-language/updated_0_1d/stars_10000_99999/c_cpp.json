@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 9,
-    "terms": 111
+    "components": 163,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 14,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
+    "apache/thrift",
     "argotorg/solidity",
-    "carla-simulator/carla",
+    "bpftrace/bpftrace",
+    "dcloudio/uni-app",
+    "espressif/arduino-esp32",
+    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "google-ai-edge/mediapipe",
     "google-deepmind/mujoco",
-    "opencv/opencv",
+    "jemalloc/jemalloc",
+    "LostRuins/koboldcpp",
     "protocolbuffers/protobuf",
-    "v8/v8",
+    "SerenityOS/serenity",
     "winsiderss/systeminformer"
   ]
 }

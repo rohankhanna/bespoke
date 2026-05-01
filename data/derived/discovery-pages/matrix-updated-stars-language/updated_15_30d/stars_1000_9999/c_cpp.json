@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 265,
-    "observations": 268,
-    "repos": 45,
-    "terms": 264
+    "components": 239,
+    "concepts": 303,
+    "observations": 306,
+    "repos": 48,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "ada-url/ada",
     "AFLplusplus/AFLplusplus",
@@ -30,6 +30,7 @@
     "google/woff2",
     "h2o/picohttpparser",
     "intel/isa-l",
+    "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",
     "lh3/minimap2",
     "libbpf/libbpf",
@@ -41,6 +42,7 @@
     "ml-explore/mlx-swift",
     "nigels-com/glew",
     "nihui/opencv-mobile",
+    "nihui/waifu2x-ncnn-vulkan",
     "NVIDIA/libnvidia-container",
     "OHF-Voice/piper1-gpl",
     "olikraus/u8g2",
@@ -48,6 +50,7 @@
     "posva/catimg",
     "risc0/risc0",
     "riscv-software-src/opensbi",
+    "ROCm/hip",
     "SarahWeiii/CoACD",
     "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",

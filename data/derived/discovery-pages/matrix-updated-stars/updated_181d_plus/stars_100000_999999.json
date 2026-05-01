@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 5,
-    "terms": 21
+    "components": 74,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 6,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "996icu/996.ICU",
     "deepseek-ai/DeepSeek-V3",
     "facebook/create-react-app",
     "jlevy/the-art-of-command-line",
-    "justjavac/free-programming-books-zh_CN"
+    "justjavac/free-programming-books-zh_CN",
+    "vuejs/vue"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 30,
-    "terms": 201
+    "components": 261,
+    "concepts": 222,
+    "observations": 222,
+    "repos": 31,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
+    "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "Azure/azure-dev",
@@ -23,7 +24,6 @@
     "boj/redistore",
     "buildpacks/lifecycle",
     "ClickHouse/ch-go",
-    "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
@@ -33,6 +33,7 @@
     "fnproject/cli",
     "go-logr/zapr",
     "go-openapi/strfmt",
+    "hybridgroup/yzma",
     "ipfs/boxo",
     "ipfs/rainbow",
     "kubernetes-sigs/dra-driver-nvidia-gpu",

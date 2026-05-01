@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 100,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 8,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
+    "Freed-Wu/coc-write-good",
     "kong/proxy-wasm-assemblyscript-rate-limiting",
     "mgr0dzicki/cargo-semver-checks-action",
+    "probe-lab/github-mgmt",
+    "threesigmaxyz/filplus-allocator-bot",
     "vim-fall/deno-fall-core"
   ]
 }

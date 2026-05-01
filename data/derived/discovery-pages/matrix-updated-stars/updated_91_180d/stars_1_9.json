@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 185,
-    "observations": 186,
-    "repos": 114,
-    "terms": 197
+    "components": 383,
+    "concepts": 191,
+    "observations": 193,
+    "repos": 120,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "3swordman/tree-sitter-toon",
@@ -41,6 +41,7 @@
     "b-data/docker-deployment-jupyter",
     "Bioconductor/bioc2u",
     "biocypher/collectri",
+    "bizflycloud/karpenter-provider-bizflycloud",
     "blooper05/action-rails_best_practices",
     "buttercannfly/AIPex",
     "ca-ruz/bumpit",
@@ -61,8 +62,12 @@
     "deiga/nodenv-default-npmrc",
     "erwin-kok/multiformat",
     "evoskuil/visual-studio-template",
+    "gajus/eslint-plugin-slonik",
+    "guoqingbao/rustchatui",
     "hashberg-io/typing-validation",
     "haskell-compat/base-orphans",
+    "hden/cuid",
+    "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
     "hermit-os/binutils",
     "hermit-os/gcc",
@@ -70,6 +75,7 @@
     "heyoeyo/toadui",
     "infiniflow/resource",
     "IWANABETHATGUY/l-lang",
+    "jgburet/asdf-dotenvx",
     "julianrubisch/pronto-standardrb",
     "karpeleslab/tpl",
     "kojix2/ruby-edlib",

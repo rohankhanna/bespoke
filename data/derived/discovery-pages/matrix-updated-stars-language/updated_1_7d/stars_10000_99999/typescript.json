@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1804,
-    "concepts": 432,
-    "observations": 432,
-    "repos": 38,
-    "terms": 432
+    "components": 1959,
+    "concepts": 534,
+    "observations": 535,
+    "repos": 44,
+    "terms": 534
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -22,7 +22,6 @@
     "appium/appium",
     "aws/aws-cdk",
     "better-auth/better-auth",
-    "bitwarden/clients",
     "bokeh/bokeh",
     "bytedance/UI-TARS-desktop",
     "cheeriojs/cheerio",
@@ -36,14 +35,20 @@
     "GoogleChromeLabs/comlink",
     "invoke-ai/InvokeAI",
     "janhq/jan",
+    "jhipster/generator-jhipster",
     "jquense/yup",
     "Kong/insomnia",
-    "langchain-ai/langchainjs",
+    "kysely-org/kysely",
     "marmelab/react-admin",
     "mermaid-js/mermaid",
     "mongodb/node-mongodb-native",
+    "oblador/react-native-vector-icons",
+    "openobserve/openobserve",
     "paulmillr/chokidar",
+    "pmndrs/react-three-fiber",
+    "pmndrs/zustand",
     "postcss/postcss",
+    "prisma/prisma",
     "remix-run/react-router",
     "scalar/scalar",
     "sindresorhus/type-fest",
@@ -51,6 +56,7 @@
     "unocss/unocss",
     "vercel-labs/skills",
     "vitest-dev/vitest",
+    "web-infra-dev/midscene",
     "wojtekmaj/react-pdf"
   ]
 }

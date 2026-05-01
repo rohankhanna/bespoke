@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 213,
+    "components": 202,
     "concepts": 83,
     "observations": 83,
     "repos": 12,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "dreamscached/i18next-cli-plugin-svelte",
@@ -25,6 +25,6 @@
     "oclif/plugin-commands",
     "oclif/plugin-search",
     "octokit/auth-callback.js",
-    "rstackjs/rsbuild-plugin-i18next-extractor"
+    "redhat-developer/app-services-api-guidelines"
   ]
 }

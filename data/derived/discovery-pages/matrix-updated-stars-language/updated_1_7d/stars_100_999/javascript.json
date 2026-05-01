@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 598,
-    "concepts": 137,
-    "observations": 139,
-    "repos": 28,
-    "terms": 135
+    "components": 667,
+    "concepts": 155,
+    "observations": 157,
+    "repos": 33,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "auth0/node-jwks-rsa",
@@ -20,11 +20,15 @@
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "Brooooooklyn/snappy",
+    "browserslist/caniuse-lite",
     "chrisgoringe/cg-image-filter",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
     "csstools/cssdb",
+    "digitalocean/openapi",
     "electerm/electerm-web",
+    "GordonChen19/Prompt-Relay",
+    "hudochenkov/postcss-sorting",
     "i18next/i18next-http-middleware",
     "j9t/html-minifier-next",
     "kriszyp/msgpackr",
@@ -40,6 +44,7 @@
     "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
+    "vllm-project/recipes",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata"
   ]

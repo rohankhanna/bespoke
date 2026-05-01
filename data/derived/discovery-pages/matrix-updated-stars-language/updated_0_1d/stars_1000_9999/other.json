@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 224,
-    "observations": 227,
-    "repos": 20,
-    "terms": 224
+    "components": 330,
+    "concepts": 247,
+    "observations": 250,
+    "repos": 23,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
-    "apollographql/apollo-kotlin",
+    "activeadmin/activeadmin",
+    "all-contributors/allcontributors.org",
     "clj-kondo/clj-kondo",
-    "com-lihaoyi/mill",
-    "confluentinc/confluent-kafka-go",
+    "dart-lang/pub",
     "detekt/detekt",
     "dotnet/Silk.NET",
-    "facebook/pyre-check",
-    "google/ksp",
-    "intel/llvm",
-    "klauspost/reedsolomon",
+    "elixir-ecto/ecto",
+    "firebase/flutterfire",
+    "JetBrains/intellij-platform-gradle-plugin",
     "kurrent-io/KurrentDB",
     "lobsters/lobsters",
+    "mdn/translated-content",
     "microsoft/aspire",
+    "nvim-neotest/neotest",
     "ocaml/dune",
+    "ocaml/merlin",
     "okd-project/okd",
-    "openwrt/packages",
     "psmux/psmux",
     "Shopify/ruby-lsp",
     "swiftlang/llvm-project",
-    "web-platform-tests/wpt"
+    "web-platform-tests/wpt",
+    "WebAssembly/wasi-sdk",
+    "webpack/webpack.js.org"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2128,
-    "concepts": 393,
-    "observations": 394,
-    "repos": 44,
-    "terms": 389
+    "components": 2838,
+    "concepts": 476,
+    "observations": 477,
+    "repos": 59,
+    "terms": 472
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-01T10:43:36.497216+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
+    "amilajack/eslint-plugin-compat",
     "apollographql/apollo-tooling",
     "ardatan/graphql-tools",
+    "argdown/argdown",
     "artsy/eigen",
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
@@ -25,9 +27,13 @@
     "BetterThanTomorrow/calva",
     "Binaryify/OneDark-Pro",
     "Chevrotain/chevrotain",
+    "Comcast/react-data-grid",
+    "conventional-changelog/conventional-changelog",
     "dbeaver/cloudbeaver",
+    "dotnet/vscode-csharp",
     "ecyrbe/zodios",
     "ggml-org/llama.vscode",
+    "graphql/graphql-playground",
     "handsontable/hyperformula",
     "huggingface/huggingface.js",
     "IgnisDa/ryot",
@@ -35,12 +41,15 @@
     "JamesIves/github-pages-deploy-action",
     "jest-community/eslint-plugin-jest",
     "julia-vscode/julia-vscode",
+    "mdn/yari",
     "microsoft/vscode-python",
     "MiniMax-AI/cli",
     "modelcontextprotocol/inspector",
+    "nanostores/nanostores",
     "nodejs/corepack",
     "openai/openai-agents-js",
     "posit-dev/positron",
+    "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
     "Redocly/redocly-cli",
     "retorquere/zotero-better-bibtex",
@@ -49,14 +58,20 @@
     "sparkjsdev/spark",
     "standard/eslint-config-standard",
     "stoplightio/spectral",
+    "swc-project/swc-node",
+    "TanStack/form",
     "thomasloven/hass-browser_mod",
     "tinylibs/tinybench",
+    "ts-safeql/safeql",
     "typescript-language-server/typescript-language-server",
     "unjs/changelogen",
     "unjs/ofetch",
+    "unjs/ufo",
     "Urigo/graphql-cli",
+    "VOICEVOX/voicevox",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",
-    "web-infra-dev/rspress"
+    "web-infra-dev/rspress",
+    "zsviczian/obsidian-excalidraw-plugin"
   ]
 }
